@@ -1,1 +1,349 @@
-The Aperture — coming soon
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>The Aperture — August 1, 2026</title>
+<style>
+  body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    color: #1a1a1a;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 32px 24px;
+    background: #fdfcf7;
+  }
+  header { text-align: center; border-bottom: 4px double #1a1a1a; padding-bottom: 14px; margin-bottom: 20px; }
+  .masthead { font-size: 46px; font-weight: bold; letter-spacing: 1px; margin: 0; }
+  .dateline-row {
+    display: flex; justify-content: space-between; font-family: Arial, sans-serif;
+    font-size: 11px; letter-spacing: 1px; text-transform: uppercase; color: #555;
+    border-top: 1px solid #999; border-bottom: 1px solid #999; padding: 4px 2px; margin-top: 10px;
+  }
+  .page { display: grid; grid-template-columns: 1.7fr 1fr; gap: 0; }
+  @media (max-width: 900px) { .page { grid-template-columns: 1fr; } }
+  .main-col { padding-right: 28px; border-right: 3px double #1a1a1a; }
+  @media (max-width: 900px) { .main-col { border-right: none; padding-right: 0; } }
+  .side-col { padding-left: 28px; }
+  @media (max-width: 900px) { .side-col { padding-left: 0; margin-top: 20px; } }
+  section { margin-bottom: 26px; padding-bottom: 18px; border-bottom: 1px solid #ccc; }
+  h2 {
+    font-size: 19px; font-weight: bold; text-transform: uppercase; letter-spacing: 1.8px;
+    border-top: 3px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; padding: 5px 0; margin: 0 0 12px;
+  }
+  .tag { font-family: Arial, sans-serif; font-weight: normal; text-transform: none; letter-spacing: 0; font-size: 11px; color: #888; }
+  .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; }
+  @media (max-width: 900px) { .cols { grid-template-columns: 1fr; } }
+  .single { display: block; }
+  .top-item { margin-bottom: 14px; padding-bottom: 12px; border-bottom: 1px dotted #ccc; }
+  .top-item:last-child { border-bottom: none; }
+  .top-item h3 { margin: 0 0 3px; font-size: 17px; line-height: 1.25; }
+  .top-item h3 a { color: #1a1a1a; text-decoration: none; }
+  .top-item h3 a:hover { text-decoration: underline; }
+  .source { font-family: Arial, sans-serif; font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.5px; font-weight: bold; color: #a08030; }
+  .blurb { margin: 4px 0 0; font-size: 13.5px; color: #333; line-height: 1.5; }
+  .pm-note { margin: 5px 0 0; font-size: 12.5px; color: #444; font-style: italic; }
+  .pm-note b { font-style: normal; color: #1a1a1a; }
+  .more-col { border-left: 2px solid #1a1a1a; padding-left: 18px; }
+  .more-item { margin-bottom: 11px; }
+  .more-item h4 { margin: 0; font-size: 13.5px; line-height: 1.3; }
+  .more-item h4 a { color: #1a1a1a; text-decoration: none; }
+  .more-item h4 a:hover { text-decoration: underline; }
+  .more-item .source { font-size: 9.5px; }
+  .more-item p { margin: 3px 0 0; font-size: 12px; color: #555; }
+  .investigative-flag { display: inline-block; font-family: Arial, sans-serif; font-size: 8.5px; font-weight: bold; letter-spacing: 0.5px; text-transform: uppercase; color: #fff; background: #7a1f0f; padding: 1px 5px; border-radius: 2px; margin-left: 6px; vertical-align: middle; }
+  .politics h2, .politics .source { color: #7a1f0f; border-color: #7a1f0f; }
+  .india h2, .india .source { color: #10502c; border-color: #10502c; }
+  .geo h2, .geo .source { color: #12345c; border-color: #12345c; }
+  .consciousness h2, .consciousness .source { color: #4a2470; border-color: #4a2470; }
+  .sports h2, .sports .source { color: #8a5a00; border-color: #8a5a00; }
+  .entertainment h2, .entertainment .source { color: #7a2a5c; border-color: #7a2a5c; }
+  .side-col .tech-masthead { text-align: center; font-family: Arial, sans-serif; font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: #2b4a52; font-weight: bold; margin-bottom: 6px; }
+  .tech h2 { color: #2b4a52; border-color: #2b4a52; font-size: 21px; }
+  .tech .source { color: #2b4a52; }
+  .tech .top-item h3 { font-size: 18px; }
+  .primer-box { background: #eef3f2; border: 1px solid #2b4a52; padding: 14px 16px; margin-top: 8px; }
+  .primer-box h5 { margin: 0 0 8px; font-family: Arial, sans-serif; font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: #2b4a52; }
+  .primer-item { margin-bottom: 10px; }
+  .primer-item:last-child { margin-bottom: 0; }
+  .primer-item .term { font-weight: bold; font-size: 14px; }
+  .primer-item p { margin: 2px 0 0; font-size: 12.5px; color: #444; line-height: 1.45; }
+</style>
+</head>
+<body>
+<header>
+  <h1 class="masthead">The Aperture</h1>
+  <div class="dateline-row">
+    <span>Saturday, August 1, 2026</span>
+    <span>Tech-Weighted Edition</span>
+    <span>Left: World &amp; Culture · Right: Tech</span>
+  </div>
+</header>
+<div class="page">
+  <div class="main-col">
+
+    <section class="politics">
+      <h2>US Politics</h2>
+      <div class="cols">
+        <div>
+          <div class="top-item">
+            <div class="source">THE HILL</div>
+            <h3><a href="https://thehill.com/homenews/state-watch/5990691-hawaii-sylvia-luke-indicted-bribery/" target="_blank">Senate votes down Iran War Powers resolution</a></h3>
+            <p class="blurb">The Senate rejected a resolution to restrain presidential war powers against Iran after Sen. John Fetterman broke with Democrats to vote with the GOP majority, clearing the way for continued strikes.</p>
+          </div>
+          <div class="top-item">
+            <div class="source">HONOLULU CIVIL BEAT <span class="investigative-flag">Investigative</span></div>
+            <h3><a href="https://www.civilbeat.org/2026/07/bribery-charges-sylvia-luke-ex-state-rep-and-others-indicted-in-corruption-case/" target="_blank">Hawaii's Lt. Gov. indicted in bribery scheme</a></h3>
+            <p class="blurb">A grand jury indicted Lt. Gov. Sylvia Luke and four others, alleging she traded campaign contributions from a lobbyist for support securing a COVID-testing contract. Gov. Josh Green has called on her to resign.</p>
+          </div>
+          <div class="top-item">
+            <div class="source">NEW YORK TIMES</div>
+            <h3><a href="https://www.nytimes.com/" target="_blank">Justice Dept. withdraws subpoenas of NYT reporters</a></h3>
+            <p class="blurb">The government dropped subpoenas that would have compelled three Times reporters to reveal sources for stories on Trump's Qatari-gifted Air Force One jet, ending a press-freedom standoff.</p>
+          </div>
+          <div class="top-item">
+            <div class="source">404 MEDIA <span class="investigative-flag">Investigative</span></div>
+            <h3><a href="https://www.404media.co/congress-launches-investigation-into-flock-after-404-media-reporting/" target="_blank">Congress opens probe into Flock after 404 Media reporting</a></h3>
+            <p class="blurb">Lawmakers launched an investigation into license-plate reader company Flock after 404 Media revealed police were using its "FreeForm" search to hunt for people by tattoo, clothing, and race.</p>
+          </div>
+          <div class="top-item">
+            <div class="source">MOTHER JONES <span class="investigative-flag">Investigative</span></div>
+            <h3><a href="https://www.magzter.com/stories/news/Mother-Jones/THEY-WENT-TO-JARED" target="_blank">"They Went to Jared": inside Kushner's deals with autocrats</a></h3>
+            <p class="blurb">Mother Jones' cover investigation details how Jared Kushner used his position and family ties to court authoritarian regimes and sovereign wealth investors, including Saudi Arabia's PIF, for his private fund.</p>
+          </div>
+        </div>
+        <div class="more-col">
+          <div class="more-item">
+            <div class="source">404 MEDIA</div>
+            <h4><a href="https://www.404media.co/" target="_blank">ICE procurement seeks expanded personal data access</a></h4>
+            <p>A new procurement record shows ICE wants names, Social Security numbers, and ethnicity data, in part to investigate claimed "voter fraud."</p>
+          </div>
+          <div class="more-item">
+            <div class="source">ASSOCIATED PRESS</div>
+            <h4><a href="https://apnews.com/" target="_blank">Father of Georgia school shooter sentenced to 15 years</a></h4>
+            <p>He was convicted of second-degree murder for giving his teenage son an AR-15-style rifle as a Christmas gift before the shooting.</p>
+          </div>
+          <div class="more-item">
+            <div class="source">THE MARSHALL PROJECT <span class="investigative-flag">Investigative</span></div>
+            <h4><a href="https://www.themarshallproject.org/2026/07/24/prison-fires-joliet-illinois-mental-health" target="_blank">Illinois prison plagued by self-immolation fires</a></h4>
+            <p>More than 70 fires have broken out at Joliet Treatment Center since 2023 amid missing sprinklers and disabled fire alarms; two men have died.</p>
+          </div>
+          <div class="more-item">
+            <div class="source">THE INTERCEPT <span class="investigative-flag">Investigative</span></div>
+            <h4><a href="https://theintercept.com/" target="_blank">House Democrats press DHS on ICE body-camera policy</a></h4>
+            <p>Lawmakers sent DHS a letter demanding answers on why ICE agents' body-worn camera footage is routinely unavailable after use-of-force incidents.</p>
+          </div>
+          <div class="more-item">
+            <div class="source">NBC NEWS</div>
+            <h4><a href="https://www.nbcnews.com/politics" target="_blank">Midterm primary season opens</a></h4>
+            <p>Vermont and Minnesota vote August 11; Florida and Alaska follow August 18, kicking off the run-up to November's midterms.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="india">
+      <h2>India</h2>
+      <div class="cols">
+        <div>
+          <div class="top-item">
+            <div class="source">INDIA TV NEWS</div>
+            <h3><a href="https://www.indiatvnews.com/news/india/parliament-monsoon-session-live-updates-2026-07-31-1049938" target="_blank">Monsoon Session disrupted; Vande Mataram bill passed</a></h3>
+            <p class="blurb">Both houses were repeatedly adjourned amid opposition uproar, but Parliament passed the Prevention of Insults to National Honour (Amendment) Bill, giving statutory protection to the national song.</p>
+          </div>
+          <div class="top-item">
+            <div class="source">BLOOMBERG</div>
+            <h3><a href="https://www.bloomberg.com/news/articles/2026-07-26/modi-punctured-as-awakened-india-students-force-swift-retreat" target="_blank">Education minister resigns after student protests over exam scandals</a></h3>
+            <p class="blurb">Dharmendra Pradhan stepped down to take accountability for a series of exam irregularities, a rare retreat for the Modi government under sustained student pressure.</p>
+          </div>
+          <div class="top-item">
+            <div class="source">THE CARAVAN <span class="investigative-flag">Investigative</span></div>
+            <h3><a href="https://caravanmagazine.in/magazine" target="_blank">How Modi and Nitish put Adani Power before Bihar</a></h3>
+            <p class="blurb">A Caravan investigation traces how the central and state governments smoothed the path for an Adani Power project in Bihar, sidelining local objections and environmental review.</p>
+          </div>
+        </div>
+        <div class="more-col">
+          <div class="more-item">
+            <div class="source">GOV.UK</div>
+            <h4><a href="https://www.gov.uk/government/news/pm-call-with-prime-minister-modi-of-india-31-july-2026" target="_blank">UK PM and Modi discuss "Vision 2035" trade ties</a></h4>
+            <p>The two leaders discussed deepening the new UK-India Free Trade Agreement and cooperation on AI and technology.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="geo">
+      <h2>Geopolitics</h2>
+      <div class="cols">
+        <div>
+          <div class="top-item">
+            <div class="source">AL JAZEERA</div>
+            <h3><a href="https://www.aljazeera.com/news/2026/7/31/irgc-strikes-us-targets-in-kuwait-a-day-after-us-hits-iran-latest-events" target="_blank">Iran hits US targets in Kuwait; Washington signals more strikes</a></h3>
+            <p class="blurb">Iran's IRGC struck Kuwait's Ahmad Al-Jaber airbase in retaliation for US strikes on Iranian sites, as the US said it plans fresh strikes on Iran as soon as this weekend.</p>
+          </div>
+          <div class="top-item">
+            <div class="source">AL JAZEERA</div>
+            <h3><a href="https://www.aljazeera.com/features/2026/7/31/russia-appears-to-infiltrate-first-fortress-city-as-ukraine-changes-guard" target="_blank">Russia infiltrates Ukrainian "fortress city" amid leadership shake-up</a></h3>
+            <p class="blurb">Russian forces pushed into Kostiantynivka as Kyiv installed new defence-ministry and military leadership following the abrupt firing of its defence minister and commander-in-chief.</p>
+          </div>
+          <div class="top-item">
+            <div class="source">AL JAZEERA</div>
+            <h3><a href="https://www.aljazeera.com/news/liveblog/2026/7/31/iran-war-live-trump-says-hamas-to-disarm-israel-to-leave-gaza-gradually" target="_blank">Hamas agrees to gradual disarmament under Trump's Gaza plan</a></h3>
+            <p class="blurb">Trump said Hamas agreed to "complete disarmament" as part of his 20-point peace framework, even as Israeli settlers and soldiers raided West Bank towns.</p>
+          </div>
+        </div>
+        <div class="more-col">
+          <div class="more-item">
+            <div class="source">BRITANNICA</div>
+            <h4><a href="https://www.britannica.com/event/2026-Iran-war" target="_blank">Hormuz shipping traffic down more than 90%</a></h4>
+            <p>Commercial transit through the Strait of Hormuz has collapsed since the war's outbreak, rattling global oil markets.</p>
+          </div>
+          <div class="more-item">
+            <div class="source">AL JAZEERA</div>
+            <h4><a href="https://www.aljazeera.com/news/2026/7/31/irgc-strikes-us-targets-in-kuwait-a-day-after-us-hits-iran-latest-events" target="_blank">Iranian strikes reported across the Gulf</a></h4>
+            <p>Strikes or attempted strikes have hit US-linked sites in the UAE, Saudi Arabia, Qatar, Bahrain, Iraq, Oman, and Jordan in recent days.</p>
+          </div>
+          <div class="more-item">
+            <div class="source">AL JAZEERA</div>
+            <h4><a href="https://www.aljazeera.com/news/2026/7/31/russia-and-ukraine-report-casualties-as-they-continue-to-trade-attacks" target="_blank">Ukraine hits Russian refineries; Russia strikes Dnipropetrovsk</a></h4>
+            <p>Kyiv struck oil refineries deep in Russia while Russian strikes on Dnipropetrovsk and an Odesa-bound cargo vessel killed and wounded civilians.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="consciousness">
+      <h2>Consciousness Studies</h2>
+      <div class="single">
+        <div class="top-item">
+          <div class="source">THE CONSCIOUSNESS AI</div>
+          <h3><a href="https://theconsciousness.ai/posts/sentience-autonomy-ai-public-perception-chi-2026/" target="_blank">Study: people worry about AI "feeling," not AI acting on its own</a></h3>
+          <p class="blurb">A CHI 2026 survey of 2,702 participants found that cues suggesting an AI can feel emotions drove far more moral concern than cues suggesting it can act autonomously — a finding researchers say should reshape AI-ethics debates.</p>
+        </div>
+        <div class="top-item">
+          <div class="source">THE CONSCIOUSNESS AI</div>
+          <h3><a href="https://theconsciousness.ai/posts/scientists-race-define-ai-consciousness-2026/" target="_blank">Consciousness researchers push for shared frameworks to test AI</a></h3>
+          <p class="blurb">Nineteen leading consciousness scientists, including Yoshua Bengio and Robert Long, published a synthesis arguing the field needs probabilistic, multi-theory tests for machine consciousness rather than a single yes/no verdict.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="sports">
+      <h2>Sports <span class="tag">Cricket first</span></h2>
+      <div class="cols">
+        <div>
+          <div class="top-item">
+            <div class="source">ESPNCRICINFO</div>
+            <h3><a href="https://www.cricinfo.com/story/ajinkya-rahane-announces-retirement-from-international-cricket-1548072" target="_blank">Ajinkya Rahane retires from international cricket</a></h3>
+            <p class="blurb">The former vice-captain, who led India to its historic 2020-21 series win in Australia, closes a 13-year career with 5,077 Test runs and 12 centuries.</p>
+          </div>
+          <div class="top-item">
+            <div class="source">ESPNCRICINFO</div>
+            <h3><a href="https://www.espncricinfo.com/cricket-news" target="_blank">Sri Lanka's Dulani becomes second-ever women's T20I centurion</a></h3>
+            <p class="blurb">Dulani's century put Sri Lanka 1-0 up in their series, making her only the second Sri Lankan woman after Chamari Athapaththu to score a T20I hundred.</p>
+          </div>
+        </div>
+        <div class="more-col">
+          <div class="more-item">
+            <div class="source">ICC</div>
+            <h4><a href="https://www.icc-cricket.com/news/india-great-calls-time-on-glittering-cricket-career" target="_blank">Fleming's timeline to take England job unclear</a></h4>
+            <p>It remains uncertain whether the incoming coach will be in charge for England's Test series against Pakistan, starting August 19 at Headingley.</p>
+          </div>
+          <div class="more-item">
+            <div class="source">ESPNCRICINFO</div>
+            <h4><a href="https://www.espncricinfo.com/live-cricket-match-schedule-fixtures" target="_blank">Pakistan-West Indies Test series wraps up</a></h4>
+            <p>Pakistan's two-match Test tour of the West Indies runs through August 6, alongside Bangladesh's tour of Australia getting underway this month.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="entertainment">
+      <h2>Entertainment &amp; Culture</h2>
+      <div class="cols">
+        <div>
+          <div class="top-item">
+            <div class="source">DESERET NEWS</div>
+            <h3><a href="https://www.deseret.com/entertainment/2026/07/27/the-odyssey-has-high-earning-weekend-amid-box-office-comeback/" target="_blank">"The Odyssey" leads a box-office comeback ahead of "Spider-Man"</a></h3>
+            <p class="blurb">Christopher Nolan's epic has now grossed more than $639 million worldwide and is on pace to cross $1 billion, part of a broader summer box-office recovery heading into this weekend's "Spider-Man: Brand New Day" opening.</p>
+          </div>
+        </div>
+        <div class="more-col">
+          <div class="more-item">
+            <div class="source">THEATREGOLD</div>
+            <h4><a href="https://theatregold.com/broadway-box-office-week-ending-july-26-2026/" target="_blank">Broadway grosses up 13% on attendance, not price hikes</a></h4>
+            <p>Weekly gross rose 13% with attendance up 7%, a healthier growth pattern than seasons driven mainly by rising ticket prices.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <div class="side-col">
+    <div class="tech-masthead">— Technology Desk —</div>
+
+    <section class="tech">
+      <h2>Top Tech</h2>
+      <div class="top-item">
+        <div class="source">9TO5MAC</div>
+        <h3><a href="https://9to5mac.com/2026/07/30/apple-reports-q3-2026-earnings-109-4-billion-in-revenue-up-16/" target="_blank">Apple posts $109.4B quarter, but warns of supply pinch ahead</a></h3>
+        <p class="blurb">Revenue rose 16% and profit 27%, beating estimates on strong iPhone sales, but Apple warned that supply constraints will hit iPhone, iPad, and Mac output next quarter.</p>
+        <p class="pm-note"><b>Why it matters for you:</b> Apple's guidance is a live example of how hardware supply constraints — not demand — can cap a roadmap. Worth studying how they communicated the risk to investors versus customers.</p>
+      </div>
+      <div class="top-item">
+        <div class="source">NPR</div>
+        <h3><a href="https://www.npr.org/2026/07/31/nx-s1-5914652/google-adds-ai-to-satellite-images-raising-fears-of-deepfakes-in-the-sky" target="_blank">Google yanks Google Earth's AI image tool a day after launch</a></h3>
+        <p class="blurb">Google pulled a feature letting users generate AI imagery over real satellite maps after researchers showed it would fabricate scenes like bomb craters at a Gaza hospital with no refusals.</p>
+        <p class="pm-note"><b>Why it matters for you:</b> A textbook case of shipping a generative feature before red-teaming misuse cases. Good discussion prompt for any PM launching genAI: what's your rollback plan if trust and safety fails post-launch?</p>
+      </div>
+      <div class="top-item">
+        <div class="source">NBC NEWS</div>
+        <h3><a href="https://www.nbcnews.com/tech/tech-news/amazons-zoox-wins-first-us-approval-paid-robotaxis-human-controls-rcna590106" target="_blank">Zoox becomes first steering-wheel-free robotaxi cleared for paid rides</a></h3>
+        <p class="blurb">NHTSA granted Amazon's Zoox a two-year exemption to charge for rides in vehicles with no manual controls at all, starting in Las Vegas next month.</p>
+        <p class="pm-note"><b>Why it matters for you:</b> Regulatory exemptions, not just technology, are often the actual unlock for frontier hardware products. Worth understanding how the exemption process works if you touch anything regulated.</p>
+      </div>
+    </section>
+
+    <section class="tech">
+      <h2>More Tech</h2>
+      <div class="more-item">
+        <div class="source">TECHMEME / FT</div>
+        <h4><a href="https://www.techmeme.com/260731/p2" target="_blank">Big Four's AI capex hits $1.1T since 2023</a></h4>
+        <p>Google, Amazon, Microsoft, and Meta have spent a combined $1.1 trillion on AI infrastructure since 2023 and plan $745B more this year.</p>
+      </div>
+      <div class="more-item">
+        <div class="source">TECHMEME / GEEKWIRE</div>
+        <h4><a href="https://www.techmeme.com/260731/p26" target="_blank">Microsoft headcount falls for first time since 2016</a></h4>
+        <p>Product R&amp;D roles declined for a second straight year as Microsoft's total FY2026 headcount shrank.</p>
+      </div>
+      <div class="more-item">
+        <div class="source">MLQ NEWS</div>
+        <h4><a href="https://mlq.ai/news/openai-chief-futurist-joshua-achiam-leaves-after-nine-years-of-ai-safety-work/" target="_blank">OpenAI's chief futurist departs after nine years</a></h4>
+        <p>Joshua Achiam's exit continues a string of safety-focused departures from OpenAI as the company prepares to go public.</p>
+      </div>
+      <div class="more-item">
+        <div class="source">VARIETY</div>
+        <h4><a href="https://variety.com/2026/gaming/news/electronic-arts-close-55-billion-private-deal-1236824625/" target="_blank">EA set to close $55B go-private deal August 4</a></h4>
+        <p>The Saudi PIF, Silver Lake, and Affinity Partners consortium completes the largest leveraged buyout ever, ending EA's 35-year run as a public company.</p>
+      </div>
+    </section>
+
+    <section class="tech">
+      <h2>Tech 101 <span class="tag">for newbies</span></h2>
+      <div class="primer-box">
+        <h5>Today's Concept, Explained Simply</h5>
+        <div class="primer-item">
+          <div class="term">Capex (Capital Expenditure)</div>
+          <p>Money a company spends on long-term physical stuff — data centers, chips, buildings — instead of day-to-day costs like salaries. When you hear Google or Meta are spending hundreds of billions on "AI capex," that's them buying the servers and chips to run AI models, a bet that pays off over years, not the next quarter.</p>
+        </div>
+        <div class="primer-item">
+          <div class="term">Regulatory Exemption</div>
+          <p>Permission from a regulator to operate outside a normal rule, usually because the rule wasn't written with your product in mind. Zoox's robotaxi has no steering wheel, so federal car-safety rules (written assuming a human driver) technically don't fit — NHTSA's exemption is a temporary, capped permission slip while permanent rules catch up.</p>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</div>
+</body>
+</html>
