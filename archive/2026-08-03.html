@@ -31,6 +31,17 @@
     font-family: Arial, sans-serif; font-size: 11px; color: #555; border: 1px solid #999;
     background: #fdfcf7; padding: 1px 4px; letter-spacing: normal; text-transform: none;
   }
+  .notif-row {
+    text-align: center; font-family: Arial, sans-serif; font-size: 10.5px; color: #777;
+    letter-spacing: 0.5px; margin-top: 6px;
+  }
+  .notif-btn {
+    font-family: Arial, sans-serif; font-size: 10.5px; letter-spacing: 0.5px; color: #053b5d;
+    background: #fdfcf7; border: 1px solid #999; padding: 3px 9px; border-radius: 3px; cursor: pointer;
+  }
+  .notif-btn:hover { background: #eef3f2; }
+  .notif-status { margin-top: 6px; }
+  .notif-status textarea { font-family: monospace; }
   .page { display: grid; grid-template-columns: 1.7fr 1fr; gap: 0; }
   @media (max-width: 900px) { .page { grid-template-columns: 1fr; } }
   .main-col { padding-right: 28px; border-right: 3px double #1a1a1a; }
@@ -97,6 +108,10 @@
     <span>Monday, August 3, 2026</span>
     <span>Curated Edition of Select Stories</span>
     <span class="archive-nav">Browse editions: <input type="date" id="archive-date" min="2026-08-01" max="2026-08-03" value="2026-08-03" onchange="if(this.value) location.href = this.value + '.html'"></span>
+  </div>
+  <div class="notif-row">
+    <button id="notif-btn" class="notif-btn">🔔 Enable notifications for new editions</button>
+    <div id="notif-status" class="notif-status"></div>
   </div>
 </header>
 <div class="page">
@@ -409,5 +424,59 @@
 
   </div>
 </div>
+<script>
+(function() {
+  var VAPID_PUBLIC_KEY = "BGVMl7Y55RLEM1nA72eYYgds77eVi5LMhQkXVBje4sbPW0MzIFinexBe0v4Rd_xlUoBG6OH2C2S0_mI5LNO0X2g";
+
+  function urlBase64ToUint8Array(base64String) {
+    var padding = '='.repeat((4 - base64String.length % 4) % 4);
+    var base64 = (base64String + padding).replace(/-/g, '+').replace(/_/g, '/');
+    var rawData = window.atob(base64);
+    var outputArray = new Uint8Array(rawData.length);
+    for (var i = 0; i < rawData.length; ++i) {
+      outputArray[i] = rawData.charCodeAt(i);
+    }
+    return outputArray;
+  }
+
+  var btn = document.getElementById('notif-btn');
+  var status = document.getElementById('notif-status');
+
+  if (!('serviceWorker' in navigator) || !('PushManager' in window)) {
+    if (btn) {
+      btn.textContent = 'Notifications need this page opened from your home screen icon';
+      btn.disabled = true;
+    }
+    return;
+  }
+
+  navigator.serviceWorker.register('/sw.js').catch(function(err) {
+    console.error('SW registration failed', err);
+  });
+
+  if (btn) {
+    btn.addEventListener('click', function() {
+      status.textContent = 'Requesting permission…';
+      navigator.serviceWorker.ready.then(function(reg) {
+        return reg.pushManager.getSubscription().then(function(existing) {
+          if (existing) return existing;
+          return reg.pushManager.subscribe({
+            userVisibleOnly: true,
+            applicationServerKey: urlBase64ToUint8Array(VAPID_PUBLIC_KEY)
+          });
+        });
+      }).then(function(sub) {
+        var json = JSON.stringify(sub.toJSON(), null, 2);
+        status.innerHTML = '<p>Notifications enabled on this device. Copy the code below and send it back so it can be saved:</p>' +
+          '<textarea readonly style="width:100%;height:130px;font-size:10px;" onclick="this.select()">' + json + '</textarea>';
+        btn.textContent = '🔔 Notifications enabled';
+        btn.disabled = true;
+      }).catch(function(err) {
+        status.textContent = 'Could not enable notifications: ' + err.message;
+      });
+    });
+  }
+})();
+</script>
 </body>
 </html>
