@@ -1,0 +1,63 @@
+name: Send push notification
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Check subscription exists
+        id: check
+        run: |
+          if [ -f subscription.json ]; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+            echo "No subscription.json in repo yet — skipping push (nothing to notify)."
+          fi
+
+      - name: Set up Python
+        if: steps.check.outputs.exists == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install pywebpush
+        if: steps.check.outputs.exists == 'true'
+        run: pip install pywebpush
+
+      - name: Send push notification
+        if: steps.check.outputs.exists == 'true'
+        env:
+          VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
+        run: |
+          python3 - << 'EOF'
+          import json, os
+          from pywebpush import webpush, WebPushException
+
+          with open('subscription.json') as f:
+              sub = json.load(f)
+
+          try:
+              webpush(
+                  subscription_info=sub,
+                  data=json.dumps({
+                      "title": "The Aperture is live",
+                      "body": "Today's edition just published.",
+                      "url": "https://aperture.grumpyiyer.com/"
+                  }),
+                  vapid_private_key=os.environ["VAPID_PRIVATE_KEY"],
+                  vapid_claims={"sub": "mailto:ganges.bhardwaj@gmail.com"}
+              )
+              print("Push sent successfully.")
+          except WebPushException as ex:
+              print("Push failed:", repr(ex))
+              if ex.response is not None:
+                  print("Response body:", ex.response.text)
+              raise
+          EOF
