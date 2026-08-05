@@ -12,7 +12,9 @@
     padding: 32px 24px;
     background: #fdfcf7;
   }
-  header { text-align: center; border-bottom: 4px double #1a1a1a; padding-bottom: 14px; margin-bottom: 20px; }
+  header { text-align: center; border-bottom: 4px double #1a1a1a; padding-bottom: 14px; margin-bottom: 20px; position: relative; }
+  .header-logo { position: absolute; top: 0; left: 0; width: 60px; height: 60px; object-fit: contain; }
+  @media (max-width: 520px) { .header-logo { width: 40px; height: 40px; } }
   .masthead { font-size: 46px; font-weight: bold; letter-spacing: 1px; margin: 0; }
   .dateline-row {
     display: flex; justify-content: space-between; font-family: Arial, sans-serif;
@@ -72,22 +74,23 @@
   .primer-item:last-child { margin-bottom: 0; }
   .primer-item .term { font-weight: bold; font-size: 14px; }
   .primer-item p { margin: 2px 0 0; font-size: 12.5px; color: #444; line-height: 1.45; }
-  .arpita h2 { color: #9c3d5c; border-color: #9c3d5c; }
-  .arpita .source { color: #9c3d5c; }
-  .arpita-sub { font-family: Arial, sans-serif; font-size: 10px; letter-spacing: 1px; text-transform: uppercase; color: #9c3d5c; font-weight: bold; margin: 12px 0 6px; }
-  .arpita-item { display: flex; gap: 10px; margin-bottom: 12px; align-items: flex-start; }
-  .arpita-item img { width: 64px; height: 64px; object-fit: cover; border-radius: 3px; flex-shrink: 0; }
-  .arpita-item .arpita-text h4 { margin: 0; font-size: 13.5px; line-height: 1.3; }
-  .arpita-item .arpita-text h4 a { color: #1a1a1a; text-decoration: none; }
-  .arpita-item .arpita-text p { margin: 3px 0 0; font-size: 12px; color: #555; }
+  .apu-corner { margin-top: 18px; padding-top: 14px; border-top: 1px dashed #9c3d5c; }
+  .apu-corner-heading { font-family: Arial, sans-serif; font-size: 13px; font-weight: bold; letter-spacing: 1.5px; text-transform: uppercase; color: #9c3d5c; margin-bottom: 8px; }
+  .apu-sub { font-family: Arial, sans-serif; font-size: 10px; letter-spacing: 1px; text-transform: uppercase; color: #9c3d5c; font-weight: bold; margin: 12px 0 6px; }
+  .apu-item { display: flex; gap: 10px; margin-bottom: 12px; align-items: flex-start; }
+  .apu-item img { width: 64px; height: 64px; object-fit: cover; border-radius: 3px; flex-shrink: 0; }
+  .apu-item .apu-text h4 { margin: 0; font-size: 13.5px; line-height: 1.3; }
+  .apu-item .apu-text h4 a { color: #1a1a1a; text-decoration: none; }
+  .apu-item .apu-text p { margin: 3px 0 0; font-size: 12px; color: #555; }
 </style>
 </head>
 <body>
 <header>
+  <img class="header-logo" src="../icons/icon-192.png" alt="Grumpy Iyer logo">
   <h1 class="masthead">The Aperture</h1>
   <div class="dateline-row">
     <span>Tuesday, August 4, 2026</span>
-    <span>Curated Edition of Select Stories</span>
+    <span>Edifying Eddies</span>
     <span class="archive-nav">Browse editions: <input type="date" id="archive-date" min="2026-08-01" max="2026-08-04" value="2026-08-04" onchange="if(this.value) location.href = '' + this.value + '.html'"></span>
   </div>
 </header>
@@ -148,23 +151,21 @@
           </div>
         </div>
       </div>
-    </section>
 
-    <section class="arpita">
-      <h2>Arpita's Picks</h2>
-      <div class="single">
-        <div class="arpita-sub">Bengal</div>
-        <div class="arpita-item">
-          <div class="arpita-text">
-            <div class="source">THEPRINT / PTI</div>
-            <h4><a href="https://theprint.in/india/kolkatas-iconic-durga-pujas-intensify-preparations-amid-change-in-leadership-in-committees/3003465/" target="_blank">Kolkata's iconic Durga Pujas intensify preparations amid change in committee leadership</a></h4>
-            <p>With the festival two and a half months out, several of Kolkata's marquee Durga Puja committees — including Sreebhumi Sporting Club and Suruchi Sangha — have seen BJP leaders take over patronage roles once held by TMC politicians, in the first Puja season since the party's defeat in the Assembly polls.</p>
+      <div class="apu-corner">
+        <div class="apu-corner-heading">Apu's Corner</div>
+        <div class="apu-sub">Bengal</div>
+        <div class="apu-item">
+          <div class="apu-text">
+            <div class="source">THE FEDERAL</div>
+            <h4><a href="https://thefederal.com/category/states/east/west-bengal/durga-puja-politics-bjp-faces-test-in-dismantling-tmcs-festival-grip-244751" target="_blank">Durga Puja politics: BJP faces test in dismantling TMC's festival grip</a></h4>
+            <p>Reporter Samir K Purkayastha traces how Kolkata's marquee puja committees — Sreebhumi, Chetla Agrani, Suruchi Sangha — are quietly realigning toward the new BJP government, with organisers now anxious over whether the Rs 1.10 lakh state grants and utility rebates Mamata Banerjee's administration gave 45,000-plus committees will survive the change in power.</p>
           </div>
         </div>
-        <div class="arpita-sub">Travel</div>
-        <div class="arpita-item">
+        <div class="apu-sub">Travel</div>
+        <div class="apu-item">
           <img src="https://d2vbr83hnyiux1.cloudfront.net/image/975050285728/image_fpd0m3ivo15ibdj5flbsessg4u/-FWEBP-Ro:5,w:1200,h:630,n:default" alt="">
-          <div class="arpita-text">
+          <div class="apu-text">
             <div class="source">LONELY PLANET</div>
             <h4><a href="https://www.lonelyplanet.com/articles/where-to-go-in-august" target="_blank">The 11 best places to go in August</a></h4>
             <p>Lonely Planet's freshly updated August guide ranges from Sri Lanka's monsoon-quiet northeast coast to Nordic wilderness escapes, timed for travelers chasing shoulder-season prices and thinner crowds.</p>
