@@ -1,11 +1,18 @@
 name: Send push notification
 
+# Fires after "Build edition" succeeds — NOT on raw pushes.
+# Two reasons: (1) each edition now involves two pushes (content JSON, then the
+# rendered HTML) and a push trigger would notify twice; (2) pushes made by a
+# workflow using GITHUB_TOKEN deliberately do NOT trigger other workflows, so a
+# push trigger would silently stop firing altogether once build.yml took over.
 on:
-  push:
-    branches: [main]
+  workflow_run:
+    workflows: ["Build edition"]
+    types: [completed]
 
 jobs:
   notify:
+    if: github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
       - name: Check out repo
