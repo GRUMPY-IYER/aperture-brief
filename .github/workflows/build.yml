@@ -1,0 +1,56 @@
+name: Build edition
+
+# Runs when the daily task pushes a content file (or when the template changes).
+# Never triggers on its own output: index.html / archive/ are not in `paths`.
+on:
+  push:
+    paths:
+      - 'content/**'
+      - 'templates/**'
+      - 'build.py'
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'Edition to build (YYYY-MM-DD). Blank = newest content file.'
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - run: pip install --quiet jinja2
+
+      - name: Choose edition
+        id: pick
+        run: |
+          DATE="${{ github.event.inputs.date }}"
+          if [ -z "$DATE" ]; then
+            DATE=$(ls content/*.json | sed 's#.*/##; s#\.json##' | sort | tail -1)
+          fi
+          echo "date=$DATE" >> "$GITHUB_OUTPUT"
+          echo "Building edition: $DATE"
+
+      - name: Build and validate
+        run: python3 build.py "${{ steps.pick.outputs.date }}"
+
+      - name: Commit rendered edition
+        run: |
+          DATE="${{ steps.pick.outputs.date }}"
+          git config user.name  "aperture-bot"
+          git config user.email "actions@github.com"
+          git add index.html "archive/$DATE.html"
+          if git diff --staged --quiet; then
+            echo "No change to publish."
+          else
+            git commit -m "Publish edition for $DATE"
+            git push
+          fi
