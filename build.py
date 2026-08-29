@@ -66,10 +66,23 @@ def est_apu(it):
     return max(h, 84 if it.get("image") else h)
 
 
-def pick_fillers(s, wildlife, recent_files):
-    """Return {section_id: filename} for more-cols that will look short."""
-    pool = [w for w in wildlife if w not in recent_files] or list(wildlife)
-    random.shuffle(pool)
+def pick_fillers(date, s, wildlife, recent_files):
+    """Return {section_id: filename} for more-cols that will look short.
+
+    Two properties this must have, both learned the hard way:
+    1. DETERMINISTIC. Seeded from the date, so rebuilding an edition produces
+       byte-identical output. An unseeded shuffle meant a re-run rewrote the
+       page and created a spurious commit.
+    2. The "don't repeat yesterday's photo" preference must never REDUCE the
+       number of fillers. Ordering the pool (fresh first, recently-used after)
+       and cycling it means every real gap gets closed even when the fresh
+       pool is smaller than the number of gaps.
+    """
+    rng = random.Random(date)
+    fresh = sorted(w for w in wildlife if w not in recent_files)
+    stale = sorted(w for w in wildlife if w in recent_files)
+    rng.shuffle(fresh); rng.shuffle(stale)
+    pool = fresh + stale
     fill, used = {}, 0
     plans = []
     for sid in SECTIONS_WITH_COLS:
@@ -88,8 +101,8 @@ def pick_fillers(s, wildlife, recent_files):
         plans.append((sid, left, right, left - right))
     for sid, left, right, gap in plans:
         key = "apu" if sid == "india" else sid
-        if gap > 150 and used < len(pool):
-            fill[key] = pool[used]; used += 1
+        if gap > 150 and pool:
+            fill[key] = pool[used % len(pool)]; used += 1
     return fill, plans
 
 
@@ -226,7 +239,7 @@ def main():
         p = ROOT / "archive" / f"{datetime.date.fromisoformat(date) - datetime.timedelta(days=n)}.html"
         if p.exists():
             recent |= set(re.findall(r"wildlife/([^\"']+)", p.read_text()))
-    fill, plans = pick_fillers(s, wildlife, recent)
+    fill, plans = pick_fillers(date, s, wildlife, recent)
 
     front, arch = render(date, s, fill, wildlife)
     (ROOT / "index.html").write_text(front)
