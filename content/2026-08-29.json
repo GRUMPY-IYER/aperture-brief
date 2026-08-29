@@ -1,0 +1,332 @@
+{
+  "date": "2026-08-29",
+  "sections": {
+    "politics": {
+      "top": [
+        {
+          "headline": "Judge rules Pentagon's \"supply chain risk\" blacklist of Anthropic was unlawful",
+          "url": "https://www.npr.org/2026/08/28/nx-s1-5947761/judge-pentagon-anthropic-illegal",
+          "source": "NPR",
+          "blurb": "US District Judge Rita Lin ruled Thursday that Defense Secretary Pete Hegseth's designation of the AI firm as a security risk was \"arbitrary and capricious\" and unlawful First Amendment retaliation, after Anthropic refused to loosen safety guardrails around autonomous weapons and mass surveillance. The government is expected to appeal; a second Anthropic suit against the Pentagon continues in DC courts."
+        },
+        {
+          "headline": "Trump says US has struck deal for 65 billion barrels of Venezuelan oil",
+          "url": "https://www.npr.org/2026/08/28/nx-s1-5948229/trump-says-u-s-has-entered-deal-with-venezuela-to-take-control-of-65-billion-barrels-of-oil-reserves",
+          "source": "NPR",
+          "blurb": "Trump announced Friday a deal negotiated by Rubio and Hegseth with interim President Delcy Rodríguez giving the US a 55% effective stake in a new Venezuelan oil company covering 17 fields, months after the US captured Maduro. He called it \"the biggest oil deal in world history\"; Caracas has not confirmed the terms."
+        },
+        {
+          "headline": "Second federal judge blocks Trump mail-ballot screening rule",
+          "url": "https://www.upi.com/Top_News/US/2026/08/28/judge-Trump-mail-in-ballots/9811787890301/",
+          "source": "UPI",
+          "blurb": "US District Judge Indira Talwani issued a 14-day restraining order blocking a rule requiring USPS to screen mail-in ballots and cross-check voters against a new participation list, ruling compliance before the midterms would be \"practically impossible\" for states — a fresh legal setback distinct from this week's Supreme Court order on the same overhaul."
+        },
+        {
+          "headline": "ICE plans to spend millions on Boston Dynamics robot dogs",
+          "url": "https://www.404media.co/ice-plans-to-spends-millions-on-boston-dynamics-dog-robots/",
+          "source": "404 MEDIA",
+          "blurb": "A DHS procurement notice reveals ICE wants to acquire Boston Dynamics' quadruped Spot robots for \"officer safety,\" part of a broader enforcement tech buildout that also includes $16.7 million earmarked for 6,000 pairs of electric shock gloves.",
+          "investigative": true
+        }
+      ],
+      "more": [
+        {
+          "headline": "Trump administration pauses immigrant visa applications",
+          "url": "https://www.nbcnews.com/news/us-news/trump-administration-pauses-immigrant-visa-applications-new-screening-rcna594669",
+          "source": "NBC NEWS",
+          "blurb": "New screening policy freezes processing while officials review vetting procedures, adding to a backlog already strained by earlier crackdowns this year."
+        },
+        {
+          "headline": "Three Secret Service officials placed on leave amid misconduct probe",
+          "url": "https://www.cbsnews.com/news/3-secret-service-officials-put-on-leave-investigation-potential-misconduct/",
+          "source": "CBS NEWS",
+          "blurb": "The agency has not detailed the allegations but confirmed an active internal investigation into the officials' conduct."
+        },
+        {
+          "headline": "Haiti deportation flights escalate to weekly pace",
+          "url": "https://www.upi.com/Top_News/World-News/2026/08/28/latam-us-deports-haiti/1861787935962/",
+          "source": "UPI",
+          "blurb": "A second flight in a week landed Thursday carrying families with US-born children, as removals move from a monthly to weekly cadence despite gang violence that has killed dozens in Kenscoff in recent days."
+        },
+        {
+          "headline": "Fed's Warsh presses inflation message at Jackson Hole",
+          "url": "https://www.axios.com/2026/08/28/warsh-guidance-jackson-hole",
+          "source": "AXIOS",
+          "blurb": "The Fed chair's remarks signaled the central bank is in no rush to cut rates, disappointing markets that had bet on faster easing."
+        }
+      ]
+    },
+    "geo": {
+      "top": [
+        {
+          "headline": "Nepal, China halt rescue efforts as border barrier lake overflows",
+          "url": "https://www.aljazeera.com/news/2026/8/28/nepal-and-china-halt-rescue-efforts-as-border-barrier-lake-overflows",
+          "source": "AL JAZEERA",
+          "blurb": "Rescue teams pulled back Friday as a \"barrier lake\" formed by Wednesday's glacier-collapse flood began overflowing, threatening a second wave of destruction; the death toll has passed 470 with hundreds still missing and relief supplies now blocked by rising water."
+        },
+        {
+          "headline": "Israeli strike kills newlywed woman in south Lebanon, wounds others",
+          "url": "https://www.aljazeera.com/news/2026/8/27/israeli-strike-kills-newlywed-woman-in-south-lebanon-wounds-others",
+          "source": "AL JAZEERA",
+          "blurb": "A strike on the Nabatieh district killed a woman 48 hours after her wedding and wounded six others including a child, part of a renewed wave of Israeli strikes on southern Lebanon that Israel says targets Hezbollah."
+        },
+        {
+          "headline": "Gaza ceasefire envoy warns of \"point of no return\"",
+          "url": "https://www.npr.org/2026/08/27/g-s1-140400/israel-gaza-ceasefire",
+          "source": "NPR",
+          "blurb": "The US-backed Board of Peace's chief envoy overseeing Trump's Gaza ceasefire plan publicly rebuked Israel for continuing attacks that have killed at least 1,288 Palestinians since the October truce, warning that failure to hold the line means \"the next war.\""
+        },
+        {
+          "headline": "West Bank settler violence hits \"all-time high,\" Israeli military warns",
+          "url": "https://foreignpolicy.com/2026/08/27/settler-violence-west-bank-palestine-israel/",
+          "source": "FOREIGN POLICY",
+          "blurb": "Israeli military officials are privately warning the West Bank is \"on the brink\" of escalation as settler attacks and outpost expansion spread; UN monitors logged an average of 6.6 settler-related incidents per day this year."
+        }
+      ],
+      "more": [
+        {
+          "headline": "Nepal disaster reinforces the need for regional preparedness",
+          "url": "https://india.mongabay.com/2026/08/nepal-disaster-reinforces-the-need-for-regional-preparedness/",
+          "source": "MONGABAY INDIA",
+          "blurb": "A feature examining how the trans-border flood exposed gaps in Nepal, China and India's shared disaster response systems."
+        },
+        {
+          "headline": "IRGC Navy claims \"full control\" over Strait of Hormuz",
+          "url": "https://www.haaretz.com/israel-news/israel-security/2026-08-29/ty-article-live/irgc-navy-says-it-has-full-control-over-strait-of-hormuz/000001a0-4b37-d6be-afb5-5bb7b3520000",
+          "source": "HAARETZ",
+          "blurb": "The claim lands on the six-month anniversary of US strikes on Iran, a fresh military assertion distinct from ongoing diplomatic talks over a temporary Hormuz shipping route."
+        },
+        {
+          "headline": "Al-Shabaab intensifies attacks near Mogadishu",
+          "url": "https://allafrica.com/stories/202508250402.html",
+          "source": "ALLAFRICA",
+          "blurb": "Attacks in Somalia's Lower Shabelle region have risen roughly 60% since June, with an IED killing at least 10 soldiers as African Union forces hand off bases to the Somali army."
+        },
+        {
+          "headline": "Kremlin confirms CIA director's Moscow meeting",
+          "url": "https://www.cbc.ca/news/world/ratcliffe-moscow-visit-kremlin-trump-9.7321655",
+          "source": "CBC",
+          "blurb": "The confirmed visit adds to signals of renewed back-channel diplomacy between Washington and Moscow over Ukraine."
+        },
+        {
+          "headline": "EU's 21st Russia sanctions package deadlines land this week",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/07/23/21st-package-of-sanctions-eu-hits-russian-energy-financial-services-and-crypto-hard/",
+          "source": "EU COUNCIL",
+          "blurb": "Thirty-three additional Russian financial institutions face a transaction ban, and a board-membership ban on Russian nationals now extends to crypto-asset businesses."
+        }
+      ]
+    },
+    "sports": {
+      "top": [
+        {
+          "headline": "Pakistan chase 355 as England close in at Lord's",
+          "url": "https://www.cricinfo.com/series/pakistan-tour-in-england-2026-1496563/england-vs-pakistan-2nd-test-1496583/match-report",
+          "source": "ESPNCRICINFO",
+          "blurb": "Harry Brook's century and Ben Stokes' 41 set Pakistan a target of 355; Pakistan closed Day 3 at 198-4 after Jack Leach removed Imam-ul-Haq (60) late in the day, leaving England strongly placed to seal the series."
+        },
+        {
+          "headline": "Sunil Narine stars as Trinbago Knight Riders cruise past Tridents",
+          "url": "https://www.cricinfo.com/series/caribbean-premier-league-2026-1534175/trinbago-knight-riders-vs-barbados-tridents-19th-match-1534197/live-cricket-score",
+          "source": "ESPNCRICINFO",
+          "blurb": "Narine smashed 55 off 33 balls and took 2/14 to be named Player of the Match as TKR chased down Barbados Tridents' total with 31 balls to spare at Queen's Park Oval."
+        }
+      ],
+      "more": [
+        {
+          "headline": "Namibia stun South Africa in T20I tri-series opener",
+          "url": "https://www.yardbarker.com/cricket/articles/south_africa_and_zimbabwe_to_tour_namibia_for_white_ball_series_in_august_september_2026/s1_17728_44147628",
+          "source": "YARDBARKER",
+          "blurb": "Namibia beat South Africa by 18 runs in Windhoek to open a tri-series designed as a precursor to a proposed Africa T20 Cup, with proceeds funding the Africa Cricket Association's development programs from 2027."
+        }
+      ]
+    },
+    "entertainment": {
+      "top": [
+        {
+          "headline": "Nearly 80 UK performers back campaign against AI voice cloning",
+          "url": "https://www.irishtimes.com/culture/tv-radio/2026/08/28/derry-girls-stars-siobhan-mcsweeney-and-nicola-coughlan-back-campaign-to-curb-ai-voice-cloning/",
+          "source": "THE IRISH TIMES",
+          "blurb": "Nicola Coughlan, Hugh Bonneville, Matt Lucas and others signed an open letter demanding a legal right to one's own voice, citing survey data that 28% of UK adults have already encountered voice-cloning scams."
+        },
+        {
+          "headline": "New Music Friday: Mastodon, Interpol and Alabama Shakes lead this week's releases",
+          "url": "https://www.npr.org/2026/08/28/nx-s1-5946388/new-music-friday-the-best-albums-out-aug-28",
+          "source": "NPR MUSIC",
+          "blurb": "NPR critics round up the week's key albums, including Mastodon's Marrow Deep, Interpol's This Mirror Weighs a Ton, and Alabama Shakes' long-awaited comeback record I Must Be Dreaming."
+        }
+      ],
+      "more": [
+        {
+          "headline": "'Bandar' review: Kashyap's grim, needling statement on MeToo",
+          "url": "https://scroll.in/reel/1093256/bandar-review-a-relentlessly-grim-needling-statement-on-metoo",
+          "source": "SCROLL.IN (THE REEL)",
+          "blurb": "Critic Nandini Ramnath calls Anurag Kashyap's prison-drama-heavy new film a contrarian take that \"sets out to undermine MeToo\" — admiring Bobby Deol's performance while faulting the film's loss of focus.",
+          "image": "https://sc0.blr1.cdn.digitaloceanspaces.com/article/213796-btoiucrxpx-1780607225.jpeg"
+        },
+        {
+          "headline": "The AI \"ghosts\" contaminating academic publishing",
+          "url": "https://www.404media.co/the-ai-ghosts-contaminating-academic-publishing/",
+          "source": "404 MEDIA",
+          "blurb": "A new preprint finds AI models keep inventing the same fake expert names — Elena Vasquez, Marcus Chen — that have gone on to \"co-author\" hundreds of real, indexed academic papers."
+        }
+      ]
+    },
+    "india": {
+      "top": [
+        {
+          "headline": "Karnataka minister B Nagendra resigns amid Valmiki scam allegations",
+          "url": "https://scroll.in/latest/1095341/karnataka-minister-b-nagendra-resigns-amid-allegations-of-financial-irregularities",
+          "source": "SCROLL.IN",
+          "blurb": "Nagendra quit the Karnataka cabinet for the second time in two years over the Rs 187-crore Valmiki Scheduled Tribes Development Corporation scam, breaking down in tears and accusing the BJP of targeting him as a Dalit leader — the first ministerial resignation in the Siddaramaiah-Shivakumar government."
+        },
+        {
+          "headline": "Penguin India \"gave in to pressure from Centre\" on Sonia Gandhi memoir, alleges Congress",
+          "url": "https://scroll.in/latest/1095346/penguin-india-gave-in-to-pressure-from-centre-on-sonia-gandhis-memoir-alleges-congress",
+          "source": "SCROLL.IN",
+          "blurb": "Ashok Gehlot alleged the publisher's Indian arm sought removal of passages on Modi, the RSS and China, asking why Penguin Worldwide was ready to publish the memoir unchanged elsewhere; Penguin says the account of why talks fell through is inaccurate."
+        },
+        {
+          "headline": "Centre awarded agreements to run 40 Sainik Schools to RSS, Hindutva groups: Report",
+          "url": "https://scroll.in/latest/1066167/centre-awarded-agreements-to-run-40-sainik-schools-to-rss-hindutva-groups-report",
+          "source": "THE REPORTERS' COLLECTIVE",
+          "blurb": "An RTI-based investigation found 62% of new Sainik School agreements went to entities linked to the RSS, BJP or other Hindutva organisations, raising questions about the selection process for schools meant to feed India's officer corps.",
+          "investigative": true
+        },
+        {
+          "headline": "Families search for Indians missing after Nepal flood",
+          "url": "https://www.newslaundry.com/2026/08/28/restlessness-and-a-kind-of-helplessness-families-search-for-indians-missing-after-nepal-flood",
+          "source": "NEWSLAUNDRY",
+          "blurb": "At least 320 Indians remain unaccounted for after the flash flood near the Nepal-Tibet border; families describe dialling helplines that give no new answers as relatives fly to Kathmandu to search hospitals themselves for their missing."
+        }
+      ],
+      "more": []
+    },
+    "bengal": [
+      {
+        "headline": "10 newborns dead in a day, 60 in three weeks at Malda Medical College",
+        "url": "https://scroll.in/latest/1095338/bengal-10-newborns-dead-in-a-day-60-in-three-weeks-at-malda-medical-college",
+        "source": "SCROLL.IN",
+        "blurb": "The state health department has sought a report and launched inspections after the cluster of deaths at the Malda hospital.",
+        "image": "https://sc0.blr1.cdn.digitaloceanspaces.com/article/207507-cvizfwooyu-1787916897.jpg"
+      },
+      {
+        "headline": "Mamata vows to return to power after Abhishek Banerjee office signboard row",
+        "url": "https://www.theweek.in/news/india/2026/08/28/a-day-after-billboards-torn-in-abhishek-banerjees-office-mamata-vows-to-return-to-power-calls-bjp-high-voltage-virus.html",
+        "source": "THE WEEK",
+        "blurb": "Mamata Banerjee and Abhishek Banerjee took to the streets after police removed TMC signboards from his Camac Street office, with pointed warnings to the BJP ahead of 2026 polls."
+      }
+    ],
+    "travel": [
+      {
+        "headline": "The 11 best places to go in August 2026",
+        "url": "https://www.lonelyplanet.com/articles/where-to-go-in-august",
+        "source": "LONELY PLANET",
+        "blurb": "Editors' picks span surf at Sri Lanka's Arugam Bay, wilderness in East Greenland, Buenos Aires tango festivals and eSwatini's Umhlanga Reed Dance."
+      },
+      {
+        "headline": "A hidden population of greater hog badgers found in Kaziranga",
+        "url": "https://india.mongabay.com/2026/08/camera-traps-reveal-a-hidden-population-of-greater-hog-badgers/",
+        "source": "MONGABAY INDIA",
+        "blurb": "Camera traps set for the 2026 tiger census revealed at least 55 of the elusive, nocturnal badgers across Kaziranga — the first scientific assessment of a species locals call \"earth pig.\"",
+        "image": "https://imgs.mongabay.com/wp-content/uploads/sites/30/2026/08/19135627/Greater-Hog-Badger-1.png"
+      }
+    ],
+    "happy": {
+      "headline": "This Indian maharaja saved hundreds of Polish orphans during WWII",
+      "url": "https://www.smithsonianmag.com/history/this-indian-maharaja-saved-hundreds-of-polish-orphans-during-world-war-ii-offering-them-refuge-when-no-one-else-would-180989150/",
+      "source": "SMITHSONIAN MAGAZINE",
+      "blurb": "Digvijaysinhji Jadeja, ruler of Nawanagar, opened his princely state to Polish children freed from Soviet labor camps when almost no one else would take them in.",
+      "image": "https://th-thumbnailer.cdn-si-edu.com/HtbgsrcZ3QcMMKa7sOSvEAvPn7o=/450x300/filters:no_upscale():focal(2550x2016:2551x2017)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/58/32/5832ce16-54a9-4a80-8f03-98ca18988ffb/gettyimages-961804192.jpg"
+    },
+    "tech_top": [
+      {
+        "headline": "Anthropic wins first court victory over Pentagon blacklist",
+        "url": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/",
+        "source": "TECHCRUNCH",
+        "blurb": "A federal judge ruled the Pentagon's \"supply chain risk\" label was unlawful retaliation after Anthropic refused to loosen safety guardrails around autonomous weapons and mass surveillance use of Claude.",
+        "pm_note": "This tests whether an AI vendor can hold firm safety red lines against a major government customer without being punished commercially — precedent-setting for any PM negotiating enterprise or government contracts with usage-restriction clauses baked in."
+      },
+      {
+        "headline": "Meta's India/SEA VP departs for OpenAI amid Indian regulatory scrutiny",
+        "url": "https://techcrunch.com/2026/08/28/meta-executive-leaves-for-openai-as-the-social-media-giant-faces-growing-scrutiny-in-india/",
+        "source": "TECHCRUNCH",
+        "blurb": "Sandhya Devanathan, Meta's VP for India and Southeast Asia, joins OpenAI in Singapore days after another ex-Uber India executive joined OpenAI's India team, as Meta faces pressure over a mistaken Modi post restriction and child-safety concerns on Instagram.",
+        "pm_note": "Signals where the next phase of consumer-AI distribution battles will be fought — the world's largest smartphone market — and is a cautionary tale on trust-and-safety debt following you when scaling in high-scrutiny regions."
+      },
+      {
+        "headline": "128 AI and tech firms issue joint call for cyber-defense action",
+        "url": "https://www.cnbc.com/2026/08/27/ai-cyber-defense-letter.html",
+        "source": "CNBC",
+        "blurb": "Rivals including OpenAI, Anthropic, Google, Microsoft and AWS co-signed a letter warning of a \"limited window\" before AI-enabled attacks on hospitals and utilities become far more sophisticated, urging governments to directly fund protection for under-resourced sectors.",
+        "pm_note": "A rare cross-competitive alliance signals the industry sees AI offense/defense asymmetry as a near-term, board-level risk — worth watching if you build security or critical-infrastructure tooling, as public funding and partnerships may follow."
+      }
+    ],
+    "tech_more": [
+      {
+        "headline": "Meta closes smart-glasses recording-indicator loophole again",
+        "url": "https://www.engadget.com/2245776/meta-closing-loophole-that-allowed-people-to-record-with-smart-glasses-light-covered/",
+        "source": "ENGADGET",
+        "blurb": "The second privacy patch in two months stops recording entirely if the capture LED is physically covered mid-recording.",
+        "image": "https://techcrunch.com/wp-content/uploads/2026/06/GettyImages-2278736523.jpeg?resize=1200,798"
+      },
+      {
+        "headline": "Missouri power grid strained by AI data-center demand",
+        "url": "https://www.kcur.org/housing-development-section/2026-08-28/missouri-power-grid-upgrades-ai-data-center-electrictiy",
+        "source": "KCUR",
+        "blurb": "Utilities warn of multi-billion-dollar grid upgrades as data centers drive new electricity demand across the state."
+      },
+      {
+        "headline": "Fitbit founders launch Luffu Link, an LTE health/safety band",
+        "url": "https://techcrunch.com/2026/08/25/fitbit-founders-launch-luffu-link-an-lte-health-and-safety-band/",
+        "source": "TECHCRUNCH",
+        "blurb": "James Park and Eric Friedman's new cellular-connected wearable focuses on personal safety features rather than fitness tracking."
+      },
+      {
+        "headline": "Judge's 59-page ruling calls Pentagon's Anthropic label \"baseless\"",
+        "url": "https://www.nextgov.com/artificial-intelligence/2026/08/judge-rules-anthropic-supply-chain-risk-designation-was-illegal-and-baseless/415698/",
+        "source": "NEXTGOV/FCW",
+        "blurb": "The decision, which found \"the empty invocation of national security is not a blank check to punish and retaliate against government critics,\" is being closely watched by other federal contractors facing similar designations."
+      }
+    ],
+    "tech_101": [
+      {
+        "term": "Supply chain risk designation",
+        "text": "A label the US government can slap on a vendor it deems untrustworthy, which can bar federal agencies from buying its products. It's meant for things like hardware with hidden backdoors — using it to punish a company for refusing to change its software's safety rules, as a judge just ruled happened to Anthropic, is what made this case unusual."
+      },
+      {
+        "term": "Safety guardrails",
+        "text": "Rules built into an AI model that stop it from being used certain ways — for example, refusing to help design weapons or conduct mass surveillance — even if the customer asking has the technical ability to override them."
+      }
+    ],
+    "philosophy": [
+      {
+        "headline": "Swami Vivekananda's vision of oneness and modern science",
+        "url": "https://advaitaashrama.org/pb/2026/APB010_0726.pdf",
+        "source": "PRABUDDHA BHARATA",
+        "blurb": "Dr P V Yeswanth's essay traces how Vivekananda's Vedantic doctrine of non-dual oneness anticipates unifying concepts later found in modern physics."
+      },
+      {
+        "headline": "Consciousness and world as structured resonance",
+        "url": "https://www.essentiafoundation.org/consciousness-and-world-as-structured-resonance/reading/",
+        "source": "ESSENTIA FOUNDATION",
+        "blurb": "David E. Lloyd argues consciousness is best understood as a dynamic coupling between linear/emissive processes and circular/integrative ones, drawing on Chalmers and Kastrup's idealism to reframe the hard problem as a structural puzzle rather than one of reduction."
+      },
+      {
+        "headline": "In praise of zealotry",
+        "url": "https://aeon.co/essays/polite-debate-has-privilege-the-marginalised-need-zealotry",
+        "source": "AEON",
+        "blurb": "Geertje Bol argues early feminist philosophers were right to reject their male peers' calls for \"politeness\" in debate — a look at who has the privilege to stay calm in argument, and who needs conviction to be heard at all."
+      }
+    ],
+    "philosophy_101": [
+      {
+        "term": "Analytic idealism",
+        "text": "The view, associated with Bernard Kastrup, that consciousness is the fundamental substance of reality — not something that emerges from matter, but the \"stuff\" everything else, including matter, is made of. Physical objects are what conscious experience looks like from the outside."
+      },
+      {
+        "term": "The hard problem of consciousness",
+        "text": "Even if we map every neuron firing in the brain, why does any of it feel like something from the inside? Explaining the mechanics is the \"easy\" part; explaining why there's subjective experience at all is the \"hard problem.\""
+      }
+    ]
+  }
+}
