@@ -46,6 +46,10 @@ By section:
 - **Cricket** — ESPNcricinfo, BBC Sport. Cricket only: no football, tennis,
   cycling, not even for a Grand Slam final. Tests, ODIs, T20s, the Hundred, the
   IPL and women's cricket are plenty.
+  Do NOT cover the same Test day by day. ESPNcricinfo rewrites one match-report
+  URL for the whole match, so day four has the same link as day three and the
+  build blocks it — correctly. Cover a match once, at its decisive moment, and
+  otherwise find a different match, series or story.
 - **Tech** — Techmeme (fine as a free aggregator even when it cites a paywalled
   outlet), 404 Media, TechCrunch, The Verge, ProPublica, Axios.
 - **Entertainment & Culture** — criticism and industry, never gossip.
@@ -92,6 +96,30 @@ Philosophy 101 explains one concept in plain English.
 
 **From the Field** — the photography desk. Never news content, never captioned
 with a species or location that hasn't been verified.
+
+## When a source will not load
+
+Several named sources block automated fetching outright: ESPNcricinfo, Telegraph
+India, ABP Live, The Verge, Foreign Policy and Mother Jones have all returned 403.
+This is not a reason to fabricate, and not a reason to leave a section empty.
+
+- Find the same story at a fetchable outlet and link that instead.
+- Cricket, when ESPNcricinfo will not open: BBC Sport, The Guardian's cricket
+  pages, Cricbuzz, or the ICC site.
+- Bengal, when Telegraph India and ABP Live will not open: The Federal's West
+  Bengal desk, Millennium Post, The Statesman, Scroll.in. The ABP-family
+  preference is a preference, not a requirement — a verified story from another
+  approved source beats an unverified ABP one every time.
+- If you can only see a search snippet, write only what the snippet supports, and
+  say in your report which items rest on snippets rather than the full article.
+- Never assert a detail you have not seen. A shorter section is always the right
+  answer over an invented one.
+
+## Naming an outlet
+
+One exact `source` string per outlet, every edition. Sub-brands ("Scroll.in
+(Reel)") split the diversity tally and quietly evade the 3-per-outlet cap. If the
+piece is wire copy on a syndicating site, name the site being linked.
 
 ## Freshness
 
