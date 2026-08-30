@@ -1,5 +1,10 @@
-# local preview scratch — never published
+# local preview + backups — never published
 _preview/
 # GitHub token for the daily content push (never commit this)
 .aperture-token
+# macOS and Python noise
 .DS_Store
+__pycache__/
+*.pyc
+# leftover scratch from the old hand-written pipeline
+*.html.new
