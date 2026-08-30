@@ -17,6 +17,13 @@ on:
 permissions:
   contents: write
 
+# Only one build at a time. Two concurrent runs both try to commit the rendered
+# edition, and whichever pushes second is rejected as non-fast-forward — which
+# is exactly how a batch of quick pushes left the site un-republished once.
+concurrency:
+  group: build-edition
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -52,5 +59,7 @@ jobs:
             echo "No change to publish."
           else
             git commit -m "Publish edition for $DATE"
+            # main may have moved while we were building; rebase rather than fail.
+            git pull --rebase origin main
             git push
           fi
