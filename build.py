@@ -32,78 +32,99 @@ HARD_PAYWALL = ["nytimes.com", "wsj.com", "ft.com", "nature.com/articles",
 HUB_PATTERNS = [r"/tag/", r"/topics?/$", r"/category/", r"wikipedia\.org",
                 r"^https?://[^/]+/?$"]
 
+# Sections whose JSON carries the top/more shape (drives validation coverage).
 SECTIONS_WITH_COLS = ["politics", "india", "geo", "sports", "entertainment"]
+# Of those, the ones rendered in the main column's two-column flow. Entertainment
+# now lives in the side column, rendered flat like the tech sections, so it has
+# no flow and no lede.
+FLOW_SECTIONS = ["politics", "india", "geo", "sports"]
 
 
-# ---- height estimation ------------------------------------------------------
-# Approximates rendered pixel height so we can tell when a more-col will leave
-# a white gap. Rough by design: we only need "is this column much shorter?".
-def _lines(text, chars_per_line):
-    return max(1, -(-len(text or "") // chars_per_line))
+# ---- layout decisions -------------------------------------------------------
+# The old code estimated rendered column heights to decide where to drop a
+# filler photo. CSS now balances the columns itself, so none of that is needed:
+# what is left is one editorial question the layout asks of each section.
 
-def est_top(it):
-    h = 26                                    # margins + divider
-    h += 15                                   # source line
-    h += _lines(it.get("headline"), 39) * 21  # 17px headline
-    h += _lines(it.get("blurb"), 52) * 20     # 13.5px blurb
-    if it.get("pm_note"):
-        h += _lines(it["pm_note"], 55) * 19
-    return h
-
-def est_more(it):
-    chars = 36 if it.get("image") else 46
-    h = 11
-    h += 13
-    h += _lines(it.get("headline"), chars) * 18
-    h += _lines(it.get("blurb"), chars + 8) * 16
-    return max(h, 84 if it.get("image") else h)
-
-def est_apu(it):
-    chars = 34 if it.get("image") else 44
-    h = 10 + 13
-    h += _lines(it.get("headline"), chars) * 17
-    h += _lines(it.get("blurb"), chars + 8) * 15
-    return max(h, 84 if it.get("image") else h)
+MIN_ITEMS_FOR_LEDE = 4     # below this a section is too thin to carry a lede
+SHOWCASE_COUNT = 5         # photographs in the From the Field strip
+VISIBLE_AFTER_LEDE = 3     # stories shown before the "show more" fold
+# Science is now its own section, separate from Philosophy. These kinds are
+# expected in every edition, tagged per item as {"kind": "..."} in the JSON,
+# so the desk can't quietly collapse back into consciousness studies.
+REQUIRED_SCIENCE_KINDS = ["chemistry", "space"]
 
 
-def pick_fillers(date, s, wildlife, recent_files):
-    """Return {section_id: filename} for more-cols that will look short.
+def pick_lede(s):
+    """Which sections promote their first top story to full width.
 
-    Two properties this must have, both learned the hard way:
-    1. DETERMINISTIC. Seeded from the date, so rebuilding an edition produces
-       byte-identical output. An unseeded shuffle meant a re-run rewrote the
-       page and created a spurious commit.
-    2. The "don't repeat yesterday's photo" preference must never REDUCE the
-       number of fillers. Ordering the pool (fresh first, recently-used after)
-       and cycling it means every real gap gets closed even when the fresh
-       pool is smaller than the number of gaps.
+    A lede needs a section with enough behind it; on a thin day a promoted
+    middling story reads as overclaiming, so those sections stay flat.
     """
-    rng = random.Random(date)
-    fresh = sorted(w for w in wildlife if w not in recent_files)
-    stale = sorted(w for w in wildlife if w in recent_files)
-    rng.shuffle(fresh); rng.shuffle(stale)
-    pool = fresh + stale
-    fill, used = {}, 0
-    plans = []
-    for sid in SECTIONS_WITH_COLS:
+    out = {}
+    for sid in FLOW_SECTIONS:
         sec = s.get(sid) or {}
         top, more = sec.get("top") or [], sec.get("more") or []
-        if not more:
-            continue                       # single column: never fill
-        left = sum(est_top(i) for i in top)
-        right = sum(est_more(i) for i in more)
-        if sid == "india":                 # bengal/travel/happy continue this column
-            right += 26
-            right += sum(est_apu(i) for i in s.get("bengal") or [])
-            right += sum(est_apu(i) for i in s.get("travel") or [])
-            if s.get("happy"):
-                right += est_apu(s["happy"]) + 20
-        plans.append((sid, left, right, left - right))
-    for sid, left, right, gap in plans:
-        key = "apu" if sid == "india" else sid
-        if gap > 150 and pool:
-            fill[key] = pool[used % len(pool)]; used += 1
-    return fill, plans
+        out[sid] = bool(top) and (len(top) + len(more)) >= MIN_ITEMS_FOR_LEDE
+    return out
+
+
+def jpeg_size(path):
+    """Width and height of a JPEG, using only the standard library.
+
+    Walks the segment markers to the start-of-frame header, which carries the
+    dimensions. Twenty lines instead of a Pillow dependency the build would
+    otherwise have to install on every CI run.
+    """
+    with open(path, "rb") as f:
+        if f.read(2) != b"\xff\xd8":
+            raise ValueError(f"{path} is not a JPEG")
+        while True:
+            b = f.read(1)
+            while b and b != b"\xff":            # scan to the next marker
+                b = f.read(1)
+            marker = f.read(1)
+            while marker == b"\xff":             # skip fill bytes
+                marker = f.read(1)
+            if not marker:
+                raise ValueError(f"no size header found in {path}")
+            m = marker[0]
+            # SOF0-SOF15 carry the frame size; C4/C8/CC are other tables.
+            if 0xC0 <= m <= 0xCF and m not in (0xC4, 0xC8, 0xCC):
+                f.read(3)                        # segment length + precision
+                h = int.from_bytes(f.read(2), "big")
+                w = int.from_bytes(f.read(2), "big")
+                return w, h
+            length = int.from_bytes(f.read(2), "big")
+            f.seek(length - 2, 1)
+
+
+def photo_meta(name):
+    """Real pixel dimensions, so the page can reserve the right box.
+
+    Emitting width/height lets the browser hold the correct space before the
+    image loads (no layout shift) AND lets us size purely by width with
+    height:auto — the photograph is never cropped to fit a slot.
+    """
+    w, h = jpeg_size(ROOT / "wildlife" / name)
+    return {"file": name, "w": w, "h": h, "portrait": h > w}
+
+
+def pick_showcase(date, wildlife, recent):
+    """Photographs for the From the Field strip, seeded from the date.
+
+    Seeded so a rebuild of the same edition is byte-identical, and ordered
+    fresh-first so recently-published frames come round last rather than
+    being excluded outright.
+    """
+    rng = random.Random("showcase-" + date)
+    fresh = sorted(w for w in wildlife if w not in recent)
+    stale = sorted(w for w in wildlife if w in recent)
+    rng.shuffle(fresh); rng.shuffle(stale)
+    pool = fresh + stale
+    if not pool:
+        return []
+    return [photo_meta(pool[i % len(pool)])
+            for i in range(min(SHOWCASE_COUNT, len(pool)))]
 
 
 # ---- validation -------------------------------------------------------------
@@ -124,6 +145,8 @@ def iter_items(s):
         yield "tech_top", it
     for it in s.get("tech_more") or []:
         yield "tech_more", it
+    for it in s.get("science") or []:
+        yield "science", it
     for it in s.get("philosophy") or []:
         yield "philosophy", it
 
@@ -178,10 +201,15 @@ def check(date, s):
     n_india = len(india.get("top") or []) + len(india.get("more") or [])
     if n_india > MAX_INDIA_ITEMS:
         errors.append(f"india has {n_india} items (cap {MAX_INDIA_ITEMS})")
-    n_top = sum(1 for b, _ in iter_items(s)
-                if b.endswith(".top") or b.endswith(".more") or b == "tech_top" or b == "tech_more")
-    if n_top >= MAX_TOP_STORIES + 10:
-        warnings.append(f"{n_top} counted stories — sanity-check against the 20-top-story rule")
+    # The 20-top-story rule, now enforced rather than suggested. Counts the big
+    # stories only (each section's `top` list plus Top Tech) — the shorter
+    # `more` items, Bengal/Travel/Happy and Philosophy are outside it, as the
+    # editorial rules have always said.
+    n_top = sum(len((s.get(sid) or {}).get("top") or []) for sid in SECTIONS_WITH_COLS)
+    n_top += len(s.get("tech_top") or [])
+    if n_top > MAX_TOP_STORIES:
+        errors.append(f"{n_top} top stories across the edition (cap {MAX_TOP_STORIES}) "
+                      f"— drop the weakest, don't just move them to `more`")
     # 6. required shapes
     if len(s.get("travel") or []) != 2:
         warnings.append(f"travel has {len(s.get('travel') or [])} items (expected exactly 2)")
@@ -189,11 +217,19 @@ def check(date, s):
         warnings.append("no Happy Story")
     if not s.get("bengal"):
         warnings.append("no Bengal items")
+    # Science must reach beyond brains and consciousness.
+    kinds = {(i.get("kind") or "").lower() for i in (s.get("science") or [])}
+    for k in REQUIRED_SCIENCE_KINDS:
+        if k not in kinds:
+            warnings.append(f"science: no item tagged kind=\"{k}\"")
+    if not s.get("science"):
+        warnings.append("no Science section — split out from Philosophy; the daily "
+                        "prompt needs updating to fill it")
     return errors, warnings
 
 
 # ---- render -----------------------------------------------------------------
-def render(date, s, fill, wildlife):
+def render(date, s, lede, showcase):
     from jinja2 import Environment, FileSystemLoader
     env = Environment(loader=FileSystemLoader(str(ROOT / "templates")),
                       trim_blocks=False, lstrip_blocks=False)
@@ -202,7 +238,8 @@ def render(date, s, fill, wildlife):
     ctx = dict(date=date,
                date_long=d.strftime("%A, %B %-d, %Y"),
                archive_min=ARCHIVE_MIN,
-               s=s, fill=fill)
+               s=s, lede=lede, showcase=showcase,
+               visible_after_lede=VISIBLE_AFTER_LEDE)
     front = tpl.render(**ctx, icon_prefix="", archive_prefix="archive/")
     arch = tpl.render(**ctx, icon_prefix="../", archive_prefix="")
     return front, arch
@@ -239,17 +276,22 @@ def main():
         p = ROOT / "archive" / f"{datetime.date.fromisoformat(date) - datetime.timedelta(days=n)}.html"
         if p.exists():
             recent |= set(re.findall(r"wildlife/([^\"']+)", p.read_text()))
-    fill, plans = pick_fillers(date, s, wildlife, recent)
+    lede = pick_lede(s)
+    showcase = pick_showcase(date, wildlife, recent)
 
-    front, arch = render(date, s, fill, wildlife)
+    front, arch = render(date, s, lede, showcase)
     (ROOT / "index.html").write_text(front)
     (ROOT / "archive").mkdir(exist_ok=True)
     (ROOT / "archive" / f"{date}.html").write_text(arch)
 
     print(f"\nBuilt {date}")
-    for sid, left, right, gap in plans:
-        mark = "filler added" if fill.get("apu" if sid == "india" else sid) else "ok"
-        print(f"  {sid:<14} left~{left:>4}px  right~{right:>4}px  gap {gap:>5}px  {mark}")
+    for sid in FLOW_SECTIONS:
+        sec = s.get(sid) or {}
+        n = len(sec.get("top") or []) + len(sec.get("more") or [])
+        print(f"  {sid:<14} {n:>2} stories   {'lede promoted' if lede.get(sid) else 'flat (thin section)'}")
+    ent = s.get("entertainment") or {}
+    print(f"  entertainment  {len(ent.get('top') or []) + len(ent.get('more') or []):>2} stories   side column")
+    print(f"  showcase       {len(showcase)} photographs")
     print(f"  index.html + archive/{date}.html written")
 
 
