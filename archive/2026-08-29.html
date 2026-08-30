@@ -27,6 +27,23 @@
     font-family: Arial, sans-serif; font-size: 11px; color: #555; border: 1px solid #999;
     background: #fdfcf7; padding: 1px 4px; letter-spacing: normal; text-transform: none;
   }
+  /* Both columns are flex stacks so a reader preference can reorder them with
+     CSS `order` alone — no rebuild, no second page, and if JavaScript never
+     runs the document order below is what everyone sees. */
+  .main-col, .side-col { display: flex; flex-direction: column; }
+  .politics { order: 1; } .apu-corner-section { order: 2; }
+  .geo { order: 3; } .sports { order: 4; } .showcase { order: 9; }
+  .tech-desk { order: 1; } .science-desk { order: 2; }
+  .philosophy-desk { order: 3; } .entertainment { order: 4; }
+  /* Priya reads India first, and science before the technology desk. */
+  body[data-reader="priya"] .apu-corner-section { order: 1; }
+  body[data-reader="priya"] .politics { order: 2; }
+  body[data-reader="priya"] .science-desk { order: 1; }
+  body[data-reader="priya"] .tech-desk { order: 2; }
+  .reader-pick button { font-family: Arial, sans-serif; font-size: 11px; letter-spacing: .5px;
+    text-transform: uppercase; color: #555; background: none; border: 1px solid #bbb;
+    padding: 1px 6px; margin-left: 3px; cursor: pointer; }
+  .reader-pick button[aria-pressed="true"] { background: #1a1a1a; color: #fdfcf7; border-color: #1a1a1a; }
   .page { display: grid; grid-template-columns: 1.7fr 1fr; gap: 0; }
   @media (max-width: 900px) { .page { grid-template-columns: 1fr; } }
   .main-col { padding-right: 28px; border-right: 3px double #1a1a1a; }
@@ -39,23 +56,30 @@
     border-top: 3px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; padding: 5px 0; margin: 0 0 12px;
   }
   .tag { font-family: Arial, sans-serif; font-weight: normal; text-transform: none; letter-spacing: 0; font-size: 11px; color: #888; }
-  .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; align-items: start; }
-  .cols:has(> :only-child) { grid-template-columns: 1fr; }
-  @media (max-width: 900px) { .cols { grid-template-columns: 1fr; } }
+  /* One flowing container per section. The browser measures the content and
+     evens the two columns itself, so a section can gain or lose stories and
+     still come out level. Replaces two fixed lists that could never balance. */
+  .flow { columns: 2; column-gap: 22px; column-rule: 1px solid #ccc; }
+  .flow > div { break-inside: avoid; -webkit-column-break-inside: avoid; }
+  @media (max-width: 900px) { .flow { columns: 1; column-rule: none; } }
+  /* The day's lead story spans the full width above the flow. */
+  .lede { column-span: all; padding-bottom: 14px; margin-bottom: 16px;
+          border-bottom: 2px solid #1a1a1a; }
+  .lede h3 { font-size: 25px !important; line-height: 1.18; }
+  .lede .blurb { font-size: 14px; }
   .single { display: block; }
   .top-item { margin-bottom: 14px; padding-bottom: 12px; border-bottom: 1px dotted #ccc; }
   .top-item:last-child { border-bottom: none; }
-  .top-item h3 { margin: 0 0 3px; font-size: 17px; line-height: 1.25; }
+  .top-item h3 { margin: 0 0 3px; font-size: 17px; line-height: 1.25; text-wrap: pretty; }
   .top-item h3 a { color: #1a1a1a; text-decoration: none; }
   .top-item h3 a:hover { text-decoration: underline; }
   .source { font-family: Arial, sans-serif; font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.5px; font-weight: bold; color: #a08030; }
   .blurb { margin: 4px 0 0; font-size: 13.5px; color: #333; line-height: 1.5; }
   .pm-note { margin: 5px 0 0; font-size: 12.5px; color: #444; font-style: italic; }
   .pm-note b { font-style: normal; color: #1a1a1a; }
-  .more-col { border-left: 2px solid #1a1a1a; padding-left: 18px; }
-  .more-item { margin-bottom: 11px; display: flex; gap: 8px; align-items: flex-start; }
+  .more-item { margin-bottom: 11px; padding-bottom: 10px; border-bottom: 1px dotted #ddd; display: flex; gap: 8px; align-items: flex-start; }
   .more-item img { width: 56px; height: auto; max-height: 78px; border-radius: 3px; flex-shrink: 0; display: block; }
-  .more-item h4 { margin: 0; font-size: 13.5px; line-height: 1.3; }
+  .more-item h4 { margin: 0; font-size: 13.5px; line-height: 1.3; text-wrap: pretty; }
   .more-item h4 a { color: #1a1a1a; text-decoration: none; }
   .more-item h4 a:hover { text-decoration: underline; }
   .more-item .source { font-size: 9.5px; }
@@ -70,8 +94,12 @@
   .tech h2 { color: #2b4a52; border-color: #2b4a52; font-size: 21px; }
   .tech .source { color: #2b4a52; }
   .tech .top-item h3 { font-size: 18px; }
+  .side-col .science h2, .side-col .science .source { color: #1f5f5b; border-color: #1f5f5b; font-size: 19px; }
+  .side-col .science .top-item h3 { font-size: 16px; }
   .side-col .consciousness h2, .side-col .consciousness .source { color: #4a2470; border-color: #4a2470; font-size: 19px; }
   .side-col .consciousness .top-item h3 { font-size: 16px; }
+  .side-col .entertainment h2 { font-size: 19px; }
+  .side-col .entertainment .top-item h3 { font-size: 16px; }
   .primer-box { background: #eef3f2; border: 1px solid #2b4a52; padding: 14px 16px; margin-top: 8px; }
   .primer-box h5 { margin: 0 0 8px; font-family: Arial, sans-serif; font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: #2b4a52; }
   .primer-item { margin-bottom: 10px; }
@@ -79,16 +107,43 @@
   .primer-item .term { font-weight: bold; font-size: 14px; }
   .primer-item p { margin: 2px 0 0; font-size: 12.5px; color: #444; line-height: 1.45; }
   .apu-sub { font-family: Arial, sans-serif; font-size: 9.5px; letter-spacing: 1px; text-transform: uppercase; color: #9c3d5c; font-weight: bold; margin: 10px 0 5px; }
-  .apu-corner { margin-top: 14px; padding-top: 12px; border-top: 1px dashed #9c3d5c; }
+  .apu-corner { column-span: all; margin-top: 14px; padding-top: 12px; border-top: 1px dashed #9c3d5c;
+                display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; align-items: start; }
+  @media (max-width: 900px) { .apu-corner { grid-template-columns: 1fr; } }
+  .apu-sub:first-child { margin-top: 0; }
   .apu-item { display: flex; gap: 8px; margin-bottom: 10px; align-items: flex-start; }
   .apu-item img { width: 56px; height: auto; max-height: 78px; border-radius: 3px; flex-shrink: 0; display: block; }
   .apu-item .apu-text h4 { margin: 0; font-size: 12.5px; line-height: 1.3; }
   .apu-item .apu-text h4 a { color: #1a1a1a; text-decoration: none; }
   .apu-item .apu-text p { margin: 3px 0 0; font-size: 11.5px; color: #555; }
   .apu-happy { background: #fdf6f9; border: 1px dashed #9c3d5c; padding: 8px 10px; border-radius: 4px; }
-  .wildlife-filler { margin-top: 10px; text-align: center; }
-  .wildlife-filler img { width: 100%; max-height: 110px; object-fit: cover; border-radius: 4px; display: block; }
-  .wildlife-filler .caption { font-family: Arial, sans-serif; font-size: 9px; color: #999; margin-top: 3px; letter-spacing: 0.5px; text-transform: uppercase; }
+  /* Photographs are sized by WIDTH ONLY, height:auto — their real aspect ratio
+     is preserved whatever it is (3:2, 4:3, 1:1, portrait). Never object-fit:
+     cover with a fixed height: that crops the subject out of the frame. */
+  .section-photo { margin: 0 0 14px; break-inside: avoid; }
+  .section-photo img { width: 100%; height: auto; display: block; border: 1px solid #e0dcd2; }
+  .section-photo.portrait img { max-width: 74%; margin: 0 auto; }
+  .section-photo figcaption, .showcase figcaption { font-family: Arial, sans-serif; font-size: 9.5px;
+    letter-spacing: 1px; text-transform: uppercase; color: #4a5d3a; font-weight: bold; margin-top: 5px; }
+  .section-photo figcaption span, .showcase figcaption span { color: #6b6157; font-weight: normal; }
+  /* Everything past the fold. Native <details> — no JavaScript, so archived
+     editions keep working forever. */
+  details.fold { margin-top: 10px; }
+  details.fold > summary { font-family: Arial, sans-serif; font-size: 11px; letter-spacing: 1px;
+    text-transform: uppercase; font-weight: bold; color: #6b6157; cursor: pointer;
+    padding: 6px 0; border-top: 1px solid #ccc; list-style: none; }
+  details.fold > summary::-webkit-details-marker { display: none; }
+  details.fold > summary::after { content: " \002B"; font-size: 13px; }
+  details.fold[open] > summary::after { content: " \2212"; }
+  details.fold > summary:hover { color: #1a1a1a; }
+  details.fold > .flow { padding-top: 10px; }
+  .showcase h2 { color: #4a5d3a; border-color: #4a5d3a; }
+  .showcase .tag { color: #6b6157; }
+  .showcase .frames { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; align-items: start; }
+  @media (max-width: 700px) { .showcase .frames { grid-template-columns: 1fr 1fr; } }
+  .showcase .frames a { display: block; }
+  .showcase .frames img { width: 100%; height: auto; display: block; border: 1px solid #e0dcd2; }
+  @media (max-width: 700px) { .showcase .frames a:first-child { grid-column: 1 / -1; } }
 </style>
 </head>
 <body>
@@ -97,7 +152,10 @@
   <h1 class="masthead">The Aperture</h1>
   <div class="dateline-row">
     <span>Saturday, August 29, 2026</span>
-    <span>Edifying Eddies</span>
+    <span class="reader-pick">Reading order:
+      <button type="button" data-reader-set="ganges">Ganges</button>
+      <button type="button" data-reader-set="priya">Priya</button>
+    </span>
     <span class="archive-nav">Browse editions: <input type="date" id="archive-date" min="2026-08-01" max="2026-08-29" value="2026-08-29" onchange="if(this.value) location.href = '' + this.value + '.html'"></span>
   </div>
 </header>
@@ -105,13 +163,19 @@
   <div class="main-col">
     <section class="politics">
       <h2>US Politics</h2>
-      <div class="cols">
-        <div>
-        <div class="top-item">
+      <div class="flow">
+        <div class="top-item lede">
           <div class="source">NPR</div>
           <h3><a href="https://www.npr.org/2026/08/28/nx-s1-5947761/judge-pentagon-anthropic-illegal" target="_blank">Judge rules Pentagon's "supply chain risk" blacklist of Anthropic was unlawful</a></h3>
           <p class="blurb">US District Judge Rita Lin ruled Thursday that Defense Secretary Pete Hegseth's designation of the AI firm as a security risk was "arbitrary and capricious" and unlawful First Amendment retaliation, after Anthropic refused to loosen safety guardrails around autonomous weapons and mass surveillance. The government is expected to appeal; a second Anthropic suit against the Pentagon continues in DC courts.</p>
         </div>
+        <figure class="section-photo">
+          <a href="https://grumpyiyer.com" target="_blank" rel="noopener">
+            <img src="../wildlife/200725-Kawal-GBS_3153.jpeg" width="640" height="640"
+                 alt="Wildlife photograph from the Grumpy Iyer archive" loading="lazy">
+          </a>
+          <figcaption>From the Field <span>&middot; Grumpy Iyer</span></figcaption>
+        </figure>
         <div class="top-item">
           <div class="source">NPR</div>
           <h3><a href="https://www.npr.org/2026/08/28/nx-s1-5948229/trump-says-u-s-has-entered-deal-with-venezuela-to-take-control-of-65-billion-barrels-of-oil-reserves" target="_blank">Trump says US has struck deal for 65 billion barrels of Venezuelan oil</a></h3>
@@ -127,8 +191,10 @@
           <h3><a href="https://www.404media.co/ice-plans-to-spends-millions-on-boston-dynamics-dog-robots/" target="_blank">ICE plans to spend millions on Boston Dynamics robot dogs</a></h3>
           <p class="blurb">A DHS procurement notice reveals ICE wants to acquire Boston Dynamics' quadruped Spot robots for "officer safety," part of a broader enforcement tech buildout that also includes $16.7 million earmarked for 6,000 pairs of electric shock gloves.</p>
         </div>
-        </div>
-        <div class="more-col">
+      </div>
+      <details class="fold">
+        <summary>4 more in US Politics</summary>
+        <div class="flow">
         <div class="more-item">
           <div class="more-text">
             <div class="source">NBC NEWS</div>
@@ -157,19 +223,14 @@
             <p>The Fed chair's remarks signaled the central bank is in no rush to cut rates, disappointing markets that had bet on faster easing.</p>
           </div>
         </div>
-        <div class="wildlife-filler">
-          <img src="../wildlife/200725-Kawal-GBS_3153.jpeg" alt="">
-          <div class="caption">From the archive</div>
         </div>
-        </div>
-      </div>
+      </details>
     </section>
     <section class="apu-corner-section">
       <h2>Apu's Corner</h2>
       <div class="apu-sub">India</div>
-      <div class="cols">
-        <div>
-        <div class="top-item">
+      <div class="flow">
+        <div class="top-item lede">
           <div class="source">SCROLL.IN</div>
           <h3><a href="https://scroll.in/latest/1095341/karnataka-minister-b-nagendra-resigns-amid-allegations-of-financial-irregularities" target="_blank">Karnataka minister B Nagendra resigns amid Valmiki scam allegations</a></h3>
           <p class="blurb">Nagendra quit the Karnataka cabinet for the second time in two years over the Rs 187-crore Valmiki Scheduled Tribes Development Corporation scam, breaking down in tears and accusing the BJP of targeting him as a Dalit leader — the first ministerial resignation in the Siddaramaiah-Shivakumar government.</p>
@@ -189,9 +250,8 @@
           <h3><a href="https://www.newslaundry.com/2026/08/28/restlessness-and-a-kind-of-helplessness-families-search-for-indians-missing-after-nepal-flood" target="_blank">Families search for Indians missing after Nepal flood</a></h3>
           <p class="blurb">At least 320 Indians remain unaccounted for after the flash flood near the Nepal-Tibet border; families describe dialling helplines that give no new answers as relatives fly to Kathmandu to search hospitals themselves for their missing.</p>
         </div>
-        </div>
-        <div class="more-col">
-          <div class="apu-corner">
+        <div class="apu-corner">
+          <div>
             <div class="apu-sub">Bengal</div>
           <div class="apu-item">
             <img src="https://sc0.blr1.cdn.digitaloceanspaces.com/article/207507-cvizfwooyu-1787916897.jpg" alt="">
@@ -208,6 +268,8 @@
               <p>Mamata Banerjee and Abhishek Banerjee took to the streets after police removed TMC signboards from his Camac Street office, with pointed warnings to the BJP ahead of 2026 polls.</p>
             </div>
           </div>
+          </div>
+          <div>
             <div class="apu-sub">Travel</div>
           <div class="apu-item">
             <div class="apu-text">
@@ -224,6 +286,8 @@
               <p>Camera traps set for the 2026 tiger census revealed at least 55 of the elusive, nocturnal badgers across Kaziranga — the first scientific assessment of a species locals call "earth pig."</p>
             </div>
           </div>
+          </div>
+          <div>
             <div class="apu-sub">A Happy Story <span class="tag">for no reason at all</span></div>
             <div class="apu-happy">
           <div class="apu-item">
@@ -241,9 +305,8 @@
     </section>
     <section class="geo">
       <h2>Geopolitics</h2>
-      <div class="cols">
-        <div>
-        <div class="top-item">
+      <div class="flow">
+        <div class="top-item lede">
           <div class="source">AL JAZEERA</div>
           <h3><a href="https://www.aljazeera.com/news/2026/8/28/nepal-and-china-halt-rescue-efforts-as-border-barrier-lake-overflows" target="_blank">Nepal, China halt rescue efforts as border barrier lake overflows</a></h3>
           <p class="blurb">Rescue teams pulled back Friday as a "barrier lake" formed by Wednesday's glacier-collapse flood began overflowing, threatening a second wave of destruction; the death toll has passed 470 with hundreds still missing and relief supplies now blocked by rising water.</p>
@@ -263,8 +326,10 @@
           <h3><a href="https://foreignpolicy.com/2026/08/27/settler-violence-west-bank-palestine-israel/" target="_blank">West Bank settler violence hits "all-time high," Israeli military warns</a></h3>
           <p class="blurb">Israeli military officials are privately warning the West Bank is "on the brink" of escalation as settler attacks and outpost expansion spread; UN monitors logged an average of 6.6 settler-related incidents per day this year.</p>
         </div>
-        </div>
-        <div class="more-col">
+      </div>
+      <details class="fold">
+        <summary>5 more in Geopolitics</summary>
+        <div class="flow">
         <div class="more-item">
           <div class="more-text">
             <div class="source">MONGABAY INDIA</div>
@@ -300,17 +365,12 @@
             <p>Thirty-three additional Russian financial institutions face a transaction ban, and a board-membership ban on Russian nationals now extends to crypto-asset businesses.</p>
           </div>
         </div>
-        <div class="wildlife-filler">
-          <img src="../wildlife/200725-Kawal-GBS_3328.jpeg" alt="">
-          <div class="caption">From the archive</div>
         </div>
-        </div>
-      </div>
+      </details>
     </section>
     <section class="sports">
       <h2>Cricket</h2>
-      <div class="cols">
-        <div>
+      <div class="flow">
         <div class="top-item">
           <div class="source">ESPNCRICINFO</div>
           <h3><a href="https://www.cricinfo.com/series/pakistan-tour-in-england-2026-1496563/england-vs-pakistan-2nd-test-1496583/match-report" target="_blank">Pakistan chase 355 as England close in at Lord's</a></h3>
@@ -321,8 +381,10 @@
           <h3><a href="https://www.cricinfo.com/series/caribbean-premier-league-2026-1534175/trinbago-knight-riders-vs-barbados-tridents-19th-match-1534197/live-cricket-score" target="_blank">Sunil Narine stars as Trinbago Knight Riders cruise past Tridents</a></h3>
           <p class="blurb">Narine smashed 55 off 33 balls and took 2/14 to be named Player of the Match as TKR chased down Barbados Tridents' total with 31 balls to spare at Queen's Park Oval.</p>
         </div>
-        </div>
-        <div class="more-col">
+      </div>
+      <details class="fold">
+        <summary>1 more in Cricket</summary>
+        <div class="flow">
         <div class="more-item">
           <div class="more-text">
             <div class="source">YARDBARKER</div>
@@ -330,49 +392,33 @@
             <p>Namibia beat South Africa by 18 runs in Windhoek to open a tri-series designed as a precursor to a proposed Africa T20 Cup, with proceeds funding the Africa Cricket Association's development programs from 2027.</p>
           </div>
         </div>
-        <div class="wildlife-filler">
-          <img src="../wildlife/200725-Kawal-GBS_3098.jpeg" alt="">
-          <div class="caption">From the archive</div>
         </div>
-        </div>
-      </div>
+      </details>
     </section>
-    <section class="entertainment">
-      <h2>Entertainment &amp; Culture</h2>
-      <div class="cols">
-        <div>
-        <div class="top-item">
-          <div class="source">THE IRISH TIMES</div>
-          <h3><a href="https://www.irishtimes.com/culture/tv-radio/2026/08/28/derry-girls-stars-siobhan-mcsweeney-and-nicola-coughlan-back-campaign-to-curb-ai-voice-cloning/" target="_blank">Nearly 80 UK performers back campaign against AI voice cloning</a></h3>
-          <p class="blurb">Nicola Coughlan, Hugh Bonneville, Matt Lucas and others signed an open letter demanding a legal right to one's own voice, citing survey data that 28% of UK adults have already encountered voice-cloning scams.</p>
-        </div>
-        <div class="top-item">
-          <div class="source">NPR MUSIC</div>
-          <h3><a href="https://www.npr.org/2026/08/28/nx-s1-5946388/new-music-friday-the-best-albums-out-aug-28" target="_blank">New Music Friday: Mastodon, Interpol and Alabama Shakes lead this week's releases</a></h3>
-          <p class="blurb">NPR critics round up the week's key albums, including Mastodon's Marrow Deep, Interpol's This Mirror Weighs a Ton, and Alabama Shakes' long-awaited comeback record I Must Be Dreaming.</p>
-        </div>
-        </div>
-        <div class="more-col">
-        <div class="more-item">
-          <img src="https://sc0.blr1.cdn.digitaloceanspaces.com/article/213796-btoiucrxpx-1780607225.jpeg" alt="">
-          <div class="more-text">
-            <div class="source">SCROLL.IN (THE REEL)</div>
-            <h4><a href="https://scroll.in/reel/1093256/bandar-review-a-relentlessly-grim-needling-statement-on-metoo" target="_blank">'Bandar' review: Kashyap's grim, needling statement on MeToo</a></h4>
-            <p>Critic Nandini Ramnath calls Anurag Kashyap's prison-drama-heavy new film a contrarian take that "sets out to undermine MeToo" — admiring Bobby Deol's performance while faulting the film's loss of focus.</p>
-          </div>
-        </div>
-        <div class="more-item">
-          <div class="more-text">
-            <div class="source">404 MEDIA</div>
-            <h4><a href="https://www.404media.co/the-ai-ghosts-contaminating-academic-publishing/" target="_blank">The AI "ghosts" contaminating academic publishing</a></h4>
-            <p>A new preprint finds AI models keep inventing the same fake expert names — Elena Vasquez, Marcus Chen — that have gone on to "co-author" hundreds of real, indexed academic papers.</p>
-          </div>
-        </div>
-        </div>
+    <section class="showcase">
+      <h2>From the Field <span class="tag">photographs by Grumpy Iyer</span></h2>
+      <div class="frames">
+        <a href="https://grumpyiyer.com" target="_blank" rel="noopener">
+          <img src="../wildlife/200725-Kawal-GBS_3328.jpeg" width="640" height="427"
+               alt="Wildlife photograph from the Grumpy Iyer archive" loading="lazy">
+        </a>
+        <a href="https://grumpyiyer.com" target="_blank" rel="noopener">
+          <img src="../wildlife/200725-Kawal-GBS_3098.jpeg" width="640" height="427"
+               alt="Wildlife photograph from the Grumpy Iyer archive" loading="lazy">
+        </a>
+        <a href="https://grumpyiyer.com" target="_blank" rel="noopener">
+          <img src="../wildlife/20231216-GB8_5191-Enhanced-NR-Edit.jpeg" width="640" height="427"
+               alt="Wildlife photograph from the Grumpy Iyer archive" loading="lazy">
+        </a>
+        <a href="https://grumpyiyer.com" target="_blank" rel="noopener">
+          <img src="../wildlife/20250629-Springbrook-Prairie-2207.jpeg" width="640" height="480"
+               alt="Wildlife photograph from the Grumpy Iyer archive" loading="lazy">
+        </a>
       </div>
     </section>
   </div>
   <div class="side-col">
+    <div class="desk tech-desk">
     <div class="tech-masthead">— Technology Desk —</div>
     <section class="tech">
       <h2>Top Tech</h2>
@@ -441,8 +487,12 @@
         </div>
       </div>
     </section>
+    </div>
+    <div class="desk science-desk">
+    </div>
+    <div class="desk philosophy-desk">
     <section class="consciousness">
-      <h2>Philosophy &amp; Science</h2>
+      <h2>Philosophy</h2>
         <div class="top-item">
           <div class="source">PRABUDDHA BHARATA</div>
           <h3><a href="https://advaitaashrama.org/pb/2026/APB010_0726.pdf" target="_blank">Swami Vivekananda's vision of oneness and modern science</a></h3>
@@ -459,7 +509,7 @@
           <p class="blurb">Geertje Bol argues early feminist philosophers were right to reject their male peers' calls for "politeness" in debate — a look at who has the privilege to stay calm in argument, and who needs conviction to be heard at all.</p>
         </div>
     </section>
-    <section class="consciousness" style="border-bottom: none;">
+    <section class="consciousness">
       <h2>Philosophy 101 <span class="tag">for newbies</span></h2>
       <div class="primer-box">
         <h5>Today's Concept, Explained Simply</h5>
@@ -473,7 +523,59 @@
         </div>
       </div>
     </section>
+    </div><section class="entertainment" style="border-bottom: none;">
+      <h2>Entertainment &amp; Culture</h2>
+        <div class="top-item">
+          <div class="source">THE IRISH TIMES</div>
+          <h3><a href="https://www.irishtimes.com/culture/tv-radio/2026/08/28/derry-girls-stars-siobhan-mcsweeney-and-nicola-coughlan-back-campaign-to-curb-ai-voice-cloning/" target="_blank">Nearly 80 UK performers back campaign against AI voice cloning</a></h3>
+          <p class="blurb">Nicola Coughlan, Hugh Bonneville, Matt Lucas and others signed an open letter demanding a legal right to one's own voice, citing survey data that 28% of UK adults have already encountered voice-cloning scams.</p>
+        </div>
+        <div class="top-item">
+          <div class="source">NPR MUSIC</div>
+          <h3><a href="https://www.npr.org/2026/08/28/nx-s1-5946388/new-music-friday-the-best-albums-out-aug-28" target="_blank">New Music Friday: Mastodon, Interpol and Alabama Shakes lead this week's releases</a></h3>
+          <p class="blurb">NPR critics round up the week's key albums, including Mastodon's Marrow Deep, Interpol's This Mirror Weighs a Ton, and Alabama Shakes' long-awaited comeback record I Must Be Dreaming.</p>
+        </div>
+        <div class="more-item">
+          <img src="https://sc0.blr1.cdn.digitaloceanspaces.com/article/213796-btoiucrxpx-1780607225.jpeg" alt="">
+          <div class="more-text">
+            <div class="source">SCROLL.IN (THE REEL)</div>
+            <h4><a href="https://scroll.in/reel/1093256/bandar-review-a-relentlessly-grim-needling-statement-on-metoo" target="_blank">'Bandar' review: Kashyap's grim, needling statement on MeToo</a></h4>
+            <p>Critic Nandini Ramnath calls Anurag Kashyap's prison-drama-heavy new film a contrarian take that "sets out to undermine MeToo" — admiring Bobby Deol's performance while faulting the film's loss of focus.</p>
+          </div>
+        </div>
+        <div class="more-item">
+          <div class="more-text">
+            <div class="source">404 MEDIA</div>
+            <h4><a href="https://www.404media.co/the-ai-ghosts-contaminating-academic-publishing/" target="_blank">The AI "ghosts" contaminating academic publishing</a></h4>
+            <p>A new preprint finds AI models keep inventing the same fake expert names — Elena Vasquez, Marcus Chen — that have gone on to "co-author" hundreds of real, indexed academic papers.</p>
+          </div>
+        </div>
+    </section>
   </div>
 </div>
+<script>
+// Reader preference. Purely presentational: it sets one attribute and CSS does
+// the reordering. Stored per browser — wrapped in try/catch because private
+// windows and blocked site-data make localStorage throw rather than return null.
+(function () {
+  var KEY = "aperture-reader";
+  function apply(who) {
+    document.body.setAttribute("data-reader", who);
+    document.querySelectorAll("[data-reader-set]").forEach(function (b) {
+      b.setAttribute("aria-pressed", b.dataset.readerSet === who ? "true" : "false");
+    });
+  }
+  var saved = "ganges";
+  try { saved = localStorage.getItem(KEY) || "ganges"; } catch (e) {}
+  apply(saved);
+  document.querySelectorAll("[data-reader-set]").forEach(function (b) {
+    b.addEventListener("click", function () {
+      var who = b.dataset.readerSet;
+      try { localStorage.setItem(KEY, who); } catch (e) {}
+      apply(who);
+    });
+  });
+})();
+</script>
 </body>
 </html>
