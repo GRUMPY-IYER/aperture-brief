@@ -8,6 +8,14 @@ brand "Grumpy Iyer"; product manager, not a professional developer).
 being applied (data contract, idempotency, least privilege) rather than only the
 syntax. Show diffs before applying them.**
 
+## Working agreement
+
+Ganges reviews and pushes his own changes. Do NOT push to this repo — no
+`push_content.py` for source files, no API writes, no `git push`. Make the edit
+locally, say plainly what changed and why, and leave the commit to him. The one
+exception is the daily edition, which the cloud scheduled task publishes on its
+own.
+
 ## Architecture — content and presentation are separate
 
     content/YYYY-MM-DD.json   <- editorial content only. No HTML.
