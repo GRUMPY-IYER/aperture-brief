@@ -1,0 +1,64 @@
+name: Missing edition watchdog
+
+# Turns a silent failure into something that finds you. The 5am job failing is
+# invisible — the site just quietly keeps yesterday's edition. This checks a few
+# hours later and opens an issue if today's content never arrived.
+on:
+  schedule:
+    # 12:00 UTC = 8am New York in summer, 7am in winter. A few hours after the
+    # edition is due, so a slow run isn't reported as a failed one.
+    - cron: '0 12 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Did today's edition publish?
+        id: check
+        run: |
+          DATE=$(date -u +%F)
+          if [ -f "content/$DATE.json" ]; then
+            echo "Edition for $DATE is present."
+            echo "missing=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "No content/$DATE.json — the edition did not publish."
+            echo "missing=true" >> "$GITHUB_OUTPUT"
+          fi
+          echo "date=$DATE" >> "$GITHUB_OUTPUT"
+
+      - name: Open an issue
+        if: steps.check.outputs.missing == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DATE: ${{ steps.check.outputs.date }}
+        run: |
+          # Don't pile up duplicates if it fails several days running.
+          EXISTING=$(gh issue list --label missing-edition --state open --json number --jq 'length')
+          if [ "$EXISTING" != "0" ]; then
+            echo "An open missing-edition issue already exists; not filing another."
+            exit 0
+          fi
+          gh label create missing-edition --color B60205 --description "A daily edition did not publish" 2>/dev/null || true
+          gh issue create \
+            --title "No edition published for $DATE" \
+            --label missing-edition \
+            --body "The daily job did not produce \`content/$DATE.json\`.
+
+          The site is still showing the previous edition — nothing is broken, it just did not update.
+
+          Common causes:
+          - the scheduled task did not fire (a laptop-based task needs the machine awake)
+          - research ran but \`build.py\` rejected the edition and it was never fixed
+          - \`push_content.py\` failed to reach GitHub
+
+          To publish manually once the content exists:
+          \`\`\`
+          python3 push_content.py $DATE
+          \`\`\`"
