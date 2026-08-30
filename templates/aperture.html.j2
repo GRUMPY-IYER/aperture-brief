@@ -1,7 +1,7 @@
 {#- The Aperture — page template.
     Content comes from content/{date}.json. Layout/wording lives HERE only. -#}
-{%- macro item_top(it, tight=false) %}
-        <div class="top-item">
+{%- macro item_top(it, lede=false) %}
+        <div class="top-item{% if lede %} lede{% endif %}">
           <div class="source">{{ it.source }}{% if it.investigative %} <span class="investigative-flag">Investigative</span>{% endif %}</div>
           <h3><a href="{{ it.url }}" target="_blank">{{ it.headline }}</a></h3>
           <p class="blurb">{{ it.blurb }}</p>
@@ -34,11 +34,32 @@
             </div>
           </div>
 {%- endmacro %}
-{%- macro filler(name) %}
-        <div class="wildlife-filler">
-          <img src="{{ icon_prefix }}wildlife/{{ name }}" alt="">
-          <div class="caption">From the archive</div>
-        </div>
+{#- One photograph, at its true proportions. width/height are the real pixel
+    dimensions so the browser reserves the right box before it loads; the CSS
+    sizes by width with height:auto, so nothing is ever cropped to fit. -#}
+{%- macro photo(pic, cls) %}
+        <figure class="{{ cls }}{% if pic.portrait %} portrait{% endif %}">
+          <a href="https://grumpyiyer.com" target="_blank" rel="noopener">
+            <img src="{{ icon_prefix }}wildlife/{{ pic.file }}" width="{{ pic.w }}" height="{{ pic.h }}"
+                 alt="Wildlife photograph from the Grumpy Iyer archive" loading="lazy">
+          </a>
+          <figcaption>From the Field <span>&middot; Grumpy Iyer</span></figcaption>
+        </figure>
+{%- endmacro %}
+{#- The photography desk. Replaces filler photos: the same pictures, given a
+    standing section instead of being used to plug a layout hole. -#}
+{%- macro showcase_section(names) %}
+    <section class="showcase">
+      <h2>From the Field <span class="tag">photographs by Grumpy Iyer</span></h2>
+      <div class="frames">
+        {%- for pic in names %}
+        <a href="https://grumpyiyer.com" target="_blank" rel="noopener">
+          <img src="{{ icon_prefix }}wildlife/{{ pic.file }}" width="{{ pic.w }}" height="{{ pic.h }}"
+               alt="Wildlife photograph from the Grumpy Iyer archive" loading="lazy">
+        </a>
+        {%- endfor %}
+      </div>
+    </section>
 {%- endmacro %}
 {%- macro primer_box(primers) %}
       <div class="primer-box">
@@ -52,20 +73,34 @@
       </div>
 {%- endmacro %}
 {#- A standard two-column main section. Collapses to one column when there are no more-items. -#}
-{%- macro section_std(css, title, tag, top, more, fill) %}
+{#- A main-column section. All stories go in ONE flow container; the browser
+    balances the columns. `lede` promotes the first top story to full width. -#}
+{#- A main-column section. The lede plus the first few stories are visible;
+    the remainder sit behind a native <details> fold so the page stays short
+    without losing anything. No JavaScript, so archived editions keep working. -#}
+{%- macro section_std(css, title, tag, top, more, lede, section_photo=none) %}
+{%- set rest = top[1:] if (lede and top) else top %}
+{%- set shown = rest[:visible_after_lede] %}
+{%- set folded = rest[visible_after_lede:] %}
+{%- set folded_more = more %}
     <section class="{{ css }}">
       <h2>{{ title }}{% if tag %} <span class="tag">{{ tag }}</span>{% endif %}</h2>
-      <div class="cols">
-        <div>
-          {%- for it in top %}{{ item_top(it) }}{% endfor %}
-        </div>
-        {%- if more %}
-        <div class="more-col">
-          {%- for it in more %}{{ item_more(it) }}{% endfor %}
-          {%- if fill %}{{ filler(fill) }}{% endif %}
-        </div>
+      <div class="flow">
+        {%- if lede and top %}
+{{- item_top(top[0], true) }}
         {%- endif %}
+        {%- if section_photo %}{{ photo(section_photo, 'section-photo') }}{% endif %}
+        {%- for it in shown %}{{ item_top(it) }}{% endfor %}
       </div>
+      {%- if folded or folded_more %}
+      <details class="fold">
+        <summary>{{ (folded|length) + (folded_more|length) }} more in {{ title|striptags }}</summary>
+        <div class="flow">
+          {%- for it in folded %}{{ item_top(it) }}{% endfor %}
+          {%- for it in folded_more %}{{ item_more(it) }}{% endfor %}
+        </div>
+      </details>
+      {%- endif %}
     </section>
 {%- endmacro %}
 <!DOCTYPE html>
@@ -96,6 +131,23 @@
     font-family: Arial, sans-serif; font-size: 11px; color: #555; border: 1px solid #999;
     background: #fdfcf7; padding: 1px 4px; letter-spacing: normal; text-transform: none;
   }
+  /* Both columns are flex stacks so a reader preference can reorder them with
+     CSS `order` alone — no rebuild, no second page, and if JavaScript never
+     runs the document order below is what everyone sees. */
+  .main-col, .side-col { display: flex; flex-direction: column; }
+  .politics { order: 1; } .apu-corner-section { order: 2; }
+  .geo { order: 3; } .sports { order: 4; } .showcase { order: 9; }
+  .tech-desk { order: 1; } .science-desk { order: 2; }
+  .philosophy-desk { order: 3; } .entertainment { order: 4; }
+  /* Priya reads India first, and science before the technology desk. */
+  body[data-reader="priya"] .apu-corner-section { order: 1; }
+  body[data-reader="priya"] .politics { order: 2; }
+  body[data-reader="priya"] .science-desk { order: 1; }
+  body[data-reader="priya"] .tech-desk { order: 2; }
+  .reader-pick button { font-family: Arial, sans-serif; font-size: 11px; letter-spacing: .5px;
+    text-transform: uppercase; color: #555; background: none; border: 1px solid #bbb;
+    padding: 1px 6px; margin-left: 3px; cursor: pointer; }
+  .reader-pick button[aria-pressed="true"] { background: #1a1a1a; color: #fdfcf7; border-color: #1a1a1a; }
   .page { display: grid; grid-template-columns: 1.7fr 1fr; gap: 0; }
   @media (max-width: 900px) { .page { grid-template-columns: 1fr; } }
   .main-col { padding-right: 28px; border-right: 3px double #1a1a1a; }
@@ -108,9 +160,17 @@
     border-top: 3px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; padding: 5px 0; margin: 0 0 12px;
   }
   .tag { font-family: Arial, sans-serif; font-weight: normal; text-transform: none; letter-spacing: 0; font-size: 11px; color: #888; }
-  .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; align-items: start; }
-  .cols:has(> :only-child) { grid-template-columns: 1fr; }
-  @media (max-width: 900px) { .cols { grid-template-columns: 1fr; } }
+  /* One flowing container per section. The browser measures the content and
+     evens the two columns itself, so a section can gain or lose stories and
+     still come out level. Replaces two fixed lists that could never balance. */
+  .flow { columns: 2; column-gap: 22px; column-rule: 1px solid #ccc; }
+  .flow > div { break-inside: avoid; -webkit-column-break-inside: avoid; }
+  @media (max-width: 900px) { .flow { columns: 1; column-rule: none; } }
+  /* The day's lead story spans the full width above the flow. */
+  .lede { column-span: all; padding-bottom: 14px; margin-bottom: 16px;
+          border-bottom: 2px solid #1a1a1a; }
+  .lede h3 { font-size: 25px !important; line-height: 1.18; }
+  .lede .blurb { font-size: 14px; }
   .single { display: block; }
   .top-item { margin-bottom: 14px; padding-bottom: 12px; border-bottom: 1px dotted #ccc; }
   .top-item:last-child { border-bottom: none; }
@@ -121,8 +181,7 @@
   .blurb { margin: 4px 0 0; font-size: 13.5px; color: #333; line-height: 1.5; }
   .pm-note { margin: 5px 0 0; font-size: 12.5px; color: #444; font-style: italic; }
   .pm-note b { font-style: normal; color: #1a1a1a; }
-  .more-col { border-left: 2px solid #1a1a1a; padding-left: 18px; }
-  .more-item { margin-bottom: 11px; display: flex; gap: 8px; align-items: flex-start; }
+  .more-item { margin-bottom: 11px; padding-bottom: 10px; border-bottom: 1px dotted #ddd; display: flex; gap: 8px; align-items: flex-start; }
   .more-item img { width: 56px; height: auto; max-height: 78px; border-radius: 3px; flex-shrink: 0; display: block; }
   .more-item h4 { margin: 0; font-size: 13.5px; line-height: 1.3; }
   .more-item h4 a { color: #1a1a1a; text-decoration: none; }
@@ -139,8 +198,12 @@
   .tech h2 { color: #2b4a52; border-color: #2b4a52; font-size: 21px; }
   .tech .source { color: #2b4a52; }
   .tech .top-item h3 { font-size: 18px; }
+  .side-col .science h2, .side-col .science .source { color: #1f5f5b; border-color: #1f5f5b; font-size: 19px; }
+  .side-col .science .top-item h3 { font-size: 16px; }
   .side-col .consciousness h2, .side-col .consciousness .source { color: #4a2470; border-color: #4a2470; font-size: 19px; }
   .side-col .consciousness .top-item h3 { font-size: 16px; }
+  .side-col .entertainment h2 { font-size: 19px; }
+  .side-col .entertainment .top-item h3 { font-size: 16px; }
   .primer-box { background: #eef3f2; border: 1px solid #2b4a52; padding: 14px 16px; margin-top: 8px; }
   .primer-box h5 { margin: 0 0 8px; font-family: Arial, sans-serif; font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: #2b4a52; }
   .primer-item { margin-bottom: 10px; }
@@ -148,16 +211,43 @@
   .primer-item .term { font-weight: bold; font-size: 14px; }
   .primer-item p { margin: 2px 0 0; font-size: 12.5px; color: #444; line-height: 1.45; }
   .apu-sub { font-family: Arial, sans-serif; font-size: 9.5px; letter-spacing: 1px; text-transform: uppercase; color: #9c3d5c; font-weight: bold; margin: 10px 0 5px; }
-  .apu-corner { margin-top: 14px; padding-top: 12px; border-top: 1px dashed #9c3d5c; }
+  .apu-corner { column-span: all; margin-top: 14px; padding-top: 12px; border-top: 1px dashed #9c3d5c;
+                display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; align-items: start; }
+  @media (max-width: 900px) { .apu-corner { grid-template-columns: 1fr; } }
+  .apu-sub:first-child { margin-top: 0; }
   .apu-item { display: flex; gap: 8px; margin-bottom: 10px; align-items: flex-start; }
   .apu-item img { width: 56px; height: auto; max-height: 78px; border-radius: 3px; flex-shrink: 0; display: block; }
   .apu-item .apu-text h4 { margin: 0; font-size: 12.5px; line-height: 1.3; }
   .apu-item .apu-text h4 a { color: #1a1a1a; text-decoration: none; }
   .apu-item .apu-text p { margin: 3px 0 0; font-size: 11.5px; color: #555; }
   .apu-happy { background: #fdf6f9; border: 1px dashed #9c3d5c; padding: 8px 10px; border-radius: 4px; }
-  .wildlife-filler { margin-top: 10px; text-align: center; }
-  .wildlife-filler img { width: 100%; max-height: 110px; object-fit: cover; border-radius: 4px; display: block; }
-  .wildlife-filler .caption { font-family: Arial, sans-serif; font-size: 9px; color: #999; margin-top: 3px; letter-spacing: 0.5px; text-transform: uppercase; }
+  /* Photographs are sized by WIDTH ONLY, height:auto — their real aspect ratio
+     is preserved whatever it is (3:2, 4:3, 1:1, portrait). Never object-fit:
+     cover with a fixed height: that crops the subject out of the frame. */
+  .section-photo { margin: 0 0 14px; break-inside: avoid; }
+  .section-photo img { width: 100%; height: auto; display: block; border: 1px solid #e0dcd2; }
+  .section-photo.portrait img { max-width: 74%; margin: 0 auto; }
+  .section-photo figcaption, .showcase figcaption { font-family: Arial, sans-serif; font-size: 9.5px;
+    letter-spacing: 1px; text-transform: uppercase; color: #4a5d3a; font-weight: bold; margin-top: 5px; }
+  .section-photo figcaption span, .showcase figcaption span { color: #6b6157; font-weight: normal; }
+  /* Everything past the fold. Native <details> — no JavaScript, so archived
+     editions keep working forever. */
+  details.fold { margin-top: 10px; }
+  details.fold > summary { font-family: Arial, sans-serif; font-size: 11px; letter-spacing: 1px;
+    text-transform: uppercase; font-weight: bold; color: #6b6157; cursor: pointer;
+    padding: 6px 0; border-top: 1px solid #ccc; list-style: none; }
+  details.fold > summary::-webkit-details-marker { display: none; }
+  details.fold > summary::after { content: " \002B"; font-size: 13px; }
+  details.fold[open] > summary::after { content: " \2212"; }
+  details.fold > summary:hover { color: #1a1a1a; }
+  details.fold > .flow { padding-top: 10px; }
+  .showcase h2 { color: #4a5d3a; border-color: #4a5d3a; }
+  .showcase .tag { color: #6b6157; }
+  .showcase .frames { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; align-items: start; }
+  @media (max-width: 700px) { .showcase .frames { grid-template-columns: 1fr 1fr; } }
+  .showcase .frames a { display: block; }
+  .showcase .frames img { width: 100%; height: auto; display: block; border: 1px solid #e0dcd2; }
+  @media (max-width: 700px) { .showcase .frames a:first-child { grid-column: 1 / -1; } }
 </style>
 </head>
 <body>
@@ -166,31 +256,39 @@
   <h1 class="masthead">The Aperture</h1>
   <div class="dateline-row">
     <span>{{ date_long }}</span>
-    <span>Edifying Eddies</span>
+    <span class="reader-pick">Reading order:
+      <button type="button" data-reader-set="ganges">Ganges</button>
+      <button type="button" data-reader-set="priya">Priya</button>
+    </span>
     <span class="archive-nav">Browse editions: <input type="date" id="archive-date" min="{{ archive_min }}" max="{{ date }}" value="{{ date }}" onchange="if(this.value) location.href = '{{ archive_prefix }}' + this.value + '.html'"></span>
   </div>
 </header>
 <div class="page">
   <div class="main-col">
-{{- section_std('politics', 'US Politics', none, s.politics.top, s.politics.more, fill.politics) }}
+{{- section_std('politics', 'US Politics', none, s.politics.top, s.politics.more, lede.politics, showcase[0] if showcase else none) }}
     <section class="apu-corner-section">
       <h2>Apu's Corner</h2>
       <div class="apu-sub">India</div>
-      <div class="cols">
-        <div>
-          {%- for it in s.india.top %}{{ item_top(it) }}{% endfor %}
-        </div>
-        <div class="more-col">
-          {%- for it in s.india.more %}{{ item_more(it) }}{% endfor %}
-          <div class="apu-corner">
+      <div class="flow">
+        {%- if s.india.top %}
+{{- item_top(s.india.top[0], true) }}
+        {%- for it in s.india.top[1:] %}{{ item_top(it) }}{% endfor %}
+        {%- endif %}
+        {%- for it in s.india.more %}{{ item_more(it) }}{% endfor %}
+        <div class="apu-corner">
+          <div>
             {%- if s.bengal %}
             <div class="apu-sub">Bengal</div>
             {%- for it in s.bengal %}{{ item_apu(it) }}{% endfor %}
             {%- endif %}
+          </div>
+          <div>
             {%- if s.travel %}
             <div class="apu-sub">Travel</div>
             {%- for it in s.travel %}{{ item_apu(it) }}{% endfor %}
             {%- endif %}
+          </div>
+          <div>
             {%- if s.happy %}
             <div class="apu-sub">A Happy Story <span class="tag">for no reason at all</span></div>
             <div class="apu-happy">
@@ -198,15 +296,15 @@
             </div>
             {%- endif %}
           </div>
-          {%- if fill.apu %}{{ filler(fill.apu) }}{% endif %}
         </div>
       </div>
     </section>
-{{- section_std('geo', 'Geopolitics', none, s.geo.top, s.geo.more, fill.geo) }}
-{{- section_std('sports', 'Cricket', none, s.sports.top, s.sports.more, fill.sports) }}
-{{- section_std('entertainment', 'Entertainment &amp; Culture', none, s.entertainment.top, s.entertainment.more, fill.entertainment) }}
+{{- section_std('geo', 'Geopolitics', none, s.geo.top, s.geo.more, lede.geo) }}
+{{- section_std('sports', 'Cricket', none, s.sports.top, s.sports.more, lede.sports) }}
+{%- if showcase[1:] %}{{ showcase_section(showcase[1:]) }}{% endif %}
   </div>
   <div class="side-col">
+    <div class="desk tech-desk">
     <div class="tech-masthead">— Technology Desk —</div>
     <section class="tech">
       <h2>Top Tech</h2>
@@ -220,15 +318,57 @@
       <h2>Tech 101 <span class="tag">for newbies</span></h2>
 {{- primer_box(s.tech_101) }}
     </section>
+    </div>
+    <div class="desk science-desk">
+    {%- if s.science %}
+    <section class="science">
+      <h2>Science</h2>
+      {%- for it in s.science %}{{ item_top(it) }}{% endfor %}
+    </section>
+    {%- endif %}
+    </div>
+    <div class="desk philosophy-desk">
     <section class="consciousness">
-      <h2>Philosophy &amp; Science</h2>
+      <h2>Philosophy</h2>
       {%- for it in s.philosophy %}{{ item_top(it) }}{% endfor %}
     </section>
-    <section class="consciousness" style="border-bottom: none;">
+    <section class="consciousness">
       <h2>Philosophy 101 <span class="tag">for newbies</span></h2>
 {{- primer_box(s.philosophy_101) }}
     </section>
+    </div>
+    {#- Entertainment moved here from the main column: rendered flat (no flow,
+        no lede) like the tech sections, to fill the side column's tail. -#}
+    <section class="entertainment" style="border-bottom: none;">
+      <h2>Entertainment &amp; Culture</h2>
+      {%- for it in s.entertainment.top %}{{ item_top(it) }}{% endfor %}
+      {%- for it in s.entertainment.more %}{{ item_more(it) }}{% endfor %}
+    </section>
   </div>
 </div>
+<script>
+// Reader preference. Purely presentational: it sets one attribute and CSS does
+// the reordering. Stored per browser — wrapped in try/catch because private
+// windows and blocked site-data make localStorage throw rather than return null.
+(function () {
+  var KEY = "aperture-reader";
+  function apply(who) {
+    document.body.setAttribute("data-reader", who);
+    document.querySelectorAll("[data-reader-set]").forEach(function (b) {
+      b.setAttribute("aria-pressed", b.dataset.readerSet === who ? "true" : "false");
+    });
+  }
+  var saved = "ganges";
+  try { saved = localStorage.getItem(KEY) || "ganges"; } catch (e) {}
+  apply(saved);
+  document.querySelectorAll("[data-reader-set]").forEach(function (b) {
+    b.addEventListener("click", function () {
+      var who = b.dataset.readerSet;
+      try { localStorage.setItem(KEY, who); } catch (e) {}
+      apply(who);
+    });
+  });
+})();
+</script>
 </body>
 </html>
