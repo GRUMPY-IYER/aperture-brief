@@ -1,0 +1,287 @@
+{
+  "date": "2026-08-30",
+  "sections": {
+    "politics": {
+      "top": [
+        {
+          "headline": "911 calls from inside a Texas immigrant tent camp, released",
+          "url": "https://www.propublica.org/article/911-calls-camp-east-montana-texas-detention",
+          "source": "ProPublica",
+          "blurb": "ProPublica obtained and published emergency calls placed from Camp East Montana, the soft-sided immigration detention camp in Texas, in which callers describe medical crises as they unfold. It matters because the tent camps have been built far faster than any oversight regime that covers them: a 911 recording is currently one of the only independent records of what happens inside one.",
+          "investigative": true
+        },
+        {
+          "headline": "Trump labels an Italian web host a foreign 'terror' group",
+          "url": "https://theintercept.com/2026/08/28/trump-antifa-terrorist-websites-free-speech/",
+          "source": "The Intercept",
+          "blurb": "The administration applied a foreign terrorist designation to an Italian web-hosting provider used by antifascist sites, which in practice makes it a crime for Americans to pay it for service. The move tests whether terrorism designations can be aimed at infrastructure rather than at people, and whether hosting is speech.",
+          "investigative": true
+        },
+        {
+          "headline": "Judge refuses to move Trump's hush-money case to federal court",
+          "url": "https://www.aljazeera.com/news/2026/8/29/us-judge-rejects-trumps-bid-to-switch-hush-money-case-to-federal-court",
+          "source": "Al Jazeera",
+          "blurb": "A US judge rejected Trump's renewed attempt to shift his New York hush-money conviction into federal court on immunity grounds. The ruling keeps the case, and the appeal that follows it, inside the state system Trump has spent two years trying to escape."
+        }
+      ],
+      "more": [
+        {
+          "headline": "Western North Carolina asked for storm relief and got ICE",
+          "url": "https://theintercept.com/2026/08/29/hurricane-helene-ice-asheville-nc-g20-trump/",
+          "source": "The Intercept",
+          "blurb": "Asheville and the surrounding counties, still rebuilding after Hurricane Helene, found federal attention arriving in the form of immigration enforcement rather than recovery money. The pairing shows how disaster aid has become leverage.",
+          "investigative": true
+        },
+        {
+          "headline": "Local jails re-book immigrants to stretch a 72-hour limit",
+          "url": "https://www.propublica.org/article/immigrants-rebooking-ice-jails-florida",
+          "source": "ProPublica",
+          "blurb": "Florida jails that agreed to hold people for ICE for no more than 72 hours have been releasing and immediately re-booking them, resetting the clock. The paperwork trick turns a legal ceiling into a formality.",
+          "investigative": true
+        }
+      ]
+    },
+    "india": {
+      "top": [
+        {
+          "headline": "BJP workers filed mass deletion requests against Muslim voters in Odisha",
+          "url": "https://www.reporters-collective.in/trc/bjp-targets-muslim-voters-for-deletion",
+          "source": "The Reporters' Collective",
+          "blurb": "In Bhadrak constituency, party workers filed hundreds of digitally generated Form 7 applications seeking the deletion of Muslim voters during the roll revision; when booth officers confirmed the objections were bogus, district authorities ordered the targeted voters re-verified rather than prosecuting anyone. The pattern has now surfaced in several states without a single known indictment, which is the story: the cost of filing a fraudulent objection is zero, and the burden lands on the voter.",
+          "image": "https://cdn.prod.website-files.com/600865f0dc1db856edc28cd0/6a92ac61852082eebba492c6_Hero.webp",
+          "investigative": true
+        },
+        {
+          "headline": "Uttarakhand SIR: 35 people's identities used to object to Muslim voters",
+          "url": "https://www.newslaundry.com/2026/08/28/exclusive-bjp-agents-identities-misused-to-file-mass-objections-against-haridwars-muslim-voters",
+          "source": "Newslaundry",
+          "blurb": "Nearly half the objections to the electoral roll in Haridwar's Jhabrera seat traced back to 35 named individuals, several of whom told Newslaundry their identities had been used without their knowledge. Read alongside the Odisha reporting, it suggests mass objection filing is a technique being run in parallel rather than a local excess.",
+          "investigative": true
+        },
+        {
+          "headline": "Rahul Gandhi seeks an FIR over a 'purification' ritual after Kharge's rally",
+          "url": "https://scroll.in/latest/1095351/rahul-gandhi-demands-fir-under-sc-st-act-over-purification-after-mallikarjun-kharge-rally",
+          "source": "Scroll.in",
+          "blurb": "Congress says the stage used by its president Mallikarjun Kharge at an Uttarakhand rally was ritually 'purified' after he left, and has demanded a case under the SC/ST (Prevention of Atrocities) Act. The demand puts caste, not the rally, at the centre of the Uttarakhand campaign."
+        }
+      ],
+      "more": [
+        {
+          "headline": "Supreme Court orders a survey of India's elephant corridors",
+          "url": "https://india.mongabay.com/short-article/2026/08/court-orders-survey-of-elephant-corridors-seeks-ban-on-fireball-use/",
+          "source": "Mongabay India",
+          "blurb": "The court has told the Environment Ministry to survey elephant corridors and report obstructions by 14 October, and asked for a view on banning burning 'fireballs' as a crowd deterrent. It is the first time the corridors have been given a court-supervised deadline.",
+          "image": "https://imgs.mongabay.com/wp-content/uploads/sites/30/2026/08/28132118/1280px-Pachyderms-350x233.jpg"
+        }
+      ]
+    },
+    "geo": {
+      "top": [
+        {
+          "headline": "Russian strike near Kyiv kills 37 in one of the year's deadliest attacks",
+          "url": "https://www.npr.org/2026/08/29/nx-s1-5948714/russian-strike-kyiv",
+          "source": "NPR",
+          "blurb": "A strike on a warehouse outside Kyiv killed at least 37 people, the highest single-attack toll of the year, in a week of sustained drone and missile pressure on the capital region. The tempo matters more than the target: it is being read in Kyiv as an attempt to set the terms of any winter negotiation."
+        },
+        {
+          "headline": "Gunfire and explosions across Niamey as Niger's government reports a failed coup",
+          "url": "https://www.aljazeera.com/news/2026/8/29/gunfire-blasts-heard-in-several-areas-of-niger-capital-niamey",
+          "source": "Al Jazeera",
+          "blurb": "Fighting was reported near the airport and the presidential compound in Niger's capital before authorities said the attempt had been put down. Niger's junta is the linchpin of the Sahel's post-coup bloc, and an unstable Niamey unsettles Mali and Burkina Faso with it."
+        },
+        {
+          "headline": "Iran's leadership concedes the war's economic cost, pledges diplomacy and rearmament",
+          "url": "https://www.aljazeera.com/news/2026/8/29/irans-leaders-acknowledge-economic-toll-of-war-pledge-diplomacy-defence",
+          "source": "Al Jazeera",
+          "blurb": "Senior Iranian figures publicly acknowledged the damage the war has done to the economy while promising both negotiation and military rebuilding. The admission is unusual and is the clearest signal yet that Tehran is preparing its public for talks."
+        }
+      ],
+      "more": [
+        {
+          "headline": "Iceland votes on whether to restart EU accession talks",
+          "url": "https://www.npr.org/2026/08/29/nx-s1-5948759/iceland-european-union-referendum-vote",
+          "source": "NPR",
+          "blurb": "Icelanders went to the polls in a referendum on reopening membership negotiations frozen since 2015, with the result expected to be extremely close. Fisheries sovereignty, not economics, is the argument that decides it."
+        }
+      ]
+    },
+    "sports": {
+      "top": [
+        {
+          "headline": "England build past a 350 lead at Lord's on a rain-ravaged day",
+          "url": "https://www.cricinfo.com/series/pakistan-tour-in-england-2026-1496563/england-vs-pakistan-2nd-test-1496583/live-cricket-score",
+          "source": "ESPNcricinfo",
+          "blurb": "Dan Lawrence's unbeaten half-century pushed England's advantage over Pakistan beyond 350 at stumps on a third day that lost hours to weather. With a day and a bit left and England already one up in the series, the question is whether the rain, not Pakistan, saves the tourists."
+        },
+        {
+          "headline": "Brevis anchors South Africa against Zimbabwe in the Namibia tri-series",
+          "url": "https://www.cricinfo.com/series/namibia-t20i-tri-series-aug-2026-2026-1549518/south-africa-vs-zimbabwe-2nd-match-1549525/full-scorecard",
+          "source": "ESPNcricinfo",
+          "blurb": "Dewald Brevis made an unbeaten 75 in the second match of the T20I tri-series at Windhoek, South Africa's first outing since Namibia beat them in the opener. It is a low-stakes series being used to settle a top order before a much heavier T20 calendar."
+        }
+      ],
+      "more": []
+    },
+    "entertainment": {
+      "top": [
+        {
+          "headline": "How America mourned Dolly Parton, in Nashville and beyond",
+          "url": "https://www.npr.org/2026/08/29/g-s1-140345/dolly-parton-appreciation-remembrance-tribute",
+          "source": "NPR",
+          "blurb": "NPR's appreciation traces the public response to Parton's death, from Nashville's Ryman to the literacy programme she funded for four decades. The piece is worth reading for what it says about the rare figure who stayed legible to audiences who agreed on almost nothing else."
+        },
+        {
+          "headline": "'Padatik' review: a half-done portrait of Mrinal Sen",
+          "url": "https://scroll.in/reel/1095324/review-padatik-is-a-half-done-portrait-of-the-iconic-director-mrinal-sen",
+          "source": "Scroll.in",
+          "blurb": "Srijit Mukherji's biopic of the Bengali director, now on Zee5, gets the man's face right and his politics only in outline, the review argues. Sen spent his career refusing the tidy narrative this film gives him."
+        }
+      ],
+      "more": [
+        {
+          "headline": "Dolly Parton wanted to be remembered as a songwriter",
+          "url": "https://www.smithsonianmag.com/arts-culture/dolly-parton-was-one-of-the-biggest-stars-in-the-history-of-country-music-she-wanted-to-be-remembered-as-a-songwriter-180989405/",
+          "source": "Smithsonian Magazine",
+          "blurb": "A useful corrective to the persona: the catalogue, not the wigs, is what Parton herself put forward. It also explains why she kept her publishing when nearly nobody else did."
+        }
+      ]
+    },
+    "bengal": [
+      {
+        "headline": "From NCC to 'surgical strike': how the BJP is reshaping Bengal's campuses",
+        "url": "https://thefederal.com/category/states/east/west-bengal/from-ncc-to-surgical-strike-bjp-steps-up-push-to-reshape-west-bengals-campuses-255082",
+        "source": "The Federal",
+        "blurb": "Samir K Purkayastha's bylined ground report counts party appointees on the governing bodies of 247 colleges, Syama Prasad Mookerjee's addition to curricula, and ABVP's growth from 96 campuses to more than 400. It is the slow, institutional half of the Bengal contest that election coverage tends to skip."
+      },
+      {
+        "headline": "Mamata gives Anandabazar Patrika 24 hours to apologise over a headline",
+        "url": "https://scroll.in/latest/1095352/apologise-within-24-hours-bengal-cm-to-anandabazar-patrika-for-saffron-hooliganism-headline",
+        "source": "Scroll.in",
+        "blurb": "The chief minister demanded an apology from Bengal's largest-circulation daily for a front page describing the Jadavpur University clash as 'saffron hooliganism'. A sitting CM setting a deadline for a newspaper is the story, whichever way the clash is read."
+      }
+    ],
+    "travel": [
+      {
+        "headline": "Unusual places to have a picnic, from a Roman aqueduct to a salt flat",
+        "url": "https://www.atlasobscura.com/articles/unusual-picnic-places-around-the-world",
+        "source": "Atlas Obscura",
+        "blurb": "A round-up of places where the point of the meal is the ground you eat it on. Better than most listicles because each entry is a place you could actually reach."
+      },
+      {
+        "headline": "Western Ghats frogs sort themselves by size in order to coexist",
+        "url": "https://india.mongabay.com/short-article/2026/08/western-ghats-frogs-sort-by-size-to-coexist-study-finds/",
+        "source": "Mongabay India",
+        "blurb": "Closely related dancing-frog species sharing the same streams turn out to differ consistently in body size, which is how they avoid competing for the same food. It is a small, clean demonstration of how a hotspot packs so many species into so little water.",
+        "image": "https://imgs.mongabay.com/wp-content/uploads/sites/30/2026/08/28133509/Micrixalus-kottigeharensis_Dhritiman-Mukherjee_1-350x233.jpg"
+      }
+    ],
+    "happy": {
+      "headline": "Stalked by a Grizzly",
+      "url": "https://www.atlasobscura.com/articles/posts/stalked-by-a-grizzly",
+      "source": "Atlas Obscura",
+      "blurb": "J.R. Harris, who has spent fifty years walking into wilderness alone, describes five days in Denali shadowed by a grizzly and one night in a tent certain he would not see morning. What he takes from it is not a survival lesson but a change of standing: he was the visitor, and the bear let him stay.",
+      "image": "https://img.atlasobscura.com/Ro4x9HnDyID72spnPsppM6olqMBEXbqG_n_f9BlWt8E/rs:fill:1200:630/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cnNhL2NyZWF0b3Jf/YXJ0aWNsZXMvMjAy/Ni0wOC0yNy83YTJh/ZGZmNi02YTUxLTRj/M2YtYTcyYS1jZTlk/YTExMjc4NjRfSU1H/XzAwNDEuSlBH.jpg"
+    },
+    "tech_top": [
+      {
+        "headline": "OpenAI cuts Cursor off from its models after SpaceX buys it",
+        "url": "https://gvwire.com/2026/08/29/openai-to-cut-off-ai-models-for-spacex-owned-cursor-escalating-feud-with-musk/",
+        "source": "GV Wire",
+        "blurb": "OpenAI says it will stop serving its models to Cursor, citing contract compliance, days after SpaceX acquired the coding tool; Anthropic said it would expand Claude's availability inside Cursor to cover the gap. The Altman-Musk feud is the headline, but the mechanism is the point: a product's core capability was switched off by a supplier, not by a regulator.",
+        "image": "https://gvwire.com/wp-content/uploads/2026/08/Openai-to-Cut-off-Ai-Models-for-Spacex-Owned-Cursor-Escalating-Feud-With-Musk.jpg",
+        "pm_note": "If your product's key feature is somebody else's model behind an API, your roadmap has a single point of failure that no amount of engineering rigour removes. The mitigation is not loyalty, it is an abstraction layer and a tested second provider before you need one."
+      },
+      {
+        "headline": "Nvidia's advantage is moving off the GPU and into the rack",
+        "url": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/",
+        "source": "TechCrunch",
+        "blurb": "The competitive moat is shifting from the chip to the interconnect, the networking and the software that make thousands of chips behave as one machine. Rivals who match Nvidia on raw silicon still have to match it on everything wrapped around the silicon.",
+        "pm_note": "When you are told a competitor 'has the same chip', ask what the unit of comparison is. In AI infrastructure the sellable unit is increasingly the rack, not the accelerator, and that is where cost-per-token is actually decided."
+      },
+      {
+        "headline": "An Anthropic researcher shows what self-improving AI looks like in practice",
+        "url": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/",
+        "source": "TechCrunch",
+        "blurb": "A walkthrough of models being used to improve the training and evaluation of their successors, and of how modest and bounded that loop currently is. Useful mainly as an antidote to both the hype and the doom framings.",
+        "pm_note": "'Self-improving' in shipping systems means models writing evals, generating training data and triaging failures — not autonomy. Treat it as a build-speed variable in your planning, not a capability jump."
+      }
+    ],
+    "tech_more": [
+      {
+        "headline": "Most Americans oppose police licence-plate cameras, survey finds",
+        "url": "https://techcrunch.com/2026/08/28/more-americans-oppose-police-license-plate-cameras-than-support-them-survey/",
+        "source": "TechCrunch",
+        "blurb": "Opposition to automated licence-plate readers now outweighs support, even though the networks have already been deployed in thousands of jurisdictions. Deployment ran ahead of consent, and the polling is catching up after the fact."
+      },
+      {
+        "headline": "Cocomelon's studio tells its artists to start experimenting with AI",
+        "url": "https://www.404media.co/cocomelons-studio-tells-its-artists-to-start-experimenting-with-ai/",
+        "source": "404 Media",
+        "blurb": "Moonbug's animation staff were instructed to begin using generative tools, with the company promising human oversight. Children's animation is high-volume and low-variation work, which makes it the first place this arrives at scale."
+      }
+    ],
+    "tech_101": [
+      {
+        "term": "Model dependency (and the abstraction layer)",
+        "text": "Most AI products do not own a model; they rent one over an API. If the supplier changes its terms, its price or its mind — as OpenAI just did with Cursor — the product's central feature can stop working without a line of your own code changing. The defence is an abstraction layer: a thin internal interface your app talks to, with adapters behind it for two or more providers, so switching is a config change rather than a rewrite. The cost is that you can only use features every provider supports."
+      },
+      {
+        "term": "Interconnect",
+        "text": "Training a large model needs thousands of chips working on one problem, which means they must constantly exchange partial results. The wiring and switching that carries that traffic is the interconnect, and once a cluster is big enough it, not the chips, is the bottleneck — the processors sit idle waiting for data. This is why AI hardware is increasingly sold and compared by the rack rather than by the chip."
+      }
+    ],
+    "science": [
+      {
+        "headline": "Every one of 212 plant-based meat products carried fungal toxins",
+        "url": "https://www.sciencedaily.com/releases/2026/08/260828005216.htm",
+        "source": "ScienceDaily",
+        "blurb": "Researchers screened 212 plant-based meat alternatives and detected naturally occurring mycotoxins in all of them, though at levels below EU guidance. The finding is less an alarm than a mapping exercise: these toxins ride in with the grain and legume inputs, so the question it raises is about sourcing and processing rather than about the category.",
+        "kind": "chemistry"
+      },
+      {
+        "headline": "NASA's Roman telescope will survey 100 times more sky than Hubble",
+        "url": "https://www.sciencedaily.com/releases/2026/08/260828082333.htm",
+        "source": "ScienceDaily",
+        "blurb": "The Nancy Grace Roman Space Telescope pairs Hubble-class resolution with a field of view two orders of magnitude wider, which turns deep imaging from a targeted activity into a survey. Its main yield is expected to be statistical: populations of exoplanets and a dark-energy measurement built from very large numbers rather than single spectacular objects.",
+        "kind": "space"
+      },
+      {
+        "headline": "Light-activated eye drops restore vision in blind mice",
+        "url": "https://www.sciencedaily.com/releases/2026/08/260828005224.htm",
+        "source": "ScienceDaily",
+        "blurb": "A photoswitch delivered as a simple eye drop restored light responses in mice with degenerated photoreceptors, with no gene therapy or implant involved. A drop is reversible, cheap and adjustable in a way a viral vector is not, which is why this route is being pursued even though it is far behind gene therapy in the clinic.",
+        "kind": "medicine"
+      }
+    ],
+    "philosophy": [
+      {
+        "headline": "Natural-born existentialists",
+        "url": "https://aeon.co/essays/how-evolutionary-biology-makes-everyone-an-existentialist",
+        "source": "Aeon",
+        "blurb": "Ronnie de Sousa argues that ethics cannot be grounded in human nature because evolutionary biology gives us no fixed nature to ground it in — what it gives us is variation. If he is right, the appeal to 'what humans are really like' that runs through most moral argument is empty, and we are left choosing."
+      },
+      {
+        "headline": "Sasquatch science",
+        "url": "https://aeon.co/essays/the-surprisingly-scientific-methods-of-bigfooters",
+        "source": "Aeon",
+        "blurb": "Two sociologists spent time with Bigfoot hunters and found them running careful, disciplined, genuinely empirical fieldwork on an object that probably does not exist. It is a sharp way into the demarcation problem: method alone does not separate science from what merely resembles it."
+      },
+      {
+        "headline": "You can only truly master one thing, according to Epictetus",
+        "url": "https://bigthink.com/thinking/mastery-epictetus/",
+        "source": "Big Think",
+        "blurb": "A plain reading of the Stoic dichotomy of control: almost nothing is up to you, and the small remainder that is — your judgements — is the only place mastery is available. Worth reading against de Sousa above, since it makes the opposite bet about how much of a self there is to work with."
+      }
+    ],
+    "philosophy_101": [
+      {
+        "term": "The demarcation problem",
+        "text": "How do you tell science from things that look like science? Karl Popper's answer was falsifiability — a real scientific claim tells you in advance what would prove it wrong. The trouble, which the Bigfoot piece illustrates, is that careful observation, instruments and record-keeping can all be present while the enterprise still fails to be science, and no single criterion has ever cleanly drawn the line."
+      },
+      {
+        "term": "The dichotomy of control",
+        "text": "The Stoic division of the world into what is 'up to us' (our judgements, intentions and assent) and what is not (our body, reputation, the behaviour of others, outcomes). The practical claim is that suffering comes from treating the second category as if it were the first. The standard objection is that the line is drawn far too tightly — almost everything anyone cares about ends up on the far side of it."
+      }
+    ]
+  }
+}
