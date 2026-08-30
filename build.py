@@ -28,11 +28,29 @@ DEDUPE_DAYS = 3               # don't reuse a URL from the last N editions
 HARD_PAYWALL = ["nytimes.com", "wsj.com", "ft.com", "nature.com/articles",
                 "economist.com", "variety.com", "hollywoodreporter.com",
                 "theathletic.com", "theinformation.com"]
-# URLs that are section fronts / tag pages rather than a specific article
-HUB_PATTERNS = [r"/tag/", r"/topics?/$", r"/category/", r"wikipedia\.org",
+# Telling a section front from an article by URL alone is not fully solvable,
+# so this is a WARNING, not a failure — the judgement stays with the editor.
+# A bare "/category/" rule was wrong: The Federal, a named Bengal source, puts
+# /category/states/east/west-bengal/ in the path of real bylined articles.
+# What IS reliable: a bare domain, a /tag/ or /topic/ leaf, Wikipedia standing in
+# for reporting, and a final path segment that is a single bare word ("/tech",
+# "/world") where an article slug would carry hyphens or an id.
+HUB_PATTERNS = [r"/tags?/[^/]*/?$", r"/topics?/[^/]*/?$", r"wikipedia\.org",
                 r"^https?://[^/]+/?$"]
 
-# Sections whose JSON carries the top/more shape (drives validation coverage).
+
+def looks_like_hub(url):
+    import urllib.parse
+    if any(re.search(p, url) for p in HUB_PATTERNS):
+        return True
+    path = urllib.parse.urlparse(url).path.strip("/")
+    if not path:
+        return True
+    last = path.split("/")[-1]
+    # An article slug almost always carries a hyphen or a numeric id.
+    return "-" not in last and not any(c.isdigit() for c in last)
+
+
 SECTIONS_WITH_COLS = ["politics", "india", "geo", "sports", "entertainment"]
 # Of those, the ones rendered in the main column's two-column flow. Entertainment
 # now lives in the side column, rendered flat like the tech sections, so it has
@@ -173,10 +191,8 @@ def check(date, s):
         url = it.get("url", "")
         if url and not url.startswith("http"):
             errors.append(f"{bucket}: url is not absolute — {url}")
-        for pat in HUB_PATTERNS:
-            if url and re.search(pat, url):
-                warnings.append(f"{bucket}: url looks like a hub/tag page, not an article — {url}")
-                break
+        if url and looks_like_hub(url):
+            warnings.append(f"{bucket}: url looks like a section front rather than an article — {url}")
         for dom in HARD_PAYWALL:
             if dom in url:
                 errors.append(f"{bucket}: hard-paywalled domain — {url}")
