@@ -139,11 +139,11 @@
   .geo { order: 3; } .sports { order: 4; } .showcase { order: 9; }
   .tech-desk { order: 1; } .science-desk { order: 2; }
   .philosophy-desk { order: 3; } .entertainment { order: 4; }
-  /* Priya reads India first, and science before the technology desk. */
-  body[data-reader="priya"] .apu-corner-section { order: 1; }
-  body[data-reader="priya"] .politics { order: 2; }
-  body[data-reader="priya"] .science-desk { order: 1; }
-  body[data-reader="priya"] .tech-desk { order: 2; }
+  /* Apu reads India first, and science before the technology desk. */
+  body[data-reader="apu"] .apu-corner-section { order: 1; }
+  body[data-reader="apu"] .politics { order: 2; }
+  body[data-reader="apu"] .science-desk { order: 1; }
+  body[data-reader="apu"] .tech-desk { order: 2; }
   .reader-pick button { font-family: Arial, sans-serif; font-size: 11px; letter-spacing: .5px;
     text-transform: uppercase; color: #555; background: none; border: 1px solid #bbb;
     padding: 1px 6px; margin-left: 3px; cursor: pointer; }
@@ -258,7 +258,7 @@
     <span>{{ date_long }}</span>
     <span class="reader-pick">Reading order:
       <button type="button" data-reader-set="ganges">Ganges</button>
-      <button type="button" data-reader-set="priya">Priya</button>
+      <button type="button" data-reader-set="apu">Apu</button>
     </span>
     <span class="archive-nav">Browse editions: <input type="date" id="archive-date" min="{{ archive_min }}" max="{{ date }}" value="{{ date }}" onchange="if(this.value) location.href = '{{ archive_prefix }}' + this.value + '.html'"></span>
   </div>
