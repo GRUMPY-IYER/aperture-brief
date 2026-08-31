@@ -1,0 +1,257 @@
+{
+  "date": "2026-08-31",
+  "sections": {
+    "politics": {
+      "top": [
+        {
+          "headline": "Milo Yiannopoulos deported after overstaying US visa",
+          "url": "https://www.npr.org/2026/08/29/nx-s1-5948731/milo-yiannopoulos-arrested-overstaying-us-visa",
+          "source": "NPR",
+          "blurb": "The far-right commentator and vocal supporter of Trump's immigration crackdown was arrested and deported for overstaying his visa and skipping an immigration hearing. ICE said he entered legally in 2019 but never left."
+        },
+        {
+          "headline": "AOC shakes up her team ahead of a 2028 decision",
+          "url": "https://www.axios.com/2026/08/28/aoc-staff-changes-2028-decision",
+          "source": "AXIOS",
+          "blurb": "Rep. Alexandria Ocasio-Cortez's longtime campaign manager is departing as she rebuilds her operation around aides with experience on Bernie Sanders' presidential runs, a clear signal she is weighing a Senate or White House bid."
+        },
+        {
+          "headline": "ICE inks $16.7M shock-glove deal despite senators' concerns",
+          "url": "https://www.axios.com/2026/08/28/ice-electric-shock-gloves-purchase",
+          "source": "AXIOS",
+          "blurb": "Sixteen senators warned that a device \"capable of delivering an electrical shock\" is a serious liability given ICE's record on use of force, but the agency signed the contract anyway, saying it is meant for de-escalation."
+        }
+      ],
+      "more": [
+        {
+          "headline": "Why is crime falling? The answers aren't simple",
+          "url": "https://www.themarshallproject.org/2026/08/29/police-crime-drop-cause-california",
+          "source": "THE MARSHALL PROJECT",
+          "blurb": "Violent crime has hit its steepest year-over-year drop since the FBI began tracking it in the 1930s, and researchers say no single policy — despite both parties' midterm claims — explains why."
+        },
+        {
+          "headline": "Canada claps back at Trump's push to rename Lake Ontario",
+          "url": "https://www.npr.org/2026/08/30/nx-s1-5949254/lake-ontario-america-doug-ford-trump-sign-google",
+          "source": "NPR",
+          "blurb": "Ontario's premier answered Trump's executive order renaming Lake Ontario \"Lake America\" with a billboard reading \"Lake Ontario — Now and Always,\" as the rename lands only on US versions of Google Maps."
+        }
+      ]
+    },
+    "india": {
+      "top": [
+        {
+          "headline": "Nepal flood: 149 Indians rescued, 500 more safe in China",
+          "url": "https://scroll.in/latest/1095364/nepal-flood-149-indians-rescued-another-500-safe-in-china",
+          "source": "SCROLL.IN",
+          "blurb": "India's tunnel rescue team is still searching for workers trapped in Nepali hydropower facilities after glacial flash floods killed 768 people and left nearly 3,000 missing, including 275 Indians."
+        },
+        {
+          "headline": "What a 13% rainfall deficit means for India's kharif crop",
+          "url": "https://www.newslaundry.com/2026/08/31/what-does-a-13-rainfall-deficit-mean-for-indias-kharif-crop",
+          "source": "NEWSLAUNDRY",
+          "blurb": "Sown acreage looks normal on paper, but a former agriculture secretary warns that patchy rain during critical growth stages could still hit yields hard in Bihar, Maharashtra and Gujarat.",
+          "investigative": true
+        },
+        {
+          "headline": "Maharashtra: 3,400 SIR forms found at a photocopy centre",
+          "url": "https://scroll.in/latest/1095344/maharashtra-3400-sir-forms-found-at-navi-mumbai-photocopy-centre-five-blos-suspended",
+          "source": "SCROLL.IN",
+          "blurb": "Five booth-level officers were suspended after voter-roll forms turned up at a private shop in Navi Mumbai; the opposition says the inquiry should reach whoever ordered the mishandling, not just the officers."
+        }
+      ],
+      "more": []
+    },
+    "geo": {
+      "top": [
+        {
+          "headline": "CIA director floated a Trump-Putin-Zelensky summit in Moscow",
+          "url": "https://www.axios.com/2026/08/29/cia-director-ratcliffe-putin-zelensky-summit-war",
+          "source": "AXIOS",
+          "blurb": "John Ratcliffe raised a three-way summit to end the Ukraine war during a covert Moscow visit. Zelensky is receptive, but Putin has rejected similar proposals before and Ukrainian officials remain wary of Russian intentions."
+        },
+        {
+          "headline": "The home front: how the Iran war has battered Israeli, Iranian and US leaders",
+          "url": "https://www.aljazeera.com/news/2026/8/30/the-home-front-how-israel-iran-and-us-leaders-have-been-hit-by-the-war",
+          "source": "AL JAZEERA",
+          "blurb": "Six months into the war, Trump's approval is at record lows over gas prices, Netanyahu trails in Israeli polls after a campaign that missed its objectives, and Iran's government survives but is splitting between hardliners and moderates."
+        },
+        {
+          "headline": "Iceland rejects restarting EU membership talks",
+          "url": "https://www.aljazeera.com/news/2026/8/30/iceland-rejects-eu-membership-plan-in-referendum",
+          "source": "AL JAZEERA",
+          "blurb": "Voters rejected a government push to resume EU accession talks 52.8-47.2%, with the fishing industry's near-unanimous opposition doing much of the work; Iceland will instead lean on its existing EEA ties."
+        },
+        {
+          "headline": "Netanyahu's son 'urgently evacuated' from the US after a threat",
+          "url": "https://www.aljazeera.com/news/2026/8/30/israel-says-netanyahus-son-urgently-evacuated-from-the-us-after-threat",
+          "source": "AL JAZEERA",
+          "blurb": "Israel's Shin Bet flew Yair Netanyahu home from Florida after intelligence pointed to a credible threat on his life, with reports linking it to an Iranian assassination plot uncovered in December."
+        }
+      ],
+      "more": [
+        {
+          "headline": "Iran's regime digs in rather than collapsing",
+          "url": "https://www.npr.org/2026/08/28/nx-s1-5947854/us-iran-war",
+          "source": "NPR",
+          "blurb": "Despite heavy damage to its military and economy, Iran's leadership has hardened its line and is using the Strait of Hormuz as leverage, with analysts seeing compromise, not victory, as the realistic outcome."
+        }
+      ]
+    },
+    "sports": {
+      "top": [
+        {
+          "headline": "Robinson's eight wickets seal England's series win over Pakistan",
+          "url": "https://www.yardbarker.com/cricket/articles/england_beat_pakistan_by_194_runs_at_lords_to_clinch_series_2_0/s1_17728_44238500",
+          "source": "YARDBARKER",
+          "blurb": "England bowled Pakistan out for 194 chasing 389 to win by 194 runs at Lord's and take the series 2-0, with Ollie Robinson's eight wickets across the match undoing a Pakistan batting order that only Saud Shakeel's 97 troubled."
+        },
+        {
+          "headline": "India Women may not shake hands with Pakistan either",
+          "url": "https://www.espncricinfo.com/story/india-women-may-not-shake-hands-with-pakistan-women-during-world-cup-game-1505397",
+          "source": "ESPNCRICINFO",
+          "blurb": "BCCI secretary Devajit Saikia said there is \"no change\" to India's stance on skipping handshakes with Pakistan, extending the men's team's Asia Cup posture to October's Women's World Cup meeting in Colombo."
+        }
+      ],
+      "more": []
+    },
+    "entertainment": {
+      "top": [
+        {
+          "headline": "Gulzar made his name in Mumbai, but Punjab never left him",
+          "url": "https://scroll.in/reel/1095292/gulzar-made-his-name-in-mumbai-but-punjab-never-left-him",
+          "source": "SCROLL.IN",
+          "blurb": "A tour through the lyricist's five-decade catalogue — from \"Chhaiyan Chhaiyan\" to \"Jai Ho\" — tracing the Sufi imagery, folk rhythm and rural detail of Punjab that runs under even his most Bombay-coded songs."
+        }
+      ],
+      "more": []
+    },
+    "bengal": [
+      {
+        "headline": "How migrant EBC and OBC voters helped BJP win 'caste-less' Bengal",
+        "url": "https://thefederal.com/the-federal-special/how-migrant-ebc-and-obc-populations-helped-bjp-win-caste-less-bengal-255177",
+        "source": "THE FEDERAL",
+        "blurb": "Communities long ignored by parties that organised around class over caste found a political home in the BJP, exposing how Bengal's self-image as caste-blind masked real Dalit and backward-class marginalisation."
+      },
+      {
+        "headline": "Nepal disaster puts North Bengal's flood risk in focus",
+        "url": "https://thefederal.com/category/states/east/west-bengal/nepal-disaster-puts-north-bengals-vulnerability-to-himalayan-floods-in-focus-255147",
+        "source": "THE FEDERAL",
+        "blurb": "Experts say North Bengal faces the same glacial-lake and landslide risks that just devastated Nepal, and that dredging rivers alone won't substitute for early-warning systems upstream."
+      }
+    ],
+    "travel": [
+      {
+        "headline": "21 best destinations for summer",
+        "url": "https://www.lonelyplanet.com/articles/where-to-go-in-summer",
+        "source": "LONELY PLANET",
+        "blurb": "A season-spanning shortlist of 21 places across six continents, from well-worn favourites to a few that reward getting there before everyone else does."
+      },
+      {
+        "headline": "Wildlife crime is thriving on social media, and the law hasn't caught up",
+        "url": "https://india.mongabay.com/2026/08/crime-content-on-social-media-threatens-wildlife-safety/",
+        "source": "MONGABAY INDIA",
+        "blurb": "Instagram and other platforms are hosting a growing trade in illegal hunting and trafficking content, but India's wildlife laws have no real provisions for cyber-enabled crime, and platforms remove only a fraction of what gets flagged."
+      }
+    ],
+    "happy": {
+      "headline": "300 mystery love letters from a WWII soldier finally found their family",
+      "url": "https://www.smithsonianmag.com/history/this-box-of-300-love-letters-showed-up-out-of-the-blue-who-was-the-whimsical-world-war-ii-soldier-who-wrote-them-180989300/",
+      "source": "SMITHSONIAN MAGAZINE",
+      "blurb": "A box of letters written by a GI nicknamed \"Speedy\" to his wife Frances turned up at a USO office with no explanation. A crowdsourced genealogy hunt eventually found his 84-year-old nephew and niece, who finally put a face to the man behind years of \"everyday elegant\" wartime correspondence."
+    },
+    "tech_top": [
+      {
+        "headline": "The US is building barriers around drones and robots — China still has scale",
+        "url": "https://techcrunch.com/2026/08/30/the-u-s-is-building-barriers-around-drones-and-robots-china-still-has-scale/",
+        "source": "TECHCRUNCH",
+        "blurb": "New US tariffs and restrictions on Chinese-made drones and robots won't cleanly separate the two supply chains, industry watchers say — expect a fragmented market where China wins on price and US and allied makers compete on security.",
+        "pm_note": "Export controls rarely create clean splits — they reshuffle who wins which segment, which matters if your roadmap depends on any hardware supply chain touching China."
+      },
+      {
+        "headline": "The hidden human cost of robotaxis",
+        "url": "https://techcrunch.com/2026/08/30/techcrunch-mobility-the-hidden-human-cost-of-robotaxis/",
+        "source": "TECHCRUNCH",
+        "blurb": "Waymo and Zoox test drivers logged two dozen-plus injuries from abrupt autonomous braking in 2024-25, even as the industry expands — Gatik just raised $200M and Waymo is heading to Munich.",
+        "pm_note": "Safety metrics that look clean at the fleet level can still hide real cost sitting on the humans in the loop — worth asking who absorbs the risk your automation claims to remove."
+      },
+      {
+        "headline": "Grindr wants to be the everything app for gay men",
+        "url": "https://techcrunch.com/2026/08/30/grindr-wants-to-be-the-everything-app-for-gay-men-investors-are-still-deciding-whether-it-can-pull-it-off/",
+        "source": "TECHCRUNCH",
+        "blurb": "CEO George Arison is pushing into healthcare, travel and AI matchmaking to shed what he calls a persistent \"Grindr discount\" from investors who undervalue the business because of its niche.",
+        "pm_note": "A clean case study in category expansion as a response to market mispricing — worth watching whether the new lines dilute the core product or actually widen the moat."
+      }
+    ],
+    "tech_more": [
+      {
+        "headline": "Google's calling Lake Ontario 'Lake America' now",
+        "url": "https://www.404media.co/google-maps-lake-america-lake-ontario-name-change/",
+        "source": "404 MEDIA",
+        "blurb": "Google Maps adopted Trump's renaming of Lake Ontario for US users only, following the government's names database, while MapQuest pointedly refused to follow suit."
+      }
+    ],
+    "tech_101": [
+      {
+        "term": "Export controls",
+        "text": "Rules restricting the sale or transfer of certain goods and technology to specific countries, usually for national-security reasons. They rarely stop trade outright — more often they redirect it toward whichever markets a restricted country can still sell into."
+      },
+      {
+        "term": "Teleoperation",
+        "text": "Remotely piloting a vehicle or robot from a distance rather than fully automated control. Many \"self-driving\" fleets still lean on remote human backup for tricky moments — which is where a lot of the hidden labor sits."
+      }
+    ],
+    "science": [
+      {
+        "headline": "Mars's southern half is hundreds of degrees hotter than its north",
+        "url": "https://www.sciencedaily.com/releases/2026/08/260828082336.htm",
+        "source": "SCIENCEDAILY",
+        "kind": "space",
+        "blurb": "Using decades of gravity data and a technique called tidal tomography, researchers found Mars's southern interior runs 200-400°C hotter than its northern half and may be partly molten — a divide that could explain the planet's odd magnetism and seismic patterns."
+      },
+      {
+        "headline": "Chemists crack a decades-old problem making metal-nitride nanocrystals",
+        "url": "https://www.sciencedaily.com/releases/2026/08/260827010510.htm",
+        "source": "SCIENCEDAILY",
+        "kind": "chemistry",
+        "blurb": "University of Chicago chemists used molten salts and precise ammonia pressure to make nanocrystals from metal nitrides once considered too stable to synthesize at this scale, opening a path to flexible electronics and medical implants."
+      },
+      {
+        "headline": "Hundreds of hidden earthquakes found at Antarctica's 'doomsday glacier'",
+        "url": "https://www.sciencedaily.com/releases/2026/08/260829035328.htm",
+        "source": "SCIENCEDAILY",
+        "kind": "climate",
+        "blurb": "Researchers detected over 360 previously unknown 'glacial earthquakes' near Thwaites Glacier, most caused by icebergs colliding with the ice edge, with activity spiking as ocean-driven glacier flow accelerated."
+      }
+    ],
+    "philosophy": [
+      {
+        "headline": "Thucydides' account of war is timelier than the cliché about it",
+        "url": "https://aeon.co/essays/thucydides-account-of-war-is-as-timely-as-it-is-misunderstood",
+        "source": "AEON",
+        "blurb": "Thucydides is usually read as endorsing \"might makes right,\" but the authors argue his real subject is self-deception — Athenians, Spartans and Melians alike lied to themselves about justice and odds, with ruinous results."
+      },
+      {
+        "headline": "Western philosophy's polite way of neutralizing non-Western thinkers",
+        "url": "https://aeon.co/essays/epistemic-convergence-in-the-study-of-world-philosophies",
+        "source": "AEON",
+        "blurb": "Drawing on Tommy Curry's idea of \"epistemic convergence,\" the essay argues academia often absorbs Black and non-Western philosophers into existing frameworks rather than letting their ideas actually unsettle Eurocentric assumptions."
+      },
+      {
+        "headline": "Stop chasing your 'one true passion.' It might not exist.",
+        "url": "https://bigthink.com/philosophy/stop-chasing-your-one-true-passion-it-might-not-exist/",
+        "source": "BIG THINK",
+        "blurb": "The modern demand to find a singular calling creates more existential dread than it resolves; a meaningful life, the author argues, is more often built from unranked curiosity across several interests at once."
+      }
+    ],
+    "philosophy_101": [
+      {
+        "term": "Thucydides Trap",
+        "text": "The idea that war becomes likely when a rising power threatens to displace an established one, each side's fear feeding the other's. The term comes from Thucydides' history, though today's essay argues his real point was subtler than that."
+      },
+      {
+        "term": "Epistemic colonialism",
+        "text": "When a dominant intellectual tradition absorbs ideas from outside it only by translating them into its own terms — technically \"included,\" but stripped of whatever made them a genuine challenge in the first place."
+      }
+    ]
+  }
+}
