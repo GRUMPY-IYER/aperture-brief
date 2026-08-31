@@ -116,6 +116,21 @@ def jpeg_size(path):
             f.seek(length - 2, 1)
 
 
+def photo_facts():
+    """What you have told us about your own photographs (photos.json).
+
+    Deliberately hand-written. A model can guess a species from a picture and be
+    confidently wrong — see decisions/002. You were there; the file is yours.
+    """
+    p = ROOT / "photos.json"
+    if not p.exists():
+        return {}
+    try:
+        return (json.loads(p.read_text()) or {}).get("photos", {}) or {}
+    except (json.JSONDecodeError, OSError):
+        return {}
+
+
 def photo_meta(name):
     """Real pixel dimensions, so the page can reserve the right box.
 
@@ -124,7 +139,15 @@ def photo_meta(name):
     height:auto — the photograph is never cropped to fit a slot.
     """
     w, h = jpeg_size(ROOT / "wildlife" / name)
-    return {"file": name, "w": w, "h": h, "portrait": h > w}
+    facts = photo_facts().get(name) or {}
+    out = {"file": name, "w": w, "h": h, "portrait": h > w}
+    # Everything photos.json knows, passed straight through. Listing the fields
+    # here (rather than copying the whole dict) keeps the template's contract
+    # explicit — a new field has to be named once, on purpose.
+    for k in ("subject", "where", "year", "note", "research",
+              "iso", "aperture", "shutter", "focal", "lens", "camera", "taken", "caption"):
+        out[k] = str(facts.get(k) or "").strip()
+    return out
 
 
 def pick_showcase(date, wildlife, recent):
@@ -286,7 +309,9 @@ def main():
         print(f"\nOK — {date} passes validation ({len(warnings)} warning(s)).")
         return
 
-    wildlife = sorted(p.name for p in (ROOT / "wildlife").glob("*.jpeg"))
+    # .jpg as well as .jpeg — globbing only one extension silently hid 23 of the
+    # 28 photographs in the folder for weeks.
+    wildlife = sorted(p.name for p in (ROOT / "wildlife").glob("*.jp*g"))
     recent = set()
     for n in (1, 2):
         p = ROOT / "archive" / f"{datetime.date.fromisoformat(date) - datetime.timedelta(days=n)}.html"

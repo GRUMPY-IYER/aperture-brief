@@ -47,6 +47,7 @@ three places, relative path prefixes, column balance). Those are now computed.
 
 ## Commands
 
+    python3 preview.py                  # look at the site locally, and edit it
     python3 build.py                    # build today's edition
     python3 build.py 2026-08-29         # build a specific date
     python3 build.py --check-only DATE  # validate without writing
@@ -67,6 +68,22 @@ belong in EDITORIAL.md (to be written).
 hub/tag URLs, max 3 stories per outlet, duplicate URLs, repeats vs the last 3
 editions, India cap of 7, exactly 2 travel items. Paywall *judgement* stays human/AI —
 only the blocklist is mechanical.
+
+## Do not run git in this folder from a Cowork session
+
+Not even read-only commands. `git status`, `git diff` and `git ls-files` all take
+`.git/index.lock` while they refresh the index — and this folder is mounted into
+Cowork sessions with deletes forbidden, so the lock is created and then cannot be
+removed. The next commit from GitHub Desktop or the terminal fails with "a lock
+file already exists".
+
+Read the working tree with ordinary file tools instead: `ls`, `cat`, `find`,
+`diff` against a saved copy. To compare against what is published, fetch the file
+from the GitHub API rather than asking the local git.
+
+Clearing a stranded lock is Ganges's to do, in his own terminal:
+
+    find .git -name '*.lock' -delete
 
 ## Known gotchas
 
