@@ -31,6 +31,7 @@
      CSS `order` alone — no rebuild, no second page, and if JavaScript never
      runs the document order below is what everyone sees. */
   .main-col, .side-col { display: flex; flex-direction: column; }
+  .featured { order: 0; }   /* always first, whoever is reading */
   .politics { order: 1; } .apu-corner-section { order: 2; }
   .geo { order: 3; } .sports { order: 4; } .showcase { order: 9; }
   .tech-desk { order: 1; } .science-desk { order: 2; }
@@ -120,6 +121,67 @@
   /* Photographs are sized by WIDTH ONLY, height:auto — their real aspect ratio
      is preserved whatever it is (3:2, 4:3, 1:1, portrait). Never object-fit:
      cover with a fixed height: that crops the subject out of the frame. */
+  .featured h2 { color: #4a5d3a; border-color: #4a5d3a; }
+  .featured .tag { color: #6b6157; }
+  /* Photo and its note sit side by side, so there is no reserved-but-empty space.
+     With nothing written about the frame yet, .bare lets the picture take the
+     full column instead of leaving a hole where text would have gone. */
+  .featured-body { display: grid; grid-template-columns: 1.5fr 1fr; gap: 20px; align-items: start; }
+  .featured-body.bare { grid-template-columns: 1fr; }
+  @media (max-width: 700px) { .featured-body { grid-template-columns: 1fr; } }
+  .frame-block { margin: 0; }
+  .frame-block img { width: 100%; height: auto; display: block; border: 1px solid #e0dcd2; }
+  .featured-body.bare .frame-block.portrait img { max-width: 320px; }
+  .featured-text h3 { font-size: 18px; line-height: 1.25; margin: 0 0 3px; }
+  .featured-meta { font-family: Arial, sans-serif; font-size: 10px; letter-spacing: 1px;
+    text-transform: uppercase; color: #4a5d3a; margin: 0 0 9px; font-weight: bold; }
+  .featured-note { font-size: 13.5px; color: #333; line-height: 1.5; margin: 0; }
+  .featured-research { font-size: 13px; color: #444; line-height: 1.5; margin: 9px 0 0;
+    padding-left: 10px; border-left: 2px solid #4a5d3a; }
+  /* Camera settings on one line, the way a photographer writes them. */
+  .exif { font-family: Arial, sans-serif; font-size: 10px; letter-spacing: .4px;
+    color: #6b6157; margin: 11px 0 0; padding-top: 9px; border-top: 1px solid #e0dcd2;
+    font-variant-numeric: tabular-nums; line-height: 1.45; }
+  /* The describe control is an authoring aid, not something Apu needs to see. */
+  #flick-fill { display: none; background: none; border: 1px solid #bbb; cursor: pointer;
+    font-family: Arial, sans-serif; font-size: 9.5px; letter-spacing: .5px;
+    text-transform: uppercase; color: #6b6157; padding: 1px 6px; margin-left: 6px; }
+  #flick-fill:hover { border-color: #4a5d3a; color: #4a5d3a; }
+  body[data-reader="ganges"] #flick-fill { display: inline-block; }
+  #flick-modal { position: fixed; inset: 0; z-index: 50; background: rgba(26,26,26,.4);
+    display: flex; align-items: center; justify-content: center; padding: 20px; }
+  #flick-modal[hidden] { display: none; }
+  .flick-card { background: #fdfcf7; border: 3px double #1a1a1a; max-width: 520px; width: 100%;
+    max-height: 88vh; overflow-y: auto; padding: 22px 24px; }
+  .flick-card h2 { font-size: 19px; text-transform: uppercase; letter-spacing: 1.8px;
+    border: none; padding: 0; margin: 0 0 6px; }
+  .flick-lede { font-size: 12.5px; color: #6b6157; line-height: 1.5; margin: 0 0 16px; }
+  .flick-lede code { font-family: ui-monospace, Menlo, monospace; font-size: 11.5px;
+    background: #efece2; padding: 1px 4px; }
+  .flick-card label { display: block; font-family: Arial, sans-serif; font-size: 10px;
+    letter-spacing: 1px; text-transform: uppercase; color: #6b6157; margin-bottom: 12px; }
+  .flick-card input, .flick-card textarea { display: block; width: 100%; margin-top: 4px;
+    font-family: Georgia, serif; font-size: 14px; color: #1a1a1a; background: #fff;
+    border: 1px solid #bbb; padding: 6px 8px; text-transform: none; letter-spacing: normal; }
+  .flick-card textarea { resize: vertical; line-height: 1.45; }
+  #flick-json { font-family: ui-monospace, Menlo, monospace; font-size: 11px; line-height: 1.45;
+    background: #efece2; border: 1px solid #ddd7cb; padding: 10px; overflow-x: auto;
+    white-space: pre; margin: 0 0 14px; max-height: 190px; }
+  .flick-actions { display: flex; gap: 8px; }
+  .flick-actions button { font-family: Arial, sans-serif; font-size: 11px; letter-spacing: .5px;
+    text-transform: uppercase; padding: 6px 12px; border: 1px solid #1a1a1a;
+    background: none; cursor: pointer; color: #1a1a1a; }
+  #flick-copy, #flick-save { background: #1a1a1a; color: #fdfcf7; }
+  .flick-actions button[hidden] { display: none; }
+  .flick-status { font-family: Arial, sans-serif; font-size: 11.5px; color: #4a5d3a;
+    margin: 10px 0 0; min-height: 1em; }
+  .flick-status.bad { color: #7a1f0f; }
+  #flick-json[hidden] { display: none; }
+  @media print { #flick-modal, #flick-fill { display: none !important; } }
+  .featured-by { font-family: Arial, sans-serif; font-size: 9.5px; letter-spacing: .8px;
+    text-transform: uppercase; color: #6b6157; margin: 10px 0 0; }
+  .featured-by a { color: #4a5d3a; text-decoration: none; }
+  .featured-by a:hover { text-decoration: underline; }
   .section-photo { margin: 0 0 14px; break-inside: avoid; }
   .section-photo img { width: 100%; height: auto; display: block; border: 1px solid #e0dcd2; }
   .section-photo.portrait img { max-width: 74%; margin: 0 auto; }
@@ -137,6 +199,61 @@
   details.fold[open] > summary::after { content: " \2212"; }
   details.fold > summary:hover { color: #1a1a1a; }
   details.fold > .flow { padding-top: 10px; }
+  /* ---- Saving stories ------------------------------------------------ */
+  .source-row { display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; }
+  .source-row .source { min-width: 0; }
+  button.save { flex-shrink: 0; background: none; border: none; padding: 0 0 0 6px; margin: -1px 0 0;
+    cursor: pointer; color: #bdb6a8; line-height: 1; }
+  button.save:hover { color: #7a1f0f; }
+  button.save[aria-pressed="true"] { color: #7a1f0f; }
+  button.save[aria-pressed="true"] svg path { fill: #7a1f0f; }
+  button.save:focus-visible, .saved-open-wrap button:focus-visible,
+  #saved-panel button:focus-visible { outline: 2px solid #7a1f0f; outline-offset: 2px; }
+  .saved-open-wrap button { font-family: Arial, sans-serif; font-size: 11px; letter-spacing: .5px;
+    text-transform: uppercase; color: #555; background: none; border: 1px solid #bbb;
+    padding: 1px 7px; cursor: pointer; display: inline-flex; align-items: center; gap: 5px; }
+  .saved-open-wrap button:hover { border-color: #1a1a1a; color: #1a1a1a; }
+  #saved-count { font-weight: bold; }
+
+  /* The browser's own [hidden] rule is `display: none` at the weakest possible
+     specificity, so an ID selector setting `display: flex` silently beats it and
+     the panel is stuck open. These two rules re-assert hiding at ID+attribute
+     specificity. This is why the panel appeared on load and would not close. */
+  #saved-panel[hidden], #saved-backdrop[hidden] { display: none; }
+  #saved-backdrop { position: fixed; inset: 0; background: rgba(26,26,26,.35); z-index: 40; }
+  #saved-panel { position: fixed; top: 0; right: 0; bottom: 0; width: min(400px, 92vw);
+    background: #fdfcf7; border-left: 3px double #1a1a1a; z-index: 41;
+    display: flex; flex-direction: column; box-shadow: -6px 0 24px rgba(26,26,26,.12); }
+  .saved-head { display: flex; align-items: center; justify-content: space-between;
+    padding: 18px 20px 10px; border-bottom: 1px solid #ccc; }
+  .saved-head h2 { font-size: 19px; font-weight: bold; text-transform: uppercase;
+    letter-spacing: 1.8px; margin: 0; border: none; padding: 0; }
+  #saved-close { background: none; border: none; font-size: 26px; line-height: 1;
+    color: #6b6157; cursor: pointer; padding: 0 2px; }
+  .saved-who { font-family: Arial, sans-serif; font-size: 10.5px; letter-spacing: .8px;
+    text-transform: uppercase; color: #6b6157; margin: 0; padding: 10px 20px 0; }
+  #saved-list { flex: 1; overflow-y: auto; padding: 12px 20px 20px; }
+  .saved-item { display: flex; gap: 10px; align-items: flex-start;
+    padding-bottom: 12px; margin-bottom: 12px; border-bottom: 1px dotted #ccc; }
+  .saved-item:last-child { border-bottom: none; }
+  .saved-item .meta { font-family: Arial, sans-serif; font-size: 9.5px; letter-spacing: .5px;
+    text-transform: uppercase; color: #6b6157; }
+  .saved-item h3 { font-size: 15px; line-height: 1.3; margin: 3px 0 0; font-weight: normal; }
+  .saved-item h3 a { color: #1a1a1a; text-decoration: none; }
+  .saved-item h3 a:hover { text-decoration: underline; }
+  .saved-item button { flex-shrink: 0; background: none; border: none; cursor: pointer;
+    color: #a89f92; font-size: 17px; line-height: 1; padding: 2px; }
+  .saved-item button:hover { color: #7a1f0f; }
+  .saved-empty { font-size: 13.5px; color: #6b6157; font-style: italic; line-height: 1.5; }
+  .saved-foot { border-top: 1px solid #ccc; padding: 12px 20px; }
+  #saved-export { font-family: Arial, sans-serif; font-size: 11px; letter-spacing: .5px;
+    text-transform: uppercase; color: #555; background: none; border: 1px solid #bbb;
+    padding: 4px 10px; cursor: pointer; }
+  #saved-export:hover { border-color: #1a1a1a; color: #1a1a1a; }
+  #saved-toast { position: fixed; left: 50%; bottom: 26px; transform: translateX(-50%);
+    background: #1a1a1a; color: #fdfcf7; font-family: Arial, sans-serif; font-size: 12.5px;
+    padding: 9px 16px; border-radius: 3px; z-index: 60; max-width: 88vw; text-align: center; }
+  @media print { .saved-open-wrap, button.save, #saved-panel, #saved-backdrop { display: none !important; } }
   .showcase h2 { color: #4a5d3a; border-color: #4a5d3a; }
   .showcase .tag { color: #6b6157; }
   .showcase .frames { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; align-items: start; }
@@ -152,6 +269,9 @@
   <h1 class="masthead">The Aperture</h1>
   <div class="dateline-row">
     <span>Sunday, August 30, 2026</span>
+    <span class="saved-open-wrap"><button type="button" id="saved-open" aria-expanded="false" aria-controls="saved-panel">
+      <svg viewBox="0 0 16 16" width="12" height="12" aria-hidden="true"><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+      Read Later <span id="saved-count">0</span></button></span>
     <span class="reader-pick">Reading order:
       <button type="button" data-reader-set="ganges">Ganges</button>
       <button type="button" data-reader-set="apu">Apu</button>
@@ -161,28 +281,59 @@
 </header>
 <div class="page">
   <div class="main-col">
+    <section class="featured">
+      <h2>Featured Flick <span class="tag">from the archive</span></h2>
+      <div class="featured-body">
+        <figure class="frame-block">
+          <a href="https://grumpyiyer.com" target="_blank" rel="noopener">
+            <img src="../wildlife/20260103-Cohoes Falls-6293.jpg" width="2459" height="1967"
+                 alt="Bald eagle, immature, photographed by Ganges Bhardwaj">
+          </a>
+        </figure>
+        <div class="featured-text">
+          <h3>Bald eagle, immature</h3>
+          <p class="featured-meta">Cohoes Falls, New York · 2026</p>
+          <p class="featured-note">test</p>
+          <p class="featured-research">A bald eagle needs about four years to trade this mottled brown and white for the white head and tail everyone recognises, and to finish turning its bill yellow — so a bird still marked like this one is a young adult that already hunts like a grown one. US Fish & Wildlife Service.</p>
+          <p class="exif">Nikon Z 8 · 570mm · f/9 · 1/2500 · ISO 3600</p>
+          <p class="featured-by">Photograph by <a href="https://grumpyiyer.com" target="_blank" rel="noopener">Ganges Bhardwaj</a> · 2026-01-03
+            <button type="button" id="flick-fill" data-file="20260103-Cohoes Falls-6293.jpg"
+              data-subject="Bald eagle, immature" data-where="Cohoes Falls, New York"
+              data-note="test" data-research="A bald eagle needs about four years to trade this mottled brown and white for the white head and tail everyone recognises, and to finish turning its bill yellow — so a bird still marked like this one is a young adult that already hunts like a grown one. US Fish & Wildlife Service."
+              aria-label="Describe this photograph">&#9998; Describe</button></p>
+        </div>
+      </div>
+    </section>
     <section class="politics">
       <h2>US Politics</h2>
       <div class="flow">
         <div class="top-item lede">
-          <div class="source">ProPublica <span class="investigative-flag">Investigative</span></div>
+          <div class="source-row"><div class="source">ProPublica <span class="investigative-flag">Investigative</span></div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.propublica.org/article/911-calls-camp-east-montana-texas-detention" data-headline="911 calls from inside a Texas immigrant tent camp, released"
+            data-source="ProPublica" data-section="US Politics"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
           <h3><a href="https://www.propublica.org/article/911-calls-camp-east-montana-texas-detention" target="_blank">911 calls from inside a Texas immigrant tent camp, released</a></h3>
           <p class="blurb">ProPublica obtained and published emergency calls placed from Camp East Montana, the soft-sided immigration detention camp in Texas, in which callers describe medical crises as they unfold. It matters because the tent camps have been built far faster than any oversight regime that covers them: a 911 recording is currently one of the only independent records of what happens inside one.</p>
         </div>
-        <figure class="section-photo">
-          <a href="https://grumpyiyer.com" target="_blank" rel="noopener">
-            <img src="../wildlife/20231216-GB8_5191-Enhanced-NR-Edit.jpeg" width="640" height="427"
-                 alt="Wildlife photograph from the Grumpy Iyer archive" loading="lazy">
-          </a>
-          <figcaption>From the Field <span>&middot; Grumpy Iyer</span></figcaption>
-        </figure>
         <div class="top-item">
-          <div class="source">The Intercept <span class="investigative-flag">Investigative</span></div>
+          <div class="source-row"><div class="source">The Intercept <span class="investigative-flag">Investigative</span></div><button type="button" class="save" aria-pressed="false"
+            data-url="https://theintercept.com/2026/08/28/trump-antifa-terrorist-websites-free-speech/" data-headline="Trump labels an Italian web host a foreign 'terror' group"
+            data-source="The Intercept" data-section="US Politics"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
           <h3><a href="https://theintercept.com/2026/08/28/trump-antifa-terrorist-websites-free-speech/" target="_blank">Trump labels an Italian web host a foreign 'terror' group</a></h3>
           <p class="blurb">The administration applied a foreign terrorist designation to an Italian web-hosting provider used by antifascist sites, which in practice makes it a crime for Americans to pay it for service. The move tests whether terrorism designations can be aimed at infrastructure rather than at people, and whether hosting is speech.</p>
         </div>
         <div class="top-item">
-          <div class="source">Al Jazeera</div>
+          <div class="source-row"><div class="source">Al Jazeera</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.aljazeera.com/news/2026/8/29/us-judge-rejects-trumps-bid-to-switch-hush-money-case-to-federal-court" data-headline="Judge refuses to move Trump's hush-money case to federal court"
+            data-source="Al Jazeera" data-section="US Politics"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
           <h3><a href="https://www.aljazeera.com/news/2026/8/29/us-judge-rejects-trumps-bid-to-switch-hush-money-case-to-federal-court" target="_blank">Judge refuses to move Trump's hush-money case to federal court</a></h3>
           <p class="blurb">A US judge rejected Trump's renewed attempt to shift his New York hush-money conviction into federal court on immunity grounds. The ruling keeps the case, and the appeal that follows it, inside the state system Trump has spent two years trying to escape.</p>
         </div>
@@ -192,14 +343,24 @@
         <div class="flow">
         <div class="more-item">
           <div class="more-text">
-            <div class="source">The Intercept <span class="investigative-flag">Investigative</span></div>
+            <div class="source-row"><div class="source">The Intercept <span class="investigative-flag">Investigative</span></div><button type="button" class="save" aria-pressed="false"
+            data-url="https://theintercept.com/2026/08/29/hurricane-helene-ice-asheville-nc-g20-trump/" data-headline="Western North Carolina asked for storm relief and got ICE"
+            data-source="The Intercept" data-section="US Politics"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
             <h4><a href="https://theintercept.com/2026/08/29/hurricane-helene-ice-asheville-nc-g20-trump/" target="_blank">Western North Carolina asked for storm relief and got ICE</a></h4>
             <p>Asheville and the surrounding counties, still rebuilding after Hurricane Helene, found federal attention arriving in the form of immigration enforcement rather than recovery money. The pairing shows how disaster aid has become leverage.</p>
           </div>
         </div>
         <div class="more-item">
           <div class="more-text">
-            <div class="source">ProPublica <span class="investigative-flag">Investigative</span></div>
+            <div class="source-row"><div class="source">ProPublica <span class="investigative-flag">Investigative</span></div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.propublica.org/article/immigrants-rebooking-ice-jails-florida" data-headline="Local jails re-book immigrants to stretch a 72-hour limit"
+            data-source="ProPublica" data-section="US Politics"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
             <h4><a href="https://www.propublica.org/article/immigrants-rebooking-ice-jails-florida" target="_blank">Local jails re-book immigrants to stretch a 72-hour limit</a></h4>
             <p>Florida jails that agreed to hold people for ICE for no more than 72 hours have been releasing and immediately re-booking them, resetting the clock. The paperwork trick turns a legal ceiling into a formality.</p>
           </div>
@@ -212,24 +373,44 @@
       <div class="apu-sub">India</div>
       <div class="flow">
         <div class="top-item lede">
-          <div class="source">The Reporters' Collective <span class="investigative-flag">Investigative</span></div>
+          <div class="source-row"><div class="source">The Reporters' Collective <span class="investigative-flag">Investigative</span></div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.reporters-collective.in/trc/bjp-targets-muslim-voters-for-deletion" data-headline="BJP workers filed mass deletion requests against Muslim voters in Odisha"
+            data-source="The Reporters' Collective" data-section="India"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
           <h3><a href="https://www.reporters-collective.in/trc/bjp-targets-muslim-voters-for-deletion" target="_blank">BJP workers filed mass deletion requests against Muslim voters in Odisha</a></h3>
           <p class="blurb">In Bhadrak constituency, party workers filed hundreds of digitally generated Form 7 applications seeking the deletion of Muslim voters during the roll revision; when booth officers confirmed the objections were bogus, district authorities ordered the targeted voters re-verified rather than prosecuting anyone. The pattern has now surfaced in several states without a single known indictment, which is the story: the cost of filing a fraudulent objection is zero, and the burden lands on the voter.</p>
         </div>
         <div class="top-item">
-          <div class="source">Newslaundry <span class="investigative-flag">Investigative</span></div>
+          <div class="source-row"><div class="source">Newslaundry <span class="investigative-flag">Investigative</span></div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.newslaundry.com/2026/08/28/exclusive-bjp-agents-identities-misused-to-file-mass-objections-against-haridwars-muslim-voters" data-headline="Uttarakhand SIR: 35 people's identities used to object to Muslim voters"
+            data-source="Newslaundry" data-section="India"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
           <h3><a href="https://www.newslaundry.com/2026/08/28/exclusive-bjp-agents-identities-misused-to-file-mass-objections-against-haridwars-muslim-voters" target="_blank">Uttarakhand SIR: 35 people's identities used to object to Muslim voters</a></h3>
           <p class="blurb">Nearly half the objections to the electoral roll in Haridwar's Jhabrera seat traced back to 35 named individuals, several of whom told Newslaundry their identities had been used without their knowledge. Read alongside the Odisha reporting, it suggests mass objection filing is a technique being run in parallel rather than a local excess.</p>
         </div>
         <div class="top-item">
-          <div class="source">Scroll.in</div>
+          <div class="source-row"><div class="source">Scroll.in</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://scroll.in/latest/1095351/rahul-gandhi-demands-fir-under-sc-st-act-over-purification-after-mallikarjun-kharge-rally" data-headline="Rahul Gandhi seeks an FIR over a 'purification' ritual after Kharge's rally"
+            data-source="Scroll.in" data-section="India"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
           <h3><a href="https://scroll.in/latest/1095351/rahul-gandhi-demands-fir-under-sc-st-act-over-purification-after-mallikarjun-kharge-rally" target="_blank">Rahul Gandhi seeks an FIR over a 'purification' ritual after Kharge's rally</a></h3>
           <p class="blurb">Congress says the stage used by its president Mallikarjun Kharge at an Uttarakhand rally was ritually 'purified' after he left, and has demanded a case under the SC/ST (Prevention of Atrocities) Act. The demand puts caste, not the rally, at the centre of the Uttarakhand campaign.</p>
         </div>
         <div class="more-item">
           <img src="https://imgs.mongabay.com/wp-content/uploads/sites/30/2026/08/28132118/1280px-Pachyderms-350x233.jpg" alt="">
           <div class="more-text">
-            <div class="source">Mongabay India</div>
+            <div class="source-row"><div class="source">Mongabay India</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://india.mongabay.com/short-article/2026/08/court-orders-survey-of-elephant-corridors-seeks-ban-on-fireball-use/" data-headline="Supreme Court orders a survey of India's elephant corridors"
+            data-source="Mongabay India" data-section="India"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
             <h4><a href="https://india.mongabay.com/short-article/2026/08/court-orders-survey-of-elephant-corridors-seeks-ban-on-fireball-use/" target="_blank">Supreme Court orders a survey of India's elephant corridors</a></h4>
             <p>The court has told the Environment Ministry to survey elephant corridors and report obstructions by 14 October, and asked for a view on banning burning 'fireballs' as a crowd deterrent. It is the first time the corridors have been given a court-supervised deadline.</p>
           </div>
@@ -239,14 +420,24 @@
             <div class="apu-sub">Bengal</div>
           <div class="apu-item">
             <div class="apu-text">
-              <div class="source">The Federal</div>
+              <div class="source-row"><div class="source">The Federal</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://thefederal.com/category/states/east/west-bengal/from-ncc-to-surgical-strike-bjp-steps-up-push-to-reshape-west-bengals-campuses-255082" data-headline="From NCC to 'surgical strike': how the BJP is reshaping Bengal's campuses"
+            data-source="The Federal" data-section="Bengal"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
               <h4><a href="https://thefederal.com/category/states/east/west-bengal/from-ncc-to-surgical-strike-bjp-steps-up-push-to-reshape-west-bengals-campuses-255082" target="_blank">From NCC to 'surgical strike': how the BJP is reshaping Bengal's campuses</a></h4>
               <p>Samir K Purkayastha's bylined ground report counts party appointees on the governing bodies of 247 colleges, Syama Prasad Mookerjee's addition to curricula, and ABVP's growth from 96 campuses to more than 400. It is the slow, institutional half of the Bengal contest that election coverage tends to skip.</p>
             </div>
           </div>
           <div class="apu-item">
             <div class="apu-text">
-              <div class="source">Scroll.in</div>
+              <div class="source-row"><div class="source">Scroll.in</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://scroll.in/latest/1095352/apologise-within-24-hours-bengal-cm-to-anandabazar-patrika-for-saffron-hooliganism-headline" data-headline="Mamata gives Anandabazar Patrika 24 hours to apologise over a headline"
+            data-source="Scroll.in" data-section="Bengal"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
               <h4><a href="https://scroll.in/latest/1095352/apologise-within-24-hours-bengal-cm-to-anandabazar-patrika-for-saffron-hooliganism-headline" target="_blank">Mamata gives Anandabazar Patrika 24 hours to apologise over a headline</a></h4>
               <p>The chief minister demanded an apology from Bengal's largest-circulation daily for a front page describing the Jadavpur University clash as 'saffron hooliganism'. A sitting CM setting a deadline for a newspaper is the story, whichever way the clash is read.</p>
             </div>
@@ -256,7 +447,12 @@
             <div class="apu-sub">Travel</div>
           <div class="apu-item">
             <div class="apu-text">
-              <div class="source">Atlas Obscura</div>
+              <div class="source-row"><div class="source">Atlas Obscura</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.atlasobscura.com/articles/unusual-picnic-places-around-the-world" data-headline="Unusual places to have a picnic, from a Roman aqueduct to a salt flat"
+            data-source="Atlas Obscura" data-section="Travel"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
               <h4><a href="https://www.atlasobscura.com/articles/unusual-picnic-places-around-the-world" target="_blank">Unusual places to have a picnic, from a Roman aqueduct to a salt flat</a></h4>
               <p>A round-up of places where the point of the meal is the ground you eat it on. Better than most listicles because each entry is a place you could actually reach.</p>
             </div>
@@ -264,7 +460,12 @@
           <div class="apu-item">
             <img src="https://imgs.mongabay.com/wp-content/uploads/sites/30/2026/08/28133509/Micrixalus-kottigeharensis_Dhritiman-Mukherjee_1-350x233.jpg" alt="">
             <div class="apu-text">
-              <div class="source">Mongabay India</div>
+              <div class="source-row"><div class="source">Mongabay India</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://india.mongabay.com/short-article/2026/08/western-ghats-frogs-sort-by-size-to-coexist-study-finds/" data-headline="Western Ghats frogs sort themselves by size in order to coexist"
+            data-source="Mongabay India" data-section="Travel"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
               <h4><a href="https://india.mongabay.com/short-article/2026/08/western-ghats-frogs-sort-by-size-to-coexist-study-finds/" target="_blank">Western Ghats frogs sort themselves by size in order to coexist</a></h4>
               <p>Closely related dancing-frog species sharing the same streams turn out to differ consistently in body size, which is how they avoid competing for the same food. It is a small, clean demonstration of how a hotspot packs so many species into so little water.</p>
             </div>
@@ -276,7 +477,12 @@
           <div class="apu-item">
             <img src="https://img.atlasobscura.com/Ro4x9HnDyID72spnPsppM6olqMBEXbqG_n_f9BlWt8E/rs:fill:1200:630/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cnNhL2NyZWF0b3Jf/YXJ0aWNsZXMvMjAy/Ni0wOC0yNy83YTJh/ZGZmNi02YTUxLTRj/M2YtYTcyYS1jZTlk/YTExMjc4NjRfSU1H/XzAwNDEuSlBH.jpg" alt="">
             <div class="apu-text">
-              <div class="source">Atlas Obscura</div>
+              <div class="source-row"><div class="source">Atlas Obscura</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.atlasobscura.com/articles/posts/stalked-by-a-grizzly" data-headline="Stalked by a Grizzly"
+            data-source="Atlas Obscura" data-section="A Happy Story"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
               <h4><a href="https://www.atlasobscura.com/articles/posts/stalked-by-a-grizzly" target="_blank">Stalked by a Grizzly</a></h4>
               <p>J.R. Harris, who has spent fifty years walking into wilderness alone, describes five days in Denali shadowed by a grizzly and one night in a tent certain he would not see morning. What he takes from it is not a survival lesson but a change of standing: he was the visitor, and the bear let him stay.</p>
             </div>
@@ -290,17 +496,32 @@
       <h2>Geopolitics</h2>
       <div class="flow">
         <div class="top-item lede">
-          <div class="source">NPR</div>
+          <div class="source-row"><div class="source">NPR</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.npr.org/2026/08/29/nx-s1-5948714/russian-strike-kyiv" data-headline="Russian strike near Kyiv kills 37 in one of the year's deadliest attacks"
+            data-source="NPR" data-section="Geopolitics"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
           <h3><a href="https://www.npr.org/2026/08/29/nx-s1-5948714/russian-strike-kyiv" target="_blank">Russian strike near Kyiv kills 37 in one of the year's deadliest attacks</a></h3>
           <p class="blurb">A strike on a warehouse outside Kyiv killed at least 37 people, the highest single-attack toll of the year, in a week of sustained drone and missile pressure on the capital region. The tempo matters more than the target: it is being read in Kyiv as an attempt to set the terms of any winter negotiation.</p>
         </div>
         <div class="top-item">
-          <div class="source">Al Jazeera</div>
+          <div class="source-row"><div class="source">Al Jazeera</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.aljazeera.com/news/2026/8/29/gunfire-blasts-heard-in-several-areas-of-niger-capital-niamey" data-headline="Gunfire and explosions across Niamey as Niger's government reports a failed coup"
+            data-source="Al Jazeera" data-section="Geopolitics"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
           <h3><a href="https://www.aljazeera.com/news/2026/8/29/gunfire-blasts-heard-in-several-areas-of-niger-capital-niamey" target="_blank">Gunfire and explosions across Niamey as Niger's government reports a failed coup</a></h3>
           <p class="blurb">Fighting was reported near the airport and the presidential compound in Niger's capital before authorities said the attempt had been put down. Niger's junta is the linchpin of the Sahel's post-coup bloc, and an unstable Niamey unsettles Mali and Burkina Faso with it.</p>
         </div>
         <div class="top-item">
-          <div class="source">Al Jazeera</div>
+          <div class="source-row"><div class="source">Al Jazeera</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.aljazeera.com/news/2026/8/29/irans-leaders-acknowledge-economic-toll-of-war-pledge-diplomacy-defence" data-headline="Iran's leadership concedes the war's economic cost, pledges diplomacy and rearmament"
+            data-source="Al Jazeera" data-section="Geopolitics"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
           <h3><a href="https://www.aljazeera.com/news/2026/8/29/irans-leaders-acknowledge-economic-toll-of-war-pledge-diplomacy-defence" target="_blank">Iran's leadership concedes the war's economic cost, pledges diplomacy and rearmament</a></h3>
           <p class="blurb">Senior Iranian figures publicly acknowledged the damage the war has done to the economy while promising both negotiation and military rebuilding. The admission is unusual and is the clearest signal yet that Tehran is preparing its public for talks.</p>
         </div>
@@ -310,7 +531,12 @@
         <div class="flow">
         <div class="more-item">
           <div class="more-text">
-            <div class="source">NPR</div>
+            <div class="source-row"><div class="source">NPR</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.npr.org/2026/08/29/nx-s1-5948759/iceland-european-union-referendum-vote" data-headline="Iceland votes on whether to restart EU accession talks"
+            data-source="NPR" data-section="Geopolitics"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
             <h4><a href="https://www.npr.org/2026/08/29/nx-s1-5948759/iceland-european-union-referendum-vote" target="_blank">Iceland votes on whether to restart EU accession talks</a></h4>
             <p>Icelanders went to the polls in a referendum on reopening membership negotiations frozen since 2015, with the result expected to be extremely close. Fisheries sovereignty, not economics, is the argument that decides it.</p>
           </div>
@@ -322,35 +548,45 @@
       <h2>Cricket</h2>
       <div class="flow">
         <div class="top-item">
-          <div class="source">ESPNcricinfo</div>
+          <div class="source-row"><div class="source">ESPNcricinfo</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.cricinfo.com/series/pakistan-tour-in-england-2026-1496563/england-vs-pakistan-2nd-test-1496583/live-cricket-score" data-headline="England build past a 350 lead at Lord's on a rain-ravaged day"
+            data-source="ESPNcricinfo" data-section="Cricket"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
           <h3><a href="https://www.cricinfo.com/series/pakistan-tour-in-england-2026-1496563/england-vs-pakistan-2nd-test-1496583/live-cricket-score" target="_blank">England build past a 350 lead at Lord's on a rain-ravaged day</a></h3>
           <p class="blurb">Dan Lawrence's unbeaten half-century pushed England's advantage over Pakistan beyond 350 at stumps on a third day that lost hours to weather. With a day and a bit left and England already one up in the series, the question is whether the rain, not Pakistan, saves the tourists.</p>
         </div>
         <div class="top-item">
-          <div class="source">ESPNcricinfo</div>
+          <div class="source-row"><div class="source">ESPNcricinfo</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.cricinfo.com/series/namibia-t20i-tri-series-aug-2026-2026-1549518/south-africa-vs-zimbabwe-2nd-match-1549525/full-scorecard" data-headline="Brevis anchors South Africa against Zimbabwe in the Namibia tri-series"
+            data-source="ESPNcricinfo" data-section="Cricket"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
           <h3><a href="https://www.cricinfo.com/series/namibia-t20i-tri-series-aug-2026-2026-1549518/south-africa-vs-zimbabwe-2nd-match-1549525/full-scorecard" target="_blank">Brevis anchors South Africa against Zimbabwe in the Namibia tri-series</a></h3>
           <p class="blurb">Dewald Brevis made an unbeaten 75 in the second match of the T20I tri-series at Windhoek, South Africa's first outing since Namibia beat them in the opener. It is a low-stakes series being used to settle a top order before a much heavier T20 calendar.</p>
         </div>
       </div>
     </section>
     <section class="showcase">
-      <h2>From the Field <span class="tag">photographs by Grumpy Iyer</span></h2>
+      <h2>From the Field <span class="tag">photographs by Ganges Bhardwaj</span></h2>
       <div class="frames">
         <a href="https://grumpyiyer.com" target="_blank" rel="noopener">
-          <img src="../wildlife/200725-Kawal-GBS_3328.jpeg" width="640" height="427"
-               alt="Wildlife photograph from the Grumpy Iyer archive" loading="lazy">
+          <img src="../wildlife/20260103-Cohoes Falls-6123.jpg" width="2352" height="1882"
+               alt="Wildlife photograph by Ganges Bhardwaj" loading="lazy">
         </a>
         <a href="https://grumpyiyer.com" target="_blank" rel="noopener">
-          <img src="../wildlife/200725-Kawal-GBS_3153.jpeg" width="640" height="640"
-               alt="Wildlife photograph from the Grumpy Iyer archive" loading="lazy">
+          <img src="../wildlife/20260101-Cohoes Falls-5267.jpg" width="2289" height="1831"
+               alt="Wildlife photograph by Ganges Bhardwaj" loading="lazy">
         </a>
         <a href="https://grumpyiyer.com" target="_blank" rel="noopener">
-          <img src="../wildlife/200725-Kawal-GBS_3098.jpeg" width="640" height="427"
-               alt="Wildlife photograph from the Grumpy Iyer archive" loading="lazy">
+          <img src="../wildlife/20260103-Cohoes Falls-6111.jpg" width="1777" height="1422"
+               alt="Wildlife photograph by Ganges Bhardwaj" loading="lazy">
         </a>
         <a href="https://grumpyiyer.com" target="_blank" rel="noopener">
-          <img src="../wildlife/20250629-Springbrook-Prairie-2207.jpeg" width="640" height="480"
-               alt="Wildlife photograph from the Grumpy Iyer archive" loading="lazy">
+          <img src="../wildlife/20260103-Cohoes Falls-6104.jpg" width="1777" height="1422"
+               alt="Wildlife photograph by Ganges Bhardwaj" loading="lazy">
         </a>
       </div>
     </section>
@@ -361,19 +597,34 @@
     <section class="tech">
       <h2>Top Tech</h2>
         <div class="top-item">
-          <div class="source">GV Wire</div>
+          <div class="source-row"><div class="source">GV Wire</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://gvwire.com/2026/08/29/openai-to-cut-off-ai-models-for-spacex-owned-cursor-escalating-feud-with-musk/" data-headline="OpenAI cuts Cursor off from its models after SpaceX buys it"
+            data-source="GV Wire" data-section="Top Tech"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
           <h3><a href="https://gvwire.com/2026/08/29/openai-to-cut-off-ai-models-for-spacex-owned-cursor-escalating-feud-with-musk/" target="_blank">OpenAI cuts Cursor off from its models after SpaceX buys it</a></h3>
           <p class="blurb">OpenAI says it will stop serving its models to Cursor, citing contract compliance, days after SpaceX acquired the coding tool; Anthropic said it would expand Claude's availability inside Cursor to cover the gap. The Altman-Musk feud is the headline, but the mechanism is the point: a product's core capability was switched off by a supplier, not by a regulator.</p>
           <p class="pm-note"><b>Why it matters for you:</b> If your product's key feature is somebody else's model behind an API, your roadmap has a single point of failure that no amount of engineering rigour removes. The mitigation is not loyalty, it is an abstraction layer and a tested second provider before you need one.</p>
         </div>
         <div class="top-item">
-          <div class="source">TechCrunch</div>
+          <div class="source-row"><div class="source">TechCrunch</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/" data-headline="Nvidia's advantage is moving off the GPU and into the rack"
+            data-source="TechCrunch" data-section="Top Tech"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
           <h3><a href="https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/" target="_blank">Nvidia's advantage is moving off the GPU and into the rack</a></h3>
           <p class="blurb">The competitive moat is shifting from the chip to the interconnect, the networking and the software that make thousands of chips behave as one machine. Rivals who match Nvidia on raw silicon still have to match it on everything wrapped around the silicon.</p>
           <p class="pm-note"><b>Why it matters for you:</b> When you are told a competitor 'has the same chip', ask what the unit of comparison is. In AI infrastructure the sellable unit is increasingly the rack, not the accelerator, and that is where cost-per-token is actually decided.</p>
         </div>
         <div class="top-item">
-          <div class="source">TechCrunch</div>
+          <div class="source-row"><div class="source">TechCrunch</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/" data-headline="An Anthropic researcher shows what self-improving AI looks like in practice"
+            data-source="TechCrunch" data-section="Top Tech"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
           <h3><a href="https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/" target="_blank">An Anthropic researcher shows what self-improving AI looks like in practice</a></h3>
           <p class="blurb">A walkthrough of models being used to improve the training and evaluation of their successors, and of how modest and bounded that loop currently is. Useful mainly as an antidote to both the hype and the doom framings.</p>
           <p class="pm-note"><b>Why it matters for you:</b> 'Self-improving' in shipping systems means models writing evals, generating training data and triaging failures — not autonomy. Treat it as a build-speed variable in your planning, not a capability jump.</p>
@@ -383,14 +634,24 @@
       <h2>More Tech</h2>
         <div class="more-item">
           <div class="more-text">
-            <div class="source">TechCrunch</div>
+            <div class="source-row"><div class="source">TechCrunch</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://techcrunch.com/2026/08/28/more-americans-oppose-police-license-plate-cameras-than-support-them-survey/" data-headline="Most Americans oppose police licence-plate cameras, survey finds"
+            data-source="TechCrunch" data-section="More Tech"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
             <h4><a href="https://techcrunch.com/2026/08/28/more-americans-oppose-police-license-plate-cameras-than-support-them-survey/" target="_blank">Most Americans oppose police licence-plate cameras, survey finds</a></h4>
             <p>Opposition to automated licence-plate readers now outweighs support, even though the networks have already been deployed in thousands of jurisdictions. Deployment ran ahead of consent, and the polling is catching up after the fact.</p>
           </div>
         </div>
         <div class="more-item">
           <div class="more-text">
-            <div class="source">404 Media</div>
+            <div class="source-row"><div class="source">404 Media</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.404media.co/cocomelons-studio-tells-its-artists-to-start-experimenting-with-ai/" data-headline="Cocomelon's studio tells its artists to start experimenting with AI"
+            data-source="404 Media" data-section="More Tech"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
             <h4><a href="https://www.404media.co/cocomelons-studio-tells-its-artists-to-start-experimenting-with-ai/" target="_blank">Cocomelon's studio tells its artists to start experimenting with AI</a></h4>
             <p>Moonbug's animation staff were instructed to begin using generative tools, with the company promising human oversight. Children's animation is high-volume and low-variation work, which makes it the first place this arrives at scale.</p>
           </div>
@@ -415,17 +676,32 @@
     <section class="science">
       <h2>Science</h2>
         <div class="top-item">
-          <div class="source">ScienceDaily</div>
+          <div class="source-row"><div class="source">ScienceDaily</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.sciencedaily.com/releases/2026/08/260828005216.htm" data-headline="Every one of 212 plant-based meat products carried fungal toxins"
+            data-source="ScienceDaily" data-section="Science"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
           <h3><a href="https://www.sciencedaily.com/releases/2026/08/260828005216.htm" target="_blank">Every one of 212 plant-based meat products carried fungal toxins</a></h3>
           <p class="blurb">Researchers screened 212 plant-based meat alternatives and detected naturally occurring mycotoxins in all of them, though at levels below EU guidance. The finding is less an alarm than a mapping exercise: these toxins ride in with the grain and legume inputs, so the question it raises is about sourcing and processing rather than about the category.</p>
         </div>
         <div class="top-item">
-          <div class="source">ScienceDaily</div>
+          <div class="source-row"><div class="source">ScienceDaily</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.sciencedaily.com/releases/2026/08/260828082333.htm" data-headline="NASA's Roman telescope will survey 100 times more sky than Hubble"
+            data-source="ScienceDaily" data-section="Science"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
           <h3><a href="https://www.sciencedaily.com/releases/2026/08/260828082333.htm" target="_blank">NASA's Roman telescope will survey 100 times more sky than Hubble</a></h3>
           <p class="blurb">The Nancy Grace Roman Space Telescope pairs Hubble-class resolution with a field of view two orders of magnitude wider, which turns deep imaging from a targeted activity into a survey. Its main yield is expected to be statistical: populations of exoplanets and a dark-energy measurement built from very large numbers rather than single spectacular objects.</p>
         </div>
         <div class="top-item">
-          <div class="source">ScienceDaily</div>
+          <div class="source-row"><div class="source">ScienceDaily</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.sciencedaily.com/releases/2026/08/260828005224.htm" data-headline="Light-activated eye drops restore vision in blind mice"
+            data-source="ScienceDaily" data-section="Science"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
           <h3><a href="https://www.sciencedaily.com/releases/2026/08/260828005224.htm" target="_blank">Light-activated eye drops restore vision in blind mice</a></h3>
           <p class="blurb">A photoswitch delivered as a simple eye drop restored light responses in mice with degenerated photoreceptors, with no gene therapy or implant involved. A drop is reversible, cheap and adjustable in a way a viral vector is not, which is why this route is being pursued even though it is far behind gene therapy in the clinic.</p>
         </div>
@@ -435,17 +711,32 @@
     <section class="consciousness">
       <h2>Philosophy</h2>
         <div class="top-item">
-          <div class="source">Aeon</div>
+          <div class="source-row"><div class="source">Aeon</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://aeon.co/essays/how-evolutionary-biology-makes-everyone-an-existentialist" data-headline="Natural-born existentialists"
+            data-source="Aeon" data-section="Philosophy"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
           <h3><a href="https://aeon.co/essays/how-evolutionary-biology-makes-everyone-an-existentialist" target="_blank">Natural-born existentialists</a></h3>
           <p class="blurb">Ronnie de Sousa argues that ethics cannot be grounded in human nature because evolutionary biology gives us no fixed nature to ground it in — what it gives us is variation. If he is right, the appeal to 'what humans are really like' that runs through most moral argument is empty, and we are left choosing.</p>
         </div>
         <div class="top-item">
-          <div class="source">Aeon</div>
+          <div class="source-row"><div class="source">Aeon</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://aeon.co/essays/the-surprisingly-scientific-methods-of-bigfooters" data-headline="Sasquatch science"
+            data-source="Aeon" data-section="Philosophy"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
           <h3><a href="https://aeon.co/essays/the-surprisingly-scientific-methods-of-bigfooters" target="_blank">Sasquatch science</a></h3>
           <p class="blurb">Two sociologists spent time with Bigfoot hunters and found them running careful, disciplined, genuinely empirical fieldwork on an object that probably does not exist. It is a sharp way into the demarcation problem: method alone does not separate science from what merely resembles it.</p>
         </div>
         <div class="top-item">
-          <div class="source">Big Think</div>
+          <div class="source-row"><div class="source">Big Think</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://bigthink.com/thinking/mastery-epictetus/" data-headline="You can only truly master one thing, according to Epictetus"
+            data-source="Big Think" data-section="Philosophy"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
           <h3><a href="https://bigthink.com/thinking/mastery-epictetus/" target="_blank">You can only truly master one thing, according to Epictetus</a></h3>
           <p class="blurb">A plain reading of the Stoic dichotomy of control: almost nothing is up to you, and the small remainder that is — your judgements — is the only place mastery is available. Worth reading against de Sousa above, since it makes the opposite bet about how much of a self there is to work with.</p>
         </div>
@@ -467,18 +758,33 @@
     </div><section class="entertainment" style="border-bottom: none;">
       <h2>Entertainment &amp; Culture</h2>
         <div class="top-item">
-          <div class="source">NPR</div>
+          <div class="source-row"><div class="source">NPR</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.npr.org/2026/08/29/g-s1-140345/dolly-parton-appreciation-remembrance-tribute" data-headline="How America mourned Dolly Parton, in Nashville and beyond"
+            data-source="NPR" data-section="Entertainment"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
           <h3><a href="https://www.npr.org/2026/08/29/g-s1-140345/dolly-parton-appreciation-remembrance-tribute" target="_blank">How America mourned Dolly Parton, in Nashville and beyond</a></h3>
           <p class="blurb">NPR's appreciation traces the public response to Parton's death, from Nashville's Ryman to the literacy programme she funded for four decades. The piece is worth reading for what it says about the rare figure who stayed legible to audiences who agreed on almost nothing else.</p>
         </div>
         <div class="top-item">
-          <div class="source">Scroll.in</div>
+          <div class="source-row"><div class="source">Scroll.in</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://scroll.in/reel/1095324/review-padatik-is-a-half-done-portrait-of-the-iconic-director-mrinal-sen" data-headline="'Padatik' review: a half-done portrait of Mrinal Sen"
+            data-source="Scroll.in" data-section="Entertainment"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
           <h3><a href="https://scroll.in/reel/1095324/review-padatik-is-a-half-done-portrait-of-the-iconic-director-mrinal-sen" target="_blank">'Padatik' review: a half-done portrait of Mrinal Sen</a></h3>
           <p class="blurb">Srijit Mukherji's biopic of the Bengali director, now on Zee5, gets the man's face right and his politics only in outline, the review argues. Sen spent his career refusing the tidy narrative this film gives him.</p>
         </div>
         <div class="more-item">
           <div class="more-text">
-            <div class="source">Smithsonian Magazine</div>
+            <div class="source-row"><div class="source">Smithsonian Magazine</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.smithsonianmag.com/arts-culture/dolly-parton-was-one-of-the-biggest-stars-in-the-history-of-country-music-she-wanted-to-be-remembered-as-a-songwriter-180989405/" data-headline="Dolly Parton wanted to be remembered as a songwriter"
+            data-source="Smithsonian Magazine" data-section="Entertainment"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
             <h4><a href="https://www.smithsonianmag.com/arts-culture/dolly-parton-was-one-of-the-biggest-stars-in-the-history-of-country-music-she-wanted-to-be-remembered-as-a-songwriter-180989405/" target="_blank">Dolly Parton wanted to be remembered as a songwriter</a></h4>
             <p>A useful corrective to the persona: the catalogue, not the wigs, is what Parton herself put forward. It also explains why she kept her publishing when nearly nobody else did.</p>
           </div>
@@ -486,6 +792,38 @@
     </section>
   </div>
 </div>
+
+<div id="saved-backdrop" hidden></div>
+
+<div id="flick-modal" role="dialog" aria-modal="true" aria-labelledby="flick-modal-title" hidden>
+  <div class="flick-card">
+    <h2 id="flick-modal-title">Describe this photograph</h2>
+    <p class="flick-lede" id="flick-mode">Your words about the frame. Camera settings are read from the file itself.</p>
+    <label>Subject <input type="text" id="flick-subject" placeholder="Bald eagle"></label>
+    <label>Where <input type="text" id="flick-where" placeholder="Cohoes Falls, New York"></label>
+    <label>Your note <textarea id="flick-note" rows="3" placeholder="What the light was doing. How long you waited. Why you kept this one."></textarea></label>
+    <label>Research <textarea id="flick-research" rows="3" placeholder="Left blank — tell Claude the subject and it will draft this with a source."></textarea></label>
+    <pre id="flick-json" aria-live="polite"></pre>
+    <div class="flick-actions">
+      <button type="button" id="flick-save" hidden>Save</button>
+      <button type="button" id="flick-copy" hidden>Copy for photos.json</button>
+      <button type="button" id="flick-cancel">Close</button>
+    </div>
+    <p class="flick-status" id="flick-status" role="status"></p>
+  </div>
+</div>
+<aside id="saved-panel" aria-labelledby="saved-title" aria-hidden="true" hidden>
+  <div class="saved-head">
+    <h2 id="saved-title">Read Later</h2>
+    <button type="button" id="saved-close" aria-label="Close read later">&times;</button>
+  </div>
+  <p class="saved-who">Kept by <strong id="saved-reader">Ganges</strong> · <span id="saved-usage">0 of 10</span></p>
+  <div id="saved-list"></div>
+  <div class="saved-foot">
+    <button type="button" id="saved-export">Export as a file</button>
+  </div>
+</aside>
+
 <script>
 // Reader preference. Purely presentational: it sets one attribute and CSS does
 // the reordering. Stored per browser — wrapped in try/catch because private
@@ -507,6 +845,241 @@
       try { localStorage.setItem(KEY, who); } catch (e) {}
       apply(who);
     });
+  });
+})();
+
+// ---- Read later -----------------------------------------------------------
+// Saves live in this browser only (see decisions/001-bookmark-storage.md).
+// Every entry carries savedAt: the field is unused today, and is what a future
+// sync will need to settle two devices disagreeing. Adding it now costs nothing.
+(function () {
+  var KEY = "aperture-saves", CAP = 10, EDITION = "2026-08-30";
+  var NAMES = { ganges: "Ganges", apu: "Apu" };
+
+  function reader() { return document.body.getAttribute("data-reader") || "ganges"; }
+  function readAll() {
+    try { return JSON.parse(localStorage.getItem(KEY) || "{}") || {}; } catch (e) { return {}; }
+  }
+  function writeAll(all) {
+    try { localStorage.setItem(KEY, JSON.stringify(all)); return true; }
+    catch (e) { toast("This browser will not let the page save anything."); return false; }
+  }
+  function mine() { var a = readAll()[reader()]; return Array.isArray(a) ? a : []; }
+  function setMine(list) { var all = readAll(); all[reader()] = list; return writeAll(all); }
+
+  var toastTimer;
+  function toast(msg) {
+    var el = document.getElementById("saved-toast");
+    if (!el) { el = document.createElement("div"); el.id = "saved-toast"; document.body.appendChild(el); }
+    el.textContent = msg;
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function () { el.remove(); }, 3600);
+  }
+
+  function paintButtons() {
+    var saved = {};
+    mine().forEach(function (s) { saved[s.url] = true; });
+    document.querySelectorAll("button.save").forEach(function (b) {
+      var on = !!saved[b.dataset.url];
+      b.setAttribute("aria-pressed", on ? "true" : "false");
+      b.setAttribute("aria-label", (on ? "Remove this story from" : "Add this story to") + " read later");
+    });
+    var list = mine();
+    document.getElementById("saved-count").textContent = list.length;
+    var usage = document.getElementById("saved-usage");
+    if (usage) usage.textContent = list.length + " of " + CAP;
+    var who = document.getElementById("saved-reader");
+    if (who) who.textContent = NAMES[reader()] || reader();
+  }
+
+  function paintPanel() {
+    var box = document.getElementById("saved-list"), list = mine();
+    box.textContent = "";
+    if (!list.length) {
+      var p = document.createElement("p");
+      p.className = "saved-empty";
+      p.textContent = "Nothing here yet. The bookmark beside any story adds it to read later — up to " + CAP + " at a time.";
+      box.appendChild(p);
+      return;
+    }
+    list.forEach(function (s) {
+      var row = document.createElement("div");
+      row.className = "saved-item";
+      var text = document.createElement("div");
+      var meta = document.createElement("div");
+      meta.className = "meta";
+      meta.textContent = s.source + (s.section ? " · " + s.section : "") + " · " + s.edition;
+      var h = document.createElement("h3");
+      var a = document.createElement("a");
+      a.href = s.url; a.target = "_blank"; a.rel = "noopener"; a.textContent = s.headline;
+      h.appendChild(a);
+      text.appendChild(meta); text.appendChild(h);
+      var rm = document.createElement("button");
+      rm.type = "button"; rm.innerHTML = "&times;";
+      rm.setAttribute("aria-label", "Remove " + s.headline);
+      rm.addEventListener("click", function () {
+        setMine(mine().filter(function (x) { return x.url !== s.url; }));
+        paintButtons(); paintPanel();
+      });
+      row.appendChild(text); row.appendChild(rm);
+      box.appendChild(row);
+    });
+  }
+
+  document.querySelectorAll("button.save").forEach(function (b) {
+    b.addEventListener("click", function () {
+      var list = mine(), url = b.dataset.url;
+      if (list.some(function (x) { return x.url === url; })) {
+        setMine(list.filter(function (x) { return x.url !== url; }));
+      } else {
+        if (list.length >= CAP) {
+          toast("Read later is full at " + CAP + ". Remove one to make room.");
+          return;
+        }
+        list.unshift({ url: url, headline: b.dataset.headline, source: b.dataset.source,
+                       section: b.dataset.section, edition: EDITION,
+                       savedAt: new Date().toISOString() });
+        setMine(list);
+      }
+      paintButtons(); paintPanel();
+    });
+  });
+
+  var panel = document.getElementById("saved-panel"),
+      backdrop = document.getElementById("saved-backdrop"),
+      opener = document.getElementById("saved-open");
+  function open() {
+    paintPanel();
+    panel.hidden = false; backdrop.hidden = false;
+    panel.setAttribute("aria-hidden", "false");
+    opener.setAttribute("aria-expanded", "true");
+    document.getElementById("saved-close").focus();
+  }
+  function close() {
+    panel.hidden = true; backdrop.hidden = true;
+    panel.setAttribute("aria-hidden", "true");
+    opener.setAttribute("aria-expanded", "false");
+    opener.focus();
+  }
+  opener.addEventListener("click", function () { panel.hidden ? open() : close(); });
+  document.getElementById("saved-close").addEventListener("click", close);
+  backdrop.addEventListener("click", close);
+  document.addEventListener("keydown", function (e) { if (e.key === "Escape" && !panel.hidden) close(); });
+
+  document.getElementById("saved-export").addEventListener("click", function () {
+    var blob = new Blob([JSON.stringify(mine(), null, 2)], { type: "application/json" });
+    var a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = "aperture-read-later-" + reader() + ".json";
+    a.click();
+    setTimeout(function () { URL.revokeObjectURL(a.href); }, 1000);
+  });
+
+  // Switching reader switches whose list is shown — the toggle is the identity.
+  document.querySelectorAll("[data-reader-set]").forEach(function (b) {
+    b.addEventListener("click", function () {
+      paintButtons();
+      if (!panel.hidden) paintPanel();
+    });
+  });
+
+  paintButtons();
+})();
+
+// ---- Describe this photograph --------------------------------------------
+// The same form behaves differently depending on how the page is being served.
+// Published, it is static files and nothing can write to the repo, so it offers
+// the entry to copy. Run under edit_photos.py on localhost, a small local
+// helper is listening and Save writes photos.json and rebuilds for real.
+(function () {
+  var fill = document.getElementById("flick-fill");
+  if (!fill) return;
+  var modal = document.getElementById("flick-modal"),
+      out = document.getElementById("flick-json"),
+      status = document.getElementById("flick-status"),
+      mode = document.getElementById("flick-mode"),
+      saveBtn = document.getElementById("flick-save"),
+      copyBtn = document.getElementById("flick-copy"),
+      f = {
+        subject: document.getElementById("flick-subject"),
+        where: document.getElementById("flick-where"),
+        note: document.getElementById("flick-note"),
+        research: document.getElementById("flick-research")
+      };
+
+  var host = location.hostname;
+  var canSave = (host === "localhost" || host === "127.0.0.1");
+
+  if (canSave) {
+    saveBtn.hidden = false;
+    out.hidden = true;
+    mode.textContent = "Your words about the frame. Saving writes photos.json and rebuilds the page.";
+  } else {
+    copyBtn.hidden = false;
+    mode.textContent = "Your words about the frame. This published page cannot write files, " +
+      "so copy the entry into photos.json. To save directly, view the site with  python3 preview.py";
+  }
+
+  function values() {
+    var v = {};
+    Object.keys(f).forEach(function (k) { v[k] = f[k].value.trim(); });
+    return v;
+  }
+  function compose() {
+    var body = {};
+    body[fill.dataset.file] = values();
+    out.textContent = JSON.stringify(body, null, 2);
+  }
+  function say(msg, bad) {
+    status.textContent = msg;
+    status.className = "flick-status" + (bad ? " bad" : "");
+  }
+
+  function open() {
+    Object.keys(f).forEach(function (k) { f[k].value = fill.dataset[k] || ""; });
+    compose(); say("");
+    modal.hidden = false;
+    f.subject.focus();
+  }
+  function close() { modal.hidden = true; fill.focus(); }
+
+  fill.addEventListener("click", open);
+  document.getElementById("flick-cancel").addEventListener("click", close);
+  modal.addEventListener("click", function (e) { if (e.target === modal) close(); });
+  document.addEventListener("keydown", function (e) { if (e.key === "Escape" && !modal.hidden) close(); });
+  Object.keys(f).forEach(function (k) { f[k].addEventListener("input", compose); });
+
+  saveBtn.addEventListener("click", function () {
+    saveBtn.disabled = true; say("Saving…");
+    fetch("/save-photo", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ file: fill.dataset.file, fields: values() })
+    }).then(function (r) { return r.json(); }).then(function (res) {
+      if (!res.saved) throw new Error(res.error || "save refused");
+      say(res.rebuilt ? "Saved. Reloading…" : "Saved, but the rebuild failed — check the terminal.");
+      if (res.rebuilt) setTimeout(function () { location.reload(); }, 700);
+      else saveBtn.disabled = false;
+    }).catch(function (e) {
+      say("Could not save: " + e.message + ". Is preview.py still running?", true);
+      saveBtn.disabled = false;
+    });
+  });
+
+  copyBtn.addEventListener("click", function () {
+    var btn = this, text = out.textContent;
+    function done() { say("Copied — paste it into photos.json"); }
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(text).then(done, function () {
+        var r = document.createRange(); r.selectNodeContents(out);
+        var s = getSelection(); s.removeAllRanges(); s.addRange(r);
+        say("Selected — press Cmd+C");
+      });
+    } else {
+      var r = document.createRange(); r.selectNodeContents(out);
+      var s = getSelection(); s.removeAllRanges(); s.addRange(r);
+      say("Selected — press Cmd+C");
+    }
   });
 })();
 </script>
