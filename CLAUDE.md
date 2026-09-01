@@ -10,11 +10,10 @@ syntax. Show diffs before applying them.**
 
 ## Working agreement
 
-Ganges reviews and pushes his own changes. Do NOT push to this repo — no
-`push_content.py` for source files, no API writes, no `git push`. Make the edit
-locally, say plainly what changed and why, and leave the commit to him. The one
-exception is the daily edition, which the cloud scheduled task publishes on its
-own.
+Ganges reviews and pushes his own changes. Do NOT push to this repo — no API
+writes, no `git push`. Make the edit locally, say plainly what changed and why,
+and leave the commit to him. The one exception is the daily edition, which the
+cloud routine publishes on its own.
 
 ## Architecture — content and presentation are separate
 
@@ -24,10 +23,13 @@ own.
     index.html                 <- GENERATED. never hand-edit.
     archive/YYYY-MM-DD.html    <- GENERATED. never hand-edit.
 
-Daily flow: a scheduled task researches the news, writes `content/<date>.json`,
-and pushes it with `push_content.py`. That push triggers
-`.github/workflows/build.yml`, which runs `build.py` and commits the rendered
-HTML. `.github/workflows/notify.yml` then sends a web push.
+Daily flow: a Claude Code **routine** (claude.ai/code/routines, 4am local,
+timezone-aware) researches the news, writes `content/<date>.json`, and commits and
+pushes it with plain git. The repo is attached to the routine, so the git proxy
+supplies a scoped credential for the length of the run — there is no long-lived
+token anywhere in the pipeline. That push triggers `.github/workflows/build.yml`,
+which runs `build.py` and commits the rendered HTML. `.github/workflows/notify.yml`
+then sends a web push.
 
 The whole point of the split: an AI writing HTML by hand forgets things (dates in
 three places, relative path prefixes, column balance). Those are now computed.
@@ -41,9 +43,16 @@ three places, relative path prefixes, column balance). Those are now computed.
   randomness, seed it.
 - **`.nojekyll` must stay.** GitHub Pages runs legacy Jekyll, whose Liquid syntax
   collides with Jinja2's `{{ }}`. Without it the Pages build fails on the template.
-- **`.aperture-token` is a real secret.** Gitignored. Never print, commit or echo it.
-- The daily token deliberately lacks GitHub "Workflows" permission — automation
-  cannot rewrite its own CI. Workflow files are committed by hand. Keep it that way.
+- **No credential belongs in this pipeline.** The routine borrows a scoped git
+  credential for the length of one run. Never reintroduce a personal access token,
+  and never put one in a task prompt — a prompt is configuration, readable by any
+  session that lists it.
+- The routine still cannot modify `.github/workflows/**` on its own; workflow files
+  are committed by hand. Keep it that way — automation should not be able to rewrite
+  its own CI.
+- **A green run status means the session exited cleanly, not that anything
+  published.** Verify against `origin/main`, never against run status. The 1 Sep
+  failure looked green and shipped nothing.
 
 ## Commands
 
@@ -51,7 +60,6 @@ three places, relative path prefixes, column balance). Those are now computed.
     python3 build.py                    # build today's edition
     python3 build.py 2026-08-29         # build a specific date
     python3 build.py --check-only DATE  # validate without writing
-    python3 push_content.py DATE        # push content JSON -> triggers CI
 
 ## Editorial shape
 
@@ -89,10 +97,20 @@ Clearing a stranded lock is Ganges's to do, in his own terminal:
 
 - This folder is also mounted into Claude Cowork sessions, which **cannot delete
   files**. Automated git in this folder therefore strands `.git/*.lock` and
-  `objects/pack/*.keep` files. That is why the daily task uses the GitHub API
-  instead of local git. Working here in Claude Code (normal Terminal access) is fine.
+  `objects/pack/*.keep` files. That is why the daily job never touches this folder:
+  it runs in the cloud against its own fresh clone. Working here in Claude Code
+  (normal Terminal access) is fine.
 - Wildlife photos in `wildlife/` are the owner's own work. Caption them generically
   ("From the archive") — never assert a species or location that isn't verified.
+- **`.gitignore` does not apply to files git is already tracking.** `.DS_Store` was
+  listed in `.gitignore` and tracked on origin at the same time, so it reappeared in
+  every commit dialog no matter how often it was unchecked. Untracking is a separate
+  act: `git rm --cached <file>`. If an ignored file keeps showing up as modified,
+  it is tracked — check with `git ls-files <file>` rather than re-editing `.gitignore`.
+- **`index.html` and `archive/*.html` are tracked but CI-owned.** A local `build.py` or
+  `preview.py` run leaves them modified in the working tree. Discard those changes
+  rather than committing them; the rendered HTML on `main` should only ever come from
+  the build workflow, or the two will fight.
 
 ## Layout rules that are easy to break
 
@@ -112,7 +130,6 @@ Clearing a stranded lock is Ganges's to do, in his own terminal:
 
 ## Open work
 
-- EDITORIAL.md + a slimmed-down scheduled-task prompt.
-- Layout: filler photos patch a column-balance problem rather than fixing it.
-  The real fix is CSS that lets the browser balance section columns.
-- A photo showcase sourced from the owner's NAS library.
+- The Photography Desk: source is a Lightroom Classic publish service, not the NAS.
+  See `decisions/002-photo-source.md`. Includes re-exporting the 28 photos already
+  live at web size — one is 21.5MB and is being served to readers.

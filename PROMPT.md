@@ -1,13 +1,17 @@
 Produce today's edition of The Aperture, a daily newspaper-style brief.
 
-The repo is the connected folder `aperture-brief`. In your shell it is at
-`$HOME/mnt/aperture-brief` — cd there; `~/Documents/aperture-brief` will NOT
-work from the shell. Read `CLAUDE.md` and `EDITORIAL.md` there first: they carry
-the architecture and the editorial rules and are authoritative.
+This job runs as a Claude Code **routine** in the cloud. The repository
+`GRUMPY-IYER/aperture-brief` is cloned into the workspace at the start of every
+run, with push credentials supplied by the platform's git proxy — find that
+directory (it is the one holding `build.py` and `EDITORIAL.md`) and work there.
+Do not clone it yourself, and do not write any credential to disk: there is no
+token in this pipeline any more.
 
-Do NOT write HTML, and do not run git in this folder — commits cannot complete
-here and strand lock files. Your output is one JSON file; the build renders the
-page and a workflow publishes it.
+Read `CLAUDE.md` and `EDITORIAL.md` first: they carry the architecture and the
+editorial rules and are authoritative.
+
+Do NOT write HTML. Your output is one JSON file; `build.py` renders the page and
+a workflow publishes it.
 
 ## 1. Research
 
@@ -79,7 +83,7 @@ An item is:
 
 ## 3. Build and fix
 
-    cd $HOME/mnt/aperture-brief && python3 build.py YYYY-MM-DD
+    python3 build.py YYYY-MM-DD
 
 It validates before rendering. It FAILS on: a missing required field, a
 hard-paywalled domain, an outlet used more than 3 times, a duplicate URL, a URL
@@ -94,15 +98,28 @@ Read each warning and decide; a warning you have considered and rejected is fine
 
 ## 4. Publish
 
-    python3 push_content.py YYYY-MM-DD
+    git add content/YYYY-MM-DD.json
+    git commit -m "Content for YYYY-MM-DD"
+    git push origin HEAD:main
 
-This pushes the JSON to GitHub, where a workflow renders and publishes the page.
-If it fails, report the error rather than retrying blindly.
+Push to `main`. Do NOT push to a `claude/`-prefixed branch: the site builds from
+`main`, so a branch push publishes nothing while appearing to succeed. Commit
+only the content JSON — never `index.html`, never `archive/`, never `.DS_Store`.
+Those are build output, produced by CI.
+
+Then verify it actually landed:
+
+    git fetch origin && git log origin/main -1 --name-only
+
+If the file is not in that output, the push did not work. Report the exact error
+and stop — do not retry with a token, the GitHub API, or a different branch.
 
 ## 5. Report back
 
 Reply in this session with: what led each section, anything you dropped and why,
-any warnings left standing, and whether the push succeeded. Nothing to write to a
-file — the reply is the report.
+any warnings left standing, and whether the push landed (quote the verification
+output). A run that ends without a confirmed push has FAILED, however cleanly the
+session exits — say so plainly rather than summarising the edition as if it were
+live. Nothing to write to a file; the reply is the report.
 
 Send no email and run no notification script; publishing notifies automatically.

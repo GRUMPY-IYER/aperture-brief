@@ -54,11 +54,13 @@ jobs:
           The site is still showing the previous edition — nothing is broken, it just did not update.
 
           Common causes:
-          - the scheduled task did not fire (a laptop-based task needs the machine awake)
+          - the routine did not fire, or fired and errored early
           - research ran but \`build.py\` rejected the edition and it was never fixed
-          - \`push_content.py\` failed to reach GitHub
+          - the routine built a clean edition but the push did not land
 
-          To publish manually once the content exists:
-          \`\`\`
-          python3 push_content.py $DATE
-          \`\`\`"
+          Check the routine's latest run at claude.ai/code/routines. A green run
+          status means the session exited cleanly, NOT that anything published —
+          look for the push verification in its report.
+
+          To publish manually once the content exists, commit
+          \`content/$DATE.json\` to \`main\`; that triggers the build."
