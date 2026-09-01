@@ -1,0 +1,226 @@
+{
+  "date": "2026-09-01",
+  "sections": {
+    "politics": {
+      "top": [
+        {
+          "headline": "Army Secretary Dan Driscoll steps down after friction with Hegseth",
+          "url": "https://www.npr.org/2026/09/01/g-s1-141337/army-secretary-stepping-down",
+          "source": "NPR",
+          "blurb": "Army Secretary Dan Driscoll is stepping down after 18 months, the White House confirmed, following months of friction with Defense Secretary Pete Hegseth. The Iraq War veteran and former Vance adviser was the youngest Army secretary in U.S. history; his exit follows the recent ouster of his close friend, Army Chief of Staff Gen. Randy George."
+        },
+        {
+          "headline": "NPR investigation: heat is killing far more Americans than official counts show",
+          "url": "https://www.npr.org/2026/08/31/nx-s1-5724225/heat-wave-death-toll-tracker",
+          "source": "NPR",
+          "blurb": "A two-year NPR and Boston University investigation found heat is killing far more Americans than official tallies capture, because inconsistent death-certificate practices mean a heart attack triggered by extreme heat is rarely recorded as a heat death. Florida and Texas post the highest hidden tolls; the full statistical model is headed for peer review.",
+          "investigative": true
+        },
+        {
+          "headline": "Trump escalates fight to save the AI data-center boom",
+          "url": "https://www.axios.com/2026/08/31/trump-data-centers-backlash-ai-campaign",
+          "source": "Axios",
+          "blurb": "President Trump escalated his campaign to save the AI data-center boom, warning on Truth Social that communities rejecting new builds risk becoming \"backwards and poor.\" The intervention comes as Republicans scramble to defuse a fight over water use, land and electricity bills that has turned into one of the most politically toxic local issues nine weeks from the midterms."
+        },
+        {
+          "headline": "Commerce Department quietly drops political-interference safeguard after Census flap",
+          "url": "https://www.npr.org/2026/08/31/nx-s1-5948057/department-commerce-census-bureau-scientific-integrity",
+          "source": "NPR",
+          "blurb": "The Commerce Department quietly stripped language banning political interference from its scientific-integrity policy days after the Census Bureau published an unusual report on noncitizen voting tied to a Trump-aligned think tank. Former bureau director Robert Santos said the timing was hard to read as anything but an attempt to reconcile the agency's own report with the administration's messaging.",
+          "investigative": true
+        }
+      ],
+      "more": []
+    },
+    "india": {
+      "top": [
+        {
+          "headline": "India rejects Hague tribunal's ruling on the Indus Waters Treaty",
+          "url": "https://www.aljazeera.com/news/2026/8/31/india-rejects-hague-court-order-to-restore-indus-waters-pact-with-pakistan",
+          "source": "Al Jazeera",
+          "blurb": "India rejected a Hague tribunal's ruling that it must uphold the 1960 Indus Waters Treaty with Pakistan and limit construction on a Kashmir hydro project, calling the Permanent Court of Arbitration \"illegally constituted\" with \"zero legal standing.\" The tribunal had ruled that India's 2025 suspension of the treaty was not permitted under the pact or international law; New Delhi says it will not comply."
+        },
+        {
+          "headline": "Modi meets Iran's Pezeshkian at SCO summit as Putin talks loom",
+          "url": "https://thefederal.com/category/news/pm-modi-meets-iran-president-pezeshkian-at-sco-summit-talks-with-putin-on-agenda-255256",
+          "source": "The Federal",
+          "blurb": "Prime Minister Modi met Iran's President Masoud Pezeshkian on the sidelines of the SCO summit in Bishkek, with West Asia's security and the future of India-Iran ties atop the agenda — the first top-level India-Iran meeting since the US-Iran war began. Modi was also due to meet Vladimir Putin, as he, Putin and Xi Jinping shared a summit stage together."
+        },
+        {
+          "headline": "SIR: nearly six crore voters struck off rolls in a year",
+          "url": "https://scroll.in/latest/1095388/sir-33-delhi-voters-deleted-from-draft-list-21-in-maharashtra",
+          "source": "Scroll.in",
+          "blurb": "A year into India's Special Intensive Revision of electoral rolls, nearly six crore voters have been struck off nationwide — including a third of Delhi's draft list and a fifth of Maharashtra's — Scroll.in reports, as the opposition and the Election Commission trade blame over the deletions.",
+          "investigative": true
+        }
+      ],
+      "more": []
+    },
+    "geo": {
+      "top": [
+        {
+          "headline": "Iran strikes US-linked bases in Jordan and the UAE",
+          "url": "https://www.aljazeera.com/news/2026/8/31/iran-attacks-jordan-uae-after-us-bombs-larak-island-whats-the-latest",
+          "source": "Al Jazeera",
+          "blurb": "Iran's Revolutionary Guard fired missiles and drones at U.S.-linked air bases in Jordan and military assets in the UAE, retaliating for an American strike on Iranian rocket launchers in the Strait of Hormuz. It was the first exchange of fire between Washington and Tehran in a month; Jordan's military says it intercepted eight missiles, and Qatar condemned the attacks as a breach of sovereignty."
+        },
+        {
+          "headline": "Bessent tells Russia: no economic relief until the Ukraine war ends",
+          "url": "https://www.axios.com/2026/08/31/bessent-russia-g20-europe",
+          "source": "Axios",
+          "blurb": "Treasury Secretary Scott Bessent told Russia's finance minister at the G20 meeting in Asheville that Washington will offer no economic relief or side deals until the Ukraine war ends — the first in-person U.S.-Russia finance encounter since 2022. Germany's finance minister called Russia's presence at the table \"troubling\" even as Europe prepares another sanctions package."
+        }
+      ],
+      "more": [
+        {
+          "headline": "The new geography of energy security, from Hormuz to the Caucasus",
+          "url": "https://warontherocks.com/from-hormuz-to-the-caucasus-the-new-geography-of-energy-security/",
+          "source": "War on the Rocks",
+          "blurb": "An energy-security analysis, published days before this week's strikes, argues the Strait of Hormuz crisis is already reshaping pipeline politics from the Caucasus to the Black Sea."
+        }
+      ]
+    },
+    "sports": {
+      "top": [
+        {
+          "headline": "Hetmyer's record-equalling century sinks Trinbago in the CPL",
+          "url": "https://www.cricinfo.com/series/caribbean-premier-league-2026-1534175/trinbago-knight-riders-vs-guyana-amazon-warriors-22nd-match-1534200/full-scorecard",
+          "source": "ESPNcricinfo",
+          "blurb": "Shimron Hetmyer smashed a record-equalling century — 111 not out off 43 balls, with nine sixes — to power Guyana Amazon Warriors past Trinbago Knight Riders by nine runs on DLS in a rain-hit CPL clash at Queen's Park Oval. It was his 100th CPL appearance and kept the Amazon Warriors unbeaten through four matches."
+        },
+        {
+          "headline": "Zimbabwe survive Namibia scare to win T20I tri-series decider",
+          "url": "https://www.cricinfo.com/series/namibia-t20i-tri-series-aug-2026-2026-1549518/namibia-vs-zimbabwe-3rd-match-1549526/full-scorecard",
+          "source": "ESPNcricinfo",
+          "blurb": "Zimbabwe survived a stunning fightback to beat Namibia by five runs in their T20I tri-series decider, with Namibia's Zane Green and Alexander Volschenk adding 109 off 49 balls before falling nine runs short in a dramatic final over."
+        }
+      ],
+      "more": []
+    },
+    "entertainment": {
+      "top": [
+        {
+          "headline": "Venice Film Festival opens with Danny Boyle's Murdoch drama 'Ink'",
+          "url": "https://www.wral.com/news/ap/449c4-everything-you-need-to-know-about-the-2026-venice-film-festival/",
+          "source": "WRAL",
+          "blurb": "The Venice Film Festival opens this week with Danny Boyle's \"Ink,\" a drama about a young Rupert Murdoch's takeover of The Sun, starring Guy Pearce and Jack O'Connell. Maggie Gyllenhaal presides over a jury that includes Johnnie To and Xavier Giannoli, with George Clooney returning to collect a lifetime achievement award."
+        }
+      ],
+      "more": []
+    },
+    "bengal": [
+      {
+        "headline": "Bengali becomes mandatory for all West Bengal government work today",
+        "url": "https://thefederal.com/category/states/east/west-bengal/all-bengal-govt-communications-in-bengali-from-sept-1-suvendu-says-in-assembly-250755",
+        "source": "The Federal",
+        "blurb": "Bengali becomes the mandatory language for all West Bengal government work from today, Chief Minister Suvendu Adhikari's July directive taking effect across offices, police stations and digital services statewide."
+      }
+    ],
+    "travel": [
+      {
+        "headline": "Lonely Planet's picks for September travel",
+        "url": "https://www.lonelyplanet.com/articles/where-to-go-in-september",
+        "source": "Lonely Planet",
+        "blurb": "Lonely Planet's picks for September travel, from Michigan's least-visited national park to Türkiye's quieter southwest coast, lean into the shoulder season's thinner crowds and softer light."
+      },
+      {
+        "headline": "India's tiger corridors need protecting before it's too late",
+        "url": "https://news.mongabay.com/short-article/2026/08/safeguarding-passageways-is-the-next-step-for-indias-growing-tiger-populations/",
+        "source": "Mongabay",
+        "blurb": "As Bengal tiger numbers rebound and cats increasingly wander into farmland, conservationists are pressing India to protect the ecological corridors connecting its core habitats before they're lost to development."
+      }
+    ],
+    "happy": {
+      "headline": "The woman who recorded 30 years of TV news so history couldn't be rewritten",
+      "url": "https://www.atlasobscura.com/articles/marion-stokes-television-news-archive",
+      "source": "Atlas Obscura",
+      "blurb": "Convinced television news could be quietly rewritten, Philadelphia activist Marion Stokes spent from 1975 to 2012 recording it around the clock, leaving behind 70,000 tapes now preserved by the Internet Archive."
+    },
+    "tech_top": [
+      {
+        "headline": "Pentagon adds ChatGPT and Grok to its AI platform — still no Claude",
+        "url": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/",
+        "source": "TechCrunch",
+        "blurb": "The Defense Department added OpenAI's ChatGPT Mil and xAI's Grok for Government to its GenAI.mil portal, opening frontier AI tools to more than 3 million personnel for unclassified planning and logistics work. Anthropic's Claude remains absent: talks stalled after the company insisted on contract terms barring its models from mass surveillance or lethal autonomous weapons use.",
+        "pm_note": "A live case study in what AI vendors will and won't concede to land a government contract — worth watching if you sell into regulated buyers."
+      },
+      {
+        "headline": "Tim Cook hands Apple's reins to John Ternus",
+        "url": "https://9to5mac.com/2026/08/31/tim-cook-last-day-john-ternus-apple-ceo/",
+        "source": "9to5Mac",
+        "blurb": "John Ternus became Apple's chief executive today, ending Tim Cook's 15-year run atop the company as Cook moves to executive chairman. Ternus, the hardware chief who shepherded the Vision Pro and the Apple Silicon transition, inherits a company racing to catch up on AI ahead of a September 9 iPhone event.",
+        "pm_note": "A rare real-world look at a hardware-first leader inheriting an AI catch-up problem — the platform bets he makes next quarter will say a lot about Apple's roadmap."
+      },
+      {
+        "headline": "Sony and Warner Music sue Anthropic over song lyrics",
+        "url": "https://www.aljazeera.com/economy/2026/8/31/sony-warner-music-sue-anthropic-saying-it-pirated-songs-to-train-its-ai",
+        "source": "Al Jazeera",
+        "blurb": "Sony Music and Warner Music sued Anthropic, alleging it illegally used more than 20,000 songs — from the Beatles to Taylor Swift — to train Claude, and are seeking up to $150,000 per work in damages. It's the latest front in the music industry's fight over AI training data, alongside earlier suits from other labels.",
+        "pm_note": "Training-data lawsuits are becoming a standard cost of doing business for AI labs — the per-work damages math here is the number worth tracking."
+      }
+    ],
+    "tech_more": [
+      {
+        "headline": "Ternus's first test: Apple's iPhone event lands September 9",
+        "url": "https://techcrunch.com/2026/08/26/apple-is-holding-its-iphone-launch-event-on-september-9/",
+        "source": "TechCrunch",
+        "blurb": "Ternus's first big test as CEO arrives fast: Apple has scheduled its iPhone launch event for September 9, just over a week into his tenure."
+      }
+    ],
+    "tech_101": [
+      {
+        "term": "Copyright management information (CMI)",
+        "text": "The metadata embedded in a song or file — artist, title, licensing terms — that identifies who owns it. Stripping it out before feeding content into an AI training set is a separate DMCA violation, on top of any copyright-infringement claim."
+      }
+    ],
+    "science": [
+      {
+        "headline": "Diamond turns out to generate electricity after all",
+        "url": "https://www.sciencedaily.com/releases/2026/08/260829035223.htm",
+        "source": "ScienceDaily",
+        "blurb": "Diamond was long thought incapable of generating electricity under mechanical stress, but University of Hong Kong researchers found ultrathin, flexible diamond membranes produce a strong, repeatable piezoelectric effect. The discovery could enable diamond-based sensors, tiny self-powered energy systems and implantable medical devices that don't need batteries.",
+        "kind": "chemistry"
+      },
+      {
+        "headline": "Astronauts complete the sixth all-female spacewalk in history",
+        "url": "https://www.nasa.gov/news-release/nasa-sets-spacewalk-for-station-maintenance-live-coverage-planned/",
+        "source": "NASA",
+        "blurb": "NASA's Jessica Meir and ESA's Sophie Adenot completed the sixth all-female spacewalk in history outside the International Space Station, replacing a docking-navigation antenna and swapping a truss camera over six and a half hours. It was Meir's seventh spacewalk and Adenot's third, moving Meir into third place all-time among NASA's women spacewalkers.",
+        "kind": "space"
+      },
+      {
+        "headline": "Wild monkeys' flexible feet upend a theory of how we learned to climb",
+        "url": "https://www.sciencedaily.com/releases/2026/08/260829235942.htm",
+        "source": "ScienceDaily",
+        "blurb": "Wild sooty mangabey monkeys in Ivory Coast can bend their midfoot up to 46 degrees to climb narrow vertical tree trunks — flexibility scientists didn't know monkey feet had, comparable to a chimpanzee's ankle bend. The find complicates assumptions about how the last common ancestor of humans and chimps got around.",
+        "kind": "biology"
+      }
+    ],
+    "philosophy": [
+      {
+        "headline": "What Gödel's incompleteness theorems say about AI morality",
+        "url": "https://aeon.co/essays/what-godels-incompleteness-theorems-say-about-ai-morality",
+        "source": "Aeon",
+        "blurb": "Many hope AI will eventually discover objective ethical truths and settle moral disputes for us. Elad Uzan argues Gödel's incompleteness theorems suggest otherwise: any formal system powerful enough to encode ethics will always be either incomplete or inconsistent, leaving moral judgment — intuition, context, lived history — irreducibly ours to carry."
+      },
+      {
+        "headline": "Democracy should be sentimentalist, not rationalist",
+        "url": "https://aeon.co/essays/democracy-should-be-sentimentalist-not-rationalist",
+        "source": "Aeon",
+        "blurb": "Political theory keeps trying to ground democracy in reason and shared facts, but this essay argues civic life has always run on sentiment — love, laughter, fellow feeling — and that pretending otherwise leaves us unable to explain why people actually show up for each other."
+      },
+      {
+        "headline": "Your identity may live in your brain's wiring, not your life story",
+        "url": "https://bigthink.com/books/our-brains-our-selves/",
+        "source": "Big Think",
+        "blurb": "Popular wisdom says identity comes from upbringing and experience, but a growing body of neuroscience argues the brain itself — its particular wiring — is what makes someone who they are, prior to any story they tell about themselves."
+      }
+    ],
+    "philosophy_101": [
+      {
+        "term": "Gödel's incompleteness theorems",
+        "text": "A 1931 proof that any logical system powerful enough to describe basic arithmetic can't be both complete and consistent — it will always contain true statements it cannot prove, or false ones it can't rule out. Philosophers now ask whether the same limit applies to any attempt to formalize ethics."
+      }
+    ]
+  }
+}
