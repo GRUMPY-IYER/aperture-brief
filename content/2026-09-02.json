@@ -1,0 +1,237 @@
+{
+  "date": "2026-09-02",
+  "sections": {
+    "politics": {
+      "top": [
+        {
+          "headline": "House passes stopgap funding bill, pushing shutdown fight past midterms",
+          "url": "https://www.npr.org/2026/09/01/nx-s1-5951536/house-government-funding-vote-midterms",
+          "source": "NPR",
+          "blurb": "The House passed a stopgap funding bill 370-48, extending government funding through December 11 and averting a shutdown before the September 30 deadline. The Senate passed it in August and Trump is expected to sign it, pushing the fight over federal spending past November's midterms."
+        },
+        {
+          "headline": "Youth treatment-center CEO arrested in sex sting, months after Marshall Project abuse exposé",
+          "url": "https://www.themarshallproject.org/2026/09/01/teen-residential-treatment-center-abuse-ohio",
+          "source": "The Marshall Project",
+          "blurb": "Randall Mackendrick, CEO of Ohio's 100-bed Fox Run youth treatment center, was arrested after allegedly driving nearly 200 miles to meet who he believed was a 14-year-old girl in a police sting. The arrest follows a Marshall Project investigation that found children at the facility, many trauma survivors, endured unsafe restraints and sexual assaults never reported to state regulators.",
+          "investigative": true
+        },
+        {
+          "headline": "Whistleblower warns rushed USPS mail-ballot rules could delay millions of votes",
+          "url": "https://www.npr.org/2026/09/01/nx-s1-5950869/trump-mail-in-voting-usps",
+          "source": "NPR",
+          "blurb": "A Postal Service whistleblower told Sen. Richard Blumenthal that a 'zero-percent failure policy' for verifying mail ballots under a Trump executive order could see entire bulk mailings rejected over a single bad barcode, delaying millions of ballots ahead of the midterms. Key parts of the plan remain blocked by a court order; USPS says it is reviewing the claim."
+        }
+      ],
+      "more": []
+    },
+    "india": {
+      "top": [
+        {
+          "headline": "Government's chief economic adviser denies fixing GDP data",
+          "url": "https://scroll.in/latest/1095427/pms-economic-adviser-denies-allegations-of-centre-manipulating-gdp-data",
+          "source": "Scroll.in",
+          "blurb": "Chief Economic Adviser V Anantha Nageswaran rejected Congress MP Jairam Ramesh's charge that the government fixed its GDP methodology to hide a \"bleak economic reality\" behind India's 7.8% first-quarter growth figure. Ramesh pointed to two methodology changes this year, including a June shift away from the wholesale price index; Nageswaran said no serious economist disputes the data's credibility."
+        },
+        {
+          "headline": "Undergraduate enrolment falls in India for the first time since 2011",
+          "url": "https://scroll.in/article/1095407/more-indian-students-are-abandoning-higher-education-as-degrees-no-longer-seem-worth-the-cost",
+          "source": "Scroll.in",
+          "blurb": "Undergraduate enrolment fell nationwide in 2023-'24 for the first time in over a decade, dropping most sharply in Maharashtra, where roughly 200,000 fewer Class 12 graduates enrolled in a degree program than the year before. Scroll.in reports the decline reflects a growing sense among young Indians that a degree isn't worth its cost when it no longer guarantees a good job."
+        },
+        {
+          "headline": "90 US politicians pledge to reject RSS-linked campaign funding",
+          "url": "https://scroll.in/article/1095396/two-days-after-bhagwats-speech-in-new-york-90-us-politicians-pledge-to-not-take-rss-linked-funding",
+          "source": "Scroll.in",
+          "blurb": "Two days after RSS chief Mohan Bhagwat's Madison Square Garden address, roughly 90 elected officials and candidates across eight US states — from Ro Khanna to Robin Kelly — signed a pledge to reject political contributions tied to the RSS and its affiliates. Khanna said he was returning $6,600 he traced to a Bhagwat-linked donor."
+        }
+      ],
+      "more": []
+    },
+    "geo": {
+      "top": [
+        {
+          "headline": "White House details Venezuela oil deal: Pentagon takes 35% stake",
+          "url": "https://www.aljazeera.com/news/2026/9/1/white-house-unveils-more-details-of-trumps-venezuela-oil-deal",
+          "source": "Al Jazeera",
+          "blurb": "The administration disclosed new terms of its Venezuela oil arrangement: the Pentagon's Office of Strategic Capital gets a 35% stake in a venture developing 65 billion barrels of reserves, many in fields once held by Russian and Chinese firms, while the State Department can buy oil at cost. Hegseth and Rubio signed for Washington."
+        },
+        {
+          "headline": "UN halves West Bank food aid as funding crisis deepens",
+          "url": "https://www.aljazeera.com/news/2026/9/1/un-slashes-food-aid-for-occupied-west-bank-and-gaza-amid-funding-shortfall",
+          "source": "Al Jazeera",
+          "blurb": "The World Food Programme is cutting West Bank assistance from 400,000 people to 200,000 this month, and warns of further Gaza cuts, after Western donors led by the US sharply reduced funding. It says it needs $386 million more over six months to reach 2 million food-insecure Palestinians."
+        },
+        {
+          "headline": "Vanuatu presses World Court case against France over Pacific islands",
+          "url": "https://www.aljazeera.com/news/2026/9/1/vanuatu-pushes-france-to-accept-icj-jurisdiction-in-pacific-islands-dispute",
+          "source": "Al Jazeera",
+          "blurb": "Vanuatu filed a case at the International Court of Justice seeking sovereignty over the uninhabited Matthew and Hunter islands, held by France since colonial rule, arguing its decolonization remains incomplete. The case cannot proceed unless Paris accepts the court's jurisdiction; the islands' waters affect regional fishing and seabed rights."
+        }
+      ],
+      "more": []
+    },
+    "sports": {
+      "top": [
+        {
+          "headline": "East Zone knock out defending champions Central Zone to reach Duleep Trophy final",
+          "url": "https://www.espncricinfo.com/series/duleep-trophy-2026-27-1546436/central-zone-vs-east-zone-1st-semi-final-1546439/match-report",
+          "source": "ESPNcricinfo",
+          "blurb": "Chasing 159, East Zone got home by four wickets in Bengaluru to eliminate defending champions Central Zone from the Duleep Trophy, with captain Ishan Kishan's unbeaten 39 and Vaibhav Sooryavanshi's 43 seeing them through and Mohammed Shami striking the winning runs. Mukesh Kumar took nine wickets across the match to be named player of the game."
+        },
+        {
+          "headline": "Bouchier's century powers England Women to their highest-ever ODI chase",
+          "url": "https://www.espncricinfo.com/series/ireland-women-in-england-2026-1496536/england-women-vs-ireland-women-1st-odi-1496552/full-scorecard",
+          "source": "ESPNcricinfo",
+          "blurb": "Maia Bouchier's 104 off 95 balls, built on a 143-run opening stand with Sophia Dunkley, powered England Women to their highest-ever successful ODI run chase, beating Ireland by six wickets in Leicester with 71 balls to spare. Alice Capsey's unbeaten 41 saw the innings home."
+        }
+      ],
+      "more": []
+    },
+    "entertainment": {
+      "top": [
+        {
+          "headline": "Wendell Berry, farmer-poet who argued for a slower, rooted life, dies at 92",
+          "url": "https://www.npr.org/2026/09/01/1139228585/wendell-berry-obituary",
+          "source": "NPR",
+          "blurb": "Wendell Berry, the Kentucky farmer, poet, novelist and essayist whose decades of writing made the case for a slower, land-rooted way of living, has died at 92. He left a fast-rising academic career in New York in the 1960s to return to his family's seventh-generation farm, becoming one of American letters' defining voices on place and ecology."
+        }
+      ],
+      "more": []
+    },
+    "bengal": [
+      {
+        "headline": "Press bodies condemn FIR against Anandabazar Patrika journalists over 'saffron hooliganism' headline",
+        "url": "https://thefederal.com/category/states/east/west-bengal/press-bodies-condemn-fir-anadabazar-patrika-journalists-255404",
+        "source": "The Federal",
+        "blurb": "Press bodies condemned an FIR filed against Anandabazar Patrika's editor and chief reporter over a headline calling Jadavpur University clashes 'saffron hooliganism,' calling it retaliation for their reporting."
+      },
+      {
+        "headline": "West Bengal clears mineral survey for major manganese reserves in Jhargram",
+        "url": "https://www.millenniumpost.in/bengal/bengal-eyes-major-manganese-breakthrough-in-jhargram-674464",
+        "source": "Millennium Post",
+        "blurb": "West Bengal cleared a joint survey of manganese belts in Jhargram, with MOIL and the Geological Survey of India beginning fieldwork this month on what could be a major mineral find."
+      },
+      {
+        "headline": "Bengal to mark Uttam Kumar's birth centenary with four-day celebration",
+        "url": "https://www.thestatesman.com/cities/kolkata/uttam-kumar-birth-centenary-to-be-celebrated-from-september-3-6-says-suvendu-1503620326.html",
+        "source": "The Statesman",
+        "blurb": "Bengal's government will mark cinema icon Uttam Kumar's 100th birth anniversary September 3-6 with exhibitions and a film festival opening with Satyajit Ray's 'Nayak.'"
+      }
+    ],
+    "travel": [
+      {
+        "headline": "23 best fall travel destinations for 2026",
+        "url": "https://www.lonelyplanet.com/articles/where-to-go-in-fall",
+        "source": "Lonely Planet",
+        "blurb": "Lonely Planet's fall picks range from Seoul to the Seychelles, each timed to its own best travel season rather than a single calendar month."
+      },
+      {
+        "headline": "The secret lives of migrating birds",
+        "url": "https://news.cornell.edu/stories/2026/08/secret-lives-migrating-birds-and-why-theyre-kind-amazing",
+        "source": "Cornell Chronicle",
+        "blurb": "Ahead of Cornell's Migration Celebration, researchers explain the fat-fueled endurance, magnetic sensing and sleepless flight that let songbirds cross entire continents twice a year."
+      }
+    ],
+    "happy": {
+      "headline": "The OSS commando who parachuted behind enemy lines twice, and the letter he left his wife",
+      "url": "https://www.smithsonianmag.com/history/this-american-commando-parachuted-behind-enemy-lines-in-both-the-european-and-pacific-theaters-of-world-war-ii-180989396/",
+      "source": "Smithsonian Magazine",
+      "blurb": "OSS agent and Thomas Jefferson descendant Francis Lowell Coolidge parachuted into occupied France in 1944 carrying a goodbye letter to his wife, published here for the first time."
+    },
+    "tech_top": [
+      {
+        "headline": "Microsoft 365 outage drags into a second day",
+        "url": "https://techcrunch.com/2026/09/01/microsoft-365-outage-drags-on-but-things-are-improving/",
+        "source": "TechCrunch",
+        "blurb": "A Microsoft 365 outage that began in Exchange Online on August 31 spread to Teams, SharePoint, OneDrive, Purview and Defender XDR, disrupting mail and collaboration tools for a second straight day. Microsoft traced it to a core authentication configuration issue and said recovery was underway.",
+        "pm_note": "A single authentication misconfiguration cascaded across six separate Microsoft 365 services at once — a reminder that in a consolidated SaaS stack, auth is the one component whose blast radius touches everything built on top of it."
+      },
+      {
+        "headline": "FTC and 22 states sue Amazon over hidden ad-auction surcharges",
+        "url": "https://www.axios.com/2026/08/31/ftc-amazon-deceptive-advertising-lawsuit",
+        "source": "Axios",
+        "blurb": "The FTC and 22 state attorneys general sued Amazon, alleging it secretly overcharged advertisers more than $20 billion since 2019 by layering a hidden surcharge on top of its stated second-price ad auction. The suit says roughly 1.2 million advertisers, nearly half of them small businesses, paid more than they were told.",
+        "pm_note": "If your product documents how a price or ranking is calculated, that description becomes a legal claim — this case turns entirely on the gap between the auction mechanism Amazon published and the one it actually ran."
+      },
+      {
+        "headline": "EU designates ChatGPT a 'Very Large Online Search Engine'",
+        "url": "https://www.techmeme.com/260831/p9",
+        "source": "Techmeme",
+        "blurb": "The European Commission designated ChatGPT a 'Very Large Online Search Engine' under the Digital Services Act — the first such label for a standalone AI chatbot — after OpenAI reported more than 159 million monthly EU users, well past the 45-million threshold. OpenAI now has four months to run systemic risk assessments and submit to independent audits.",
+        "pm_note": "Crossing a monthly-active-user number, not shipping any particular feature, is what triggered a new compliance regime here — map your own product's usage thresholds against regulatory tripwires before growth outruns legal review."
+      }
+    ],
+    "tech_more": [
+      {
+        "headline": "Anthropic signs $35B compute deal with Nvidia-backed Lambda",
+        "url": "https://www.techmeme.com/260831/p42",
+        "source": "Techmeme",
+        "blurb": "Anthropic signed a $35 billion, six-year compute deal with Nvidia-backed Lambda for a Texas data center where Nvidia is also the chip supplier and the site's lessor."
+      },
+      {
+        "headline": "Apple presents new forensic evidence in OpenAI trade-secrets suit",
+        "url": "https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai/",
+        "source": "TechCrunch",
+        "blurb": "Apple presented forensic evidence that a former employee's laptop had records deleted, in its trade-secrets suit against OpenAI, which called the case 'a mess of Apple's own making.'"
+      }
+    ],
+    "tech_101": [
+      {
+        "term": "Second-price auction",
+        "text": "In a second-price auction, the highest bidder wins but pays only what the second-highest bidder offered — the standard model for online ad auctions because it's meant to make bidders bid their true value rather than game the price. The FTC's case against Amazon alleges it quietly moved away from this rule while still describing its auction as second-price."
+      },
+      {
+        "term": "Circular financing",
+        "text": "Circular financing is when a company invests in or extends credit to a customer who then spends that money buying the investor's own product, inflating both sides' apparent growth without new outside cash entering the system. In the Anthropic-Lambda deal, Nvidia is simultaneously Lambda's backer, landlord and chip supplier, all ultimately funded by payments flowing back to Nvidia."
+      }
+    ],
+    "science": [
+      {
+        "headline": "Chemists crack an efficient route to anticancer natural compounds",
+        "url": "https://phys.org/news/2026-08-chemists-method-synthesis-natural-compounds.html",
+        "source": "Phys.org",
+        "kind": "chemistry",
+        "blurb": "Chemists at Charles University in Prague devised an efficient three-step route — some steps yielding up to 98% of product — to molecules related to anticancer and anti-inflammatory natural compounds, using biomass-derived levoglucosenone as a starting material. The method could make hard-to-synthesize natural compounds far more accessible for drug research."
+      },
+      {
+        "headline": "Webb finds water near the Milky Way's central black hole",
+        "url": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Dust_and_water_spotted_close_to_giant_black_hole",
+        "source": "ESA",
+        "kind": "space",
+        "blurb": "Webb's infrared instrument found oxygen-rich dust and, for the first time, water in the envelope of a star just half a light-year from the Milky Way's central black hole, Sagittarius A*. The find shows raw material for future stars and planets can still form even that close to the galaxy's most extreme environment."
+      },
+      {
+        "headline": "Why aging may be a program, not a breakdown",
+        "url": "https://www.quantamagazine.org/why-aging-may-be-a-program-not-a-breakdown-20260814/",
+        "source": "Quanta Magazine",
+        "kind": "biology",
+        "blurb": "Analyzing gene expression across millions of mouse cells from different life stages, Rockefeller biologist Junyue Cao found patterns suggesting aging follows a coordinated program rather than accumulating random damage. The finding challenges the long-standing view of aging as mere wear and tear on the body's cells."
+      }
+    ],
+    "philosophy": [
+      {
+        "headline": "Nolan's Odyssey is naive about the nature of guilt and power",
+        "url": "https://iai.tv/articles/nolans-odyssey-is-naive-about-the-nature-of-guilt-and-power-auid-3665",
+        "source": "IAI News",
+        "blurb": "Philosopher Kathryn Lawson draws on Hannah Arendt, Emmanuel Levinas and Simone Weil to argue that Christopher Nolan's guilt-ridden Odysseus flatters modern audiences: Homer's original felt no remorse for his violence, a warning that power rarely recognizes its own cruelty without something external to check it."
+      },
+      {
+        "headline": "The living world is forcing scientists to rethink purpose",
+        "url": "https://bigthink.com/the-well/the-living-world-is-forcing-scientists-to-rethink-purpose/",
+        "source": "Big Think",
+        "blurb": "Philosopher of science Alan Love argues that biology, medicine and AI keep running into questions of purpose and agency that mechanistic explanation can't settle. The better question, he argues, isn't whether life has purpose but what kinds of purpose can actually be identified and explained."
+      }
+    ],
+    "philosophy_101": [
+      {
+        "term": "Teleology",
+        "text": "The study of purpose or goal-directedness in nature — asking not just how something works but what it's for. Biologists have long been wary of the word for sounding like it implies conscious design, even while using purpose-talk (a heart 'is for' pumping blood) constantly in practice."
+      },
+      {
+        "term": "The banality of evil",
+        "text": "Hannah Arendt's argument, from her reporting on Adolf Eichmann's trial, that atrocity is often committed not by monsters but by ordinary people failing to think critically about what they are doing. It's a caution that unexamined obedience, not dramatic villainy, is what makes cruelty possible at scale."
+      }
+    ]
+  }
+}
