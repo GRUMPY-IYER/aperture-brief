@@ -10,10 +10,18 @@ syntax. Show diffs before applying them.**
 
 ## Working agreement
 
-Ganges reviews and pushes his own changes. Do NOT push to this repo — no API
-writes, no `git push`. Make the edit locally, say plainly what changed and why,
-and leave the commit to him. The one exception is the daily edition, which the
-cloud routine publishes on its own.
+**The daily routine publishes editions, and that is not an exception to be
+weighed — it is the whole job.** It writes `content/<date>.json`, commits it, and
+runs `git push origin HEAD:main`. Nothing in this file forbids that, and a run
+that declines to push because of something it read here has failed.
+
+Everything else is Ganges's to push. When changing *source* — `build.py`, the
+template, documentation, workflows, decision records — make the edit locally, say
+plainly what changed and why, and leave the commit to him. No API writes, no
+pushing source on his behalf.
+
+The distinction is content versus source, not git versus not-git. Editions are
+published by machine; the machinery is changed by hand.
 
 ## Architecture — content and presentation are separate
 
