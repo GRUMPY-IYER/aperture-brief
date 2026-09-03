@@ -1,0 +1,221 @@
+{
+  "date": "2026-09-03",
+  "sections": {
+    "politics": {
+      "top": [
+        {
+          "headline": "Pentagon turmoil deepens as Hegseth consolidates control",
+          "url": "https://www.axios.com/2026/09/02/hegseth-defense-pentagon-driscoll-iran-war",
+          "source": "Axios",
+          "blurb": "Six months into the Iran war, Defense Secretary Pete Hegseth presides over a Pentagon with fewer senior leaders and less public accountability than at any point in Trump's second term. He has fired or forced out officers across nearly every service, removed at least 45 from promotion lists, and the war is consuming 65% of the Patriot interceptor inventory."
+        },
+        {
+          "headline": "New mail-voting rules moved forward despite USPS officials' own disenfranchisement fears",
+          "url": "https://www.propublica.org/article/mail-voting-usps-officials-concerns-disenfranchisement",
+          "source": "ProPublica",
+          "investigative": true,
+          "blurb": "Internal Postal Service meeting records show agency officials themselves worried the new Trump-directed mail-ballot verification rules could delay or block ballots for large numbers of eligible voters, ProPublica found, with one repeated concern being how to avoid invalidating an entire batch over a single unconfirmed name. The rules requiring states to share voter lists moved forward regardless."
+        },
+        {
+          "headline": "ICE detainee dies just hours after being admitted into detention",
+          "url": "https://www.npr.org/2026/09/02/nx-s1-5953128/ice-detention-death-lianyong-wei",
+          "source": "NPR",
+          "blurb": "Lianyong Wei, 51, was found unresponsive during a morning check at a Saipan detention facility and pronounced dead hours after his arrest — the 57th immigrant detainee to die in government custody since Trump's second term began. Twenty-four of those deaths have come since January 1, after the administration ended a rule requiring ICE to report deaths within 30 days of release."
+        }
+      ],
+      "more": []
+    },
+    "india": {
+      "top": [
+        {
+          "headline": "'Only a part of the chest was found': Delhi's Nepali community tries to count the missing",
+          "url": "https://www.newslaundry.com/2026/09/01/only-a-part-of-the-chest-was-found-delhis-nepali-community-tries-to-count-the-missing",
+          "source": "Newslaundry",
+          "investigative": true,
+          "blurb": "Nepal's flash floods have killed more than 1,100 people and left thousands missing, and the grief has reached Delhi's Nepali community, Newslaundry reports. In Shakarpur, the Ranabhat family and neighbours like Sunita Thapa, whose son watched their Trishuli Bazaar home and shop swept away, are still trying to confirm who survived."
+        },
+        {
+          "headline": "US faith leaders say Bhagwat event organisers didn't disclose the RSS chief's link",
+          "url": "https://scroll.in/latest/1095461/us-faith-leaders-say-new-york-event-organisers-did-not-tell-them-about-mohan-bhagwat-link",
+          "source": "Scroll.in",
+          "blurb": "American faith leaders say organisers of the August 29 New York event never disclosed that keynote speaker Mohan Bhagwat was the RSS chief, days after Congressman Ro Khanna and roughly 90 other US politicians pledged to reject RSS-linked campaign funding. The organisers have not responded to Scroll.in's questions about the omission."
+        }
+      ],
+      "more": []
+    },
+    "geo": {
+      "top": [
+        {
+          "headline": "What do we know about the fatal US bombing of a wedding in Iran's Sirik?",
+          "url": "https://www.aljazeera.com/news/2026/9/2/what-do-we-know-about-the-fatal-us-bombing-of-a-wedding-in-irans-sirik",
+          "source": "Al Jazeera",
+          "blurb": "A US strike hit a house hosting a wedding in Kuhestak, Sirik county, on Iran's southern coast, killing at least five people — including a four-year-old — and wounding dozens, six months into the US-Iran war. Iranian officials blamed Washington; US Central Command said it was aware of reports of civilian casualties and maintains its forces do not target civilians."
+        },
+        {
+          "headline": "A week after Nepal's deadly floods, rescuers still search for survivors",
+          "url": "https://www.npr.org/2026/09/01/nx-s1-5951528/nepal-floods-rescuers-struggle-to-locate-power-plants-to-find-trapped-survivors",
+          "source": "NPR",
+          "blurb": "A week after flash floods killed more than 1,100 people in Nepal, rescuers pulled nearly 300 survivors from hydropower project sites, most from the Upper Trishuli-1 plant under construction, NPR reports. Officials say 32 bridges and some 25 miles of road were swept away, and full recovery will take months."
+        },
+        {
+          "headline": "Chevron to expand in Venezuela, days after the US-Venezuela oil deal",
+          "url": "https://www.npr.org/2026/09/02/nx-s1-5952190/chevron-venezuela-oil-deal",
+          "source": "NPR",
+          "blurb": "Chevron signed a $7 billion deal to develop two more Orinoco Belt oil fields, aiming to more than double its output there within five years, while Italy's Eni won exclusive rights to the Junin 5 field. The signing, overseen by acting President Delcy Rodriguez and US Energy Secretary Chris Wright, follows last week's deal giving Washington access to 65 billion barrels of Venezuelan reserves."
+        }
+      ],
+      "more": []
+    },
+    "sports": {
+      "top": [
+        {
+          "headline": "South Zone reach Duleep Trophy final, to meet East Zone for the first time since 1970-71",
+          "url": "https://www.cricinfo.com/series/duleep-trophy-2026-27-1546436/south-zone-vs-north-zone-2nd-semi-final-1546440/match-report",
+          "source": "ESPNcricinfo",
+          "blurb": "Tilak Varma backed up his first-innings 116 not out with a match-winning 51 not out, sharing an unbroken stand with R Smaran as South Zone beat North Zone by seven wickets in Bengaluru. MD Nidheesh took a five-for as South set up a final against Ishan Kishan's East Zone in Chennai from September 6 — the sides' first meeting in a Duleep final since 1970-71."
+        }
+      ],
+      "more": [
+        {
+          "headline": "Antigua and Barbuda Falcons close out CPL season on top with win over Trinbago",
+          "url": "https://www.cricinfo.com/series/caribbean-premier-league-2026-1534175/trinbago-knight-riders-vs-antigua-and-barbuda-falcons-24th-match-1534202/full-scorecard",
+          "source": "ESPNcricinfo",
+          "blurb": "Antigua and Barbuda Falcons beat Trinbago Knight Riders by eight runs at Queen's Park Oval, sealing top spot as Trinbago finished their home stand with four losses in five games."
+        }
+      ]
+    },
+    "entertainment": {
+      "top": [
+        {
+          "headline": "Venice chief defends selecting Ilya Khrzhanovsky's 'DAU' after Ukraine's objection",
+          "url": "https://deadline.com/2026/08/alberto-barbera-ilya-khrzhanovskys-dau-russia-putin-1237046112/",
+          "source": "Deadline",
+          "blurb": "As Venice's 83rd Film Festival opened this week, Ukraine's foreign ministry condemned the festival for including Ilya Khrzhanovsky's 'DAU,' calling it linked to the Russian state; the film's financier, Sergei Adoniev, is under US and Ukrainian sanctions. Director Alberto Barbera defended the selection, while Khrzhanovsky — who says he renounced his Russian citizenship over the war — asked that the film not be prejudged."
+        }
+      ],
+      "more": []
+    },
+    "bengal": [
+      {
+        "headline": "Bengal opens four-day Uttam Kumar birth centenary with film festival, exhibitions",
+        "url": "https://www.millenniumpost.in/bengal/uttam-kumars-birth-centenary-film-festival-exhibitions-new-film-centre-674446",
+        "source": "Millennium Post",
+        "blurb": "West Bengal opens four days of centenary tributes to screen icon Uttam Kumar today, with a Nandan film festival opening on Satyajit Ray's 'Nayak' and a new film centre planned in his name."
+      },
+      {
+        "headline": "Bengal sets September dates for Jhargram manganese survey",
+        "url": "https://www.thestatesman.com/cities/kolkata/bengals-jhargram-to-hunt-for-manganese-as-govt-clears-reconnaissance-exercise-1503634029.html",
+        "source": "The Statesman",
+        "blurb": "MOIL and the Geological Survey of India will survey Jhargram's manganese belts across eleven named sites from September 15-19, sharpening the timeline on the mineral push announced last week."
+      }
+    ],
+    "travel": [
+      {
+        "headline": "Es Devlin's rotating library lights up Castle Howard's Temple of the Four Winds",
+        "url": "https://www.dezeen.com/2026/06/19/es-devlin-revolving-bookshelf-uk-country-house-pavilion/",
+        "source": "Dezeen",
+        "blurb": "Es Devlin's illuminated, slowly rotating library of 250 personal books, with her handwritten notes and a soundscape of her own voice, revolves inside Castle Howard's Temple of the Four Winds through September 27."
+      },
+      {
+        "headline": "Elders race to record Indigenous knowledge of the Philippines' vanishing endemic birds",
+        "url": "https://news.mongabay.com/short-article/2026/09/the-race-to-document-indigenous-knowledge-to-protect-philippines-birds/",
+        "source": "Mongabay",
+        "blurb": "On Mindoro Island, Iraya Mangyan elders are racing to record ecological knowledge tied to three threatened endemic birds — the storm-forecasting turis, the malevolent-spirit-warning siruk, and the ancestor-linked sulit — before it disappears, work meant to guide conservation and ancestral-domain planning."
+      }
+    ],
+    "happy": {
+      "headline": "The gentleman motorists who drove their own roadsters into the First World War",
+      "url": "https://www.smithsonianmag.com/history/some-earliest-automobile-enthusiasts-signed-up-help-allies-world-war-i-also-ushered-in-mechanization-war-180989285/",
+      "source": "Smithsonian Magazine",
+      "blurb": "Twenty-five motoring enthusiasts — ex-Olympians, big-game hunters, Boer War veterans and heirs — shipped their own cars to France in 1914 and served as volunteer chauffeurs and couriers; astonishingly, all survived."
+    },
+    "tech_top": [
+      {
+        "headline": "Uber lays off 3,300 people, 10% of staff, to fund its robotaxi push",
+        "url": "https://techcrunch.com/2026/09/02/uber-is-laying-off-10-of-staff-or-3300-people/",
+        "source": "TechCrunch",
+        "blurb": "Uber is cutting about 3,300 jobs, 10% of its global headcount, as CEO Dara Khosrowshahi moves to shrink management layers by 20% and redirect spending toward ride-sharing, delivery and its robotaxi bet. Teams of one or two people are being halved, and remote work is being curtailed to under 1% of staff.",
+        "pm_note": "A company betting big on autonomy is cutting management layers now, not later — worth reading if you're structuring your own org for an AI-driven product shift."
+      },
+      {
+        "headline": "OpenAI says its Astra model has crossed a 'Critical' cybersecurity threshold",
+        "url": "https://www.axios.com/2026/09/01/openai-astras-cyber-critical",
+        "source": "Axios",
+        "blurb": "OpenAI says its forthcoming Astra model is the first to meet the 'Critical' cyber capability threshold under its Preparedness Framework, having discovered and chained two zero-day vulnerabilities during testing without step-by-step human guidance. Access will start with a small group of testers before wider rollout through the Daybreak Blue cybersecurity program.",
+        "pm_note": "The safeguards a lab builds around its own risky capability — isolated testing, restricted tool access, tiered rollout — are a template worth studying before your product ships something this sensitive."
+      },
+      {
+        "headline": "Commerce Secretary: 'We trust Anthropic' again, months after a Pentagon contract standoff",
+        "url": "https://www.axios.com/2026/09/02/lutnick-anthropic-trump",
+        "source": "Axios",
+        "blurb": "Commerce Secretary Howard Lutnick told Axios 'we trust Anthropic ... they're back on the right side,' closing months of tension after the Pentagon pressed the company to drop its bans on lethal autonomous weapons and mass domestic surveillance uses of its models. Lutnick introduced Anthropic co-founder Tom Brown to G20 ministers this week.",
+        "pm_note": "Anthropic held its line on two usage restrictions through months of contract pressure and still repaired the relationship — a stated redline can survive a government sales cycle."
+      }
+    ],
+    "tech_more": [
+      {
+        "headline": "Texas freezes new data-center power hookups as 'ghost demand' hits 474 gigawatts",
+        "url": "https://www.usnews.com/news/top-news/articles/2026-09-01/analysis-texas-halt-on-powering-data-centers-reflects-us-reckoning-over-ghost-demand",
+        "source": "U.S. News & World Report",
+        "blurb": "Texas has frozen new grid connections for data centers after speculative requests ballooned the queue to 474 gigawatts, five times peak demand, forcing an audit of who actually owns and can fund each project."
+      }
+    ],
+    "tech_101": [
+      {
+        "term": "Ghost demand",
+        "text": "When developers file multiple speculative requests for grid power to secure a place in the queue, without a confirmed customer or the funding behind them. Texas's freeze exists because so much of its 474-gigawatt data-center queue turned out to be exactly this kind of phantom demand."
+      },
+      {
+        "term": "Preparedness Framework",
+        "text": "OpenAI's internal system for rating how dangerous a new model's capabilities are — in areas like cyber, bio and persuasion — before deciding how tightly to restrict access. Astra is the first OpenAI model rated 'Critical' for cyber capability under this framework."
+      }
+    ],
+    "science": [
+      {
+        "headline": "Simpler synthesis could make carbon-recycling catalysts commercially viable",
+        "url": "https://phys.org/news/2026-09-larger-catalyst-batches-carbon-recycling.html",
+        "source": "Phys.org",
+        "kind": "chemistry",
+        "blurb": "Researchers at the University of Mississippi and Texas A&M demonstrated a simpler, cheaper way to produce single-atom catalysts at commercial scale — 75 grams per batch — for turning carbon dioxide into carbon monoxide, a building block for synthetic fuels, plastics and pharmaceuticals. Cost and scale have long been the biggest barriers to using these catalysts commercially."
+      },
+      {
+        "headline": "Hubble spots a vast 10-sided cloud pattern circling Saturn's south pole",
+        "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-tracks-new-decagon-encircling-saturns-south-pole/",
+        "source": "NASA",
+        "kind": "space",
+        "blurb": "Astronomers using Hubble images found a decagon-shaped wave pattern in Saturn's south polar clouds, roughly 104,000 miles wide, migrating eastward at 6 mph and completing a rotation every 800 days. The find shows the famous hexagon at Saturn's north pole, spotted by Voyager in the 1980s, is less unique than scientists thought."
+      },
+      {
+        "headline": "Semaglutide extended lifespan and slowed aging markers in elderly mice",
+        "url": "https://www.nih.gov/news-events/news-releases/glp-1-treatment-late-life-extends-lifespan-animal-model",
+        "source": "NIH",
+        "kind": "medicine",
+        "blurb": "UC Berkeley researchers gave 20-month-old mice semaglutide, the drug sold as Ozempic and Wegovy, for three months and found treated mice lived a median 92 days longer, with better muscle and cognitive function and reduced inflammation. It's the strongest evidence yet that GLP-1 drugs can mimic, or exceed, the anti-aging effects of calorie restriction."
+      }
+    ],
+    "philosophy": [
+      {
+        "headline": "It doesn't have to be us versus nature",
+        "url": "https://aeon.co/essays/it-doesnt-have-to-be-us-versus-nature",
+        "source": "Aeon",
+        "blurb": "Following ecologist Erle Ellis's Nature paper, a group of researchers argues development and environmental flourishing aren't inherently opposed, proposing a 'Nature Relationship Index' the UN will report annually from late 2026. The point isn't to rank countries by how little they harm nature, but by how well people and the nonhuman world can flourish together."
+      },
+      {
+        "headline": "How to wait well, according to neuroscience and psychology",
+        "url": "https://bigthink.com/the-well/the-science-of-patience/",
+        "source": "Big Think",
+        "blurb": "Drawing on research from psychologist Sarah Schnitker's lab, this piece argues patience is a trainable skill rather than a fixed trait, and that treating waiting as a meaningful activity rather than dead time measurably improves wellbeing. It's a modern, empirical echo of the old philosophical case for patience as a virtue."
+      }
+    ],
+    "philosophy_101": [
+      {
+        "term": "Instrumental vs. intrinsic value",
+        "text": "Whether something matters only for what it gets you (instrumental) or for its own sake (intrinsic). Debates over whether nature deserves protection purely for human benefit, or because it has worth independent of us, turn entirely on which kind of value you think it has."
+      },
+      {
+        "term": "Patience as a virtue",
+        "text": "In Aristotle's ethics, a virtue is a trainable disposition, not an innate trait — you become patient by practicing patience, the same way you become brave by acting bravely. Modern psychology's finding that waiting well can be taught is, in that sense, a very old idea in new language."
+      }
+    ]
+  }
+}
