@@ -1,0 +1,205 @@
+{
+  "date": "2026-09-04",
+  "sections": {
+    "politics": {
+      "top": [
+        {
+          "headline": "DHS presses ahead with a nationwide 'citizen' voter list despite a lawsuit and a missed deadline",
+          "url": "https://www.npr.org/2026/09/03/nx-s1-5955822/voting-citizenship-lists-dhs-uscis-lawsuit",
+          "source": "NPR",
+          "blurb": "The Department of Homeland Security is still assembling state-by-state lists of 'confirmed citizens' for election officials ahead of the midterms, even after blowing past its September 4 deadline. Voting-rights groups Protect Democracy and CREW have sued under the Privacy Act, warning it's a first step toward federal control of state voter rolls."
+        },
+        {
+          "headline": "Losing SNAP is quietly ending free school lunch for over a million children",
+          "url": "https://www.npr.org/2026/09/03/nx-s1-5954205/snap-food-free-school-lunch-usda",
+          "source": "NPR",
+          "blurb": "Because free-meal eligibility is often tied automatically to SNAP, the program's post-'One Big Beautiful Bill' cuts have stripped over a million children of both benefits at once. Districts including San Antonio, Houston and Miami-Dade have already dropped universal free meals this school year; Arizona alone lost 180,000 children from SNAP in a year."
+        },
+        {
+          "headline": "Trump's DOJ sides with OpenAI against the news outlet suing it for copyright theft",
+          "url": "https://theintercept.com/2026/09/02/trump-openai-copyright-lawsuit-news-articles/",
+          "source": "The Intercept",
+          "blurb": "The Justice Department filed a brief backing OpenAI and Microsoft in a copyright suit The Intercept itself brought over AI training on its journalism, arguing a ruling against OpenAI would 'threaten national security' by helping foreign rivals. It's a notable case of the administration weighing in against a press outlet's own infringement claim."
+        }
+      ],
+      "more": []
+    },
+    "india": {
+      "top": [
+        {
+          "headline": "Delhi Police accused of assaulting and hurling communal slurs at women journalists",
+          "url": "https://www.newslaundry.com/2026/09/03/two-women-journalists-say-delhi-cops-assaulted-them-after-detaining-them-from-hospital-event",
+          "source": "Newslaundry",
+          "blurb": "Journalists Shaheen Khan and Nafisa Khan say Delhi Police beat them and used communal abuse after they questioned Chief Minister Rekha Gupta at a hospital event also attended by Amit Shah. Police say the pair obstructed a VVIP route; press bodies have demanded accountability."
+        },
+        {
+          "headline": "Ex-bureaucrat says Delhi Police held him nine hours over social media posts, kept his family in the dark",
+          "url": "https://www.newslaundry.com/2026/09/02/out-on-morning-walk-ex-bureaucrat-picked-up-released-after-12-hours",
+          "source": "Newslaundry",
+          "blurb": "Former additional secretary Ashish Joshi says Delhi Police's Special Cell picked him up mid-walk and questioned him for nine hours without informing his family for most of the day. Police say he was summoned, not arrested, in connection with an existing case."
+        }
+      ],
+      "more": []
+    },
+    "geo": {
+      "top": [
+        {
+          "headline": "Iran fires on US bases in Kuwait, Bahrain, Jordan and Iraq in a new wave of strikes",
+          "url": "https://www.aljazeera.com/news/2026/9/2/iran-us-exchange-new-attacks-who-was-hit-in-latest-strikes",
+          "source": "Al Jazeera",
+          "blurb": "Iran's military said it struck US-linked bases and assets in four countries at once: a ballistic missile attack on Jordan's Prince Hassan airbase and a Marine base, a hit on the US commander's compound at Kuwait's Ali Al Salem airbase, and drone strikes on Bahrain's Sheikh Isa airbase. Air defenses intercepted most of the missiles; no deaths were reported."
+        },
+        {
+          "headline": "Netherlands moves $10 billion in gold out of the US, citing 'severe crises'",
+          "url": "https://www.aljazeera.com/news/2026/9/3/why-has-the-netherlands-moved-10bn-of-its-gold-from-the-us",
+          "source": "Al Jazeera",
+          "blurb": "The Dutch central bank relocated a portion of its gold reserves from the US and Canada to the UK, saying it wants to be 'better prepared for severe crises' amid rising US-Europe friction over the Iran war and trade tariffs. The Netherlands holds roughly $83.8 billion in gold reserves overall."
+        },
+        {
+          "headline": "Haiti pleads for its UN-backed anti-gang force to survive past September",
+          "url": "https://www.aljazeera.com/news/2026/9/4/haitian-government-calls-for-renewal-of-international-anti-gang-task-force",
+          "source": "Al Jazeera",
+          "blurb": "With the Gang Suppression Force's mandate expiring September 30, Haiti's government asked the UN Security Council to extend and fully deploy the mission before December elections. The force, stood up last October to replace an earlier mission, has requested a two-year extension to reduce gangs' territorial control."
+        }
+      ],
+      "more": []
+    },
+    "sports": {
+      "top": [
+        {
+          "headline": "Mandhana's record century crushes Hong Kong at the Women's Asia Cup",
+          "url": "https://www.cricinfo.com/series/women-s-asia-cup-2026-1548888/hong-kong-women-vs-india-women-7th-match-group-a-1548897/match-report",
+          "source": "ESPNcricinfo",
+          "blurb": "Smriti Mandhana smashed a career-best 124 off 64 balls as India posted 193/5, then bowled Hong Kong out for just 56 to win by 137 runs in Dubai. Deepti Sharma took 3/9 as Hong Kong lost their last five wickets in eleven balls."
+        },
+        {
+          "headline": "PCB chief defends sacking Pakistan's coaches and sending players home mid-series",
+          "url": "https://www.cricinfo.com/story/pcb-chair-mohsin-naqvi-on-pakistan-s-changes-no-option-if-players-don-t-perform-1552674",
+          "source": "ESPNcricinfo",
+          "blurb": "PCB chairman Mohsin Naqvi defended sacking head coach Sarfaraz Ahmed and bowling coach Umar Gul and sending seven players home mid-tour, after England took an unassailable 2-0 lead in the Test series. 'We are not left with any option if a player is not performing,' he said."
+        }
+      ],
+      "more": [
+        {
+          "headline": "Laxman, not Gambhir, to coach India's men at the Asian Games",
+          "url": "https://www.cricinfo.com/story/asian-games-2026-vvs-laxman-named-india-men-s-head-coach-1552668",
+          "source": "ESPNcricinfo",
+          "blurb": "VVS Laxman will coach India's men's team at the Asian Games while Gautam Gambhir stays home to oversee the West Indies ODI series starting September 27."
+        }
+      ]
+    },
+    "entertainment": {
+      "top": [
+        {
+          "headline": "Gloria Steinem, who helped galvanize the modern women's movement, dies at 92",
+          "url": "https://www.npr.org/2026/09/03/nx-s1-5718381/gloria-steinem-dies",
+          "source": "NPR",
+          "blurb": "Steinem, who co-founded Ms. magazine and became one of the defining voices of American feminism, died Wednesday at her New York home; no cause was given. Tributes poured in from politics and entertainment alike."
+        },
+        {
+          "headline": "Clooney's Golden Lion speech takes aim at 'authoritarians' as Venice's most political edition continues",
+          "url": "https://www.euronews.com/culture/2026/09/02/venice-film-festival-clooney-conflicts-and-competition-dominate-as-ceremonies-begin",
+          "source": "Euronews",
+          "blurb": "Accepting an honorary Golden Lion for lifetime achievement, George Clooney warned that 'stories are always dangerous to people who peddle in fear,' aiming the line at censorship and rising authoritarianism at what critics are calling Venice's most politically charged festival in years."
+        }
+      ],
+      "more": []
+    },
+    "bengal": [
+      {
+        "headline": "Ganga floodwaters breach embankment on Malda's Bhutni island again",
+        "url": "https://www.thestatesman.com/bengal/ganga-waters-flood-bhutni-island-villages-malda-1502994444.html",
+        "source": "The Statesman",
+        "blurb": "An embankment gave way on Bhutni island in Malda, sending Ganga floodwaters into Kesharpur Colony and putting nearly two lakh residents at fresh risk barely a year after a similar breach."
+      }
+    ],
+    "travel": [
+      {
+        "headline": "Following First Nations guides through Canada's Great Bear Rainforest",
+        "url": "https://www.discoverwildlife.com/people/great-bear-rainforest-first-nations",
+        "source": "BBC Wildlife",
+        "blurb": "A writer joins Indigenous-led guides through British Columbia's Great Bear Rainforest, from the Salish Sea to Bute Inlet, tracking grizzlies during the salmon run."
+      }
+    ],
+    "happy": {
+      "headline": "The mystery soldier behind 300 WWII love letters",
+      "url": "https://www.smithsonianmag.com/history/this-box-of-300-love-letters-showed-up-out-of-the-blue-who-was-the-whimsical-world-war-ii-soldier-who-wrote-them-180989300/",
+      "source": "Smithsonian Magazine",
+      "blurb": "A cardboard box of 300 whimsical WWII love letters arrived anonymously at a USO office, sparking an amateur sleuth's yearslong hunt to identify the soldier who wrote them."
+    },
+    "tech_top": [
+      {
+        "headline": "Nvidia to buy Hugging Face for $12.9 billion",
+        "url": "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/",
+        "source": "TechCrunch",
+        "blurb": "Nvidia confirmed it will acquire Hugging Face, the model-and-dataset hub used by roughly 18 million developers, for $12.93 billion — its second-largest deal ever. CEO Jensen Huang pledged the platform will stay hardware-agnostic, continuing to support AMD and other chips alongside Nvidia's own.",
+        "pm_note": "Nvidia is paying to own the shelf where developers browse and pick models, not just the compute underneath them — a case study in buying the distribution layer rather than the product."
+      },
+      {
+        "headline": "ChatGPT, Claude and Grok all went down within hours of each other",
+        "url": "https://www.axios.com/2026/09/03/chatgpt-claude-grok-outages",
+        "source": "Axios",
+        "blurb": "OpenAI, Anthropic and xAI's chatbots each suffered outages the same morning — OpenAI cited a routing error, while Anthropic's Opus models ran elevated errors for more than three hours — with several outlets pointing to a concurrent Microsoft Azure disruption as a possible shared cause. All three recovered by afternoon.",
+        "pm_note": "Three 'competing' products failing in the same window is a signal they share upstream infrastructure — worth mapping your own stack's dependency graph past your direct vendor, not just to it."
+      }
+    ],
+    "tech_more": [],
+    "tech_101": [
+      {
+        "term": "Open-weight model",
+        "text": "Some AI companies only let you use their models through an API, keeping the underlying model file private. An 'open-weight' model publishes those files so anyone can download and run it themselves — Hugging Face is essentially the app store for them, which is exactly what Nvidia just bought."
+      },
+      {
+        "term": "Blast radius",
+        "text": "The area of impact when one piece of shared infrastructure fails. Today's outage showed that ChatGPT, Claude and Grok — sold as competing, independent products — may sit on overlapping cloud infrastructure, so one provider's bad day can become three companies' bad day at once."
+      }
+    ],
+    "science": [
+      {
+        "headline": "Chemists crack a decade-old problem, unlocking 'impossible' nanocrystals",
+        "url": "https://www.sciencedaily.com/releases/2026/08/260827010510.htm",
+        "source": "ScienceDaily",
+        "kind": "chemistry",
+        "blurb": "University of Chicago and Argonne National Laboratory chemists developed a new method for making nanocrystals out of metal nitrides, a technologically important class of materials that had resisted conventional nanocrystal synthesis. The breakthrough, published in Nature, could turn materials already used in LEDs, implants and superconductors into building blocks for flexible, printable electronics."
+      },
+      {
+        "headline": "Star formation is collapsing across the universe — but its fuel supply barely is",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260902234442.htm",
+        "source": "ScienceDaily",
+        "kind": "space",
+        "blurb": "Using China's FAST radio telescope, an international team found that cosmic star formation has fallen to roughly 40% of its rate 4.5 billion years ago, while the neutral hydrogen gas that fuels new stars has declined only slightly. The mismatch undercuts the simple 'running out of fuel' explanation for the universe's slowing star birth."
+      },
+      {
+        "headline": "A blood-and-sex-based score could catch 'broken heart syndrome' before it's mistaken for a heart attack",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260901070518.htm",
+        "source": "ScienceDaily",
+        "kind": "medicine",
+        "blurb": "Researchers developed the BioTAK score, combining biological sex with blood biomarkers, to identify takotsubo cardiomyopathy — 'broken heart syndrome' — before patients undergo unnecessary cardiac catheterization. The condition mimics a heart attack closely enough that it's routinely missed until an invasive test rules out a blockage."
+      }
+    ],
+    "philosophy": [
+      {
+        "headline": "When does a useful generalization curdle into a stereotype?",
+        "url": "https://aeon.co/essays/when-is-stereotyping-a-handy-tool-and-when-is-it-a-sin",
+        "source": "Aeon",
+        "blurb": "Without generalizing, we'd be paralyzed by the world's complexity — but a shortcut becomes a stereotype the moment it stops updating on evidence, this essay argues. It works through where that ordinary cognitive tool turns into an ethical failure, using everyday snap judgments as its test cases."
+      },
+      {
+        "headline": "What Hans Christian Andersen's garden tantrum says about the limits of tolerance",
+        "url": "https://aeon.co/essays/neuroqueer-expression-and-the-limits-of-social-tolerance",
+        "source": "Aeon",
+        "blurb": "Drawing on an 1857 outburst Andersen threw in Charles Dickens's garden, this essay asks how societies decide which intense, norm-breaking display is charming eccentricity and which is intolerable 'too muchness.' The line, it argues, tracks social power more than any intrinsic harm done."
+      }
+    ],
+    "philosophy_101": [
+      {
+        "term": "Heuristic vs. stereotype",
+        "text": "A heuristic is a mental shortcut that stays open to correction; a stereotype is the same shortcut frozen into a judgment about a person that ignores contrary evidence. The line between 'useful generalization' and prejudice is whether it updates."
+      },
+      {
+        "term": "The social construction of deviance",
+        "text": "The idea that 'abnormal' behavior gets flagged not because of the harm it does, but because it breaks a group's unwritten norms — so the same intensity of emotion or self-expression can read as charming in one person and threatening in another, depending on who's judging."
+      }
+    ]
+  }
+}
