@@ -1,0 +1,239 @@
+{
+  "date": "2026-09-05",
+  "sections": {
+    "politics": {
+      "top": [
+        {
+          "headline": "DOJ overrode prosecutors to block civil-rights charge against ICE agent who shot an immigrant",
+          "url": "https://www.propublica.org/article/doj-blocks-charges-ice-agent-minneapolis-julio-cesar-sosa-celis",
+          "source": "ProPublica",
+          "investigative": true,
+          "blurb": "Justice Department leadership in Washington overruled Minnesota federal prosecutors' 'strongest possible' objections and blocked a civil-rights charge against ICE agent Christian Castro, who shot Venezuelan immigrant Julio Cesar Sosa-Celis in January. ProPublica obtained the lead prosecutor's internal email objecting to the decision; he was fired days after it became public."
+        },
+        {
+          "headline": "CENTCOM opens internal investigation into deadly wedding strike in Iran",
+          "url": "https://www.axios.com/2026/09/04/iran-wedding-strike-us-military-investigation",
+          "source": "Axios",
+          "blurb": "CENTCOM commander Adm. Brad Cooper ordered a review of the strike that killed at least five people, including a four-year-old, at a wedding in Sirik, examining drone footage and munitions fragments to determine whether US or Iranian ordnance caused the deaths. It's the first sign of an official reckoning with a strike Washington had only acknowledged, not investigated."
+        },
+        {
+          "headline": "Judge blocks Trump's mail-ballot rule again; DOJ asks Supreme Court to step in",
+          "url": "https://www.npr.org/2026/09/03/nx-s1-5955614/trump-mail-in-voting-ruling-court-usps",
+          "source": "NPR",
+          "blurb": "US District Judge Indira Talwani issued a fresh injunction blocking the Trump-ordered USPS rule restricting mail ballots, just as North Carolina's overseas and military ballots were due to go out. The Justice Department is now asking the Supreme Court to intervene for the third time in six weeks, with a response due September 8."
+        }
+      ],
+      "more": []
+    },
+    "india": {
+      "top": [
+        {
+          "headline": "Chennai police tried to close a POCSO case against a mining baron. A court wouldn't let them.",
+          "url": "https://www.newslaundry.com/2026/09/05/a-pocso-case-involving-a-mining-baron-that-chennai-police-tried-to-close",
+          "source": "Newslaundry",
+          "investigative": true,
+          "blurb": "A child rights activist handed Chennai police a pen drive showing GEM Granites founder R Veeramani sexually assaulting a minor; police then told a Special POCSO Court they couldn't identify the girl and sought to close the case. The judge rejected that report and ordered further investigation, leading to Veeramani's arrest on August 29."
+        },
+        {
+          "headline": "Delhi's electoral roll purge removes one in three voters, the highest rate of any state",
+          "url": "https://scroll.in/latest/1095388/sir-33-delhi-voters-deleted-from-draft-list-21-in-maharashtra",
+          "source": "Scroll.in",
+          "blurb": "The Election Commission's Special Intensive Revision dropped 33% of Delhi's electorate and 21% of Maharashtra's from the draft rolls, with Maharashtra losing 2.07 crore voters in absolute terms. Objections stay open through September 30, with a final roll due November 4 — this remains live and contested as the deadline approaches."
+        }
+      ],
+      "more": []
+    },
+    "geo": {
+      "top": [
+        {
+          "headline": "Witkoff and Kushner head to Moscow and Kyiv this weekend, their first Ukraine trip",
+          "url": "https://www.aljazeera.com/news/2026/9/4/witkoff-and-kushner-will-travel-to-end-russias-war-in-ukraine-trump",
+          "source": "Al Jazeera",
+          "blurb": "Trump's envoys will be in Moscow this weekend and Kyiv on Sunday, their first visit to Ukraine since Trump returned to power, carrying what he called a proposal to 'end the war.' The trip follows Putin calling talks 'frozen' and comes amid intensifying strikes on both sides."
+        },
+        {
+          "headline": "Israeli strike kills two in southern Lebanon as attacks test the truce",
+          "url": "https://www.aljazeera.com/news/2026/9/4/israeli-strike-kills-two-in-southern-lebanon-amid-ongoing-escalation",
+          "source": "Al Jazeera",
+          "blurb": "An Israeli strike hit the Nabatieh area of southern Lebanon, killing at least two people, part of intensifying Israeli attacks despite the standing truce. Lebanon's state news agency said the strike landed near the Ali al-Taher ridge, which Israel says its forces have captured."
+        },
+        {
+          "headline": "Argentina's Milei escalates Falklands dispute, seizing on Trump's wavering support for Britain",
+          "url": "https://www.npr.org/2026/09/04/g-s1-141945/milei-escalates-falklands-dispute",
+          "source": "NPR",
+          "blurb": "Milei vowed new sanctions to block the Sea Lion offshore oil project near the Falklands and announced funding for a naval base in Tierra del Fuego, after Trump suggested Washington could reconsider its neutral stance on the islands' sovereignty. His proposed legislation would also bar companies tied to the drilling from operating in Argentina."
+        }
+      ],
+      "more": []
+    },
+    "sports": {
+      "top": [
+        {
+          "headline": "Somerset move top of the County Championship with an innings win over Glamorgan",
+          "url": "https://www.cricinfo.com/series/county-championship-division-one-2026-1513323/somerset-vs-glamorgan-54th-match-1513379/match-report",
+          "source": "ESPNcricinfo",
+          "blurb": "Somerset beat Glamorgan by an innings and 64 runs inside three days at Taunton, with Jack Leach, Craig Overton and Lewis Gregory sharing nine wickets after a first-innings 441 in reply to Glamorgan's 194 and 183. The win took Somerset top of Division One as they chase a first-ever Championship title."
+        },
+        {
+          "headline": "Suthar's seven-wicket haul routs Hampshire as Warwickshire stay in the title hunt",
+          "url": "https://www.cricinfo.com/series/county-championship-division-one-2026-1513323/hampshire-vs-warwickshire-55th-match-1513380/match-report",
+          "source": "ESPNcricinfo",
+          "blurb": "Warwickshire thrashed bottom-placed Hampshire by an innings and 129 runs at the Rose Bowl, with India left-arm spinner Manav Suthar taking seven wickets in the match. The result keeps Warwickshire in a three-way title race with Somerset and Nottinghamshire as the season enters its final month."
+        }
+      ],
+      "more": [
+        {
+          "headline": "Siraj and Padikkal join South Zone's Duleep Trophy final squad, KL Rahul left out",
+          "url": "https://www.cricinfo.com/story/devdutt-padikkal-mohammed-siraj-to-play-duleep-trophy-final-for-south-zone-1552805",
+          "source": "ESPNcricinfo",
+          "blurb": "Mohammed Siraj and Devdutt Padikkal, fresh off a Player-of-the-Series showing against Sri Lanka, have joined South Zone's squad for Sunday's Duleep Trophy final against East Zone in Chennai, but captain Tilak Varma confirmed KL Rahul won't play."
+        }
+      ]
+    },
+    "entertainment": {
+      "top": [
+        {
+          "headline": "'Mirzapur the Movie' review: the web series' big-screen leap stands on its own bloodied feet",
+          "url": "https://scroll.in/reel/1095438/mirzapur-the-movie-review-big-screen-version-of-the-web-series-stands-on-its-own-bloodied-feet",
+          "source": "Scroll.in",
+          "blurb": "The 197-minute film opens by declaring that domination is the only real pursuit in Mirzapur, and stays comedic and nihilistic throughout, packing its dialogue with pop philosophy and profanity. The review finds the big-screen leap keeps the web series' pulpy energy intact rather than diluting it for a cinema audience."
+        }
+      ],
+      "more": []
+    },
+    "bengal": [
+      {
+        "headline": "Ex-Panihati civic chief, wanted over alleged RG Kar cremation cover-up, arrested in Bengaluru",
+        "url": "https://www.millenniumpost.in/bengal/ex-panihati-civic-chief-nabbed-in-bengaluru-674689",
+        "source": "Millennium Post",
+        "blurb": "Former Panihati Municipality chairman and TMC leader Somnath Dey, accused of arranging the RG Kar victim's hurried, unauthorised cremation to destroy evidence, was tracked to a Bengaluru guest house — the third TMC figure arrested on this angle since a fresh probe was ordered."
+      },
+      {
+        "headline": "Nepal's floods put North Bengal's own glacial-lake risk in focus",
+        "url": "https://thefederal.com/category/states/east/west-bengal/nepal-disaster-puts-north-bengals-vulnerability-to-himalayan-floods-in-focus-255147",
+        "source": "The Federal",
+        "blurb": "Experts warn the Teesta basin draws from Sikkim's high-risk glacial lakes by the same mechanism that burst over Darjeeling and Kalimpong in 2023, as the IMD issues fresh heavy-rain warnings for North Bengal and Sikkim this week."
+      }
+    ],
+    "travel": [
+      {
+        "headline": "11 of the best things to eat and drink in Bermuda",
+        "url": "https://www.lonelyplanet.com/articles/what-to-eat-and-drink-in-bermuda",
+        "source": "Lonely Planet",
+        "blurb": "From deep-fried fish sandwiches on raisin bread to the island's rum-swizzle-versus-dark-'n'-stormy rivalry, a guide to Bermuda's signature dishes and drinks and where locals actually order them."
+      },
+      {
+        "headline": "149 new deep-sea species found at remote Indian Ocean seamounts",
+        "url": "https://news.mongabay.com/2026/08/scientists-discover-149-new-deep-sea-species-at-remote-indian-ocean-seamounts/",
+        "source": "Mongabay",
+        "blurb": "An international expedition near Australia's Christmas and Cocos Islands surveyed the seafloor down to 5,431 metres and identified 149 previously unknown species, from black corals to sea worms, in one of the least-explored parts of the Indian Ocean."
+      }
+    ],
+    "happy": {
+      "headline": "The Indian Maharaja who sheltered hundreds of Polish orphans through World War II",
+      "url": "https://www.smithsonianmag.com/history/this-indian-maharaja-saved-hundreds-of-polish-orphans-during-world-war-ii-offering-them-refuge-when-no-one-else-would-180989150/",
+      "source": "Smithsonian Magazine",
+      "blurb": "In 1942, the Maharaja of Nawanagar gave his own guesthouse to shelter hundreds of Polish children fleeing Soviet labour camps, a kindness Poland's parliament formally honoured decades later."
+    },
+    "tech_top": [
+      {
+        "headline": "NHTSA opens probe into Tesla's driverless Cybercab, a day after its Austin launch",
+        "url": "https://techcrunch.com/2026/09/04/feds-launch-investigation-into-teslas-cybercab-deployment/",
+        "source": "TechCrunch",
+        "blurb": "Regulators opened an investigation into Tesla's Cybercab hours after the two-seaters — which have no steering wheel, pedals or mirrors — began carrying passengers in Austin. Tesla self-certified the vehicles as meeting federal safety standards rather than seeking the exemption rival Zoox obtained, and NHTSA is now reviewing that self-certification.",
+        "pm_note": "Self-certifying compliance is a real strategy choice with a real downside: the faster path to market is also the one that puts your own judgment, not a regulator's, in the next day's headline."
+      },
+      {
+        "headline": "US military disabled ad trackers on troops' devices after reports the data was used to target them",
+        "url": "https://techcrunch.com/2026/09/04/us-military-disabled-ad-tracking-on-troops-devices-following-reports-of-targeted-attacks/",
+        "source": "TechCrunch",
+        "blurb": "The Army, Air Force, Navy, Marine Corps and Special Operations Command have all disabled advertising-ID tracking on government-issued devices, following reports that commercially available location data was used to target US forces in the Middle East. The disclosures came via Senator Ron Wyden and Reuters reporting.",
+        "pm_note": "The ad SDK you ship becomes a supply-chain risk the moment its aggregate output is for sale — 'we don't sell PII' doesn't cover what a data broker can reconstruct from ad-ID location pings alone."
+      },
+      {
+        "headline": "Thailand suspends 49 data centers mid-construction to write new power and water rules",
+        "url": "https://www.techmeme.com/260904/p7",
+        "source": "Techmeme",
+        "blurb": "Thailand asked developers to voluntarily halt 49 in-progress server farms and froze approvals on 117 more pending projects after community backlash over power and water strain, with new regulations expected by October. It's part of a wider pattern of data-center projects being blocked or delayed globally this year.",
+        "pm_note": "Your AI roadmap's real constraint this cycle may not be model capability or budget — it may be whether the physical compute it depends on can get permitted at all."
+      }
+    ],
+    "tech_more": [
+      {
+        "headline": "Microsoft's new speech model undercuts rivals on price and speed",
+        "url": "https://www.techmeme.com/260903/p37",
+        "source": "Techmeme",
+        "blurb": "Microsoft AI's MAI-Transcribe-2 tops a 60-language benchmark and claims 5-10x faster transcription than GPT-Transcribe and Gemini, priced at $0.10 an audio hour through year-end."
+      },
+      {
+        "headline": "Crusoe signs ~$13 billion GPU infrastructure deal with Jane Street",
+        "url": "https://www.techmeme.com/260903/p41",
+        "source": "Techmeme",
+        "blurb": "Crusoe will supply GPUs and cloud infrastructure to trading firm Jane Street for AI training and inference under a five-year deal, days after Crusoe separately raised over $3 billion at a roughly $30 billion valuation."
+      }
+    ],
+    "tech_101": [
+      {
+        "term": "Self-certification",
+        "text": "Under US auto safety rules, a manufacturer can either seek a specific regulatory exemption for a novel vehicle design or self-certify that it already meets existing standards. Tesla chose the second path for Cybercab's lack of a steering wheel — faster to market, but it puts the company's own compliance judgment on the line if regulators disagree."
+      },
+      {
+        "term": "Advertising ID",
+        "text": "A unique, resettable identifier every phone assigns for ad targeting, distinct from a name or phone number but valuable enough on its own — combined with location pings — for a data broker to reconstruct exactly where a specific device, and its owner, has been."
+      }
+    ],
+    "science": [
+      {
+        "headline": "Five-metal 2D catalyst converts CO2 to CO without an extra jolt of electricity",
+        "url": "https://phys.org/news/2026-09-metal-2d-catalysts-extra-electrical.html",
+        "source": "Phys.org",
+        "kind": "chemistry",
+        "blurb": "Washington University researchers combined five metals — molybdenum, tungsten, vanadium, niobium and tantalum — into a 2D high-entropy MBene catalyst that converts CO2 into carbon monoxide, a building block for synthetic fuels, without the extra electrical boost most prior catalysts required. CO can then be combined with hydrogen to make methanol, recycling captured CO2 into usable fuel."
+      },
+      {
+        "headline": "Hubble reveals a 210-light-year superbubble carved into a star nursery",
+        "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-spies-superbubble-scene/",
+        "source": "NASA",
+        "kind": "space",
+        "blurb": "A Hubble survey of nebula N44 in the Large Magellanic Cloud found a vast central void, roughly 210 by 140 light-years, carved out by the stellar winds and supernovae of its central star cluster and ringed by a shell of swept-up dust and gas. The survey catalogued nearly half a million stars in the region, including some 30,000 still too young to fuse hydrogen."
+      },
+      {
+        "headline": "Manhattan-sized iceberg from Greenland survives a direct hit on Joe Island",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260904000316.htm",
+        "source": "ScienceDaily",
+        "kind": "climate",
+        "blurb": "The 76-square-kilometre iceberg that calved from Greenland's Petermann Glacier last month, the Arctic's largest calving since 2020, collided with a rocky outcrop called Joe Island in Nares Strait and stayed intact rather than breaking apart. Satellites are now tracking it as it continues drifting toward the open Arctic Ocean."
+      }
+    ],
+    "philosophy": [
+      {
+        "headline": "Zhuangzi and the case against meritocracy",
+        "url": "https://aeon.co/essays/zhuangzi-and-the-case-against-meritocracy",
+        "source": "Aeon",
+        "blurb": "Drawing on the Daoist philosopher Zhuangzi, this essay argues meritocracy's core premise is false: it imagines success as the product of an isolated will, when the very capacities that let anyone exert effort — health, time, networks — are unevenly given before any 'merit' begins."
+      },
+      {
+        "headline": "Forget Stoicism. Skepticism is the ancient philosophy we need today.",
+        "url": "https://bigthink.com/philosophy/forget-stoicism-skepticism-is-the-ancient-philosophy-we-need-today/",
+        "source": "Big Think",
+        "blurb": "Philosopher Massimo Pigliucci argues ancient Skepticism suits a crisis-ridden present better than Stoicism: where Stoicism counsels calmly enduring what you can't control, Skepticism's habit of questioning received certainties can spur people to act against injustice instead of merely accepting it."
+      },
+      {
+        "headline": "Robert Musil gives confidence to the no-self minority like me",
+        "url": "https://aeon.co/essays/robert-musil-gives-confidence-to-the-no-self-minority-like-me",
+        "source": "Aeon",
+        "blurb": "Reading Musil's 'The Man Without Qualities,' the author defends living without a fixed 'true self' or a life story arcing toward one — offering a non-essentialist account of personhood as a viable stance to hold, not a deficiency to correct."
+      }
+    ],
+    "philosophy_101": [
+      {
+        "term": "Ziran (自然)",
+        "text": "The Daoist idea of 'self-so-ness': that action arises naturally from a convergence of circumstances rather than from an isolated will choosing to act. It underlies Zhuangzi's suspicion of meritocracy, which credits success entirely to individual choice."
+      },
+      {
+        "term": "Pyrrhonism vs. Academic Skepticism",
+        "text": "Two ancient skeptical schools: Pyrrhonism suspends judgment on everything to reach calm, while Academic Skepticism holds that no belief is fully certain but some are more probable than others — letting you act while still doubting."
+      }
+    ]
+  }
+}
