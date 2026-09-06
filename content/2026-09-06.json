@@ -1,0 +1,260 @@
+{
+  "date": "2026-09-06",
+  "sections": {
+    "politics": {
+      "top": [
+        {
+          "headline": "GOP accepts Trump's all-about-me approach to the midterms",
+          "url": "https://www.axios.com/2026/09/05/republicans-stuck-trump-midterms",
+          "source": "Axios",
+          "blurb": "Trump told reporters Friday he'll steer $400-500 million from his MAGA Inc. super PAC into House and Senate races, though Republicans worry the money will move slower — and less predictably — than the party needs two months before the vote. The pledge follows months of GOP frustration that MAGA Inc.'s war chest has sat largely untapped."
+        },
+        {
+          "headline": "Democrats and Republicans unite against Flock surveillance cameras",
+          "url": "https://www.npr.org/2026/09/05/nx-s1-5955778/flock-surveillance-camera-opposition-politics",
+          "source": "NPR",
+          "blurb": "A rare bipartisan backlash is building against Flock's AI-powered license-plate-reader network: Florida's DeSantis moved to bar the cameras from state roads, Texas's Abbott froze state spending on them, and Pennsylvania's Shapiro says he'd sign a ban. Billions of plates are scanned monthly, and reporting has shown the data used well beyond the stolen-car and missing-persons searches police describe."
+        },
+        {
+          "headline": "Republican midterm convention speaker list leaks — and one absence draws attention",
+          "url": "https://www.axios.com/2026/09/05/republican-convention-dallas-trump-midterms",
+          "source": "Axios",
+          "blurb": "A leaked lineup for the GOP's September 9-10 midterm convention in Dallas has Trump speaking both nights and Vance keynoting, alongside Bessent, RFK Jr. and Donald Trump Jr. — but Senate Majority Leader John Thune, whom Trump has attacked over stalled election-security legislation, is missing from the list. Organizers say names are still being added."
+        }
+      ],
+      "more": [
+        {
+          "headline": "Report: fired Labor Secretary Chavez-DeRemer ran a hostile workplace",
+          "url": "https://www.npr.org/2026/09/04/nx-s1-5958601/labor-department-inspector-general-secretary-chavez-deremer",
+          "source": "NPR",
+          "blurb": "A Labor Department Inspector General report, after interviewing 53 current and former staff, substantiated harassment and hostile-workplace complaints against former Secretary Chavez-DeRemer, who resigned in April rather than sit for the IG's interview."
+        }
+      ]
+    },
+    "india": {
+      "top": [
+        {
+          "headline": "Congress calls the Centre's 7.8% GDP growth claim 'shaky', demands explanation",
+          "url": "https://scroll.in/latest/1095492/7-8-gdp-growth-claim-shaky-centre-must-provide-explanation-says-congress",
+          "source": "Scroll.in",
+          "blurb": "The Congress party called the Centre's claimed 7.8% GDP growth figure for the quarter 'shaky', demanding the government explain the data behind the number rather than let it stand unquestioned."
+        }
+      ],
+      "more": [
+        {
+          "headline": "Punjab SIR: Raghav Chadha says his name was deleted from the draft voter list, alleges 'revenge' by AAP",
+          "url": "https://scroll.in/latest/1095463/punjab-sir-raghav-chadha-claims-name-deleted-from-draft-voter-list-alleges-revenge-by-aap",
+          "source": "Scroll.in",
+          "blurb": "AAP Rajya Sabha MP Raghav Chadha said his name was struck from Punjab's draft electoral roll during the special intensive revision, calling it political retaliation."
+        }
+      ]
+    },
+    "geo": {
+      "top": [
+        {
+          "headline": "Yemen's government launches its own air attacks on the Houthis",
+          "url": "https://www.aljazeera.com/news/2026/9/5/yemen-government-launches-own-air-attacks-on-houthis-what-that-means",
+          "source": "Al Jazeera",
+          "blurb": "A Houthi offensive toward the Bab al-Mandeb Strait — using ballistic missiles, drones and artillery to push through western Taiz and southern Hodeidah — has triggered some of Yemen's worst fighting in years, prompting the internationally recognised government to launch its own air strikes on Houthi positions. The strait carries 12-15% of global trade, so any Houthi advance there reverberates well beyond Yemen."
+        },
+        {
+          "headline": "Philippines VP Sara Duterte posts bail after arrest order",
+          "url": "https://www.npr.org/2026/09/05/g-s1-142148/philippines-vice-president-posts-bail",
+          "source": "NPR",
+          "blurb": "Duterte posted bail on three counts of grave threats a day after a Quezon City court ordered her arrest, over a remark that she'd have President Marcos, his wife and the House speaker killed if she were assassinated herself. It escalates the Marcos-Duterte rupture as she also faces a Senate impeachment trial."
+        },
+        {
+          "headline": "France denies inciting failed Niger mutiny, calls it 'pure fantasy'",
+          "url": "https://www.aljazeera.com/news/2026/9/5/france-denies-inciting-failed-niger-mutiny-calls-accusation-pure-fantasy",
+          "source": "Al Jazeera",
+          "blurb": "A week after soldiers stormed Niamey's Base 101 and the presidential palace, Niger's junta accused Paris of orchestrating the mutiny; France's foreign minister rejected the claim outright. It's a fresh flashpoint in the France-Sahel rupture since Niger's 2023 coup and pivot toward Russian paramilitary support."
+        },
+        {
+          "headline": "Drone attack kills at least three Colombian soldiers",
+          "url": "https://www.aljazeera.com/news/2026/9/5/colombian-government-reports-three-killed-in-rebel-attack-on-military-post",
+          "source": "Al Jazeera",
+          "blurb": "Suspected ELN rebels used roughly 20 explosive-laden drones against an army post in Ocaña, near the Venezuelan border, killing three soldiers and wounding four — a sharp escalation in drone warfare by Colombia's guerrillas."
+        }
+      ],
+      "more": []
+    },
+    "sports": {
+      "top": [
+        {
+          "headline": "India rout Pakistan for 55 — their lowest-ever T20I total — in the Women's Asia Cup",
+          "url": "https://www.cricinfo.com/series/women-s-asia-cup-2026-1548888/india-women-vs-pakistan-women-9th-match-group-a-1548899/match-report",
+          "source": "ESPNcricinfo",
+          "blurb": "Shree Charani (3/7) and Prema Rawat (3/9) bowled Pakistan out for 55, their lowest-ever Women's T20I total, before Harmanpreet Kaur's unbeaten 18 sealed a seven-wicket India win inside nine overs. It was Harmanpreet's 150th match as India's T20I captain, and the win sends India through as Group A toppers."
+        },
+        {
+          "headline": "Chahal's nine wickets go to waste as Durham rout Northamptonshire",
+          "url": "https://www.cricinfo.com/series/county-championship-division-two-2026-1513324/northamptonshire-vs-durham-43rd-match-1513438/match-report",
+          "source": "ESPNcricinfo",
+          "blurb": "Yuzvendra Chahal took 4 for 36 and 5 for 84 for match figures of nine wickets, but it counted for nothing as Durham's Callum Parkinson took 6 for 20 to bowl Northamptonshire out for 50 on the final morning, sealing a 153-run win."
+        }
+      ],
+      "more": [
+        {
+          "headline": "Sussex edge past Essex to ease relegation worries",
+          "url": "https://www.cricinfo.com/series/county-championship-division-one-2026-1513323/essex-vs-sussex-51st-match-1513376/match-report",
+          "source": "ESPNcricinfo",
+          "blurb": "James Coles took the last three Essex wickets to complete a 47-run win for Sussex, despite Matt Critchley's battling 96, lifting Sussex clear of Division One relegation trouble."
+        }
+      ]
+    },
+    "entertainment": {
+      "top": [
+        {
+          "headline": "'Jagamae Sangeetham' review: a discordant take on tradition and modernity in classical music",
+          "url": "https://scroll.in/reel/1095494/jagamae-sangeetham-review-a-discordant-take-on-tradition-and-modernity-in-classical-music",
+          "source": "Scroll.in",
+          "blurb": "Scroll.in's review of 'Jagamae Sangeetham,' the Telugu remake of 'Bandish Bandits,' finds a faithful but flattened adaptation: swapping Jodhpur's Hindustani-classical backdrop for a Carnatic Rajahmundry setting, it trims the original's subplots to focus on Balu's tug-of-war between his grandfather's expectations and his pop-star girlfriend, losing much of the emotional depth along the way."
+        }
+      ],
+      "more": [
+        {
+          "headline": "Early Emmys ceremony could bring many trophies for 'The Pitt,' 'Hacks' and 'Pluribus'",
+          "url": "https://www.wral.com/news/ap/29722-early-emmys-ceremony-could-bring-many-trophies-for-the-pitt-hacks-and-pluribus/",
+          "source": "WRAL",
+          "blurb": "Top nominees 'The Pitt,' 'Hacks,' 'Pluribus' and 'Widow's Bay' could stock up on trophies at this weekend's early Emmy ceremonies, once known as the Creative Arts Emmys, ahead of the main telecast on September 14."
+        }
+      ]
+    },
+    "bengal": [
+      {
+        "headline": "Calcutta HC secures no-coercive-action assurance for Anandabazar Patrika journalists",
+        "url": "https://www.newslaundry.com/2026/09/03/saffron-hooliganism-coverage-firs-hc-asks-for-no-coercive-action-against-anandabazar-patrika-journalists",
+        "source": "Newslaundry",
+        "blurb": "Calcutta High Court secured a state assurance that no coercive action will follow FIRs against Anandabazar Patrika journalists over their 'saffron hooliganism' coverage of violence at Jadavpur University."
+      }
+    ],
+    "travel": [
+      {
+        "headline": "Where to Go in 2026: when to visit Lonely Planet's Best in Travel destinations",
+        "url": "https://www.lonelyplanet.com/articles/where-to-go-when",
+        "source": "Lonely Planet",
+        "blurb": "Lonely Planet pairs its Best in Travel 2026 picks with the ideal season to visit each, from Jaffna's spring calm to Kerala's winter light."
+      },
+      {
+        "headline": "Genetic road map offers hope for the threatened Visayan spotted deer",
+        "url": "https://news.mongabay.com/short-article/2026/09/genetic-road-map-offers-hope-for-threatened-visayan-spotted-deer/",
+        "source": "Mongabay",
+        "blurb": "Scientists sequenced the first draft genome of the endangered Visayan spotted deer, a tool conservationists hope will guide breeding and conservation of the Philippine species."
+      }
+    ],
+    "happy": {
+      "headline": "Why did the handwriting in this 248-year-old notebook look familiar? It turned out to be a forgotten Mozart manuscript",
+      "url": "https://www.smithsonianmag.com/smart-news/why-did-the-handwriting-in-this-248-year-old-notebook-look-familiar-it-turned-out-to-be-a-forgotten-mozart-manuscript-180989017/",
+      "source": "Smithsonian Magazine",
+      "blurb": "A curator at France's National Library noticed familiar handwriting in an anonymous 248-year-old notebook — it turned out to be Mozart's, seven pieces written in 1778 for a young harpist, unheard until their premiere this year."
+    },
+    "tech_top": [
+      {
+        "headline": "Seattle Times and Newsday sue OpenAI and Microsoft over AI training",
+        "url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
+        "source": "TechCrunch",
+        "blurb": "The Seattle Times and Newsday sued OpenAI and Microsoft, alleging the companies scraped their journalism — bypassing paywalls in the process — to train ChatGPT, Copilot and Bing AI without permission or payment. The suit seeks damages plus court orders to impound or destroy any datasets or models built on their reporting.",
+        "pm_note": "Training-data provenance is becoming a real legal liability, not just an ethics footnote — a product built on a foundation model inherits whatever risk is baked into its training data."
+      },
+      {
+        "headline": "Google patches Chrome's sixth actively-exploited zero-day of 2026",
+        "url": "https://www.techmeme.com/260904/p36",
+        "source": "Techmeme",
+        "blurb": "Google shipped an emergency fix for CVE-2026-85046, a Chrome V8-engine flaw already being exploited in the wild before any patch existed — the sixth such zero-day patched this year. CISA added it to its must-patch list, giving federal agencies until September 18 to update.",
+        "pm_note": "This is what 'zero-day' means operationally: the exploit was live before a fix existed, so fast, automatic patching is the real defense — a posture question for any product with a browser-based attack surface."
+      },
+      {
+        "headline": "Leaked Flock webinar shows company coaching police to surveil protests, parades, fireworks shows",
+        "url": "https://www.404media.co/flock-taught-cops-how-to-surveil-no-kings-protesters/",
+        "source": "404 Media",
+        "blurb": "A leaked Flock Safety webinar shows the company training police to use its license-plate camera network and crime-center software to monitor not just crime but 'established events' — protests, parades, fireworks shows, bike races — despite Flock's public claims that its tech targets violent crime alone.",
+        "pm_note": "A clean example of stated use case diverging from deployed use case once customers hold the keys — a governance question for anyone building surveillance-adjacent or dual-use data products."
+      }
+    ],
+    "tech_more": [
+      {
+        "headline": "US and UK sign agreement to jointly investigate Southeast Asia's online scam compounds",
+        "url": "https://www.techmeme.com/260905/p3",
+        "source": "Techmeme",
+        "blurb": "The US and UK signed an agreement to jointly investigate and share intelligence on the organized-crime networks running Southeast Asia's online scam compounds."
+      },
+      {
+        "headline": "Berlin reviews 5.79TB of state data leaked by ransomware gang Rhysida",
+        "url": "https://www.techmeme.com/260905/p10",
+        "source": "Techmeme",
+        "blurb": "Berlin is combing through 5.79TB of state data leaked after refusing to pay a ransom to the Rhysida gang, with the files reportedly including defense and threat-response plans."
+      }
+    ],
+    "tech_101": [
+      {
+        "term": "Zero-day vulnerability",
+        "text": "A software flaw attackers are already exploiting before the vendor has shipped a fix — 'zero days' of warning. It's why patch speed matters operationally: once one is public and unpatched, every device running that software is a live target."
+      },
+      {
+        "term": "AI training-data lawsuit (fair use)",
+        "text": "When an AI company trains a model on copyrighted text without a license, the copyright owner can sue for infringement — the fight now hitting OpenAI, Microsoft and others. Courts are deciding whether training on copyrighted work counts as 'fair use' or requires a license, and the answer will set the price of training data going forward."
+      }
+    ],
+    "science": [
+      {
+        "headline": "NASA's Roman Space Telescope powers on its planet-imaging coronagraph",
+        "url": "https://science.nasa.gov/blogs/roman/2026/09/01/nasa-romans-planet-imager-has-powered-on/",
+        "source": "NASA",
+        "kind": "space",
+        "blurb": "NASA's Nancy Grace Roman Space Telescope powered on its Coronagraph Instrument on September 1, beginning months of calibration before it starts blocking starlight to directly image planets and dusty disks around nearby stars. Launched August 30, Roman is now cruising toward the Sun-Earth L2 point, with first science images expected in early 2027."
+      },
+      {
+        "headline": "Peptides fold into stable structures in Venus-like sulfuric acid",
+        "url": "https://phys.org/news/2026-08-peptides-harsh-venus-conditions.html",
+        "source": "Phys.org",
+        "kind": "chemistry",
+        "blurb": "MIT chemists found that short peptides not only survive but fold into stable, ordered shapes inside solutions of nearly pure sulfuric acid — the corrosive stuff of Venus's clouds. Three peptides held the same folded 'omega loop' structure for weeks under NMR analysis, suggesting life's building blocks could persist in harsher environments than assumed."
+      },
+      {
+        "headline": "An enzyme reads a doubled, eight-letter DNA alphabet",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260904000310.htm",
+        "source": "ScienceDaily",
+        "kind": "biology",
+        "blurb": "UC San Diego researchers found that RNA polymerase, the enzyme cells use to transcribe genes, can accurately read a synthetic eight-letter DNA alphabet — double nature's usual four. Detailed imaging showed the enzyme handles the extra letters much like natural ones, a step toward genetic systems built for entirely new functions."
+      },
+      {
+        "headline": "Diamond turns out to generate electricity after all",
+        "url": "https://www.sciencedaily.com/releases/2026/08/260829035223.htm",
+        "source": "ScienceDaily",
+        "kind": "physics",
+        "blurb": "For over a century, diamond was assumed incapable of piezoelectricity — producing voltage under mechanical stress. University of Hong Kong researchers found that ultrathin, flexible diamond membranes buck that rule, generating stable, repeatable voltage when bent, an effect traced to symmetry-breaking at the membranes' grain boundaries."
+      },
+      {
+        "headline": "Engineered bacteria speed up rock weathering for carbon removal",
+        "url": "https://phys.org/news/2026-08-bacteria-weathering-carbon.html",
+        "source": "Phys.org",
+        "kind": "climate",
+        "blurb": "Researchers engineered a marine bacterium to overproduce iron-scavenging molecules that speed the dissolution of olivine rock, a process that naturally locks away atmospheric CO2 over hundreds of thousands of years. In seawater bioreactors, the tweaked microbes sped weathering 2.6-fold, though mineral crusts eventually slowed the reaction."
+      }
+    ],
+    "philosophy": [
+      {
+        "headline": "We don't have different perspectives, we inhabit different realities",
+        "url": "https://iai.tv/articles/we-dont-have-different-perspectives-we-inhabit-different-realities-auid-3668",
+        "source": "IAI News",
+        "blurb": "Sociologist Steve Fuller argues that findings from neuroscience, quantum mechanics and AI suggest people don't just see the same world from different angles — they inhabit genuinely different realities, shaped by how minds and instruments construct experience. The claim unsettles the idea that disagreement is just a failure to share one true picture."
+      },
+      {
+        "headline": "How to make difficult decisions, according to philosophy",
+        "url": "https://bigthink.com/mini-philosophy/how-to-make-difficult-decisions-according-to-philosophy/",
+        "source": "Big Think",
+        "blurb": "Philosopher Jack Maden argues there's no shortcut around the hard introspective work a difficult decision demands: rather than hunting for the 'right' answer out there, ask who you want to become and whether you can stand behind the choice. It reframes decision-making as self-authorship, not calculation."
+      }
+    ],
+    "philosophy_101": [
+      {
+        "term": "Perspectivism",
+        "text": "The idea, associated with Nietzsche and revived in current debates, that there's no 'view from nowhere': every claim to truth is made from a particular standpoint, shaped by history, biology or instruments. It doesn't make truth arbitrary — only means access to it is always situated somewhere."
+      },
+      {
+        "term": "Phronesis (practical wisdom)",
+        "text": "Aristotle's term for the skill of judging well in a specific situation, distinct from knowing a general rule. It's why two people can know the same principle and only one makes the wise call — phronesis is knowing how a rule applies here, now."
+      }
+    ]
+  }
+}
