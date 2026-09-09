@@ -1,0 +1,201 @@
+{
+  "date": "2026-09-09",
+  "sections": {
+    "politics": {
+      "top": [
+        {
+          "headline": "GOP's Latino gains from 2024 are evaporating in House battlegrounds",
+          "url": "https://www.axios.com/2026/09/08/poll-latino-voters-trump-gains-fade",
+          "source": "Axios",
+          "blurb": "A Hart Research/TelevisaUnivision poll across 17 competitive House districts finds Democrats now leading the generic ballot among Latino voters 58%-35%, a 23-point margin double Kamala Harris's edge in the same districts in 2024. In three Texas districts, Latino voters swung from an even split to 56-36 Democratic, with the economy, not immigration, still their top issue."
+        },
+        {
+          "headline": "The Pentagon asked OpenAI to build an AI that almost never says no",
+          "url": "https://theintercept.com/2026/09/08/pentagon-openai-military-contract/",
+          "source": "The Intercept",
+          "investigative": true,
+          "blurb": "Documents obtained through a Freedom of Information Act lawsuit show the Department of Defense asked OpenAI for a custom model with a 'minimal refusal rate' for military commands. The request surfaced as part of The Intercept's broader look at the close, largely hidden ties between the Pentagon and AI labs including OpenAI, Anthropic, Google and xAI."
+        },
+        {
+          "headline": "Trump's Canada trade fight is splitting his own party ahead of the midterms",
+          "url": "https://www.axios.com/2026/09/08/donald-trump-senate-republicans-midterm-convention-trade-canada",
+          "source": "Axios",
+          "blurb": "Trump's call to boycott Canadian planemaker Bombardier, in retaliation for Canadian tariffs, forced Republican Sen. Roger Marshall to break with him publicly because Bombardier is a major employer in his home state of Kansas. It's a preview of how Trump's personal trade fights could cost Republicans a competitive Senate seat two months before the vote."
+        }
+      ],
+      "more": []
+    },
+    "india": {
+      "top": [
+        {
+          "headline": "Supreme Court takes up the Satya Niketan building collapse that killed seven",
+          "url": "https://www.tribuneindia.com/news/india/supreme-court-to-take-up-satya-niketan-building-collapse-case-on-september-10/",
+          "source": "The Tribune",
+          "blurb": "The Supreme Court took cognisance of the collapse of an illegally renovated Delhi hostel and will hear the matter on September 10, after a bench led by Justice A Amanullah rejected the solicitor general's request to leave it to the Delhi High Court. Delhi Police have since arrested the building's owner, his wife and son, as the civic body demolishes an adjoining structure it also declared unsafe."
+        }
+      ],
+      "more": []
+    },
+    "geo": {
+      "top": [
+        {
+          "headline": "Yemen's government launches a counteroffensive to retake Sanaa from the Houthis",
+          "url": "https://www.aljazeera.com/news/2026/9/8/yemeni-forces-launch-counteroffensive-against-houthis-vow-to-retake-sanaa",
+          "source": "Al Jazeera",
+          "blurb": "Forces loyal to Yemen's internationally recognised government say they aim to recapture the capital from the Iran-backed Houthis, with fighting intensifying in Taiz, al-Bayda and al-Jawf province, seen as the main gateway to Sanaa. It is the country's most serious fighting since a 2022 UN-brokered truce, with both sides also vying for the Bab al-Mandeb Strait as Iran's effective closure of Hormuz raises the stakes for any chokepoint on the region's oil routes."
+        },
+        {
+          "headline": "Russia strikes Kyiv again as a three-day pause ends without a breakthrough",
+          "url": "https://www.aljazeera.com/news/2026/9/8/russia-strikes-kyiv-as-three-day-pause-during-us-envoy-visits-ends",
+          "source": "Al Jazeera",
+          "blurb": "At least five people were killed and 30 injured as Russian air raids hit five Kyiv districts, a day after Trump envoys Steve Witkoff and Jared Kushner wrapped visits to both Moscow and Kyiv without any announced progress. Ukraine says it downed 142 drones and all but one of 32 cruise missiles fired overnight."
+        },
+        {
+          "headline": "Rubio courts Latin America's new right-wing governments on a three-country tour",
+          "url": "https://www.aljazeera.com/news/2026/9/9/marco-rubio-says-us-seeks-more-economic-and-security-ties-in-latin-america",
+          "source": "Al Jazeera",
+          "blurb": "The secretary of state met Colombia's new president in Barranquilla as he opened a trip through Colombia, Ecuador and Peru, all three now led by leaders aligned with the Trump administration. Rubio is pitching deeper trade ties and cooperation against narcoterrorism as Washington looks to consolidate a friendlier bloc in a region it has often struggled to hold."
+        }
+      ],
+      "more": []
+    },
+    "sports": {
+      "top": [
+        {
+          "headline": "Nashra Sandhu's 6 for 7 sends Pakistan into a Women's Asia Cup semi-final against Sri Lanka",
+          "url": "https://www.cricinfo.com/series/women-s-asia-cup-2026-1548888/hong-kong-women-vs-pakistan-women-11th-match-group-a-1548901/match-report",
+          "source": "ESPNcricinfo",
+          "blurb": "Nashra Sandhu's 6 for 7 and a 35-ball 47 from Shawaal Zulfiqar powered Pakistan to a 72-run win over Hong Kong, sealing second place in Group A. They now face defending champions Sri Lanka, who topped Group B, in Friday's semi-final in Dubai."
+        },
+        {
+          "headline": "Samarawickrama seals Sri Lanka's semi-final spot as Bangladesh scrape through as runners-up",
+          "url": "https://www.cricinfo.com/series/women-s-asia-cup-2026-1548888/bangladesh-women-vs-sri-lanka-women-10th-match-group-b-1548900/match-report",
+          "source": "ESPNcricinfo",
+          "blurb": "Harshitha Samarawickrama's unbeaten 48 off 37 balls saw Sri Lanka home in a low-scoring win over Bangladesh, who still advance as Group B runners-up to face India in the other semi-final on September 10."
+        }
+      ],
+      "more": []
+    },
+    "entertainment": {
+      "top": [
+        {
+          "headline": "'Filipiñana' turns a Manila golf resort into a quiet study of class and exploitation",
+          "url": "https://www.npr.org/2026/09/03/nx-s1-5955464/filipinana-movie-review",
+          "source": "NPR",
+          "blurb": "Rafael Manuel's feature debut follows Isabel, a 17-year-old caddie at a luxury Manila resort, and Clara, a privileged visitor whose uncle wants her help fighting Philippine 'brain drain' even as she sees who the resort's glossy development really serves. NPR calls it a fresher, quieter alternative to Hollywood's usual eat-the-rich formula."
+        }
+      ],
+      "more": []
+    },
+    "bengal": [
+      {
+        "headline": "Suvendu Adhikari leads a 'saffron march' through Kolkata amid the Jadavpur row",
+        "url": "https://www.millenniumpost.in/bengal/suvendu-to-lead-saffron-march-from-golpark-to-jadavpur-675050",
+        "source": "Millennium Post",
+        "blurb": "Bengal's chief minister led a march from Golpark to Jadavpur to protest what organisers called attempts to malign the colour saffron, weeks after FIRs were filed against Anandabazar Patrika journalists over their coverage of violence at Jadavpur University."
+      }
+    ],
+    "travel": [
+      {
+        "headline": "What to eat and drink in Bermuda, from fish sandwiches to dark 'n' stormys",
+        "url": "https://www.lonelyplanet.com/articles/what-to-eat-and-drink-in-bermuda",
+        "source": "Lonely Planet",
+        "blurb": "Lonely Planet's Bermuda food guide runs from the deep-fried fish sandwich piled on raisin bread to the rum swizzle and the simpler, gingery dark 'n' stormy found in every island pub."
+      },
+      {
+        "headline": "A newly described Amazon frog stands out for its unusually slow, lazy call",
+        "url": "https://news.mongabay.com/short-article/2026/09/new-to-science-amazon-frog-stands-out-for-its-slow-lazy-song/",
+        "source": "Mongabay",
+        "blurb": "Adenomera varcena, found in the flooded forests of Ecuador and northwestern Brazil, calls at just one to five notes a minute, the slowest rate documented in its genus, and is the only member of its lineage adapted to floodplain life rather than dry ground."
+      }
+    ],
+    "happy": {
+      "headline": "How the United States got its name, 250 years ago today",
+      "url": "https://www.smithsonianmag.com/history/how-did-the-nation-get-its-name-other-suggestions-included-the-united-colonies-columbia-and-the-united-states-of-alleghania-180989435/",
+      "source": "Smithsonian Magazine",
+      "blurb": "On September 9, 1776, the Second Continental Congress quietly retired 'United Colonies' for 'United States' inside a resolution mostly about paying Washington's troops. Alternatives on the table had included Columbia, the United States of Alleghania, and, from one ambitious congressman, the United States of the Earth."
+    },
+    "tech_top": [
+      {
+        "headline": "Meta launches Muse, an AI agent it will let spend your money and send your messages",
+        "url": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/",
+        "source": "TechCrunch",
+        "blurb": "Muse can book travel, negotiate bills, shop online and handle scheduling for US adults, running on a model called Muse Spark inside an isolated 'Secure VM' with a separate Sentinel agent that must approve anything sent to the outside world. Meta's pitch is that explicit approval steps before spending money or messaging on a user's behalf make an autonomous agent trustworthy enough for daily errands.",
+        "pm_note": "The first mainstream agent with real purchasing and messaging authority makes Meta's permission-gate design the reference case to study before you ship anything with similar reach."
+      },
+      {
+        "headline": "A secret Border Patrol unit is mining Americans' financial data to trigger traffic stops",
+        "url": "https://www.404media.co/a-secretive-dhs-predictive-policing-unit-is-analyzing-americans-financial-habits-and-pulling-them-over/",
+        "source": "404 Media",
+        "investigative": true,
+        "blurb": "404 Media identified Predictive Intelligence Targeting Teams (PITT), secretive Border Patrol units in Washington and Texas that review financial and other law-enforcement-sensitive databases, then pass tips to local police who pull people over for unrelated pretexts. In one case, a PITT's read on a man's financial activity led to a Montana traffic stop and a DUI charge; DHS declined to say whether any of it required a warrant.",
+        "pm_note": "Predictive-policing logic applied to financial or behavioral data, with no disclosed warrant requirement, is a preview of what regulators will come looking for in any product that scores people on transaction or location signals."
+      },
+      {
+        "headline": "Microsoft patches a record 972 flaws in September's Patch Tuesday",
+        "url": "https://www.techmeme.com/260908/p50",
+        "source": "Techmeme",
+        "blurb": "September's update brings Microsoft's 2026 total to 2,760 vulnerabilities patched, more than double 2025's full-year count, underscoring how much attack surface now ships in widely deployed platforms regardless of investment in secure development.",
+        "pm_note": "A record patch count isn't really Microsoft's failure alone — it's a reminder that your own patch cadence, not the vendor's development budget, is the control you actually have."
+      }
+    ],
+    "tech_more": [],
+    "tech_101": [
+      {
+        "term": "Agentic AI",
+        "text": "An AI system built to complete multi-step, real-world tasks on a user's behalf — booking, buying, messaging — rather than just answering questions. Meta's Muse is the most consumer-facing bet yet that people will hand agents real purchasing and communication authority."
+      },
+      {
+        "term": "Predictive policing",
+        "text": "Using data analysis, rather than a specific suspicion or tip, to flag people or vehicles worth stopping or investigating. Border Patrol's PITT units apply the idea to financial records, feeding conclusions to local police who then find an unrelated reason to make the stop."
+      }
+    ],
+    "science": [
+      {
+        "headline": "NASA seeks proposals to build the power and oxygen systems for a lunar south pole base",
+        "url": "https://www.nasa.gov/news-release/nasa-calls-for-proposals-to-accelerate-lunar-surface-technologies/",
+        "source": "NASA",
+        "kind": "space",
+        "blurb": "NASA is soliciting proposals to close capability gaps for a sustained human presence at the Moon's south pole, including vertical solar arrays, oxygen extraction from lunar regolith, radioisotope Stirling generators and in-space manufacturing. The agency says it is 'accelerating development of key technologies' needed before astronauts can live there long-term rather than just visit."
+        },
+      {
+        "headline": "A crown-ether-studded framework pulls pure gold out of e-waste and mine wastewater",
+        "url": "https://cen.acs.org/materials/metal-organic-frameworks/mof-gold-crown-ether-wastewater/104/web/2026/09",
+        "source": "C&EN",
+        "kind": "chemistry",
+        "blurb": "Chemists built a zirconium metal-organic framework threaded with crown ethers, ring-shaped molecules whose charged interiors selectively trap gold ions while ignoring interfering metals. Tested on dissolved computer chips and gold-mine wastewater, it recovered gold at up to 99.6% purity, including traces from seawater spiked at one part per billion."
+      },
+      {
+        "headline": "Physicists directly observe gravity acting on a falling quantum object for the first time",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260907201552.htm",
+        "source": "ScienceDaily",
+        "kind": "physics",
+        "blurb": "An international team including Nobel laureate Roger Penrose split a quantum wave in two, let one half fall freely, then recombined them to measure exactly how gravity had shifted the falling half. The result confirms a long-predicted effect and shows Einstein's account of gravity still holds up under quantum conditions."
+      }
+    ],
+    "philosophy": [
+      {
+        "headline": "What philosophy's great couples reveal about thinking together",
+        "url": "https://philosophynow.org/issues/175/Philosophical_Power_Couples",
+        "source": "Philosophy Now",
+        "blurb": "Matt Qvortrup surveys philosophy's paired minds, from Heloise d'Argenteuil and Peter Abelard's surviving love letters to Sartre and de Beauvoir, who built parallel, independent bodies of work rather than a joint one. The piece asks what, if anything, intimacy actually contributes to philosophical thought, beyond proximity and provocation."
+      },
+      {
+        "headline": "Why nobody can quite say what 'analytic philosophy' means anymore",
+        "url": "https://philosophynow.org/issues/175/What_is_Analytic_Philosophy",
+        "source": "Philosophy Now",
+        "blurb": "The essay traces how a movement that began by restricting philosophy to linguistic analysis expanded, after Quine argued there were no purely analytic problems, into a discipline willing to tackle almost anything. What's left, the author argues, is a label with little methodological content holding it together."
+      }
+    ],
+    "philosophy_101": [
+      {
+        "term": "Analytic philosophy",
+        "text": "The dominant Anglo-American philosophical tradition, originally defined by close attention to language and logical analysis. This week's Philosophy Now essay argues the label has outlived the method that once defined it, as its practitioners now range over nearly every philosophical question."
+      },
+      {
+        "term": "Existentialism",
+        "text": "The postwar philosophical movement, associated with Sartre and de Beauvoir, holding that existence precedes essence — that people create their own meaning through choices rather than discovering a pre-given purpose. The two built the movement's central ideas largely in parallel rather than as a single joint project."
+      }
+    ]
+  }
+}
