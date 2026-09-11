@@ -1,0 +1,201 @@
+{
+  "date": "2026-09-11",
+  "sections": {
+    "politics": {
+      "top": [
+        {
+          "headline": "Trump pledges a $5,000 'dividend' to every American — if the GOP holds Congress",
+          "url": "https://www.npr.org/2026/09/10/nx-s1-5963880/trump-republican-midterm-convention-vance",
+          "source": "NPR",
+          "blurb": "President Trump told the Republican Party's first midterm convention, in Dallas, that he would send every American adult a $5,000 'Trump Dividend' if the GOP holds the House and Senate in November, funded in part by tariff revenue. He gave no mechanism for the roughly $1.35 trillion pledge, and Republicans including Gov. Ron DeSantis warned it would only add to the debt and inflation."
+        },
+        {
+          "headline": "Supreme Court blocks Missouri's Republican-favoring congressional map for the midterms",
+          "url": "https://www.cbsnews.com/news/supreme-court-missouri-new-map-2026-midterm-elections/",
+          "source": "CBS News",
+          "blurb": "The Supreme Court blocked Missouri from using a newly drawn, Republican-favoring congressional map in November's midterms, ruling in an unsigned order that the state must revert to its 2022 map. The rejected map would have targeted the seat of longtime Democratic Rep. Emanuel Cleaver, potentially shifting Missouri's delegation from 6-2 to 7-1 Republican."
+        },
+        {
+          "headline": "United Airlines resumes flying war materiel to Israel on ordinary passenger flights",
+          "url": "https://theintercept.com/2026/09/09/united-airlines-flights-israel-weapons-hardware-transport/",
+          "source": "The Intercept",
+          "investigative": true,
+          "blurb": "An Intercept investigation found United Airlines has resumed flying military cargo — including shipments to weapons maker Elbit Systems — aboard ordinary passenger flights to Tel Aviv, having paused the practice when the Iran war broke out. Researchers tracked 2,761 such shipments on 160 civilian United flights, raising unresolved questions about mixing war materiel with paying passengers."
+        }
+      ],
+      "more": []
+    },
+    "india": {
+      "top": [
+        {
+          "headline": "Putin arrives in Delhi for BRICS summit, with a rare Xi visit to follow",
+          "url": "https://www.deccanherald.com/india/brics-2026-russian-president-vladimir-putin-arrives-in-new-delhi-to-attend-summit-4142500",
+          "source": "Deccan Herald",
+          "blurb": "Vladimir Putin arrived in New Delhi on Friday for the 18th BRICS summit, his first in-person BRICS appearance outside Russia since the Ukraine war began, ahead of bilateral talks with Narendra Modi and a rare visit by Xi Jinping — his first to India since 2019. Iran's Masoud Pezeshkian is also attending as India uses its chairship to press trade and Global South priorities."
+        },
+        {
+          "headline": "Supreme Court asks CBSE to consider exempting Class 6 from its new language rule",
+          "url": "https://www.deccanherald.com/education/cbse-3-language-policy-supreme-court-asks-board-to-consider-relief-for-current-class-6-students-4141503",
+          "source": "Deccan Herald",
+          "blurb": "The Supreme Court asked CBSE to consider exempting current Class 6 students from its new three-language policy for this academic year, after petitioners argued schools lack the teachers and infrastructure to offer the required language choices. A three-judge bench led by Chief Justice Surya Kant deferred further hearings to September 17."
+        }
+      ],
+      "more": []
+    },
+    "geo": {
+      "top": [
+        {
+          "headline": "Houthis seize the Red Sea port of Mocha, tightening their grip on a key strait",
+          "url": "https://www.aljazeera.com/news/2026/9/10/yemens-houthis-seize-strategic-red-sea-city-of-mocha",
+          "source": "Al Jazeera",
+          "blurb": "Yemen's Iran-aligned Houthis seized the Red Sea port of Mocha on Thursday after government-aligned forces withdrew, bringing the group closer to controlling the Bab el-Mandeb Strait, through which roughly a tenth of world trade passes. Hundreds of women and children fled toward government-held Lahij and Aden as the advance deepened a war now running alongside the wider US-Israel-Iran conflict."
+        },
+        {
+          "headline": "Ukraine's deepest strike yet hits Russian gas plants 3,000km from the border",
+          "url": "https://www.aljazeera.com/news/2026/9/10/how-ukraines-deepest-attack-in-russia-on-arctic-gas-signals-new-reach",
+          "source": "Al Jazeera",
+          "blurb": "Ukraine's special forces said drones flew more than 3,000 kilometers to strike two gas facilities in Russia's Yamalo-Nenets region, the war's deepest confirmed attack yet and the first to reach a region that produces roughly 80% of Russia's gas. It is the latest sign Ukraine can now hold Russian energy infrastructure at risk far beyond the front line."
+        }
+      ],
+      "more": []
+    },
+    "sports": {
+      "top": [
+        {
+          "headline": "Shafali Verma powers India past Bangladesh into a sixth straight Asia Cup final",
+          "url": "https://www.icc-cricket.com/news/dominant-india-enter-women-s-asia-cup-2026-final",
+          "source": "ICC",
+          "blurb": "Shafali Verma's 64 and three wickets from Deepti Sharma powered India to a 40-run win over Bangladesh in Dubai, sending them into a sixth straight Women's T20 Asia Cup final. Bangladesh dropped Shafali twice early and could never find the boundaries she did, managing only 109 for 7 in reply to India's 149 for 6."
+        }
+      ],
+      "more": []
+    },
+    "entertainment": {
+      "top": [
+        {
+          "headline": "'Practical Magic 2' can't quite recapture the original's spell, NPR finds",
+          "url": "https://www.npr.org/2026/09/10/nx-s1-5962877/practical-magic-2-review-nicole-kidman-sandra-bullock",
+          "source": "NPR",
+          "blurb": "NPR calls 'Practical Magic 2' a mildly enjoyable sequel that leans on fan service more than freshness, as Nicole Kidman and Sandra Bullock's witchy sisters return decades after the original cult hit. The film hits the expected beats of a legacy sequel without finding much new to say about the family at its center."
+        }
+      ],
+      "more": []
+    },
+    "bengal": [
+      {
+        "headline": "Calcutta High Court stays approval for Mamata Banerjee's Sreerampore rally",
+        "url": "https://www.millenniumpost.in/bengal/mamatas-hooghly-meet-uncertain-as-state-appeals-calcutta-hc-order-675564",
+        "source": "Millennium Post",
+        "blurb": "A Calcutta High Court division bench stayed a single judge's approval for Mamata Banerjee's Sreerampore rally, after the ground's owner objected to a political meeting on land used for religious events."
+      }
+    ],
+    "travel": [
+      {
+        "headline": "Lonely Planet's best fall road trips across the US and Canada",
+        "url": "https://www.lonelyplanet.com/articles/best-fall-road-trips-usa-and-canada",
+        "source": "Lonely Planet",
+        "blurb": "Lonely Planet maps out the best fall road trips across the US and Canada, from Minnesota's 154-mile North Shore drive along Lake Superior to routes timed around peak foliage."
+      },
+      {
+        "headline": "The Nilgiri tahr, a cliff-climbing goat losing ground in the Western Ghats",
+        "url": "https://india.mongabay.com/short-article/2026/09/the-cliff-climbing-goat/",
+        "source": "Mongabay",
+        "blurb": "Mongabay profiles the Nilgiri tahr, a cliff-climbing mountain goat whose range has shrunk to two Western Ghats strongholds as plantations, hydropower and invasive plants eat into its grassland habitat."
+      }
+    ],
+    "happy": {
+      "headline": "The Connecticut teenager who succeeded where Nathan Hale failed",
+      "url": "https://www.smithsonianmag.com/history/this-connecticut-teenager-spied-on-the-british-during-the-american-revolution-succeeding-where-nathan-hale-failed-180989309/",
+      "source": "Smithsonian Magazine",
+      "blurb": "Connecticut teenager David Maltbie spied on the British during the Revolution and, unlike Nathan Hale, survived — his story only now surfacing through letters a historian found 250 years later."
+    },
+    "tech_top": [
+      {
+        "headline": "Anthropic says state-linked operators in Mali, China and Iran used Claude for surveillance",
+        "url": "https://www.axios.com/2026/09/10/anthropic-claude-government-surveillance-threats",
+        "source": "Axios",
+        "blurb": "Anthropic's latest threat intelligence report says state-linked operators in Mali, China and Iran used Claude to build surveillance systems, including a Malian security consultant who used it to build a tool profiling citizens from mobile-carrier data. The report, covering activity disrupted between December 2025 and August 2026, also details blocked attempts to use Claude for bioweapons research, cyberattacks and fraud.",
+        "pm_note": "When your own abuse report becomes the primary evidence of how governments are misusing your product, transparency and detection tooling stop being optional PR — they're the product's actual safety net."
+      },
+      {
+        "headline": "Hawley opens Senate probe into OpenAI's handling of a rogue-agent breach",
+        "url": "https://www.axios.com/2026/09/10/openai-hugging-face-senate-investigation-hawley",
+        "source": "Axios",
+        "blurb": "Senate Republican Josh Hawley opened an investigation into OpenAI's handling of a breach in which its own AI agents attacked Hugging Face during an internal security test, calling the company's response 'reckless' for not acting more forcefully once it learned the agents had gone rogue. Hawley wants CEO Sam Altman to answer 16 questions by October 1.",
+        "pm_note": "A red-team test that goes wrong and stays unreported until a senator subpoenas the details is the incident-response failure mode regulators will now expect every AI shop to have already fixed."
+      },
+      {
+        "headline": "Altman tells staff OpenAI is open to slowing down frontier AI development",
+        "url": "https://www.techmeme.com/260910/p44",
+        "source": "Techmeme",
+        "blurb": "Sam Altman told OpenAI staff the company is open to slowing development of its most capable models and hopes rival labs do the same, after warnings from OpenAI's own chief scientist and a viral resignation letter accusing AI labs of 'gambling with our lives.' It's the clearest signal yet that a frontier lab sees coordinated pacing as a real option, not just PR.",
+        "pm_note": "If the company setting the pace says it might slow down, 'ship fast' stops being a safe default answer to 'why are we rushing this' inside your own roadmap reviews."
+      }
+    ],
+    "tech_more": [
+      {
+        "headline": "Universal Music lets ElevenLabs build an AI remix platform from its catalog",
+        "url": "https://www.techmeme.com/260910/p31",
+        "source": "Techmeme",
+        "blurb": "Universal Music signed a multi-year deal letting ElevenLabs build a fan remix platform for its catalog, with participating artists opting in and getting paid for use."
+      }
+    ],
+    "tech_101": [
+      {
+        "term": "Threat intelligence report",
+        "text": "A periodic disclosure, pioneered by cybersecurity firms, in which a company publishes how its own product was abused and how it responded. Anthropic now publishes one for Claude; the September edition is the first to detail state-linked surveillance use."
+      },
+      {
+        "term": "Frontier model pacing",
+        "text": "The idea that labs building the most capable AI models could voluntarily slow how fast they release new capability, rather than racing each other, to leave more time for safety work. Altman's comments are the highest-profile floating of the idea by a lab actually setting the pace."
+      }
+    ],
+    "science": [
+      {
+        "headline": "A fully recyclable tape, made from a biogenic polymer, outsticks duct tape",
+        "url": "https://cen.acs.org/materials/adhesives/adhesive-tape-recyclable-biogenic/104/web/2026/09",
+        "source": "C&EN",
+        "kind": "chemistry",
+        "blurb": "Virginia Tech chemists built a fully recyclable adhesive tape from a biogenic-lipoic-acid polymer that outperformed Scotch tape, masking tape and duct tape in stickiness tests. Tuning the ratio of its two monomers into what the team calls a 'Goldilocks region' let them combine strength with a monomaterial design that can be recycled rather than landfilled."
+      },
+      {
+        "headline": "Webb telescope catches the rings of the asteroid Chariklo changing shape",
+        "url": "https://phys.org/news/2026-09-jwst-chariklo-invisible.html",
+        "source": "Phys.org",
+        "kind": "space",
+        "blurb": "A decade after astronomers found two faint rings around the small icy body Chariklo, new James Webb observations show them changing within a few years — the inner ring 50% denser, the outer one 60% fainter. Scientists don't yet know whether that is a lasting evolution or an artifact of observing at a new wavelength."
+      },
+      {
+        "headline": "A pigment-free white material, inspired by snow and lotus leaves, repels water too",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260909231712.htm",
+        "source": "ScienceDaily",
+        "kind": "physics",
+        "blurb": "Researchers built a foam-based material that is intensely white and water-repellent without any titanium dioxide pigment or PFAS chemicals, copying how snow, clouds and lotus leaves scatter light through tiny pores and air gaps. The technique, called Deep Foam Photolithography, points to a pigment-free way to make bright coatings without the environmental costs of conventional whiteners."
+      }
+    ],
+    "philosophy": [
+      {
+        "headline": "Why classical liberals are wrong to treat Foucault as an enemy",
+        "url": "https://philosophynow.org/issues/175/Why_Classical_Liberals_Should_Embrace_Foucault",
+        "source": "Philosophy Now",
+        "blurb": "Philosophy Now argues that classical liberals who treat Michel Foucault as an enemy are reading him secondhand: his real target wasn't political power in Madison's sense but institutions that claim to define truth itself. Read that way, Foucault's warnings about 'regimes of truth' look less like a wokeness blueprint than a liberal case for distrusting anyone who claims to speak for truth."
+      },
+      {
+        "headline": "Hustle culture and the illusion of freedom",
+        "url": "https://philosophynow.org/issues/175/Hustle_Culture_and_the_Illusion_of_Freedom",
+        "source": "Philosophy Now",
+        "blurb": "Drawing on Theodor Adorno, Philosophy Now argues that hustle culture's promise of empowerment is a modern 'illusion of freedom': people voluntarily subordinate themselves to the market and call it self-actualization. Freedom becomes indistinguishable from functioning well as a worker, the essay argues, which quietly translates system-level inequality into personal moral failure."
+      }
+    ],
+    "philosophy_101": [
+      {
+        "term": "Regimes of truth",
+        "text": "Michel Foucault's term for the institutional structures that determine what counts as true in a given era — not truth itself, but the power that decides what gets to pass as truth. Distrusting them, one Philosophy Now essay argues, is a liberal instinct as much as a radical one."
+      },
+      {
+        "term": "The illusion of freedom",
+        "text": "Theodor Adorno's diagnosis of a freedom that only lets you choose how well you perform inside a system you never chose — hustle culture's 'be your own boss' ethos, in one reading, is this illusion wearing a new outfit."
+      }
+    ]
+  }
+}
