@@ -1,0 +1,196 @@
+{
+  "date": "2026-09-12",
+  "sections": {
+    "politics": {
+      "top": [
+        {
+          "headline": "A Pentagon employee moonlighting as 'DataRepublican' is boosting a hacker who targets the left",
+          "url": "https://theintercept.com/2026/09/10/datarepublican-influencer-noblogs-hack-pentagon/",
+          "source": "The Intercept",
+          "investigative": true,
+          "blurb": "A hacker going by AstraRCE has been claiming credit for breaches of leftist websites and is being amplified by the X account DataRepublican — run by Jennica Pounds, a Pentagon employee hired this summer as part of a push to bring right-wing influencers onto the federal payroll. The overlap raises questions about a government employee promoting attacks on political adversaries."
+        },
+        {
+          "headline": "Missouri Republicans bundle an abortion-rights repeal with a ban voters never approved",
+          "url": "https://www.propublica.org/article/missouri-abortion-gender-transition-minors-amendment-3",
+          "source": "ProPublica",
+          "investigative": true,
+          "blurb": "Two years after falsely claiming a reproductive-rights amendment would legalize gender-transition surgery for minors, Missouri Republicans are trying again — this time writing an actual ban on transition care for minors into a ballot measure that would repeal the abortion rights voters approved in 2024. Gender-affirming care for minors is already illegal in the state."
+        },
+        {
+          "headline": "GOP officials have stopped even trying to talk Trump out of anything",
+          "url": "https://www.axios.com/2026/09/09/trump-midterms-republicans-popularity",
+          "source": "Axios",
+          "blurb": "Top White House officials and elected Republicans say they no longer attempt to persuade President Trump to do — or not do — something, even as his approval sags in swing districts ahead of the midterms. The shift marks a new phase in a party that has largely stopped resisting him."
+        }
+      ],
+      "more": [
+        {
+          "headline": "A lawsuit says DHS is tracking and intimidating Americans who watch ICE",
+          "url": "https://www.npr.org/2026/09/10/nx-s1-5961220/dhs-ice-observers-surveillance-lawsuit",
+          "source": "NPR",
+          "blurb": "Common Cause says its members were followed, photographed, pepper-sprayed and visited at home by federal officers after they tried to peacefully observe immigration raids in three states."
+        }
+      ]
+    },
+    "india": {
+      "top": [
+        {
+          "headline": "Alt News broke through the wall the Election Commission built around Bengal's voter data",
+          "url": "https://www.altnews.in/bengal-sir-the-wall-eci-built-around-electoral-data-and-how-we-broke-through-it/",
+          "source": "Alt News",
+          "investigative": true,
+          "blurb": "The Election Commission's revision of West Bengal's electoral rolls sorts voters into categories including a new 'Logical Discrepancy' flag, and its portal blocks bulk downloads behind CAPTCHAs that make independent verification nearly impossible. Alt News spent weeks and roughly ₹11,800 digitising just two Kolkata constituencies and found a large share of flagged voters in some seats were Muslim."
+        }
+      ],
+      "more": []
+    },
+    "geo": {
+      "top": [
+        {
+          "headline": "BRICS leaders open a Delhi summit with two live wars competing for the agenda",
+          "url": "https://www.aljazeera.com/news/2026/9/12/brics-meets-in-india-whats-on-the-agenda-why-it-matters",
+          "source": "Al Jazeera",
+          "blurb": "Modi is hosting Putin, Xi, Pezeshkian and the rest of the 11-nation bloc for two days built around trade and investment, but the wars in Ukraine and the Middle East, plus rising US-China tensions, are testing whether the group can agree on anything beyond growth. For India, the summit doubles as a balancing act between Moscow, Tehran and the West."
+        },
+        {
+          "headline": "Xi arrives in India for a summit that could thaw a five-year border chill with Modi",
+          "url": "https://www.aljazeera.com/news/2026/9/12/chinas-xi-heads-to-india-for-brics-summit-overshadowed-by-wars",
+          "source": "Al Jazeera",
+          "blurb": "Xi Jinping's visit doubles as his most substantial meeting with Narendra Modi since the deadly 2020 border clashes, with bilateral talks expected later Saturday. Officials on both sides have signalled the encounter could help consolidate a fragile diplomatic thaw, even as the summit's real subject is the wars neither side can agree on."
+        },
+        {
+          "headline": "Russian drones kill two in Kyiv as Moscow shifts to hitting fuel stations",
+          "url": "https://www.aljazeera.com/news/2026/9/11/russian-strikes-kill-two-in-kyiv-as-moscow-targets-capitals-fuel-stations",
+          "source": "Al Jazeera",
+          "blurb": "Two people were killed and several injured when Russian drones struck two Kyiv fuel stations within ten minutes of each other, part of what officials describe as a deliberate shift toward civilian infrastructure ahead of winter. It follows another round of failed US-brokered ceasefire efforts."
+        }
+      ],
+      "more": []
+    },
+    "sports": {
+      "top": [
+        {
+          "headline": "Aasif Sheikh's century sets up Nepal's push for a third straight ACC Premier Cup title",
+          "url": "https://www.cricinfo.com/series/acc-men-s-premier-cup-2026-1549936/nepal-vs-united-arab-emirates-final-1549969/live-cricket-score",
+          "source": "ESPNcricinfo",
+          "blurb": "Sheikh's second ODI hundred (102 off 106 balls) and a brisk 52 from Gulsan Jha lifted Nepal to 313 for 9 in the ACC Premier Cup final at Kuala Lumpur, a target that also carries direct qualification for the next Asia Cup. The defending champions now have UAE chasing 314 to deny them a third straight title."
+        }
+      ],
+      "more": []
+    },
+    "entertainment": {
+      "top": [
+        {
+          "headline": "NPR's critics pick 24 films worth your time this fall",
+          "url": "https://www.npr.org/2026/09/11/nx-s1-5902182/what-to-watch-new-moviews-theaters",
+          "source": "NPR",
+          "blurb": "The lineup includes Alex Gibney's documentary on Elon Musk's brief, agency-slashing turn in the Trump White House, Paul Greengrass's drama about a rebellion against a government that coddles oligarchs, and archival footage from a 1972 Harlem Renaissance gathering. Critics Aisha Harris, Linda Holmes, Bob Mondello and Glen Weldon make the case for each pick."
+        }
+      ],
+      "more": []
+    },
+    "bengal": [
+      {
+        "headline": "A low-pressure system floods Kolkata's streets and snarls traffic",
+        "url": "https://www.thestatesman.com/bengal/heavy-rain-paralyses-kolkata-waterlogging-disrupts-traffic-imd-forecasts-more-intense-showers-1503628301.html",
+        "source": "The Statesman",
+        "blurb": "A Bay of Bengal low-pressure system waterlogged Kolkata's streets and snarled traffic, with the weather office warning of more intense showers still to come."
+      }
+    ],
+    "travel": [
+      {
+        "headline": "Where Lonely Planet's editors say to spend a fall trip",
+        "url": "https://www.lonelyplanet.com/articles/where-to-go-in-fall",
+        "source": "Lonely Planet",
+        "blurb": "The list pairs 23 destinations with the season built for them, from Tipperary and Belgrade to Cádiz, Cartagena and Kerala."
+      },
+      {
+        "headline": "World Dolphin Day finds nine species already critically endangered or endangered",
+        "url": "https://news.mongabay.com/short-article/2026/09/world-dolphin-day-reporting-unusual-behavior-threats-and-increased-protections/",
+        "source": "Mongabay",
+        "blurb": "Lahille's bottlenose dolphin was reclassified from vulnerable to endangered in late 2025, with fewer than 400 left after decades of dying as bycatch in Brazilian, Uruguayan and Argentine gillnets."
+      }
+    ],
+    "happy": {
+      "headline": "Three siblings, five decades, and the Brooklyn pizzeria their immigrant parents built",
+      "url": "https://www.npr.org/2026/09/04/nx-s1-5954200/what-does-it-take-to-run-a-pizzeria",
+      "source": "NPR",
+      "blurb": "Luigi and Teodora Lanzo emigrated from Italy and opened Luigi's Pizza in Brooklyn in 1973; more than fifty years later, three of their five children sat down for StoryCorps to remember how their parents built a neighborhood institution out of nothing."
+    },
+    "tech_top": [
+      {
+        "headline": "Anthropic says its models can no longer be assumed safe from helping build bioweapons",
+        "url": "https://www.techmeme.com/260910/p27",
+        "source": "Techmeme",
+        "pm_note": "Anthropic used its own threat report, not a leak or a regulator, to say Claude crossed a safety line it once ruled out — a signal every AI vendor's safety claims are about to get more scrutiny.",
+        "blurb": "Anthropic's fourth threat-intelligence report documents state-linked hackers, fraud rings and would-be weapons developers using Claude as an execution layer inside multi-agent frameworks rather than just for content generation. It's the first time a major AI lab has publicly said its newest models can't be assumed below the threshold for meaningful bioweapons assistance."
+      },
+      {
+        "headline": "Trump dismisses AI extinction warnings, says the US can't afford to blink first",
+        "url": "https://www.techmeme.com/260911/p2",
+        "source": "Techmeme",
+        "pm_note": "Whatever the safety merits, a White House openly betting on speed over caution changes the regulatory floor every AI product team is building against.",
+        "blurb": "President Trump rejected warnings that unchecked AI development risks human extinction, arguing the US leads China by only about a year and would be in a 'very bad position' if it eased off first. The remarks came as rivals openly debate whether to slow down at all."
+      },
+      {
+        "headline": "A Michigan township is fighting a university and a nuclear-weapons lab over its new neighbor",
+        "url": "https://www.404media.co/we-did-not-invite-you-citizens-rage-at-town-hall-over-proposed-nuclear-ai-data-center/",
+        "source": "404 Media",
+        "pm_note": "AI's physical footprint — power, water, land, local politics — is becoming as consequential to a product roadmap as the model itself.",
+        "blurb": "Residents of Ypsilanti Township packed a three-hour town hall to confront the University of Michigan over a proposed $1.2 billion, 220,000-square-foot data center built with Los Alamos National Lab to run nuclear-weapons simulations. The university has promised another meeting; the township has already passed a moratorium on new electrical infrastructure to slow the project down."
+      }
+    ],
+    "tech_more": [],
+    "tech_101": [
+      {
+        "term": "Model distillation",
+        "text": "Training a smaller AI model to copy a larger, more expensive one's outputs — a fast, cheap way to catch up without doing the original research, which is why export controls increasingly try to restrict it."
+      },
+      {
+        "term": "Threat intelligence report",
+        "text": "A security team's public account of real attacks it detected and stopped, rather than theoretical risks — the AI industry's version of the incident reports banks and hospitals have long published."
+      }
+    ],
+    "science": [
+      {
+        "headline": "Scientists finally watched two DNA strands find each other and zip together",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260909231717.htm",
+        "source": "ScienceDaily",
+        "kind": "chemistry",
+        "blurb": "Two negatively charged DNA molecules should repel each other, yet strands with matching sequences reliably pair up — a puzzle chemists have debated for decades. University of York researchers directly observed the process for the first time, watching complementary strands recognise each other and zip together despite the electrostatic odds."
+      },
+      {
+        "headline": "The last four shuttle-era engines are bolted onto NASA's next moon rocket",
+        "url": "https://www.nasa.gov/image-article/historic-engines-take-their-place-on-artemis-iii/",
+        "source": "NASA",
+        "kind": "space",
+        "blurb": "Technicians at Kennedy Space Center finished installing all four RS-25 engines into the Artemis III rocket's core stage, completing a job they began in late August. Each engine flew multiple space shuttle missions before being refurbished for the mission that aims to land astronauts near the lunar south pole."
+      }
+    ],
+    "philosophy": [
+      {
+        "headline": "The real political divide might not be left vs right — it's absolutist vs relativist",
+        "url": "https://iai.tv/articles/studies-reveal-the-real-political-divide-is-over-the-nature-of-morality-auid-3462",
+        "source": "IAI News",
+        "blurb": "New research suggests partisan conflict tracks a deeper split in moral philosophy: whether right and wrong hold regardless of context, or depend on circumstance, intention and culture. Namrata Goyal argues this framing explains disagreements that policy debates alone can't resolve."
+      },
+      {
+        "headline": "Neuroscience keeps failing to find a 'you' anywhere in the brain",
+        "url": "https://bigthink.com/books/our-brains-our-selves/",
+        "source": "Big Think",
+        "blurb": "If personal identity isn't stored in any single brain region, what is the self actually made of? Drawing on neurologist Masud Husain's work, this piece argues identity is better understood as a coalition of processes — a 'society of mind' — than a single continuous thing."
+      }
+    ],
+    "philosophy_101": [
+      {
+        "term": "Moral relativism vs. moral absolutism",
+        "text": "Absolutism holds that some acts are right or wrong regardless of context; relativism holds that judgment depends on circumstance, intention and culture. Many real-world disagreements are really about which of these two lenses to use."
+      },
+      {
+        "term": "Personal identity",
+        "text": "The philosophical question of what makes you the same person over time, given that your body, memories and beliefs all change — do you persist because of a continuous body, a continuous mind, or something else entirely?"
+      }
+    ]
+  }
+}
