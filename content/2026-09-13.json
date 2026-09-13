@@ -1,0 +1,228 @@
+{
+  "date": "2026-09-13",
+  "sections": {
+    "politics": {
+      "top": [
+        {
+          "headline": "Fired After the Charlie Kirk Revenge Purge, They're Still Unemployed",
+          "url": "https://theintercept.com/2026/09/10/charlie-kirk-fired-censorship-free-speech/",
+          "source": "The Intercept",
+          "investigative": true,
+          "blurb": "A year after Charlie Kirk's assassination, The Intercept finds most people swept up in the White House-driven purge of his critics are still jobless. Reporters interviewed five fired workers and four attorneys representing seven more clients, including a tenured professor who resigned to save her small South Carolina college from a funding threat."
+        },
+        {
+          "headline": "Trans Immigrants Cite Abuse, Sexual Assault in ICE Detention",
+          "url": "https://www.themarshallproject.org/2026/09/12/ice-women-transgender-trump-detention",
+          "source": "The Marshall Project",
+          "investigative": true,
+          "blurb": "The Marshall Project interviewed transgender women held in ICE camps in Louisiana and Texas who described sexual assault, harassment from staff and fellow detainees, and hormone therapy abruptly cut off. One woman said she was chained at the arms, waist and legs 'like an animal'; the administration denies the allegations."
+        },
+        {
+          "headline": "Neighbor Turned on Neighbor After Charlie Kirk's Killing. Is the Divide Here to Stay?",
+          "url": "https://www.npr.org/2026/09/12/nx-s1-5952234/charlie-kirk-death-doxing",
+          "source": "NPR",
+          "blurb": "A year after conservative activist Charlie Kirk's assassination opened a wave of neighbor-on-neighbor doxing, NPR finds the damage to American political discourse hasn't healed. Strangers and acquaintances turned on each other over old social media posts, and the informal surveillance culture it created shows few signs of fading."
+        }
+      ],
+      "more": []
+    },
+    "india": {
+      "top": [
+        {
+          "headline": "Behind Deaths of Adivasi Children in Balaghat: Appalling Vaccination Levels, Widespread Hunger",
+          "url": "https://scroll.in/article/1095636/behind-deaths-of-adivasi-children-in-madhya-pradesh-appalling-vaccination-levels-widespread-hunger",
+          "source": "Scroll.in",
+          "investigative": true,
+          "blurb": "At least 25 children of the Baiga and Gond tribes have died since May in remote Balaghat villages, from measles, malaria and malnutrition. A WHO team surveying 177 children in Birsa block found only 80% had received a first measles dose and 70% a second, in an area with almost no functioning healthcare system."
+        },
+        {
+          "headline": "ED Searches Premises Linked to Karnataka Minister Satish Jarkiholi, Daughter",
+          "url": "https://www.thenewsminute.com/karnataka/ed-searches-premises-linked-to-karnataka-minister-satish-jarkiholi-daughter",
+          "source": "The News Minute",
+          "blurb": "The Enforcement Directorate searched 18 premises linked to Karnataka PWD Minister Satish Jarkiholi and his daughter, Chikkodi MP Priyanka Jarkiholi, in a fresh case over alleged irregularities in the issuance of liquor licences. Jarkiholi previously served as the state's excise minister between 2013 and 2016."
+        },
+        {
+          "headline": "Alt News Impact: Meta Removes Doctored, AI-Generated Visuals of Women CJP Protesters",
+          "url": "https://www.altnews.in/alt-news-impact-meta-removes-ai-manipulated-videos-of-women-from-jantar-mantar-protest/",
+          "source": "Alt News",
+          "investigative": true,
+          "blurb": "Meta confirmed to Alt News it removed accounts and posts built from AI-manipulated images and videos of women who protested at Delhi's Jantar Mantar in July, after face- and body-swap edits made them targets of doxxing and rape threats online. The takedown followed days of harassment the women say they never anticipated."
+        }
+      ],
+      "more": []
+    },
+    "geo": {
+      "top": [
+        {
+          "headline": "Iran-Backed Houthis Seize Strategic Mayun Island: Can They Hold It?",
+          "url": "https://www.aljazeera.com/news/2026/9/12/iran-backed-houthis-seize-strategic-mayun-island-can-they-hold-it",
+          "source": "Al Jazeera",
+          "blurb": "Houthi forces have taken the volcanic island of Mayun, splitting the Bab el-Mandeb Strait into two channels and giving the Iran-aligned group a physical foothold over one of the world's busiest shipping corridors. Combined with Iran's pressure on the Strait of Hormuz, roughly a third of global seaborne trade now runs through waters under hostile control."
+        },
+        {
+          "headline": "Shrinking Buffers: Why Turkey and Israel Are on a Collision Course",
+          "url": "https://warontherocks.com/shrinking-buffers-why-turkey-and-israel-are-on-a-collision-course/",
+          "source": "War on the Rocks",
+          "blurb": "The traditional buffer zones that kept Turkey and Israel from confronting each other directly have collapsed since an Israeli strike hit a Syrian base Turkey had been using to build local security ties, this analysis argues. Ankara has responded with an active intelligence campaign across Syria, Iraq and Lebanon aimed at blunting Israel's regional reach."
+        },
+        {
+          "headline": "UN Extends Partial Sudan Arms Embargo for a Month",
+          "url": "https://www.aljazeera.com/news/2026/9/11/un-extends-partial-sudan-arms-embargo-for-a-month",
+          "source": "Al Jazeera",
+          "blurb": "The UN Security Council unanimously extended the existing Darfur arms embargo by one month, buying time for talks on a US push to expand it across all of Sudan and add sanctions for sexual violence and aid-worker attacks. Russia, which backs Sudan's government, has vowed to block any broader embargo."
+        }
+      ],
+      "more": []
+    },
+    "sports": {
+      "top": [
+        {
+          "headline": "England Seal Convincing WTC Series Sweep Over Pakistan",
+          "url": "https://www.icc-cricket.com/news/england-seal-convincing-wtc-series-sweep-over-pakistan",
+          "source": "ICC",
+          "blurb": "England completed a 3-0 Test series whitewash of Pakistan, their first-ever home sweep of the opponent, chasing down 130 at Edgbaston behind unbeaten fifties from Joe Root and Jordan Cox after early wickets briefly threatened a stumble. Not a single batter on either side reached a century across all three matches — the first series to finish that way since 1888."
+        }
+      ],
+      "more": []
+    },
+    "entertainment": {
+      "top": [
+        {
+          "headline": "'The Revolutionaries' Review: A Pacy, Stirring and Glam Take on Armed Resistance to British Rule",
+          "url": "https://scroll.in/reel/1095556/the-revolutionaries-review-a-pacy-stirring-and-glam-take-on-armed-resistance-to-british-rule",
+          "source": "Scroll.in",
+          "blurb": "Scroll.in's review of the new series on India's freedom struggle, starring Bhuvan Bam, Rohit Saraf and Gurfateh Pirzada, finds a glammed-up history lesson — fast chases, songs, slow-motion heroics and colonial-era havelis — that trades depth for spectacle. The performances carry it further than the show's excesses probably deserve."
+        }
+      ],
+      "more": []
+    },
+    "bengal": [
+      {
+        "headline": "EC to Meet Ritabrata TMC on Saturday",
+        "url": "https://www.millenniumpost.in/bengal/ec-to-meet-ritabrata-tmc-on-saturday-675576",
+        "source": "Millennium Post",
+        "blurb": "The Election Commission agreed to hear a five-member delegation led by Ritabrata Banerjee over a dispute with the Mamata Banerjee-led Trinamool Congress about the party's name, symbol and funds."
+      },
+      {
+        "headline": "Bengal to Go Dry This Maha Asthami, Suvendu Announces Complete Alcohol Ban",
+        "url": "https://www.thestatesman.com/cities/kolkata/bengal-to-go-dry-this-maha-asthami-suvendu-announces-complete-alcohol-ban-1503635877.html",
+        "source": "The Statesman",
+        "blurb": "Chief Minister Suvendu Adhikari announced Bengal's first-ever total liquor ban on Maha Ashtami during Durga Puja, plus restrictions on DJ music at immersion processions."
+      }
+    ],
+    "travel": [
+      {
+        "headline": "Where to Go in Europe in September",
+        "url": "https://www.lonelyplanet.com/articles/where-to-go-in-europe-in-september",
+        "source": "Lonely Planet",
+        "blurb": "Lonely Planet makes the case for Istria this month, when Croatia's peninsula turns over its vineyards for the grape harvest as truffles ripen beneath the forest floor nearby."
+      },
+      {
+        "headline": "Nigeria's Rachel Ikemeh Wins Rolex Award for Efforts to Save Rare Red Monkey",
+        "url": "https://news.mongabay.com/short-article/2026/09/nigerias-rachel-ikemeh-wins-rolex-award-for-efforts-to-save-rare-red-monkey/",
+        "source": "Mongabay",
+        "blurb": "Conservationist Rachel Ikemeh was named a 2026 Rolex Award laureate for organizing Niger Delta communities to protect the region's mangroves and the critically endangered Niger Delta red colobus monkey."
+      }
+    ],
+    "happy": {
+      "headline": "Two Juilliard Students Created a Global Art Project in the Wake of 9/11",
+      "url": "https://www.npr.org/2026/09/10/nx-s1-5928332/two-juilliard-students-created-a-global-art-project-in-the-wake-of-9-11",
+      "source": "NPR",
+      "blurb": "Grieving opera singers Monica Yunus and Camille Zamora turned their 9/11-era despair into Sing for Hope, which has now placed more than 700 artist-painted pianos in hospitals, schools and public spaces around the world."
+    },
+    "tech_top": [
+      {
+        "headline": "Amodei Says AI 'Pacing' Doesn't Mean Halting Progress",
+        "url": "https://www.techmeme.com/260912/p9",
+        "source": "Techmeme",
+        "pm_note": "Amodei is defining 'pacing' as a middle path between racing and stopping — the framing every AI vendor's safety story will now be measured against.",
+        "blurb": "Anthropic CEO Dario Amodei clarified that his call for the industry to 'pace' frontier AI development doesn't mean halting training, but giving companies time to align and safeguard models and letting third-party evaluators verify results before release. The comments follow a week of competing signals from Trump, OpenAI and Anthropic on how fast the industry should move."
+      },
+      {
+        "headline": "OpenAI's Sam Altman Says It Would Be 'Ill-Advised' to Go Public in 2026",
+        "url": "https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/",
+        "source": "TechCrunch",
+        "pm_note": "A company citing unfinished safety work as its reason to delay an IPO is a new kind of readiness gate product leaders should expect regulators and boards to start asking about.",
+        "blurb": "OpenAI CEO Sam Altman said going public this year would be 'ill-advised' given the safety work the company still has ahead of it, after warnings from its own chief scientist and a viral resignation letter accusing AI labs of 'gambling with our lives.' The remarks push back an IPO investors had expected soon."
+      },
+      {
+        "headline": "Automattic Confirms Mullenweg Has Returned as CEO After Attempted Ouster by Board",
+        "url": "https://techcrunch.com/2026/09/12/automattic-confirms-mullenweg-has-returned-as-ceo-after-attempted-ouster-by-board/",
+        "source": "TechCrunch",
+        "pm_note": "A founder-CEO voted out and reinstalled within 48 hours is a live case study in how thin governance protections are at companies built around one person's control.",
+        "blurb": "WordPress parent Automattic confirmed Matt Mullenweg is back as chairman and CEO 'with full support of the board,' days after the board voted to put him on leave — a reversal Mullenweg said followed board members 'conspiring' behind his back. The company hasn't detailed what triggered the attempted ouster."
+      }
+    ],
+    "tech_more": [
+      {
+        "headline": "Revolut Confirms Customer Data Breach Through Fake Government Requests",
+        "url": "https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/",
+        "source": "TechCrunch",
+        "blurb": "The fintech disclosed sensitive customer data to an unauthorized party after fraudulent requests arrived from a spoofed but legitimate-looking government email domain."
+      },
+      {
+        "headline": "Bitcoin Miners Are Converting Facilities Into AI Data Centers",
+        "url": "https://www.techmeme.com/260912/p15",
+        "source": "Techmeme",
+        "blurb": "Trump's plan to center Bitcoin mining in the US is unraveling as miners repurpose their facilities for AI compute amid a prolonged crypto market slump."
+      }
+    ],
+    "tech_101": [
+      {
+        "term": "Founder ouster (and reinstatement)",
+        "text": "A company's board holds the legal power to remove even a founder-CEO, as Automattic's briefly did to Matt Mullenweg — a reminder that founder control usually rests on board goodwill and bylaws, not just reputation or equity."
+      },
+      {
+        "term": "Readiness gate",
+        "text": "A condition a company sets for itself before shipping or going public — usually safety, security or compliance work — rather than one imposed from outside. OpenAI citing unfinished safety work to delay its IPO is a readiness gate it chose for itself."
+      }
+    ],
+    "science": [
+      {
+        "headline": "Weak Hydrogen Bonds Dethrone Copper as the Most Stable Metal Binder",
+        "url": "https://phys.org/news/2026-09-weak-hydrogen-bonds-dethrone-copper.html",
+        "source": "Phys.org",
+        "kind": "chemistry",
+        "blurb": "For decades, copper has topped the Irving-Williams series, the rule ranking how stably transition metals bind to surrounding molecules. A KAIST team built a vitamin-B2-based ligand that reverses the trend by tuning only the weak hydrogen bonds around the metal, a result that could open new approaches to selective metal separation and catalyst design."
+      },
+      {
+        "headline": "Venus's Pale Yellow Clouds May Hide Something Surprisingly Dark",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260912220022.htm",
+        "source": "ScienceDaily",
+        "kind": "space",
+        "blurb": "Venus appears pale yellow from a distance, but ultraviolet images show dark, unidentified patches absorbing far more sunlight than any known atmospheric compound should. Researchers calculated how strongly that material must absorb light to produce the patterns, narrowing down candidates for a mystery pigment nobody has directly identified."
+      },
+      {
+        "headline": "CERN Finds Gluons Behaving Strangely Deep Inside Atomic Nuclei",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260911214303.htm",
+        "source": "ScienceDaily",
+        "kind": "physics",
+        "blurb": "Using the ALICE experiment at the Large Hadron Collider, physicists measured particle production at a quarter the size of a proton and found gluon behavior conventional theory can't fully explain. At the smallest scales, gluons appear to pack so densely that they interact with each other, giving the clearest picture yet of how the strong force is arranged inside the atom."
+      }
+    ],
+    "philosophy": [
+      {
+        "headline": "History Shows That Human Progress Is a Myth",
+        "url": "https://bigthink.com/mini-philosophy/history-shows-that-human-progress-is-a-myth/",
+        "source": "Big Think",
+        "blurb": "Philosopher John Gray argues that while technology and science plainly advance, there is no equivalent ratchet for ethics or politics — societies can and do regress, sometimes catastrophically, and nothing guarantees hard-won moral gains stay won. The essay is drawn from a wide-ranging conversation at this year's HowTheLightGetsIn festival."
+      },
+      {
+        "headline": "Why Western Democracy Is Ailing and How to Fix It",
+        "url": "https://aeon.co/essays/why-western-democracy-is-ailing-and-how-to-fix-it",
+        "source": "Aeon",
+        "blurb": "Aeon's essay diagnoses Western democracies as suffering less from any single bad actor than from institutions that have lost the public's trust to actually represent it, and argues the fix has to rebuild that trust structurally rather than simply electing better people. It's a political-philosophy argument, not a partisan one."
+      }
+    ],
+    "philosophy_101": [
+      {
+        "term": "The myth of progress",
+        "text": "The assumption that history moves in one direction — toward more justice, more freedom, more moral improvement — the way it plainly moves toward more advanced technology. Philosophers like John Gray argue this conflates two very different kinds of progress, and that only one of them is real."
+      },
+      {
+        "term": "Legitimacy crisis",
+        "text": "When a political system stops being trusted to represent the people it governs, even if its formal procedures — elections, courts, legislatures — keep functioning normally. Aeon's essay treats today's democratic backsliding as this kind of crisis, not a personnel problem."
+      }
+    ]
+  }
+}
