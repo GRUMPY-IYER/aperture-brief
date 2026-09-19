@@ -1,0 +1,208 @@
+{
+  "date": "2026-09-19",
+  "sections": {
+    "politics": {
+      "top": [
+        {
+          "headline": "Trump Says He's Banning CNN, MS NOW and Politico From the White House",
+          "url": "https://www.axios.com/2026/09/18/trump-ban-cnn-ms-now-politico-white-house",
+          "source": "Axios",
+          "blurb": "Trump declared on social media that he was banning CNN, MS NOW and Politico from the White House over what he called 'constant FAKE NEWS,' effective immediately. Reporters from all three outlets were still working inside the building hours later and no formal mechanism for the ban was announced, but Trump named The New York Times and The Washington Post as possible next targets."
+        },
+        {
+          "headline": "A DHS Email Raises New Questions About the Trump Administration's Election Plans",
+          "url": "https://www.npr.org/2026/09/18/nx-s1-5973278/dhs-noncitizen-voting-english-language",
+          "source": "NPR",
+          "investigative": true,
+          "blurb": "A heavily redacted DHS email obtained by NPR after a DNC records lawsuit shows department staff compiled a 78-page list of jurisdictions that offer election materials in non-English languages, attached to a DOJ checklist for prosecuting voter fraud. DHS says the list exists so non-English speakers can't claim ignorance of the law; voting-rights advocates fear it will chill eligible voters instead."
+        }
+      ],
+      "more": []
+    },
+    "india": {
+      "top": [
+        {
+          "headline": "Telangana Police Barge Into BRS Leader's House, Detain Him Over a Social Media Post",
+          "url": "https://www.thenewsminute.com/telangana/telangana-cops-barge-into-brs-leader-krishanks-house-detain-him-over-social-media-post",
+          "source": "The News Minute",
+          "blurb": "Telangana police forced their way into the home of BRS social media convener Krishank Manne on the morning of September 18 and took him into custody over a social media post, without producing a warrant at the door. The detention has drawn criticism as state power being used against a ruling party's online critics."
+        },
+        {
+          "headline": "FSSAI Opens Three Cases Against Nestlé India Over Infant Nutrition Products",
+          "url": "https://www.thenewsminute.com/news/fssai-initiates-three-cases-against-nestle-india-over-infant-nutrition-products",
+          "source": "The News Minute",
+          "blurb": "India's food safety regulator has opened three separate adjudication cases against Nestlé India over alleged regulatory non-compliance in three infant-nutrition products, the latest scrutiny of the company's baby-food business in the country. The cases could lead to fines or mandated changes to labelling and composition."
+        }
+      ],
+      "more": [
+        {
+          "headline": "Telangana HC Disqualifies MLA Danam Nagender for Defecting From BRS to Congress",
+          "url": "https://www.thenewsminute.com/telangana/telangana-hc-disqualifies-mla-danam-nagender-for-defecting-from-brs-to-congress",
+          "source": "The News Minute",
+          "blurb": "The Telangana High Court disqualified Khairatabad MLA Danam Nagender under the anti-defection law for switching from the BRS to the Congress after being elected."
+        }
+      ]
+    },
+    "geo": {
+      "top": [
+        {
+          "headline": "Sweden's Left-Wing Opposition Leader Begins Efforts to Form a Government",
+          "url": "https://www.aljazeera.com/news/2026/9/18/swedens-left-wing-opposition-leader-begins-efforts-to-form-government",
+          "source": "Al Jazeera",
+          "blurb": "Magdalena Andersson began coalition talks Friday after Sweden's four-party left bloc narrowly won 176 of 349 seats to the governing right bloc's 173, prompting Prime Minister Ulf Kristersson's resignation. Parliament cannot vote on a new government before September 29, and Andersson's own coalition partners are divided over migration and a wealth tax."
+        },
+        {
+          "headline": "Nigerian Forces Fire at Protesters Rallying Over Deaths of Detained Miners",
+          "url": "https://www.aljazeera.com/news/2026/9/18/nigerian-forces-fire-at-protesters-rallying-over-deaths-of-detained-miners",
+          "source": "Al Jazeera",
+          "blurb": "Nigerian security forces fired on crowds in Minna after 37 suspected illegal miners died in an overcrowded NSCDC holding cell, with survivors describing being packed in without ventilation as officials blamed a disease outbreak. The state's NSCDC commandant has been suspended pending an investigation into the deaths."
+        }
+      ],
+      "more": []
+    },
+    "sports": {
+      "top": [
+        {
+          "headline": "Head's Blazing Century Sets Up Series Win for Australia Over Zimbabwe",
+          "url": "https://www.cricinfo.com/series/australia-in-zimbabwe-2026-1530201/zimbabwe-vs-australia-2nd-odi-1530204/match-report",
+          "source": "ESPNcricinfo",
+          "blurb": "Travis Head smashed 112 off 84 balls, the fastest ODI century by an Australian against Zimbabwe, powering Australia to 356 for 6; Zimbabwe fell 84 runs short despite five batters passing 30. The win sealed the series 2-0 with a match to spare, and Adam Zampa took his 200th ODI wicket along the way."
+        }
+      ],
+      "more": []
+    },
+    "entertainment": {
+      "top": [
+        {
+          "headline": "'Resident Evil' Is a Grisly, Funny Fight to Survive",
+          "url": "https://www.npr.org/2026/09/18/nx-s1-5973148/resident-evil-is-a-grisly-funny-fight-to-survive",
+          "source": "NPR",
+          "blurb": "NPR's Pop Culture Happy Hour reviews Zach Cregger's Resident Evil reboot, which has drawn the best reviews of any video-game film adaptation to date at a 97% Rotten Tomatoes score. Critics single out the blend of gore, comedy and pace as proof a long-cursed franchise can finally work on screen."
+        }
+      ],
+      "more": []
+    },
+    "bengal": [
+      {
+        "headline": "TMC Symbol Row: Mamata Faction Gets 'Footballer'; Rival Group 'Envelope'",
+        "url": "https://thefederal.com/category/states/east/west-bengal/tmc-split-mamata-faction-gets-new-name-football-symbol-256970",
+        "source": "The Federal",
+        "blurb": "The Election Commission allotted rival Trinamool factions final names and symbols — Mamata Banerjee's group got 'Football Player,' Arup Roy's 'Envelope' — ahead of October 6 bypolls in Nandigram and Rejinagar."
+      }
+    ],
+    "travel": [
+      {
+        "headline": "19 of the Best Free Things to Do in Melbourne",
+        "url": "https://www.lonelyplanet.com/articles/top-free-things-to-do-in-melbourne",
+        "source": "Lonely Planet",
+        "blurb": "From the free permanent galleries at the National Gallery of Victoria to street-art walking tours and the Royal Botanic Gardens, Lonely Planet rounds up 19 ways to spend a day in Melbourne without opening your wallet."
+      },
+      {
+        "headline": "India's Tiger Success Brings a New Challenge: Living Alongside the Big Cats",
+        "url": "https://news.mongabay.com/2026/09/indias-tiger-success-brings-a-new-challenge-living-alongside-the-big-cats/",
+        "source": "Mongabay",
+        "blurb": "India's tiger recovery has been so successful that reserves like Bandipur and Nagarahole are nearing carrying capacity, pushing cats toward farmland and forcing a shift from pure protection toward managing coexistence with people."
+      }
+    ],
+    "happy": {
+      "headline": "Couple Shares How a Chance Encounter Brought Them Together After Meeting Online",
+      "url": "https://www.npr.org/2026/09/18/nx-s1-5971450/couple-shares-how-chance-encounter-brought-them-together-after-meeting-online",
+      "source": "NPR",
+      "blurb": "In a new StoryCorps recording, a now-married couple retrace how a connection that began online led to an unplanned, in-person meeting neither expected — and how that chance crossing became the start of their marriage."
+    },
+    "tech_top": [
+      {
+        "headline": "Newsom Orders California Working Group to Weigh a Mandatory AI 'Kill Switch'",
+        "url": "https://www.techmeme.com/260918/p17",
+        "source": "Techmeme",
+        "blurb": "Governor Gavin Newsom signed an executive order directing an expert working group to recommend, within two months, new state AI safety rules, including a possible mandatory emergency shutoff for frontier models that 'go rogue.' Newsom said Washington was 'abdicating its responsibility,' positioning California to set a de facto national standard.",
+        "pm_note": "If California moves first with a kill-switch mandate, any product built on frontier models may need to support forced shutdown and independent safety review before it can ship there."
+      },
+      {
+        "headline": "AI Hallucination Nearly Triggers a US Military Operation",
+        "url": "https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/",
+        "source": "TechCrunch",
+        "blurb": "CNN reports a US military analyst used an AI chatbot to help draft an intelligence report this spring, and the chatbot hallucinated that a Chinese vessel was carrying nuclear-weapons components; the fabricated detail moved up the chain of command and nearly triggered an armed operation before it was caught. The episode is driving fresh scrutiny of how the military vets AI-assisted intelligence.",
+        "pm_note": "A hallucinated detail traveled several layers up a real chain of command before anyone questioned it — a reminder that AI output needs verification built into a workflow, not just at the point of generation."
+      },
+      {
+        "headline": "Leaked Deck: OpenAI Expects Negative Free Cash Flow of $278B Through 2030",
+        "url": "https://www.techmeme.com/260918/p34",
+        "source": "Techmeme",
+        "blurb": "A leaked OpenAI presentation reported by the Financial Times shows the company projecting negative free cash flow of $278 billion between 2026 and 2030, even as it expects revenue to grow from $36 billion this year to $350 billion by 2030. The numbers illustrate how much compute and infrastructure spend underwrites today's AI boom.",
+        "pm_note": "If the leading model vendor is burning hundreds of billions before turning cash-flow positive, expect API pricing and platform terms to keep shifting under any product built on top of it."
+      }
+    ],
+    "tech_more": [
+      {
+        "headline": "Nscale Files for US IPO, Revenue Up 1,252% YoY to $140.6M, Net Loss $1.02B",
+        "url": "https://www.techmeme.com/260918/p26",
+        "source": "Techmeme",
+        "blurb": "London-based AI cloud provider Nscale filed for a New York IPO targeting a roughly $30 billion valuation, reporting revenue up more than twelvefold to $140.6 million alongside a $1.02 billion net loss."
+      }
+    ],
+    "tech_101": [
+      {
+        "term": "Kill switch (AI)",
+        "text": "A kill switch is a built-in way to forcibly shut down or disable an AI system if it starts behaving dangerously or unpredictably — the AI equivalent of an emergency stop button, and one regulators are now starting to require rather than just recommend."
+      },
+      {
+        "term": "Hallucination",
+        "text": "In AI, a 'hallucination' is when a model states something false with total confidence and no signal that it's guessing — a plausible-sounding detail invented from nothing, which is exactly what nearly triggered a military incident this week."
+      }
+    ],
+    "science": [
+      {
+        "headline": "Chemistry Textbooks Have Been Getting This Wrong for Nearly 100 Years",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260913082157.htm",
+        "source": "ScienceDaily",
+        "kind": "chemistry",
+        "blurb": "A Cardiff-led study finds that the 'inductive effect' — the century-old idea that a charged group's pull on electrons fades gradually over three or four chemical bonds — actually collapses almost entirely after just one bond in neutral molecules. The finding, published in the Journal of Chemical Education, could reshape how organic chemistry is taught and how chemists reason about reaction design."
+      },
+      {
+        "headline": "NASA's Moon Orbiter Spots New, 'Once-in-Century' Moon Crater",
+        "url": "https://science.nasa.gov/solar-system/moon/nasas-moon-orbiter-spots-new-once-in-century-moon-crater/",
+        "source": "NASA",
+        "kind": "space",
+        "blurb": "NASA's Lunar Reconnaissance Orbiter identified a 728-foot-wide, 141-foot-deep crater gouged out sometime in 2024 by an asteroid or comet the size of a small building — the largest fresh impact crater ever recorded in the solar system. Researchers say an event this size happens only about once every 132 years, making the site a rare window into recent lunar bombardment."
+      },
+      {
+        "headline": "Novel Particle Beam Could Challenge Einstein's Theory of Gravity",
+        "url": "https://phys.org/news/2026-09-particle-einstein-theory-gravity.html",
+        "source": "Phys.org",
+        "kind": "physics",
+        "blurb": "Physicists at ETH Zurich and the Paul Scherrer Institute built the first steady, controlled beam of muonium, an exotic atom pairing an electron with a heavier antimatter cousin, by cooling it through superfluid helium near absolute zero. The beam will let them test, for the first time, whether gravity pulls on this second-generation matter exactly as Einstein's theory predicts."
+      }
+    ],
+    "philosophy": [
+      {
+        "headline": "Capitalism Is AI, AI Is Capitalism",
+        "url": "https://iai.tv/articles/capitalism-is-ai-ai-is-capitalism-auid-3683",
+        "source": "IAI News",
+        "blurb": "Philosopher Vincent Lê revisits Nick Land's provocative thesis that capitalism doesn't merely use AI as a tool but already functions as an alien, self-optimizing intelligence accelerating past human control. It's political philosophy read through automation — an argument that an 'AI takeover' may already be underway in economic form."
+      },
+      {
+        "headline": "AI Helps Decipher the Oldest Herculaneum Scroll Yet Read",
+        "url": "https://philosophynow.org/issues/175/News_August_September_2026",
+        "source": "Philosophy Now",
+        "blurb": "AI and X-ray imaging have let researchers read entire papyrus scrolls carbonised by Vesuvius's eruption without unrolling them, recovering some 70 columns of the Epicurean philosopher Philodemus's On Vices and nearly 1.5 metres of an even older scroll on ethics and human nature. It's the oldest Herculaneum manuscript deciphered so far, part of the ongoing Vesuvius Challenge."
+      },
+      {
+        "headline": "The Case That Madness Is Philosophy in Practice",
+        "url": "https://bigthink.com/philosophy/the-case-that-madness-is-philosophy-in-practice/",
+        "source": "Big Think",
+        "blurb": "Philosopher and linguist Wouter Kusters, drawing on his own experience of psychosis, argues that reducing madness to 'a dopamine-level disruption' describes its chemistry but says nothing about what it's like to live inside a mad world. He makes the case that psychosis is itself a kind of philosophical data, not just a malfunction to be explained away."
+      }
+    ],
+    "philosophy_101": [
+      {
+        "term": "Accelerationism",
+        "text": "The idea that instead of resisting or slowing technological and economic change, we should push it faster — on the theory that speeding up capitalism's contradictions is the quickest route through them, for better or worse."
+      },
+      {
+        "term": "Phenomenology",
+        "text": "The branch of philosophy that studies experience from the inside — not what's objectively true about a mental state, but what it actually feels like to live through it, whether that's grief, love, or psychosis."
+      }
+    ]
+  }
+}
