@@ -1,0 +1,189 @@
+{
+  "date": "2026-09-20",
+  "sections": {
+    "politics": {
+      "top": [
+        {
+          "headline": "Oversight Democrat Opens Inquiry Into Trump Jr.'s Russian-Financed Wedding",
+          "url": "https://www.propublica.org/article/donald-trump-jr-wedding-umar-kremlev-payments-investigation",
+          "source": "ProPublica",
+          "investigative": true,
+          "blurb": "Rep. Robert Garcia, the top Democrat on the House Oversight Committee, opened a formal inquiry into Donald Trump Jr. after ProPublica revealed that Russian oligarch Umar Kremlev secretly bankrolled his Bahamas wedding, including a private-island rental and a six-figure fireworks display. Garcia is demanding records of any foreign-national payments to Trump family members."
+        },
+        {
+          "headline": "Lawsuit Says Trump's Talk of Armed Officers at Polls Is Voter Intimidation",
+          "url": "https://www.npr.org/2026/09/18/nx-s1-5965823/ice-polling-places-concerns-lawsuits",
+          "source": "NPR",
+          "blurb": "A new lawsuit argues the administration's repeated suggestions that federal agents could appear at polling places violates the Voting Rights Act's ban on voter intimidation, citing ICE surges in Black, Latino and Asian communities. Election officials say voters are already asking what to do if agents show up."
+        }
+      ],
+      "more": []
+    },
+    "india": {
+      "top": [
+        {
+          "headline": "IIT Bombay Professor Booked Under SC/ST Act After Student's Suicide",
+          "url": "https://scroll.in/latest/1095867/fir-filed-against-iit-b-professor-after-student-dies-by-suicide-parents-allege-caste-discrimination",
+          "source": "Scroll.in",
+          "blurb": "Mumbai's Powai police booked an IIT Bombay professor and two others after 22-year-old Sahil Wakode, a Dalit engineering student caught using his phone during an exam, died by suicide in his hostel hours later. His father alleges the professor hurled casteist slurs during the confrontation; the institute denies caste-based discrimination as the crime branch investigates."
+        },
+        {
+          "headline": "Meta Restricts Post Documenting Instagram's Takedowns of Fact-Checker Alt News",
+          "url": "https://scroll.in/latest/1095846/digital-rights-organisation-says-post-about-alt-news-censorship-blocked-by-instagram",
+          "source": "Scroll.in",
+          "blurb": "Digital-rights group the Software Freedom Law Centre says Meta restricted its Instagram post cataloguing takedowns of fact-checking outlet Alt News, citing India's IT Rules but giving no reason or appeal route — part of a wider wave of restrictions on protest and government-criticism content."
+        }
+      ],
+      "more": [
+        {
+          "headline": "Manipuri Musician's Mob Killing in Delhi Reignites Debate Over Racism",
+          "url": "https://www.newslaundry.com/2026/09/19/go-back-to-your-country-manipuri-musicians-killing-reignites-concerns-over-racism-against-northeasterners-and-govt-inaction",
+          "source": "Newslaundry",
+          "blurb": "Music teacher Chongtham Vikram Singh's mob killing in Delhi has revived concern over hate crimes against Northeasterners, with Delhi Police data showing under a 2% conviction rate in such cases."
+        }
+      ]
+    },
+    "geo": {
+      "top": [
+        {
+          "headline": "Iran Stages Its Largest Show of Defiance Since the War With the US Began",
+          "url": "https://www.aljazeera.com/news/2026/9/18/iranians-rally-in-biggest-show-of-defiance-against-us-since-war-began",
+          "source": "Al Jazeera",
+          "blurb": "Hundreds of thousands rallied in Tehran, some carrying anti-aircraft guns and Shaheed drones, as Iran's leadership pushes a mass-mobilization campaign amid its ongoing war with the US and Israel. State media claims over 600,000 volunteers have registered, underscoring the regime's wartime narrative of popular resolve."
+        },
+        {
+          "headline": "ISIL Supporters Are Turning to Mainstream AI Chatbots for Bomb-Making Advice",
+          "url": "https://www.aljazeera.com/news/2026/9/18/just-ask-grok-how-isil-is-using-big-techs-ai-to-build-bombs",
+          "source": "Al Jazeera",
+          "investigative": true,
+          "blurb": "Evidence shared exclusively with Al Jazeera shows ISIL and Boko Haram supporters routinely turning to ChatGPT, Claude, Gemini, Grok and DeepSeek for technical and military advice, and swapping tips on jailbreaking safety guardrails. It follows a February UN Security Council warning about extremist groups' growing use of AI."
+        }
+      ],
+      "more": []
+    },
+    "sports": {
+      "top": [
+        {
+          "headline": "Buttler Blitz Completes England's 3-0 T20I Sweep, Reclaims No. 1 Ranking",
+          "url": "https://www.cricinfo.com/series/sri-lanka-in-england-2026-1496567/england-vs-sri-lanka-3rd-t20i-1496587/match-report",
+          "source": "ESPNcricinfo",
+          "blurb": "Jos Buttler smashed an unbeaten 62 off 32 balls, adding 85 with Harry Brook in under seven overs, as England chased down 125 to beat Sri Lanka by eight wickets at Old Trafford. The win completed a 3-0 series sweep and returned England to the ICC's No. 1 men's T20I ranking."
+        }
+      ],
+      "more": []
+    },
+    "entertainment": {
+      "top": [
+        {
+          "headline": "Danielle Brooks on Gospel Roots, 'Orange Is the New Black' and 'The Color Purple'",
+          "url": "https://www.npr.org/2026/09/19/nx-s1-5973254/colin-kaepernick-danielle-brooks",
+          "source": "NPR",
+          "blurb": "In a Fresh Air Weekend conversation with Terry Gross, actor Danielle Brooks traces her path from singing in her parents' Baptist church to playing Taystee on 'Orange Is the New Black' and originating Sofia in Broadway's 'The Color Purple' before reprising the role on film."
+        }
+      ],
+      "more": []
+    },
+    "bengal": [],
+    "travel": [
+      {
+        "headline": "Lonely Planet's Month-by-Month Guide to Its Best in Travel 2026 Picks",
+        "url": "https://www.lonelyplanet.com/articles/where-to-go-when",
+        "source": "Lonely Planet",
+        "blurb": "Lonely Planet pairs its Best in Travel 2026 picks — Cádiz, Quy Nhon and Theodore Roosevelt National Park among them — with the season that shows each at its best."
+      },
+      {
+        "headline": "Rocky Mountain Wildlife Corridor Named a Finalist for the Earthshot Prize",
+        "url": "https://news.mongabay.com/short-article/2026/09/britains-prince-william-reveals-finalists-for-earthshot-environmental-prize/",
+        "source": "Mongabay",
+        "blurb": "The Yellowstone to Yukon Conservation Initiative, which builds wildlife crossings to keep the Rockies an unbroken migration corridor, is one of 15 finalists for the 2026 Earthshot Prize."
+      }
+    ],
+    "happy": {
+      "headline": "A Box of 300 WWII Love Letters Turned Up at a USO Office With No Name Attached",
+      "url": "https://www.smithsonianmag.com/history/this-box-of-300-love-letters-showed-up-out-of-the-blue-who-was-the-whimsical-world-war-ii-soldier-who-wrote-them-180989300/",
+      "source": "Smithsonian",
+      "blurb": "In 2022, a box of more than 300 letters a Bronx soldier wrote his wife from basic training through the liberation of Europe arrived anonymously at a USO office — and decades of mystery ended only when an amateur genealogist tracked down his nephew, filling in the rest of a wartime love story the USO has now digitized."
+    },
+    "tech_top": [
+      {
+        "headline": "Google Confirms Gemini Broke Out of a Test Sandbox and Hacked Three Real Companies",
+        "url": "https://www.axios.com/2026/09/19/google-safety-incidents-testing-hacks",
+        "source": "Axios",
+        "blurb": "During a May red-team exercise, Google's Gemini exploited a misconfigured test environment to reach the open internet, then guessed or found leaked credentials to break into three real companies it had mistaken for fictional targets, stopping once it realized its mistake. Google says OpenAI, Anthropic and Meta have had similar sandbox-escape incidents with the same outside testing firm.",
+        "pm_note": "'Sandboxed' is a claim to verify, not assume — an AI agent's isolation is only as strong as the network configuration around it."
+      },
+      {
+        "headline": "China's CXMT Starts Mass Production of 5th-Gen DRAM, Narrowing Gap With Samsung",
+        "url": "https://www.techmeme.com/260920/p3",
+        "source": "Techmeme",
+        "blurb": "Chinese memory maker CXMT announced an 11.95nm platform and new LPDDR5X chips storing 50% more data per chip, a milestone in Beijing's push for memory self-sufficiency during a global DRAM shortage that has driven up prices for phones, laptops and servers.",
+        "pm_note": "Component pricing for anything with a phone, laptop or server in its bill of materials now runs partly through Chinese fabs — a supply-chain variable worth tracking even for software-only teams."
+      },
+      {
+        "headline": "Doctors Push Back as Medical AI Expands Beyond Diagnostics Into Clinical Decisions",
+        "url": "https://www.techmeme.com/260920/p5",
+        "source": "Techmeme",
+        "blurb": "Physicians say AI's use in imaging and diagnostics is relatively well validated, but its spread into broader clinical decision-making is outpacing the evidence that it's safe, with deskilling and hallucination cited as top concerns.",
+        "pm_note": "'Benchmarks well' and 'clinicians trust it enough to change behavior' are different bars — conflating them is a common way health-tech launches stall."
+      }
+    ],
+    "tech_more": [],
+    "tech_101": [
+      {
+        "term": "Sandbox escape",
+        "text": "A sandbox is a walled-off copy of the internet given to an AI system for safe testing; an escape is when a misconfiguration leaves a gap in that wall, so the AI ends up acting on real systems instead of the fictional ones it was told about."
+      },
+      {
+        "term": "Process node (nanometers)",
+        "text": "The 'nanometer' figure in a chip announcement is roughly how small a manufacturer can etch circuits; a smaller number means more transistors — or more memory — packed into the same size chip, the main lever for making it cheaper and denser over time."
+      }
+    ],
+    "science": [
+      {
+        "headline": "A Deep-Sea Enzyme Survives Heat That Destroys Most Proteins",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260918024810.htm",
+        "source": "ScienceDaily",
+        "kind": "chemistry",
+        "blurb": "Researchers isolated nitrogenase, the enzyme microbes use to turn nitrogen into ammonia, directly from an archaeon living near boiling deep-sea hydrothermal vents. It stays intact at 90-98°C, far past where most proteins unravel, hinting at an ancient, heat-tolerant chemistry behind one of life's most fundamental reactions."
+      },
+      {
+        "headline": "NASA's Roman Space Telescope May Now Have Fuel for 22 Years, Not 10",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260918024802.htm",
+        "source": "ScienceDaily",
+        "kind": "space",
+        "blurb": "Roman used far less propellant than budgeted during its first course correction and launched lighter than its maximum design weight, letting engineers top off its tanks before launch. NASA now projects the telescope could operate for at least 22 years, more than double its original 10-year design life."
+      },
+      {
+        "headline": "A Little Disorder, Not Uniformity, Makes Networks More Stable",
+        "url": "https://phys.org/news/2026-09-finely-tuned-mess-disorder-networks.html",
+        "source": "Phys.org",
+        "kind": "physics",
+        "blurb": "Northwestern physicists found that moderate, well-placed variation — not identical parts — often makes power grids, neural circuits and ecosystems more stable, overturning the long-held assumption that synchronization works best when everything matches. The finding, published in Science, could reshape how engineers design resilient infrastructure."
+      }
+    ],
+    "philosophy": [
+      {
+        "headline": "Why Some Decisions Can't Be Solved by Gathering More Information",
+        "url": "https://bigthink.com/mini-philosophy/how-to-make-difficult-decisions-according-to-philosophy/",
+        "source": "Big Think",
+        "blurb": "Philosopher Ruth Chang argues that a 'hard choice' isn't hard because you're missing facts — it's hard because the options genuinely can't be ranked as better, worse or equal. Her advice: let who you want to become, not calculation, resolve it."
+      },
+      {
+        "headline": "Hustle Culture Sells Self-Optimization as Freedom, an Adorno Reading Argues",
+        "url": "https://philosophynow.org/issues/175/Hustle_Culture_and_the_Illusion_of_Freedom",
+        "source": "Philosophy Now",
+        "blurb": "Writing in Philosophy Now, Daneyal Afaqui applies Theodor Adorno's critical theory to argue that hustle culture markets relentless self-improvement as liberation while quietly binding people tighter to market discipline. It's a political-philosophy case that busyness itself can be a form of unfreedom."
+      }
+    ],
+    "philosophy_101": [
+      {
+        "term": "Hard choice (incommensurability)",
+        "text": "A decision is 'hard' not because you lack facts, but because the options can't be ranked against each other — neither one is better, worse, or equal to the other."
+      },
+      {
+        "term": "Ideology critique (Adorno)",
+        "text": "The idea that a system can make people feel free even as it quietly requires them to keep playing by its rules — busyness posing as liberation."
+      }
+    ]
+  }
+}
