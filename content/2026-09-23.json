@@ -1,0 +1,182 @@
+{
+  "date": "2026-09-23",
+  "sections": {
+    "politics": {
+      "top": [
+        {
+          "headline": "White House Launches 'Trump TV' After Banning Rival Outlets",
+          "url": "https://www.npr.org/2026/09/22/nx-s1-5977768/trump-tv-media-ban-white-house",
+          "source": "NPR",
+          "blurb": "The administration launched a 24/7 YouTube channel, 'Trump TV: The Essentials Station,' three days after barring CNN, Politico and MS NOW from White House grounds over what Trump called 'FICTION and LIES.' The stream opened with a July video of Trump at Mount Rushmore; California Governor Gavin Newsom called it 'state-run TV.'"
+        },
+        {
+          "headline": "Trump Goes Inaudible as White House Press Pool Boycotts Coverage",
+          "url": "https://www.axios.com/2026/09/21/trump-white-house-pool-tv-ban-audio",
+          "source": "Axios",
+          "blurb": "ABC, CBS, NBC and Fox News suspended their White House pool duties in solidarity with the banned outlets, so Monday's presidential remarks went out on White House-provided video with no usable audio. The blackout is an early, concrete cost of Trump's attempt to control who covers him — even for networks that stayed."
+        }
+      ],
+      "more": []
+    },
+    "india": {
+      "top": [
+        {
+          "headline": "Investigative Journalist Denied Bail as Adani Group Given Time to Respond",
+          "url": "https://www.thenewsminute.com/news/no-interim-relief-for-ravi-nair-as-gujarat-hc-gives-adani-time-to-reply",
+          "source": "The News Minute",
+          "blurb": "The Gujarat High Court declined interim relief to investigative journalist Ravi Nair, who has been in judicial custody since September 17 over a tweet, while giving the Adani Group two more days to respond to his petition. Press freedom groups say the case fits a pattern of legal pressure on reporters who cover the conglomerate."
+        },
+        {
+          "headline": "BAPS: The Hindu Organisation at the Heart of Modi's Cultural Diplomacy",
+          "url": "https://www.newslaundry.com/2026/09/21/baps-the-hindu-organisation-at-the-heart-of-modis-cultural-diplomacy",
+          "source": "Newslaundry",
+          "investigative": true,
+          "blurb": "After a BAPS delegation made global headlines over an incident at the Eiffel Tower, Newslaundry traces how the Hindu religious organisation has become entwined with Modi-era cultural diplomacy abroad. The piece examines BAPS's growing reach in shaping how Hindu identity is presented on the world stage."
+        }
+      ],
+      "more": []
+    },
+    "geo": {
+      "top": [
+        {
+          "headline": "US and Iran Hold Rare Direct Talks in New York",
+          "url": "https://www.axios.com/2026/09/22/unga-iran-us-trump-war",
+          "source": "Axios",
+          "blurb": "US and Iranian officials met for three hours on the sidelines of the UN General Assembly, the first direct talks since the war between the two countries began, with Trump calling the session 'very good' and saying another is already scheduled. A senior Iranian official said Tehran's delegation has full authority to revive negotiations, though no leader-to-leader meeting is planned."
+        },
+        {
+          "headline": "Sudan's Historical Famine Echoes Through Latest Hunger Crisis",
+          "url": "https://www.aljazeera.com/news/2026/9/22/sudans-historical-famine-echoes-through-latest-hunger-crisis",
+          "source": "Al Jazeera",
+          "blurb": "As war between Sudan's army and the Rapid Support Forces drives the country toward one of its worst modern food crises, historians and aid workers say the catastrophe is reviving collective memory of famines past. The civil war, now in its fourth year, has displaced millions, with conditions deteriorating sharply since 2024."
+        }
+      ],
+      "more": []
+    },
+    "sports": {
+      "top": [
+        {
+          "headline": "Will Jacks' Five-For Seals Commanding England Win Over Sri Lanka",
+          "url": "https://www.cricinfo.com/series/sri-lanka-in-england-2026-1496567/england-vs-sri-lanka-1st-odi-1496588/match-report",
+          "source": "ESPNcricinfo",
+          "blurb": "Harry Brook's 67 anchored England to 265 before part-time spinner Will Jacks claimed a career-best 5-22 — the first five-wicket haul by an England spinner against Sri Lanka since 1983 — to help bowl the tourists out for 176. Jacks, who also struck an unbeaten 46, was named player of the match as England won the series opener by 89 runs at Chester-le-Street."
+        }
+      ],
+      "more": []
+    },
+    "entertainment": {
+      "top": [
+        {
+          "headline": "Paramount Settles With 12 States, Clearing Path for Warner Bros. Discovery Merger",
+          "url": "https://www.npr.org/2026/09/22/nx-s1-5977050/paramount-settles-lawsuit-with-12-states-over-warner-bros-discovery-merger",
+          "source": "NPR",
+          "blurb": "Paramount reached a settlement with a dozen state attorneys general who had sued to block its merger with Warner Bros. Discovery, clearing one of the last major regulatory hurdles to combining the two media giants. The deal reshapes the landscape for HBO, CNN and Paramount's film and streaming businesses alike."
+        }
+      ],
+      "more": []
+    },
+    "bengal": [
+      {
+        "headline": "Election Commission Strips TMC of Its Name and Symbol for Bengal Bypolls",
+        "url": "https://thefederal.com/category/states/east/west-bengal/ec-freezes-tmc-name-symbol-for-bengal-bypolls-factions-told-to-pick-new-identities-256915",
+        "source": "The Federal",
+        "blurb": "For the first time since 1998, no candidate will contest under Trinamool Congress's name or twin-flower symbol after the Election Commission froze both amid a factional leadership dispute."
+      }
+    ],
+    "travel": [
+      {
+        "headline": "Reptiles, Gold and Money: How Australia Is Cracking Down on Wildlife Trafficking",
+        "url": "https://news.mongabay.com/2026/09/reptiles-gold-and-money-how-australia-is-cracking-down-on-wildlife-trafficking/",
+        "source": "Mongabay",
+        "blurb": "Australia's new national environmental regulator is tightening enforcement against traffickers who smuggle reptiles and launder proceeds through gold and cash, part of a push to modernise conservation oversight."
+      }
+    ],
+    "happy": {
+      "headline": "The Tudor Courtier Who Secretly Saved a Catholic Manuscript He Was Ordered to Destroy",
+      "url": "https://www.smithsonianmag.com/smart-news/henry-viii-relied-on-this-courtier-to-enforce-his-orders-during-the-english-reformation-behind-the-scenes-the-tudor-politician-defied-his-king-by-secretly-saving-a-catholic-text-180989541/",
+      "source": "Smithsonian Magazine",
+      "blurb": "A newly found fragment shows Tudor courtier John Gage secretly preserved a 15th-century Catholic manuscript he had been ordered to destroy, quietly protecting it on his own shelf for decades."
+    },
+    "tech_top": [
+      {
+        "headline": "Hacking Group Claims It Breached the FBI, Stole Employee Data",
+        "url": "https://techcrunch.com/2026/09/22/hacking-group-shinyhunters-claims-it-breached-the-fbi-stole-agents-and-applicants-data/",
+        "source": "TechCrunch",
+        "blurb": "ShinyHunters says it exploited a zero-day in Oracle's PeopleSoft software to breach FBI systems Monday night, stealing 2-3TB of data on current and former employees, job applicants and their families before defacing the FBI's jobs site. The FBI confirmed it is investigating; the group says the attack is retaliation for a May FBI report on its tactics.",
+        "pm_note": "Enterprise HR software is a soft underbelly most security reviews skip — a single unpatched vendor zero-day can expose an entire workforce, contractors included."
+      },
+      {
+        "headline": "Microsoft Cuts Hundreds More Xbox Jobs, Hands Halo to Activision",
+        "url": "https://www.geekwire.com/2026/microsoft-cuts-hundreds-more-jobs-shifts-next-halo-game-to-activision-in-xbox-overhaul/",
+        "source": "GeekWire",
+        "blurb": "Microsoft is laying off 268 more Xbox employees and folding several studios into Activision, which will now lead development of the next Halo game and oversee Rare and Age of Empires maker World's Edge. It's the latest round in a restructuring that aims to cut roughly a fifth of Xbox's workforce by mid-2027.",
+        "pm_note": "Folding acquired studios into the biggest earner rather than running them independently is a pattern worth recognizing — post-merger integration usually arrives as a second, quieter wave of cuts."
+      },
+      {
+        "headline": "AI Glasses Shipments Surged 263% in the First Half of 2026",
+        "url": "https://www.techmeme.com/260923/p5",
+        "source": "Techmeme",
+        "blurb": "Global AI glasses shipments rose 263% year-over-year in H1 2026, per Counterpoint Research, with Meta's Ray-Ban partnership driving 94% of the display-less segment that now makes up 96% of the category. EssilorLuxottica says the two companies have already sold more than 7 million pairs, with 10 million a realistic target by year's end.",
+        "pm_note": "The category winning is the cheap, display-less glasses, not the flashier AR headset — a reminder that adoption curves usually reward the boring, affordable version first."
+      }
+    ],
+    "tech_more": [],
+    "tech_101": [
+      {
+        "term": "Zero-day exploit",
+        "text": "A vulnerability in software that the vendor doesn't yet know about — and so hasn't patched — meaning attackers can use it before any fix exists, as ShinyHunters says it did against Oracle's PeopleSoft."
+      },
+      {
+        "term": "Display-less AI glasses",
+        "text": "Smart glasses that skip the built-in screen, using only a camera, speaker and microphone to let an AI assistant see and hear what you do — cheaper and lighter than AR glasses, which is why they're outselling them."
+      }
+    ],
+    "science": [
+      {
+        "headline": "This New Concrete Formula Is Stronger and Pulls CO2 From the Air",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260921081105.htm",
+        "source": "ScienceDaily",
+        "kind": "chemistry",
+        "blurb": "Indian researchers combined porous zeolite with bamboo biochar to create a concrete mix that is both 7.5% stronger under compression and able to absorb carbon dioxide directly from the air, capturing over a gram of CO2 per day in lab tests. The denser, more durable material could give construction a rare dual-purpose building block: structural strength paired with carbon capture."
+      },
+      {
+        "headline": "An Amateur Astronomer Spotted a 390-Million-Year-Old Crater on Google Maps",
+        "url": "https://www.smithsonianmag.com/smart-news/an-amateur-astronomer-using-google-maps-spotted-a-strange-indentation-it-turned-out-to-be-a-meteorite-crater-from-390-million-years-ago-180989158/",
+        "source": "Smithsonian Magazine",
+        "kind": "space",
+        "blurb": "Scanning satellite maps of Quebec's Côte-Nord region while planning a camping trip, Joël Lapointe noticed a strange 25-kilometer circle near Lake Marsal and flagged it to impact-crater experts. Scientists later found shatter cones confirming the structure was blasted into Earth roughly 390 million years ago; working with the Innu Council of Ekuanitshit, it was named Uhackatik."
+      },
+      {
+        "headline": "A Key Atlantic Ocean Current Has Been Weakening for Two Decades, Data Shows",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260922222558.htm",
+        "source": "ScienceDaily",
+        "kind": "climate",
+        "blurb": "University of Miami researchers analyzing two decades of data from four ocean-monitoring arrays found some of the strongest direct observational evidence yet that the Atlantic Meridional Overturning Circulation is losing strength. A weaker AMOC could reshape weather patterns, intensify storms and accelerate coastal sea-level rise — risks long predicted by models but, until now, thin on direct measurement."
+      }
+    ],
+    "philosophy": [
+      {
+        "headline": "A Good Sceptic Has More Than Doubt and Less Than Certainty",
+        "url": "https://aeon.co/essays/a-good-sceptic-has-more-than-doubt-and-less-than-certainty",
+        "source": "Aeon",
+        "blurb": "Reviving philosophical scepticism as a practical stance rather than a party trick, the essay argues that the desire for certainty is often foolish and sometimes dangerous. A good sceptic, on this view, withholds belief without collapsing into either dogmatism or paralysis — a discipline of mind rather than a debating position."
+      },
+      {
+        "headline": "We Don't Have Different Perspectives, We Inhabit Different Realities",
+        "url": "https://iai.tv/articles/we-dont-have-different-perspectives-we-inhabit-different-realities-auid-3668",
+        "source": "IAI News",
+        "blurb": "Sociologist Steve Fuller argues that treating disagreement as a matter of differing 'perspectives' on one shared world understates how differently people actually construct reality itself. Debating Wikipedia founder Jimmy Wales and social theorist Sally Haslanger at a London festival, Fuller pushed a harder claim: that epistemic relativism runs deeper than perspective ever captures."
+      }
+    ],
+    "philosophy_101": [
+      {
+        "term": "Philosophical scepticism",
+        "text": "The position that we should withhold firm belief where evidence is genuinely inconclusive — not doubting everything as a stunt, but practicing it as an ongoing discipline against overconfidence."
+      },
+      {
+        "term": "Epistemic relativism",
+        "text": "The idea that what counts as true or real can differ not just in opinion but in the very framework a person or culture uses to construct reality — a stronger claim than simply having a 'different perspective.'"
+      }
+    ]
+  }
+}
