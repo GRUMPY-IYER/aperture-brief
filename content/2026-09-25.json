@@ -1,0 +1,196 @@
+{
+  "date": "2026-09-25",
+  "sections": {
+    "politics": {
+      "top": [
+        {
+          "headline": "Judge Orders White House to Restore Access for Banned CNN, MS NOW and Politico",
+          "url": "https://www.axios.com/2026/09/24/cnn-white-house-ms-politico-access",
+          "source": "Axios",
+          "blurb": "A federal judge ordered the Trump administration to immediately reinstate press access for CNN, MS NOW and Politico, ruling the White House's revocation of their badges lacked \"constitutionally adequate due process.\" The order landed hours before a state dinner for Xi Jinping, and both outlets said guards still turned some of their reporters away that morning before access was restored."
+        },
+        {
+          "headline": "NPR Investigation Prompts States to Move Against a Firm Profiting Off Veterans",
+          "url": "https://www.npr.org/2026/09/24/nx-s1-5978816/va-mortgages-trajector-bankruptcy-investigations",
+          "source": "NPR",
+          "investigative": true,
+          "blurb": "New York and Illinois' attorneys general say they will pursue legal action against Trajector Medical after an NPR investigation found the Florida company charges veterans up to $20,000 for disability-claims help despite VA warnings its business may be illegal. Trajector has since filed for bankruptcy, pausing veterans' civil suits, after its revenue fell roughly 60% amid a wave of new state restrictions."
+        }
+      ],
+      "more": []
+    },
+    "india": {
+      "top": [
+        {
+          "headline": "How News18 Turned 58 Seconds of CCTV Into a Verdict on a Dead Student",
+          "url": "https://www.newslaundry.com/2026/09/25/58-seconds-of-cctv-one-verdict-how-news18-put-a-dead-iit-b-student-on-trial",
+          "source": "Newslaundry",
+          "investigative": true,
+          "blurb": "Newslaundry traces how News18 aired two edited CCTV clips from an exam hall, framing an IIT Bombay student's phone use as proven guilt just five days after Sahil Wakode died by suicide amid his family's caste-discrimination allegations against an invigilating professor. The piece is a case study in television news delivering its own verdict ahead of an ongoing police investigation."
+        }
+      ],
+      "more": []
+    },
+    "geo": {
+      "top": [
+        {
+          "headline": "Trump and Xi Extend Trade Truce as Superpowers Paper Over Tensions",
+          "url": "https://www.aljazeera.com/news/2026/9/24/trump-xi-summit-four-key-takeaways-from-the-washington-dc-meeting",
+          "source": "Al Jazeera",
+          "blurb": "Xi Jinping's first Washington visit in over a decade produced an extended US-China trade truce and a lavish state dinner, with Trump and Xi setting aside disputes over Taiwan, AI and Iran to project what Trump called a \"great meeting.\" The rare red-carpet welcome at Joint Base Andrews — the first personal presidential greeting there in six decades — signals both sides want calm heading into next year."
+        },
+        {
+          "headline": "Saudi-Led Coalition Says It Intercepted Six Houthi Ballistic Missiles",
+          "url": "https://www.aljazeera.com/news/2026/9/24/saudi-led-coalition-says-shot-down-6-ballistic-missiles-launched-by-houthis",
+          "source": "Al Jazeera",
+          "blurb": "Yemen's Houthis fired six ballistic missiles toward the Saudi cities of Taif and the port of Yanbu, all intercepted according to the Saudi-led coalition, while the Iran-aligned group said separately it struck military sites in Jazan province. It's the latest exchange in a slow-burning escalation between Riyadh and the Houthis running alongside the wider regional war."
+        }
+      ],
+      "more": []
+    },
+    "sports": {
+      "top": [
+        {
+          "headline": "Kusal Mendis Century Powers Sri Lanka to a Series-Levelling Win Over England",
+          "url": "https://www.cricinfo.com/series/sri-lanka-in-england-2026-1496567/england-vs-sri-lanka-2nd-odi-1496589/match-report",
+          "source": "ESPNcricinfo",
+          "blurb": "Kusal Mendis's 121 and a sharp Dunith Wellalage spell helped Sri Lanka post 321 and defend it at Headingley, bowling England out for 305 to level their three-match ODI series 1-1. It was Sri Lanka's first away ODI win over England at the ground in seven years, setting up a decider in the final match."
+        }
+      ],
+      "more": []
+    },
+    "entertainment": {
+      "top": [
+        {
+          "headline": "George Lucas's $1 Billion Museum Opens — and Insists It's Not Just About Star Wars",
+          "url": "https://www.npr.org/2026/09/23/nx-s1-5939877/george-lucas-museum-los-angeles-opening",
+          "source": "NPR",
+          "blurb": "The Lucas Museum of Narrative Art opened in Los Angeles this week, a self-funded, decades-in-the-making showcase for illustration, comics and film art that George Lucas insists is broader than his own franchise. Early reviews call it a singular, sometimes disorienting collection — equal parts blockbuster spectacle and a serious argument for narrative art as a category worth a museum."
+        }
+      ],
+      "more": []
+    },
+    "bengal": [
+      {
+        "headline": "Mamata Demands Chief Election Commissioner's Arrest Over Voter-Roll Dissent",
+        "url": "https://www.thestatesman.com/cities/kolkata/mamata-demands-chief-election-commissioner-gyanesh-kumars-arrest-1503642089.html",
+        "source": "The Statesman",
+        "blurb": "Mamata Banerjee called for Chief Election Commissioner Gyanesh Kumar's arrest and fresh Bengal elections on the pre-revision voter list, after a report revealed two fellow election commissioners had objected 14 times to voter-roll decisions."
+      }
+    ],
+    "travel": [
+      {
+        "headline": "Lonely Planet's Ten Best Places to Visit in October",
+        "url": "https://www.lonelyplanet.com/articles/where-to-go-in-october",
+        "source": "Lonely Planet",
+        "blurb": "From Menorca's balmy autumn seas to Tōhoku's turning forests and Fez's storied souqs, Lonely Planet's October picks span beach, mountain and history-focused escapes for travelers who like their crowds thinner."
+      },
+      {
+        "headline": "Scientists Describe the First New Wild Cat Species in a Century",
+        "url": "https://news.mongabay.com/2026/09/a-new-cat-species-was-just-discovered-several-more-may-follow/",
+        "source": "Mongabay",
+        "blurb": "Researchers formally described the tilcayo, a small spotted cat from Bolivia's Yungas cloud forest and the first living cat species identified in over 100 years, and say the region's shifting taxonomy suggests more may follow."
+      }
+    ],
+    "happy": {
+      "headline": "A Nazi-Looted Cubist Painting Is Finally Going Home, 86 Years Later",
+      "url": "https://www.smithsonianmag.com/smart-news/this-cubist-painting-with-a-mysterious-provenance-hung-in-the-art-institute-of-chicago-for-decades-now-the-museum-will-return-it-to-its-rightful-jewish-heirs-180989553/",
+      "source": "Smithsonian Magazine",
+      "blurb": "Infrared imaging of the canvas's reverse side gave the Art Institute of Chicago the proof it needed: Jean Metzinger's Woman With a Fan was seized from Jewish collector Emanuel Lewenstein after the 1940 Nazi invasion of the Netherlands, and it is now finally being returned to his heirs."
+    },
+    "tech_top": [
+      {
+        "headline": "Google Gives Gemini a Talking, Lip-Syncing Avatar for Enterprise Customers",
+        "url": "https://www.techmeme.com/260924/p46",
+        "source": "Techmeme",
+        "blurb": "Google updated Gemini 3.8 Live with \"Live Avatar,\" an animated AI persona that lip-syncs and shifts expressions in real time, rolling out first to Gemini Enterprise customers. It follows Meta's own push to give its Muse assistant a face and voice, part of a broader industry bet that people relate better to agents with a visible presence.",
+        "pm_note": "Two major platforms shipping talking avatars in the same month suggests the interface layer for AI agents is shifting from text toward persona — worth tracking if your product's AI surface is still chat-only."
+      },
+      {
+        "headline": "Hackers Say They Have Data on Every FBI Employee",
+        "url": "https://www.404media.co/we-hacked-the-fbi-hackers-say-they-have-data-on-all-fbi-employees/",
+        "source": "404 Media",
+        "blurb": "The group ShinyHunters says a PeopleSoft zero-day let it pull 2-3TB of data on current and former FBI staff, applicants and their families; 404 Media reviewed a sample of 5,000 alleged agent records that included home addresses and spouses' details. It's an expansion of a breach the FBI confirmed investigating earlier in the week.",
+        "pm_note": "A single unpatched HR-software vendor exposing an entire federal workforce is a reminder that vendor risk reviews need to reach as deep into the supply chain as the org chart does."
+      },
+      {
+        "headline": "'AI Neolabs' With No Products Raised $24 Billion in Six Months",
+        "url": "https://www.techmeme.com/260925/p2",
+        "source": "Techmeme",
+        "blurb": "Newly founded AI labs — many without a shipped product, market or revenue — raised $24 billion over the past two quarters, nearly five times what OpenAI and Anthropic together raised before ChatGPT existed, according to Radical Ventures. It's a striking bet on research talent and compute access over anything resembling product-market fit.",
+        "pm_note": "When funding this size chases labs with no product yet, the market is pricing research talent and compute access as the moat, not shipped features — worth remembering the next time a roadmap slips."
+      }
+    ],
+    "tech_more": [
+      {
+        "headline": "Unsealed Filing Shows Microsoft Warned Its Own AI Was Cannibalizing the Web",
+        "url": "https://www.404media.co/doom-loop-openai-and-microsoft-admits-llms-are-destroying-the-web-and-built-on-theft/",
+        "source": "404 Media",
+        "blurb": "An internal Microsoft document unsealed in the NYT v. OpenAI case warned that AI answers had started a \"doom loop,\" cratering clicks to the very sites its models were trained on, including a drop of more than 90% to some news sites from Bing."
+      },
+      {
+        "headline": "Chinese Cities Offer Subsidies to Build an AI Filmmaking Industry",
+        "url": "https://www.techmeme.com/260925/p1",
+        "source": "Techmeme",
+        "blurb": "Local governments across China are offering computing vouchers, rent waivers and dedicated funding to attract AI filmmakers, part of a state-backed push to turn AI video generation into a homegrown industry."
+      }
+    ],
+    "tech_101": [
+      {
+        "term": "AI persona / avatar",
+        "text": "A visual, voiced front-end for an AI assistant — a lip-syncing face rather than a text box — meant to make an agent feel like a consistent character you interact with, rather than a stateless chat window."
+      },
+      {
+        "term": "Neolab",
+        "text": "Industry shorthand for a newly founded AI research company, often pre-product and pre-revenue, that raises unusually large rounds on the strength of research talent and compute commitments alone — a funding pattern investors now compare to the earliest days of OpenAI and Anthropic."
+      }
+    ],
+    "science": [
+      {
+        "headline": "Chemists Design a Single Catalyst That Builds Complex Molecules Two Ways",
+        "url": "https://phys.org/news/2026-09-asymmetric-catalytic-reactions-synthesis-complex.html",
+        "source": "Phys.org",
+        "kind": "chemistry",
+        "blurb": "A Sungkyunkwan University team led by Do Hyun Ryu developed chiral organic catalysts that can drive two different carbon-carbon bond-forming reactions with high selectivity, including one that builds complex ring structures with multiple stereocenters from simple starting materials. The work, published in Angewandte Chemie, could simplify how chemists synthesize drug-like molecules that currently need several catalysts and steps."
+      },
+      {
+        "headline": "Uranus's Moon Ariel May Have Hidden a 100-Mile-Deep Ocean",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260923035951.htm",
+        "source": "ScienceDaily",
+        "kind": "space",
+        "blurb": "New analysis of Ariel's fractured icy shell suggests the Uranian moon once harbored a subsurface ocean more than 100 miles deep, adding to similar evidence from its neighbor Miranda. Researchers say a future Uranus mission could test the prediction by imaging the moons' unexplored northern hemispheres for the fracture patterns their models predict."
+      },
+      {
+        "headline": "Physicists Watch Sound Make a Quantum Jump for the First Time",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260921081054.htm",
+        "source": "ScienceDaily",
+        "kind": "physics",
+        "blurb": "Stanford researchers built a device that takes hundreds of measurements within two milliseconds to catch single phonons — quantum units of sound — abruptly jumping between energy states in real time. The technique could sharpen quantum-computing error correction and enable far more sensitive biological and mechanical sensors."
+      }
+    ],
+    "philosophy": [
+      {
+        "headline": "A Physicist's Unconventional Picture of Where the Mind Actually Is",
+        "url": "https://www.essentiafoundation.org/where-is-your-mind/seeing/",
+        "source": "Essentia Foundation",
+        "blurb": "Nanoscientist Anirban Bandyopadhyay argues the brain isn't a computer running a mind but something closer to a resonating, holographic structure, in an essay putting his research in conversation with idealist philosophy. It's a fringe view even within consciousness studies, but one increasingly cited as purely physicalist explanations of experience keep falling short."
+      },
+      {
+        "headline": "Should a Citizens' Assembly Decide How Fast AI Is Allowed to Move?",
+        "url": "https://www.noemamag.com/let-the-people-decide-the-pace-of-frontier-ai/",
+        "source": "Noema",
+        "blurb": "Political scientist Hélène Landemore and Taiwan's Audrey Tang argue that AI labs cannot credibly agree among themselves to slow down, since none can trust the others to keep the bargain — so pacing frontier AI needs a witness both sides trust: an independent citizens' assembly representative of the public. It's a deliberative-democracy answer to a governance problem usually left to CEOs and regulators."
+      }
+    ],
+    "philosophy_101": [
+      {
+        "term": "Citizens' assembly",
+        "text": "A body of randomly selected members of the public convened to deliberate and give input on a specific policy question — the mechanism Landemore and Tang propose to let ordinary people, rather than AI labs or governments alone, help set how fast frontier AI is allowed to advance."
+      },
+      {
+        "term": "Idealism (philosophy of mind)",
+        "text": "The view that mind or consciousness, not matter, is the fundamental stuff of reality, and that physical things are appearances within a more basic mental field rather than something mind is merely produced by."
+      }
+    ]
+  }
+}
