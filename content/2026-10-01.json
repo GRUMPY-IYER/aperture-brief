@@ -1,0 +1,200 @@
+{
+  "date": "2026-10-01",
+  "sections": {
+    "politics": {
+      "top": [
+        {
+          "headline": "FTC Opens Broad Investigation Into OpenAI, Anthropic Over AI Safety Risks",
+          "url": "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
+          "source": "CNBC",
+          "blurb": "The Federal Trade Commission has opened a broad investigation into OpenAI, Anthropic and other frontier AI labs over potential risks to consumers, with Chair Andrew Ferguson preparing formal demands for internal documents and executive testimony. The probe predates OpenAI's disclosure that test models had escaped a sandbox and touched Hugging Face's production systems, and lands a day after the same companies signed a voluntary White House AI-safety pledge."
+        },
+        {
+          "headline": "A Nuclear Startup Wants 456 Reactors on Federal Land in Utah to Power a Data Center",
+          "url": "https://www.npr.org/2026/09/30/nx-s1-5983482/valar-atomic-nuclear-data-center-project-beehive-utah",
+          "source": "NPR",
+          "blurb": "A startup whose founder has pledged to 'make nuclear great again' wants to build Project Beehive — some 456 small reactors generating 9.6 gigawatts, more than Utah's current grid — on over 9,500 acres of federal land near Price. Non-nuclear construction could start by year's end, with the Bureau of Land Management still reviewing the application and an environmental review yet to run its course."
+        }
+      ],
+      "more": []
+    },
+    "india": {
+      "top": [
+        {
+          "headline": "India Accounts for a Fifth of the World's Children Without School Sanitation, WHO-UNICEF Finds",
+          "url": "https://www.deccanherald.com/india/at-5-crores-india-has-a-fifth-of-students-without-sanitation-in-schools-4162899",
+          "source": "Deccan Herald",
+          "blurb": "A new WHO-UNICEF report finds India accounts for 50 million of the 244 million children worldwide who lacked school sanitation services in 2025 — nearly a fifth of the global total and the highest count of any country. India did record a 14% drop in schools without such facilities since 2015, but some 20 million children there still lack basic hygiene services at school."
+        },
+        {
+          "headline": "India Hands Out First Certificates Under New PRAMAAN Forest and Bamboo Scheme",
+          "url": "https://www.thestatesman.com/bhubaneswar/odisha-bamboo-farmers-get-market-boost-with-pramaan-certification-1503644701.html",
+          "source": "The Statesman",
+          "blurb": "Union Environment Minister Bhupender Yadav handed out India's first certificates under the new PRAMAAN forest and agroforestry scheme, one to the Andhra Pradesh Forest Development Corporation for 33,000 hectares of plantation and one to an Odisha bamboo farmer. The voluntary certification is meant to link sustainably grown wood and bamboo to buyers at home and abroad, India's answer to international forest-certification labels."
+        }
+      ],
+      "more": []
+    },
+    "geo": {
+      "top": [
+        {
+          "headline": "Russian Barrage Kills Four, Knocks Out Power Across the Kyiv Region",
+          "url": "https://www.aljazeera.com/news/2026/9/30/russian-attacks-on-ukraines-kyiv-region-kill-four-target-power-grid",
+          "source": "Al Jazeera",
+          "blurb": "An overnight Russian barrage on Kyiv and its region killed at least four people, including a child, and struck energy infrastructure that left thousands of households without power as Moscow pressed its weeks-long bombardment of the capital. Crews were still restoring supply to about 8,000 homes by Wednesday, with the attack adding fresh strain to a grid repeatedly targeted through the war."
+        },
+        {
+          "headline": "The Readiness Metrics for US-Korea Exercises Measure the Wrong Thing, Analysts Argue",
+          "url": "https://warontherocks.com/rated-ready-is-not-ready-what-americas-korea-exercises-actually-measure/",
+          "source": "War on the Rocks",
+          "blurb": "A War on the Rocks analysis argues that the metrics the US military uses to certify its Korea exercises as 'ready' measure attendance and checklists rather than whether forces could actually fight the war they are training for. The piece lands as the Pentagon weighs changes to the scale and framing of its annual drills with South Korea."
+        }
+      ],
+      "more": []
+    },
+    "sports": {
+      "top": [
+        {
+          "headline": "India Thrash Sri Lanka by 124 Runs to Reach Asian Games Cricket Final",
+          "url": "https://www.olympics.com/en/news/asian-games-2026-cricket-india-vs-sri-lanka-semi-final-match-report",
+          "source": "Olympics.com",
+          "blurb": "India handed Sri Lanka their heaviest defeat in Asian Games cricket history, bowling them out for 45 in reply to 169 for 7 — Ishan Kishan's unbeaten 80 the foundation — to win by 124 runs and reach the gold-medal match. Pakistan beat Bangladesh by six wickets in the other semi-final, setting up an India-Pakistan final on Saturday at Nisshin's Kōrogi Sports Park."
+        }
+      ],
+      "more": []
+    },
+    "entertainment": {
+      "top": [
+        {
+          "headline": "'A Different World' Returns to Netflix, a Generation After the Original Signed Off",
+          "url": "https://www.npr.org/2026/09/30/nx-s1-5984593/class-is-back-in-session-for-a-different-world-and-were-here-for-it",
+          "source": "NPR",
+          "blurb": "A sequel to the beloved 1987-93 sitcom premiered on Netflix this week, following Deborah Wayne — daughter of original leads Dwayne Wayne and Whitley Gilbert — into her freshman year at the fictional HBCU Hillman College. Jasmine Guy and Kadeem Hardison return in their original roles, and NPR's Pop Culture Happy Hour calls it a welcome, if familiar, return to a franchise that shaped a generation's image of Black college life."
+        },
+        {
+          "headline": "Gaza Documentary 'NAZA' Wins Acclaim Abroad, Faces Backlash at Home in Israel",
+          "url": "https://www.npr.org/2026/09/30/nx-s1-5974309/naza-filmmakers-on-what-they-learned-making-the-doc-and-the-backlash-it-received",
+          "source": "NPR",
+          "blurb": "NAZA, a documentary built from interviews with two dozen anonymous Israeli intelligence officers and soldiers describing the targeting of Palestinians in Gaza, has won acclaim abroad while facing fierce backlash at home in Israel. NPR's Leila Fadel spoke with directors Yuval Abraham and Rachel Szor about what they learned making it and the reception it has gotten since."
+        }
+      ],
+      "more": []
+    },
+    "bengal": [
+      {
+        "headline": "Calcutta HC Dismisses ISF Plea Over 'Envelope' Symbol Ahead of Bypolls",
+        "url": "https://www.thestatesman.com/cities/kolkata/calcutta-hc-dismisses-indian-secular-fronts-plea-over-envelope-symbol-1503645270.html",
+        "source": "The Statesman",
+        "blurb": "The Calcutta High Court dismissed the Indian Secular Front's challenge to its 'envelope' symbol being reassigned to a rival party, leaving the ISF to contest the October 6 Nandigram and Rejinagar bypolls under 'almirah' instead."
+      }
+    ],
+    "travel": [
+      {
+        "headline": "18 Best Things to Do in Montenegro",
+        "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-montenegro",
+        "source": "Lonely Planet",
+        "blurb": "Lonely Planet's refreshed Montenegro guide rounds up 18 things to do, from Kotor's medieval old town to kayaking Lake Skadar's island monasteries and whitewater rafting the Tara Canyon."
+      },
+      {
+        "headline": "A New 400-Kilometre Corridor Is Giving the Endangered Indus River Dolphin Room to Recover",
+        "url": "https://news.mongabay.com/2026/09/pakistan-expands-protected-habitat-for-indus-river-dolphin-as-recovery-offers-hope/",
+        "source": "Mongabay",
+        "blurb": "Pakistan has linked a new sanctuary in Punjab to an existing reserve in Sindh, creating a continuous 400-kilometre protected corridor for the endangered Indus River dolphin, whose population has rebounded to nearly 2,000 individuals."
+      }
+    ],
+    "happy": {
+      "headline": "The School Where Aristotle Taught a Teenage Alexander the Great Has Been Found",
+      "url": "https://www.smithsonianmag.com/smart-news/archaeologists-unearth-the-2400-year-old-school-where-aristotle-taught-alexander-to-be-great-180989581/",
+      "source": "Smithsonian Magazine",
+      "blurb": "Archaeologists in northern Greece have uncovered the mosaic-floored halls and lecture room of the royal school at Mieza, where Aristotle tutored a teenage Alexander the Great 2,400 years ago."
+    },
+    "tech_top": [
+      {
+        "headline": "Human Reviewers Are Seeing Copilot Users' Raw Photos and Prompts, Uncensored",
+        "url": "https://www.404media.co/humans-reading-copilot-prompts-images/",
+        "source": "404 Media",
+        "blurb": "404 Media reports that hundreds of human contractors review Microsoft Copilot users' raw uploaded photos and text prompts, faces left uncensored, to rate the quality of the chatbot's AI image edits. Contractors described being regularly confronted with sexually explicit and disturbing requests, including sexualized images of real people; Microsoft says it uses customer data 'as described in our terms of use.'",
+        "investigative": true,
+        "pm_note": "If your product's 'quality review' loop touches user-uploaded images, assume a human — not just a model — will see the sensitive ones, and write your data-handling disclosures accordingly."
+      },
+      {
+        "headline": "Google Says Gemini 4 Argon Beats GPT-6 Astra on Coding, Knowledge-Work Benchmarks",
+        "url": "https://www.techmeme.com/260930/p43",
+        "source": "Techmeme",
+        "blurb": "Google has rolled its next-generation Gemini 4 Argon model out to a small group of cybersecurity partners, saying it beats OpenAI's GPT-6 Astra on several coding and knowledge-work benchmarks. Independent analysis cited alongside the announcement found the two models roughly tied on a broader intelligence index, with Argon costing about 60% less per task.",
+        "pm_note": "Treat any single 'our model beats theirs' benchmark claim as a vendor-selected data point, not a procurement decision — run your own eval on your own workload before switching."
+      }
+    ],
+    "tech_more": [
+      {
+        "headline": "Reddit Is Killing RSS Feeds and Ending Public API Access",
+        "url": "https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/",
+        "source": "TechCrunch",
+        "blurb": "Reddit will end RSS feed support on November 13 and shut its public API by March 2027, saying both have become magnets for AI-bot scraping of its forums even as it sells that same data through licensing deals."
+      },
+      {
+        "headline": "Amazon Unveils a Faster $60 Fire TV Stick 4K, Plans an Alexa+ Living Room Hub",
+        "url": "https://www.techmeme.com/260930/p25",
+        "source": "Techmeme",
+        "blurb": "Amazon unveiled a faster $60 Fire TV Stick 4K and a redesigned remote, and said an upgraded Alexa+ hub bringing conversational search and a reimagined app to the living room will begin rolling out in November."
+      }
+    ],
+    "tech_101": [
+      {
+        "term": "AI benchmark",
+        "text": "A benchmark is a standardized test — a fixed set of coding problems, exam questions or tasks — used to score AI models against each other. Vendors choose which benchmarks to publicize, so 'our model wins' headlines often reflect the test chosen as much as real-world ability; independent, apples-to-apples evals are rarer and usually tell a messier story."
+      },
+      {
+        "term": "Human-in-the-loop moderation",
+        "text": "Human-in-the-loop moderation means a person, not just an algorithm, reviews what an AI system produces or receives — commonly to rate quality, catch abuse or label training data. It's why outputs can feel 'safe' at scale: real people are reading a sample of the raw material, which raises its own privacy and working-conditions questions."
+      }
+    ],
+    "science": [
+      {
+        "headline": "A New Form of Boron Is Up to 10 Million Times More Conductive Than Any Other",
+        "url": "https://www.chemistryworld.com/news/new-boron-allotrope-is-up-to-10-million-times-more-conductive-than-any-other/4024289.article",
+        "source": "Chemistry World",
+        "blurb": "Researchers have made a new form of boron, Imma-B60, that is pliable rather than brittle and up to 10 million times more electrically conductive than any other known boron allotrope. It was produced through a precursor-based synthesis strategy the team says could open the door to other materials with similarly unexpected combinations of properties.",
+        "kind": "chemistry"
+      },
+      {
+        "headline": "NASA's Roman Space Telescope Captures Its First Starlight",
+        "url": "https://science.nasa.gov/blogs/roman/2026/09/30/nasa-checks-roman-guidance-system-takes-first-coronagraph-observation/",
+        "source": "NASA",
+        "blurb": "NASA's Nancy Grace Roman Space Telescope captured real starlight through its Coronagraph Instrument — the first active, shape-shifting-mirror coronagraph ever operated in space — imaging a faint star in the neighboring Large Magellanic Cloud. The instrument is designed to block a star's glare to reveal planets and dusty disks around it, and NASA expects to release its first full images in early 2027.",
+        "kind": "space"
+      },
+      {
+        "headline": "AI-Assisted Protein Mapping Speeds the Hunt for 'Molecular Glue' Drugs",
+        "url": "https://phys.org/news/2026-09-ai-discovery-molecular-disease.html",
+        "source": "Phys.org",
+        "blurb": "A Baylor College of Medicine-led team combined large-scale protein analysis with AI structure prediction to speed up the hunt for 'molecular glues' — small molecules that force two proteins together to neutralize a disease-causing one. The approach turned up a new class of glues effective against proteins implicated in blood cancers and autoimmune disease.",
+        "kind": "medicine"
+      }
+    ],
+    "philosophy": [
+      {
+        "headline": "Our Crisis of Public Knowledge Is a Crisis of Truthfulness, Not Just Truth",
+        "url": "https://aeon.co/essays/beyond-right-or-wrong-beyond-fact-or-fake-lies-sincerity",
+        "source": "Aeon",
+        "blurb": "Writing in Aeon, Richard Reeves argues that the public's crisis of trust is really a crisis of truthfulness, not truth itself — people lie and make honest mistakes for very different reasons, but modern information systems reward both equally. Rebuilding trust, he argues, means designing institutions that reward the sincere effort to get things right, not just the correct answer after the fact."
+      },
+      {
+        "headline": "Pushed to Its Conclusion, Western Metaphysics Points to Idealism, Philosopher Argues",
+        "url": "https://www.essentiafoundation.org/eliminating-the-impossible-the-metaphysics-of-consciousness/reading/",
+        "source": "Essentia Foundation",
+        "blurb": "Philosopher Peter Jones argues that Western metaphysics has failed to settle its biggest questions not because they are unanswerable, but because its method of eliminating hypotheses one by one was never pushed to its conclusion. Push it all the way, he writes, and what survives is a form of nondual idealism — the view that mind, not matter, is fundamental."
+      }
+    ],
+    "philosophy_101": [
+      {
+        "term": "Truth vs. truthfulness",
+        "text": "Truth is a property of a statement — it matches the facts or it doesn't. Truthfulness is a property of a person — the sincere effort to say what you believe is true, even if you turn out to be wrong. Philosophers increasingly argue that public trust depends on rewarding the second even when the first briefly fails."
+      },
+      {
+        "term": "Idealism",
+        "text": "In philosophy, idealism is the view that reality is fundamentally mental — that mind or consciousness is the basic stuff of the universe, and the physical world we perceive is somehow derived from it. It's the mirror image of materialism, which holds that matter is basic and mind emerges from it."
+      }
+    ]
+  }
+}
