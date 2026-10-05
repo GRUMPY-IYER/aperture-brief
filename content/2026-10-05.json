@@ -1,0 +1,202 @@
+{
+  "date": "2026-10-05",
+  "sections": {
+    "politics": {
+      "top": [
+        {
+          "headline": "DOJ Files Misconduct Complaint Against Minnesota Judges Over NYT Interview",
+          "url": "https://www.axios.com/2026/09/30/doj-misconduct-complaint-minnesota-judges",
+          "source": "Axios",
+          "blurb": "The Justice Department filed a judicial misconduct complaint against seven Minnesota federal judges who described the strain of last winter's immigration enforcement surge to the New York Times. The judges say they stayed within ethics rules protecting commentary on judicial independence; the complaint argues they improperly weighed in on pending cases."
+        },
+        {
+          "headline": "Bill Pulte Said He Was Cracking Down on Fraud. Now He's Firing the Investigators.",
+          "url": "https://www.motherjones.com/politics/2026/10/bill-pulte-fhfa-fraud-federal-mortage-inspectors-office-budget-cut/",
+          "source": "Mother Jones",
+          "blurb": "Federal Housing Finance Agency director Bill Pulte announced budget cuts that will slash his agency's inspector general office by up to 80%, ending nearly all of its criminal mortgage-fraud investigations — including the one examining Pulte's own conduct. Democrats are demanding his resignation.",
+          "investigative": true
+        }
+      ],
+      "more": []
+    },
+    "india": {
+      "top": [
+        {
+          "headline": "Kerala Orders Fresh Probe Into 2006 Graft, Harassment Allegations Against Election Commissioner",
+          "url": "https://www.newslaundry.com/2026/10/05/kerala-orders-fresh-probe-into-2006-graft-harassment-allegations-against-gyanesh-kumar",
+          "source": "Newslaundry",
+          "blurb": "Kerala has ordered a fresh vigilance probe into corruption and harassment allegations against Chief Election Commissioner Gyanesh Kumar dating to his tenure as the state's PWD Secretary, including a 2006 case tied to a Malaysian engineer's suicide that was reportedly closed without proper inquiry. Protests demanding his resignation enter a third day.",
+          "investigative": true
+        },
+        {
+          "headline": "No FIR Yet Against Delhi Police Officer Accused of Sexually Harassing a Journalist",
+          "url": "https://www.newslaundry.com/2026/10/05/no-fir-yet-against-acp-accused-of-sexually-harassing-a-female-journalist",
+          "source": "Newslaundry",
+          "blurb": "Days after an independent journalist accused a Delhi ACP of sexually harassing her while she covered the Jantar Mantar protests, no FIR has been registered. A press-freedom body says women journalists covering the demonstrations faced groping, shoving and confiscated equipment from police.",
+          "investigative": true
+        }
+      ],
+      "more": []
+    },
+    "geo": {
+      "top": [
+        {
+          "headline": "Yemen's Government Launches Offensive to Retake Houthi-Held Territory",
+          "url": "https://www.aljazeera.com/news/2026/10/4/yemens-leader-announces-military-operation-to-retake-houthi-held-territory",
+          "source": "Al Jazeera",
+          "blurb": "Saudi-backed Presidential Leadership Council chief Rashad al-Alimi announced a ground offensive to retake Houthi-held territory and restore state authority, citing continued Houthi mobilization and attacks. The government claims heavy Houthi casualties near Taiz, while Houthi forces say they struck two Saudi Aramco facilities in retaliation."
+        },
+        {
+          "headline": "Brazil's Election Heads to a Lula-Bolsonaro Runoff as the Right Gains Ground",
+          "url": "https://www.npr.org/2026/10/04/nx-s1-5981181/brazil-presidential-lula-bolsonaro",
+          "source": "NPR",
+          "blurb": "Neither President Lula da Silva nor Flávio Bolsonaro, son of the jailed former president, won a first-round majority, setting up an October 25 runoff. Bolsonaro edged Lula roughly 47% to 45%, and right-wing candidates swept the next three spots — a sign the runoff pool tilts his way."
+        }
+      ],
+      "more": []
+    },
+    "sports": {
+      "top": [
+        {
+          "headline": "Afy Fletcher Sets West Indies T20I Catching Record as Women Rout Zimbabwe",
+          "url": "https://www.espn.com/cricket/series/24796/report/1554978/zimbabwe-women-vs-west-indies-women-1st-t20i-24796",
+          "source": "ESPNcricinfo",
+          "blurb": "West Indies Women beat Zimbabwe by eight wickets in the series-opening T20I in Harare, with Afy Fletcher taking two wickets and a West Indies-record four catches in an innings. The three-match series continues with the second T20I in Harare."
+        }
+      ],
+      "more": []
+    },
+    "entertainment": {
+      "top": [
+        {
+          "headline": "Sheryl Crow Says She's Found 'Great Liberation' in Not Chasing the Next Hit",
+          "url": "https://www.npr.org/2026/10/01/nx-s1-5984965/sheryl-crow-pick-you-up",
+          "source": "NPR",
+          "blurb": "Ahead of her new album \"Pick You Up,\" out October 9, Sheryl Crow says she's stopped writing for radio and started writing for herself. She calls the record hopeful but unflinching, full of questions about \"what kind of world we're leaving our kids.\""
+        }
+      ],
+      "more": []
+    },
+    "bengal": [
+      {
+        "headline": "Breakthrough in BJP Leader's Murder Probe as Three Are Arrested",
+        "url": "https://www.thestatesman.com/cities/kolkata/breakthrough-in-bjp-leaders-murder-probe-three-arrested-so-far-1503646780.html",
+        "source": "The Statesman",
+        "blurb": "Birbhum police arrested three people, suspecting a land dispute motive, in the point-blank shooting of BJP Bolpur booth president Chandan Bhalla, though the alleged shooters remain at large."
+      },
+      {
+        "headline": "North Bengal Pilot Lets Families Register a Child's Documents From Birth",
+        "url": "https://www.thestatesman.com/cities/siliguri/north-bengal-initiative-aims-to-ease-government-documentation-right-from-birth-1503646761.html",
+        "source": "The Statesman",
+        "blurb": "Jalpaiguri's new \"Parichay\" initiative issues a child's official documents starting at birth, sparing tea-garden and tribal families the repeated office visits and lost wages paperwork usually costs."
+      }
+    ],
+    "travel": [
+      {
+        "headline": "12 Unforgettable Places to Visit in Wales",
+        "url": "https://www.lonelyplanet.com/articles/best-places-to-visit-in-wales",
+        "source": "Lonely Planet",
+        "blurb": "From star-gazing in Bannau Brycheiniog to Cardiff's autumn festival season, Lonely Planet's new guide makes the case for Wales as an underrated October destination."
+      },
+      {
+        "headline": "Wildlife Traffickers Are Targeting Indonesia's Critically Endangered Maleo Birds",
+        "url": "https://news.mongabay.com/2026/10/wildlife-traffickers-are-now-targeting-indonesias-critically-endangered-maleo-birds/",
+        "source": "Mongabay",
+        "blurb": "A new study documents a rising black market in smuggled maleo chicks, with traffickers increasingly recruiting families with children to move the critically endangered Sulawesi birds undetected."
+      }
+    ],
+    "happy": {
+      "headline": "After 462 Days at Sea, a Mini Boat Built by Middle Schoolers Washed Ashore in Norway",
+      "url": "https://www.smithsonianmag.com/smart-news/mini-boat-launched-by-middle-school-students-in-new-hampshire-found-in-norway-after-462-days-at-sea-180979625/",
+      "source": "Smithsonian Magazine",
+      "blurb": "A five-foot boat set adrift by New Hampshire middle schoolers in 2020 washed up on a Norwegian island 462 days and 8,000 miles later, found by a sixth-grader with the students' notes and gifts still sealed inside."
+    },
+    "tech_top": [
+      {
+        "headline": "Trump Names Jay Clayton as AI Czar to Lead New 'Super Intelligence Force'",
+        "url": "https://www.npr.org/2026/10/04/nx-s1-5990781/jay-clayton-ai-czar-trump",
+        "source": "NPR",
+        "blurb": "Trump named Director of National Intelligence Jay Clayton to chair a new \"Super Intelligence Force,\" alongside the FTC chair and Pentagon and OPM officials, to coordinate federal engagement with AI companies. The body currently has no statutory authority, budget or formal place in government.",
+        "pm_note": "A policy body with four co-chairs and no budget is a signal of priorities, not a regulatory regime — worth tracking as it's built out, not reacting to today."
+      },
+      {
+        "headline": "Google Freezes Open-Source Bug Bounty Program Over Flood of AI-Generated Reports",
+        "url": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
+        "source": "TechCrunch",
+        "blurb": "Google paused its open-source vulnerability rewards program, citing a \"significant rise\" in automated submissions that are mostly invalid or hallucinated. Security researchers warn AI-generated \"slop\" reports are overwhelming bug bounty programs industry-wide, with no fix promised before 2027.",
+        "pm_note": "If your product has a bug bounty or support inbox, budget for AI-generated noise now — triage capacity, not submission volume, is about to become the bottleneck."
+      },
+      {
+        "headline": "AI's Legal Reckoning Is No Longer Theoretical, Axios Argues",
+        "url": "https://www.axios.com/2026/10/02/artificial-intelligence-ai-legal-liability",
+        "source": "Axios",
+        "blurb": "AI companies face a wave of court fights built on their own public safety warnings and a trail of training-data evidence, Axios reports. Chatbot outputs are increasingly treated as the product's own speech rather than protected user speech, stripping away the Section 230-style defenses that shielded earlier platforms.",
+        "pm_note": "Legal exposure for what your AI feature outputs is becoming a product-design question, not just a legal one — know your company's liability theory before you ship."
+      }
+    ],
+    "tech_more": [],
+    "tech_101": [
+      {
+        "term": "Section 230",
+        "text": "The 1996 law shielding internet platforms from liability for content users post. Courts are increasingly treating AI chatbot outputs as the platform's own speech rather than a user's, so this shield may not apply."
+      },
+      {
+        "term": "AI slop",
+        "text": "Low-quality, often hallucinated content mass-produced by AI and submitted as if genuine — now overwhelming systems built for human-scale volume, from bug bounty programs to search results."
+      }
+    ],
+    "science": [
+      {
+        "headline": "A Catalyst-Free Way to Make Hydrogen From Water, Using Only Light",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261001214017.htm",
+        "source": "ScienceDaily",
+        "blurb": "Researchers built a light-activated, sulfur-based material that splits water to produce hydrogen without an expensive metal catalyst. The unusual chemistry could point toward cheaper, more practical routes to turning sunlight directly into clean fuel.",
+        "kind": "chemistry"
+      },
+      {
+        "headline": "NASA's Roman Telescope Opens Its Planet-Hunting Eye for the First Time",
+        "url": "https://science.nasa.gov/blogs/roman/2026/09/30/nasa-checks-roman-guidance-system-takes-first-coronagraph-observation/",
+        "source": "NASA",
+        "blurb": "The Nancy Grace Roman Space Telescope's coronagraph captured its first images, resolving individual stars in the Large Magellanic Cloud and confirming pointing stability precise enough to aim a laser at a dime from 150 miles away. It is built to eventually block starlight and image planets around nearby stars directly.",
+        "kind": "space"
+      },
+      {
+        "headline": "Leucine Does More Than Build Muscle — It Powers Up Your Cells",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261001095319.htm",
+        "source": "ScienceDaily",
+        "blurb": "Scientists found that leucine, an amino acid long known for triggering muscle growth, also directly boosts mitochondrial energy production — a previously unrecognized link between a common dietary nutrient and cellular energy metabolism.",
+        "kind": "biology"
+      }
+    ],
+    "philosophy": [
+      {
+        "headline": "Quantum Mechanics Describes Our Relationship With Reality, Not Reality Itself",
+        "url": "https://iai.tv/articles/quantum-mechanics-describes-our-relationship-with-reality-not-reality-itself-auid-3688",
+        "source": "IAI News",
+        "blurb": "A philosopher argues that quantum mechanics shouldn't be read as a direct portrait of the world, but as a theory of what we can know and measure about it — reviving an old debate between scientific realism and instrumentalism."
+      },
+      {
+        "headline": "The Nondual Logic That Seems to Break the Rational Mind",
+        "url": "https://www.essentiafoundation.org/the-non-dual-logic-that-seems-to-break-the-rational-mind/seeing/",
+        "source": "Essentia Foundation",
+        "blurb": "Philosopher Peter Jones argues that Western metaphysics, pushed to its logical limits, keeps arriving at the same destination: a nondual idealism in which mind, not matter, is fundamental — a conclusion East and West reach by very different routes."
+      },
+      {
+        "headline": "How to Make Difficult Decisions, According to Philosophy",
+        "url": "https://bigthink.com/mini-philosophy/how-to-make-difficult-decisions-according-to-philosophy/",
+        "source": "Big Think",
+        "blurb": "Philosopher Ruth Chang argues that many hard choices aren't hard because one option is secretly better — they're \"on a par,\" genuinely incommensurable. The way through isn't more analysis; it's deciding which option you can stand behind and committing to it."
+      }
+    ],
+    "philosophy_101": [
+      {
+        "term": "Instrumentalism",
+        "text": "The view that a scientific theory's job is to predict and organize observations correctly, not to describe what's 'really' out there — contrasted with realism, which takes the theory's entities at face value."
+      },
+      {
+        "term": "Parity",
+        "text": "Philosopher Ruth Chang's term for options that are neither better, worse, nor exactly equal — genuinely hard to compare, which is why some choices resist being settled by more information."
+      }
+    ]
+  }
+}
