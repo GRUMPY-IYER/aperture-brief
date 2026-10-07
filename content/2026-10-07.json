@@ -1,0 +1,182 @@
+{
+  "date": "2026-10-07",
+  "sections": {
+    "politics": {
+      "top": [
+        {
+          "headline": "More Than 500 U.S. Citizens Have Been Detained, Some Handcuffed or Held at Gunpoint, in Trump's Immigration Crackdown",
+          "url": "https://projects.propublica.org/american-citizens-detained-dhs-civil-rights",
+          "source": "ProPublica",
+          "blurb": "ProPublica's tracker has documented more than 500 U.S. citizens detained by immigration agents during the crackdown, including people handcuffed or held at gunpoint despite proof of citizenship. Of roughly 300 Americans logged as detained for allegedly assaulting or obstructing agents, fewer than half were ever charged in federal court.",
+          "investigative": true
+        },
+        {
+          "headline": "Democrats Need to Reel In More Men. These Mainers Say the Party Needs Better Bait",
+          "url": "https://www.npr.org/2026/10/06/nx-s1-5989427/maine-men-democrats-male-voters-midterms",
+          "source": "NPR",
+          "blurb": "NPR visits Maine to ask why the Democratic Party keeps losing men, especially younger and working-class ones, and finds local organizers arguing the party's message feels scolding rather than inviting. The conversations point to a strategic problem the party is still trying to solve a year out from the midterms."
+        }
+      ],
+      "more": []
+    },
+    "india": {
+      "top": [
+        {
+          "headline": "'Traitors of Democracy Being Protected': Rahul Gandhi After Detention During Protests Against CEC",
+          "url": "https://scroll.in/latest/1096228/traitors-of-democracy-being-protected-rahul-gandhi-after-detention-during-protests-against-cec",
+          "source": "Scroll.in",
+          "blurb": "Delhi Police detained Leader of the Opposition Rahul Gandhi during a sit-in demanding a meeting with the Election Commission over Chief Election Commissioner Gyanesh Kumar's conduct, a sharp escalation of protests now in their second week. Gandhi said afterward that \"traitors of democracy\" were the ones being shielded, not the ones in the street."
+        },
+        {
+          "headline": "11 Indians Injured in Attack on Ship in Strait of Hormuz",
+          "url": "https://scroll.in/latest/1096223/11-indians-injured-in-attack-on-ship-in-strait-of-hormuz",
+          "source": "Scroll.in",
+          "blurb": "A projectile struck the Panama-flagged MT On Peace as it passed through the Strait of Hormuz, injuring 11 of the 17 Indian crew members aboard the 19-member vessel. The attack adds Indian casualties to the toll of a shipping lane already strained by the wider regional conflict."
+        }
+      ],
+      "more": []
+    },
+    "geo": {
+      "top": [
+        {
+          "headline": "France Suspends High School Classes as Protesters Clash With Police",
+          "url": "https://www.aljazeera.com/news/2026/10/6/demonstrators-clash-with-riot-police-in-france-as-education-protests-mount",
+          "source": "Al Jazeera",
+          "blurb": "More than a quarter of a million people rallied across France demanding more education funding, with school blockades spreading and clashes between demonstrators and riot police intensifying into mass arrests. The unrest marks one of the largest domestic challenges yet to the government's handling of public spending."
+        },
+        {
+          "headline": "Ex-Spy Chief Arrested in Germany on Suspicion of Trading State Secrets and Treason",
+          "url": "https://www.npr.org/2026/10/06/g-s1-146630/germany-ex-spy-chief-state-secrets",
+          "source": "NPR",
+          "blurb": "German prosecutors arrested a former intelligence chief on suspicion of treason after accusing him of trading state secrets, one of the highest-level espionage cases to hit the country's security establishment in years. The arrest raises fresh questions about how deeply foreign intelligence services have penetrated Germany's own spy agencies."
+        }
+      ],
+      "more": []
+    },
+    "sports": {
+      "top": [
+        {
+          "headline": "India Beat West Indies in Lucknow Series Opener",
+          "url": "https://www.cricinfo.com/series/west-indies-in-india-2026-27-1529215/india-vs-west-indies-1st-t20i-1529230/full-scorecard",
+          "source": "ESPNcricinfo",
+          "blurb": "India opened their home T20I series against West Indies with a win in Lucknow, chasing down a modest West Indies total comfortably. The result gives India an early 1-0 lead as the series moves on to its next venue."
+        }
+      ],
+      "more": []
+    },
+    "entertainment": {
+      "top": [],
+      "more": []
+    },
+    "bengal": [
+      {
+        "headline": "Suvendu Predicts BJP Win by Record Margin in Nandigram, Rejinagar Bypolls",
+        "url": "https://www.thestatesman.com/cities/kolkata/suvendu-predicts-bjp-win-by-record-margin-in-nandigram-rejinagar-bypolls-1503647670.html",
+        "source": "The Statesman",
+        "blurb": "Chief Minister Suvendu Adhikari predicted a record-margin BJP win as voting closed in the Nandigram and Rejinagar assembly bypolls, the first electoral test since the BJP ended Trinamool's 15-year rule in the state. Counting is due Friday."
+      }
+    ],
+    "travel": [
+      {
+        "headline": "Why Visit Cádiz",
+        "url": "https://www.lonelyplanet.com/articles/why-visit-cadiz",
+        "source": "Lonely Planet",
+        "blurb": "Lonely Planet makes the case for Cádiz, the only Spanish city on its 2026 Best in Travel list, for its millennia-old streets, flamenco culture and barrel-poured sherry — and for October's cooler, quieter crowds."
+      },
+      {
+        "headline": "'There Could Be Local Extinction': The Fight to Protect Indonesia's Orangutans as El Niño Fuels Fires",
+        "url": "https://news.mongabay.com/2026/10/there-could-be-local-extinction-the-fight-to-protect-indonesias-orangutans-as-el-nino-fuels-fires",
+        "source": "Mongabay",
+        "blurb": "Fires are burning through Bornean rainforest that holds 13 of the 20 largest remaining wild orangutan populations, and conservationists warn that without urgent containment, thousands more could be killed, injured or displaced this dry season."
+      }
+    ],
+    "happy": null,
+    "tech_top": [
+      {
+        "headline": "Mistral's New 1T Model Aims to Leapfrog Closed and Open Rivals",
+        "url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
+        "source": "TechCrunch",
+        "blurb": "French AI lab Mistral released a new trillion-parameter model it says beats both American closed-source leaders and Chinese open-weight rivals on key benchmarks, the latest escalation in a frontier-model race that increasingly runs through Europe as well as the US and China.",
+        "pm_note": "A credible open-weight frontier model changes your build-vs-buy math on every feature that depends on a closed API — reassess vendor lock-in assumptions now, not after your contract renews."
+      },
+      {
+        "headline": "Apple Is Reportedly Partnering With LG to Launch a Smart Lock, Thermostat and Doorbell",
+        "url": "https://techcrunch.com/2026/10/06/apple-is-reportedly-partnering-with-lg-to-launch-a-smart-lock-thermostat-and-doorbell/",
+        "source": "TechCrunch",
+        "blurb": "Apple is reportedly working with LG on a smart lock, thermostat and doorbell designed to plug into its upcoming smart-home hub, extending its ecosystem play from devices you carry into devices bolted to your walls.",
+        "pm_note": "Hardware partnerships are how platform owners extend lock-in past the device itself — watch which category of your product a bigger ecosystem could absorb next."
+      }
+    ],
+    "tech_more": [
+      {
+        "headline": "Furientis Lands $25M From Benchmark to Mass-Produce Low-Cost Missile Interceptors",
+        "url": "https://techcrunch.com/2026/10/06/furientis-lands-25m-from-benchmark-to-mass-produce-low-cost-missile-interceptors/",
+        "source": "TechCrunch",
+        "blurb": "Benchmark made its first pure defense investment, backing a startup building cheap, mass-manufacturable missile interceptors — part of a wider venture-capital pivot toward defense hardware once seen as uninvestable."
+      }
+    ],
+    "tech_101": [
+      {
+        "term": "Mixture of experts (MoE)",
+        "text": "An architecture that splits a large model into specialized sub-networks and routes each input to only a few of them, so a trillion-parameter model like Mistral's new release can run far cheaper than its full size implies."
+      },
+      {
+        "term": "Ecosystem lock-in",
+        "text": "The way owning one device in a household makes the next one easier to sell — a smart lock from the same company as your phone talks to it more smoothly than a rival's, which is exactly why platform owners keep expanding into new device categories."
+      }
+    ],
+    "science": [
+      {
+        "headline": "Chernobyl Particles Reveal Unexpectedly Stable Nuclear Fuel After 40 Years",
+        "url": "https://phys.org/news/2026-10-chernobyl-particles-reveal-unexpectedly-stable.html",
+        "source": "Phys.org",
+        "blurb": "Researchers examined six highly radioactive \"hot particles\" scattered by the 1986 Chernobyl disaster and found the melted nuclear fuel inside has stayed far more chemically stable over four decades than models predicted. The finding helps refine how long-term radioactive contamination is assessed at Chernobyl and other nuclear accident sites.",
+        "kind": "chemistry"
+      },
+      {
+        "headline": "Jupiter Is About to Vanish Behind the Moon — Here's When to Look on Oct. 6",
+        "url": "https://www.space.com/stargazing/jupiter-is-about-to-vanish-behind-the-moon-heres-when-to-look-up-october-6",
+        "source": "Space.com",
+        "blurb": "A slender crescent moon passed directly in front of Jupiter in a lunar occultation visible across parts of North America, briefly hiding the planet from view before it re-emerged on the moon's other side. Such occultations let astronomers precisely time a planet's position against the moon's known orbit.",
+        "kind": "space"
+      },
+      {
+        "headline": "Goodbye Joint Replacements? Stanford Scientists Found a Way to Regrow Cartilage and Stop Arthritis",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261005011249.htm",
+        "source": "ScienceDaily",
+        "blurb": "Stanford researchers found that blocking a protein which becomes more abundant with age can rejuvenate existing cartilage cells and regrow damaged knee cartilage in animal models, pointing toward a possible alternative to joint replacement for osteoarthritis.",
+        "kind": "medicine"
+      }
+    ],
+    "philosophy": [
+      {
+        "headline": "Distrust the Ideas You Are Most Invested In",
+        "url": "https://iai.tv/articles/distrust-the-ideas-you-are-most-invested-in-auid-3695",
+        "source": "IAI News",
+        "blurb": "Philosopher Stephen Law argues that the more identity or effort we've sunk into a belief, the less our confidence in it tracks the actual evidence — and that this is exactly backwards from how we tend to treat our most cherished convictions. The fix isn't more certainty but a standing suspicion of the ideas we'd most hate to be wrong about."
+      },
+      {
+        "headline": "The West Thinks China's Goal Is Power, China Thinks It's About Morality",
+        "url": "https://iai.tv/articles/the-west-thinks-chinas-goal-is-power-china-thinks-its-about-morality-auid-3692",
+        "source": "IAI News",
+        "blurb": "Astrid Nordin argues that Western analysts read Chinese foreign policy through a realist lens of pure power-seeking, while Chinese officials frame the same actions in the language of moral hierarchy and rightful order. Talking past each other this way, she suggests, is itself a source of avoidable conflict."
+      },
+      {
+        "headline": "The Case That Madness Is Philosophy in Practice",
+        "url": "https://bigthink.com/philosophy/the-case-that-madness-is-philosophy-in-practice/",
+        "source": "Big Think",
+        "blurb": "Wouter Kusters, who writes from his own experience of psychosis, argues that reducing madness to brain chemistry captures its physical substrate but misses how the \"mad\" world is actually experienced from within — as a kind of accidental, lived philosophy rather than mere malfunction."
+      }
+    ],
+    "philosophy_101": [
+      {
+        "term": "Motivated reasoning",
+        "text": "The tendency to evaluate evidence more charitably when it supports a conclusion we're already invested in, and more skeptically when it doesn't — a bias that gets stronger, not weaker, the more identity we've attached to the belief."
+      },
+      {
+        "term": "Hegemony",
+        "text": "A dominant power's claim to rightful leadership rather than mere strength — the framing a rising power often uses to describe its own ambitions, even as rivals read the same behavior as naked power-seeking."
+      }
+    ]
+  }
+}
