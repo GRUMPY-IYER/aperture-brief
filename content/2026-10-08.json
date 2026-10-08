@@ -1,0 +1,195 @@
+{
+  "date": "2026-10-08",
+  "sections": {
+    "politics": {
+      "top": [
+        {
+          "headline": "More Than 1,000 Children Are Buried at Juvenile Detention Sites Across 29 States",
+          "url": "https://www.npr.org/2026/10/07/nx-s1-5986124/over-1-000-children-are-buried-at-juvenile-detention-centers-nationwide",
+          "source": "NPR",
+          "blurb": "Georgetown University researchers have identified more than 1,000 children's graves beside juvenile detention facilities in 29 states, several of them still operating today. The largest known site, in Cheltenham, Maryland, holds more than 230 Black boys who died at a reform school that ran from 1870 to 1937 — and whose full roll call researchers still haven't recovered.",
+          "investigative": true
+        },
+        {
+          "headline": "Why Tennessee's Botched Death Row Execution Could Happen Anywhere",
+          "url": "https://www.propublica.org/article/christa-pike-tennessee-execution-lethal-injection-failure",
+          "source": "ProPublica",
+          "blurb": "ProPublica reports that Christa Pike's two-hour lethal injection attempt went wrong last week in Tennessee, with executioners jabbing her with at least seven needles before leaving her hospitalized in critical condition. It was the state's third botched execution in fourteen months, and the reporting traces the failure to structural problems rather than a single mistake.",
+          "investigative": true
+        }
+      ],
+      "more": []
+    },
+    "india": {
+      "top": [
+        {
+          "headline": "Three FIRs Filed Against Rahul Gandhi Over Alleged Assault on Police During CEC Protest",
+          "url": "https://scroll.in/latest/1096254/three-firs-against-lop-rahul-gandhi-for-assaulting-police-during-protest-demanding-cec-resignation",
+          "source": "Scroll.in",
+          "blurb": "Delhi Police have registered three first information reports against Leader of the Opposition Rahul Gandhi, accusing him of assaulting and obstructing officers during a sit-in demanding Chief Election Commissioner Gyanesh Kumar's resignation. The charges mark a sharp legal escalation of a protest campaign now well into its second week."
+        },
+        {
+          "headline": "Delhi Holds Special Camps for Voters Left Off Draft Rolls After Their Homes Were Razed",
+          "url": "https://scroll.in/latest/1096251/delhi-sir-ec-holds-special-camps-for-persons-left-out-of-draft-rolls-after-their-homes-were-razed",
+          "source": "Scroll.in",
+          "blurb": "The Election Commission opened special camps for Delhi residents excluded from the draft voter rolls during the ongoing special intensive revision, many of whom lost their homes to demolitions and could not produce the address proof the process demands. The camps are a partial fix for a problem rights groups say the SIR process itself created."
+        }
+      ],
+      "more": []
+    },
+    "geo": {
+      "top": [
+        {
+          "headline": "Houthi Attacks on Saudi Airports Kill Three, Injure 36",
+          "url": "https://www.aljazeera.com/news/2026/10/7/saudi-arabia-says-three-foreign-nationals-killed-in-attacks-on-airports",
+          "source": "Al Jazeera",
+          "blurb": "Saudi Arabia's civil aviation authority said three foreign nationals were killed and 36 people injured in Houthi-claimed strikes on two of the kingdom's airports, a sharp escalation after weeks of attacks on shipping and infrastructure across the region. The Saudi-led coalition confirmed its own jets are now flying in direct support of Yemeni government forces."
+        },
+        {
+          "headline": "US Sets New Demands for a Deal to End the Iran War",
+          "url": "https://www.aljazeera.com/news/2026/10/7/us-sets-new-demands-for-iran-deal-what-are-they",
+          "source": "Al Jazeera",
+          "blurb": "Vice President JD Vance called on Iran to make a \"meaningful\" cut to its uranium enrichment capacity as part of any agreement to end the war, while Tehran questioned whether Washington is negotiating in good faith. The new conditions arrive as the conflict continues to spill into Gulf shipping lanes and now Saudi airports."
+        }
+      ],
+      "more": []
+    },
+    "sports": {
+      "top": [
+        {
+          "headline": "Shreyas Iyer Rises to Career-Best No. 7 in T20I Rankings After Maiden Century",
+          "url": "https://www.cricinfo.com/story/shreyas-iyer-rises-to-no-7-in-icc-rankings-after-maiden-t20i-century-1557428",
+          "source": "ESPNcricinfo",
+          "blurb": "Shreyas Iyer's unbeaten 102 against West Indies in Lucknow — his maiden T20I century — vaulted him 18 places up the ICC's T20I batting rankings to a career-best No. 7, India's third-highest-placed batter on the list. It was his second hundred at Lucknow's Ekana Stadium this year, after an IPL century in May."
+        }
+      ],
+      "more": []
+    },
+    "entertainment": {
+      "top": [
+        {
+          "headline": "Mahershala Ali Is \"a Conflicted Hero for the Ages\" in 'Your Mother Your Mother Your Mother'",
+          "url": "https://www.npr.org/2026/10/06/nx-s1-5991600/in-your-mother-your-mother-your-mother-mahershala-ali-is-a-conflicted-hero-for-the-ages",
+          "source": "NPR",
+          "blurb": "NPR's Pop Culture Happy Hour digs into Mahershala Ali's performance as a newly widowed hitman trying to walk away from the life, torn between his boss's plans for him and his devotion to his faith and his children. It isn't the 'Blade' reboot Ali and director Bassam Tariq once planned, but critics say what emerged from that cancellation stands on its own."
+        }
+      ],
+      "more": []
+    },
+    "bengal": [
+      {
+        "headline": "Nandigram, Rejinagar Bypolls See 79% Turnout as Opposition Alleges a \"Sham\"",
+        "url": "https://www.millenniumpost.in/bengal/nandigram-rejinagar-bypolls-record-79-turnout-oppn-calls-it-a-sham-678846",
+        "source": "Millennium Post",
+        "blurb": "Voting closed with a combined 79% turnout in Bengal's Nandigram and Rejinagar bypolls, as opposition parties alleged intimidation and demanded repolling ahead of Friday's count."
+      }
+    ],
+    "travel": [
+      {
+        "headline": "A First-Time Guide to North Macedonia",
+        "url": "https://www.lonelyplanet.com/articles/guide-to-north-macedonia",
+        "source": "Lonely Planet",
+        "blurb": "Lonely Planet makes the case for North Macedonia's soaring mountains, glittering lakes and centuries of layered heritage, anchored by the ancient town of Ohrid on its namesake lake."
+      },
+      {
+        "headline": "In War-Torn South Sudan, Giraffes Retain a Surprisingly Healthy Gene Pool",
+        "url": "https://news.mongabay.com/short-article/2026/09/in-war-torn-south-sudan-giraffes-retain-a-surprisingly-healthy-gene-pool/",
+        "source": "Mongabay",
+        "blurb": "A DNA study of Nubian giraffes in two South Sudanese national parks found surprisingly low inbreeding despite decades of civil war — rare good news for a subspecies down to a few hundred animals."
+      }
+    ],
+    "happy": {
+      "headline": "Who Was Yasuke, Japan's First Black Samurai?",
+      "url": "https://www.smithsonianmag.com/history/who-was-yasuke-japans-first-black-samurai-180981416/",
+      "source": "Smithsonian Magazine",
+      "blurb": "An African warrior named Yasuke arrived in Japan in 1579 and rose to serve the warlord Nobunaga as a samurai, fighting on even after his lord's death in 1582."
+    },
+    "tech_top": [
+      {
+        "headline": "White House Unveils $1 Billion in Industry Commitments at AI Science Summit",
+        "url": "https://axios.com/2026/10/07/exclusive-inside-trumps-ai-science-summit",
+        "source": "Axios",
+        "blurb": "The Trump administration used a closed-door AI science summit to announce more than $1 billion in combined commitments from AMD, OpenAI, Anthropic and other firms toward its Genesis Mission, a push to apply AI to scientific research. The event underscores how directly federal science funding is now being steered through partnerships with frontier AI labs.",
+        "pm_note": "When government funding routes through your vendors' research partnerships rather than your own agency, the research agenda gets set somewhere you don't have a seat at the table."
+      },
+      {
+        "headline": "ChatGPT Rolls Out a Redesigned, More Visual Interface",
+        "url": "https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface",
+        "source": "TechCrunch",
+        "blurb": "OpenAI is rolling out a redesigned ChatGPT interface it calls Intelligent UI, moving the product away from a plain chat window toward a more visual, app-like layout. The change rolls out globally with GPT-6 first for paid tiers, reaching free and Go-tier users later this week.",
+        "pm_note": "A chat window was always a stopgap UI, not the destination — watch how fast your own AI features need to grow beyond text-in, text-out once a leader moves first."
+      }
+    ],
+    "tech_more": [
+      {
+        "headline": "Meta, Google and Isomorphic Labs Put $300M More Into an AI \"Virtual Cell\"",
+        "url": "https://axios.com/2026/10/07/zuckerberg-biohub-ai-biology-data",
+        "source": "Axios",
+        "blurb": "Meta's Biohub, Google DeepMind and Isomorphic Labs are adding $300 million toward training AI on biological data that predicts how cells behave, on top of Biohub's earlier $500 million pledge."
+      },
+      {
+        "headline": "Personal AI Assistant Meet Tab Emerges From Stealth at $300M Valuation",
+        "url": "https://techcrunch.com/2026/10/07/another-personal-ai-assistant-has-launched-meet-tab-which-emerged-from-stealth-with-a-300m-valuation",
+        "source": "TechCrunch",
+        "blurb": "Meet Tab, whose assistant handles errands like grocery orders over iMessage and WhatsApp, left stealth at a $300 million valuation, joining a crowded field that includes Instinct and Meta's Muse."
+      }
+    ],
+    "tech_101": [
+      {
+        "term": "Virtual cell",
+        "text": "A computational model trained on enormous amounts of biological data that aims to simulate how a real cell would behave — the long-term bet behind Meta, Google and Isomorphic Labs pouring hundreds of millions into Biohub's data-collection effort."
+      },
+      {
+        "term": "Public-private research partnership",
+        "text": "An arrangement where government funding and industry money jointly steer a research agenda, as with the Genesis Mission — useful for moving fast, but it means the companies setting direction aren't accountable to anyone outside the deal."
+      }
+    ],
+    "science": [
+      {
+        "headline": "Nobel Prize in Chemistry Awarded for Solving a Century-Old Mystery of Molecular Handedness",
+        "url": "https://phys.org/news/2026-10-nobel-prize-chemistry-awarded-kagan.html",
+        "source": "Phys.org",
+        "blurb": "Henri Kagan and Kenso Soai shared the 2026 Nobel Prize in Chemistry for discovering non-linear effects and autocatalysis in asymmetric synthesis — reactions showing how a slight imbalance between left- and right-handed molecules can snowball into near-total one-handedness. The finding bears on one of chemistry's oldest puzzles: why life settled on one molecular handedness instead of a mix.",
+        "kind": "chemistry"
+      },
+      {
+        "headline": "Nobel Prize in Physics Honors the Hunt for Ghostly Neutrinos From Space",
+        "url": "https://phys.org/news/2026-10-francis-halzen-nobel-prize-physics.html",
+        "source": "Phys.org",
+        "blurb": "Francis Halzen won the 2026 Nobel Prize in Physics for building IceCube, a telescope frozen into a cubic kilometer of Antarctic ice that detects high-energy neutrinos arriving from deep space. The particles pass through almost everything undisturbed, which is exactly what makes the rare ones IceCube catches such precise messengers from violent cosmic events light-years away.",
+        "kind": "space"
+      },
+      {
+        "headline": "The Protein That Glues Your Cells Together Has a Second Job: Eating the Dead Ones",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261002080023.htm",
+        "source": "ScienceDaily",
+        "blurb": "University of Liverpool researchers found that E-cadherin, the protein that holds epithelial cells to each other, also lets those same cells engulf dying neighbors without breaking the protective barrier they form. Epithelial cells aren't specialized immune cells, so the discovery adds a quiet, everyday cleanup crew to tissue that was thought to rely entirely on outside help.",
+        "kind": "biology"
+      }
+    ],
+    "philosophy": [
+      {
+        "headline": "A Study Suggests Heavy LLM Use Is Reducing Our Own Brain Function",
+        "url": "https://iai.tv/articles/new-study-suggests-brain-function-reduced-by-llm-use-auid-3696",
+        "source": "IAI News",
+        "blurb": "Minh-Hoang Nguyen writes on an MIT study finding that relying on AI leaves people more confident in their arguments while actually making them more ignorant of the reasoning behind them. He argues the deeper cost isn't wrong answers but the erosion of the room to be wrong that thinking for yourself requires."
+      },
+      {
+        "headline": "The Life-Saving Knowledge That's Already Sitting in Plain Sight",
+        "url": "https://aeon.co/essays/the-life-saving-scientific-knowledge-hiding-in-plain-sight",
+        "source": "Aeon",
+        "blurb": "Nature editor Helen Pearson argues that science's unglamorous work — collating and synthesizing evidence that already exists — saves more lives than the chase for new studies, yet gets a fraction of the funding and prestige. Her case is a quiet rebuttal to a research culture built almost entirely around novelty."
+      }
+    ],
+    "philosophy_101": [
+      {
+        "term": "Cognitive offloading",
+        "text": "Letting a tool do a piece of mental work you'd otherwise do yourself — useful in the moment, but the underlying skill can atrophy if you never have to exercise it."
+      },
+      {
+        "term": "Evidence synthesis",
+        "text": "The work of systematically pulling together everything already known on a question, rather than running a new study — less glamorous than discovery, but often more useful for deciding what's actually true."
+      }
+    ]
+  }
+}
