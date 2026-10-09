@@ -1,0 +1,190 @@
+{
+  "date": "2026-10-09",
+  "sections": {
+    "politics": {
+      "top": [
+        {
+          "headline": "More Than 500 U.S. Citizens Have Been Detained by Immigration Agents, ProPublica Finds",
+          "url": "https://projects.propublica.org/american-citizens-detained-dhs-civil-rights/",
+          "source": "ProPublica",
+          "blurb": "ProPublica's ongoing tracker has identified 506 U.S. citizens detained by immigration agents during the Trump administration, including at least 70 children and roughly three dozen people held for more than a day without access to a lawyer or family. The reporters say the true number is almost certainly higher, since the count includes only cases they could individually verify.",
+          "investigative": true
+        },
+        {
+          "headline": "The FBI's Anti-Corruption Squad Was Circling Susan Collins — Until Trump Got in the Way",
+          "url": "https://www.propublica.org/article/fbi-susan-collins-navatek-campaign-donations-investigation",
+          "source": "ProPublica",
+          "blurb": "ProPublica reports the FBI had gathered enough evidence by late 2024 to open a sweeping bribery probe touching Senator Susan Collins and other lawmakers, tied to a defense contractor's illegal campaign contributions — before the incoming administration's cuts to the bureau's anti-corruption unit shut it down. Collins's campaign calls the allegations baseless, and the dispute spilled into a Maine Senate debate this week.",
+          "investigative": true
+        }
+      ],
+      "more": []
+    },
+    "india": {
+      "top": [
+        {
+          "headline": "Opposition MPs Protest at Raj Ghat on Day 3 of Stir Demanding CEC's Resignation",
+          "url": "https://scroll.in/latest/1096264/opposition-mps-protest-at-raj-ghat-on-day-3-of-stir-demanding-cec-resignation",
+          "source": "Scroll.in",
+          "blurb": "INDIA bloc MPs held a sit-in at Mahatma Gandhi's memorial for a third straight day, a calmer turn after Rahul Gandhi was detained three times in two days near the Election Commission's headquarters. The opposition is now weighing a march on Rashtrapati Bhavan if President Murmu won't meet them over demands that Chief Election Commissioner Gyanesh Kumar resign."
+        },
+        {
+          "headline": "SIR: Supreme Court Did Not Approve Modified Form 6, Says CJI",
+          "url": "https://scroll.in/latest/1096192/sir-modified-form-6-not-approved-by-supreme-court-says-cji",
+          "source": "Scroll.in",
+          "blurb": "Chief Justice Surya Kant said the Supreme Court never approved the Election Commission's new Form 6 declaration, which asks voter applicants whether they or their parents featured in the last roll revision. Two election commissioners have reportedly objected that only Parliament, not the Commission, can amend the statutory form — sharpening a legal fight now entangled with the opposition's protests."
+        }
+      ],
+      "more": []
+    },
+    "geo": {
+      "top": [
+        {
+          "headline": "Syrian General Accused of Atrocities Is Protected by the US and Lebanon, NPR and BBC Find",
+          "url": "https://www.npr.org/2026/10/08/nx-s1-5993637/syrian-general-lebanon-fbi-austin-tice",
+          "source": "NPR",
+          "blurb": "A joint NPR/BBC investigation finds that Bassam al-Hassan, a former Assad adviser wanted internationally for crimes against humanity, lives openly in Beirut under an arrangement involving the FBI and Lebanese security officials — in exchange for information on the 2012 abduction of American journalist Austin Tice. Syria's new government wants him returned to face trial; US authorities reportedly want him kept where he is.",
+          "investigative": true
+        },
+        {
+          "headline": "Yemeni Government Forces Claim 1,860 Houthis 'Neutralised'",
+          "url": "https://www.aljazeera.com/news/2026/10/8/yemeni-government-forces-claim-1860-houthis-neutralised",
+          "source": "Al Jazeera",
+          "blurb": "Yemen's internationally recognised government says it has killed or captured 1,860 Houthi fighters since launching \"Dawn of Yemen,\" a Saudi-backed counteroffensive to retake the port of Mocha and push toward the capital, Sanaa. The figures are unverified and the Houthis dispute the government's territorial claims, but the escalation marks the civil war's sharpest turn in years."
+        }
+      ],
+      "more": []
+    },
+    "sports": {
+      "top": [
+        {
+          "headline": "Hope's 162* Headlines Record Chase as West Indies End a 3-Year Wait for an ODI Win Over India",
+          "url": "https://www.cricinfo.com/series/west-indies-in-india-2026-27-1529215/india-vs-west-indies-3rd-odi-1529229/match-report",
+          "source": "ESPNcricinfo",
+          "blurb": "Shai Hope's unbeaten 162 carried West Indies to a five-wicket win chasing 352 in New Chandigarh's ODI debut, the tourists' first win over India in the format since 2023. KL Rahul's own unbeaten century for India wasn't enough to stop the record chase, which also saw both sides fined for slow over-rates."
+        }
+      ],
+      "more": []
+    },
+    "entertainment": {
+      "top": [
+        {
+          "headline": "Truth Is Elusive in the Erotic Thriller 'Verity'",
+          "url": "https://www.npr.org/2026/10/05/nx-s1-5987804/truth-is-elusive-in-the-erotic-thriller-verity",
+          "source": "NPR",
+          "blurb": "NPR's critics weigh in on this adaptation of Colleen Hoover's bestseller, with Dakota Johnson as a struggling novelist hired to ghostwrite for a vanished superstar author played by Anne Hathaway. The reviewer says the film wants you guessing about who's telling the truth until the very end, and maybe even after."
+        }
+      ],
+      "more": []
+    },
+    "bengal": [
+      {
+        "headline": "West Bengal Bypoll Results: BJP Grabs Early Lead in Nandigram, Minority-Heavy Rejinagar",
+        "url": "https://www.thestatesman.com/bengal/west-bengal-bypoll-results-2026-bjp-grabs-early-lead-in-nandigram-minority-heavy-rejinagar-1503648920.html",
+        "source": "The Statesman",
+        "blurb": "Early counting trends show BJP candidates ahead in both Nandigram, the seat Chief Minister Suvendu Adhikari gave up to retain Bhabanipur, and Rejinagar, where Muslim voters make up more than 65% of the electorate — an early test for Bengal's five-month-old BJP government."
+      }
+    ],
+    "travel": [
+      {
+        "headline": "10 Best Rail Journeys in the USA",
+        "url": "https://www.lonelyplanet.com/articles/best-train-trips-usa",
+        "source": "Lonely Planet",
+        "blurb": "Lonely Planet ranks America's great train routes, led by the 52-hour California Zephyr across the Rockies and the Sierra Nevada, as Amtrak rides out record ridership."
+      },
+      {
+        "headline": "Arabian Sea Humpbacks May Be a Unique Subspecies at Risk of Extinction",
+        "url": "https://news.mongabay.com/short-article/2026/10/arabian-sea-humpbacks-may-be-a-unique-subspecies-at-risk-of-extinction/",
+        "source": "Mongabay",
+        "blurb": "A genetic study of the only humpback whale population that never migrates found it has been isolated for up to 113,000 years and has the lowest genetic diversity of any ocean basin, making an already-endangered population scientifically unique."
+      }
+    ],
+    "happy": {
+      "headline": "What Are Medieval English Coins Doing in Rome?",
+      "url": "https://www.smithsonianmag.com/smart-news/what-are-medieval-english-coins-doing-in-rome-they-could-be-rare-evidence-of-a-little-england-enclave-that-received-special-papal-privileges-180989625/",
+      "source": "Smithsonian Magazine",
+      "blurb": "Twenty tenth-century English silver pennies turned up buried in a Roman garden, and historians think they're proof of a forgotten \"Little England\" enclave of pilgrims and clerics once favored with special papal privileges near the Vatican."
+    },
+    "tech_top": [
+      {
+        "headline": "Google Brings Agentic AI to Gemini, Starting With Businesses",
+        "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
+        "source": "TechCrunch",
+        "blurb": "Google unveiled a unified Gemini agent that can act on a user's behalf across tasks, not just answer questions, launching first for enterprise customers with its own Workspace account and email address. Users can also hand the agent off to a different underlying model, including Anthropic's Claude, rather than being locked into Google's own.",
+        "pm_note": "An agent that gets its own company email address and picks its own model is a preview of how \"AI seat\" procurement will work — budget for an identity and access review, not just an API key."
+      },
+      {
+        "headline": "Anthropic Changes Usage Policy to Ban Model Abuse and Election Interference",
+        "url": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
+        "source": "TechCrunch",
+        "blurb": "Anthropic's revised usage policy adds explicit bans on using Claude to deceive voters or disrupt elections, alongside new rules against weapons development and surveillance misuse, plus a narrower rule against sustained, purposeless cruelty toward the model itself. The company says ordinary frustration and criticism of its products remain fine.",
+        "pm_note": "Vendor usage policies are becoming a compliance surface in their own right — know what your product is and isn't allowed to do under each model provider's terms before you ship, not after."
+      }
+    ],
+    "tech_more": [
+      {
+        "headline": "US Bars Microsoft, Adobe and Major IT Firms From Green Card Program for Skilled Foreign Workers",
+        "url": "https://techcrunch.com/2026/10/08/us-bars-microsoft-adobe-and-major-it-firms-from-green-card-program-for-skilled-foreign-workers/",
+        "source": "TechCrunch",
+        "blurb": "The Labor Department suspended Microsoft, Adobe, Capgemini, Cognizant, HCL, Infosys, Tata and Wipro from filing new green card labor certifications, accusing the firms of fraud; Microsoft says 80% of its recent H-1B filings were simply renewals for existing employees."
+      }
+    ],
+    "tech_101": [
+      {
+        "term": "Agentic AI",
+        "text": "An AI system that doesn't just answer questions but takes actions on a user's behalf — booking, emailing, filing — the shift Google's enterprise Gemini launch and a wave of competitors are now racing toward."
+      },
+      {
+        "term": "Usage policy",
+        "text": "The rules an AI company sets for what its models may be used for, separate from what they're technically capable of — increasingly a compliance document worth reading as carefully as a terms-of-service agreement."
+      }
+    ],
+    "science": [
+      {
+        "headline": "Nearly 10,000 Mapped Reactions Reveal Overlooked Steps in CO2-to-Fuel Conversion",
+        "url": "https://phys.org/news/2026-10-reactions-reveal-overlooked-fuel-conversion.html",
+        "source": "Phys.org",
+        "blurb": "Indian Institute of Science researchers built a data-driven model of nearly 9,400 individual reactions in CO2 hydrogenation on a copper catalyst, a scale previous studies couldn't afford to simulate directly. The expanded model raised predicted CO2 conversion roughly 40-fold and correctly flagged methanol as the dominant product, pointing to catalyst designs full quantum modeling alone would have missed.",
+        "kind": "chemistry"
+      },
+      {
+        "headline": "Chang'e-6 Lunar Soil Contains a Surprising Magnetic Time Capsule",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261001214015.htm",
+        "source": "ScienceDaily",
+        "blurb": "Chinese researchers studying Chang'e-6 lunar soil identified a previously unknown magnetic mineral, a form of metallic iron called γ-Fe, locked inside tiny impact-glass particles. The nanoscale grains may act as a fossil record of the Moon's long-vanished magnetic field, giving scientists a new way to reconstruct how it changed over time.",
+        "kind": "space"
+      },
+      {
+        "headline": "Blue-Light Labeling Uncovers Unexpected Protein Partners of Folded DNA Structures",
+        "url": "https://phys.org/news/2026-10-blue-uncovers-unexpected-protein-partners.html",
+        "source": "Phys.org",
+        "blurb": "Japanese researchers attached a light-triggered photocatalyst directly to a G-quadruplex, a four-stranded DNA knot, letting blue light tag only the proteins actually touching it in that instant. The method caught hexokinase-1, an energy-metabolism enzyme, as a previously unrecognized binding partner — a catch that cruder capture methods had been missing for years.",
+        "kind": "biology"
+      }
+    ],
+    "philosophy": [
+      {
+        "headline": "China's Radical Philosophy of Action Dissolves the Free Will Problem",
+        "url": "https://iai.tv/articles/chinas-radical-philosophy-of-action-free-will-and-the-self-auid-3340",
+        "source": "IAI News",
+        "blurb": "Philosopher Brian Bruya argues that the Western free-will debate rests on a split between determined nature and free, accountable humans that classical Chinese thought never made. Drawing on the Zhuangzi's picture of spontaneous, skilled action without a reflective self weighing options, he suggests it fits recent cognitive science better than anything Western compatibilism has produced."
+      },
+      {
+        "headline": "The Self Is Not Singular but a Fluid Network of Identities",
+        "url": "https://aeon.co/essays/the-self-is-not-singular-but-a-fluid-network-of-identities",
+        "source": "Aeon",
+        "blurb": "Rejecting theories that reduce the self to a body, a memory stream or a single social role, this essay argues personal identity is constituted by a shifting web of relationships, roles and group memberships. On this \"network self\" view, a person's identity can change as thoroughly as their relationships do, without ceasing to be the same person."
+      }
+    ],
+    "philosophy_101": [
+      {
+        "term": "Free will problem",
+        "text": "The puzzle of how humans can be genuinely responsible for their actions if everything we do is caused by prior events in a deterministic universe — a framing some philosophers argue is itself a peculiarly Western invention."
+      },
+      {
+        "term": "Network self",
+        "text": "A view of personal identity that locates the self not in the body or memory alone but in a person's whole web of relationships and social roles — which can shift over a lifetime without the person ceasing to be themselves."
+      }
+    ]
+  }
+}
