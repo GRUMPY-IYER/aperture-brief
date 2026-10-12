@@ -1,0 +1,152 @@
+{
+  "date": "2026-10-12",
+  "sections": {
+    "politics": {
+      "top": [
+        {
+          "headline": "ICE Is Separating Migrant Children From Parents and Calling Them 'Unaccompanied,' Mother Jones Finds",
+          "url": "https://www.motherjones.com/politics/2026/10/ice-orr-office-refugee-resettlement-donald-trump-stephen-miller-family-separations-foster-care-deportations/",
+          "source": "Mother Jones",
+          "investigative": true,
+          "blurb": "Mother Jones reports that immigration agents are splitting children from their parents in the US interior and then classifying them as \"unaccompanied minors\" bound for the refugee resettlement system, rather than for reunification. The designation routes the children into foster care and makes it harder for parents, often detained separately, to get them back."
+        },
+        {
+          "headline": "ICE Has Quietly Been Using Warehouses as Detention Centers, NPR Finds",
+          "url": "https://www.npr.org/2026/10/08/nx-s1-5995375/ice-has-quietly-been-using-warehouses-as-detention-centers",
+          "source": "NPR",
+          "investigative": true,
+          "blurb": "NPR reports that a Roxbury, New Jersey warehouse has held immigration detainees all summer, according to neighbors, even though a court order bars DHS from converting that site pending an environmental review. DHS bought roughly a billion dollars' worth of warehouses earlier this year for detention use, a plan it largely shelved after lawsuits and local backlash."
+        }
+      ],
+      "more": []
+    },
+    "india": {
+      "top": [
+        {
+          "headline": "Delhi Police File 20 FIRs After CJP's Jantar Mantar Protest, Hindu Raksha Dal Men Among Those Arrested",
+          "url": "https://www.theweek.in/news/india/2026/10/11/cjps-jantar-mantar-20-delhi-police-register-20-firs-after-protests.html",
+          "source": "The Week",
+          "blurb": "Delhi Police registered 20 FIRs over Saturday's Cockroach Janta Party protest demanding Election Commissioner Gyanesh Kumar's resignation, with charges including assault on police; one FIR names four men claiming ties to the Hindu Raksha Dal, arrested over an alleged assault on students. CJP's own detained leaders, Abhijeet Dipke, Ashutosh Ranka and Saurav Das, were released, while the group alleged a leader was assaulted in custody."
+        }
+      ],
+      "more": []
+    },
+    "geo": {
+      "top": [
+        {
+          "headline": "Yemen's War Expands as Houthis Strike a Saudi Airport for a Second Day",
+          "url": "https://www.aljazeera.com/news/2026/10/11/yemen-fighting-expands-as-houthis-attack-saudi-airport-what-to-know",
+          "source": "Al Jazeera",
+          "blurb": "A projectile hit King Khalid International Airport's passenger terminal on Sunday, a day after a deadlier Houthi strike on the same airport killed at least 12 people, with Saudi authorities also reporting an attack on King Fahd International Airport in Dammam. The Houthis claimed responsibility and warned airlines that Saudi airports are now targets, as the Saudi-led coalition vows retaliation and Trump says he's weighing joining strikes against the group."
+        },
+        {
+          "headline": "Trump Declares an 'Energy Ceasefire' Between Russia and Ukraine; Zelensky Says It's News to Him",
+          "url": "https://thehill.com/homenews/administration/6141275-trump-russia-ukraine-energy-ceasefire/",
+          "source": "The Hill",
+          "blurb": "Trump announced on social media that Russia and Ukraine had agreed to stop striking each other's energy infrastructure, but neither Kyiv nor Moscow confirmed any such deal, and Zelensky said the announcement was news to him. He added Ukraine would accept a truce if Russia agreed to it, even as new Russian strikes hit a Kyiv power plant and Kharkiv-region energy facilities shortly after Trump's post."
+        }
+      ],
+      "more": []
+    },
+    "sports": {
+      "top": [
+        {
+          "headline": "Abhishek Sharma's 69 and Arshdeep's Three Wickets Hand India a 2-1 Series Lead Over West Indies",
+          "url": "https://www.cricinfo.com/series/west-indies-in-india-2026-27-1529215/india-vs-west-indies-3rd-t20i-1529232/match-report",
+          "source": "ESPNcricinfo",
+          "blurb": "India defended 223 to beat West Indies by 14 runs in the third T20I at Indore, with Abhishek Sharma's 69 off 30 balls proving decisive on a slow pitch and Arshdeep Singh taking 3 for 44, including a yorker that shattered Sherfane Rutherford's stumps. The result puts India 2-1 up with two matches left in the five-game series."
+        }
+      ],
+      "more": []
+    },
+    "entertainment": {
+      "top": [
+        {
+          "headline": "In 'Fjord,' a Foster-Care Drama Keeps the Truth Just Out of Reach",
+          "url": "https://www.npr.org/2026/10/09/nx-s1-5996489/fjord-review-cristian-mungiu",
+          "source": "NPR",
+          "blurb": "NPR critic Justin Chang reviews Cristian Mungiu's Palme d'Or-winning drama about a family placed in foster care, praising a film that keeps viewers guessing about where the truth actually lies. It's a return to the morally ambiguous terrain of Mungiu's earlier Romanian New Wave work."
+        }
+      ],
+      "more": []
+    },
+    "bengal": [],
+    "travel": [
+      {
+        "headline": "15 Destinations Driving 2026's Biggest Fall Travel Trends",
+        "url": "https://www.lonelyplanet.com/articles/fall-travel-trends-in-2026",
+        "source": "Lonely Planet",
+        "blurb": "Lonely Planet's fall roundup ranges from quieter shoulder-season takes on famous cities to destinations riding a specific trend, like dark-sky stargazing trips and train journeys through changing leaves."
+      },
+      {
+        "headline": "A Tiny Bolivian Cat Is the First New Living Cat Species Named in Over a Century",
+        "url": "https://www.aljazeera.com/news/2026/9/18/new-tiger-cat-species-identified-in-bolivia-first-in-over-a-century",
+        "source": "Al Jazeera",
+        "blurb": "Genetic analysis confirmed the tilcayo, a roughly 3-pound tiger cat from Bolivia's threatened Yungas cloud forest, as a distinct species, the first new living cat formally described since 1923; researchers say tiger cats are really five separate species, not two."
+      }
+    ],
+    "happy": {
+      "headline": "A One-of-a-Kind Ring Offers a Glimpse of the Lost Lighthouse of Alexandria",
+      "url": "https://www.smithsonianmag.com/smart-news/this-one-of-a-kind-bronze-ring-offers-a-tantalizing-glimpse-at-the-lighthouse-of-alexandria-a-lost-wonder-of-the-ancient-world-180989661/",
+      "source": "Smithsonian Magazine",
+      "blurb": "Divers excavating the sunken palace island of Antirhodos, once home to Mark Antony and Cleopatra, recovered a 2nd-century bronze signet ring engraved with the Lighthouse of Alexandria, the only ring of its kind known to exist, likely once used to seal letters or official documents."
+    },
+    "tech_top": [
+      {
+        "headline": "AI Executives Are Privately Gaming Out the 'Day After' a Catastrophic AI Event",
+        "url": "https://www.axios.com/2026/10/09/ai-companies-day-after-major-attack",
+        "source": "Axios",
+        "blurb": "Axios reports that top executives at Anthropic, OpenAI and other AI companies are privately rehearsing how the public and politicians might react to a catastrophic AI event, most likely a major cyberattack, with some predicting such an event within six to twelve months. The exercises amount to red-teaming the industry's own crisis response, not just its models.",
+        "pm_note": "If your own org has no equivalent incident-response rehearsal for an AI-caused failure, this is a sign the frontier labs think that gap is now a real liability, not a hypothetical one."
+      },
+      {
+        "headline": "Lawmakers Introduce Bills to Curb Flock's License-Plate Surveillance After 404 Media's Reporting",
+        "url": "https://www.404media.co/lawmakers-introduce-multiple-laws-to-curb-flock-after-404-media-coverage/",
+        "source": "404 Media",
+        "blurb": "Multiple lawmakers across party lines have introduced legislation that would sharply limit federal agencies' access to Flock's license-plate-reader network, citing 404 Media's coverage of how the system has been used. It follows Flock's own staff cuts last week amid a court ruling that one of its searches was unconstitutional.",
+        "pm_note": "A vendor whose product is drawing bipartisan legislation, not just a lawsuit, is a sharper procurement-risk signal than the court case alone — worth tracking if you rely on similar surveillance-adjacent infrastructure."
+      }
+    ],
+    "tech_more": [],
+    "tech_101": [
+      {
+        "term": "Red-teaming",
+        "text": "Deliberately simulating an attack or failure against your own system to find its weak points before an adversary does — the exercise AI executives are reportedly now running against their own companies' crisis response, not just their models."
+      },
+      {
+        "term": "ALPR",
+        "text": "Automated license plate reader — the camera technology behind Flock's network. It's at the center of the current legislative pushback because it can track a vehicle's movements over time, not just capture a single plate."
+      }
+    ],
+    "science": [
+      {
+        "headline": "A Sulfur Bond That Splits in Sunlight Could Make Hydrogen Fuel Without Expensive Metal Catalysts",
+        "url": "https://science.oregonstate.edu/node/11826",
+        "source": "Oregon State University",
+        "kind": "chemistry",
+        "blurb": "Oregon State University chemists built a light-activated metal-organic framework, BVR-19, whose L-cystine building blocks contain a sulfur-to-sulfur bond that breaks apart under sunlight to generate hydrogen from water. Because the reactive chemistry lives in the sulfur-containing organic linkers rather than in a precious-metal co-catalyst, the approach points toward a cheaper route to green hydrogen; the work, led by Kyriakos Stylianou, is published in the Journal of the American Chemical Society."
+      },
+      {
+        "headline": "Webb Finds Scars of Mars-Sized Planets Smashing Together Around Young Stars",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261007042108.htm",
+        "source": "ScienceDaily",
+        "kind": "space",
+        "blurb": "NASA's James Webb Space Telescope spotted 21 rare \"extreme debris disks\" around young stars, roughly a third of them silica-rich in a way that points to violent collisions between Mars-sized bodies rather than gentler dust accumulation. Only about 1% of young stars show this phase, and the findings, published October 1 in The Astrophysical Journal, offer a rare look at the kind of giant impact thought to have formed our own Moon."
+      }
+    ],
+    "philosophy": [
+      {
+        "headline": "A New Study Suggests Heavy LLM Use Is Reducing Brain Function",
+        "url": "https://iai.tv/articles/new-study-suggests-brain-function-reduced-by-llm-use-auid-3696",
+        "source": "IAI News",
+        "blurb": "Drawing on an MIT study of students who wrote essays with ChatGPT's help, Minh-Hoang Nguyen argues that outsourcing the struggle of thinking to a language model doesn't just save time, it atrophies the capacity for independent thought. His remedy isn't abstaining from AI but deliberately preserving room to be stupid and slow, since that discomfort is where the thinking actually happens."
+      }
+    ],
+    "philosophy_101": [
+      {
+        "term": "Cognitive offloading",
+        "text": "Handing a mental task to an external tool rather than doing it yourself — useful for remembering phone numbers, Nguyen argues, but corrosive for the kind of struggle that builds the capacity to think in the first place."
+      }
+    ]
+  }
+}
