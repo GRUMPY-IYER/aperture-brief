@@ -1,0 +1,220 @@
+{
+  "date": "2026-10-16",
+  "sections": {
+    "politics": {
+      "top": [
+        {
+          "headline": "Inside ICE, Officials Question a String of Trump Administration \"Midterm Panic Moves\"",
+          "url": "https://theintercept.com/2026/10/15/ice-omar-raid-midterms-political",
+          "source": "The Intercept",
+          "investigative": true,
+          "blurb": "Current and former ICE officials tell The Intercept they see the raid on Rep. Ilhan Omar's Washington home, and a string of other high-profile immigration actions, as politically timed moves rather than ordinary enforcement, with some questioning the decisions internally. The account deepens scrutiny of a search executed 22 days before the midterms, which DHS says followed a judicially authorized warrant."
+        },
+        {
+          "headline": "Lockheed Martin Showered Susan Collins With Cash as the F-35 Program Hit Turbulence",
+          "url": "https://theintercept.com/2026/10/15/susan-collins-lockheed-martin-f35-fighter-jet/",
+          "source": "The Intercept",
+          "investigative": true,
+          "blurb": "Lockheed Martin employees and executives gave Sen. Susan Collins roughly $59,500 over two months in 2023, making her the company's top recipient during a stretch when a watchdog report on the F-35 program was drawing attention; two weeks later she voted for funding to buy 83 of the jets. A Senate Appropriations Committee spokesperson says the donations had no bearing on her vote."
+        }
+      ],
+      "more": [
+        {
+          "headline": "FBI Investigates Suspicious Mailings Sent to Election Officials and Congressional Offices",
+          "url": "https://www.npr.org/2026/10/15/nx-s1-6003857/suspicious-mailings-election-congressional-offices",
+          "source": "NPR",
+          "blurb": "The FBI and Postal Inspection Service are investigating mailings, some containing a white powdery substance, sent to state election offices in Louisiana, Ohio and Oklahoma and to congressional offices, including one intercepted before reaching Sen. Alex Padilla."
+        },
+        {
+          "headline": "Trump Cancels the Livestream of a Fort Hood Shooter's Execution",
+          "url": "https://www.npr.org/2026/10/15/nx-s1-6001794/fort-hood-execution-hegseth-christian-nationalist",
+          "source": "NPR",
+          "blurb": "President Trump said plans to livestream the execution of Nidal Hasan, who killed 13 people in the 2009 Fort Hood shooting, will not go ahead, after the broadcast plan itself became a point of controversy."
+        }
+      ]
+    },
+    "india": {
+      "top": [
+        {
+          "headline": "Backlash in Kashmir Over a Proposal for Uniform Friday Sermons Across Mosques",
+          "url": "https://www.aljazeera.com/news/2026/10/15/backlash-in-kashmir-over-proposal-for-uniform-friday-sermons-across-mosques",
+          "source": "Al Jazeera",
+          "blurb": "Kashmir's top Muslim clerics, including Mirwaiz Umar Farooq, condemned a Jammu and Kashmir Waqf Board plan to standardise Friday sermons across the region's mosques, calling it \"direct interference\" in religious practice. Board chief Darakhshan Andrabi partly retracted the proposal after the backlash, which critics linked to a wider pattern of state monitoring of Kashmir's mosques."
+        }
+      ],
+      "more": []
+    },
+    "geo": {
+      "top": [
+        {
+          "headline": "Ethiopian Forces Expand Control in Tigray as Militia Claims Eritrean Losses",
+          "url": "https://www.aljazeera.com/news/2026/10/15/ethiopian-forces-expand-control-in-tigray-as-militia-claims-eritrean-losses",
+          "source": "Al Jazeera",
+          "blurb": "Ethiopian government forces and allied Tigrayan fighters say they have taken the historic city of Aksum as fighting in the north intensifies, while a pro-government militia claims Eritrean troops suffered losses and withdrew, a claim Eritrea's government rejects. US Secretary of State Marco Rubio called Ethiopia's prime minister urging de-escalation as both sides trade accusations of military involvement."
+        },
+        {
+          "headline": "'Boiling Point': Why Students Are Protesting Against Albania's Edi Rama",
+          "url": "https://www.aljazeera.com/news/2026/10/15/boiling-point-why-students-are-protesting-against-albanias-edi-rama",
+          "source": "Al Jazeera",
+          "blurb": "Student-led protests over university costs and bleak job prospects have shaken Tirana for days, with crowds setting fire to the Education Ministry and clashing with police firing tear gas and water cannon. Prime Minister Edi Rama has rejected calls to resign, saying the violence has nothing to do with students' legitimate demands."
+        }
+      ],
+      "more": []
+    },
+    "sports": {
+      "top": [
+        {
+          "headline": "High-Scoring Series Reaches a Tense Decider in Rainy Bengaluru",
+          "url": "https://www.cricinfo.com/series/west-indies-in-india-2026-27-1529215/india-vs-west-indies-5th-t20i-1529234/match-preview",
+          "source": "ESPNcricinfo",
+          "blurb": "India and the West Indies go into Saturday's fifth and final T20I in Bengaluru with the series tied 2-2, each side having won twice on its own terms. Rain and dew are both forecast to be factors, and a West Indies win would be their first T20I series victory on Indian soil since a touring side last managed it in February 2019."
+        }
+      ],
+      "more": []
+    },
+    "entertainment": {
+      "top": [
+        {
+          "headline": "'You Can See Everything' Probes Theranos' Elizabeth Holmes Ahead of Prison",
+          "url": "https://www.npr.org/2026/10/15/nx-s1-5959830/you-can-see-everything-follows-theranos-elizabeth-holmes-ahead-of-prison-sentence",
+          "source": "NPR",
+          "blurb": "Critic Ronald Young Jr. says Nathan Fielder and Lance Oppenheim's documentary, filmed with Elizabeth Holmes in the weeks before she reported to her 11-year prison sentence, keeps circling one unresolved question: whether Holmes understands what lying is. He praises the filmmaking but says it never quite explains her."
+        }
+      ],
+      "more": [
+        {
+          "headline": "'Reporting Live' Review: A Solid Thriller About Crusading Journalism",
+          "url": "https://scroll.in/reel/1096203/reporting-live-review-a-solid-thriller-about-crusading-journalism",
+          "source": "Scroll.in",
+          "blurb": "Scroll's review of the Hindi Netflix thriller, about a TV reporter investigating a sand mafia after a bridge collapse, calls it tightly plotted if unoriginal, arriving at a moment when public trust in broadcast journalism is especially low."
+        }
+      ]
+    },
+    "bengal": [
+      {
+        "headline": "Bengal's Durga Puja Starts With Mahashashthi; Pandal-Hopping Begins",
+        "url": "https://thefederal.com/category/states/east/west-bengal/bengals-durga-puja-starts-with-mahashashthi-pandal-hopping-begins-259752",
+        "source": "The Federal",
+        "blurb": "West Bengal's Durga Puja formally began with Mahashashthi rituals on Friday, as pandal-hopping got under way across Kolkata and the state."
+      },
+      {
+        "headline": "'Exploiting Freedom to Weaken Country': Suvendu on Protests Against Gyanesh Kumar",
+        "url": "https://thestatesman.com/cities/kolkata/exploiting-freedom-to-weaken-country-suvendu-on-protests-against-gyanesh-kumar-1503651555.html",
+        "source": "The Statesman",
+        "blurb": "Chief Minister Suvendu Adhikari accused protesters demanding Election Commissioner Gyanesh Kumar's resignation of \"exploiting freedom to weaken the country,\" as Congress and TMC workers kept up marches against the CEC in Kolkata."
+      }
+    ],
+    "travel": [
+      {
+        "headline": "The Best London Neighborhoods to Stay (and Play) In",
+        "url": "https://www.lonelyplanet.com/articles/best-neighborhoods-in-london",
+        "source": "Lonely Planet",
+        "blurb": "Lonely Planet's new London guide points visitors to Shoreditch, Hoxton and Spitalfields for nightlife and street art, Kensington for museums, and Greenwich for markets and parks."
+      },
+      {
+        "headline": "Two Rare Pregnancies Spark Hope for Sumatran Rhinos — But Also Concerns About Inbreeding",
+        "url": "https://news.mongabay.com/2026/10/two-rare-pregnancies-spark-hope-for-sumatran-rhinos-but-also-concerns-about-inbreeding/",
+        "source": "Mongabay",
+        "blurb": "Two Sumatran rhinos at an Indonesian sanctuary are pregnant, rare good news for a species down to a few dozen animals, but the mothers and nearly every male in the breeding program are closely related, forcing keepers to weigh urgency against genetic diversity."
+      }
+    ],
+    "happy": {
+      "headline": "The Army Vet, the Orphaned Bear, and the Boy Who Named a Teddy Bear After Her",
+      "url": "https://www.themarginalian.org/2016/03/02/finding-winnie-mattick-blackall/",
+      "source": "The Marginalian",
+      "blurb": "In 1914, a Canadian army veterinarian bought an orphaned bear cub he named Winnie, who later befriended a London Zoo visitor named Christopher Robin and inspired his father's Winnie-the-Pooh."
+    },
+    "tech_top": [
+      {
+        "headline": "Anthropic Is Letting METR Researchers Look Under the Hood With Employee-Level Access",
+        "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
+        "source": "TechCrunch",
+        "blurb": "Anthropic is giving six researchers from the nonprofit evaluator METR employee-level access — company laptops, office space and internal tools — to independently assess its models and safety practices, with the right to publish their own findings. The arrangement follows a September pledge by CEO Dario Amodei and a White House accord on independent AI review that OpenAI, Google, Meta, Nvidia and xAI have also signed.",
+        "pm_note": "Watch whether 'independent evaluator' becomes a real accountability layer or a label labs can point to; it's a model worth studying before borrowing the language for your own product's safety claims."
+      },
+      {
+        "headline": "Accenture Tells Employees They Can Now Spend Only $29 on Claude Per Month",
+        "url": "https://www.404media.co/accenture-tells-employees-they-can-now-spend-only-29-on-claude-per-month/",
+        "source": "404 Media",
+        "blurb": "Accenture has capped what it will centrally fund for each employee's Claude usage at $29 a month, effective October 1, after some staff ran up bills of $500 to $1,000; spending above the cap now needs a project or team willing to cover it. The move reflects a broader reckoning among large AI customers over ballooning per-seat token costs.",
+        "pm_note": "A concrete benchmark for budgeting enterprise AI seats: per-user overruns are now real enough that a Fortune 500 consultancy metering them like cloud spend."
+      }
+    ],
+    "tech_more": [
+      {
+        "headline": "SK Hynix Bargains for Chip-Equipment Exports to Its China Facility in Return for a US Factory",
+        "url": "https://techcrunch.com/2026/10/15/sk-hynix-bargains-for-chip-equipment-exports-to-its-china-facility-in-return-for-building-a-factory-in-us/",
+        "source": "TechCrunch",
+        "blurb": "SK Hynix is seeking US approval to ship chipmaking equipment to its Dalian, China plant in exchange for committing to build a NAND factory in the United States, Reuters reports."
+      },
+      {
+        "headline": "How ChatGPT Targets Ads to You Based on Your Prompts, Phone Number and Email",
+        "url": "https://www.404media.co/how-chatgpt-targets-ads-to-you-based-on-your-prompts-phone-number-and-email/",
+        "source": "404 Media",
+        "blurb": "404 Media reports that advertisers can target ChatGPT users using their email address, phone number or device identifier, details most users likely don't know are linked to the ads they see."
+      },
+      {
+        "headline": "Tesla Reveals a SpaceX-Powered Roadster That Flies and Falls With Style",
+        "url": "https://techcrunch.com/2026/10/15/tesla-reveals-spacex-powered-roadster-that-flies-and-falls-with-style/",
+        "source": "TechCrunch",
+        "blurb": "Tesla unveiled its second-generation Roadster near Waco, Texas, opening reservations at $50,000 for the Performance trim, with Elon Musk saying production would begin in 2028."
+      }
+    ],
+    "tech_101": [
+      {
+        "term": "Third-party AI safety evaluator",
+        "text": "An outside group given enough access to an AI company's models and internal practices to independently judge their safety, and the right to publish what they find even if it's unflattering — a check meant to be harder to shrug off than the company grading its own homework."
+      },
+      {
+        "term": "Per-seat AI spend cap",
+        "text": "A budget limit a company sets on how much of an employee's AI usage it will pay for automatically, the same way cloud computing costs get metered — once usage-based AI bills get big enough, companies start treating them like any other line item that needs a ceiling."
+      }
+    ],
+    "science": [
+      {
+        "headline": "Microplastics Are Chemically Active and Could Cause Biological Harm",
+        "url": "https://phys.org/news/2026-10-microplastics-chemically-biological.html",
+        "source": "Phys.org",
+        "kind": "chemistry",
+        "blurb": "Researchers from Columbia and UC Berkeley found that microplastics aren't the inert particles long assumed: they alter the water around them, generating reactive oxygen species that may explain tissue damage seen in animal studies. Implications for human exposure are still being worked out, and the finding complicates the usual assumption that plastics are biologically neutral."
+      },
+      {
+        "headline": "Webb Spots a Possible Early-Universe Supernova Just Days After It Happened",
+        "url": "https://phys.org/news/2026-10-webb-early-universe-supernova-days.html",
+        "source": "Phys.org",
+        "kind": "space",
+        "blurb": "The James Webb Space Telescope may have caught a supernova, cataloged AT 2026abck, in a galaxy from when the universe was just over a billion years old, observed only four to ten days after it exploded. Few supernovae at this redshift have been caught so soon after exploding, and the finding is posted as a preprint awaiting peer review."
+      }
+    ],
+    "philosophy": [
+      {
+        "headline": "The Century-Long Search for the Limits to Knowledge",
+        "url": "https://aeon.co/essays/the-century-long-search-for-the-limits-to-knowledge",
+        "source": "Aeon",
+        "blurb": "Alexander Gheorghiu traces the modern search for the limits of human knowledge from David Hilbert's 1930 address, where he insisted \"we must know, we will know,\" through Gödel's incompleteness theorems to today's open questions about what reason can ultimately settle."
+      },
+      {
+        "headline": "The More We Rely on Tech, the More We Deskill Our Bodies",
+        "url": "https://aeon.co/essays/the-more-we-rely-on-tech-the-more-we-deskill-our-bodies",
+        "source": "Aeon",
+        "blurb": "Melanie Challenger argues that habitual reliance on phones, GPS and AI is steadily eroding physical and cognitive skills humans once depended on, raising the question of what gets lost when convenience replaces practiced competence."
+      },
+      {
+        "headline": "Does the Principle of Sufficient Reason Make Panpsychism True?",
+        "url": "https://aeon.co/essays/does-the-principle-of-sufficient-reason-make-panpsychism-true",
+        "source": "Aeon",
+        "blurb": "An essay tests whether Leibniz's principle that everything must have a reason for being as it is strengthens the case for panpsychism, the view that some form of mind pervades all matter."
+      }
+    ],
+    "philosophy_101": [
+      {
+        "term": "Gödel's incompleteness theorems",
+        "text": "Kurt Gödel proved that in any mathematical system rich enough to do arithmetic, there will always be true statements that can't be proved within that system — certainty has a ceiling, even in math."
+      },
+      {
+        "term": "Principle of sufficient reason",
+        "text": "The idea, associated with the philosopher Leibniz, that everything which exists has an explanation for why it exists and why it's this way rather than some other way — nothing is ultimately just a brute, reasonless fact."
+      }
+    ]
+  }
+}
