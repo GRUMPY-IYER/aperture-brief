@@ -1,0 +1,133 @@
+{
+  "date": "2026-10-19",
+  "sections": {
+    "politics": {
+      "top": [
+        {
+          "headline": "A Nationwide Skincare Scheme Preyed on Older and Disabled Shoppers, NPR Finds",
+          "url": "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
+          "source": "NPR",
+          "investigative": true,
+          "blurb": "An NPR investigation drawing on more than 50 interviews, court lawsuits and nearly 500 consumer complaints found mall skincare stores supplied by Mazal Group routinely pressuring older adults and people with disabilities into expensive purchases, including a Michigan man with dementia charged $42,000. Federal investigators called a similar scheme a \"credit card overcharge scheme\" a decade ago; NPR found the model still active in malls nationwide, and Mazal Group terminated its business license shortly before publication."
+        }
+      ],
+      "more": []
+    },
+    "india": {
+      "top": [
+        {
+          "headline": "CJP Leaders Remain in Custody as Jantar Mantar Trespass Case Returns to Court",
+          "url": "https://scroll.in/latest/1096496/cjp-alleges-deliberate-delay-in-release-of-ashutosh-ranka-saurav-das",
+          "source": "Scroll.in",
+          "blurb": "Cockroach Janta Party leaders Saurav Das and Ashutosh Ranka remain in judicial custody after their October 14 remand over entering Jantar Mantar days after it was de-notified as a protest site, with the case listed for further hearing today. The arrests came amid the CJP's continuing campaign demanding Chief Election Commissioner Gyanesh Kumar's resignation over the special intensive revision of electoral rolls."
+        }
+      ],
+      "more": [
+        {
+          "headline": "Karnataka High Court Quashes FIR Against Arnab Goswami, Amit Malviya Over Congress 'Turkey Office' Claim",
+          "url": "https://scroll.in/latest/1096472/karnataka-hc-quashes-fir-against-arnab-goswami-amit-malviya-for-claiming-congress-has-turkey-office",
+          "source": "Scroll.in",
+          "blurb": "Karnataka's High Court quashed criminal proceedings against Republic TV's Arnab Goswami and BJP IT-cell head Amit Malviya over a broadcast claiming Congress operates an office in Istanbul, a building later identified as a municipal convention centre."
+        }
+      ]
+    },
+    "geo": {
+      "top": [],
+      "more": []
+    },
+    "sports": {
+      "top": [
+        {
+          "headline": "Shafali Verma's Blitz Seals India Women's T20I Series Win Over Zimbabwe",
+          "url": "https://www.cricinfo.com/series/zimbabwe-women-in-india-2026-27-1535648/india-women-vs-zimbabwe-women-2nd-t20i-1535653/match-report",
+          "source": "ESPNcricinfo",
+          "blurb": "India Women crushed Zimbabwe by nine wickets in the second T20I at Raipur, chasing 103 in just 8.5 overs as Shafali Verma blazed 55 off 25 balls and Smriti Mandhana finished unbeaten on 47, taking an unassailable 2-0 lead in the three-match series. Debutant Niki Prasad became the first Indian woman to take a wicket off her first ball in T20I cricket, and the win was India's 17th T20I victory of 2026, a calendar-year record."
+        }
+      ],
+      "more": []
+    },
+    "entertainment": {
+      "top": [
+        {
+          "headline": "If You Have the Scratch, They Have the Scares",
+          "url": "https://www.npr.org/2026/10/18/nx-s1-5985869/if-you-have-the-scratch-they-have-the-scares",
+          "source": "NPR",
+          "blurb": "NPR surveys a horror-film boom now outpacing the rest of Hollywood: Nielsen data shows genre profits up roughly 26% year over year, Blumhouse/Atomic Monster commands more than half the horror box office, and one $10 million YouTube-made horror film has grossed $400 million. The piece also profiles a new horror-only bookstore riding the same wave."
+        }
+      ],
+      "more": []
+    },
+    "bengal": [],
+    "travel": [
+      {
+        "headline": "Wildlife Photographer of the Year 2026: A Grieving Elephant's 'Aftermath'",
+        "url": "https://www.discoverwildlife.com/photography/wildlife-photographer-of-the-year-2026-winners",
+        "source": "BBC Wildlife",
+        "blurb": "Italian photographer Federico Veronesi won the Natural History Museum's Wildlife Photographer of the Year 2026 with a black-and-white image of a female elephant carrying her dead calf through a Namibian riverbed, chosen from a record 65,403 entries from 121 countries."
+      }
+    ],
+    "happy": {
+      "headline": "The Builder and the Boy He Pulled From a Pond, 30 Years Later",
+      "url": "https://www.npr.org/2026/06/05/nx-s1-5842997/man-reunites-with-the-boy-he-saved-from-a-pond-more-than-30-years-ago",
+      "source": "NPR",
+      "blurb": "In 1980s Florida, carpenter Brad Jachna and his friend Kip were building a house when they saw a toddler tumble into a nearby pond; Jachna pulled the unresponsive boy out and revived him by slapping his back until he breathed again. Decades later Jachna tracked the boy, Tom Copeland, down online, and the two sat for StoryCorps to remember the day a stranger's instinct saved a life — a conversation now archived at the Library of Congress."
+    },
+    "tech_top": [
+      {
+        "headline": "Disney Agrees to Hire the Majority of Character.AI's Workforce",
+        "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
+        "source": "TechCrunch",
+        "blurb": "Days after Character.AI filed for Chapter 11 bankruptcy under the weight of lawsuits alleging its chatbots harmed teenagers, Disney emerged as the stalking-horse bidder with a $20 million offer for a license to its IP, plus transition services from former Character.AI staff Disney has already hired. The bid only sets a floor — other buyers can still outbid Disney before the sale closes, expected late November or December.",
+        "pm_note": "A vivid case study in how unmanaged safety and legal liability can force even a well-funded consumer AI product to sell itself off piecemeal — worth remembering the next time \"move fast\" feels like the only option."
+      },
+      {
+        "headline": "An AI Company Lets Cops Pinpoint Houses From a Single Interior Photo",
+        "url": "https://404media.co/ai-company-lets-cops-pinpoint-specific-houses-based-on-a-single-interior-photo",
+        "source": "404 Media",
+        "blurb": "Graylark's Raven tool, bought by the Los Angeles Police Department and the Miami-Dade Sheriff's Office, can now match a single interior photo to a specific address by cross-referencing property photos scraped from sites like Airbnb and Zillow. Both platforms told 404 Media they have no relationship with Graylark and that scraping violates their terms, but neither explained how the company got its images.",
+        "pm_note": "A reminder that a product built on scraped third-party data carries legal and reputational risk the moment law enforcement or a platform's own terms-of-service team starts asking where the training data came from."
+      }
+    ],
+    "tech_more": [],
+    "tech_101": [
+      {
+        "term": "Stalking-horse bid",
+        "text": "An initial, pre-arranged offer in a bankruptcy sale — like Disney's $20 million bid for Character.AI's assets — that sets a floor price other bidders have to beat, rather than necessarily being the final sale price."
+      },
+      {
+        "term": "Interior geolocation",
+        "text": "Matching unique, identifiable details in a photo — furniture, fixtures, layout — to a specific real-world address by cross-referencing property-listing databases, the technique behind tools like Raven, and a reminder that an \"anonymous\" photo of a room often isn't."
+      }
+    ],
+    "science": [
+      {
+        "headline": "AI Maps Nearly 10,000 Hidden Chemical Pathways for Turning CO2 Into Fuel",
+        "url": "https://sciencedaily.com/releases/2026/10/261013015758.htm",
+        "source": "ScienceDaily",
+        "kind": "chemistry",
+        "blurb": "Indian Institute of Science researchers combined machine learning with quantum simulations to map nearly 9,400 possible reactions for converting CO2 into fuel on a copper catalyst, far beyond the handful of steps older models tracked. The expanded picture revealed hydrogen can transfer to reaction intermediates as whole H2 molecules rather than only single atoms, a pathway standard models had missed entirely."
+      },
+      {
+        "headline": "Milky Way's Planetary Systems Sort Into Two Distinct 'Families,' Study Finds",
+        "url": "https://www.space.com/astronomy/exoplanets/planetary-genealogy-milky-way-worlds-belong-to-1-of-2-families-scientists-find",
+        "source": "Space.com",
+        "kind": "space",
+        "blurb": "Surveying 300 well-characterized planetary systems, an Italian-led team found two architectures tied to the host star's mass: compact \"peas-in-a-pod\" systems of small, similarly sized planets around Sun-like stars, versus wider, more massive systems around bigger stars. The findings, published in Nature Astronomy, suggest a star's own properties shape the planets that form around it."
+      }
+    ],
+    "philosophy": [
+      {
+        "headline": "The Politics of Masculinity at the End of the Roman Republic",
+        "url": "https://aeon.co/essays/the-politics-of-masculinity-at-the-end-of-the-roman-republic",
+        "source": "Aeon",
+        "blurb": "Classicist Catharine Edwards traces how Cicero reworked Roman virtus — originally just \"courage in war\" — into a subtler ideal of self-control and emotional discipline rather than boastful domination. A study of how a culture's core vocabulary of virtue can shift meaning while its gendered roots stay intact."
+      }
+    ],
+    "philosophy_101": [
+      {
+        "term": "Virtus",
+        "text": "The Latin root of \"virtue,\" originally meaning simply courage in battle. Cicero's generation stretched its sense toward self-mastery and moral excellence, showing how even a culture's core ethical vocabulary can be rewritten from within."
+      }
+    ]
+  }
+}
