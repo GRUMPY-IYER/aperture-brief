@@ -1,0 +1,120 @@
+{
+  "date": "2026-10-23",
+  "sections": {
+    "politics": {
+      "top": [
+        {
+          "headline": "Supreme Court Leaves Pause on Trump's Trans Prison Policy in Place",
+          "url": "https://www.opb.org/article/2026/10/21/scotus-allows-gender-affirming-care-as-litigation-continues/",
+          "source": "OPB",
+          "blurb": "The Supreme Court declined Wednesday to lift a lower court's block on a Bureau of Prisons policy that would have ended hormone therapy for transgender federal inmates, offering no explanation in its unsigned order. Justices Clarence Thomas and Samuel Alito said they would have granted the administration's request; the underlying case, representing roughly 1,000 inmates with a gender dysphoria diagnosis, continues in the lower courts."
+        },
+        {
+          "headline": "DOJ Says It's Close to Fielding 1,000 Election Monitors for the Midterms",
+          "url": "https://www.notus.org/trump-white-house/doj-election-midterm-monitors",
+          "source": "NOTUS",
+          "blurb": "Civil Rights Division chief Harmeet Dhillon said the Justice Department is close to fully staffing the 1,000 federal monitors it plans to send to polling places in November, telling Real America's Voice \"we're pretty close to that number of people who've raised their hands.\" She has framed the monitors as observers checking on voting-access barriers and fraud rather than enforcers, even as DOJ has lost nearly two dozen of the more than 30 lawsuits it has filed seeking unredacted state voter rolls."
+        }
+      ],
+      "more": []
+    },
+    "india": {
+      "top": [
+        {
+          "headline": "UN Experts Urge India to Stop 'Excessive Force' Against SIR Protesters",
+          "url": "https://www.aljazeera.com/news/2026/10/21/un-experts-call-on-india-to-stop-using-excessive-force-against-protesters",
+          "source": "Al Jazeera",
+          "blurb": "More than 20 independent UN human rights experts called on Indian authorities to immediately stop using excessive force against demonstrators protesting the Election Commission's voter-roll revision, citing lathi charges on unarmed students and more than 7,000 reported detentions in and around New Delhi. They also raised concern about reports of sexual violence in detention and urged an independent investigation; India's government rejected the statement as resting on unverified claims."
+        }
+      ],
+      "more": [
+        {
+          "headline": "Delhi Police Can't Account for Dozens of Phones Seized From Protesters",
+          "url": "https://www.newslaundry.com/2026/10/20/the-curious-case-of-protesters-missing-phones-neither-fir-for-snatching-nor-memo-for-seizure",
+          "source": "Newslaundry",
+          "investigative": true,
+          "blurb": "Newslaundry found at least 24 phones seized from detainees in Delhi's anti-SIR crackdown remain unaccounted for, with police filing only an e-FIR on theft rather than registering the seizures themselves."
+        }
+      ]
+    },
+    "geo": {
+      "top": [
+        {
+          "headline": "Hormuz Tanker Attacks Stay Elevated as Iran War Grinds On",
+          "url": "https://seatrade-maritime.com/security/fire-on-kotc-vessel-struck-off-oman-tanker-hit-near-iraq",
+          "source": "Seatrade Maritime",
+          "blurb": "A Kuwaiti-flagged tanker caught fire after an unknown projectile struck it off Oman early Wednesday, a day after another tanker was hit near Iraq's coast — crews were reported safe in both cases. Maritime security analysts count at least 28 confirmed attacks on tankers in the Strait of Hormuz and surrounding waters this month alone, though the pace has slowed from early October, and no group has claimed the latest strikes."
+        }
+      ],
+      "more": []
+    },
+    "sports": {
+      "top": [],
+      "more": []
+    },
+    "entertainment": {
+      "top": [],
+      "more": []
+    },
+    "bengal": [],
+    "travel": [
+      {
+        "headline": "Lonely Planet's Fall Travel Trends: Japan Tops the List",
+        "url": "https://www.lonelyplanet.com/articles/fall-travel-trends-in-2026",
+        "source": "Lonely Planet",
+        "blurb": "Lonely Planet ranked Japan first among 15 trending fall destinations this year, based on guidebook sales growth between late August and late September, with Italy's quieter off-peak season placing second."
+      },
+      {
+        "headline": "Flames Reach the Edge of a Borneo Orangutan Rehabilitation Center",
+        "url": "https://news.mongabay.com/2026/08/flames-reach-edge-of-orangutan-rehabilitation-center-with-fire-season-set-to-intensify/",
+        "source": "Mongabay",
+        "blurb": "Mongabay reports that wildfires reached the edge of a West Kalimantan orangutan rehabilitation center as Indonesia's fire season intensified, after conservationists had already rescued a male orangutan from farmland near expanding blazes nearby."
+      }
+    ],
+    "tech_top": [
+      {
+        "headline": "AI Tools Helped Uncover a Critical Flaw Across Much of the Web's Backend",
+        "url": "https://www.axios.com/2026/10/21/php-openai-ai-bug-hunting-cyberattacks",
+        "source": "Axios",
+        "blurb": "Security researchers used AI tools to uncover two critical PHP vulnerabilities, rated 9.2 out of 10 for severity, that could let an attacker take over a server with no login needed — flaws in a language that still runs the backend of roughly 70% of websites whose server language is known. Finland and the Netherlands took some government sites offline as a precaution and the NSA urged organizations to patch immediately; accounts differ on exactly which AI tools found the bugs first.",
+        "pm_note": "AI-assisted vulnerability research is now fast enough to find critical bugs before attackers do — but that same speed cuts both ways once adversaries adopt it too."
+      }
+    ],
+    "tech_more": [
+      {
+        "headline": "This 'Digital Camouflage' Shirt Confuses AI Surveillance Cameras",
+        "url": "https://www.404media.co/this-digital-camouflage-shirt-confuses-ai-powered-surveillance-cameras/",
+        "source": "404 Media",
+        "blurb": "404 Media tested artist Simon Weckert's $88 \"Digital Camouflage\" shirt, designed to fool the YOLO object-detection model used in cameras like those at a Berlin transit hub, and found it reliably erased the wearer's \"PERSON\" tag on a live demo feed."
+      }
+    ],
+    "tech_101": [
+      {
+        "term": "CVSS score",
+        "text": "A 0-to-10 industry scale for how severe a software vulnerability is. The PHP flaws found this week scored 9.2, meaning an attacker could potentially take over a server without even logging in."
+      },
+      {
+        "term": "AI-assisted vulnerability research",
+        "text": "Using AI models to scan code for exploitable bugs faster than a human team could alone — the same technique security researchers and criminals are both racing to use first."
+      }
+    ],
+    "science": [
+      {
+        "headline": "A Solvent-Free Way to Recycle Acrylic Glass Back Into Its Building Blocks",
+        "url": "https://www.chemistryworld.com/news/hats-off-for-new-lower-temperature-route-to-unzip-plexiglass-for-recycling/4024240.article",
+        "source": "Chemistry World",
+        "kind": "chemistry",
+        "blurb": "Chemistry World reports that Athina Anastasaki's group at ETH Zurich has found what they call the first chemical recycling route for acrylic glass (PMMA) that works below 200°C, far cooler than the 400°C-plus pyrolysis usually needed. The method needs no solvent and no light irradiation and works on ordinary commercial PMMA, making it a more realistic candidate for scaling up than earlier lab techniques that needed specially engineered plastic."
+      },
+      {
+        "headline": "Scientists Redate a Famous 'Space Weather' Train Delay by Seven Years",
+        "url": "https://sciencedaily.com/releases/2026/10/261020085021.htm",
+        "source": "ScienceDaily",
+        "kind": "space",
+        "blurb": "A Lancaster University-led team has shown that a celebrated 1871 account of solar activity delaying an Exeter train by 16 minutes couldn't have happened in 1841 as long assumed, since the rail line didn't exist yet, and matched old timetables and Greenwich magnetic observatory records instead to October 1848. The correction, published in the journal Space Weather, fixes a 178-year-old error in one of the earliest known cases of a solar storm disrupting human infrastructure."
+      }
+    ],
+    "philosophy": [],
+    "philosophy_101": []
+  }
+}
