@@ -1,0 +1,208 @@
+{
+  "date": "2026-10-24",
+  "sections": {
+    "politics": {
+      "top": [
+        {
+          "headline": "DOJ Sues to Block Alaska Election Results if Sullivan Loses",
+          "url": "https://www.axios.com/2026/10/23/trump-administration-sues-alaska-dan-sullivan",
+          "source": "Axios",
+          "blurb": "The Justice Department sued Alaska to delay certifying November's Senate results if incumbent Dan Sullivan loses, arguing a same-named write-in candidate could confuse voters. Election-law scholars called the theory thin, noting the statute DOJ cited doesn't authorize blocking certification. The suit lands two weeks before the midterms, as DOJ's election push widens."
+        },
+        {
+          "headline": "Judge Curbs Trump Administration's Noncitizen-Voting Investigations",
+          "url": "https://www.axios.com/2026/10/22/trump-noncitizen-voting-investigation-restricted-judge",
+          "source": "Axios",
+          "blurb": "A federal judge limited DHS investigations into suspected noncitizen voting across nine states, ruling the tactics risked intimidating eligible voters ahead of the midterms. DHS said it has no plans to question citizens, but Los Angeles County officials separately called a DOJ list of 20,000 'likely' noncitizens unreliable."
+        },
+        {
+          "headline": "Trump Administration to Mandate Chip Cards for SNAP After Theft Investigation",
+          "url": "https://www.propublica.org/article/snap-theft-chip-cards-trump-rule",
+          "source": "ProPublica",
+          "investigative": true,
+          "blurb": "Following a ProPublica investigation that found $470 million in SNAP benefits stolen last year via outdated magnetic-stripe cards, USDA has proposed requiring all 50 states to switch to microchipped EBT cards. States get two years to comply, but officials worry Congress has shown little sign it will fund the roughly $283 million switch."
+        }
+      ],
+      "more": []
+    },
+    "india": {
+      "top": [
+        {
+          "headline": "Karnataka's SIR Draft Purge Removes 19% of Voters Ahead of Final Rolls",
+          "url": "https://scroll.in/latest/1095232/karnataka-sir-19-voters-removed-from-draft-list",
+          "source": "Scroll.in",
+          "blurb": "Karnataka's Special Intensive Revision draft rolls excluded 19% of registered voters, with appeals heard through October 22 ahead of the final electoral roll due October 27. Opposition parties and activists warn the house-to-house exercise risks disenfranchising eligible voters, even after the Supreme Court upheld its legality in May."
+        },
+        {
+          "headline": "Bihar's SIR Rolls Show Nearly 3 Lakh Voters Listed at House Number 'Zero'",
+          "url": "https://www.thenewsminute.com/news/exclusive-bihar-sir-rolls-reveal-292048-voters-with-house-number-0",
+          "source": "The News Minute",
+          "investigative": true,
+          "blurb": "An exclusive analysis of Bihar's Special Intensive Revision data found 2,92,048 voters recorded with house number '0', a red flag for addresses never properly verified. The finding adds to concerns that the revision's rushed timeline left large gaps in the very rolls it was meant to clean up."
+        }
+      ],
+      "more": []
+    },
+    "geo": {
+      "top": [
+        {
+          "headline": "Russia and Ukraine Agree to Resume Peace Talks in Abu Dhabi",
+          "url": "https://www.aljazeera.com/news/2026/10/23/russia-ukraine-talks-planned-for-november-in-uae-kremlin",
+          "source": "Al Jazeera",
+          "blurb": "The Kremlin says a new trilateral round with Ukraine and the US is planned for the first half of November in Abu Dhabi, with Putin aide Yuri Ushakov citing November 10. Zelenskyy confirmed Ukrainian negotiators will attend, though both sides remain far apart on territory and security guarantees."
+        },
+        {
+          "headline": "Romania Blames Russia After Drone Sinks Ship in the Black Sea",
+          "url": "https://www.aljazeera.com/news/2026/10/23/romania-blames-russia-after-drone-sinks-ship-in-the-black-sea",
+          "source": "Al Jazeera",
+          "blurb": "Romania accused Russia of sinking a vessel in the Black Sea with a drone strike, the latest incident to raise fears of the war spilling into NATO waters. Bucharest said it was assessing the damage and consulting with allies over how to respond."
+        },
+        {
+          "headline": "Sudan's War Is Reviving a Much Older Map of the Region",
+          "url": "https://www.noemamag.com/sudan-as-a-mirror-for-todays-world/",
+          "source": "Noema",
+          "blurb": "Noema's Alden Young and Muez Ali argue Sudan's civil war has resurrected 19th-century patterns of state formation and trade, as the RSF severs the colonial-era corridor from Khartoum to Port Sudan and sets up a rival capital in Nyala. The war, they argue, mirrors a world drifting back toward contested, overlapping sovereignties."
+        }
+      ],
+      "more": []
+    },
+    "sports": {
+      "top": [
+        {
+          "headline": "Glenn Phillips' 82 Not Enough as India Edge New Zealand in Series Opener",
+          "url": "https://www.cricinfo.com/series/india-in-new-zealand-2026-27-1539421/new-zealand-vs-india-1st-t20i-1539432/full-scorecard",
+          "source": "ESPNcricinfo",
+          "blurb": "New Zealand posted 225 for 4 at Hagley Oval behind Glenn Phillips' unbeaten 82 off 40 balls, but India chased it down with 230 for 6, winning the series-opening T20I by four wickets with two balls to spare in Christchurch."
+        }
+      ],
+      "more": []
+    },
+    "entertainment": {
+      "top": [
+        {
+          "headline": "'You Can See Everything' Review: Nathan Fielder's Elizabeth Holmes Documentary Is Full of Surprises",
+          "url": "https://www.npr.org/2026/10/16/nx-s1-6003625/elizabeth-holmes-nathan-fielder-documentary-review",
+          "source": "NPR",
+          "blurb": "Nathan Fielder's documentary, built from access Elizabeth Holmes granted ahead of her prison sentence, resists the easy redemption-or-villain frame true-crime films usually reach for. NPR's critic calls it genuinely gripping even though the facts of the Theranos fraud itself are not really in dispute."
+        }
+      ],
+      "more": []
+    },
+    "bengal": [
+      {
+        "headline": "Suvendu Adhikari Claims BJP Can Win 275-MLA Support in Floor Test",
+        "url": "https://thefederal.com/category/states/east/west-bengal/west-bengal-cm-adhikari-bjp-can-muster-support-of-275-mlas-floor-test-260242",
+        "source": "The Federal",
+        "blurb": "Bengal's BJP chief minister claimed 64 TMC-ticket MLAs would back the ruling party in a floor test, a number the TMC immediately disputed."
+      },
+      {
+        "headline": "TMC's Kirti Azad Alleges Vandalism at Bengal Party Office; BJP Denies Role",
+        "url": "https://www.thestatesman.com/cities/kolkata/nameplate-in-dustbin-documents-missing-kirti-azad-alleges-vandalism-at-bengal-party-office-1503653165",
+        "source": "The Statesman",
+        "blurb": "The TMC MP said his party's Burdwan office was ransacked and its nameplate dumped, but the local BJP secretary denied any involvement."
+      }
+    ],
+    "travel": [
+      {
+        "headline": "Everything You Need to Know About Visiting Slovenia on a Budget",
+        "url": "https://www.lonelyplanet.com/articles/slovenia-on-a-budget",
+        "source": "Lonely Planet",
+        "blurb": "Lonely Planet's updated guide finds Ljubljana still runs cheap, from €1.30 bus tickets to a city card bundling museum entry with the castle funicular."
+      },
+      {
+        "headline": "Mozambique Safari Operator Wins Conservation Award as Buffalo Herds Rebound",
+        "url": "https://news.mongabay.com/short-article/2026/10/mozambique-safari-operator-wins-conservation-award-at-cop17",
+        "source": "Mongabay",
+        "blurb": "A Zambezi Delta operator won the 2026 Markhor Award at COP17, with African buffalo numbers it reports growing from roughly 1,100 to 35,000 since the project began."
+      }
+    ],
+    "happy": {
+      "headline": "When the Pianos Went to War",
+      "url": "https://www.atlasobscura.com/articles/victory-verticals-steinway-pianos",
+      "source": "Atlas Obscura",
+      "blurb": "Steinway built thousands of indestructible, legless 'Victory Vertical' pianos for WWII troops, parachuting morale into the Pacific and onto USO stages alike."
+    },
+    "tech_top": [
+      {
+        "headline": "OpenAI Will Stop Training Models on the Live Internet",
+        "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+        "source": "TechCrunch",
+        "pm_note": "A shift from live scraping to cached, simulated web data is a tacit admission that uncontrolled training inputs are now a liability — worth tracking if you rely on any vendor's frontier model.",
+        "blurb": "OpenAI says future models will train on cached and simulated copies of the internet rather than the live web, calling live access too unpredictable to control safely. The move follows Anthropic's own restriction on live-internet access for its newest models two weeks earlier."
+      },
+      {
+        "headline": "OpenAI Reportedly Raising $30B at a $1.25 Trillion Valuation Ahead of IPO",
+        "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+        "source": "TechCrunch",
+        "pm_note": "Pre-IPO valuations this size reset what 'reasonable' AI infrastructure spend looks like industry-wide, including for the vendors and competitors you benchmark against.",
+        "blurb": "OpenAI is reportedly negotiating a new funding round of up to $30 billion at a $1.25 trillion pre-money valuation, led by Coatue and UAE investors, as it positions for an eventual public offering. Terms are still being finalized."
+      },
+      {
+        "headline": "Texas Suspends 17 Data Center Permits After 404 Media Exposed a Loophole",
+        "url": "https://www.404media.co/texas-commission-on-environmental-quality-portal-down/",
+        "source": "404 Media",
+        "investigative": true,
+        "pm_note": "A regulatory pause announced for optics but not enforced in the permitting backend is a pattern worth recognizing in any compliance claim your own company makes.",
+        "blurb": "Texas quietly kept approving data center construction permits even after the state announced a pause, 404 Media found. After the story ran, Texas shut down its online permitting portal entirely and suspended the 17 projects it had let through anyway."
+      }
+    ],
+    "tech_more": [
+      {
+        "headline": "Left Alone With Nothing to Do, AI Agents Started Playing",
+        "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
+        "source": "TechCrunch",
+        "blurb": "MIT researchers put AI agents on a virtual island with no tasks, and the agents invented games, mourned a lost ring, and got better at their actual jobs anyway."
+      }
+    ],
+    "tech_101": [
+      {
+        "term": "Foundation model",
+        "text": "A foundation model is a large AI system trained once on broad data, then adapted — via smaller follow-up training or prompts — to many specific tasks, rather than built from scratch for each one."
+      },
+      {
+        "term": "Pre-money valuation",
+        "text": "Pre-money valuation is what a company is said to be worth right before new investment money comes in; add the new cash to get the 'post-money' figure investors actually own a slice of."
+      }
+    ],
+    "science": [
+      {
+        "headline": "A Hair's-Width Mirror Shift Made NASA's Roman Telescope 30% Sharper",
+        "url": "https://sciencedaily.com/releases/2026/10/261016070630.htm",
+        "source": "ScienceDaily",
+        "kind": "space",
+        "blurb": "NASA engineers nudged the Roman Space Telescope's secondary mirror by about one-sixteenth the width of a human hair, pushing its optical precision past its original target and its main camera to nearly 30% sharper images than predicted. The telescope's coronagraph, initially slightly out of focus, now also meets expectations."
+      },
+      {
+        "headline": "Chemists Isolate a Uranium 'Sandwich' Molecule That Eluded Them for 50 Years",
+        "url": "https://phys.org/news/2026-10-elusive-uranium-sandwich-molecule-isolated.html",
+        "source": "Phys.org",
+        "kind": "chemistry",
+        "blurb": "Researchers isolated uranocenium, the long-sought charged form of the uranium sandwich compound uranocene, in a stable form after more than five decades of attempts. The discovery, made partly by chance during an unrelated reaction, challenges assumptions about how heavy elements like uranium bond with their surrounding ligands."
+      }
+    ],
+    "philosophy": [
+      {
+        "headline": "Moral Responsibility Without Free Will",
+        "url": "https://iai.tv/articles/moral-responsibility-without-free-will-auid-2115",
+        "source": "IAI News",
+        "blurb": "Galen Strawson argues free will is impossible under either determinism or indeterminism, yet insists we cannot simply drop our everyday sense that people are responsible for what they do. The essay sits with that contradiction rather than resolving it, treating it as a basic fact about human life."
+      },
+      {
+        "headline": "Free Will Is an Invention",
+        "url": "https://iai.tv/articles/free-will-is-an-invention-alexandre-fillon-auid-2575",
+        "source": "IAI News",
+        "blurb": "Alexandre Fillon revisits Nietzsche's case that free will is a fiction invented to make guilt and punishment feel justified, not a fact about how choices actually happen. Dropping the fiction, Fillon argues, doesn't flatten moral life — it relocates it onto character and consequence instead of blame."
+      }
+    ],
+    "philosophy_101": [
+      {
+        "term": "Hard determinism",
+        "text": "Hard determinism is the view that every event, including every human choice, is the inevitable result of prior causes — so free will, in the sense of genuinely being able to have done otherwise, doesn't exist."
+      },
+      {
+        "term": "Compatibilism",
+        "text": "Compatibilism tries to keep moral responsibility even if determinism is true, by redefining 'free' to mean acting from your own reasons and desires without external coercion — not escaping causation altogether."
+      }
+    ]
+  }
+}
