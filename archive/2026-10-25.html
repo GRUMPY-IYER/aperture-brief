@@ -1,0 +1,950 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Aperture — Sunday, October 25, 2026</title>
+<style>
+  body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    color: #1a1a1a;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 32px 24px;
+    background: #fdfcf7;
+  }
+  header { text-align: center; border-bottom: 4px double #1a1a1a; padding-bottom: 14px; margin-bottom: 20px; position: relative; }
+  .header-logo { position: absolute; top: 0; left: 0; width: 60px; height: 60px; object-fit: contain; }
+  @media (max-width: 520px) { .header-logo { width: 40px; height: 40px; } }
+  .masthead { font-size: 46px; font-weight: bold; letter-spacing: 1px; margin: 0; }
+  .dateline-row {
+    display: flex; justify-content: space-between; font-family: Arial, sans-serif;
+    font-size: 11px; letter-spacing: 1px; text-transform: uppercase; color: #555;
+    border-top: 1px solid #999; border-bottom: 1px solid #999; padding: 4px 2px; margin-top: 10px;
+  }
+  .archive-nav input[type="date"] {
+    font-family: Arial, sans-serif; font-size: 11px; color: #555; border: 1px solid #999;
+    background: #fdfcf7; padding: 1px 4px; letter-spacing: normal; text-transform: none;
+  }
+  /* Both columns are flex stacks so a reader preference can reorder them with
+     CSS `order` alone — no rebuild, no second page, and if JavaScript never
+     runs the document order below is what everyone sees. */
+  .main-col, .side-col { display: flex; flex-direction: column; }
+  .featured { order: 0; }   /* always first, whoever is reading */
+  .politics { order: 1; } .apu-corner-section { order: 2; }
+  .geo { order: 3; } .sports { order: 4; } .showcase { order: 9; }
+  .tech-desk { order: 1; } .science-desk { order: 2; }
+  .philosophy-desk { order: 3; } .entertainment { order: 4; }
+  /* Apu reads India first, and science before the technology desk. */
+  body[data-reader="apu"] .apu-corner-section { order: 1; }
+  body[data-reader="apu"] .politics { order: 2; }
+  body[data-reader="apu"] .science-desk { order: 1; }
+  body[data-reader="apu"] .tech-desk { order: 2; }
+  .reader-pick button { font-family: Arial, sans-serif; font-size: 11px; letter-spacing: .5px;
+    text-transform: uppercase; color: #555; background: none; border: 1px solid #bbb;
+    padding: 1px 6px; margin-left: 3px; cursor: pointer; }
+  .reader-pick button[aria-pressed="true"] { background: #1a1a1a; color: #fdfcf7; border-color: #1a1a1a; }
+  .page { display: grid; grid-template-columns: 1.7fr 1fr; gap: 0; }
+  @media (max-width: 900px) { .page { grid-template-columns: 1fr; } }
+  .main-col { padding-right: 28px; border-right: 3px double #1a1a1a; }
+  @media (max-width: 900px) { .main-col { border-right: none; padding-right: 0; } }
+  .side-col { padding-left: 28px; }
+  @media (max-width: 900px) { .side-col { padding-left: 0; margin-top: 20px; } }
+  section { margin-bottom: 26px; padding-bottom: 18px; border-bottom: 1px solid #ccc; }
+  h2 {
+    font-size: 19px; font-weight: bold; text-transform: uppercase; letter-spacing: 1.8px;
+    border-top: 3px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; padding: 5px 0; margin: 0 0 12px;
+  }
+  .tag { font-family: Arial, sans-serif; font-weight: normal; text-transform: none; letter-spacing: 0; font-size: 11px; color: #888; }
+  /* One flowing container per section. The browser measures the content and
+     evens the two columns itself, so a section can gain or lose stories and
+     still come out level. Replaces two fixed lists that could never balance. */
+  .flow { columns: 2; column-gap: 22px; column-rule: 1px solid #ccc; }
+  .flow > div { break-inside: avoid; -webkit-column-break-inside: avoid; }
+  @media (max-width: 900px) { .flow { columns: 1; column-rule: none; } }
+  /* The day's lead story spans the full width above the flow. */
+  .lede { column-span: all; padding-bottom: 14px; margin-bottom: 16px;
+          border-bottom: 2px solid #1a1a1a; }
+  .lede h3 { font-size: 25px !important; line-height: 1.18; }
+  .lede .blurb { font-size: 14px; }
+  .single { display: block; }
+  .top-item { margin-bottom: 14px; padding-bottom: 12px; border-bottom: 1px dotted #ccc; }
+  .top-item:last-child { border-bottom: none; }
+  .top-item h3 { margin: 0 0 3px; font-size: 17px; line-height: 1.25; text-wrap: pretty; }
+  .top-item h3 a { color: #1a1a1a; text-decoration: none; }
+  .top-item h3 a:hover { text-decoration: underline; }
+  .source { font-family: Arial, sans-serif; font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.5px; font-weight: bold; color: #a08030; }
+  .blurb { margin: 4px 0 0; font-size: 13.5px; color: #333; line-height: 1.5; }
+  .pm-note { margin: 5px 0 0; font-size: 12.5px; color: #444; font-style: italic; }
+  .pm-note b { font-style: normal; color: #1a1a1a; }
+  .more-item { margin-bottom: 11px; padding-bottom: 10px; border-bottom: 1px dotted #ddd; display: flex; gap: 8px; align-items: flex-start; }
+  .more-item img { width: 56px; height: auto; max-height: 78px; border-radius: 3px; flex-shrink: 0; display: block; }
+  .more-item h4 { margin: 0; font-size: 13.5px; line-height: 1.3; text-wrap: pretty; }
+  .more-item h4 a { color: #1a1a1a; text-decoration: none; }
+  .more-item h4 a:hover { text-decoration: underline; }
+  .more-item .source { font-size: 9.5px; }
+  .more-item p { margin: 3px 0 0; font-size: 12px; color: #555; }
+  .investigative-flag { display: inline-block; font-family: Arial, sans-serif; font-size: 8.5px; font-weight: bold; letter-spacing: 0.5px; text-transform: uppercase; color: #fff; background: #7a1f0f; padding: 1px 5px; border-radius: 2px; margin-left: 6px; vertical-align: middle; }
+  .politics h2, .politics .source { color: #7a1f0f; border-color: #7a1f0f; }
+  .apu-corner-section h2, .apu-corner-section .source { color: #9c3d5c; border-color: #9c3d5c; }
+  .geo h2, .geo .source { color: #12345c; border-color: #12345c; }
+  .sports h2, .sports .source { color: #8a5a00; border-color: #8a5a00; }
+  .entertainment h2, .entertainment .source { color: #7a2a5c; border-color: #7a2a5c; }
+  .side-col .tech-masthead { text-align: center; font-family: Arial, sans-serif; font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: #2b4a52; font-weight: bold; margin-bottom: 6px; }
+  .tech h2 { color: #2b4a52; border-color: #2b4a52; font-size: 21px; }
+  .tech .source { color: #2b4a52; }
+  .tech .top-item h3 { font-size: 18px; }
+  .side-col .science h2, .side-col .science .source { color: #1f5f5b; border-color: #1f5f5b; font-size: 19px; }
+  .side-col .science .top-item h3 { font-size: 16px; }
+  .side-col .consciousness h2, .side-col .consciousness .source { color: #4a2470; border-color: #4a2470; font-size: 19px; }
+  .side-col .consciousness .top-item h3 { font-size: 16px; }
+  .side-col .entertainment h2 { font-size: 19px; }
+  .side-col .entertainment .top-item h3 { font-size: 16px; }
+  .primer-box { background: #eef3f2; border: 1px solid #2b4a52; padding: 14px 16px; margin-top: 8px; }
+  .primer-box h5 { margin: 0 0 8px; font-family: Arial, sans-serif; font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: #2b4a52; }
+  .primer-item { margin-bottom: 10px; }
+  .primer-item:last-child { margin-bottom: 0; }
+  .primer-item .term { font-weight: bold; font-size: 14px; }
+  .primer-item p { margin: 2px 0 0; font-size: 12.5px; color: #444; line-height: 1.45; }
+  .apu-sub { font-family: Arial, sans-serif; font-size: 9.5px; letter-spacing: 1px; text-transform: uppercase; color: #9c3d5c; font-weight: bold; margin: 10px 0 5px; }
+  .apu-corner { column-span: all; margin-top: 14px; padding-top: 12px; border-top: 1px dashed #9c3d5c;
+                display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; align-items: start; }
+  @media (max-width: 900px) { .apu-corner { grid-template-columns: 1fr; } }
+  .apu-sub:first-child { margin-top: 0; }
+  .apu-item { display: flex; gap: 8px; margin-bottom: 10px; align-items: flex-start; }
+  .apu-item img { width: 56px; height: auto; max-height: 78px; border-radius: 3px; flex-shrink: 0; display: block; }
+  .apu-item .apu-text h4 { margin: 0; font-size: 12.5px; line-height: 1.3; }
+  .apu-item .apu-text h4 a { color: #1a1a1a; text-decoration: none; }
+  .apu-item .apu-text p { margin: 3px 0 0; font-size: 11.5px; color: #555; }
+  .apu-happy { background: #fdf6f9; border: 1px dashed #9c3d5c; padding: 8px 10px; border-radius: 4px; }
+  /* Photographs are sized by WIDTH ONLY, height:auto — their real aspect ratio
+     is preserved whatever it is (3:2, 4:3, 1:1, portrait). Never object-fit:
+     cover with a fixed height: that crops the subject out of the frame. */
+  .featured h2 { color: #4a5d3a; border-color: #4a5d3a; }
+  .featured .tag { color: #6b6157; }
+  /* Photo and its note sit side by side, so there is no reserved-but-empty space.
+     With nothing written about the frame yet, .bare lets the picture take the
+     full column instead of leaving a hole where text would have gone. */
+  .featured-body { display: grid; grid-template-columns: 1.5fr 1fr; gap: 20px; align-items: start; }
+  .featured-body.bare { grid-template-columns: 1fr; }
+  @media (max-width: 700px) { .featured-body { grid-template-columns: 1fr; } }
+  .frame-block { margin: 0; }
+  .frame-block img { width: 100%; height: auto; display: block; border: 1px solid #e0dcd2; }
+  .featured-body.bare .frame-block.portrait img { max-width: 320px; }
+  .featured-text h3 { font-size: 18px; line-height: 1.25; margin: 0 0 3px; }
+  .featured-meta { font-family: Arial, sans-serif; font-size: 10px; letter-spacing: 1px;
+    text-transform: uppercase; color: #4a5d3a; margin: 0 0 9px; font-weight: bold; }
+  .featured-note { font-size: 13.5px; color: #333; line-height: 1.5; margin: 0; }
+  .featured-research { font-size: 13px; color: #444; line-height: 1.5; margin: 9px 0 0;
+    padding-left: 10px; border-left: 2px solid #4a5d3a; }
+  /* Camera settings on one line, the way a photographer writes them. */
+  .exif { font-family: Arial, sans-serif; font-size: 10px; letter-spacing: .4px;
+    color: #6b6157; margin: 11px 0 0; padding-top: 9px; border-top: 1px solid #e0dcd2;
+    font-variant-numeric: tabular-nums; line-height: 1.45; }
+  /* The describe control is an authoring aid, not something Apu needs to see. */
+  #flick-fill { display: none; background: none; border: 1px solid #bbb; cursor: pointer;
+    font-family: Arial, sans-serif; font-size: 9.5px; letter-spacing: .5px;
+    text-transform: uppercase; color: #6b6157; padding: 1px 6px; margin-left: 6px; }
+  #flick-fill:hover { border-color: #4a5d3a; color: #4a5d3a; }
+  body[data-reader="ganges"] #flick-fill { display: inline-block; }
+  #flick-modal { position: fixed; inset: 0; z-index: 50; background: rgba(26,26,26,.4);
+    display: flex; align-items: center; justify-content: center; padding: 20px; }
+  #flick-modal[hidden] { display: none; }
+  .flick-card { background: #fdfcf7; border: 3px double #1a1a1a; max-width: 520px; width: 100%;
+    max-height: 88vh; overflow-y: auto; padding: 22px 24px; }
+  .flick-card h2 { font-size: 19px; text-transform: uppercase; letter-spacing: 1.8px;
+    border: none; padding: 0; margin: 0 0 6px; }
+  .flick-lede { font-size: 12.5px; color: #6b6157; line-height: 1.5; margin: 0 0 16px; }
+  .flick-lede code { font-family: ui-monospace, Menlo, monospace; font-size: 11.5px;
+    background: #efece2; padding: 1px 4px; }
+  .flick-card label { display: block; font-family: Arial, sans-serif; font-size: 10px;
+    letter-spacing: 1px; text-transform: uppercase; color: #6b6157; margin-bottom: 12px; }
+  .flick-card input, .flick-card textarea { display: block; width: 100%; margin-top: 4px;
+    font-family: Georgia, serif; font-size: 14px; color: #1a1a1a; background: #fff;
+    border: 1px solid #bbb; padding: 6px 8px; text-transform: none; letter-spacing: normal; }
+  .flick-card textarea { resize: vertical; line-height: 1.45; }
+  #flick-json { font-family: ui-monospace, Menlo, monospace; font-size: 11px; line-height: 1.45;
+    background: #efece2; border: 1px solid #ddd7cb; padding: 10px; overflow-x: auto;
+    white-space: pre; margin: 0 0 14px; max-height: 190px; }
+  .flick-actions { display: flex; gap: 8px; }
+  .flick-actions button { font-family: Arial, sans-serif; font-size: 11px; letter-spacing: .5px;
+    text-transform: uppercase; padding: 6px 12px; border: 1px solid #1a1a1a;
+    background: none; cursor: pointer; color: #1a1a1a; }
+  #flick-copy, #flick-save { background: #1a1a1a; color: #fdfcf7; }
+  .flick-actions button[hidden] { display: none; }
+  .flick-status { font-family: Arial, sans-serif; font-size: 11.5px; color: #4a5d3a;
+    margin: 10px 0 0; min-height: 1em; }
+  .flick-status.bad { color: #7a1f0f; }
+  #flick-json[hidden] { display: none; }
+  @media print { #flick-modal, #flick-fill { display: none !important; } }
+  .featured-by { font-family: Arial, sans-serif; font-size: 9.5px; letter-spacing: .8px;
+    text-transform: uppercase; color: #6b6157; margin: 10px 0 0; }
+  .featured-by a { color: #4a5d3a; text-decoration: none; }
+  .featured-by a:hover { text-decoration: underline; }
+  .section-photo { margin: 0 0 14px; break-inside: avoid; }
+  .section-photo img { width: 100%; height: auto; display: block; border: 1px solid #e0dcd2; }
+  .section-photo.portrait img { max-width: 74%; margin: 0 auto; }
+  .section-photo figcaption, .showcase figcaption { font-family: Arial, sans-serif; font-size: 9.5px;
+    letter-spacing: 1px; text-transform: uppercase; color: #4a5d3a; font-weight: bold; margin-top: 5px; }
+  .section-photo figcaption span, .showcase figcaption span { color: #6b6157; font-weight: normal; }
+  /* Everything past the fold. Native <details> — no JavaScript, so archived
+     editions keep working forever. */
+  details.fold { margin-top: 10px; }
+  details.fold > summary { font-family: Arial, sans-serif; font-size: 11px; letter-spacing: 1px;
+    text-transform: uppercase; font-weight: bold; color: #6b6157; cursor: pointer;
+    padding: 6px 0; border-top: 1px solid #ccc; list-style: none; }
+  details.fold > summary::-webkit-details-marker { display: none; }
+  details.fold > summary::after { content: " \002B"; font-size: 13px; }
+  details.fold[open] > summary::after { content: " \2212"; }
+  details.fold > summary:hover { color: #1a1a1a; }
+  details.fold > .flow { padding-top: 10px; }
+  /* ---- Saving stories ------------------------------------------------ */
+  .source-row { display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; }
+  .source-row .source { min-width: 0; }
+  button.save { flex-shrink: 0; background: none; border: none; padding: 0 0 0 6px; margin: -1px 0 0;
+    cursor: pointer; color: #bdb6a8; line-height: 1; }
+  button.save:hover { color: #7a1f0f; }
+  button.save[aria-pressed="true"] { color: #7a1f0f; }
+  button.save[aria-pressed="true"] svg path { fill: #7a1f0f; }
+  button.save:focus-visible, .saved-open-wrap button:focus-visible,
+  #saved-panel button:focus-visible { outline: 2px solid #7a1f0f; outline-offset: 2px; }
+  .saved-open-wrap button { font-family: Arial, sans-serif; font-size: 11px; letter-spacing: .5px;
+    text-transform: uppercase; color: #555; background: none; border: 1px solid #bbb;
+    padding: 1px 7px; cursor: pointer; display: inline-flex; align-items: center; gap: 5px; }
+  .saved-open-wrap button:hover { border-color: #1a1a1a; color: #1a1a1a; }
+  #saved-count { font-weight: bold; }
+
+  /* The browser's own [hidden] rule is `display: none` at the weakest possible
+     specificity, so an ID selector setting `display: flex` silently beats it and
+     the panel is stuck open. These two rules re-assert hiding at ID+attribute
+     specificity. This is why the panel appeared on load and would not close. */
+  #saved-panel[hidden], #saved-backdrop[hidden] { display: none; }
+  #saved-backdrop { position: fixed; inset: 0; background: rgba(26,26,26,.35); z-index: 40; }
+  #saved-panel { position: fixed; top: 0; right: 0; bottom: 0; width: min(400px, 92vw);
+    background: #fdfcf7; border-left: 3px double #1a1a1a; z-index: 41;
+    display: flex; flex-direction: column; box-shadow: -6px 0 24px rgba(26,26,26,.12); }
+  .saved-head { display: flex; align-items: center; justify-content: space-between;
+    padding: 18px 20px 10px; border-bottom: 1px solid #ccc; }
+  .saved-head h2 { font-size: 19px; font-weight: bold; text-transform: uppercase;
+    letter-spacing: 1.8px; margin: 0; border: none; padding: 0; }
+  #saved-close { background: none; border: none; font-size: 26px; line-height: 1;
+    color: #6b6157; cursor: pointer; padding: 0 2px; }
+  .saved-who { font-family: Arial, sans-serif; font-size: 10.5px; letter-spacing: .8px;
+    text-transform: uppercase; color: #6b6157; margin: 0; padding: 10px 20px 0; }
+  #saved-list { flex: 1; overflow-y: auto; padding: 12px 20px 20px; }
+  .saved-item { display: flex; gap: 10px; align-items: flex-start;
+    padding-bottom: 12px; margin-bottom: 12px; border-bottom: 1px dotted #ccc; }
+  .saved-item:last-child { border-bottom: none; }
+  .saved-item .meta { font-family: Arial, sans-serif; font-size: 9.5px; letter-spacing: .5px;
+    text-transform: uppercase; color: #6b6157; }
+  .saved-item h3 { font-size: 15px; line-height: 1.3; margin: 3px 0 0; font-weight: normal; }
+  .saved-item h3 a { color: #1a1a1a; text-decoration: none; }
+  .saved-item h3 a:hover { text-decoration: underline; }
+  .saved-item button { flex-shrink: 0; background: none; border: none; cursor: pointer;
+    color: #a89f92; font-size: 17px; line-height: 1; padding: 2px; }
+  .saved-item button:hover { color: #7a1f0f; }
+  .saved-empty { font-size: 13.5px; color: #6b6157; font-style: italic; line-height: 1.5; }
+  .saved-foot { border-top: 1px solid #ccc; padding: 12px 20px; }
+  #saved-export { font-family: Arial, sans-serif; font-size: 11px; letter-spacing: .5px;
+    text-transform: uppercase; color: #555; background: none; border: 1px solid #bbb;
+    padding: 4px 10px; cursor: pointer; }
+  #saved-export:hover { border-color: #1a1a1a; color: #1a1a1a; }
+  #saved-toast { position: fixed; left: 50%; bottom: 26px; transform: translateX(-50%);
+    background: #1a1a1a; color: #fdfcf7; font-family: Arial, sans-serif; font-size: 12.5px;
+    padding: 9px 16px; border-radius: 3px; z-index: 60; max-width: 88vw; text-align: center; }
+  @media print { .saved-open-wrap, button.save, #saved-panel, #saved-backdrop { display: none !important; } }
+  .showcase h2 { color: #4a5d3a; border-color: #4a5d3a; }
+  .showcase .tag { color: #6b6157; }
+  .showcase .frames { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; align-items: start; }
+  @media (max-width: 700px) { .showcase .frames { grid-template-columns: 1fr 1fr; } }
+  .showcase .frames a { display: block; }
+  .showcase .frames img { width: 100%; height: auto; display: block; border: 1px solid #e0dcd2; }
+  @media (max-width: 700px) { .showcase .frames a:first-child { grid-column: 1 / -1; } }
+</style>
+</head>
+<body>
+<header>
+  <img class="header-logo" src="../icons/icon-192.png" alt="Grumpy Iyer logo">
+  <h1 class="masthead">The Aperture</h1>
+  <div class="dateline-row">
+    <span>Sunday, October 25, 2026</span>
+    <span class="saved-open-wrap"><button type="button" id="saved-open" aria-expanded="false" aria-controls="saved-panel">
+      <svg viewBox="0 0 16 16" width="12" height="12" aria-hidden="true"><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+      Read Later <span id="saved-count">0</span></button></span>
+    <span class="reader-pick">Reading order:
+      <button type="button" data-reader-set="ganges">Ganges</button>
+      <button type="button" data-reader-set="apu">Apu</button>
+    </span>
+    <span class="archive-nav">Browse editions: <input type="date" id="archive-date" min="2026-08-01" max="2026-10-25" value="2026-10-25" onchange="if(this.value) location.href = '' + this.value + '.html'"></span>
+  </div>
+</header>
+<div class="page">
+  <div class="main-col">
+    <section class="featured">
+      <h2>Featured Flick <span class="tag">from the archive</span></h2>
+      <div class="featured-body bare">
+        <figure class="frame-block">
+          <a href="https://grumpyiyer.com" target="_blank" rel="noopener">
+            <img src="../wildlife/20260102-Cohoes Falls-5854.jpg" width="3139" height="2511"
+                 alt="Wildlife photograph, photographed by Ganges Bhardwaj">
+          </a>
+        </figure>
+        <div class="featured-text">
+          <p class="featured-meta">2026</p>
+          <p class="exif">Nikon Z 8 · 600mm · f/7.1 · 1/4000 · ISO 10000</p>
+          <p class="featured-by">Photograph by <a href="https://grumpyiyer.com" target="_blank" rel="noopener">Ganges Bhardwaj</a> · 2026-01-02
+            <button type="button" id="flick-fill" data-file="20260102-Cohoes Falls-5854.jpg"
+              data-subject="" data-where=""
+              data-note="" data-research=""
+              aria-label="Describe this photograph">&#9998; Describe</button></p>
+        </div>
+      </div>
+    </section>
+    <section class="politics">
+      <h2>US Politics</h2>
+      <div class="flow">
+        <div class="top-item">
+          <div class="source-row"><div class="source">Al Jazeera</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.aljazeera.com/news/2026/10/25/obama-slams-trumps-cruelty-and-corruption-at-ohio-rally-for-democrats" data-headline="Obama Rallies Ohio Democrats, Blasts Trump's 'Cruelty and Corruption'"
+            data-source="Al Jazeera" data-section="US Politics"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+          <h3><a href="https://www.aljazeera.com/news/2026/10/25/obama-slams-trumps-cruelty-and-corruption-at-ohio-rally-for-democrats" target="_blank">Obama Rallies Ohio Democrats, Blasts Trump's 'Cruelty and Corruption'</a></h3>
+          <p class="blurb">Barack Obama campaigned in Cleveland for Senate candidate Sherrod Brown and gubernatorial hopeful Amy Acton, telling Ohioans the midterms are a chance to check 'two years of chaos and cruelty and corruption.' A new Marist poll has Brown leading Republican Jon Husted 48-44%, in a race both parties treat as pivotal to Senate control.</p>
+        </div>
+        <div class="top-item">
+          <div class="source-row"><div class="source">ProPublica <span class="investigative-flag">Investigative</span></div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.propublica.org/article/aau-child-sex-abuse-house-energy-commerce-committee-probe-amateur-athletic-union" data-headline="House Committee Opens Bipartisan Probe Into AAU Over Child Sex Abuse Handling"
+            data-source="ProPublica" data-section="US Politics"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+          <h3><a href="https://www.propublica.org/article/aau-child-sex-abuse-house-energy-commerce-committee-probe-amateur-athletic-union" target="_blank">House Committee Opens Bipartisan Probe Into AAU Over Child Sex Abuse Handling</a></h3>
+          <p class="blurb">House Energy and Commerce Committee leaders from both parties demanded the Amateur Athletic Union explain its handling of child sexual abuse allegations, citing a ProPublica and Washington Post investigation that found the youth sports group offers no real abuse-prevention training despite claiming otherwise, and uses confidential arbitration to keep abuse lawsuits out of court.</p>
+        </div>
+        <div class="top-item">
+          <div class="source-row"><div class="source">ProPublica <span class="investigative-flag">Investigative</span></div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.propublica.org/article/american-citizens-wrongfully-detained-ice-bill" data-headline="Lawmakers Introduce Bill Letting US Citizens Sue ICE Over Wrongful Detention"
+            data-source="ProPublica" data-section="US Politics"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+          <h3><a href="https://www.propublica.org/article/american-citizens-wrongfully-detained-ice-bill" target="_blank">Lawmakers Introduce Bill Letting US Citizens Sue ICE Over Wrongful Detention</a></h3>
+          <p class="blurb">Citing ProPublica's finding that more than 500 US citizens have been detained by immigration agents, Rep. Teresa Leger Fernández introduced a bill stripping agents' current lawsuit immunity, setting minimum damages, and clawing back unspent ICE funding. DHS maintains it is not arresting citizens and calls its operations 'highly targeted.'</p>
+        </div>
+      </div>
+    </section>
+    <section class="apu-corner-section">
+      <h2>Apu's Corner</h2>
+      <div class="apu-sub">India</div>
+      <div class="flow">
+        <div class="top-item lede">
+          <div class="source-row"><div class="source">Alt News <span class="investigative-flag">Investigative</span></div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.altnews.in/in-24-delhi-constituencies-sir-draft-roll-has-fewer-names-than-2025-voter-turnout/" data-headline="Delhi's SIR Draft Rolls Shrink by 37% in Some Seats, Alt News Analysis Finds"
+            data-source="Alt News" data-section="India"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+          <h3><a href="https://www.altnews.in/in-24-delhi-constituencies-sir-draft-roll-has-fewer-names-than-2025-voter-turnout/" target="_blank">Delhi's SIR Draft Rolls Shrink by 37% in Some Seats, Alt News Analysis Finds</a></h3>
+          <p class="blurb">An Alt News analysis of Election Commission data found Delhi's draft voter rolls shrank by nearly 58.7 lakh names, or 37.6%, compared with the 2025 roll, leaving 24 constituencies with fewer listed voters than people who actually voted last year. A second round of notices has since gone out to roughly 35% of those still on the draft rolls in those seats.</p>
+        </div>
+        <div class="top-item">
+          <div class="source-row"><div class="source">Article 14 <span class="investigative-flag">Investigative</span></div><button type="button" class="save" aria-pressed="false"
+            data-url="https://article-14.com/post/in-west-bengal-errors-opacity-a-skew-against-muslim-voters-latest-question-mark-over-india-s-election-process-69c0b113a6b36" data-headline="West Bengal's Voter-Roll Revision Shows Opacity and a Skew Against Muslim Voters"
+            data-source="Article 14" data-section="India"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+          <h3><a href="https://article-14.com/post/in-west-bengal-errors-opacity-a-skew-against-muslim-voters-latest-question-mark-over-india-s-election-process-69c0b113a6b36" target="_blank">West Bengal's Voter-Roll Revision Shows Opacity and a Skew Against Muslim Voters</a></h3>
+          <p class="blurb">Article 14's review of the Special Intensive Revision in West Bengal found deletions disproportionately affecting Muslim voters alongside widespread errors and little transparency about how exclusion decisions were made. The findings add to a mounting list of state-by-state irregularities in the nationwide roll revision that the Supreme Court is still weighing.</p>
+        </div>
+        <div class="apu-corner">
+          <div>
+            <div class="apu-sub">Bengal</div>
+          <div class="apu-item">
+            <div class="apu-text">
+              <div class="source-row"><div class="source">Millennium Post</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://millenniumpost.in/big-stories/kakdwip-to-become-bengals-next-district-says-suvendu-680872" data-headline="Suvendu Adhikari Says Kakdwip Will Become Bengal's Newest District"
+            data-source="Millennium Post" data-section="Bengal"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+              <h4><a href="https://millenniumpost.in/big-stories/kakdwip-to-become-bengals-next-district-says-suvendu-680872" target="_blank">Suvendu Adhikari Says Kakdwip Will Become Bengal's Newest District</a></h4>
+              <p>Chief Minister Suvendu Adhikari said the Kakdwip subdivision would be elevated to a full district, though the administrative restructuring's details and timeline remain unannounced.</p>
+            </div>
+          </div>
+          <div class="apu-item">
+            <div class="apu-text">
+              <div class="source-row"><div class="source">Millennium Post</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.millenniumpost.in/bengal/venugopal-seeks-arrests-over-alleged-attack-on-christian-families-in-bengal-680852" data-headline="Congress Demands Arrests Over Attack on Christian Families in Bengal"
+            data-source="Millennium Post" data-section="Bengal"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+              <h4><a href="https://www.millenniumpost.in/bengal/venugopal-seeks-arrests-over-alleged-attack-on-christian-families-in-bengal-680852" target="_blank">Congress Demands Arrests Over Attack on Christian Families in Bengal</a></h4>
+              <p>Congress MP KC Venugopal asked Home Minister Amit Shah to act after three Christian families in West Midnapore's Patlapur village said they were attacked, a case still under local police inquiry.</p>
+            </div>
+          </div>
+          <div class="apu-item">
+            <div class="apu-text">
+              <div class="source-row"><div class="source">Millennium Post</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.millenniumpost.in/bengal/eggs-pelted-at-court-bound-men-in-canning-5-held-at-mlas-house-680857" data-headline="Eggs Pelted at TMC Workers Outside Canning Police Station After Arrests"
+            data-source="Millennium Post" data-section="Bengal"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+              <h4><a href="https://www.millenniumpost.in/bengal/eggs-pelted-at-court-bound-men-in-canning-5-held-at-mlas-house-680857" target="_blank">Eggs Pelted at TMC Workers Outside Canning Police Station After Arrests</a></h4>
+              <p>Five people were arrested over alleged post-poll violence and extortion in Canning, and eggs were thrown at the men as they were taken from an MLA's house to court.</p>
+            </div>
+          </div>
+          </div>
+          <div>
+            <div class="apu-sub">Travel</div>
+          <div class="apu-item">
+            <div class="apu-text">
+              <div class="source-row"><div class="source">Lonely Planet</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.lonelyplanet.com/articles/best-reasons-to-visit-zanzibar" data-headline="The Best Reasons to Visit Zanzibar Right Now"
+            data-source="Lonely Planet" data-section="Travel"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+              <h4><a href="https://www.lonelyplanet.com/articles/best-reasons-to-visit-zanzibar" target="_blank">The Best Reasons to Visit Zanzibar Right Now</a></h4>
+              <p>Lonely Planet's updated guide points to Zanzibar's Stone Town history, spice-plantation tours and reefs off the northeast coast, all reachable within a two-hour drive of each other on the main island of Unguja.</p>
+            </div>
+          </div>
+          <div class="apu-item">
+            <div class="apu-text">
+              <div class="source-row"><div class="source">Audubon</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.audubon.org/magazine/ospreys-chesapeake-bay-are-starving-death-disastrous-rates-what-will-it-take-save-them" data-headline="Chesapeake Bay's Ospreys Are Starving as a Key Forage Fish Disappears"
+            data-source="Audubon" data-section="Travel"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+              <h4><a href="https://www.audubon.org/magazine/ospreys-chesapeake-bay-are-starving-death-disastrous-rates-what-will-it-take-save-them" target="_blank">Chesapeake Bay's Ospreys Are Starving as a Key Forage Fish Disappears</a></h4>
+              <p>The world's largest osprey population, 10,000 to 12,000 breeding pairs strong after its DDT-era recovery, is collapsing again — this time from a shortage of Atlantic menhaden that researchers and conservationists blame largely on overfishing.</p>
+            </div>
+          </div>
+          </div>
+          <div>
+            <div class="apu-sub">A Happy Story <span class="tag">for no reason at all</span></div>
+            <div class="apu-happy">
+          <div class="apu-item">
+            <div class="apu-text">
+              <div class="source-row"><div class="source">Smithsonian Magazine</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.smithsonianmag.com/smart-news/an-otter-just-returned-to-new-york-citys-bronx-river-for-the-first-time-in-a-century-now-you-can-help-name-it-180989556/" data-headline="An Otter Returns to the Bronx River After a Century — and Needs a Name"
+            data-source="Smithsonian Magazine" data-section="A Happy Story"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+              <h4><a href="https://www.smithsonianmag.com/smart-news/an-otter-just-returned-to-new-york-citys-bronx-river-for-the-first-time-in-a-century-now-you-can-help-name-it-180989556/" target="_blank">An Otter Returns to the Bronx River After a Century — and Needs a Name</a></h4>
+              <p>A trail camera caught a North American river otter on the Bronx River in June, the first sighting there since the early 1900s and a hopeful sign the long-polluted waterway is recovering. New Yorkers are now voting between Nessie, Ruthie and Morgan.</p>
+            </div>
+          </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="geo">
+      <h2>Geopolitics</h2>
+      <div class="flow">
+        <div class="top-item">
+          <div class="source-row"><div class="source">Axios</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.axios.com/2026/10/24/iran-war-us-embassies-evacuations-threat" data-headline="US Evacuates Gulf Embassy Staff as Intel Warns of 'Advanced' Iranian Plots"
+            data-source="Axios" data-section="Geopolitics"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+          <h3><a href="https://www.axios.com/2026/10/24/iran-war-us-embassies-evacuations-threat" target="_blank">US Evacuates Gulf Embassy Staff as Intel Warns of 'Advanced' Iranian Plots</a></h3>
+          <p class="blurb">A DNI memo to Secretary of State Rubio says Iran has substantially increased efforts to target US personnel abroad, with lethal plots reaching 'advanced stages.' The State Department has pulled nonessential staff from Riyadh, Jeddah and Dhahran and reduced personnel in the UAE, Lebanon, Qatar and Jordan, as Trump weighs a possible new strike on Iran as soon as Sunday.</p>
+        </div>
+        <div class="top-item">
+          <div class="source-row"><div class="source">Al Jazeera</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.aljazeera.com/news/2026/10/24/france-braces-for-another-day-of-mass-protests-as-security-on-high-alert" data-headline="Hundreds of Thousands March Across France as Cost-of-Living Anger Grows"
+            data-source="Al Jazeera" data-section="Geopolitics"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+          <h3><a href="https://www.aljazeera.com/news/2026/10/24/france-braces-for-another-day-of-mass-protests-as-security-on-high-alert" target="_blank">Hundreds of Thousands March Across France as Cost-of-Living Anger Grows</a></h3>
+          <p class="blurb">More than 70,000 police deployed as 410,000 people protested nationwide Saturday against Prime Minister Lecornu's proposed budget, which freezes public pay and limits pension increases. The movement, which began with students blockading schools over conditions last month, has become a wider outlet for anger over inequality six months before France's presidential election.</p>
+        </div>
+        <div class="top-item">
+          <div class="source-row"><div class="source">Al Jazeera</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.aljazeera.com/news/2026/10/23/israel-arrests-36-palestinians-in-the-west-bank-attacks-on-farmers-ramp-up" data-headline="Israel to Seal Off West Bank Ahead of Tuesday's Election After Hebron Violence"
+            data-source="Al Jazeera" data-section="Geopolitics"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+          <h3><a href="https://www.aljazeera.com/news/2026/10/23/israel-arrests-36-palestinians-in-the-west-bank-attacks-on-farmers-ramp-up" target="_blank">Israel to Seal Off West Bank Ahead of Tuesday's Election After Hebron Violence</a></h3>
+          <p class="blurb">Israel said it will close all land crossings with the occupied West Bank during Tuesday's general election, after arresting 36 Palestinians following a gunfight near Hebron and a rise in settler attacks on Palestinian farmers.</p>
+        </div>
+      </div>
+    </section>
+    <section class="sports">
+      <h2>Cricket</h2>
+      <div class="flow">
+        <div class="top-item">
+          <div class="source-row"><div class="source">Olympics.com</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.olympics.com/en/news/new-zealand-vs-india-t20-cricket-2026-match-2-report" data-headline="Tilak Varma Rescues India From 70/5 to Seal 2nd T20I Win Over New Zealand"
+            data-source="Olympics.com" data-section="Cricket"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+          <h3><a href="https://www.olympics.com/en/news/new-zealand-vs-india-t20-cricket-2026-match-2-report" target="_blank">Tilak Varma Rescues India From 70/5 to Seal 2nd T20I Win Over New Zealand</a></h3>
+          <p class="blurb">New Zealand posted 180/5 in Christchurch behind fifties from Glenn Phillips and Bevon Jacobs, but India collapsed to 70/5 before Tilak Varma's fighting half-century carried them to a four-wicket win with a ball to spare. India lead the five-match series 2-0, with the third T20I in Wellington on Tuesday.</p>
+        </div>
+      </div>
+    </section>
+    <section class="showcase">
+      <h2>From the Field <span class="tag">photographs by Ganges Bhardwaj</span></h2>
+      <div class="frames">
+        <a href="https://grumpyiyer.com" target="_blank" rel="noopener">
+          <img src="../wildlife/20260101-Cohoes Falls-5267.jpg" width="2289" height="1831"
+               alt="Wildlife photograph by Ganges Bhardwaj" loading="lazy">
+        </a>
+        <a href="https://grumpyiyer.com" target="_blank" rel="noopener">
+          <img src="../wildlife/20260103-Cohoes Falls-6323-2.jpg" width="1566" height="881"
+               alt="Wildlife photograph by Ganges Bhardwaj" loading="lazy">
+        </a>
+        <a href="https://grumpyiyer.com" target="_blank" rel="noopener">
+          <img src="../wildlife/20260103-Cohoes Falls-6131.jpg" width="2758" height="2206"
+               alt="Wildlife photograph by Ganges Bhardwaj" loading="lazy">
+        </a>
+        <a href="https://grumpyiyer.com" target="_blank" rel="noopener">
+          <img src="../wildlife/20260103-Cohoes Falls-6136.jpg" width="2532" height="2026"
+               alt="Wildlife photograph by Ganges Bhardwaj" loading="lazy">
+        </a>
+      </div>
+    </section>
+  </div>
+  <div class="side-col">
+    <div class="desk tech-desk">
+    <div class="tech-masthead">— Technology Desk —</div>
+    <section class="tech">
+      <h2>Top Tech</h2>
+        <div class="top-item">
+          <div class="source-row"><div class="source">404 Media <span class="investigative-flag">Investigative</span></div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.404media.co/fbi-hackers-say-they-wont-publish-massive-trove-of-fbi-employee-data/" data-headline="Hackers Who Stole FBI Employee Data Say They Won't Publish It"
+            data-source="404 Media" data-section="Top Tech"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+          <h3><a href="https://www.404media.co/fbi-hackers-say-they-wont-publish-massive-trove-of-fbi-employee-data/" target="_blank">Hackers Who Stole FBI Employee Data Say They Won't Publish It</a></h3>
+          <p class="blurb">The hacking group ShinyHunters says it holds data on every FBI employee and applicant, including members of the Bureau's secretive Remote Operations hacking unit, but says it never intended to publish it. Analysts worry the data could still be used to intimidate agents or be sold to foreign intelligence services.</p>
+          <p class="pm-note"><b>Why it matters for you:</b> A breach that exposes who staffs a secretive unit — and promises not to publish — is still leverage sitting on someone else's server; 'they said they won't' is not a security control.</p>
+        </div>
+        <div class="top-item">
+          <div class="source-row"><div class="source">TechCrunch</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://techcrunch.com/2026/10/21/the-internet-is-having-a-very-bad-cybersecurity-day/" data-headline="A Popular Open-Source AI Gateway Was Compromised With an Infostealer"
+            data-source="TechCrunch" data-section="Top Tech"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+          <h3><a href="https://techcrunch.com/2026/10/21/the-internet-is-having-a-very-bad-cybersecurity-day/" target="_blank">A Popular Open-Source AI Gateway Was Compromised With an Infostealer</a></h3>
+          <p class="blurb">A malicious version of LiteLLM, an open-source proxy many companies use to route requests across AI model providers, was published to PyPI carrying an infostealer and remote-access trojan before being quarantined. The payload was hidden only in the packaged file, so reviewing the public source code would not have caught it.</p>
+          <p class="pm-note"><b>Why it matters for you:</b> LiteLLM routes requests across model providers for thousands of AI products; a poisoned release there is a reminder that your AI stack's attack surface includes every gateway library you didn't write.</p>
+        </div>
+    </section>
+    <section class="tech">
+      <h2>More Tech</h2>
+        <div class="more-item">
+          <div class="more-text">
+            <div class="source-row"><div class="source">404 Media</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.404media.co/accenture-tells-employees-they-can-now-spend-only-29-on-claude-per-month/" data-headline="Accenture Caps Many Employees' Claude Spending at $29 a Month"
+            data-source="404 Media" data-section="More Tech"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+            <h4><a href="https://www.404media.co/accenture-tells-employees-they-can-now-spend-only-29-on-claude-per-month/" target="_blank">Accenture Caps Many Employees' Claude Spending at $29 a Month</a></h4>
+            <p>The consulting giant told staff it will now limit their personal Claude usage to $29 monthly, a sign that even AI's biggest corporate boosters are tightening budgets around how employees actually use it day to day.</p>
+          </div>
+        </div>
+    </section>
+    <section class="tech">
+      <h2>Tech 101 <span class="tag">for newbies</span></h2>
+      <div class="primer-box">
+        <h5>Today's Concept, Explained Simply</h5>
+        <div class="primer-item">
+          <div class="term">Supply-chain attack</div>
+          <p>An attack that poisons a shared tool or library rather than its users directly, so one tampered package — like this month's fake LiteLLM release — can quietly reach every company that depends on it.</p>
+        </div>
+        <div class="primer-item">
+          <div class="term">PII</div>
+          <p>Shorthand for personally identifiable information — names, addresses, phone numbers — which is exactly what made the FBI data breach dangerous: not classified secrets, but enough to locate and pressure real people.</p>
+        </div>
+      </div>
+    </section>
+    </div>
+    <div class="desk science-desk">
+    <section class="science">
+      <h2>Science</h2>
+        <div class="top-item">
+          <div class="source-row"><div class="source">Chemistry World</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.chemistryworld.com/news/x-ray-molecular-movie-of-penicillin-reveals-hidden-lives-of-its-intermediates/4024365.article" data-headline="Scientists Capture an X-Ray 'Molecular Movie' of How Penicillin Forms"
+            data-source="Chemistry World" data-section="Science"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+          <h3><a href="https://www.chemistryworld.com/news/x-ray-molecular-movie-of-penicillin-reveals-hidden-lives-of-its-intermediates/4024365.article" target="_blank">Scientists Capture an X-Ray 'Molecular Movie' of How Penicillin Forms</a></h3>
+          <p class="blurb">An Oxford team led by Christopher Schofield used ultrashort X-ray pulses to film the enzyme isopenicillin N synthase assembling penicillin's fused ring system in real time, capturing short-lived intermediates that vanish in the final product. The technique could help engineer related antibiotics or other ring-forming reactions.</p>
+        </div>
+        <div class="top-item">
+          <div class="source-row"><div class="source">ScienceDaily</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.sciencedaily.com/releases/2026/10/261021231238.htm" data-headline="Curiosity Finds a Mysterious Wall of Wind-Carved Cliffs on Mars"
+            data-source="ScienceDaily" data-section="Science"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+          <h3><a href="https://www.sciencedaily.com/releases/2026/10/261021231238.htm" target="_blank">Curiosity Finds a Mysterious Wall of Wind-Carved Cliffs on Mars</a></h3>
+          <p class="blurb">NASA's Curiosity rover photographed a panorama of yardangs, rugged cliffs on Mount Sharp that may preserve evidence of ancient volcanic activity, lit by Martian dawn light. Scientists don't yet know how the formation developed and hope close-up study, expected in 2027, will help explain it.</p>
+        </div>
+    </section>
+    </div>
+    <div class="desk philosophy-desk">
+    <section class="consciousness">
+      <h2>Philosophy</h2>
+        <div class="top-item">
+          <div class="source-row"><div class="source">Aeon</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://aeon.co/essays/why-rule-by-the-people-is-better-than-rule-by-the-experts" data-headline="Why Rule by the People Is Better Than Rule by the Experts"
+            data-source="Aeon" data-section="Philosophy"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+          <h3><a href="https://aeon.co/essays/why-rule-by-the-people-is-better-than-rule-by-the-experts" target="_blank">Why Rule by the People Is Better Than Rule by the Experts</a></h3>
+          <p class="blurb">The essay argues real democracy means people exerting power directly, not choosing from a menu pre-selected by elites and technocrats. It is skeptical even of lottocracy — governing by randomly selected citizen panels — since elites could still shape what such panels are allowed to decide.</p>
+        </div>
+        <div class="top-item">
+          <div class="source-row"><div class="source">IAI News</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://iai.tv/articles/consciousness-research-is-ready-for-its-einstein-moment-auid-3709" data-headline="Consciousness Research Is Ready for Its Einstein Moment"
+            data-source="IAI News" data-section="Philosophy"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+          <h3><a href="https://iai.tv/articles/consciousness-research-is-ready-for-its-einstein-moment-auid-3709" target="_blank">Consciousness Research Is Ready for Its Einstein Moment</a></h3>
+          <p class="blurb">Philosophers Ken Archer and Harald Wiltsche argue that reducing consciousness to a brain mechanism rests on a conceptual mistake, drawing a parallel to how Einstein's relativity required rethinking the 19th-century 'ether' rather than just measuring it better. The fix, they argue, is a shift in framework, not more neuroscience data.</p>
+        </div>
+    </section>
+    <section class="consciousness">
+      <h2>Philosophy 101 <span class="tag">for newbies</span></h2>
+      <div class="primer-box">
+        <h5>Today's Concept, Explained Simply</h5>
+        <div class="primer-item">
+          <div class="term">Lottocracy</div>
+          <p>The idea of governing through citizen panels chosen at random, like a jury, instead of elections — proposed as a more genuinely democratic alternative to rule by elected or technocratic elites.</p>
+        </div>
+        <div class="primer-item">
+          <div class="term">Hard problem of consciousness</div>
+          <p>The puzzle of why physical brain processes come with subjective experience at all, not just how they produce behavior — the deeper question some philosophers argue neuroscience keeps sidestepping rather than solving.</p>
+        </div>
+      </div>
+    </section>
+    </div><section class="entertainment" style="border-bottom: none;">
+      <h2>Entertainment &amp; Culture</h2>
+        <div class="top-item">
+          <div class="source-row"><div class="source">Scroll.in</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://scroll.in/reel/1096490/hope-review-a-pulsating-thriller-that-never-stops-once-it-gets-going" data-headline="'Hope' Review: Na Hong-jin's Creature Thriller Never Stops Once It Gets Going"
+            data-source="Scroll.in" data-section="Entertainment"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+          <h3><a href="https://scroll.in/reel/1096490/hope-review-a-pulsating-thriller-that-never-stops-once-it-gets-going" target="_blank">'Hope' Review: Na Hong-jin's Creature Thriller Never Stops Once It Gets Going</a></h3>
+          <p class="blurb">Scroll.in's critic calls this creature feature, starring Hwang Jung-min as a police chief hunting an intelligent beast wrecking a Korean DMZ village, a breathless 156-minute ride — praising its action and black humour despite cheesy effects and an outlandish plot.</p>
+        </div>
+    </section>
+  </div>
+</div>
+
+<div id="saved-backdrop" hidden></div>
+
+<div id="flick-modal" role="dialog" aria-modal="true" aria-labelledby="flick-modal-title" hidden>
+  <div class="flick-card">
+    <h2 id="flick-modal-title">Describe this photograph</h2>
+    <p class="flick-lede" id="flick-mode">Your words about the frame. Camera settings are read from the file itself.</p>
+    <label>Subject <input type="text" id="flick-subject" placeholder="Bald eagle"></label>
+    <label>Where <input type="text" id="flick-where" placeholder="Cohoes Falls, New York"></label>
+    <label>Your note <textarea id="flick-note" rows="3" placeholder="What the light was doing. How long you waited. Why you kept this one."></textarea></label>
+    <label>Research <textarea id="flick-research" rows="3" placeholder="Left blank — tell Claude the subject and it will draft this with a source."></textarea></label>
+    <pre id="flick-json" aria-live="polite"></pre>
+    <div class="flick-actions">
+      <button type="button" id="flick-save" hidden>Save</button>
+      <button type="button" id="flick-copy" hidden>Copy for photos.json</button>
+      <button type="button" id="flick-cancel">Close</button>
+    </div>
+    <p class="flick-status" id="flick-status" role="status"></p>
+  </div>
+</div>
+<aside id="saved-panel" aria-labelledby="saved-title" aria-hidden="true" hidden>
+  <div class="saved-head">
+    <h2 id="saved-title">Read Later</h2>
+    <button type="button" id="saved-close" aria-label="Close read later">&times;</button>
+  </div>
+  <p class="saved-who">Kept by <strong id="saved-reader">Ganges</strong> · <span id="saved-usage">0 of 10</span></p>
+  <div id="saved-list"></div>
+  <div class="saved-foot">
+    <button type="button" id="saved-export">Export as a file</button>
+  </div>
+</aside>
+
+<script>
+// Reader preference. Purely presentational: it sets one attribute and CSS does
+// the reordering. Stored per browser — wrapped in try/catch because private
+// windows and blocked site-data make localStorage throw rather than return null.
+(function () {
+  var KEY = "aperture-reader";
+  function apply(who) {
+    document.body.setAttribute("data-reader", who);
+    document.querySelectorAll("[data-reader-set]").forEach(function (b) {
+      b.setAttribute("aria-pressed", b.dataset.readerSet === who ? "true" : "false");
+    });
+  }
+  var saved = "ganges";
+  try { saved = localStorage.getItem(KEY) || "ganges"; } catch (e) {}
+  apply(saved);
+  document.querySelectorAll("[data-reader-set]").forEach(function (b) {
+    b.addEventListener("click", function () {
+      var who = b.dataset.readerSet;
+      try { localStorage.setItem(KEY, who); } catch (e) {}
+      apply(who);
+    });
+  });
+})();
+
+// ---- Read later -----------------------------------------------------------
+// Saves live in this browser only (see decisions/001-bookmark-storage.md).
+// Every entry carries savedAt: the field is unused today, and is what a future
+// sync will need to settle two devices disagreeing. Adding it now costs nothing.
+(function () {
+  var KEY = "aperture-saves", CAP = 10, EDITION = "2026-10-25";
+  var NAMES = { ganges: "Ganges", apu: "Apu" };
+
+  function reader() { return document.body.getAttribute("data-reader") || "ganges"; }
+  function readAll() {
+    try { return JSON.parse(localStorage.getItem(KEY) || "{}") || {}; } catch (e) { return {}; }
+  }
+  function writeAll(all) {
+    try { localStorage.setItem(KEY, JSON.stringify(all)); return true; }
+    catch (e) { toast("This browser will not let the page save anything."); return false; }
+  }
+  function mine() { var a = readAll()[reader()]; return Array.isArray(a) ? a : []; }
+  function setMine(list) { var all = readAll(); all[reader()] = list; return writeAll(all); }
+
+  var toastTimer;
+  function toast(msg) {
+    var el = document.getElementById("saved-toast");
+    if (!el) { el = document.createElement("div"); el.id = "saved-toast"; document.body.appendChild(el); }
+    el.textContent = msg;
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function () { el.remove(); }, 3600);
+  }
+
+  function paintButtons() {
+    var saved = {};
+    mine().forEach(function (s) { saved[s.url] = true; });
+    document.querySelectorAll("button.save").forEach(function (b) {
+      var on = !!saved[b.dataset.url];
+      b.setAttribute("aria-pressed", on ? "true" : "false");
+      b.setAttribute("aria-label", (on ? "Remove this story from" : "Add this story to") + " read later");
+    });
+    var list = mine();
+    document.getElementById("saved-count").textContent = list.length;
+    var usage = document.getElementById("saved-usage");
+    if (usage) usage.textContent = list.length + " of " + CAP;
+    var who = document.getElementById("saved-reader");
+    if (who) who.textContent = NAMES[reader()] || reader();
+  }
+
+  function paintPanel() {
+    var box = document.getElementById("saved-list"), list = mine();
+    box.textContent = "";
+    if (!list.length) {
+      var p = document.createElement("p");
+      p.className = "saved-empty";
+      p.textContent = "Nothing here yet. The bookmark beside any story adds it to read later — up to " + CAP + " at a time.";
+      box.appendChild(p);
+      return;
+    }
+    list.forEach(function (s) {
+      var row = document.createElement("div");
+      row.className = "saved-item";
+      var text = document.createElement("div");
+      var meta = document.createElement("div");
+      meta.className = "meta";
+      meta.textContent = s.source + (s.section ? " · " + s.section : "") + " · " + s.edition;
+      var h = document.createElement("h3");
+      var a = document.createElement("a");
+      a.href = s.url; a.target = "_blank"; a.rel = "noopener"; a.textContent = s.headline;
+      h.appendChild(a);
+      text.appendChild(meta); text.appendChild(h);
+      var rm = document.createElement("button");
+      rm.type = "button"; rm.innerHTML = "&times;";
+      rm.setAttribute("aria-label", "Remove " + s.headline);
+      rm.addEventListener("click", function () {
+        setMine(mine().filter(function (x) { return x.url !== s.url; }));
+        paintButtons(); paintPanel();
+      });
+      row.appendChild(text); row.appendChild(rm);
+      box.appendChild(row);
+    });
+  }
+
+  document.querySelectorAll("button.save").forEach(function (b) {
+    b.addEventListener("click", function () {
+      var list = mine(), url = b.dataset.url;
+      if (list.some(function (x) { return x.url === url; })) {
+        setMine(list.filter(function (x) { return x.url !== url; }));
+      } else {
+        if (list.length >= CAP) {
+          toast("Read later is full at " + CAP + ". Remove one to make room.");
+          return;
+        }
+        list.unshift({ url: url, headline: b.dataset.headline, source: b.dataset.source,
+                       section: b.dataset.section, edition: EDITION,
+                       savedAt: new Date().toISOString() });
+        setMine(list);
+      }
+      paintButtons(); paintPanel();
+    });
+  });
+
+  var panel = document.getElementById("saved-panel"),
+      backdrop = document.getElementById("saved-backdrop"),
+      opener = document.getElementById("saved-open");
+  function open() {
+    paintPanel();
+    panel.hidden = false; backdrop.hidden = false;
+    panel.setAttribute("aria-hidden", "false");
+    opener.setAttribute("aria-expanded", "true");
+    document.getElementById("saved-close").focus();
+  }
+  function close() {
+    panel.hidden = true; backdrop.hidden = true;
+    panel.setAttribute("aria-hidden", "true");
+    opener.setAttribute("aria-expanded", "false");
+    opener.focus();
+  }
+  opener.addEventListener("click", function () { panel.hidden ? open() : close(); });
+  document.getElementById("saved-close").addEventListener("click", close);
+  backdrop.addEventListener("click", close);
+  document.addEventListener("keydown", function (e) { if (e.key === "Escape" && !panel.hidden) close(); });
+
+  document.getElementById("saved-export").addEventListener("click", function () {
+    var blob = new Blob([JSON.stringify(mine(), null, 2)], { type: "application/json" });
+    var a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = "aperture-read-later-" + reader() + ".json";
+    a.click();
+    setTimeout(function () { URL.revokeObjectURL(a.href); }, 1000);
+  });
+
+  // Switching reader switches whose list is shown — the toggle is the identity.
+  document.querySelectorAll("[data-reader-set]").forEach(function (b) {
+    b.addEventListener("click", function () {
+      paintButtons();
+      if (!panel.hidden) paintPanel();
+    });
+  });
+
+  paintButtons();
+})();
+
+// ---- Describe this photograph --------------------------------------------
+// The same form behaves differently depending on how the page is being served.
+// Published, it is static files and nothing can write to the repo, so it offers
+// the entry to copy. Run under edit_photos.py on localhost, a small local
+// helper is listening and Save writes photos.json and rebuilds for real.
+(function () {
+  var fill = document.getElementById("flick-fill");
+  if (!fill) return;
+  var modal = document.getElementById("flick-modal"),
+      out = document.getElementById("flick-json"),
+      status = document.getElementById("flick-status"),
+      mode = document.getElementById("flick-mode"),
+      saveBtn = document.getElementById("flick-save"),
+      copyBtn = document.getElementById("flick-copy"),
+      f = {
+        subject: document.getElementById("flick-subject"),
+        where: document.getElementById("flick-where"),
+        note: document.getElementById("flick-note"),
+        research: document.getElementById("flick-research")
+      };
+
+  var host = location.hostname;
+  var canSave = (host === "localhost" || host === "127.0.0.1");
+
+  if (canSave) {
+    saveBtn.hidden = false;
+    out.hidden = true;
+    mode.textContent = "Your words about the frame. Saving writes photos.json and rebuilds the page.";
+  } else {
+    copyBtn.hidden = false;
+    mode.textContent = "Your words about the frame. This published page cannot write files, " +
+      "so copy the entry into photos.json. To save directly, view the site with  python3 preview.py";
+  }
+
+  function values() {
+    var v = {};
+    Object.keys(f).forEach(function (k) { v[k] = f[k].value.trim(); });
+    return v;
+  }
+  function compose() {
+    var body = {};
+    body[fill.dataset.file] = values();
+    out.textContent = JSON.stringify(body, null, 2);
+  }
+  function say(msg, bad) {
+    status.textContent = msg;
+    status.className = "flick-status" + (bad ? " bad" : "");
+  }
+
+  function open() {
+    Object.keys(f).forEach(function (k) { f[k].value = fill.dataset[k] || ""; });
+    compose(); say("");
+    modal.hidden = false;
+    f.subject.focus();
+  }
+  function close() { modal.hidden = true; fill.focus(); }
+
+  fill.addEventListener("click", open);
+  document.getElementById("flick-cancel").addEventListener("click", close);
+  modal.addEventListener("click", function (e) { if (e.target === modal) close(); });
+  document.addEventListener("keydown", function (e) { if (e.key === "Escape" && !modal.hidden) close(); });
+  Object.keys(f).forEach(function (k) { f[k].addEventListener("input", compose); });
+
+  saveBtn.addEventListener("click", function () {
+    saveBtn.disabled = true; say("Saving…");
+    fetch("/save-photo", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ file: fill.dataset.file, fields: values() })
+    }).then(function (r) { return r.json(); }).then(function (res) {
+      if (!res.saved) throw new Error(res.error || "save refused");
+      say(res.rebuilt ? "Saved. Reloading…" : "Saved, but the rebuild failed — check the terminal.");
+      if (res.rebuilt) setTimeout(function () { location.reload(); }, 700);
+      else saveBtn.disabled = false;
+    }).catch(function (e) {
+      say("Could not save: " + e.message + ". Is preview.py still running?", true);
+      saveBtn.disabled = false;
+    });
+  });
+
+  copyBtn.addEventListener("click", function () {
+    var btn = this, text = out.textContent;
+    function done() { say("Copied — paste it into photos.json"); }
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(text).then(done, function () {
+        var r = document.createRange(); r.selectNodeContents(out);
+        var s = getSelection(); s.removeAllRanges(); s.addRange(r);
+        say("Selected — press Cmd+C");
+      });
+    } else {
+      var r = document.createRange(); r.selectNodeContents(out);
+      var s = getSelection(); s.removeAllRanges(); s.addRange(r);
+      say("Selected — press Cmd+C");
+    }
+  });
+})();
+</script>
+</body>
+</html>
