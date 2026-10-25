@@ -1,0 +1,209 @@
+{
+  "date": "2026-10-25",
+  "sections": {
+    "politics": {
+      "top": [
+        {
+          "headline": "Obama Rallies Ohio Democrats, Blasts Trump's 'Cruelty and Corruption'",
+          "url": "https://www.aljazeera.com/news/2026/10/25/obama-slams-trumps-cruelty-and-corruption-at-ohio-rally-for-democrats",
+          "source": "Al Jazeera",
+          "blurb": "Barack Obama campaigned in Cleveland for Senate candidate Sherrod Brown and gubernatorial hopeful Amy Acton, telling Ohioans the midterms are a chance to check 'two years of chaos and cruelty and corruption.' A new Marist poll has Brown leading Republican Jon Husted 48-44%, in a race both parties treat as pivotal to Senate control."
+        },
+        {
+          "headline": "House Committee Opens Bipartisan Probe Into AAU Over Child Sex Abuse Handling",
+          "url": "https://www.propublica.org/article/aau-child-sex-abuse-house-energy-commerce-committee-probe-amateur-athletic-union",
+          "source": "ProPublica",
+          "investigative": true,
+          "blurb": "House Energy and Commerce Committee leaders from both parties demanded the Amateur Athletic Union explain its handling of child sexual abuse allegations, citing a ProPublica and Washington Post investigation that found the youth sports group offers no real abuse-prevention training despite claiming otherwise, and uses confidential arbitration to keep abuse lawsuits out of court."
+        },
+        {
+          "headline": "Lawmakers Introduce Bill Letting US Citizens Sue ICE Over Wrongful Detention",
+          "url": "https://www.propublica.org/article/american-citizens-wrongfully-detained-ice-bill",
+          "source": "ProPublica",
+          "investigative": true,
+          "blurb": "Citing ProPublica's finding that more than 500 US citizens have been detained by immigration agents, Rep. Teresa Leger Fernández introduced a bill stripping agents' current lawsuit immunity, setting minimum damages, and clawing back unspent ICE funding. DHS maintains it is not arresting citizens and calls its operations 'highly targeted.'"
+        }
+      ],
+      "more": []
+    },
+    "india": {
+      "top": [
+        {
+          "headline": "Delhi's SIR Draft Rolls Shrink by 37% in Some Seats, Alt News Analysis Finds",
+          "url": "https://www.altnews.in/in-24-delhi-constituencies-sir-draft-roll-has-fewer-names-than-2025-voter-turnout/",
+          "source": "Alt News",
+          "investigative": true,
+          "blurb": "An Alt News analysis of Election Commission data found Delhi's draft voter rolls shrank by nearly 58.7 lakh names, or 37.6%, compared with the 2025 roll, leaving 24 constituencies with fewer listed voters than people who actually voted last year. A second round of notices has since gone out to roughly 35% of those still on the draft rolls in those seats."
+        },
+        {
+          "headline": "West Bengal's Voter-Roll Revision Shows Opacity and a Skew Against Muslim Voters",
+          "url": "https://article-14.com/post/in-west-bengal-errors-opacity-a-skew-against-muslim-voters-latest-question-mark-over-india-s-election-process-69c0b113a6b36",
+          "source": "Article 14",
+          "investigative": true,
+          "blurb": "Article 14's review of the Special Intensive Revision in West Bengal found deletions disproportionately affecting Muslim voters alongside widespread errors and little transparency about how exclusion decisions were made. The findings add to a mounting list of state-by-state irregularities in the nationwide roll revision that the Supreme Court is still weighing."
+        }
+      ],
+      "more": []
+    },
+    "geo": {
+      "top": [
+        {
+          "headline": "US Evacuates Gulf Embassy Staff as Intel Warns of 'Advanced' Iranian Plots",
+          "url": "https://www.axios.com/2026/10/24/iran-war-us-embassies-evacuations-threat",
+          "source": "Axios",
+          "blurb": "A DNI memo to Secretary of State Rubio says Iran has substantially increased efforts to target US personnel abroad, with lethal plots reaching 'advanced stages.' The State Department has pulled nonessential staff from Riyadh, Jeddah and Dhahran and reduced personnel in the UAE, Lebanon, Qatar and Jordan, as Trump weighs a possible new strike on Iran as soon as Sunday."
+        },
+        {
+          "headline": "Hundreds of Thousands March Across France as Cost-of-Living Anger Grows",
+          "url": "https://www.aljazeera.com/news/2026/10/24/france-braces-for-another-day-of-mass-protests-as-security-on-high-alert",
+          "source": "Al Jazeera",
+          "blurb": "More than 70,000 police deployed as 410,000 people protested nationwide Saturday against Prime Minister Lecornu's proposed budget, which freezes public pay and limits pension increases. The movement, which began with students blockading schools over conditions last month, has become a wider outlet for anger over inequality six months before France's presidential election."
+        },
+        {
+          "headline": "Israel to Seal Off West Bank Ahead of Tuesday's Election After Hebron Violence",
+          "url": "https://www.aljazeera.com/news/2026/10/23/israel-arrests-36-palestinians-in-the-west-bank-attacks-on-farmers-ramp-up",
+          "source": "Al Jazeera",
+          "blurb": "Israel said it will close all land crossings with the occupied West Bank during Tuesday's general election, after arresting 36 Palestinians following a gunfight near Hebron and a rise in settler attacks on Palestinian farmers."
+        }
+      ],
+      "more": []
+    },
+    "sports": {
+      "top": [
+        {
+          "headline": "Tilak Varma Rescues India From 70/5 to Seal 2nd T20I Win Over New Zealand",
+          "url": "https://www.olympics.com/en/news/new-zealand-vs-india-t20-cricket-2026-match-2-report",
+          "source": "Olympics.com",
+          "blurb": "New Zealand posted 180/5 in Christchurch behind fifties from Glenn Phillips and Bevon Jacobs, but India collapsed to 70/5 before Tilak Varma's fighting half-century carried them to a four-wicket win with a ball to spare. India lead the five-match series 2-0, with the third T20I in Wellington on Tuesday."
+        }
+      ],
+      "more": []
+    },
+    "entertainment": {
+      "top": [
+        {
+          "headline": "'Hope' Review: Na Hong-jin's Creature Thriller Never Stops Once It Gets Going",
+          "url": "https://scroll.in/reel/1096490/hope-review-a-pulsating-thriller-that-never-stops-once-it-gets-going",
+          "source": "Scroll.in",
+          "blurb": "Scroll.in's critic calls this creature feature, starring Hwang Jung-min as a police chief hunting an intelligent beast wrecking a Korean DMZ village, a breathless 156-minute ride — praising its action and black humour despite cheesy effects and an outlandish plot."
+        }
+      ],
+      "more": []
+    },
+    "bengal": [
+      {
+        "headline": "Suvendu Adhikari Says Kakdwip Will Become Bengal's Newest District",
+        "url": "https://millenniumpost.in/big-stories/kakdwip-to-become-bengals-next-district-says-suvendu-680872",
+        "source": "Millennium Post",
+        "blurb": "Chief Minister Suvendu Adhikari said the Kakdwip subdivision would be elevated to a full district, though the administrative restructuring's details and timeline remain unannounced."
+      },
+      {
+        "headline": "Congress Demands Arrests Over Attack on Christian Families in Bengal",
+        "url": "https://www.millenniumpost.in/bengal/venugopal-seeks-arrests-over-alleged-attack-on-christian-families-in-bengal-680852",
+        "source": "Millennium Post",
+        "blurb": "Congress MP KC Venugopal asked Home Minister Amit Shah to act after three Christian families in West Midnapore's Patlapur village said they were attacked, a case still under local police inquiry."
+      },
+      {
+        "headline": "Eggs Pelted at TMC Workers Outside Canning Police Station After Arrests",
+        "url": "https://www.millenniumpost.in/bengal/eggs-pelted-at-court-bound-men-in-canning-5-held-at-mlas-house-680857",
+        "source": "Millennium Post",
+        "blurb": "Five people were arrested over alleged post-poll violence and extortion in Canning, and eggs were thrown at the men as they were taken from an MLA's house to court."
+      }
+    ],
+    "travel": [
+      {
+        "headline": "The Best Reasons to Visit Zanzibar Right Now",
+        "url": "https://www.lonelyplanet.com/articles/best-reasons-to-visit-zanzibar",
+        "source": "Lonely Planet",
+        "blurb": "Lonely Planet's updated guide points to Zanzibar's Stone Town history, spice-plantation tours and reefs off the northeast coast, all reachable within a two-hour drive of each other on the main island of Unguja."
+      },
+      {
+        "headline": "Chesapeake Bay's Ospreys Are Starving as a Key Forage Fish Disappears",
+        "url": "https://www.audubon.org/magazine/ospreys-chesapeake-bay-are-starving-death-disastrous-rates-what-will-it-take-save-them",
+        "source": "Audubon",
+        "blurb": "The world's largest osprey population, 10,000 to 12,000 breeding pairs strong after its DDT-era recovery, is collapsing again — this time from a shortage of Atlantic menhaden that researchers and conservationists blame largely on overfishing."
+      }
+    ],
+    "happy": {
+      "headline": "An Otter Returns to the Bronx River After a Century — and Needs a Name",
+      "url": "https://www.smithsonianmag.com/smart-news/an-otter-just-returned-to-new-york-citys-bronx-river-for-the-first-time-in-a-century-now-you-can-help-name-it-180989556/",
+      "source": "Smithsonian Magazine",
+      "blurb": "A trail camera caught a North American river otter on the Bronx River in June, the first sighting there since the early 1900s and a hopeful sign the long-polluted waterway is recovering. New Yorkers are now voting between Nessie, Ruthie and Morgan."
+    },
+    "tech_top": [
+      {
+        "headline": "Hackers Who Stole FBI Employee Data Say They Won't Publish It",
+        "url": "https://www.404media.co/fbi-hackers-say-they-wont-publish-massive-trove-of-fbi-employee-data/",
+        "source": "404 Media",
+        "investigative": true,
+        "pm_note": "A breach that exposes who staffs a secretive unit — and promises not to publish — is still leverage sitting on someone else's server; 'they said they won't' is not a security control.",
+        "blurb": "The hacking group ShinyHunters says it holds data on every FBI employee and applicant, including members of the Bureau's secretive Remote Operations hacking unit, but says it never intended to publish it. Analysts worry the data could still be used to intimidate agents or be sold to foreign intelligence services."
+      },
+      {
+        "headline": "A Popular Open-Source AI Gateway Was Compromised With an Infostealer",
+        "url": "https://techcrunch.com/2026/10/21/the-internet-is-having-a-very-bad-cybersecurity-day/",
+        "source": "TechCrunch",
+        "pm_note": "LiteLLM routes requests across model providers for thousands of AI products; a poisoned release there is a reminder that your AI stack's attack surface includes every gateway library you didn't write.",
+        "blurb": "A malicious version of LiteLLM, an open-source proxy many companies use to route requests across AI model providers, was published to PyPI carrying an infostealer and remote-access trojan before being quarantined. The payload was hidden only in the packaged file, so reviewing the public source code would not have caught it."
+      }
+    ],
+    "tech_more": [
+      {
+        "headline": "Accenture Caps Many Employees' Claude Spending at $29 a Month",
+        "url": "https://www.404media.co/accenture-tells-employees-they-can-now-spend-only-29-on-claude-per-month/",
+        "source": "404 Media",
+        "blurb": "The consulting giant told staff it will now limit their personal Claude usage to $29 monthly, a sign that even AI's biggest corporate boosters are tightening budgets around how employees actually use it day to day."
+      }
+    ],
+    "tech_101": [
+      {
+        "term": "Supply-chain attack",
+        "text": "An attack that poisons a shared tool or library rather than its users directly, so one tampered package — like this month's fake LiteLLM release — can quietly reach every company that depends on it."
+      },
+      {
+        "term": "PII",
+        "text": "Shorthand for personally identifiable information — names, addresses, phone numbers — which is exactly what made the FBI data breach dangerous: not classified secrets, but enough to locate and pressure real people."
+      }
+    ],
+    "science": [
+      {
+        "headline": "Scientists Capture an X-Ray 'Molecular Movie' of How Penicillin Forms",
+        "url": "https://www.chemistryworld.com/news/x-ray-molecular-movie-of-penicillin-reveals-hidden-lives-of-its-intermediates/4024365.article",
+        "source": "Chemistry World",
+        "kind": "chemistry",
+        "blurb": "An Oxford team led by Christopher Schofield used ultrashort X-ray pulses to film the enzyme isopenicillin N synthase assembling penicillin's fused ring system in real time, capturing short-lived intermediates that vanish in the final product. The technique could help engineer related antibiotics or other ring-forming reactions."
+      },
+      {
+        "headline": "Curiosity Finds a Mysterious Wall of Wind-Carved Cliffs on Mars",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261021231238.htm",
+        "source": "ScienceDaily",
+        "kind": "space",
+        "blurb": "NASA's Curiosity rover photographed a panorama of yardangs, rugged cliffs on Mount Sharp that may preserve evidence of ancient volcanic activity, lit by Martian dawn light. Scientists don't yet know how the formation developed and hope close-up study, expected in 2027, will help explain it."
+      }
+    ],
+    "philosophy": [
+      {
+        "headline": "Why Rule by the People Is Better Than Rule by the Experts",
+        "url": "https://aeon.co/essays/why-rule-by-the-people-is-better-than-rule-by-the-experts",
+        "source": "Aeon",
+        "blurb": "The essay argues real democracy means people exerting power directly, not choosing from a menu pre-selected by elites and technocrats. It is skeptical even of lottocracy — governing by randomly selected citizen panels — since elites could still shape what such panels are allowed to decide."
+      },
+      {
+        "headline": "Consciousness Research Is Ready for Its Einstein Moment",
+        "url": "https://iai.tv/articles/consciousness-research-is-ready-for-its-einstein-moment-auid-3709",
+        "source": "IAI News",
+        "blurb": "Philosophers Ken Archer and Harald Wiltsche argue that reducing consciousness to a brain mechanism rests on a conceptual mistake, drawing a parallel to how Einstein's relativity required rethinking the 19th-century 'ether' rather than just measuring it better. The fix, they argue, is a shift in framework, not more neuroscience data."
+      }
+    ],
+    "philosophy_101": [
+      {
+        "term": "Lottocracy",
+        "text": "The idea of governing through citizen panels chosen at random, like a jury, instead of elections — proposed as a more genuinely democratic alternative to rule by elected or technocratic elites."
+      },
+      {
+        "term": "Hard problem of consciousness",
+        "text": "The puzzle of why physical brain processes come with subjective experience at all, not just how they produce behavior — the deeper question some philosophers argue neuroscience keeps sidestepping rather than solving."
+      }
+    ]
+  }
+}
