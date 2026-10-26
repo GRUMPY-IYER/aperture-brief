@@ -1,0 +1,182 @@
+{
+  "date": "2026-10-26",
+  "sections": {
+    "politics": {
+      "top": [
+        {
+          "headline": "Attorney General Defends DOJ Suit to Block Alaska Senate Results if Republican Loses",
+          "url": "https://www.npr.org/2026/10/25/nx-s1-6016212/blanche-defends-doj-lawsuit-blocking-alaska-senate-results-if-republican-loses",
+          "source": "NPR",
+          "blurb": "Attorney General Todd Blanche on Sunday defended the Justice Department's lawsuit seeking to stop Alaska from certifying its Senate results if Republican incumbent Dan Sullivan loses in November, days after DOJ first filed the suit. Election-law scholars have called the underlying legal theory thin, and the fight adds to a wider pattern of administration challenges to this cycle's vote counting."
+        },
+        {
+          "headline": "Judge Orders Trump to Sit for Deposition in $10 Billion BBC Lawsuit",
+          "url": "https://www.axios.com/2026/10/22/trump-bbc-lawsuit-december-deposition-deadline",
+          "source": "Axios",
+          "blurb": "A federal magistrate judge ordered Trump to sit for a deposition by December 11 in his $10 billion defamation suit against the BBC, after he abruptly canceled an October 16 session that the broadcaster's lawyers called a delay tactic dressed up as a political event. The judge also ruled the deposition can be videotaped over his attorneys' objections, with discovery set to close December 18."
+        },
+        {
+          "headline": "Ballot Rejections Soared in Rural Counties After USPS Reduced Mail Service",
+          "url": "https://www.propublica.org/article/mail-ballot-delays-postal-service-midterms",
+          "source": "ProPublica",
+          "investigative": true,
+          "blurb": "A ProPublica analysis found rejection rates for late-arriving mail ballots have doubled or tripled in some rural counties compared with the 2022 primary, as Postal Service consolidation routes ballots through processing centers farther from the communities that mail them. Some affected counties are adding drop boxes, but the pattern threatens to disenfranchise rural voters weeks before the midterms."
+        }
+      ],
+      "more": []
+    },
+    "india": {
+      "top": [
+        {
+          "headline": "Uttarakhand Officer Refused a BJP Worker's Mass Voter-Deletion Request — Until the EC Stepped In",
+          "url": "https://www.newslaundry.com/2026/10/24/uttarakhand-ero-refused-bjp-workers-bulk-form-7-objections-after-eci-complaint-5359-were-accepted",
+          "source": "Newslaundry",
+          "investigative": true,
+          "blurb": "A Kichha election officer initially rejected nearly 6,000 Form 7 objections filed in one BJP worker's name seeking to delete voters from the rolls, Newslaundry found, but accepted 5,359 of them after an Election Commission complaint overturned the refusal. The episode adds to scrutiny of how bulk objections are being used nationwide during the ongoing voter-roll revision."
+        }
+      ],
+      "more": []
+    },
+    "geo": {
+      "top": [
+        {
+          "headline": "Lula Wins Historic Fourth Term as Brazil's President, Defeating Bolsonaro's Son",
+          "url": "https://www.npr.org/2026/10/25/nx-s1-6016299/brazil-lula-bolsonaro-election",
+          "source": "NPR",
+          "blurb": "Luiz Inácio Lula da Silva won a record fourth, non-consecutive presidential term in Sunday's runoff against Flávio Bolsonaro, with results putting the margin above 51% to 48% as nearly all votes were counted. Lula, 80, will be sworn in on January 5, 2027, facing a Congress where Bolsonaro's party holds its largest bench in decades and a rival camp that has so far refused to concede."
+        },
+        {
+          "headline": "Jordan Arrests Three Suspects in Deadly Attack on Church Funeral",
+          "url": "https://www.aljazeera.com/news/2026/10/26/jordan-arrests-three-suspects-in-deadly-church-attack",
+          "source": "Al Jazeera",
+          "blurb": "Jordanian security forces arrested three men found in an abandoned house in Karak early Monday, after gunmen opened fire on mourners at a funeral near a Greek Orthodox church, killing several people and wounding dozens more. The suspects fired on security forces before being wounded and taken into custody; authorities call it the work of \"extremist terrorists\" but have not said whether it is linked to any known group."
+        },
+        {
+          "headline": "CENTCOM Has Strike Plans Ready for Iran. Will Trump Approve Them?",
+          "url": "https://www.aljazeera.com/news/2026/10/25/centcom-reportedly-has-plans-for-iran-strikes-will-trump-approve-them",
+          "source": "Al Jazeera",
+          "blurb": "Trump said Sunday there would be no US strike on Iran \"today,\" days after signaling one could come imminently, even as CENTCOM holds plans for further strikes it could launch within 96 hours of a presidential order. US intelligence has warned Iran is pursuing \"advanced\" plots against American personnel abroad, while Tehran says it remains open to a negotiated deal."
+        }
+      ],
+      "more": []
+    },
+    "sports": {
+      "top": [],
+      "more": []
+    },
+    "entertainment": {
+      "top": [
+        {
+          "headline": "'Doosra' Review: A Docu-Fiction That Can't Quite Fuse Its Two Halves",
+          "url": "https://scroll.in/reel/1096563/review-doosra-tries-to-force-fit-two-incompatible-ideas",
+          "source": "Scroll.in",
+          "blurb": "Abhinay Deo's 'Doosra' weaves real footage of India's 2002 NatWest final win at Lord's — and Sourav Ganguly's shirt-waving celebration — around a fictional story of a Jodhpur teenager rebelling against her orthodox household. Scroll.in's critic says the film means well but force-fits its documentary and fictional halves rather than letting them speak to each other."
+        }
+      ],
+      "more": []
+    },
+    "bengal": [
+      {
+        "headline": "Bengal Bypolls Emerge as Battle for Opposition Space",
+        "url": "https://www.millenniumpost.in/bengal/bengal-bypolls-emerge-as-battle-for-opposition-space-676925",
+        "source": "Millennium Post",
+        "blurb": "Two Bengal assembly bypolls are shaping up as a fight over opposition space, with the BJP predicting wins in both seats while CPI(M)'s Sujan Chakraborty argues the Left, not Trinamool, is the real opposition now."
+      }
+    ],
+    "travel": [
+      {
+        "headline": "Lonely Planet's Underrated Picks for 2027 Travel",
+        "url": "https://www.lonelyplanet.com/articles/underrated-travel-destinations",
+        "source": "Lonely Planet",
+        "blurb": "Lonely Planet's new list of underrated 2027 destinations includes Bhutan, which caps mass tourism with a costly Sustainable Development Fee, alongside picks like Mid-Wales and India's Northeast."
+      },
+      {
+        "headline": "Birds Are Quietly Recycling Nutrients Across the Whole Planet",
+        "url": "https://news.cornell.edu/node/333805",
+        "source": "Cornell Chronicle",
+        "blurb": "A Cornell-led review of nearly 400 studies found birds move nutrients across entire ecosystems through their waste and bodies, from seabird colonies that feed coral reefs to songbirds pausing at a Lake Ontario stopover."
+      }
+    ],
+    "happy": {
+      "headline": "Adelaide Zoo Celebrates Its First Southern Cassowary Eggs in 34 Years",
+      "url": "https://www.smithsonianmag.com/smart-news/conservationists-in-australia-celebrate-the-arrival-of-two-southern-cassowary-eggsthe-first-at-adelaide-zoo-in-34-years-180989739/",
+      "source": "Smithsonian Magazine",
+      "blurb": "Conservationists at Adelaide Zoo are celebrating after two southern cassowaries laid eggs this month, the zoo's first in 34 years and a rare bright spot for one of the world's most endangered large flightless birds."
+    },
+    "tech_top": [
+      {
+        "headline": "A City Found Flock Had Accessed a Kids' Gymnastics Room's Cameras as a Sales Demo. It Renewed the Contract Anyway.",
+        "url": "https://www.404media.co/city-learns-flock-accessed-cameras-in-childrens-gymnastics-room-as-a-sales-pitch-demo-renews-contract-anyway/",
+        "source": "404 Media",
+        "investigative": true,
+        "pm_note": "Vendor access logs are the only reason this surfaced at all — if your own surveillance or data vendors can reach a customer's feed 'just to show a prospect what's possible,' that access exists whether or not anyone ever audits it.",
+        "blurb": "A city discovered that Flock Safety had accessed its camera feed, including inside a children's gymnastics facility, to use as a sales demonstration for a prospective client, 404 Media reported. Despite the discovery, the city renewed its contract with the surveillance company rather than imposing new restrictions on vendor access to its footage."
+      },
+      {
+        "headline": "Grok Releases the First Seven Minutes of Its AI-Generated 'Odyssey' — and It Shows",
+        "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+        "source": "TechCrunch",
+        "pm_note": "A flagship 'AI movie' landing as seven rough minutes three months after its announcement is a useful reality check on how far generative video still lags the demos built to sell it.",
+        "blurb": "xAI's Grok published roughly seven minutes of an AI-generated adaptation of 'The Odyssey,' three months after Elon Musk first announced a full-length film, now billed as \"Episode 1\" of an ongoing series. TechCrunch's reviewer found the clip lacking in artistry or human interest, underscoring the gap between generative-video hype and its current output."
+      }
+    ],
+    "tech_more": [
+      {
+        "headline": "NHTSA Proposes a Cyan Light to Mark Driverless Cars",
+        "url": "https://techcrunch.com/2026/10/25/techcrunch-mobility-blue-green-is-the-color-of-autonomy",
+        "source": "TechCrunch",
+        "blurb": "NHTSA has proposed lighting rules that would let autonomous vehicles use an optional cyan light to signal driverless operation, with the standard expected to debut on the 2028 Cadillac Escalade IQ."
+      }
+    ],
+    "tech_101": [
+      {
+        "term": "Third-party data access",
+        "text": "The behind-the-scenes ability a vendor's own staff have to view or pull data from a product they sell you — distinct from what the product's privacy policy promises end users, and often invisible until something like a sales demo exposes it."
+      },
+      {
+        "term": "AI slop",
+        "text": "Low-effort, mass-produced AI-generated content — text, images or video — published more for volume than quality; this week's rough seven-minute AI 'Odyssey' clip drew exactly that label from unimpressed critics."
+      }
+    ],
+    "science": [
+      {
+        "headline": "A Century-Old Chemistry Rule Taught in Every Textbook May Be Wrong",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260913082157.htm",
+        "source": "ScienceDaily",
+        "kind": "chemistry",
+        "blurb": "A new study in the Journal of Chemical Education finds that the inductive effect — taught for nearly a century as weakening gradually across three or four bonds — actually stops after the first bond in neutral molecules, based on modern computational modeling. Two UK A-level exam boards have already announced reviews of how they teach the concept, citing the research directly."
+      },
+      {
+        "headline": "Perseverance Breaks Opportunity's Mars Driving Record",
+        "url": "https://science.nasa.gov/blogs/perseverance-mars-rover/2026/10/12/nasas-perseverance-sets-off-world-record-for-total-distance-driven/",
+        "source": "NASA",
+        "kind": "space",
+        "blurb": "NASA's Perseverance rover passed 28.10 miles (45.22 km) driven on Mars on October 11, edging past the 28.06-mile record set by Opportunity over nearly 15 years — a distance Perseverance covered in about 5.5 years. Its AutoNav self-driving system handled over 90% of that total, and NASA expects the rover to keep extending the record through its newly approved mission extension."
+      }
+    ],
+    "philosophy": [
+      {
+        "headline": "The Century-Long Search for the Limits of Knowledge",
+        "url": "https://aeon.co/essays/the-century-long-search-for-the-limits-to-knowledge",
+        "source": "Aeon",
+        "blurb": "Physicists Timothy Andersen and Alexander V Gheorghiu argue that truth in science and logic isn't a fixed ceiling but something that shifts as our knowledge and language evolve, tracing a century of attempts to pin down the limits of what can be known. The essay treats the search itself, not any final answer, as the real subject."
+      },
+      {
+        "headline": "3 Philosophers on What Humans Should Never Give Up to AI",
+        "url": "https://bigthink.com/philosophy/3-philosophers-on-what-humans-should-never-give-up-to-ai/",
+        "source": "Big Think",
+        "blurb": "Three philosophers tell Big Think what people should guard most carefully as AI takes on more thinking: the capacity to think for themselves, curiosity about open-ended questions, and a feel for what makes any one person's perspective irreplaceable. None frames the stakes as a question about machine consciousness, but about what human thinking is for in the first place."
+      }
+    ],
+    "philosophy_101": [
+      {
+        "term": "Epistemology",
+        "text": "The branch of philosophy concerned with what we can know and how we know it — the subject behind debates over whether truth is a fixed target or something that shifts as our concepts and evidence evolve."
+      },
+      {
+        "term": "Anthropocentrism",
+        "text": "The assumption that human traits or interests are the natural standard against which everything else, including a machine's thinking, should be measured — a premise some philosophers of AI argue needs examining rather than assuming."
+      }
+    ]
+  }
+}
