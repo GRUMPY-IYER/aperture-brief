@@ -1,0 +1,226 @@
+{
+  "date": "2026-11-01",
+  "sections": {
+    "politics": {
+      "top": [
+        {
+          "headline": "Meet 'Trump's Elections Czar': How Cleta Mitchell Built the Machinery Behind Election Doubt",
+          "url": "https://www.propublica.org/article/cleta-mitchell-elections-trump",
+          "source": "ProPublica",
+          "investigative": true,
+          "blurb": "A ProPublica investigation traces how Cleta Mitchell, the lawyer who helped craft Trump's 2020 fake-electors strategy, built the 'election integrity' movement into a durable power center: at least $70 million directed to allied groups since 2021, and 25-plus administration appointees with ties to her, despite holding no formal government role."
+        },
+        {
+          "headline": "Top US Health Official Put on Leave After Backing a Drug Policy That Benefited a Company She Owned Stock In",
+          "url": "https://www.propublica.org/article/hhs-alicia-jackson-menopause-treatment-policy",
+          "source": "ProPublica",
+          "investigative": true,
+          "blurb": "ARPA-H director Alicia Jackson publicly praised HHS's decision to drop warning labels on hormone therapy drugs without disclosing at least $115,000 in stock in Evernow, the menopause-treatment startup she founded and still profits from. HHS placed her on administrative leave after ProPublica's questions; she did not respond to them."
+        },
+        {
+          "headline": "Volunteer Poll Watchers Train for ICE and National Guard Scenarios Ahead of Tuesday's Midterms",
+          "url": "https://www.motherjones.com/politics/2026/10/volunteer-poll-monitors-training-2026-midterms-ice-trump-election-day-interference-fears/",
+          "source": "Mother Jones",
+          "blurb": "Volunteer poll monitors are training for ICE or National Guard appearances at polling places and for 1,000 Justice Department monitors, nearly triple 2022's deployment, as federal courts have already blocked ICE's door-to-door voter checks and rejected a demand to set aside 20,000 California ballots over noncitizen-voting claims."
+        }
+      ],
+      "more": []
+    },
+    "india": {
+      "top": [
+        {
+          "headline": "Five Kuki Civilians Killed in Manipur as Meitei and Naga Groups Rally to End Militant Ceasefire",
+          "url": "https://scroll.in/latest/1096789/manipur-three-kuki-men-killed-in-gunfight-between-armed-groups",
+          "source": "Scroll.in",
+          "blurb": "Three Kuki men were shot dead in Noney district and two more were found dead after going missing, taking the Naga-Kuki clash toll to 68 since February, as thousands of Meitei protesters rallied in Imphal demanding an end to the 2008 ceasefire with Kuki militant groups. A Kuki apex body blamed the state's 'reckless refusal' to protect its communities."
+        },
+        {
+          "headline": "Uttar Pradesh Shuts Down Poll-Portal Logins Statewide After a Computer Operator Allegedly Rewrote 13,000 Voter Records",
+          "url": "https://scroll.in/latest/1096788/up-poll-panel-orders-deactivation-of-computer-operators-ecinet-login-ids-after-misuse-allegations",
+          "source": "Scroll.in",
+          "blurb": "Uttar Pradesh's chief electoral officer deactivated every computer assistant's ECINET login after one operator in Pilibhit filed 13,779 voter-correction forms following the seat's final roll publication; Congress says over 13,000 names were swapped. The Election Commission has now ordered a statewide reverification of every name added, deleted or amended since April's roll revision."
+        },
+        {
+          "headline": "Andhra Pradesh's Local Body Nominations Turn Into a 'Combat Zone,' With 599 Wards Uncontested",
+          "url": "https://www.newslaundry.com/2026/11/01/why-andhra-local-body-nominations-turned-violent",
+          "source": "Newslaundry",
+          "investigative": true,
+          "blurb": "At least 31 election-violence incidents and 16 police complaints over torn nomination papers have marked Andhra Pradesh's local body polls, concentrated in former chief minister Jagan Mohan Reddy's Pulivendula stronghold. The YSRCP accuses the state's TDP-led police of colluding to block its candidates from filing; 599 wards have already been declared uncontested."
+        }
+      ],
+      "more": []
+    },
+    "geo": {
+      "top": [
+        {
+          "headline": "Hundreds of Thousands March Across France as Student-Led Protests Over Cost of Living Turn Violent",
+          "url": "https://www.aljazeera.com/news/2026/10/31/tension-and-clashes-as-hundreds-of-thousands-protest-again-in-france",
+          "source": "Al Jazeera",
+          "blurb": "Up to half a million people marched nationwide, 200,000 in Paris alone, in protests that began last month over dilapidated schools and the cost of living before unions joined. Police fired tear gas and made at least 290 arrests after masked protesters threw paving stones; similar unrest has now spread to Germany, Spain and Italy."
+        },
+        {
+          "headline": "Poland's Constitutional Crisis Deepens as Nawrocki's Emergency Talks Yield No Breakthrough",
+          "url": "https://www.aljazeera.com/news/2026/11/1/polish-president-holds-crisis-talks-in-court-standoff",
+          "source": "Al Jazeera",
+          "blurb": "President Karol Nawrocki called 'urgent' talks after suspending the Constitutional Tribunal's chief judge, but Prime Minister Donald Tusk's party stayed away and no breakthrough emerged. Tusk accused opposition parties of trying 'to destroy democracy,' the tribunal called its own judge's removal a 'coup d'etat,' and the EU is pressing Nawrocki to accept new judges."
+        },
+        {
+          "headline": "UN Staffer Dies in Houthi Custody in Yemen, Held Since 2024 on Spying Accusations",
+          "url": "https://www.aljazeera.com/news/2026/11/1/un-demands-investigation-after-staffers-death-in-houthi-custody-in-yemen",
+          "source": "Al Jazeera",
+          "blurb": "Mohammad el-Shami, a UN human rights officer detained since June 2024 as part of an alleged 'American-Israeli spy network,' died in Houthi custody more than a month before his family was told. UN chief Antonio Guterres said he was 'appalled' and demanded an independent investigation; seven colleagues remain held."
+        }
+      ],
+      "more": []
+    },
+    "sports": {
+      "top": [
+        {
+          "headline": "South Africa Topples Australia to Become World's No. 1 Test Side After Series Decider",
+          "url": "https://www.icc-cricket.com/news/sensational-south-africa-seal-the-series-in-cape-town",
+          "source": "ICC",
+          "blurb": "South Africa won the Cape Town decider by 176 runs to take the series 2-1, with Simon Harmer's five-for ending Australia's chase after Kagiso Rabada struck twice in his first over on the way to his 350th Test wicket. The result sends South Africa to the top of the ICC Test rankings, above Australia, for the first time."
+        },
+        {
+          "headline": "Fakhar Zaman's Century Seals Pakistan's Tri-Series Win Over Sri Lanka in a 326-Run Chase",
+          "url": "https://www.icc-cricket.com/news/pakistan-clinch-tri-series-with-big-chase-against-sri-lanka",
+          "source": "ICC",
+          "blurb": "Pakistan chased down 326 in Lahore to win the ODI tri-series final, with Fakhar Zaman's 127 off 99 balls and Arafat Minhas's rapid 61 setting up Shaheen Afridi's match-sealing six with three wickets in hand. Kamindu Mendis's 131 had set up Sri Lanka's total but could not prevent the chase."
+        }
+      ],
+      "more": []
+    },
+    "entertainment": {
+      "top": [
+        {
+          "headline": "Sylvester Stallone's Memoir Reveals How a Reshot Ending, Paid for Out of His Own Pocket, Saved 'Rocky'",
+          "url": "https://scroll.in/reel/1096771/how-sylvester-stallone-fought-to-change-the-original-ending-of-his-blockbuster-film-rocky",
+          "source": "Scroll.in",
+          "blurb": "In an excerpt from his memoir 'The Steps,' Stallone recalls that Rocky's first-cut ending — a battered, anonymous loss — tested so flat that he offered to personally fund a reshoot costing $4,000-5,000. The producers split the cost; the resulting embrace-and-'I love you' finale became one of cinema's most quoted endings."
+        }
+      ],
+      "more": []
+    },
+    "bengal": [
+      {
+        "headline": "BJP Launches Its First Trade Union, for Contract Workers at Kolkata Airport",
+        "url": "https://www.millenniumpost.in/bengal/bjp-launches-first-trade-union-at-kolkata-airport-bansal-calls-it-historic-day-681694",
+        "source": "Millennium Post",
+        "blurb": "BJP general secretary Sunil Bansal launched the party's first trade union for contractual workers at Kolkata's airport, calling it a 'historic day' and promising similar unions in other sectors."
+      },
+      {
+        "headline": "Tollywood Holds Two-Day Guild Elections, Overseen by Mithun Chakraborty, After Years of Alleged Irregularities",
+        "url": "https://www.millenniumpost.in/bengal/elections-to-16-guilds-to-be-held-over-2-days-mithun-rudranil-oversee-guild-polls-as-tolly-seeks-fresh-start-681711",
+        "source": "Millennium Post",
+        "blurb": "Bengal's film technicians' federation held elections for 16 guilds over two days, overseen by Mithun Chakraborty, after years of unpaid dues and an alleged ban culture under the previous leadership."
+      }
+    ],
+    "travel": [
+      {
+        "headline": "Home-Swapping Vacations, Born in 1953 Among New York Teachers, Are Booming Again With Gen Z",
+        "url": "https://www.smithsonianmag.com/travel/how-a-bunch-of-broke-teachers-created-a-hot-new-way-to-vacation-180989709/",
+        "source": "Smithsonian Magazine",
+        "blurb": "Home swapping began in 1953 when a New York teacher listed colleagues willing to trade houses for holidays; the practice is now booming among budget-conscious Gen Z and millennial travelers."
+      },
+      {
+        "headline": "Madagascar's Giant Fruit Bats Have Shrunk 6% Over 150 Years, Possibly From Hunting",
+        "url": "https://www.smithsonianmag.com/smart-news/madagascars-giant-bats-seem-to-be-shrinking-after-measuring-121-specimens-scientists-suggest-hunting-by-humans-is-to-blame-180989782/",
+        "source": "Smithsonian Magazine",
+        "blurb": "Measuring 121 museum skulls spanning 150 years, researchers found Madagascar's flying foxes have shrunk as commercial hunting for food rose, possibly because hunters target the largest, most mature bats."
+      }
+    ],
+    "happy": {
+      "headline": "Johannes Kepler Wrote the First Science Fiction Novel. Then He Spent Six Years Saving His Mother From a Witch Trial.",
+      "url": "https://www.themarginalian.org/2019/12/26/katharina-kepler-witchcraft-dream/",
+      "source": "The Marginalian",
+      "blurb": "Kepler's fictional moon voyage was mistaken for his mother's memoir; he spent six years proving her supposed witchcraft was ordinary gossip, winning her freedom too late to save her health."
+    },
+    "tech_top": [
+      {
+        "headline": "Federal Judge Lets NAACP's Clean Air Act Suit Against xAI's Memphis Data Center Proceed",
+        "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+        "source": "TechCrunch",
+        "pm_note": "A data center's power draw usually gets the scrutiny — here it's the 35 unpermitted gas turbines quietly backing it up that became the legal exposure, a reminder that infrastructure compliance debt can halt capacity expansion faster than any compute shortage.",
+        "blurb": "Judge Debra M. Brown denied xAI's motion to dismiss a Clean Air Act suit over its Colossus data center near Memphis, rejecting the company's argument that its 35-plus gas combustion turbines count as exempt 'mobile sources.' The Southern Environmental Law Center brought the case for the NAACP; a similar DOJ motion was denied earlier in October."
+      },
+      {
+        "headline": "OpenAI Cuts Funding Target to $20 Billion as Investor Appetite for AI Infrastructure Cools",
+        "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+        "source": "TechCrunch",
+        "pm_note": "Scaling back a raise mid-round, with the first close coming in even lower, is a direct readout of investor sentiment on compute-heavy growth bets — worth watching as a leading indicator before your own infra spend decisions, not just OpenAI's.",
+        "blurb": "OpenAI has lowered its new funding round's target to about $20 billion from $30 billion, with UAE-based investors leading and the Wall Street Journal reporting only $11 billion committed so far. The retreat follows a broader sell-off in AI infrastructure stocks and what the Journal called 'tepid' interest from some large investors."
+      },
+      {
+        "headline": "A Shared ChatGPT Link Could Let Attackers Hijack Victims' Accounts and Read Private Chats",
+        "url": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
+        "source": "The Hacker News",
+        "pm_note": "The exploit chained a sandboxed preview, a third-party library's unchecked message listener, and YouTube's presence on ChatGPT's own content-security-policy allowlist — proof that every 'trusted' domain on your CSP is still part of your attack surface, not a safe exemption from it.",
+        "blurb": "Researchers at Parameter found that opening a shared ChatGPT conversation could run attacker code inside a victim's logged-in session, letting it list and read private chats never shared with the attacker. OpenAI paid a $5,000 bounty and shipped a fix within eight days of the report; no real-world exploitation was found."
+      }
+    ],
+    "tech_more": [
+      {
+        "headline": "Deepgram Acquires Daily, Maker of Open-Source Voice AI Framework Pipecat",
+        "url": "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure/",
+        "source": "TechCrunch",
+        "blurb": "Voice AI company Deepgram acquired Daily, the startup behind the widely used open-source Pipecat framework, for an undisclosed sum to deepen its real-time voice and video infrastructure; Pipecat stays open source."
+      }
+    ],
+    "tech_101": [
+      {
+        "term": "Citizen suit",
+        "text": "A legal mechanism in laws like the Clean Air Act letting private citizens or groups sue a polluter directly, without waiting for a regulator to act — the provision the NAACP used against xAI, and which xAI tried, and failed, to have declared unconstitutional."
+      },
+      {
+        "term": "Content Security Policy (CSP)",
+        "text": "A browser rule, set by a website, listing which external domains its page is allowed to load scripts from. ChatGPT's CSP trusted YouTube, which is normally harmless — until attackers found a way to use that trust to run their own code inside a victim's account."
+      }
+    ],
+    "science": [
+      {
+        "headline": "Japanese Chemists Build a Molecular Cage That Traps Flat Molecules Like Armor",
+        "url": "https://phys.org/news/2026-10-molecular-armor-planar-molecules.html",
+        "source": "Phys.org",
+        "kind": "chemistry",
+        "blurb": "Chemists at Japan's Institute for Molecular Science built 'π-Armor,' a molecular cage from two curved carbon panels that can permanently trap flat, ring-shaped molecules too large to pass through its openings, sealing them in place even at 200°C. The design works by shape alone, not electronic properties, solving a host-guest puzzle that had resisted chemists for years."
+      },
+      {
+        "headline": "A 'Forgotten' Heavy Neutrino May Explain Why the Universe Has Matter at All",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261031221201.htm",
+        "source": "ScienceDaily",
+        "kind": "space",
+        "blurb": "Physicists at Southampton and IIT Kanpur propose that a long-overlooked, slow-decaying heavy neutrino briefly dominated the universe's energy density after the Big Bang, shifting the conditions that let matter narrowly outlast antimatter. The idea remains theoretical, but the team says it could leave a testable signature in the universe's oldest gravitational waves."
+      }
+    ],
+    "philosophy": [
+      {
+        "headline": "Does the Demand That Everything Have a Reason Lead Straight to Panpsychism?",
+        "url": "https://aeon.co/essays/does-the-principle-of-sufficient-reason-make-panpsychism-true",
+        "source": "Aeon",
+        "blurb": "Philosopher Sam Kimpton-Nye argues that the principle of sufficient reason, the demand that everything have an explanation, pushes naturally toward panpsychism, the view that consciousness is fundamental to matter rather than something assembled from it. He doubts the universe is ever fully intelligible, but finds panpsychism's attempt at that intelligibility illuminating regardless."
+      },
+      {
+        "headline": "Your Gut Feeling That Something Is Off Might Be a Form of Perception",
+        "url": "https://aeon.co/essays/sometimes-you-just-know-somethings-off-but-how",
+        "source": "Aeon",
+        "blurb": "Philosopher Marc Moffett argues that intuitions, the instant sense that a stranger is creepy or an argument has gone wrong, work like perception rather than vague feeling: they present a situation as actually being a certain way, and that presentation alone gives you reason to believe it, no further justification required."
+      },
+      {
+        "headline": "Cicero's Idea of Manhood Was Self-Control, Not Domination — Even in Defeat",
+        "url": "https://aeon.co/essays/the-politics-of-masculinity-at-the-end-of-the-roman-republic",
+        "source": "Aeon",
+        "blurb": "Historian Catharine Edwards traces how Cicero built his model of Roman manhood around courage, self-control and moderation rather than conquest, an ideal he had to keep performing publicly. After Caesar silenced Rome's political forum, Cicero insisted that bearing exile and grief with dignity was still a manly virtue, redefining strength as endurance."
+      }
+    ],
+    "philosophy_101": [
+      {
+        "term": "Principle of sufficient reason",
+        "text": "The philosophical claim that everything that exists or happens has a reason or cause — nothing is a brute, unexplainable fact. Today's panpsychism essay uses it to argue that if even consciousness needs an explanation, matter itself may have to be conscious all the way down."
+      },
+      {
+        "term": "Epistemic intuition",
+        "text": "A direct, non-inferential sense that a claim is true or a situation is a certain way, treated by some philosophers as a source of evidence in its own right rather than just a hunch. Today's essay argues it works like perception, not guesswork."
+      }
+    ]
+  }
+}
