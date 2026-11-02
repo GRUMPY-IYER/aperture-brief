@@ -1,0 +1,1032 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Aperture — Monday, November 2, 2026</title>
+<style>
+  body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    color: #1a1a1a;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 32px 24px;
+    background: #fdfcf7;
+  }
+  header { text-align: center; border-bottom: 4px double #1a1a1a; padding-bottom: 14px; margin-bottom: 20px; position: relative; }
+  .header-logo { position: absolute; top: 0; left: 0; width: 60px; height: 60px; object-fit: contain; }
+  @media (max-width: 520px) { .header-logo { width: 40px; height: 40px; } }
+  .masthead { font-size: 46px; font-weight: bold; letter-spacing: 1px; margin: 0; }
+  .dateline-row {
+    display: flex; justify-content: space-between; font-family: Arial, sans-serif;
+    font-size: 11px; letter-spacing: 1px; text-transform: uppercase; color: #555;
+    border-top: 1px solid #999; border-bottom: 1px solid #999; padding: 4px 2px; margin-top: 10px;
+  }
+  .archive-nav input[type="date"] {
+    font-family: Arial, sans-serif; font-size: 11px; color: #555; border: 1px solid #999;
+    background: #fdfcf7; padding: 1px 4px; letter-spacing: normal; text-transform: none;
+  }
+  /* Both columns are flex stacks so a reader preference can reorder them with
+     CSS `order` alone — no rebuild, no second page, and if JavaScript never
+     runs the document order below is what everyone sees. */
+  .main-col, .side-col { display: flex; flex-direction: column; }
+  .featured { order: 0; }   /* always first, whoever is reading */
+  .politics { order: 1; } .apu-corner-section { order: 2; }
+  .geo { order: 3; } .sports { order: 4; } .showcase { order: 9; }
+  .tech-desk { order: 1; } .science-desk { order: 2; }
+  .philosophy-desk { order: 3; } .entertainment { order: 4; }
+  /* Apu reads India first, and science before the technology desk. */
+  body[data-reader="apu"] .apu-corner-section { order: 1; }
+  body[data-reader="apu"] .politics { order: 2; }
+  body[data-reader="apu"] .science-desk { order: 1; }
+  body[data-reader="apu"] .tech-desk { order: 2; }
+  .reader-pick button { font-family: Arial, sans-serif; font-size: 11px; letter-spacing: .5px;
+    text-transform: uppercase; color: #555; background: none; border: 1px solid #bbb;
+    padding: 1px 6px; margin-left: 3px; cursor: pointer; }
+  .reader-pick button[aria-pressed="true"] { background: #1a1a1a; color: #fdfcf7; border-color: #1a1a1a; }
+  .page { display: grid; grid-template-columns: 1.7fr 1fr; gap: 0; }
+  @media (max-width: 900px) { .page { grid-template-columns: 1fr; } }
+  .main-col { padding-right: 28px; border-right: 3px double #1a1a1a; }
+  @media (max-width: 900px) { .main-col { border-right: none; padding-right: 0; } }
+  .side-col { padding-left: 28px; }
+  @media (max-width: 900px) { .side-col { padding-left: 0; margin-top: 20px; } }
+  section { margin-bottom: 26px; padding-bottom: 18px; border-bottom: 1px solid #ccc; }
+  h2 {
+    font-size: 19px; font-weight: bold; text-transform: uppercase; letter-spacing: 1.8px;
+    border-top: 3px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; padding: 5px 0; margin: 0 0 12px;
+  }
+  .tag { font-family: Arial, sans-serif; font-weight: normal; text-transform: none; letter-spacing: 0; font-size: 11px; color: #888; }
+  /* One flowing container per section. The browser measures the content and
+     evens the two columns itself, so a section can gain or lose stories and
+     still come out level. Replaces two fixed lists that could never balance. */
+  .flow { columns: 2; column-gap: 22px; column-rule: 1px solid #ccc; }
+  .flow > div { break-inside: avoid; -webkit-column-break-inside: avoid; }
+  @media (max-width: 900px) { .flow { columns: 1; column-rule: none; } }
+  /* The day's lead story spans the full width above the flow. */
+  .lede { column-span: all; padding-bottom: 14px; margin-bottom: 16px;
+          border-bottom: 2px solid #1a1a1a; }
+  .lede h3 { font-size: 25px !important; line-height: 1.18; }
+  .lede .blurb { font-size: 14px; }
+  .single { display: block; }
+  .top-item { margin-bottom: 14px; padding-bottom: 12px; border-bottom: 1px dotted #ccc; }
+  .top-item:last-child { border-bottom: none; }
+  .top-item h3 { margin: 0 0 3px; font-size: 17px; line-height: 1.25; text-wrap: pretty; }
+  .top-item h3 a { color: #1a1a1a; text-decoration: none; }
+  .top-item h3 a:hover { text-decoration: underline; }
+  .source { font-family: Arial, sans-serif; font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.5px; font-weight: bold; color: #a08030; }
+  .blurb { margin: 4px 0 0; font-size: 13.5px; color: #333; line-height: 1.5; }
+  .pm-note { margin: 5px 0 0; font-size: 12.5px; color: #444; font-style: italic; }
+  .pm-note b { font-style: normal; color: #1a1a1a; }
+  .more-item { margin-bottom: 11px; padding-bottom: 10px; border-bottom: 1px dotted #ddd; display: flex; gap: 8px; align-items: flex-start; }
+  .more-item img { width: 56px; height: auto; max-height: 78px; border-radius: 3px; flex-shrink: 0; display: block; }
+  .more-item h4 { margin: 0; font-size: 13.5px; line-height: 1.3; text-wrap: pretty; }
+  .more-item h4 a { color: #1a1a1a; text-decoration: none; }
+  .more-item h4 a:hover { text-decoration: underline; }
+  .more-item .source { font-size: 9.5px; }
+  .more-item p { margin: 3px 0 0; font-size: 12px; color: #555; }
+  .investigative-flag { display: inline-block; font-family: Arial, sans-serif; font-size: 8.5px; font-weight: bold; letter-spacing: 0.5px; text-transform: uppercase; color: #fff; background: #7a1f0f; padding: 1px 5px; border-radius: 2px; margin-left: 6px; vertical-align: middle; }
+  .politics h2, .politics .source { color: #7a1f0f; border-color: #7a1f0f; }
+  .apu-corner-section h2, .apu-corner-section .source { color: #9c3d5c; border-color: #9c3d5c; }
+  .geo h2, .geo .source { color: #12345c; border-color: #12345c; }
+  .sports h2, .sports .source { color: #8a5a00; border-color: #8a5a00; }
+  .entertainment h2, .entertainment .source { color: #7a2a5c; border-color: #7a2a5c; }
+  .side-col .tech-masthead { text-align: center; font-family: Arial, sans-serif; font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: #2b4a52; font-weight: bold; margin-bottom: 6px; }
+  .tech h2 { color: #2b4a52; border-color: #2b4a52; font-size: 21px; }
+  .tech .source { color: #2b4a52; }
+  .tech .top-item h3 { font-size: 18px; }
+  .side-col .science h2, .side-col .science .source { color: #1f5f5b; border-color: #1f5f5b; font-size: 19px; }
+  .side-col .science .top-item h3 { font-size: 16px; }
+  .side-col .consciousness h2, .side-col .consciousness .source { color: #4a2470; border-color: #4a2470; font-size: 19px; }
+  .side-col .consciousness .top-item h3 { font-size: 16px; }
+  .side-col .entertainment h2 { font-size: 19px; }
+  .side-col .entertainment .top-item h3 { font-size: 16px; }
+  .primer-box { background: #eef3f2; border: 1px solid #2b4a52; padding: 14px 16px; margin-top: 8px; }
+  .primer-box h5 { margin: 0 0 8px; font-family: Arial, sans-serif; font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: #2b4a52; }
+  .primer-item { margin-bottom: 10px; }
+  .primer-item:last-child { margin-bottom: 0; }
+  .primer-item .term { font-weight: bold; font-size: 14px; }
+  .primer-item p { margin: 2px 0 0; font-size: 12.5px; color: #444; line-height: 1.45; }
+  .apu-sub { font-family: Arial, sans-serif; font-size: 9.5px; letter-spacing: 1px; text-transform: uppercase; color: #9c3d5c; font-weight: bold; margin: 10px 0 5px; }
+  .apu-corner { column-span: all; margin-top: 14px; padding-top: 12px; border-top: 1px dashed #9c3d5c;
+                display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; align-items: start; }
+  @media (max-width: 900px) { .apu-corner { grid-template-columns: 1fr; } }
+  .apu-sub:first-child { margin-top: 0; }
+  .apu-item { display: flex; gap: 8px; margin-bottom: 10px; align-items: flex-start; }
+  .apu-item img { width: 56px; height: auto; max-height: 78px; border-radius: 3px; flex-shrink: 0; display: block; }
+  .apu-item .apu-text h4 { margin: 0; font-size: 12.5px; line-height: 1.3; }
+  .apu-item .apu-text h4 a { color: #1a1a1a; text-decoration: none; }
+  .apu-item .apu-text p { margin: 3px 0 0; font-size: 11.5px; color: #555; }
+  .apu-happy { background: #fdf6f9; border: 1px dashed #9c3d5c; padding: 8px 10px; border-radius: 4px; }
+  /* Photographs are sized by WIDTH ONLY, height:auto — their real aspect ratio
+     is preserved whatever it is (3:2, 4:3, 1:1, portrait). Never object-fit:
+     cover with a fixed height: that crops the subject out of the frame. */
+  .featured h2 { color: #4a5d3a; border-color: #4a5d3a; }
+  .featured .tag { color: #6b6157; }
+  /* Photo and its note sit side by side, so there is no reserved-but-empty space.
+     With nothing written about the frame yet, .bare lets the picture take the
+     full column instead of leaving a hole where text would have gone. */
+  .featured-body { display: grid; grid-template-columns: 1.5fr 1fr; gap: 20px; align-items: start; }
+  .featured-body.bare { grid-template-columns: 1fr; }
+  @media (max-width: 700px) { .featured-body { grid-template-columns: 1fr; } }
+  .frame-block { margin: 0; }
+  .frame-block img { width: 100%; height: auto; display: block; border: 1px solid #e0dcd2; }
+  .featured-body.bare .frame-block.portrait img { max-width: 320px; }
+  .featured-text h3 { font-size: 18px; line-height: 1.25; margin: 0 0 3px; }
+  .featured-meta { font-family: Arial, sans-serif; font-size: 10px; letter-spacing: 1px;
+    text-transform: uppercase; color: #4a5d3a; margin: 0 0 9px; font-weight: bold; }
+  .featured-note { font-size: 13.5px; color: #333; line-height: 1.5; margin: 0; }
+  .featured-research { font-size: 13px; color: #444; line-height: 1.5; margin: 9px 0 0;
+    padding-left: 10px; border-left: 2px solid #4a5d3a; }
+  /* Camera settings on one line, the way a photographer writes them. */
+  .exif { font-family: Arial, sans-serif; font-size: 10px; letter-spacing: .4px;
+    color: #6b6157; margin: 11px 0 0; padding-top: 9px; border-top: 1px solid #e0dcd2;
+    font-variant-numeric: tabular-nums; line-height: 1.45; }
+  /* The describe control is an authoring aid, not something Apu needs to see. */
+  #flick-fill { display: none; background: none; border: 1px solid #bbb; cursor: pointer;
+    font-family: Arial, sans-serif; font-size: 9.5px; letter-spacing: .5px;
+    text-transform: uppercase; color: #6b6157; padding: 1px 6px; margin-left: 6px; }
+  #flick-fill:hover { border-color: #4a5d3a; color: #4a5d3a; }
+  body[data-reader="ganges"] #flick-fill { display: inline-block; }
+  #flick-modal { position: fixed; inset: 0; z-index: 50; background: rgba(26,26,26,.4);
+    display: flex; align-items: center; justify-content: center; padding: 20px; }
+  #flick-modal[hidden] { display: none; }
+  .flick-card { background: #fdfcf7; border: 3px double #1a1a1a; max-width: 520px; width: 100%;
+    max-height: 88vh; overflow-y: auto; padding: 22px 24px; }
+  .flick-card h2 { font-size: 19px; text-transform: uppercase; letter-spacing: 1.8px;
+    border: none; padding: 0; margin: 0 0 6px; }
+  .flick-lede { font-size: 12.5px; color: #6b6157; line-height: 1.5; margin: 0 0 16px; }
+  .flick-lede code { font-family: ui-monospace, Menlo, monospace; font-size: 11.5px;
+    background: #efece2; padding: 1px 4px; }
+  .flick-card label { display: block; font-family: Arial, sans-serif; font-size: 10px;
+    letter-spacing: 1px; text-transform: uppercase; color: #6b6157; margin-bottom: 12px; }
+  .flick-card input, .flick-card textarea { display: block; width: 100%; margin-top: 4px;
+    font-family: Georgia, serif; font-size: 14px; color: #1a1a1a; background: #fff;
+    border: 1px solid #bbb; padding: 6px 8px; text-transform: none; letter-spacing: normal; }
+  .flick-card textarea { resize: vertical; line-height: 1.45; }
+  #flick-json { font-family: ui-monospace, Menlo, monospace; font-size: 11px; line-height: 1.45;
+    background: #efece2; border: 1px solid #ddd7cb; padding: 10px; overflow-x: auto;
+    white-space: pre; margin: 0 0 14px; max-height: 190px; }
+  .flick-actions { display: flex; gap: 8px; }
+  .flick-actions button { font-family: Arial, sans-serif; font-size: 11px; letter-spacing: .5px;
+    text-transform: uppercase; padding: 6px 12px; border: 1px solid #1a1a1a;
+    background: none; cursor: pointer; color: #1a1a1a; }
+  #flick-copy, #flick-save { background: #1a1a1a; color: #fdfcf7; }
+  .flick-actions button[hidden] { display: none; }
+  .flick-status { font-family: Arial, sans-serif; font-size: 11.5px; color: #4a5d3a;
+    margin: 10px 0 0; min-height: 1em; }
+  .flick-status.bad { color: #7a1f0f; }
+  #flick-json[hidden] { display: none; }
+  @media print { #flick-modal, #flick-fill { display: none !important; } }
+  .featured-by { font-family: Arial, sans-serif; font-size: 9.5px; letter-spacing: .8px;
+    text-transform: uppercase; color: #6b6157; margin: 10px 0 0; }
+  .featured-by a { color: #4a5d3a; text-decoration: none; }
+  .featured-by a:hover { text-decoration: underline; }
+  .section-photo { margin: 0 0 14px; break-inside: avoid; }
+  .section-photo img { width: 100%; height: auto; display: block; border: 1px solid #e0dcd2; }
+  .section-photo.portrait img { max-width: 74%; margin: 0 auto; }
+  .section-photo figcaption, .showcase figcaption { font-family: Arial, sans-serif; font-size: 9.5px;
+    letter-spacing: 1px; text-transform: uppercase; color: #4a5d3a; font-weight: bold; margin-top: 5px; }
+  .section-photo figcaption span, .showcase figcaption span { color: #6b6157; font-weight: normal; }
+  /* Everything past the fold. Native <details> — no JavaScript, so archived
+     editions keep working forever. */
+  details.fold { margin-top: 10px; }
+  details.fold > summary { font-family: Arial, sans-serif; font-size: 11px; letter-spacing: 1px;
+    text-transform: uppercase; font-weight: bold; color: #6b6157; cursor: pointer;
+    padding: 6px 0; border-top: 1px solid #ccc; list-style: none; }
+  details.fold > summary::-webkit-details-marker { display: none; }
+  details.fold > summary::after { content: " \002B"; font-size: 13px; }
+  details.fold[open] > summary::after { content: " \2212"; }
+  details.fold > summary:hover { color: #1a1a1a; }
+  details.fold > .flow { padding-top: 10px; }
+  /* ---- Saving stories ------------------------------------------------ */
+  .source-row { display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; }
+  .source-row .source { min-width: 0; }
+  button.save { flex-shrink: 0; background: none; border: none; padding: 0 0 0 6px; margin: -1px 0 0;
+    cursor: pointer; color: #bdb6a8; line-height: 1; }
+  button.save:hover { color: #7a1f0f; }
+  button.save[aria-pressed="true"] { color: #7a1f0f; }
+  button.save[aria-pressed="true"] svg path { fill: #7a1f0f; }
+  button.save:focus-visible, .saved-open-wrap button:focus-visible,
+  #saved-panel button:focus-visible { outline: 2px solid #7a1f0f; outline-offset: 2px; }
+  .saved-open-wrap button { font-family: Arial, sans-serif; font-size: 11px; letter-spacing: .5px;
+    text-transform: uppercase; color: #555; background: none; border: 1px solid #bbb;
+    padding: 1px 7px; cursor: pointer; display: inline-flex; align-items: center; gap: 5px; }
+  .saved-open-wrap button:hover { border-color: #1a1a1a; color: #1a1a1a; }
+  #saved-count { font-weight: bold; }
+
+  /* The browser's own [hidden] rule is `display: none` at the weakest possible
+     specificity, so an ID selector setting `display: flex` silently beats it and
+     the panel is stuck open. These two rules re-assert hiding at ID+attribute
+     specificity. This is why the panel appeared on load and would not close. */
+  #saved-panel[hidden], #saved-backdrop[hidden] { display: none; }
+  #saved-backdrop { position: fixed; inset: 0; background: rgba(26,26,26,.35); z-index: 40; }
+  #saved-panel { position: fixed; top: 0; right: 0; bottom: 0; width: min(400px, 92vw);
+    background: #fdfcf7; border-left: 3px double #1a1a1a; z-index: 41;
+    display: flex; flex-direction: column; box-shadow: -6px 0 24px rgba(26,26,26,.12); }
+  .saved-head { display: flex; align-items: center; justify-content: space-between;
+    padding: 18px 20px 10px; border-bottom: 1px solid #ccc; }
+  .saved-head h2 { font-size: 19px; font-weight: bold; text-transform: uppercase;
+    letter-spacing: 1.8px; margin: 0; border: none; padding: 0; }
+  #saved-close { background: none; border: none; font-size: 26px; line-height: 1;
+    color: #6b6157; cursor: pointer; padding: 0 2px; }
+  .saved-who { font-family: Arial, sans-serif; font-size: 10.5px; letter-spacing: .8px;
+    text-transform: uppercase; color: #6b6157; margin: 0; padding: 10px 20px 0; }
+  #saved-list { flex: 1; overflow-y: auto; padding: 12px 20px 20px; }
+  .saved-item { display: flex; gap: 10px; align-items: flex-start;
+    padding-bottom: 12px; margin-bottom: 12px; border-bottom: 1px dotted #ccc; }
+  .saved-item:last-child { border-bottom: none; }
+  .saved-item .meta { font-family: Arial, sans-serif; font-size: 9.5px; letter-spacing: .5px;
+    text-transform: uppercase; color: #6b6157; }
+  .saved-item h3 { font-size: 15px; line-height: 1.3; margin: 3px 0 0; font-weight: normal; }
+  .saved-item h3 a { color: #1a1a1a; text-decoration: none; }
+  .saved-item h3 a:hover { text-decoration: underline; }
+  .saved-item button { flex-shrink: 0; background: none; border: none; cursor: pointer;
+    color: #a89f92; font-size: 17px; line-height: 1; padding: 2px; }
+  .saved-item button:hover { color: #7a1f0f; }
+  .saved-empty { font-size: 13.5px; color: #6b6157; font-style: italic; line-height: 1.5; }
+  .saved-foot { border-top: 1px solid #ccc; padding: 12px 20px; }
+  #saved-export { font-family: Arial, sans-serif; font-size: 11px; letter-spacing: .5px;
+    text-transform: uppercase; color: #555; background: none; border: 1px solid #bbb;
+    padding: 4px 10px; cursor: pointer; }
+  #saved-export:hover { border-color: #1a1a1a; color: #1a1a1a; }
+  #saved-toast { position: fixed; left: 50%; bottom: 26px; transform: translateX(-50%);
+    background: #1a1a1a; color: #fdfcf7; font-family: Arial, sans-serif; font-size: 12.5px;
+    padding: 9px 16px; border-radius: 3px; z-index: 60; max-width: 88vw; text-align: center; }
+  @media print { .saved-open-wrap, button.save, #saved-panel, #saved-backdrop { display: none !important; } }
+  .showcase h2 { color: #4a5d3a; border-color: #4a5d3a; }
+  .showcase .tag { color: #6b6157; }
+  .showcase .frames { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; align-items: start; }
+  @media (max-width: 700px) { .showcase .frames { grid-template-columns: 1fr 1fr; } }
+  .showcase .frames a { display: block; }
+  .showcase .frames img { width: 100%; height: auto; display: block; border: 1px solid #e0dcd2; }
+  @media (max-width: 700px) { .showcase .frames a:first-child { grid-column: 1 / -1; } }
+</style>
+</head>
+<body>
+<header>
+  <img class="header-logo" src="../icons/icon-192.png" alt="Grumpy Iyer logo">
+  <h1 class="masthead">The Aperture</h1>
+  <div class="dateline-row">
+    <span>Monday, November 2, 2026</span>
+    <span class="saved-open-wrap"><button type="button" id="saved-open" aria-expanded="false" aria-controls="saved-panel">
+      <svg viewBox="0 0 16 16" width="12" height="12" aria-hidden="true"><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+      Read Later <span id="saved-count">0</span></button></span>
+    <span class="reader-pick">Reading order:
+      <button type="button" data-reader-set="ganges">Ganges</button>
+      <button type="button" data-reader-set="apu">Apu</button>
+    </span>
+    <span class="archive-nav">Browse editions: <input type="date" id="archive-date" min="2026-08-01" max="2026-11-02" value="2026-11-02" onchange="if(this.value) location.href = '' + this.value + '.html'"></span>
+  </div>
+</header>
+<div class="page">
+  <div class="main-col">
+    <section class="featured">
+      <h2>Featured Flick <span class="tag">from the archive</span></h2>
+      <div class="featured-body bare">
+        <figure class="frame-block">
+          <a href="https://grumpyiyer.com" target="_blank" rel="noopener">
+            <img src="../wildlife/20260103-Cohoes Falls-6245.jpg" width="4032" height="2268"
+                 alt="Wildlife photograph, photographed by Ganges Bhardwaj">
+          </a>
+        </figure>
+        <div class="featured-text">
+          <p class="featured-meta">2026</p>
+          <p class="exif">Nikon Z 8 · 600mm · f/9 · 1/2500 · ISO 2000</p>
+          <p class="featured-by">Photograph by <a href="https://grumpyiyer.com" target="_blank" rel="noopener">Ganges Bhardwaj</a> · 2026-01-03
+            <button type="button" id="flick-fill" data-file="20260103-Cohoes Falls-6245.jpg"
+              data-subject="" data-where=""
+              data-note="" data-research=""
+              aria-label="Describe this photograph">&#9998; Describe</button></p>
+        </div>
+      </div>
+    </section>
+    <section class="politics">
+      <h2>US Politics</h2>
+      <div class="flow">
+        <div class="top-item">
+          <div class="source-row"><div class="source">ProPublica <span class="investigative-flag">Investigative</span></div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.propublica.org/article/midterm-election-propublica-reporting-findings" data-headline="ProPublica: Trump Administration Reshaped Election Enforcement Ahead of Midterms, With Little to Show For It"
+            data-source="ProPublica" data-section="US Politics"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+          <h3><a href="https://www.propublica.org/article/midterm-election-propublica-reporting-findings" target="_blank">ProPublica: Trump Administration Reshaped Election Enforcement Ahead of Midterms, With Little to Show For It</a></h3>
+          <p class="blurb">Ahead of Tuesday's midterms, ProPublica tallies two years of the administration's push to control elections: 75 nonpartisan career officials pushed out, lawsuits against 30 states for voter rolls dismissed by every judge who's ruled so far, and a request that CISA secretly hack a voting machine, which the agency called impossible.</p>
+        </div>
+        <div class="top-item">
+          <div class="source-row"><div class="source">The Intercept</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://theintercept.com/2026/11/01/marco-rubio-cuba-cia-recruitment/" data-headline="The CIA Makes an Unusually Public Pitch for Cuban Informants"
+            data-source="The Intercept" data-section="US Politics"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+          <h3><a href="https://theintercept.com/2026/11/01/marco-rubio-cuba-cia-recruitment/" target="_blank">The CIA Makes an Unusually Public Pitch for Cuban Informants</a></h3>
+          <p class="blurb">Secretary of State Marco Rubio publicly invited Cubans seeking "positive change" into a "discrete partnership with the CIA," an open recruitment pitch that breaks with the agency's usual secrecy and follows Trump's talk of Cuba as a target after Iran and Venezuela. The reaction, even among allies, was largely bewilderment.</p>
+        </div>
+        <div class="top-item">
+          <div class="source-row"><div class="source">Mother Jones</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.motherjones.com/politics/2026/10/inside-the-fight-to-flip-the-biggest-battleground-in-texas-tarrant-county-crystal-mason/" data-headline="Inside the Fight for Tarrant County, the Last Big Texas Metro Republicans Still Run"
+            data-source="Mother Jones" data-section="US Politics"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+          <h3><a href="https://www.motherjones.com/politics/2026/10/inside-the-fight-to-flip-the-biggest-battleground-in-texas-tarrant-county-crystal-mason/" target="_blank">Inside the Fight for Tarrant County, the Last Big Texas Metro Republicans Still Run</a></h3>
+          <p class="blurb">Republicans cut nearly a third of Tarrant County's Election Day voting sites ahead of a county judge race Democrats see as their best shot at flipping Texas's biggest remaining GOP stronghold. Crystal Mason, once sentenced to five years over an uncounted provisional ballot before her conviction was thrown out for good this September, now runs a local voting-rights group.</p>
+        </div>
+      </div>
+    </section>
+    <section class="apu-corner-section">
+      <h2>Apu's Corner</h2>
+      <div class="apu-sub">India</div>
+      <div class="flow">
+        <div class="top-item lede">
+          <div class="source-row"><div class="source">Newslaundry</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.newslaundry.com/2026/11/02/vote-bachao-desh-bachao-the-india-bloc-rally-at-ramlila-maidan-as-it-unfolded" data-headline="INDIA Bloc Rally Draws a Lakh to Delhi's Ramlila Maidan, Demanding the Election Commission Chief's Resignation"
+            data-source="Newslaundry" data-section="India"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+          <h3><a href="https://www.newslaundry.com/2026/11/02/vote-bachao-desh-bachao-the-india-bloc-rally-at-ramlila-maidan-as-it-unfolded" target="_blank">INDIA Bloc Rally Draws a Lakh to Delhi's Ramlila Maidan, Demanding the Election Commission Chief's Resignation</a></h3>
+          <p class="blurb">Rahul Gandhi, Mallikarjun Kharge, Mamata Banerjee, Farooq Abdullah and Mehbooba Mufti addressed an opposition rally that Newslaundry estimated drew at least a lakh of people, with many more shut out. Attendees from Bihar, Maharashtra and Rajasthan described being struck off electoral rolls despite holding valid documents, and speakers demanded Chief Election Commissioner Gyanesh Kumar's resignation and a rollback of the SIR.</p>
+        </div>
+        <div class="top-item">
+          <div class="source-row"><div class="source">Scroll.in</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://scroll.in/latest/1096794/assam-over-4000-evicted-after-homes-of-640-bengali-muslim-families-demolished-in-dhubri" data-headline="Over 4,000 Evicted as Assam Bulldozes Homes of 640 Bengali Muslim Families in Dhubri"
+            data-source="Scroll.in" data-section="India"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+          <h3><a href="https://scroll.in/latest/1096794/assam-over-4000-evicted-after-homes-of-640-bengali-muslim-families-demolished-in-dhubri" target="_blank">Over 4,000 Evicted as Assam Bulldozes Homes of 640 Bengali Muslim Families in Dhubri</a></h3>
+          <p class="blurb">More than 50 bulldozers cleared 650 bighas of government land in Alamganj, Dhubri, days after a similar drive displaced over 1,100 families elsewhere in Assam. The district commissioner said the land is earmarked for an industrial park and that most residents have land elsewhere — a claim families settled there since the 1960s dispute.</p>
+        </div>
+        <div class="top-item">
+          <div class="source-row"><div class="source">Newslaundry <span class="investigative-flag">Investigative</span></div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.newslaundry.com/2026/11/02/invisible-and-unprotected-indias-new-labour-codes-fail-domestic-home-based-workers" data-headline="India's New Labour Codes Leave Domestic and Home-Based Workers Without Protection, Investigation Finds"
+            data-source="Newslaundry" data-section="India"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+          <h3><a href="https://www.newslaundry.com/2026/11/02/invisible-and-unprotected-indias-new-labour-codes-fail-domestic-home-based-workers" target="_blank">India's New Labour Codes Leave Domestic and Home-Based Workers Without Protection, Investigation Finds</a></h3>
+          <p class="blurb">The new labour codes classify domestic and home-based workers as wage earners but never define a home as a workplace, so the safety and minimum-wage rules written for registered establishments don't reach them. A WIEGO survey found 84% of Delhi home-based workers cut hours during extreme heat, and no state has managed to enforce the wage floor it promised them.</p>
+        </div>
+        <div class="more-item">
+          <div class="more-text">
+            <div class="source-row"><div class="source">Newslaundry <span class="investigative-flag">Investigative</span></div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.newslaundry.com/2026/11/02/uttarakhand-sir-2700-names-deleted-in-gadarpur-on-objections-filed-by-poll-officers-after-the-deadline" data-headline="Uttarakhand Election Officials Filed Thousands of Late Voter-Deletion Objections in Gadarpur, Newslaundry Finds"
+            data-source="Newslaundry" data-section="India"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+            <h4><a href="https://www.newslaundry.com/2026/11/02/uttarakhand-sir-2700-names-deleted-in-gadarpur-on-objections-filed-by-poll-officers-after-the-deadline" target="_blank">Uttarakhand Election Officials Filed Thousands of Late Voter-Deletion Objections in Gadarpur, Newslaundry Finds</a></h4>
+            <p>Ten assistant election officers filed 2,742 objections to delete voters in Gadarpur more than a month after the SIR deadline, in filings electoral rules don't appear to allow.</p>
+          </div>
+        </div>
+        <div class="more-item">
+          <div class="more-text">
+            <div class="source-row"><div class="source">Scroll.in</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://scroll.in/latest/1096803/punjab-three-aap-mlas-join-bjp-ahead-of-assembly-polls" data-headline="Three Punjab AAP MLAs, One a Former IPS Officer, Cross Over to BJP"
+            data-source="Scroll.in" data-section="India"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+            <h4><a href="https://scroll.in/latest/1096803/punjab-three-aap-mlas-join-bjp-ahead-of-assembly-polls" target="_blank">Three Punjab AAP MLAs, One a Former IPS Officer, Cross Over to BJP</a></h4>
+            <p>Two MLAs dropped from AAP's candidate list and a third, suspended last year for criticizing the party, resigned and joined the BJP on Monday ahead of Punjab's 2027 polls.</p>
+          </div>
+        </div>
+        <div class="apu-corner">
+          <div>
+            <div class="apu-sub">Bengal</div>
+          <div class="apu-item">
+            <div class="apu-text">
+              <div class="source-row"><div class="source">Millennium Post</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.millenniumpost.in/bengal/cm-sets-dec-31-deadline-for-caa-citizenship-to-25l-applicants-681844" data-headline="Bengal CM Sets December 31 Deadline for CAA Citizenship to 2.5 Lakh Applicants"
+            data-source="Millennium Post" data-section="Bengal"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+              <h4><a href="https://www.millenniumpost.in/bengal/cm-sets-dec-31-deadline-for-caa-citizenship-to-25l-applicants-681844" target="_blank">Bengal CM Sets December 31 Deadline for CAA Citizenship to 2.5 Lakh Applicants</a></h4>
+              <p>Suvendu Adhikari set a year-end deadline for granting CAA citizenship to 2.5 lakh applicants, saying only 25,000 have received it so far, and blamed the previous Banerjee government for the delay.</p>
+            </div>
+          </div>
+          <div class="apu-item">
+            <div class="apu-text">
+              <div class="source-row"><div class="source">Millennium Post</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.millenniumpost.in/bengal/fire-breaks-out-in-multi-storey-building-behind-kolkatas-writers-buildings-681854" data-headline="Fire Breaks Out in Building Behind Kolkata's Writers' Buildings"
+            data-source="Millennium Post" data-section="Bengal"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+              <h4><a href="https://www.millenniumpost.in/bengal/fire-breaks-out-in-multi-storey-building-behind-kolkatas-writers-buildings-681854" target="_blank">Fire Breaks Out in Building Behind Kolkata's Writers' Buildings</a></h4>
+              <p>Ten fire engines brought a blaze under control in an office building behind the former state secretariat late Sunday; no injuries were reported and the cause is still under investigation.</p>
+            </div>
+          </div>
+          <div class="apu-item">
+            <div class="apu-text">
+              <div class="source-row"><div class="source">Millennium Post</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.millenniumpost.in/bengal/left-plans-mobile-book-fairs-after-durga-puja-stall-attacks-681803" data-headline="After Durga Puja Stall Attacks, Bengal's Left Takes Its Books to the Neighbourhoods"
+            data-source="Millennium Post" data-section="Bengal"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+              <h4><a href="https://www.millenniumpost.in/bengal/left-plans-mobile-book-fairs-after-durga-puja-stall-attacks-681803" target="_blank">After Durga Puja Stall Attacks, Bengal's Left Takes Its Books to the Neighbourhoods</a></h4>
+              <p>After the CPI(M) said nearly 300 of its Durga Puja bookstalls were vandalised, including one arson attack, party leaders marched with civil society figures at College Square and announced mobile book fairs across the state.</p>
+            </div>
+          </div>
+          </div>
+          <div>
+            <div class="apu-sub">Travel</div>
+          <div class="apu-item">
+            <div class="apu-text">
+              <div class="source-row"><div class="source">Smithsonian</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.smithsonianmag.com/smart-news/lie-down-and-look-up-at-englands-most-ornate-ceilings-from-sparkling-gold-leaf-stars-to-intricate-plaster-designs-at-queen-victorias-seaside-retreat-180989770/" data-headline="Five English Heritage Sites Invited Visitors to Lie Down and Look Up at Their Most Ornate Ceilings"
+            data-source="Smithsonian" data-section="Travel"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+              <h4><a href="https://www.smithsonianmag.com/smart-news/lie-down-and-look-up-at-englands-most-ornate-ceilings-from-sparkling-gold-leaf-stars-to-intricate-plaster-designs-at-queen-victorias-seaside-retreat-180989770/" target="_blank">Five English Heritage Sites Invited Visitors to Lie Down and Look Up at Their Most Ornate Ceilings</a></h4>
+              <p>A seasonal campaign put cushions beneath five historic ceilings, including 254 gold-leaf stars in Bolsover Castle's Star Chamber and the ornate plasterwork of Queen Victoria's seaside retreat at Osborne.</p>
+            </div>
+          </div>
+          <div class="apu-item">
+            <div class="apu-text">
+              <div class="source-row"><div class="source">Audubon</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.audubon.org/news/prothonotary-warblers-kansas-have-secret-can-team-of-volunteers-figure-it-out" data-headline="Volunteers Are Racing to Solve the Mystery of Where Kansas's Prothonotary Warblers Spend the Winter"
+            data-source="Audubon" data-section="Travel"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+              <h4><a href="https://www.audubon.org/news/prothonotary-warblers-kansas-have-secret-can-team-of-volunteers-figure-it-out" target="_blank">Volunteers Are Racing to Solve the Mystery of Where Kansas's Prothonotary Warblers Spend the Winter</a></h4>
+              <p>A geolocator recovered from a warbler named Hydrogen revealed a 2,800-mile migration to a Colombian wetland being cleared for farmland, part of a volunteer effort to track a declining species' unknown route.</p>
+            </div>
+          </div>
+          </div>
+          <div>
+            <div class="apu-sub">A Happy Story <span class="tag">for no reason at all</span></div>
+            <div class="apu-happy">
+          <div class="apu-item">
+            <div class="apu-text">
+              <div class="source-row"><div class="source">Reasons to be Cheerful</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://reasonstobecheerful.world/america-student-exchange-program-empathy/" data-headline="An Exchange Program Sends American Teenagers Not Abroad, But Into Each Other's Hometowns"
+            data-source="Reasons to be Cheerful" data-section="A Happy Story"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+              <h4><a href="https://reasonstobecheerful.world/america-student-exchange-program-empathy/" target="_blank">An Exchange Program Sends American Teenagers Not Abroad, But Into Each Other's Hometowns</a></h4>
+              <p>The American Exchange Project sends recent high school graduates to spend a week in a U.S. community unlike their own, then host those same peers back home — Sunny Beam left a Washington town of under 10,000 for the Bronx, found it startlingly welcoming, and came home having rethought what a close-knit place is for.</p>
+            </div>
+          </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="geo">
+      <h2>Geopolitics</h2>
+      <div class="flow">
+        <div class="top-item">
+          <div class="source-row"><div class="source">Al Jazeera</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.aljazeera.com/news/2026/11/2/hebron-governor-says-israeli-forces-withdraw-from-city-after-10-day-siege" data-headline="Israeli Forces Withdraw From Hebron After 10-Day Siege That Displaced Over 3,300"
+            data-source="Al Jazeera" data-section="Geopolitics"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+          <h3><a href="https://www.aljazeera.com/news/2026/11/2/hebron-governor-says-israeli-forces-withdraw-from-city-after-10-day-siege" target="_blank">Israeli Forces Withdraw From Hebron After 10-Day Siege That Displaced Over 3,300</a></h3>
+          <p class="blurb">Israeli troops pulled out of Hebron on Monday, ending a 10-day closure imposed after two Palestinians killed two soldiers near the city. The siege displaced more than 3,300 people, demolished 15 homes, and shut 327 shops at a reported cost of $3.8 million a day; Palestinian security forces now say they have full control of the area.</p>
+        </div>
+        <div class="top-item">
+          <div class="source-row"><div class="source">Al Jazeera</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.aljazeera.com/news/2026/11/1/ukraine-evacuates-civilians-in-kherson-region-as-localised-ceasefire-ends" data-headline="A Melania Trump-Brokered Truce in Kherson Expires, With No Extension in Sight"
+            data-source="Al Jazeera" data-section="Geopolitics"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+          <h3><a href="https://www.aljazeera.com/news/2026/11/1/ukraine-evacuates-civilians-in-kherson-region-as-localised-ceasefire-ends" target="_blank">A Melania Trump-Brokered Truce in Kherson Expires, With No Extension in Sight</a></h3>
+          <p class="blurb">A six-day ceasefire that let nearly 800 besieged residents evacuate Oleshky, mediated by the US first lady and Pope Leo XIV, lapsed Sunday night after Russia reportedly rejected a Ukrainian bid to extend it. Ukraine evacuated 167 more civilians from threatened areas as strikes resumed, including a drone attack that killed three people at a Vinnytsia vocational school.</p>
+        </div>
+        <div class="top-item">
+          <div class="source-row"><div class="source">Al Jazeera</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.aljazeera.com/news/2026/11/2/israeli-officials-say-results-stand-as-netanyahu-claims-election-stolen" data-headline="Netanyahu Claims Israel's Election Was 'Stolen' by Qatari-Funded Arab Parties — Officials Say Results Stand Regardless"
+            data-source="Al Jazeera" data-section="Geopolitics"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+          <h3><a href="https://www.aljazeera.com/news/2026/11/2/israeli-officials-say-results-stand-as-netanyahu-claims-election-stolen" target="_blank">Netanyahu Claims Israel's Election Was 'Stolen' by Qatari-Funded Arab Parties — Officials Say Results Stand Regardless</a></h3>
+          <p class="blurb">Likud alleged without evidence that Arab-led parties, who won a record 19 seats, took Qatari money to win — a claim Qatar called disinformation and the election commission's chairman dismissed, saying results would stand regardless. With neither bloc able to govern alone, certification is expected this week before President Herzog picks someone to try forming a coalition.</p>
+        </div>
+      </div>
+    </section>
+    <section class="sports">
+      <h2>Cricket</h2>
+      <div class="flow">
+        <div class="top-item">
+          <div class="source-row"><div class="source">ICC</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.icc-cricket.com/news/namibia-create-history-with-ireland-odi-series-triumph" data-headline="Namibia Beat Ireland to Win Their First-Ever ODI Series Against a Full Member Nation"
+            data-source="ICC" data-section="Cricket"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+          <h3><a href="https://www.icc-cricket.com/news/namibia-create-history-with-ireland-odi-series-triumph" target="_blank">Namibia Beat Ireland to Win Their First-Ever ODI Series Against a Full Member Nation</a></h3>
+          <p class="blurb">Namibia chased down 129 to win the fifth ODI by five wickets, clinching a historic 3-2 series win over Ireland in Windhoek. Gerhard Erasmus was Player of the Series, and the result builds momentum ahead of the 2027 World Cup, which Namibia co-hosts with South Africa and Zimbabwe.</p>
+        </div>
+      </div>
+      <details class="fold">
+        <summary>1 more in Cricket</summary>
+        <div class="flow">
+        <div class="more-item">
+          <div class="more-text">
+            <div class="source-row"><div class="source">ICC</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.icc-cricket.com/news/new-zealand-lose-key-duo-for-home-odi-series-against-india" data-headline="New Zealand Lose Ravindra and Chapman to Injury Ahead of Home ODI Series Against India"
+            data-source="ICC" data-section="Cricket"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+            <h4><a href="https://www.icc-cricket.com/news/new-zealand-lose-key-duo-for-home-odi-series-against-india" target="_blank">New Zealand Lose Ravindra and Chapman to Injury Ahead of Home ODI Series Against India</a></h4>
+            <p>Rachin Ravindra's shoulder and Mark Chapman's hamstring will keep both out of the five-match series starting November 4, with Ravindra's caution also guarding against risk before a Test series against India later this month.</p>
+          </div>
+        </div>
+        </div>
+      </details>
+    </section>
+    <section class="showcase">
+      <h2>From the Field <span class="tag">photographs by Ganges Bhardwaj</span></h2>
+      <div class="frames">
+        <a href="https://grumpyiyer.com" target="_blank" rel="noopener">
+          <img src="../wildlife/20260103-Cohoes Falls-6323.jpg" width="2305" height="1297"
+               alt="Wildlife photograph by Ganges Bhardwaj" loading="lazy">
+        </a>
+        <a href="https://grumpyiyer.com" target="_blank" rel="noopener">
+          <img src="../wildlife/20260103-Cohoes Falls-6093.jpg" width="2105" height="1403"
+               alt="Wildlife photograph by Ganges Bhardwaj" loading="lazy">
+        </a>
+        <a href="https://grumpyiyer.com" target="_blank" rel="noopener">
+          <img src="../wildlife/20260103-Cohoes Falls-6131.jpg" width="2758" height="2206"
+               alt="Wildlife photograph by Ganges Bhardwaj" loading="lazy">
+        </a>
+        <a href="https://grumpyiyer.com" target="_blank" rel="noopener">
+          <img src="../wildlife/200725-Kawal-GBS_3153.jpeg" width="640" height="640"
+               alt="Wildlife photograph by Ganges Bhardwaj" loading="lazy">
+        </a>
+      </div>
+    </section>
+  </div>
+  <div class="side-col">
+    <div class="desk tech-desk">
+    <div class="tech-masthead">— Technology Desk —</div>
+    <section class="tech">
+      <h2>Top Tech</h2>
+        <div class="top-item">
+          <div class="source-row"><div class="source">TechCrunch</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/" data-headline="OpenAI Plans a Post-Midterms Rebrand: Data Centers Become 'AI Compute Campuses'"
+            data-source="TechCrunch" data-section="Top Tech"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+          <h3><a href="https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/" target="_blank">OpenAI Plans a Post-Midterms Rebrand: Data Centers Become 'AI Compute Campuses'</a></h3>
+          <p class="blurb">OpenAI is preparing a post-midterms "PR blitz" that includes renaming its data centers "AI compute campuses" and floating voluntary AI "speed limits," Axios reports. Chief global affairs officer Chris Lehane called this week's elections "a movie trailer" for a 2028 presidential race where he expects AI to be the defining issue.</p>
+          <p class="pm-note"><b>Why it matters for you:</b> Renaming unpopular infrastructure is a familiar PR move — watch for the substance behind it, not just the softer label.</p>
+        </div>
+        <div class="top-item">
+          <div class="source-row"><div class="source">GamesBeat</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://gamesbeat.com/saudi-arabias-aramco-buy-49-stake-in-ai-firm-humain-for-2-6b/" data-headline="Saudi Aramco Pays $2.6 Billion for Half of Its Own Country's AI Company"
+            data-source="GamesBeat" data-section="Top Tech"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+          <h3><a href="https://gamesbeat.com/saudi-arabias-aramco-buy-49-stake-in-ai-firm-humain-for-2-6b/" target="_blank">Saudi Aramco Pays $2.6 Billion for Half of Its Own Country's AI Company</a></h3>
+          <p class="blurb">Aramco bought a 49% stake in Humain, the Saudi state AI company building 3 gigawatts of data-center capacity by 2030, paying roughly $2.6 billion in cash plus AI, compute and digital assets. The oil giant wants Humain's infrastructure to apply AI across its industrial operations and to help monetize assets it already owns.</p>
+          <p class="pm-note"><b>Why it matters for you:</b> Sovereign capital is now a line item in AI infrastructure deals — state-linked money is starting to shape who controls the compute layer.</p>
+        </div>
+        <div class="top-item">
+          <div class="source-row"><div class="source">TechCrunch</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://techcrunch.com/2026/10/31/data-centers-are-now-a-midterm-issue-even-in-brooklyn/" data-headline="Data Centers Have Become an Unlikely Midterm Campaign Issue — Even in Brooklyn"
+            data-source="TechCrunch" data-section="Top Tech"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+          <h3><a href="https://techcrunch.com/2026/10/31/data-centers-are-now-a-midterm-issue-even-in-brooklyn/" target="_blank">Data Centers Have Become an Unlikely Midterm Campaign Issue — Even in Brooklyn</a></h3>
+          <p class="blurb">At a Brooklyn election event five days before voting, a crowd booed when asked who supported AI data centers — residents cited secret siting deals and zoning rules that hide projects until it's too late to object. A Data Center Watch report found nearly $200 billion in projects delayed, stalled or blocked in the first half of 2026 alone.</p>
+          <p class="pm-note"><b>Why it matters for you:</b> Nearly $200 billion in projects have been delayed or blocked by local opposition this year — community backlash now belongs on any infrastructure roadmap as a real risk line.</p>
+        </div>
+    </section>
+    <section class="tech">
+      <h2>More Tech</h2>
+        <div class="more-item">
+          <div class="more-text">
+            <div class="source-row"><div class="source">TechCrunch</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://techcrunch.com/2026/11/01/binance-resumes-withdrawals-following-6-3-billion-breach/" data-headline="Binance Says It's Covered 95% of the $6.3 Billion North Korean Hack, Will Absorb the Rest Itself"
+            data-source="TechCrunch" data-section="More Tech"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+            <h4><a href="https://techcrunch.com/2026/11/01/binance-resumes-withdrawals-following-6-3-billion-breach/" target="_blank">Binance Says It's Covered 95% of the $6.3 Billion North Korean Hack, Will Absorb the Rest Itself</a></h4>
+            <p>The FBI formally attributed the breach to North Korea's TraderTraitor group as Binance resumed phased withdrawals and said it would cover any remaining losses without passing them to users.</p>
+          </div>
+        </div>
+    </section>
+    <section class="tech">
+      <h2>Tech 101 <span class="tag">for newbies</span></h2>
+      <div class="primer-box">
+        <h5>Today's Concept, Explained Simply</h5>
+        <div class="primer-item">
+          <div class="term">AI compute campus</div>
+          <p>Industry jargon for a data center — the warehouse-sized buildings full of servers that train and run AI models. Companies are reaching for softer names as neighbors organize against the noise, water use and power draw these facilities bring.</p>
+        </div>
+        <div class="primer-item">
+          <div class="term">Sovereign AI</div>
+          <p>The push by national governments and state-backed firms, like Saudi Arabia's PIF and Aramco, to own AI infrastructure and models rather than rent compute from US tech giants — treating AI capability as a strategic national asset, the way oil or defense manufacturing once was.</p>
+        </div>
+      </div>
+    </section>
+    </div>
+    <div class="desk science-desk">
+    <section class="science">
+      <h2>Science</h2>
+        <div class="top-item">
+          <div class="source-row"><div class="source">ScienceDaily</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.sciencedaily.com/releases/2026/10/261029072113.htm" data-headline="Hubble Finds Supernova Winds May Block Starlight Rather Than Clear a Path for It"
+            data-source="ScienceDaily" data-section="Science"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+          <h3><a href="https://www.sciencedaily.com/releases/2026/10/261029072113.htm" target="_blank">Hubble Finds Supernova Winds May Block Starlight Rather Than Clear a Path for It</a></h3>
+          <p class="blurb">A nearly 30-scientist study of starburst galaxies found that the strongest supernova-driven winds correlate with less, not more, ionizing radiation escaping — the opposite of what simulations of early cosmic reionization have long assumed. The team suggests radiation instead escapes earlier, before young massive stars explode, a finding that could force a rethink of how the universe's hydrogen fog first cleared.</p>
+        </div>
+        <div class="top-item">
+          <div class="source-row"><div class="source">Phys.org</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://phys.org/news/2026-10-chemists-ai-tool-human-ingenuity.html" data-headline="An AI Tool Nicknamed 'Alexa for Mutants' Designs Custom Enzymes From Plain-English Requests"
+            data-source="Phys.org" data-section="Science"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+          <h3><a href="https://phys.org/news/2026-10-chemists-ai-tool-human-ingenuity.html" target="_blank">An AI Tool Nicknamed 'Alexa for Mutants' Designs Custom Enzymes From Plain-English Requests</a></h3>
+          <p class="blurb">Vanderbilt chemists built MutexaGPT, which uses language-model agents to turn a plain-English request into physics-based enzyme design proposals, aiming to cut the costly trial and error behind engineering enzymes for medicine, detergents and plastics recycling. Its developers frame it as a tool to support chemists' judgment, not replace it.</p>
+        </div>
+        <div class="top-item">
+          <div class="source-row"><div class="source">ScienceDaily</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://www.sciencedaily.com/releases/2026/10/261030002935.htm" data-headline="Smashing Oxygen Nuclei Recreates the Universe's First Matter at a New Energy Low"
+            data-source="ScienceDaily" data-section="Science"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+          <h3><a href="https://www.sciencedaily.com/releases/2026/10/261030002935.htm" target="_blank">Smashing Oxygen Nuclei Recreates the Universe's First Matter at a New Energy Low</a></h3>
+          <p class="blurb">Brookhaven's STAR experiment collided oxygen nuclei at RHIC and still saw jet quenching, the signature of quark-gluon plasma, the matter thought to have filled the universe before protons and neutrons formed. Because oxygen nuclei are far smaller than the gold normally used, the result sets a new lower bound on how small and cold a collision can be and still make this primordial state.</p>
+        </div>
+    </section>
+    </div>
+    <div class="desk philosophy-desk">
+    <section class="consciousness">
+      <h2>Philosophy</h2>
+        <div class="top-item">
+          <div class="source-row"><div class="source">Aeon</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://aeon.co/essays/the-century-long-search-for-the-limits-to-knowledge" data-headline="Gödel Didn't Prove There's a Limit to What We Can Know — He Proved Knowledge Keeps Growing"
+            data-source="Aeon" data-section="Philosophy"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+          <h3><a href="https://aeon.co/essays/the-century-long-search-for-the-limits-to-knowledge" target="_blank">Gödel Didn't Prove There's a Limit to What We Can Know — He Proved Knowledge Keeps Growing</a></h3>
+          <p class="blurb">Logician Alexander Gheorghiu traces a century of work from Hilbert and Frege through Michael Dummett to argue that Gödel's incompleteness theorems don't fix a ceiling on human knowledge. Because mathematical truth depends on linguistic practices that can always be faithfully extended, our concepts keep growing the way amending a constitution draws out commitments already latent in it.</p>
+        </div>
+        <div class="top-item">
+          <div class="source-row"><div class="source">Aeon</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://aeon.co/essays/we-need-a-language-to-name-the-grief-that-comes-without-death" data-headline="Grief Isn't Only for the Dead"
+            data-source="Aeon" data-section="Philosophy"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+          <h3><a href="https://aeon.co/essays/we-need-a-language-to-name-the-grief-that-comes-without-death" target="_blank">Grief Isn't Only for the Dead</a></h3>
+          <p class="blurb">Philosopher and counsellor Derek van Zoonen argues that losses which disrupt a person's identity — a parent's decline, a sibling's addiction, involuntary childlessness — deserve to be called grief even without a death or a ritual to mark them. Left unnamed, he writes, these losses leave people estranged from their own feelings.</p>
+        </div>
+        <div class="top-item">
+          <div class="source-row"><div class="source">Aeon</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://aeon.co/essays/the-more-we-rely-on-tech-the-more-we-deskill-our-bodies" data-headline="The More We Lean on Technology, the Less Our Bodies Can Do"
+            data-source="Aeon" data-section="Philosophy"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+          <h3><a href="https://aeon.co/essays/the-more-we-rely-on-tech-the-more-we-deskill-our-bodies" target="_blank">The More We Lean on Technology, the Less Our Bodies Can Do</a></h3>
+          <p class="blurb">Writer Melanie Challenger argues that offloading physical and cognitive work to tools — GPS, AI writing — quietly atrophies the capacities bodies would otherwise maintain through use, citing a study linking GPS use to steeper spatial-memory decline. She traces the error to treating humans as machines, from Descartes through cybernetics to transhumanism.</p>
+        </div>
+    </section>
+    <section class="consciousness">
+      <h2>Philosophy 101 <span class="tag">for newbies</span></h2>
+      <div class="primer-box">
+        <h5>Today's Concept, Explained Simply</h5>
+        <div class="primer-item">
+          <div class="term">Indefinite extensibility</div>
+          <p>Philosopher Michael Dummett's idea that some concepts, like 'all mathematical truths,' can never be pinned down completely — any attempt to define them fully creates the resources for a new case that doesn't fit, so the concept keeps growing rather than being incomplete.</p>
+        </div>
+        <div class="primer-item">
+          <div class="term">Ambiguous loss</div>
+          <p>A loss with no clear end point or social ritual to mark it — a relationship that fades, an identity that slips away, a person physically present but changed beyond recognition — which can be harder to grieve than a death precisely because no one agrees it counts as one.</p>
+        </div>
+      </div>
+    </section>
+    </div><section class="entertainment" style="border-bottom: none;">
+      <h2>Entertainment &amp; Culture</h2>
+        <div class="top-item">
+          <div class="source-row"><div class="source">Scroll.in</div><button type="button" class="save" aria-pressed="false"
+            data-url="https://scroll.in/reel/1096523/pyre-review-a-moving-tale-of-loneliness-and-endurance" data-headline="'Pyre' Review: A First-Time Cast Carries a Quietly Devastating Story of Old Age and an Emptying Village"
+            data-source="Scroll.in" data-section="Entertainment"
+            aria-label="Add to read later"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"
+            ><path d="M3.5 1.5h9v13l-4.5-3.5-4.5 3.5z" fill="none" stroke="currentColor"
+            stroke-width="1.6" stroke-linejoin="round"/></svg></button></div>
+          <h3><a href="https://scroll.in/reel/1096523/pyre-review-a-moving-tale-of-loneliness-and-endurance" target="_blank">'Pyre' Review: A First-Time Cast Carries a Quietly Devastating Story of Old Age and an Emptying Village</a></h3>
+          <p class="blurb">Vinod Kapri's drama follows an elderly Kumaon couple, married 60 years, considering suicide as their village empties out around them. Critic Nandini Ramnath calls it an engaging, thought-provoking account of isolation and poverty, anchored by non-professional lead actors and cinematography that quietly indicts the neglect behind rural migration.</p>
+        </div>
+    </section>
+  </div>
+</div>
+
+<div id="saved-backdrop" hidden></div>
+
+<div id="flick-modal" role="dialog" aria-modal="true" aria-labelledby="flick-modal-title" hidden>
+  <div class="flick-card">
+    <h2 id="flick-modal-title">Describe this photograph</h2>
+    <p class="flick-lede" id="flick-mode">Your words about the frame. Camera settings are read from the file itself.</p>
+    <label>Subject <input type="text" id="flick-subject" placeholder="Bald eagle"></label>
+    <label>Where <input type="text" id="flick-where" placeholder="Cohoes Falls, New York"></label>
+    <label>Your note <textarea id="flick-note" rows="3" placeholder="What the light was doing. How long you waited. Why you kept this one."></textarea></label>
+    <label>Research <textarea id="flick-research" rows="3" placeholder="Left blank — tell Claude the subject and it will draft this with a source."></textarea></label>
+    <pre id="flick-json" aria-live="polite"></pre>
+    <div class="flick-actions">
+      <button type="button" id="flick-save" hidden>Save</button>
+      <button type="button" id="flick-copy" hidden>Copy for photos.json</button>
+      <button type="button" id="flick-cancel">Close</button>
+    </div>
+    <p class="flick-status" id="flick-status" role="status"></p>
+  </div>
+</div>
+<aside id="saved-panel" aria-labelledby="saved-title" aria-hidden="true" hidden>
+  <div class="saved-head">
+    <h2 id="saved-title">Read Later</h2>
+    <button type="button" id="saved-close" aria-label="Close read later">&times;</button>
+  </div>
+  <p class="saved-who">Kept by <strong id="saved-reader">Ganges</strong> · <span id="saved-usage">0 of 10</span></p>
+  <div id="saved-list"></div>
+  <div class="saved-foot">
+    <button type="button" id="saved-export">Export as a file</button>
+  </div>
+</aside>
+
+<script>
+// Reader preference. Purely presentational: it sets one attribute and CSS does
+// the reordering. Stored per browser — wrapped in try/catch because private
+// windows and blocked site-data make localStorage throw rather than return null.
+(function () {
+  var KEY = "aperture-reader";
+  function apply(who) {
+    document.body.setAttribute("data-reader", who);
+    document.querySelectorAll("[data-reader-set]").forEach(function (b) {
+      b.setAttribute("aria-pressed", b.dataset.readerSet === who ? "true" : "false");
+    });
+  }
+  var saved = "ganges";
+  try { saved = localStorage.getItem(KEY) || "ganges"; } catch (e) {}
+  apply(saved);
+  document.querySelectorAll("[data-reader-set]").forEach(function (b) {
+    b.addEventListener("click", function () {
+      var who = b.dataset.readerSet;
+      try { localStorage.setItem(KEY, who); } catch (e) {}
+      apply(who);
+    });
+  });
+})();
+
+// ---- Read later -----------------------------------------------------------
+// Saves live in this browser only (see decisions/001-bookmark-storage.md).
+// Every entry carries savedAt: the field is unused today, and is what a future
+// sync will need to settle two devices disagreeing. Adding it now costs nothing.
+(function () {
+  var KEY = "aperture-saves", CAP = 10, EDITION = "2026-11-02";
+  var NAMES = { ganges: "Ganges", apu: "Apu" };
+
+  function reader() { return document.body.getAttribute("data-reader") || "ganges"; }
+  function readAll() {
+    try { return JSON.parse(localStorage.getItem(KEY) || "{}") || {}; } catch (e) { return {}; }
+  }
+  function writeAll(all) {
+    try { localStorage.setItem(KEY, JSON.stringify(all)); return true; }
+    catch (e) { toast("This browser will not let the page save anything."); return false; }
+  }
+  function mine() { var a = readAll()[reader()]; return Array.isArray(a) ? a : []; }
+  function setMine(list) { var all = readAll(); all[reader()] = list; return writeAll(all); }
+
+  var toastTimer;
+  function toast(msg) {
+    var el = document.getElementById("saved-toast");
+    if (!el) { el = document.createElement("div"); el.id = "saved-toast"; document.body.appendChild(el); }
+    el.textContent = msg;
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function () { el.remove(); }, 3600);
+  }
+
+  function paintButtons() {
+    var saved = {};
+    mine().forEach(function (s) { saved[s.url] = true; });
+    document.querySelectorAll("button.save").forEach(function (b) {
+      var on = !!saved[b.dataset.url];
+      b.setAttribute("aria-pressed", on ? "true" : "false");
+      b.setAttribute("aria-label", (on ? "Remove this story from" : "Add this story to") + " read later");
+    });
+    var list = mine();
+    document.getElementById("saved-count").textContent = list.length;
+    var usage = document.getElementById("saved-usage");
+    if (usage) usage.textContent = list.length + " of " + CAP;
+    var who = document.getElementById("saved-reader");
+    if (who) who.textContent = NAMES[reader()] || reader();
+  }
+
+  function paintPanel() {
+    var box = document.getElementById("saved-list"), list = mine();
+    box.textContent = "";
+    if (!list.length) {
+      var p = document.createElement("p");
+      p.className = "saved-empty";
+      p.textContent = "Nothing here yet. The bookmark beside any story adds it to read later — up to " + CAP + " at a time.";
+      box.appendChild(p);
+      return;
+    }
+    list.forEach(function (s) {
+      var row = document.createElement("div");
+      row.className = "saved-item";
+      var text = document.createElement("div");
+      var meta = document.createElement("div");
+      meta.className = "meta";
+      meta.textContent = s.source + (s.section ? " · " + s.section : "") + " · " + s.edition;
+      var h = document.createElement("h3");
+      var a = document.createElement("a");
+      a.href = s.url; a.target = "_blank"; a.rel = "noopener"; a.textContent = s.headline;
+      h.appendChild(a);
+      text.appendChild(meta); text.appendChild(h);
+      var rm = document.createElement("button");
+      rm.type = "button"; rm.innerHTML = "&times;";
+      rm.setAttribute("aria-label", "Remove " + s.headline);
+      rm.addEventListener("click", function () {
+        setMine(mine().filter(function (x) { return x.url !== s.url; }));
+        paintButtons(); paintPanel();
+      });
+      row.appendChild(text); row.appendChild(rm);
+      box.appendChild(row);
+    });
+  }
+
+  document.querySelectorAll("button.save").forEach(function (b) {
+    b.addEventListener("click", function () {
+      var list = mine(), url = b.dataset.url;
+      if (list.some(function (x) { return x.url === url; })) {
+        setMine(list.filter(function (x) { return x.url !== url; }));
+      } else {
+        if (list.length >= CAP) {
+          toast("Read later is full at " + CAP + ". Remove one to make room.");
+          return;
+        }
+        list.unshift({ url: url, headline: b.dataset.headline, source: b.dataset.source,
+                       section: b.dataset.section, edition: EDITION,
+                       savedAt: new Date().toISOString() });
+        setMine(list);
+      }
+      paintButtons(); paintPanel();
+    });
+  });
+
+  var panel = document.getElementById("saved-panel"),
+      backdrop = document.getElementById("saved-backdrop"),
+      opener = document.getElementById("saved-open");
+  function open() {
+    paintPanel();
+    panel.hidden = false; backdrop.hidden = false;
+    panel.setAttribute("aria-hidden", "false");
+    opener.setAttribute("aria-expanded", "true");
+    document.getElementById("saved-close").focus();
+  }
+  function close() {
+    panel.hidden = true; backdrop.hidden = true;
+    panel.setAttribute("aria-hidden", "true");
+    opener.setAttribute("aria-expanded", "false");
+    opener.focus();
+  }
+  opener.addEventListener("click", function () { panel.hidden ? open() : close(); });
+  document.getElementById("saved-close").addEventListener("click", close);
+  backdrop.addEventListener("click", close);
+  document.addEventListener("keydown", function (e) { if (e.key === "Escape" && !panel.hidden) close(); });
+
+  document.getElementById("saved-export").addEventListener("click", function () {
+    var blob = new Blob([JSON.stringify(mine(), null, 2)], { type: "application/json" });
+    var a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = "aperture-read-later-" + reader() + ".json";
+    a.click();
+    setTimeout(function () { URL.revokeObjectURL(a.href); }, 1000);
+  });
+
+  // Switching reader switches whose list is shown — the toggle is the identity.
+  document.querySelectorAll("[data-reader-set]").forEach(function (b) {
+    b.addEventListener("click", function () {
+      paintButtons();
+      if (!panel.hidden) paintPanel();
+    });
+  });
+
+  paintButtons();
+})();
+
+// ---- Describe this photograph --------------------------------------------
+// The same form behaves differently depending on how the page is being served.
+// Published, it is static files and nothing can write to the repo, so it offers
+// the entry to copy. Run under edit_photos.py on localhost, a small local
+// helper is listening and Save writes photos.json and rebuilds for real.
+(function () {
+  var fill = document.getElementById("flick-fill");
+  if (!fill) return;
+  var modal = document.getElementById("flick-modal"),
+      out = document.getElementById("flick-json"),
+      status = document.getElementById("flick-status"),
+      mode = document.getElementById("flick-mode"),
+      saveBtn = document.getElementById("flick-save"),
+      copyBtn = document.getElementById("flick-copy"),
+      f = {
+        subject: document.getElementById("flick-subject"),
+        where: document.getElementById("flick-where"),
+        note: document.getElementById("flick-note"),
+        research: document.getElementById("flick-research")
+      };
+
+  var host = location.hostname;
+  var canSave = (host === "localhost" || host === "127.0.0.1");
+
+  if (canSave) {
+    saveBtn.hidden = false;
+    out.hidden = true;
+    mode.textContent = "Your words about the frame. Saving writes photos.json and rebuilds the page.";
+  } else {
+    copyBtn.hidden = false;
+    mode.textContent = "Your words about the frame. This published page cannot write files, " +
+      "so copy the entry into photos.json. To save directly, view the site with  python3 preview.py";
+  }
+
+  function values() {
+    var v = {};
+    Object.keys(f).forEach(function (k) { v[k] = f[k].value.trim(); });
+    return v;
+  }
+  function compose() {
+    var body = {};
+    body[fill.dataset.file] = values();
+    out.textContent = JSON.stringify(body, null, 2);
+  }
+  function say(msg, bad) {
+    status.textContent = msg;
+    status.className = "flick-status" + (bad ? " bad" : "");
+  }
+
+  function open() {
+    Object.keys(f).forEach(function (k) { f[k].value = fill.dataset[k] || ""; });
+    compose(); say("");
+    modal.hidden = false;
+    f.subject.focus();
+  }
+  function close() { modal.hidden = true; fill.focus(); }
+
+  fill.addEventListener("click", open);
+  document.getElementById("flick-cancel").addEventListener("click", close);
+  modal.addEventListener("click", function (e) { if (e.target === modal) close(); });
+  document.addEventListener("keydown", function (e) { if (e.key === "Escape" && !modal.hidden) close(); });
+  Object.keys(f).forEach(function (k) { f[k].addEventListener("input", compose); });
+
+  saveBtn.addEventListener("click", function () {
+    saveBtn.disabled = true; say("Saving…");
+    fetch("/save-photo", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ file: fill.dataset.file, fields: values() })
+    }).then(function (r) { return r.json(); }).then(function (res) {
+      if (!res.saved) throw new Error(res.error || "save refused");
+      say(res.rebuilt ? "Saved. Reloading…" : "Saved, but the rebuild failed — check the terminal.");
+      if (res.rebuilt) setTimeout(function () { location.reload(); }, 700);
+      else saveBtn.disabled = false;
+    }).catch(function (e) {
+      say("Could not save: " + e.message + ". Is preview.py still running?", true);
+      saveBtn.disabled = false;
+    });
+  });
+
+  copyBtn.addEventListener("click", function () {
+    var btn = this, text = out.textContent;
+    function done() { say("Copied — paste it into photos.json"); }
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(text).then(done, function () {
+        var r = document.createRange(); r.selectNodeContents(out);
+        var s = getSelection(); s.removeAllRanges(); s.addRange(r);
+        say("Selected — press Cmd+C");
+      });
+    } else {
+      var r = document.createRange(); r.selectNodeContents(out);
+      var s = getSelection(); s.removeAllRanges(); s.addRange(r);
+      say("Selected — press Cmd+C");
+    }
+  });
+})();
+</script>
+</body>
+</html>
