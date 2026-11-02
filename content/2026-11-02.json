@@ -1,0 +1,253 @@
+{
+  "date": "2026-11-02",
+  "sections": {
+    "politics": {
+      "top": [
+        {
+          "headline": "ProPublica: Trump Administration Reshaped Election Enforcement Ahead of Midterms, With Little to Show For It",
+          "url": "https://www.propublica.org/article/midterm-election-propublica-reporting-findings",
+          "source": "ProPublica",
+          "investigative": true,
+          "blurb": "Ahead of Tuesday's midterms, ProPublica tallies two years of the administration's push to control elections: 75 nonpartisan career officials pushed out, lawsuits against 30 states for voter rolls dismissed by every judge who's ruled so far, and a request that CISA secretly hack a voting machine, which the agency called impossible."
+        },
+        {
+          "headline": "The CIA Makes an Unusually Public Pitch for Cuban Informants",
+          "url": "https://theintercept.com/2026/11/01/marco-rubio-cuba-cia-recruitment/",
+          "source": "The Intercept",
+          "blurb": "Secretary of State Marco Rubio publicly invited Cubans seeking \"positive change\" into a \"discrete partnership with the CIA,\" an open recruitment pitch that breaks with the agency's usual secrecy and follows Trump's talk of Cuba as a target after Iran and Venezuela. The reaction, even among allies, was largely bewilderment."
+        },
+        {
+          "headline": "Inside the Fight for Tarrant County, the Last Big Texas Metro Republicans Still Run",
+          "url": "https://www.motherjones.com/politics/2026/10/inside-the-fight-to-flip-the-biggest-battleground-in-texas-tarrant-county-crystal-mason/",
+          "source": "Mother Jones",
+          "blurb": "Republicans cut nearly a third of Tarrant County's Election Day voting sites ahead of a county judge race Democrats see as their best shot at flipping Texas's biggest remaining GOP stronghold. Crystal Mason, once sentenced to five years over an uncounted provisional ballot before her conviction was thrown out for good this September, now runs a local voting-rights group."
+        }
+      ],
+      "more": []
+    },
+    "india": {
+      "top": [
+        {
+          "headline": "INDIA Bloc Rally Draws a Lakh to Delhi's Ramlila Maidan, Demanding the Election Commission Chief's Resignation",
+          "url": "https://www.newslaundry.com/2026/11/02/vote-bachao-desh-bachao-the-india-bloc-rally-at-ramlila-maidan-as-it-unfolded",
+          "source": "Newslaundry",
+          "blurb": "Rahul Gandhi, Mallikarjun Kharge, Mamata Banerjee, Farooq Abdullah and Mehbooba Mufti addressed an opposition rally that Newslaundry estimated drew at least a lakh of people, with many more shut out. Attendees from Bihar, Maharashtra and Rajasthan described being struck off electoral rolls despite holding valid documents, and speakers demanded Chief Election Commissioner Gyanesh Kumar's resignation and a rollback of the SIR."
+        },
+        {
+          "headline": "Over 4,000 Evicted as Assam Bulldozes Homes of 640 Bengali Muslim Families in Dhubri",
+          "url": "https://scroll.in/latest/1096794/assam-over-4000-evicted-after-homes-of-640-bengali-muslim-families-demolished-in-dhubri",
+          "source": "Scroll.in",
+          "blurb": "More than 50 bulldozers cleared 650 bighas of government land in Alamganj, Dhubri, days after a similar drive displaced over 1,100 families elsewhere in Assam. The district commissioner said the land is earmarked for an industrial park and that most residents have land elsewhere — a claim families settled there since the 1960s dispute."
+        },
+        {
+          "headline": "India's New Labour Codes Leave Domestic and Home-Based Workers Without Protection, Investigation Finds",
+          "url": "https://www.newslaundry.com/2026/11/02/invisible-and-unprotected-indias-new-labour-codes-fail-domestic-home-based-workers",
+          "source": "Newslaundry",
+          "investigative": true,
+          "blurb": "The new labour codes classify domestic and home-based workers as wage earners but never define a home as a workplace, so the safety and minimum-wage rules written for registered establishments don't reach them. A WIEGO survey found 84% of Delhi home-based workers cut hours during extreme heat, and no state has managed to enforce the wage floor it promised them."
+        }
+      ],
+      "more": [
+        {
+          "headline": "Uttarakhand Election Officials Filed Thousands of Late Voter-Deletion Objections in Gadarpur, Newslaundry Finds",
+          "url": "https://www.newslaundry.com/2026/11/02/uttarakhand-sir-2700-names-deleted-in-gadarpur-on-objections-filed-by-poll-officers-after-the-deadline",
+          "source": "Newslaundry",
+          "investigative": true,
+          "blurb": "Ten assistant election officers filed 2,742 objections to delete voters in Gadarpur more than a month after the SIR deadline, in filings electoral rules don't appear to allow."
+        },
+        {
+          "headline": "Three Punjab AAP MLAs, One a Former IPS Officer, Cross Over to BJP",
+          "url": "https://scroll.in/latest/1096803/punjab-three-aap-mlas-join-bjp-ahead-of-assembly-polls",
+          "source": "Scroll.in",
+          "blurb": "Two MLAs dropped from AAP's candidate list and a third, suspended last year for criticizing the party, resigned and joined the BJP on Monday ahead of Punjab's 2027 polls."
+        }
+      ]
+    },
+    "geo": {
+      "top": [
+        {
+          "headline": "Israeli Forces Withdraw From Hebron After 10-Day Siege That Displaced Over 3,300",
+          "url": "https://www.aljazeera.com/news/2026/11/2/hebron-governor-says-israeli-forces-withdraw-from-city-after-10-day-siege",
+          "source": "Al Jazeera",
+          "blurb": "Israeli troops pulled out of Hebron on Monday, ending a 10-day closure imposed after two Palestinians killed two soldiers near the city. The siege displaced more than 3,300 people, demolished 15 homes, and shut 327 shops at a reported cost of $3.8 million a day; Palestinian security forces now say they have full control of the area."
+        },
+        {
+          "headline": "A Melania Trump-Brokered Truce in Kherson Expires, With No Extension in Sight",
+          "url": "https://www.aljazeera.com/news/2026/11/1/ukraine-evacuates-civilians-in-kherson-region-as-localised-ceasefire-ends",
+          "source": "Al Jazeera",
+          "blurb": "A six-day ceasefire that let nearly 800 besieged residents evacuate Oleshky, mediated by the US first lady and Pope Leo XIV, lapsed Sunday night after Russia reportedly rejected a Ukrainian bid to extend it. Ukraine evacuated 167 more civilians from threatened areas as strikes resumed, including a drone attack that killed three people at a Vinnytsia vocational school."
+        },
+        {
+          "headline": "Netanyahu Claims Israel's Election Was 'Stolen' by Qatari-Funded Arab Parties — Officials Say Results Stand Regardless",
+          "url": "https://www.aljazeera.com/news/2026/11/2/israeli-officials-say-results-stand-as-netanyahu-claims-election-stolen",
+          "source": "Al Jazeera",
+          "blurb": "Likud alleged without evidence that Arab-led parties, who won a record 19 seats, took Qatari money to win — a claim Qatar called disinformation and the election commission's chairman dismissed, saying results would stand regardless. With neither bloc able to govern alone, certification is expected this week before President Herzog picks someone to try forming a coalition."
+        }
+      ],
+      "more": []
+    },
+    "sports": {
+      "top": [
+        {
+          "headline": "Namibia Beat Ireland to Win Their First-Ever ODI Series Against a Full Member Nation",
+          "url": "https://www.icc-cricket.com/news/namibia-create-history-with-ireland-odi-series-triumph",
+          "source": "ICC",
+          "blurb": "Namibia chased down 129 to win the fifth ODI by five wickets, clinching a historic 3-2 series win over Ireland in Windhoek. Gerhard Erasmus was Player of the Series, and the result builds momentum ahead of the 2027 World Cup, which Namibia co-hosts with South Africa and Zimbabwe."
+        }
+      ],
+      "more": [
+        {
+          "headline": "New Zealand Lose Ravindra and Chapman to Injury Ahead of Home ODI Series Against India",
+          "url": "https://www.icc-cricket.com/news/new-zealand-lose-key-duo-for-home-odi-series-against-india",
+          "source": "ICC",
+          "blurb": "Rachin Ravindra's shoulder and Mark Chapman's hamstring will keep both out of the five-match series starting November 4, with Ravindra's caution also guarding against risk before a Test series against India later this month."
+        }
+      ]
+    },
+    "entertainment": {
+      "top": [
+        {
+          "headline": "'Pyre' Review: A First-Time Cast Carries a Quietly Devastating Story of Old Age and an Emptying Village",
+          "url": "https://scroll.in/reel/1096523/pyre-review-a-moving-tale-of-loneliness-and-endurance",
+          "source": "Scroll.in",
+          "blurb": "Vinod Kapri's drama follows an elderly Kumaon couple, married 60 years, considering suicide as their village empties out around them. Critic Nandini Ramnath calls it an engaging, thought-provoking account of isolation and poverty, anchored by non-professional lead actors and cinematography that quietly indicts the neglect behind rural migration."
+        }
+      ],
+      "more": []
+    },
+    "bengal": [
+      {
+        "headline": "Bengal CM Sets December 31 Deadline for CAA Citizenship to 2.5 Lakh Applicants",
+        "url": "https://www.millenniumpost.in/bengal/cm-sets-dec-31-deadline-for-caa-citizenship-to-25l-applicants-681844",
+        "source": "Millennium Post",
+        "blurb": "Suvendu Adhikari set a year-end deadline for granting CAA citizenship to 2.5 lakh applicants, saying only 25,000 have received it so far, and blamed the previous Banerjee government for the delay."
+      },
+      {
+        "headline": "Fire Breaks Out in Building Behind Kolkata's Writers' Buildings",
+        "url": "https://www.millenniumpost.in/bengal/fire-breaks-out-in-multi-storey-building-behind-kolkatas-writers-buildings-681854",
+        "source": "Millennium Post",
+        "blurb": "Ten fire engines brought a blaze under control in an office building behind the former state secretariat late Sunday; no injuries were reported and the cause is still under investigation."
+      },
+      {
+        "headline": "After Durga Puja Stall Attacks, Bengal's Left Takes Its Books to the Neighbourhoods",
+        "url": "https://www.millenniumpost.in/bengal/left-plans-mobile-book-fairs-after-durga-puja-stall-attacks-681803",
+        "source": "Millennium Post",
+        "blurb": "After the CPI(M) said nearly 300 of its Durga Puja bookstalls were vandalised, including one arson attack, party leaders marched with civil society figures at College Square and announced mobile book fairs across the state."
+      }
+    ],
+    "travel": [
+      {
+        "headline": "Five English Heritage Sites Invited Visitors to Lie Down and Look Up at Their Most Ornate Ceilings",
+        "url": "https://www.smithsonianmag.com/smart-news/lie-down-and-look-up-at-englands-most-ornate-ceilings-from-sparkling-gold-leaf-stars-to-intricate-plaster-designs-at-queen-victorias-seaside-retreat-180989770/",
+        "source": "Smithsonian",
+        "blurb": "A seasonal campaign put cushions beneath five historic ceilings, including 254 gold-leaf stars in Bolsover Castle's Star Chamber and the ornate plasterwork of Queen Victoria's seaside retreat at Osborne."
+      },
+      {
+        "headline": "Volunteers Are Racing to Solve the Mystery of Where Kansas's Prothonotary Warblers Spend the Winter",
+        "url": "https://www.audubon.org/news/prothonotary-warblers-kansas-have-secret-can-team-of-volunteers-figure-it-out",
+        "source": "Audubon",
+        "blurb": "A geolocator recovered from a warbler named Hydrogen revealed a 2,800-mile migration to a Colombian wetland being cleared for farmland, part of a volunteer effort to track a declining species' unknown route."
+      }
+    ],
+    "happy": {
+      "headline": "An Exchange Program Sends American Teenagers Not Abroad, But Into Each Other's Hometowns",
+      "url": "https://reasonstobecheerful.world/america-student-exchange-program-empathy/",
+      "source": "Reasons to be Cheerful",
+      "blurb": "The American Exchange Project sends recent high school graduates to spend a week in a U.S. community unlike their own, then host those same peers back home — Sunny Beam left a Washington town of under 10,000 for the Bronx, found it startlingly welcoming, and came home having rethought what a close-knit place is for."
+    },
+    "tech_top": [
+      {
+        "headline": "OpenAI Plans a Post-Midterms Rebrand: Data Centers Become 'AI Compute Campuses'",
+        "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+        "source": "TechCrunch",
+        "pm_note": "Renaming unpopular infrastructure is a familiar PR move — watch for the substance behind it, not just the softer label.",
+        "blurb": "OpenAI is preparing a post-midterms \"PR blitz\" that includes renaming its data centers \"AI compute campuses\" and floating voluntary AI \"speed limits,\" Axios reports. Chief global affairs officer Chris Lehane called this week's elections \"a movie trailer\" for a 2028 presidential race where he expects AI to be the defining issue."
+      },
+      {
+        "headline": "Saudi Aramco Pays $2.6 Billion for Half of Its Own Country's AI Company",
+        "url": "https://gamesbeat.com/saudi-arabias-aramco-buy-49-stake-in-ai-firm-humain-for-2-6b/",
+        "source": "GamesBeat",
+        "pm_note": "Sovereign capital is now a line item in AI infrastructure deals — state-linked money is starting to shape who controls the compute layer.",
+        "blurb": "Aramco bought a 49% stake in Humain, the Saudi state AI company building 3 gigawatts of data-center capacity by 2030, paying roughly $2.6 billion in cash plus AI, compute and digital assets. The oil giant wants Humain's infrastructure to apply AI across its industrial operations and to help monetize assets it already owns."
+      },
+      {
+        "headline": "Data Centers Have Become an Unlikely Midterm Campaign Issue — Even in Brooklyn",
+        "url": "https://techcrunch.com/2026/10/31/data-centers-are-now-a-midterm-issue-even-in-brooklyn/",
+        "source": "TechCrunch",
+        "pm_note": "Nearly $200 billion in projects have been delayed or blocked by local opposition this year — community backlash now belongs on any infrastructure roadmap as a real risk line.",
+        "blurb": "At a Brooklyn election event five days before voting, a crowd booed when asked who supported AI data centers — residents cited secret siting deals and zoning rules that hide projects until it's too late to object. A Data Center Watch report found nearly $200 billion in projects delayed, stalled or blocked in the first half of 2026 alone."
+      }
+    ],
+    "tech_more": [
+      {
+        "headline": "Binance Says It's Covered 95% of the $6.3 Billion North Korean Hack, Will Absorb the Rest Itself",
+        "url": "https://techcrunch.com/2026/11/01/binance-resumes-withdrawals-following-6-3-billion-breach/",
+        "source": "TechCrunch",
+        "blurb": "The FBI formally attributed the breach to North Korea's TraderTraitor group as Binance resumed phased withdrawals and said it would cover any remaining losses without passing them to users."
+      }
+    ],
+    "tech_101": [
+      {
+        "term": "AI compute campus",
+        "text": "Industry jargon for a data center — the warehouse-sized buildings full of servers that train and run AI models. Companies are reaching for softer names as neighbors organize against the noise, water use and power draw these facilities bring."
+      },
+      {
+        "term": "Sovereign AI",
+        "text": "The push by national governments and state-backed firms, like Saudi Arabia's PIF and Aramco, to own AI infrastructure and models rather than rent compute from US tech giants — treating AI capability as a strategic national asset, the way oil or defense manufacturing once was."
+      }
+    ],
+    "science": [
+      {
+        "headline": "Hubble Finds Supernova Winds May Block Starlight Rather Than Clear a Path for It",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261029072113.htm",
+        "source": "ScienceDaily",
+        "kind": "space",
+        "blurb": "A nearly 30-scientist study of starburst galaxies found that the strongest supernova-driven winds correlate with less, not more, ionizing radiation escaping — the opposite of what simulations of early cosmic reionization have long assumed. The team suggests radiation instead escapes earlier, before young massive stars explode, a finding that could force a rethink of how the universe's hydrogen fog first cleared."
+      },
+      {
+        "headline": "An AI Tool Nicknamed 'Alexa for Mutants' Designs Custom Enzymes From Plain-English Requests",
+        "url": "https://phys.org/news/2026-10-chemists-ai-tool-human-ingenuity.html",
+        "source": "Phys.org",
+        "kind": "chemistry",
+        "blurb": "Vanderbilt chemists built MutexaGPT, which uses language-model agents to turn a plain-English request into physics-based enzyme design proposals, aiming to cut the costly trial and error behind engineering enzymes for medicine, detergents and plastics recycling. Its developers frame it as a tool to support chemists' judgment, not replace it."
+      },
+      {
+        "headline": "Smashing Oxygen Nuclei Recreates the Universe's First Matter at a New Energy Low",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261030002935.htm",
+        "source": "ScienceDaily",
+        "kind": "physics",
+        "blurb": "Brookhaven's STAR experiment collided oxygen nuclei at RHIC and still saw jet quenching, the signature of quark-gluon plasma, the matter thought to have filled the universe before protons and neutrons formed. Because oxygen nuclei are far smaller than the gold normally used, the result sets a new lower bound on how small and cold a collision can be and still make this primordial state."
+      }
+    ],
+    "philosophy": [
+      {
+        "headline": "Gödel Didn't Prove There's a Limit to What We Can Know — He Proved Knowledge Keeps Growing",
+        "url": "https://aeon.co/essays/the-century-long-search-for-the-limits-to-knowledge",
+        "source": "Aeon",
+        "blurb": "Logician Alexander Gheorghiu traces a century of work from Hilbert and Frege through Michael Dummett to argue that Gödel's incompleteness theorems don't fix a ceiling on human knowledge. Because mathematical truth depends on linguistic practices that can always be faithfully extended, our concepts keep growing the way amending a constitution draws out commitments already latent in it."
+      },
+      {
+        "headline": "Grief Isn't Only for the Dead",
+        "url": "https://aeon.co/essays/we-need-a-language-to-name-the-grief-that-comes-without-death",
+        "source": "Aeon",
+        "blurb": "Philosopher and counsellor Derek van Zoonen argues that losses which disrupt a person's identity — a parent's decline, a sibling's addiction, involuntary childlessness — deserve to be called grief even without a death or a ritual to mark them. Left unnamed, he writes, these losses leave people estranged from their own feelings."
+      },
+      {
+        "headline": "The More We Lean on Technology, the Less Our Bodies Can Do",
+        "url": "https://aeon.co/essays/the-more-we-rely-on-tech-the-more-we-deskill-our-bodies",
+        "source": "Aeon",
+        "blurb": "Writer Melanie Challenger argues that offloading physical and cognitive work to tools — GPS, AI writing — quietly atrophies the capacities bodies would otherwise maintain through use, citing a study linking GPS use to steeper spatial-memory decline. She traces the error to treating humans as machines, from Descartes through cybernetics to transhumanism."
+      }
+    ],
+    "philosophy_101": [
+      {
+        "term": "Indefinite extensibility",
+        "text": "Philosopher Michael Dummett's idea that some concepts, like 'all mathematical truths,' can never be pinned down completely — any attempt to define them fully creates the resources for a new case that doesn't fit, so the concept keeps growing rather than being incomplete."
+      },
+      {
+        "term": "Ambiguous loss",
+        "text": "A loss with no clear end point or social ritual to mark it — a relationship that fades, an identity that slips away, a person physically present but changed beyond recognition — which can be harder to grieve than a death precisely because no one agrees it counts as one."
+      }
+    ]
+  }
+}
