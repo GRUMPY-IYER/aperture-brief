@@ -1,0 +1,226 @@
+{
+  "date": "2026-11-04",
+  "sections": {
+    "politics": {
+      "top": [
+        {
+          "headline": "Democrats Flip the Senate and House in a Historic Midterm Rout, Ending Trump's Congressional Majority",
+          "url": "https://www.motherjones.com/politics/2026/11/democrats-win-senate/",
+          "source": "Mother Jones",
+          "blurb": "Democrats won control of the Senate on Election Day, a result Mother Jones called 'a massive shift in power,' flipping North Carolina, South Carolina, Ohio, Texas, Kansas and Iowa while holding Georgia and New Hampshire. Paired with a House takeover, the new majority lets Democrats block Trump's nominees, including any Supreme Court vacancy."
+        },
+        {
+          "headline": "Democrats Decisively Win Back the House, Ending Two Years of Total Republican Control",
+          "url": "https://www.motherjones.com/politics/2026/11/democrats-house-blue-wave-midterm-election-trump/",
+          "source": "Mother Jones",
+          "blurb": "Democrats won control of the US House on Election Day, part of a 'historic blue wave' that Mother Jones says ends the near-total Republican control that followed Trump's return to power two years ago. Winning races from Florida to North Carolina to Kentucky, Democrats now gain the authority to subpoena documents, compel testimony and challenge the administration's agenda."
+        },
+        {
+          "headline": "Talarico Beats Paxton — and Musk's $212 Million — to Flip Texas's Senate Seat",
+          "url": "https://www.motherjones.com/politics/2026/11/james-talarico-wins-texas-senate-elon-musk-ken-paxton/",
+          "source": "Mother Jones",
+          "blurb": "State representative James Talarico, 37, beat Attorney General Ken Paxton in the most expensive Senate race in US history — the first Democratic statewide win in Texas in 32 years. Elon Musk spent more than $212 million backing Paxton; Talarico branded him a billionaire trying to buy 'his very own personal United States senator.'"
+        }
+      ],
+      "more": []
+    },
+    "india": {
+      "top": [
+        {
+          "headline": "Censorship, Arrests, Internet Shutdown, PR Campaign: How Arunachal Is Trying to Control the Siang Dam Narrative",
+          "url": "https://www.newslaundry.com/2026/11/04/censorship-arrests-internet-shutdown-pr-campaign-how-arunachal-is-trying-to-control-the-siang-dam-narrative",
+          "source": "Newslaundry",
+          "investigative": true,
+          "blurb": "Arunachal authorities have detained at least 10 Siang dam protesters under the stringent APUAPA law and arrested 69 after October 23 violence, cut internet service in Upper Siang, and restricted journalists' and activists' social media accounts — including seeking a search warrant against Arunachal Times deputy editor Tongam Rina — while paying a PR firm Rs 10.91 crore to promote the dam."
+        },
+        {
+          "headline": "Delhi BLOs Asked to Seek Citizenship Proof From Voters Who Submitted Only Aadhaar",
+          "url": "https://scroll.in/latest/1096863/delhi-blos-asked-to-seek-citizenship-proof-from-voters-who-submitted-only-aadhaar-the-hindu",
+          "source": "Scroll.in",
+          "blurb": "Delhi's booth-level officers have reportedly been told to demand documents beyond Aadhaar from voters flagged with 'no mapping' notices during the SIR, to verify they aren't Bangladeshi or Rohingya — reversing earlier guidance that let them file a simple eligibility undertaking. Senior officials deny issuing the instruction; the Supreme Court has said the Election Commission cannot adjudicate citizenship."
+        },
+        {
+          "headline": "Delhi Police Asks X to Remove Accounts of Digital Rights Groups IFF, SFLC",
+          "url": "https://scroll.in/latest/1096859/delhi-police-asks-x-to-remove-accounts-of-digital-rights-groups-iff-sflc",
+          "source": "Scroll.in",
+          "blurb": "Delhi Police asked X to remove accounts of the Internet Freedom Foundation and the Software Freedom Law Center, citing RSS defamation under the Bharatiya Nyaya Sanhita, after the groups posted about a legal notice demanding they stop documenting content-blocking orders. Both groups call the move disproportionate and say they'll sue unless it's withdrawn."
+        }
+      ],
+      "more": []
+    },
+    "geo": {
+      "top": [
+        {
+          "headline": "Iran Says US Reply to Hormuz Reopening Plan Is 'Unconvincing' as Trump Confirms New Strikes",
+          "url": "https://www.aljazeera.com/news/2026/11/4/iran-says-us-reply-to-hormuz-plan-unconvincing-trump-confirms-strikes",
+          "source": "Al Jazeera",
+          "blurb": "Trump confirmed a 'minor attack' on an Iranian anti-aircraft facility on Qeshm Island, insisting it 'wasn't war,' after Iran offered to reopen the Strait of Hormuz within two days if Washington met seven demands, including lifting sanctions and ending its naval blockade. Iranian official Mohsen Rezaei called the US response 'not convincing' as tanker attacks continue."
+        },
+        {
+          "headline": "Israel's Opposition Unites Behind Ex-Military Chief Eisenkot to Try to Oust Netanyahu",
+          "url": "https://www.aljazeera.com/news/2026/11/3/israeli-opposition-leaders-back-eisenkot-to-oust-netanyahu",
+          "source": "Al Jazeera",
+          "blurb": "Opposition leaders agreed to back Gadi Eisenkot, a former military chief who now leads the Yashar party, as prime minister after the October 27 election left neither bloc a majority. The Arab-led parties' record 19 seats could prove decisive, but the opposition remains split over allying with them to form a government."
+        }
+      ],
+      "more": []
+    },
+    "sports": {
+      "top": [
+        {
+          "headline": "India Women Complete 3-0 ODI Sweep of Zimbabwe as Vaishnavi Sharma Claims a Maiden Five-Wicket Haul",
+          "url": "https://www.icc-cricket.com/news/india-spinner-earns-major-rankings-boost-after-zimbabwe-series",
+          "source": "ICC",
+          "blurb": "Left-arm spinner Vaishnavi Sharma, 20, took 5 for 39 in her third ODI to bowl out Zimbabwe for 131 in Vadodara, sealing India's 3-0 sweep and earning Player of the Match. The result capped a series in which India also won the preceding T20I series 3-0, and lifted Sharma 53 places to 94th in the ODI bowling rankings."
+        }
+      ],
+      "more": [
+        {
+          "headline": "West Indies Spin Their Way to an Eight-Wicket Win Over Bangladesh in the Mirpur Test",
+          "url": "https://www.icc-cricket.com/news/dominant-west-indies-go-1-0-up-in-mirpur",
+          "source": "ICC",
+          "blurb": "Roston Chase's 5 for 36 and support from Jomel Warrican bowled out Bangladesh for 170, letting West Indies chase down the target with eight wickets in hand to take a 1-0 lead in the two-match series."
+        }
+      ]
+    },
+    "entertainment": {
+      "top": [
+        {
+          "headline": "'Akka' Review: An Engrossing, Bejewelled Catfight Over a Fictional Kingdom's Liquor Trade",
+          "url": "https://scroll.in/reel/1096718/akka-review-an-engrossing-bejewelled-catfight",
+          "source": "Scroll.in",
+          "blurb": "Dharmaraj Shetty's five-episode Hindi Netflix series imagines Pernuru, a Deccan kingdom where women rule and marriage has been abandoned, upended when a Mumbai gangster sends Rudra (Radhika Apte) to seize its liquor trade from ruler Bhavani (Keerthy Suresh). Critic Nandini Ramnath calls it engrossing and praises Suresh's performance, though the plotting feels rushed."
+        }
+      ],
+      "more": []
+    },
+    "bengal": [
+      {
+        "headline": "Dead Patients, Fake Bills: Bengal Minister Seeks Probe Into Swasthya Sathi Over Alleged ₹30,000-Crore Fraud",
+        "url": "https://www.millenniumpost.in/bengal/dead-patients-fake-bills-minister-seeks-probe-into-swasthya-sathi-682073",
+        "source": "Millennium Post",
+        "blurb": "Health Minister Sharadwat Mukherjee sought an independent probe into Swasthya Sathi after sources flagged about 30 lakh fake cards and over ₹30,000 crore in alleged billing fraud, including charges for long-dead patients."
+      },
+      {
+        "headline": "Kolkata, Howrah Civic Polls to Come Before Siliguri's in February 2027, Hints Bengal CM",
+        "url": "https://www.millenniumpost.in/bengal/suvendu-announces-rs-5k-each-for-19524-workers-of-21-closed-gardens-682114",
+        "source": "Millennium Post",
+        "blurb": "Chief Minister Suvendu Adhikari hinted Kolkata and Howrah's civic polls will precede Siliguri's, expected in February 2027, while announcing ₹5,000 each for 19,524 workers from 21 closed tea gardens."
+      }
+    ],
+    "travel": [
+      {
+        "headline": "Japan's Smallest, Least-Populated Main Island Offers an 88-Temple Pilgrimage, Udon and Cedar-Forest Trails",
+        "url": "https://www.smithsonianmag.com/travel/japans-smallest-and-least-populated-major-island-is-a-world-of-pilgrimages-delicious-food-and-plenty-of-forest-bathing-180989590/",
+        "source": "Smithsonian",
+        "blurb": "Shikoku, Japan's smallest and least-populated main island, offers a 750-mile pilgrimage linking 88 Buddhist temples, Kagawa's famed udon, and trails through centuries-old cedar forests."
+      },
+      {
+        "headline": "Photograph Confirms a West African Bird Unseen in 13 Years Still Survives",
+        "url": "https://news.mongabay.com/short-article/2026/11/photograph-helps-identify-a-west-african-bird-not-seen-in-13-years/",
+        "source": "Mongabay",
+        "blurb": "A field researcher's photograph confirmed the Ghana cuckooshrike, undocumented since 2013, still survives in Côte d'Ivoire's Taï National Park, a biodiversity hotspot threatened by illegal gold mining and hunting."
+      }
+    ],
+    "happy": {
+      "headline": "Deaf and Arrested as a Vagrant, Beethoven Finished His Ninth Symphony Anyway",
+      "url": "https://www.themarginalian.org/2026/11/02/beethoven-ode-to-joy/",
+      "source": "The Marginalian",
+      "blurb": "In 1822, police arrested a lost-in-thought Beethoven as a suspicious tramp and mocked his claim to fame. Nearly deaf and worn down by years of hardship, he finished the choral finale of his Ninth Symphony anyway — and at its 1824 Vienna premiere, didn't realize the audience was cheering until a singer gently turned him around to see it."
+    },
+    "tech_top": [
+      {
+        "headline": "Google Backs Off Part of Its Plan to Cut Off Search for Schools That Ban AI",
+        "url": "https://www.cnbc.com/2026/11/03/google-responds-to-outrage-over-removing-search-in-schools-that-ban-ai.html",
+        "source": "CNBC",
+        "pm_note": "A platform threatening to withhold a core product unless customers adopt its AI feature is the kind of bundling question regulators are primed to scrutinize — plan your own AI rollouts with an opt-out, not a tripwire.",
+        "blurb": "Google's plan to let schools disable Gemini but not the AI built into Search drew accusations of 'extortion' from Senator Bernie Sanders and monopoly-power criticism from NYC Mayor Zohran Mamdani and former FTC Chair Lina Khan. Google clarified that schools can turn off Gemini, Gemini Notebook and Search individually, and is adding step-by-step guided help to Search so AI Mode doesn't just hand over answers."
+      },
+      {
+        "headline": "Ohio Voters Reject AI Data Centers in Sweeping Ballot Measures Days After the Midterms",
+        "url": "https://fortune.com/2026/11/04/ohio-data-center-ballot-measures-midterm-elections/",
+        "source": "Fortune",
+        "pm_note": "Local ballot measures, not federal policy, are turning into the real speed bump for data center buildouts — a siting and community-relations risk every infrastructure roadmap now has to price in.",
+        "blurb": "Voters in at least 14 of 18 Ohio municipalities passed bans or restrictions on AI data centers on Election Day, including a charter ban in Trenton that passed 80-20 and a vote to block a project already under construction in Ashville. More than 125 local moratoriums already exist in Ohio, where polling found 70% of Americans oppose data centers in their area."
+      },
+      {
+        "headline": "AMD's Data Center Revenue Nearly Doubles as It Guides Toward Overtaking Intel in x86",
+        "url": "https://www.cnbc.com/2026/11/03/amd-amd-q3-earnings-report-2026-.html",
+        "source": "CNBC",
+        "pm_note": "Data center is now 64% of AMD's revenue, up from 47% a year ago — when a chip company's growth story depends that heavily on one customer category, watch that category's capex cycle as closely as the company's own guidance.",
+        "blurb": "AMD's third-quarter revenue rose 45% year-over-year to $13.38 billion, beating estimates, as data center revenue nearly doubled to make up 64% of sales. AMD guided Q4 revenue to about $17 billion, which could put it ahead of Intel as the largest x86 vendor; Intel's own data-center revenue grew 78%, but its stock fell 29% on weak guidance."
+      }
+    ],
+    "tech_more": [
+      {
+        "headline": "A 17-Year-Old's 'Vibe-Coded' AO3 Clone Shuts Down After 2,000 Takedown Notices in a Day",
+        "url": "https://www.404media.co/vibe-coded-ao3-clone-site-down-after-fanfic-authors-buried-it-with-2-000-takedown-notices-in-a-single-day/",
+        "source": "404 Media",
+        "blurb": "ao3.life scraped fanfiction from the outage-hit Archive of Our Own and sold AI-generated audiobook versions without authors' consent, prompting over 2,000 takedown notices in a single day before its teenage creator took it down."
+      }
+    ],
+    "tech_101": [
+      {
+        "term": "Guided learning",
+        "text": "Google's approach to putting AI into classrooms without just handing over homework answers — the AI walks a student through steps rather than producing a finished response, a distinction now central to the fight over AI in schools."
+      },
+      {
+        "term": "Data center moratorium",
+        "text": "A local government's temporary or permanent ban on new data center construction, usually over power demand, water use or noise — Ohio alone already has more than 125 of them, and this week's ballot results added more."
+      }
+    ],
+    "science": [
+      {
+        "headline": "All Five DNA and RNA Building Blocks Found in Samples From Asteroid Ryugu",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261102075903.htm",
+        "source": "ScienceDaily",
+        "kind": "chemistry",
+        "blurb": "Japanese researchers confirmed all five nucleobases that make up DNA and RNA — adenine, guanine, cytosine, thymine and uracil — in samples JAXA's Hayabusa2 mission returned from asteroid Ryugu in 2020. The Nature Astronomy findings suggest these chemical building blocks of life were widespread in the early Solar System and could have reached early Earth."
+      },
+      {
+        "headline": "A Hidden Companion Star May Be Disturbing Betelgeuse's Atmosphere",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261103003149.htm",
+        "source": "ScienceDaily",
+        "kind": "space",
+        "blurb": "MIT-led astronomers using radio data gathered from 2021 to 2026 found evidence that a hidden companion star, nicknamed Siwarha, is plowing through the red supergiant Betelgeuse's outer atmosphere, creating wake-like disturbances that subtly stretch the star's shape depending on the companion's position."
+      },
+      {
+        "headline": "Fear May Blur the Brain's Maps of Danger and Safety, Possibly Explaining PTSD",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261102202833.htm",
+        "source": "ScienceDaily",
+        "kind": "neuroscience",
+        "blurb": "McGill and University of Toronto researchers used augmented reality and miniature brain-imaging to track hippocampal neurons in mice trained to associate different settings with danger or safety, finding the brain's maps of the two blurred together rather than sharpening — a 'better safe than sorry' trade-off for speed that may help explain fear in objectively safe settings."
+      }
+    ],
+    "philosophy": [
+      {
+        "headline": "Separating Church and State Rests on a Psychological Fact, Not Just a Legal One",
+        "url": "https://aeon.co/essays/the-psychology-of-separating-church-and-state",
+        "source": "Aeon",
+        "blurb": "Philosophers Neil Van Leeuwen and Jacob Eisler argue that religious credence differs psychologically from factual belief — it's voluntary, insensitive to evidence, and compartmentalised by context, as research on the 'Sunday effect' suggests. That difference, they argue, is what actually justifies both keeping government out of religion and protecting religious freedom."
+      },
+      {
+        "headline": "Living With Strangers Under One Roof Is Where Self-Delusions Go to Die",
+        "url": "https://aeon.co/essays/living-in-community-is-where-self-illusions-go-to-die",
+        "source": "Aeon",
+        "blurb": "Elizabeth Oldfield, who shares a London house with people she isn't related to, argues that modern disconnection drives many of today's crises, and that the friction of communal living builds a mutual care solitary life can't. Drawing on Charles Taylor and Iris Murdoch, she concludes such communities only last when they serve a purpose beyond themselves."
+      },
+      {
+        "headline": "How Renaissance Italy Learned to Love the Gun It Once Called Diabolical",
+        "url": "https://aeon.co/essays/the-renaissance-gun-from-diabolical-device-to-popular-militias",
+        "source": "Aeon",
+        "blurb": "Historian Catherine Fletcher traces how Renaissance Italians, who first condemned firearms as unchivalrous and diabolical, embraced them through militias, shooting contests and hunting — Duke Cosimo de' Medici alone owned 91 guns by 1539. Guns became tied to masculinity and civic liberty even as their criminal and political misuse grew alongside them."
+      }
+    ],
+    "philosophy_101": [
+      {
+        "term": "Religious credence",
+        "text": "A way of holding a religious belief that differs psychologically from an ordinary factual belief — it's voluntary, often insulated from contrary evidence, and can shift with context, as in the 'Sunday effect,' where people act on beliefs in church they set aside the rest of the week."
+      },
+      {
+        "term": "Civic militia",
+        "text": "A citizen force, armed and organized locally rather than by a standing army, that Renaissance Italian city-states used both for defense and to tie gun ownership to full civic membership — a link between arms and liberty that long outlasted the period."
+      }
+    ]
+  }
+}
