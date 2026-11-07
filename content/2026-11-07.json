@@ -1,0 +1,220 @@
+{
+  "date": "2026-11-07",
+  "sections": {
+    "politics": {
+      "top": [
+        {
+          "headline": "Trump Names Stephen Miller as White House Chief of Staff, Effective Monday",
+          "url": "https://www.motherjones.com/politics/2026/11/hell-on-earth-stephen-miller-is-trumps-new-chief-of-staff/",
+          "source": "Mother Jones",
+          "blurb": "Trump is replacing Susie Wiles with Stephen Miller as chief of staff effective November 9, days after Democrats' midterm sweep that many read as a rejection of Trump-era immigration politics. Mother Jones reports the appointment signals the deportation crackdown will intensify rather than ease, leaving the incoming Democratic Congress as the only remaining check."
+        },
+        {
+          "headline": "Interior Secretary Pushing Data Centers Onto Public Land Has Millions Invested in AI Companies",
+          "url": "https://www.propublica.org/article/burgum-public-land-data-centers-investments",
+          "source": "ProPublica",
+          "investigative": true,
+          "blurb": "ProPublica finds Interior Secretary Doug Burgum, who is leading the push to site AI data centers on federal land, holds $18-64 million in AI-company investments through a firm he resigned from but didn't divest. He has met Amazon, Microsoft and Alphabet representatives over 20 times in 2025 alone, while a USGS report flags 91 million acres of Interior land as potential sites."
+        },
+        {
+          "headline": "Tennessee Democrat Justin Pearson Loses the Seat Republicans Redrew to Beat Him",
+          "url": "https://www.motherjones.com/politics/2026/11/justin-pearson-gop-gerrymandering-tennessee-ninth-district-taylor/",
+          "source": "Mother Jones",
+          "blurb": "Republican state Sen. Brent Taylor beat Justin Pearson by about 2,500 votes in a Memphis-area district the GOP split into three Republican-leaning seats in May, after the Supreme Court weakened the Voting Rights Act. Pearson, of the 'Tennessee Three,' had trailed by 24 points in projections and campaigned against xAI's Memphis data center expansion; Democrat Victoria Broderick separately unseated an eight-term Republican elsewhere in the state."
+        }
+      ],
+      "more": []
+    },
+    "india": {
+      "top": [
+        {
+          "headline": "Supreme Court Issues Contempt Notice to Congress's Kerala Unit Over Post Criticising the Chief Justice",
+          "url": "https://scroll.in/latest/1096945/sc-issues-contempt-notice-to-congress-kerala-unit-for-post-about-cji",
+          "source": "Scroll.in",
+          "blurb": "The Supreme Court asked Congress's Kerala unit, including its state chief, to explain why contempt proceedings shouldn't follow a deleted social media post criticising Chief Justice Surya Kant. The post surfaced during an INDIA bloc march demanding the Election Commission chief's resignation; the party says a worker posted it without approval, but the bench said no political organisation is above the Constitution."
+        },
+        {
+          "headline": "'He Showed His Shopping Bags, Said He Was in Pain': Testimonies From Delhi's Anti-SIR Crackdown",
+          "url": "https://caravanmagazine.in/government/delhi-police-violence-sir-protests",
+          "source": "The Caravan",
+          "investigative": true,
+          "blurb": "The Caravan gathers accounts from Delhi's October 11 protests demanding the Election Commission chief's resignation, where police deployed over 30,000 personnel and detained roughly 7,000 people. One account describes a shopper and his Muslim friend beaten and mocked for his beard despite showing officers their shopping bags — bystanders caught in a crackdown aimed at protesters."
+        },
+        {
+          "headline": "Supreme Court Leaves Gujarat's Meat Ban Near Somnath Temple in Place, for Now",
+          "url": "https://scroll.in/latest/1096926/supreme-court-refuses-to-lift-meat-ban-near-somnath-temple-in-gujarat",
+          "source": "Scroll.in",
+          "blurb": "The Supreme Court declined to immediately strike down an August notification banning meat sales within half a kilometre of Gujarat's Somnath temple, instead asking the High Court to rule within two months. Six restaurant owners argue the ban, which survived a single judge striking it down and a division bench reinstating it within hours, ignores that most Indians eat meat."
+        }
+      ],
+      "more": []
+    },
+    "geo": {
+      "top": [
+        {
+          "headline": "Trump Confirms New US Strikes on Iran's Qeshm Island, Calls Them 'Minor'",
+          "url": "https://www.aljazeera.com/news/2026/11/7/trump-confirms-new-us-strikes-on-irans-qeshm-island",
+          "source": "Al Jazeera",
+          "blurb": "Trump confirmed fresh US strikes on Iranian air defences on Qeshm island in the Strait of Hormuz, the first since Tuesday's midterms he blames partly on the Iran war; Iran says it shot down an American drone over the island. Qatar insists mediation remains active despite the strikes, even as Trump alternates between claiming progress toward a deal and threatening to 'destroy' the rest of Iran."
+        },
+        {
+          "headline": "Israel's President Must Pick a PM Nominee as Neither Netanyahu Nor His Rival Has a Majority",
+          "url": "https://www.aljazeera.com/news/2026/11/7/president-herzog-faces-key-choice-as-israel-struggles-to-form-government",
+          "source": "Al Jazeera",
+          "blurb": "President Isaac Herzog will name a candidate to try to form Israel's government Sunday after October's election left no majority: 67 lawmakers back ex-army chief Gadi Eisenkot, 46 back Netanyahu, and record-high Arab-led parties hold 19 seats Eisenkot has ruled out including. Analysts expect a prolonged deadlock, which Netanyahu may prefer in hopes a repeat election further weakens his rivals."
+        },
+        {
+          "headline": "New Zealand's Main Parties Run Near Dead Even in a 'Supermarket Election'",
+          "url": "https://www.aljazeera.com/news/2026/11/7/governing-party-leads-in-new-zealands-knife-edge-vote-early-results",
+          "source": "Al Jazeera",
+          "blurb": "With over half the vote counted, National and Labour are each near 30%, leaving National's coalition clinging to a one-seat majority and the centrist Opportunity Party positioned as a potential kingmaker. The race, dominated by grocery prices and cost-of-living anger, could take weeks to resolve under New Zealand's hand-counted, proportional system."
+        }
+      ],
+      "more": []
+    },
+    "sports": {
+      "top": [
+        {
+          "headline": "Mohammed Shami Retires From Test Cricket After 229 Wickets in 64 Matches",
+          "url": "https://www.icc-cricket.com/news/india-s-veteran-fast-bowler-brings-test-career-to-a-close",
+          "source": "ICC",
+          "blurb": "India's veteran seamer announced his retirement on Instagram at 36, finishing as the sixth-most prolific Indian pacer in Test history with six five-wicket hauls since his 2013 debut. Shami's away record — 145 wickets at 30.33 across 41 Tests — included a career-defining 5/28 in Johannesburg in 2018; his last Test was the 2023 World Test Championship final."
+        }
+      ],
+      "more": [
+        {
+          "headline": "Devon Conway Ruled Out of Remaining ODIs Against India With Concussion",
+          "url": "https://www.icc-cricket.com/news/mixed-news-for-new-zealand-ahead-of-second-odi-against-india",
+          "source": "ICC",
+          "blurb": "New Zealand's Devon Conway is out for the rest of the five-match ODI series after a training collision with Matt Henry, who has himself been cleared to return; left-hander Nick Kelly replaces him for Saturday's second ODI in Wellington."
+        }
+      ]
+    },
+    "entertainment": {
+      "top": [
+        {
+          "headline": "'Baththa' Review: Vijay Sethupathi Is Warm, Unhurried and Funny as a Feared Rowdy",
+          "url": "https://scroll.in/reel/1096940/weekend-watch-vijay-sethupathi-delivers-a-bear-hug-of-a-film-in-baththa",
+          "source": "Scroll.in",
+          "blurb": "Balaji Tharaneetharan's Tamil film, now streaming on Netflix after a theatrical run, follows a feared 1986 neighbourhood rowdy and the boy who accidentally locks him in a school toilet. Critics praise its humour and empathy — especially Lijomol Jose's performance — and call it a welcome return to form for Sethupathi, though at 156 minutes it runs long."
+        }
+      ],
+      "more": []
+    },
+    "bengal": [
+      {
+        "headline": "Abhishek Banerjee Says BJP 'Hooligans' Attacked His Kolkata Home at 2 AM",
+        "url": "https://www.millenniumpost.in/bengal/7th-attempt-on-my-life-in-6-months-abhishek-banerjee-alleges-2-am-attack-by-bjp-hooligans-682513",
+        "source": "Millennium Post",
+        "blurb": "The TMC MP called it the seventh attempt on his life in six months after a clash between BJP and TMC supporters outside his residence left some injured; the BJP's Dilip Ghosh dismissed the claim, and Kolkata Police say they are investigating."
+      },
+      {
+        "headline": "Bengal Unveils Rs 5,000-Crore Industry Incentive Push While Still Owing Rs 50,000 Crore From the Last Scheme",
+        "url": "https://www.millenniumpost.in/bengal/bengal-rolls-out-rs-5000-croreincentive-push-to-woo-industry-682485",
+        "source": "Millennium Post",
+        "blurb": "Chief Minister Suvendu Adhikari's government unveiled stamp-duty reimbursements, power waivers and faster clearances to attract investors, with Rs 5,000 crore allocated though big spending won't start until next financial year. Finance minister Swapan Dasgupta blamed the previous government for a Rs 50,000-crore incentive backlog the state can't yet clear, and conceded Bengal still carries a negative image among outside investors."
+      }
+    ],
+    "travel": [
+      {
+        "headline": "Irish Road Bowling — Hurling an Iron Ball Down Country Lanes — Is Quietly Spreading Across America",
+        "url": "https://www.smithsonianmag.com/travel/how-an-irish-backroad-tradition-is-rolling-into-small-town-america-180989768/",
+        "source": "Smithsonian",
+        "blurb": "A West Virginia enthusiast revived the County Armagh and Cork sport three decades ago and has since shipped starter kits to 49 states, growing clubs from Boston to Butte, Montana, even as Ireland's own championship draws up to 5,000 daily spectators."
+      },
+      {
+        "headline": "A Previously Unknown Baby Right Whale Spotted Off Canada Lifts the Season's Count to 24",
+        "url": "https://news.mongabay.com/short-article/2026/11/scientists-discovered-an-unknown-baby-right-whale-off-canada-they-say-its-a-cause-for-joy/",
+        "source": "Mongabay",
+        "blurb": "A photograph taken off Quebec's Anticosti Island in September led researchers to identify a North Atlantic right whale calf that had gone undetected all winter, raising this season's count of births for one of the world's rarest marine mammals to 24."
+      }
+    ],
+    "happy": {
+      "headline": "Teens From Opposite Ends of America Swap Hometowns for a Week — and Actually Talk to Each Other",
+      "url": "https://reasonstobecheerful.world/america-student-exchange-program-empathy/",
+      "source": "Reasons to be Cheerful",
+      "blurb": "The American Exchange Project sends new high school graduates to spend a week in a town unlike their own, then hosts their peers in return — a teen from coastal Washington found the Bronx unexpectedly welcoming, while a Texan broke the ice with a game of UNO. The program's bet: as 60% of American voters now live in landslide counties, up from 26% in 1976, these ordinary weeks might rebuild something elections can't."
+    },
+    "tech_top": [
+      {
+        "headline": "EU Says TikTok's Algorithm Illegally Pulls Users Into 'Rabbit Holes' of Self-Harm Content",
+        "url": "https://therecord.media/eu-accuses-tiktok-of-rabbit-hole-DSA-violation",
+        "source": "The Record",
+        "pm_note": "This is the first EU case against an engagement-based recommender itself, not just the content it surfaces — if 'optimizing for watch time' becomes legally risky by design, every feed-ranking team needs a real answer for what 'explicit signals over implicit ones' means in practice.",
+        "blurb": "EU regulators found TikTok's algorithm systematically drags users toward content about self-harm and body image, based on analysis of 20,000 videos over two and a half years, and called it the first-ever challenge to an engagement-based recommender system. A confirmed violation could cost up to 6% of global revenue; TikTok calls the findings 'fundamentally inaccurate.'"
+      },
+      {
+        "headline": "Hundreds of Copies of a Chinese AI Hacking Tool Sit Exposed on the Open Internet",
+        "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+        "source": "TechCrunch",
+        "pm_note": "Artex didn't need internet exposure to work — these are misconfigurations, not design flaws, and they're the same basic gaps (guessable passwords, no MFA) that keep enabling attacks no matter how sophisticated the tool itself is.",
+        "blurb": "Censys found over 800 publicly accessible deployments of Artex, an open-source AI agent that automates attacks from reconnaissance to data theft, already linked to breaches of South Korean banks and a Microsoft-cloud-wide espionage campaign. Its developers are now taking it closed-source, but copies remain freely available on code-sharing sites."
+      }
+    ],
+    "tech_more": [
+      {
+        "headline": "The New York Times Is in Exclusive Talks to Buy Letterboxd for $330 Million",
+        "url": "https://techcrunch.com/2026/11/05/the-new-york-times-reportedly-in-talks-to-buy-letterboxd-for-330-million/",
+        "source": "TechCrunch",
+        "blurb": "The film-logging platform grew from 3 million to 28 million users since 2021, over half under 35, with roughly $15 million in projected 2026 earnings — a fraction of the reported asking price. A24 and Sony had also circled before the Times moved into exclusive negotiations."
+      }
+    ],
+    "tech_101": [
+      {
+        "term": "Engagement-based recommendation",
+        "text": "A feed-ranking approach that optimizes for how long you watch or scroll, inferring what you want from behavior rather than asking. The EU's TikTok case is the first attempt anywhere to make this design choice itself illegal, not just the content it surfaces."
+      },
+      {
+        "term": "Open directory",
+        "text": "An exposed folder on the internet with no password protecting it, usually left that way by misconfiguration rather than intent. Security researchers routinely find hacking tools or stolen data sitting in these — which is how outsiders found hundreds of exposed Artex deployments."
+      }
+    ],
+    "science": [
+      {
+        "headline": "A Single Molecule Rewires the Chemistry of Glass, Opening the Door to New Magnetic Materials",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261103003202.htm",
+        "source": "ScienceDaily",
+        "kind": "chemistry",
+        "blurb": "German and UK researchers found that adding a small organic molecule while melting a metal-organic framework glass rewires the bonds around its cobalt atoms, lowering the melting point and changing how many neighbours each atom bonds to. Published in Nature Materials, the technique could enable glasses with tunable magnetic and optical properties, confirmed by X-ray absorption spectroscopy."
+      },
+      {
+        "headline": "NASA's Swift Observatory Falls to Earth After Nearly 22 Years, Ten Times Its Planned Lifespan",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261105224545.htm",
+        "source": "ScienceDaily",
+        "kind": "space",
+        "blurb": "Swift re-entered the atmosphere over North Sumatra, Indonesia at 7:39am EST Wednesday, ending a mission that launched in 2004 to study gamma-ray bursts, black holes and supernovae by quickly redirecting toward new cosmic events. Most of the spacecraft is expected to have burned up, though NASA says some components may have survived to the surface."
+      },
+      {
+        "headline": "Antarctic Detector Catches 'Ghost Particles' Carrying 10 Billion Times a Normal Neutrino's Energy",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261101010533.htm",
+        "source": "ScienceDaily",
+        "kind": "physics",
+        "blurb": "IceCube, a roughly cubic-kilometre detector buried in Antarctic ice, catches only a few dozen of the universe's most energetic neutrinos each year, and where they come from remains unknown. Francis Halzen, whose vision created the decade-spanning project, won this year's Nobel Prize in Physics for it."
+      }
+    ],
+    "philosophy": [
+      {
+        "headline": "Why Astrophysics Keeps Treating Most of the Universe as Background Noise",
+        "url": "https://aeon.co/essays/why-astrophysics-needs-to-abandon-the-big-questions",
+        "source": "Aeon",
+        "blurb": "Dylan Jow argues astrophysics has narrowed into a testing ground for a handful of 'Big Questions' like dark matter and dark energy, treating dust, ordinary matter and anything outside those questions as a 'nuisance' to be modeled away — even in the AI tools now trained on simplified simulations. He argues this hierarchy of what counts as worth studying is a historical accident, not a discovery."
+      },
+      {
+        "headline": "Can Worker Cooperatives Build a Peace That Markets Can't?",
+        "url": "https://aeon.co/essays/what-cooperatives-for-an-anticapitalist-peace-look-like",
+        "source": "Aeon",
+        "blurb": "Azize Aslan argues mainstream peacebuilding stops the shooting but leaves intact the economic structures that caused the conflict, assuming markets will quietly deliver stability. Drawing on cooperatives in Guatemala, Rojava and Colombia's ECOMÚN network, she makes the case for democratically run collective enterprises as a sturdier foundation for peace — while acknowledging markets, states and military pressure constrain all three."
+      }
+    ],
+    "philosophy_101": [
+      {
+        "term": "Nuisance parameter",
+        "text": "In statistics and physics, a variable you have to measure and account for even though it isn't the thing you're actually trying to find out — the astrophysics critique argues this label has quietly decided what counts as worth studying."
+      },
+      {
+        "term": "Anticapitalist peace",
+        "text": "The idea that ending violence isn't enough if the economic inequalities that caused it stay in place — proponents argue lasting peace requires rebuilding how people produce and share, not just a ceasefire."
+      }
+    ]
+  }
+}
