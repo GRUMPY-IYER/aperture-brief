@@ -1,0 +1,227 @@
+{
+  "date": "2026-11-12",
+  "sections": {
+    "politics": {
+      "top": [
+        {
+          "headline": "Trump's Hollowing Out of the VA Is Already Killing Veterans in New Jersey",
+          "url": "https://www.propublica.org/article/east-orange-va-hospital-veterans-decline-new-jersey",
+          "source": "ProPublica",
+          "investigative": true,
+          "blurb": "ProPublica finds thousands of doctors, nurses and other staff have left the VA since Trump's return, driven by canceled union contracts, return-to-office orders and buyouts. At New Jersey's East Orange VA, the losses have suspended radiation treatment and repeatedly closed operating rooms, and reporters tie the shortages to a Vietnam veteran's delayed appendix surgery and a cancer patient's delayed radiation, both fatal. The VA disputes any harm and points to record appointment numbers, but declined to make its leaders available for interviews."
+        },
+        {
+          "headline": "An Election-Denier Tool Said These Georgia Voters Were Dead. ProPublica Found Them Alive.",
+          "url": "https://www.propublica.org/article/election-challenge-forsyth-county-georgia",
+          "source": "ProPublica",
+          "investigative": true,
+          "blurb": "A Forsyth County, Georgia election board member used a tool built by fellow Election Integrity Network members to challenge dozens of post-midterm ballots, claiming four voters were dead — but ProPublica confirmed all four are alive, and the board rejected the challenge. Voting-rights groups say the tool, which lacks identifiers like Social Security numbers, wrongly flags voters who merely share an initial as a first name."
+        },
+        {
+          "headline": "She Was Dragged From Her Car by Masked ICE Agents. Now She's Suing to Learn Their Names.",
+          "url": "https://www.motherjones.com/politics/2026/11/aliya-rahman-unmask-ice-metro-surge-lawsuit/",
+          "source": "Mother Jones",
+          "blurb": "Minneapolis resident Aliya Rahman, who is disabled, was pulled from her car and detained by federal agents during January's ICE surge, which the city estimates caused $700 million in damage. After months of unanswered complaints, she sued the federal government on November 10, hoping the discovery process forces the six masked officers involved to be identified."
+        }
+      ],
+      "more": []
+    },
+    "india": {
+      "top": [
+        {
+          "headline": "Delhi's Construction Workers Pay the Price for the Smog That Shuts Down Their Own Sites",
+          "url": "https://www.newslaundry.com/2026/11/11/no-work-little-compensation-delhis-construction-workers-pay-the-price-for-its-toxic-air",
+          "source": "Newslaundry",
+          "investigative": true,
+          "blurb": "GRAP pollution curbs that halt construction leave Delhi's migrant workers unpaid for weeks at a stretch; the city's welfare board says it has paid nearly Rs 100 crore to about a lakh workers, but a union affidavit puts 1,700 still waiting. A CEEW study links construction dust to roughly 30% of Delhi's particulate pollution — the very crisis the workers are paying for twice over."
+        },
+        {
+          "headline": "A Rare Meitei-Naga Rally Demands Scrapping a Pact With Kuki Militants — but Peace Is Still Far Off",
+          "url": "https://scroll.in/article/1097030/why-newfound-warmth-between-meiteis-and-nagas-may-not-advance-cause-of-manipur-peace",
+          "source": "Scroll.in",
+          "blurb": "Meitei and Naga groups held a rare joint Imphal rally demanding the Centre scrap its lapsed ceasefire pact with Kuki armed groups, after suspected Kuki militants killed three Meitei men. The Meitei-Kuki conflict has killed at least 300 people since 2023 and Naga-Kuki clashes 66 more since February, and observers warn the new alignment could deepen rather than resolve Manipur's violence."
+        },
+        {
+          "headline": "India Cancelled a Norwegian Journalist's Visa Hours Before Her Flight — She Suspects It Was Payback",
+          "url": "https://scroll.in/latest/1097034/norwegian-journalist-alleges-embassy-stopped-her-from-travelling-to-india-cancelled-visa",
+          "source": "Scroll.in",
+          "blurb": "Helle Lyng Svendsen says the Indian embassy in Oslo cancelled her visa on the Home Ministry's orders just before she was due to fly out for a Congress-organised summit in Hyderabad, with no explanation given. She believes it traces to a pointed question she once asked Modi and her critical coverage of him; Indian authorities have not responded."
+        }
+      ],
+      "more": []
+    },
+    "geo": {
+      "top": [
+        {
+          "headline": "Israel Reportedly Readies a New Strike on Iran as Tehran Threatens Targets 'From West Asia to Europe'",
+          "url": "https://www.aljazeera.com/news/2026/11/12/iran-warns-of-expanded-retaliation-as-israel-reportedly-readies-to-attack",
+          "source": "Al Jazeera",
+          "blurb": "Netanyahu's caretaker security cabinet has reportedly ordered the military to step up strike preparations against Iran, despite a rival's warning to hold off absent imminent danger. Iran's security chief Mohsen Rezaei said any new US-led war would make every involved base a legitimate target, while Trump says he'll resume fighting if Qatar's mediation fails and Brent crude settled at $92.76 a barrel."
+        },
+        {
+          "headline": "Russia-Ukraine Talks in Abu Dhabi Produce a Prisoner Swap, Not a Breakthrough",
+          "url": "https://www.aljazeera.com/news/2026/11/11/russia-ukraine-talks-in-abu-dhabi-end-with-prisoner-exchange-agreement",
+          "source": "Al Jazeera",
+          "blurb": "Two days of US-mediated talks ended with Russia's Vladimir Medinsky confirming a large prisoner exchange to happen within two to three weeks, but no progress toward ending a war nearing its fifth year. US envoy Jared Kushner called it a \"tough but productive\" meeting before heading to brief Putin in Moscow and Zelenskyy in Dublin."
+        },
+        {
+          "headline": "Saudi Arabia Pumps the Most Oil Since the Iran War Began, as OPEC+ Output Nears Pre-War Levels",
+          "url": "https://www.aljazeera.com/news/2026/11/11/oil-production-near-pre-iran-war-levels-opec-says",
+          "source": "Al Jazeera",
+          "blurb": "Saudi Arabia produced 10.56 million barrels a day in October, its highest since February, helping push OPEC+ output to 41.23 million bpd — still about 3% below pre-war levels. US gasoline prices dipped under $4 a gallon this week, though OPEC still projects demand climbing to 108.3 million bpd by 2027."
+        }
+      ],
+      "more": []
+    },
+    "sports": {
+      "top": [
+        {
+          "headline": "Sri Lanka Pile Up 404 for 4 Against Pakistan as Mendis and de Silva Bat Them Into Control",
+          "url": "https://www.icc-cricket.com/tournaments/world-test-championship/news/kamindu-starting-to-believe-as-sri-lanka-eye-pakistan-triumph",
+          "source": "ICC",
+          "blurb": "Dhananjaya de Silva (167 not out) and Kusal Mendis (117 not out) shared an unbroken 249-run stand to take Sri Lanka to 404 for 4 on day three in Rawalpindi, just 30 behind Pakistan's first innings. Kamindu Mendis added 58 before becoming the day's only wicket to fall, and said Sri Lanka are \"in a good position\" to push for a first-innings lead."
+        },
+        {
+          "headline": "India's World Cup Hopefuls Get Their Audition as the ODI Series in New Zealand Winds Down",
+          "url": "https://www.icc-cricket.com/tournaments/icc-cricket-world-cup-2027/news/nabi-eyes-world-cup-spot-with-strong-showing-in-new-zealand",
+          "source": "ICC",
+          "blurb": "India lead their New Zealand ODI series 2-0 — a weather-shortened win in Auckland, a four-run squeeze in Wellington, and an abandoned game in Hamilton — with the fourth match set for Mount Maunganui on November 13. Pacer Auqib Nabi, who took two wickets in Wellington, says the unfamiliar seam conditions make the series a real audition for the 2027 World Cup squad."
+        }
+      ],
+      "more": []
+    },
+    "entertainment": {
+      "top": [
+        {
+          "headline": "A 2010 Tamil Film Dared to Make Ravana the Hero and Ram the Villain — and It Still Shapes How India Tells the Story",
+          "url": "https://scroll.in/reel/1097014/the-film-in-which-raavan-is-the-hero-rather-than-the-villain",
+          "source": "Scroll.in",
+          "blurb": "Nandini Ramnath revisits Mani Ratnam's Raavanan, which recast the Ramayana's demon king as a fugitive revolutionary (Vikram) and its Ram-figure police officer (Prithviraj Sukumaran) as the morally compromised one, reframing Surpanakha's humiliation as the assault of a sister-figure. Ramnath calls the 2010 film uneven but \"riveting, and brave,\" and notes it outperformed its Hindi version and still shapes how newer adaptations treat the epic's most vilified character."
+        }
+      ],
+      "more": []
+    },
+    "bengal": [
+      {
+        "headline": "Bulldozers Tear Down a Shed Outside TMC's Abhishek Banerjee's Kolkata Home in a Political Standoff",
+        "url": "https://www.millenniumpost.in/bengal/bulldozer-razes-shed-gate-outside-abhishek-banerjees-kolkata-residence-amid-political-row-682970",
+        "source": "Millennium Post",
+        "blurb": "Civic workers demolished a bamboo shed and gate outside Abhishek Banerjee's residence under heavy police presence; TMC says the shed was built for his now-withdrawn security detail, following a dispute that began during his birthday week."
+      },
+      {
+        "headline": "Three-Time TMC MLA Ujjal Biswas Dies at 72 After Stroke and Surgery Complications",
+        "url": "https://www.millenniumpost.in/bengal/former-bengal-minister-ujjal-biswas-dies-at-72-682889",
+        "source": "Millennium Post",
+        "blurb": "Former Bengal minister Ujjal Biswas, who won Krishnanagar Dakshin three times before losing the seat to the BJP in 2026, died of multi-organ failure following a stroke and bypass-surgery complications."
+      }
+    ],
+    "travel": [
+      {
+        "headline": "The World's Fastest Ocean Liner Was Just Sunk Off Florida to Become the World's Largest Artificial Reef",
+        "url": "https://news.mongabay.com/short-article/2026/11/this-ocean-liner-was-the-worlds-fastest-its-being-sunk-to-make-the-largest-artificial-reef/",
+        "source": "Mongabay",
+        "blurb": "The SS United States, a 1952 speed-record holder, was scuttled off Destin, Florida, in a $13.5 million project meant to draw divers and anglers and create new habitat for tuna, marlin and swordfish."
+      },
+      {
+        "headline": "Genetic Study Reveals Two Entirely New Species of Amazonian Howler Monkey",
+        "url": "https://news.mongabay.com/short-article/2026/11/genetic-study-describes-two-new-species-of-amazonian-howler-monkeys/",
+        "source": "Mongabay",
+        "blurb": "A genomic study formally named two new red howler species, one in northwestern Amazonia and one in Brazil's deforestation-threatened southern Amazon, the latter likely to qualify as critically endangered once formally assessed."
+      }
+    ],
+    "happy": {
+      "headline": "A Lost Final Draft of 'I Have a Dream' Was Sitting in a Desk Drawer for Decades",
+      "url": "https://www.smithsonianmag.com/smart-news/the-handwritten-final-draft-of-martin-luther-king-jrs-i-have-a-dream-speech-was-considered-lost-it-turned-out-to-be-sitting-in-a-desk-drawer-for-decades-180989856/",
+      "source": "Smithsonian",
+      "blurb": "Civil rights advocate Xernona Clayton found seven handwritten pages marked \"speech\" in a drawer belonging to her late husband Edward, a King aide, in the late 1990s — and didn't grasp for decades what they were. Now 96, she had them authenticated by Christie's as the only known handwritten final draft of \"I Have a Dream,\" showing King revising in blue ink on August 27, 1963, wrestling with the phrase \"tranquilizing drug of gradualism\" before settling on \"free at last.\" The pages will tour Atlanta and Chicago before a January auction expected to top $10 million, with proceeds split between Clayton's foundation and the King Center."
+    },
+    "tech_top": [
+      {
+        "headline": "Nvidia's Board Weighs Ousting Jensen Huang Over a Second Affair, as His 33-Year Run Hangs in the Balance",
+        "url": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/",
+        "source": "TechCrunch",
+        "blurb": "The New York Times reports Nvidia co-founder and CEO Jensen Huang, already under board investigation over an affair with a woman US officials allege is a Chinese intelligence asset, had a second affair with Kimberly Powell, Nvidia's VP of healthcare and a direct report — citing five employees and hotel video. The Wall Street Journal reports the board is now preparing to oust him, and two House Republicans have raised the prospect of a subpoena over the spy allegations.",
+        "pm_note": "A company already investigating its CEO over one affair tied to an alleged intelligence asset now faces a second, with a direct report — governance crises compound rather than resolve in sequence, and 'the board found no security breach' and 'the board can still remove the CEO anyway' are separate questions."
+      },
+      {
+        "headline": "OpenAI's Quarterly Revenue Reportedly Tops $10 Billion for the First Time — Still Losing Money, Just Less of It",
+        "url": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/",
+        "source": "TechCrunch",
+        "blurb": "Bloomberg reports OpenAI's Q3 revenue crossed $10 billion for the first time, up nearly 50% on Q2's $6.7 billion, pushing its annualized run rate to $50 billion as its adjusted operating margin improved from -150% to -109%. Rival Anthropic reported $17 billion in Q3 revenue and an $81 billion run rate as of late October, though the two firms calculate the metric differently.",
+        "pm_note": "Operating margin improving from -150% to -109% is real progress and still deeply negative — watch the trend line, not the headline number, before concluding any AI lab's unit economics have turned a corner."
+      },
+      {
+        "headline": "CoreWeave Is Borrowing Against Its Own Customer Contracts to Avoid a Bond Market Charging It Over 15%",
+        "url": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
+        "source": "TechCrunch",
+        "blurb": "CoreWeave posted $3.66 billion in Q3 revenue, up 168% year over year, but also a $709 million net loss and $846 million in quarterly interest expense. To fund its $132.5 billion contract backlog, it's now relying on loans secured against specific customer deals and expects roughly $9 billion in prepayments over the next three months, after raising prices twice this year as some of its bonds yielded over 15%.",
+        "pm_note": "Needing customers to prepay and pledging specific contracts as collateral, rather than borrowing against the company itself, signals real doubt priced into AI infrastructure debt — worth tracking before treating any 'backlog' number as revenue already in hand."
+      }
+    ],
+    "tech_more": [
+      {
+        "headline": "404 Media Calls Out Silicon Valley Podcasters for Dismissing Why Voters Are Furious",
+        "url": "https://www.404media.co/silicon-valley-podcast-hosts-try-to-understand-why-regular-people-are-mad/",
+        "source": "404 Media",
+        "blurb": "404 Media takes the All-In podcast's hosts to task for insisting the economy is \"quite good\" after the midterms, citing Pew data that most Americans can't cover an emergency expense and many struggle with basics."
+      }
+    ],
+    "tech_101": [
+      {
+        "term": "Revenue run rate",
+        "text": "A company's most recent quarter's revenue multiplied out to a yearly pace — not actual annual revenue. It's how OpenAI's $10B quarter becomes a '$50B run rate,' and why run-rate comparisons between companies that calculate it differently, like OpenAI and Anthropic, can mislead."
+      },
+      {
+        "term": "Contract-backed financing",
+        "text": "Borrowing against the cash a specific signed customer contract guarantees, rather than against the company as a whole — the structure CoreWeave is leaning on to fund its $132.5B order backlog after unsecured bond yields topped 15%."
+      }
+    ],
+    "science": [
+      {
+        "headline": "A New Supercomputer Simulation Models the Universe's First 2 Billion Years in Unprecedented Detail",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261110042534.htm",
+        "source": "ScienceDaily",
+        "kind": "space",
+        "blurb": "MIT and Harvard researchers built Lumina, a simulation spanning 1.6 billion light-years and the universe's first 2 billion years, the first to jointly model hydrogen and helium reionization. Run on Oak Ridge's Frontier supercomputer at roughly 30 times the resolution of its predecessor IllustrisTNG, it tracks half a trillion elements and will let astronomers test its predictions against real telescope data."
+      },
+      {
+        "headline": "A 'Self-Healing' Catalyst Could Make Platinum-Free Hydrogen Production Practical",
+        "url": "https://phys.org/news/2026-11-catalyst-hydrogen.html",
+        "source": "Phys.org",
+        "kind": "chemistry",
+        "blurb": "Tohoku University researchers found that cobalt phosphide, a cheap platinum alternative for splitting water into hydrogen, actually protects itself in use: hydroxyl and hydrogen-containing groups form on its surface and stop the metal dissolving away. Drawing on nearly 2,300 observations across 886 catalysts in the literature, the team ran it stable for 24 hours at high current density in acidic, neutral and alkaline conditions alike."
+      },
+      {
+        "headline": "A Simple Model of Cells Chasing a Chemical Signal May Explain How Hair Knows Where to Grow",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261109205413.htm",
+        "source": "ScienceDaily",
+        "kind": "biology",
+        "blurb": "University of Geneva researchers built a mathematical model of chemotaxis — cells moving toward a chemical signal — that reproduced real hair-follicle patterns in both lab mice and spiny mice without a detailed developmental blueprint. The result challenges the long-dominant 'expansion-induction' theory of follicle spacing, and tuning the same model's parameters also reproduced the spiny mouse's unusually regular, aligned pattern."
+      }
+    ],
+    "philosophy": [
+      {
+        "headline": "Why Keeping Church and State Separate Rests on a Difference Psychologists Call 'Credence' vs Belief",
+        "url": "https://aeon.co/essays/the-psychology-of-separating-church-and-state",
+        "source": "Aeon",
+        "blurb": "Philosophers Neil Van Leeuwen and Jacob Eisler argue religious conviction works psychologically unlike ordinary factual belief: it's chosen, resistant to evidence, and stays compartmentalized from daily action, while factual belief is involuntary and guides behavior everywhere. That difference, they argue, is exactly what makes the liberal bargain work — government shouldn't establish a religion because religious credence can't be settled by democratic evidence, and free exercise is safe because people can set it aside in public life."
+      },
+      {
+        "headline": "Lamarck Said Living Things Shape Their Own Evolution. A New Generation of Biologists Agrees.",
+        "url": "https://aeon.co/essays/the-self-making-world-of-jean-baptiste-lamarck",
+        "source": "Aeon",
+        "blurb": "Historian Jessica Riskin revisits Jean-Baptiste Lamarck's rejected idea that organisms actively transform themselves and their environments rather than merely responding to outside pressures, a view she says later neo-Darwinists purged partly in service of ideas like eugenics. Current research on epigenetic inheritance and niche construction is reviving it, with biologist Martha Muñoz arguing flatly that \"organisms can influence evolution directly.\""
+      }
+    ],
+    "philosophy_101": [
+      {
+        "term": "Religious credence",
+        "text": "A psychological category distinct from ordinary belief — chosen rather than forced by evidence, and kept separate from everyday action — that philosophers use to explain why democracies can let people hold religious convictions without those convictions ruling over law."
+      },
+      {
+        "term": "Niche construction",
+        "text": "The idea, central to the Lamarckian revival, that organisms don't just adapt to their environment but actively reshape it — and that the reshaped environment then shapes their own evolution in turn."
+      }
+    ]
+  }
+}
