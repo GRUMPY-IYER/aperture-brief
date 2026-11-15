@@ -1,0 +1,241 @@
+{
+  "date": "2026-11-15",
+  "sections": {
+    "politics": {
+      "top": [
+        {
+          "headline": "A ProPublica Reporter Bet Like an Addict for Ten Weeks. DraftKings Closed His Account the Day He Asked Hard Questions.",
+          "url": "https://www.propublica.org/article/draftkings-investigation-closed-account",
+          "source": "ProPublica",
+          "investigative": true,
+          "blurb": "ProPublica reporter Jake Pearson deliberately bet like a problem gambler for ten weeks, losing about $6,000 despite roughly 30 \"responsible gaming\" alerts, while DraftKings made him a VIP with a personal host. The same day he sent the company follow-up questions, it closed his account and returned his balance as a 94-cent check — a case regulators are now citing as they scrutinize the industry's safeguards."
+        },
+        {
+          "headline": "Facing a January Deadline, the Trump Administration Quietly Delays Its Own Medicaid Work Requirements",
+          "url": "https://www.motherjones.com/politics/2026/11/medicaid-work-requirements-cuts-pause-hold-harmless-period/",
+          "source": "Mother Jones",
+          "blurb": "CMS has granted states a six-month \"hold harmless\" period before enforcing the Medicaid work requirements in Trump's tax-and-spending law, so no one can be dropped from coverage for missing the 80-hour-a-month threshold until mid-2027. Human Rights Watch and Oxfam estimate 10 million people could eventually lose coverage, and Nebraska's early rollout has already produced confusing paperwork and wrongly denied claims — a preview of what the pause only postpones."
+        }
+      ],
+      "more": []
+    },
+    "india": {
+      "top": [
+        {
+          "headline": "Novelist and Independent Researchers Expose a Fake-Books Scandal Across Tamil Nadu's Public Libraries",
+          "url": "https://www.thenewsminute.com/tamil-nadu/libraries-of-lies-the-tamil-nadu-scam-involving-fake-authors-stolen-isbns-and-ai-slop",
+          "source": "The News Minute",
+          "investigative": true,
+          "blurb": "Novelist Perumal Murugan and two independent researchers found that Tamil Nadu's public libraries bought thousands of apparently fake books — invented authors, hijacked ISBNs, likely AI-generated text — from two untraceable publishers. The Madras High Court has ordered a DVAC FIR and frozen bank accounts, more than 70,000 suspect books have already been pulled from shelves statewide, and the ruling TVK and opposition DMK are trading blame over who approved the purchases."
+        },
+        {
+          "headline": "Tamil Nadu Quietly Pulls Its Public Disease Bulletin, Saying the Media Misquoted It",
+          "url": "https://scroll.in/latest/1097075/tamil-nadu-halts-disease-bulletin-public-health-journal",
+          "source": "Scroll.in",
+          "blurb": "Tamil Nadu's health department has stopped publishing its monthly disease bulletin and quarterly public health journal, saying media coverage misquoted and misrepresented the numbers, and has pulled the bulletin module from its website entirely. Public health experts and even the opposition BJP call it a retreat from scrutiny rather than a fix, since the bulletins were a rare public source of state-level disease and mortality data."
+        },
+        {
+          "headline": "India Tells a US Panel to 'Stop Lecturing' After It Called Jailed Activist Sharjeel Imam a Religious-Freedom Case",
+          "url": "https://scroll.in/latest/1097077/india-tells-us-panel-to-stop-lecturing-others-after-remarks-about-sharjeel-imams-detention",
+          "source": "Scroll.in",
+          "blurb": "India's ambassador to Washington told the US Commission on International Religious Freedom to examine its own \"prejudices\" after it profiled jailed activist Sharjeel Imam as a Muslim man detained for religious-freedom advocacy. Imam has spent more than six years awaiting trial in a UAPA conspiracy case tied to Delhi's deadly 2020 riots, the latest round in a running US-India dispute over the commission's India assessments."
+        }
+      ],
+      "more": [
+        {
+          "headline": "29 Posts, Not One on Pollution: A Fact-Check of the Environment Minister's Diwali Silence",
+          "url": "https://www.altnews.in/29-posts-in-12-days-by-union-environment-minister-not-one-on-pollution-bhupender-yadavs-diwali-silence/",
+          "source": "Alt News",
+          "blurb": "Alt News found Union Environment Minister Bhupender Yadav made 29 posts on X around Diwali without once mentioning the pollution that pushed Delhi's air to roughly 60 times safe limits."
+        }
+      ]
+    },
+    "geo": {
+      "top": [
+        {
+          "headline": "Trump, Xi and Putin Confirm a First-Ever Three-Way Summit in Shenzhen",
+          "url": "https://www.aljazeera.com/news/2026/11/14/trump-xi-and-putin-to-hold-first-three-way-summit-in-china",
+          "source": "Al Jazeera",
+          "blurb": "The White House confirmed Trump will meet Xi Jinping and Vladimir Putin together next week on the sidelines of APEC in Shenzhen — their first three-way sit-down. Trump wants to discuss a nuclear-stockpile deal and the Iran war while steering clear of Ukraine, but his own officials say not to expect an agreement, and Zelenskyy fears Kyiv's fate could still get negotiated without it in the room."
+        },
+        {
+          "headline": "The UN Tallies 25 Dead at Sea From Nine Months of War in the Strait of Hormuz",
+          "url": "https://www.aljazeera.com/news/2026/11/14/un-says-25-seafarers-killed-in-around-hormuz-since-february",
+          "source": "Al Jazeera",
+          "blurb": "A UN Security Council briefing put seafarer deaths in and around Hormuz at 25 since the US-Israel war on Iran began in February, with 136 recorded security incidents and October the worst month yet. Traffic through the strait is down 65% from pre-war levels, and the UN's Khaled Khiari warned the disruption to shipping, energy and food costs \"cannot be allowed to become the new normal.\""
+        },
+        {
+          "headline": "A Rwanda-DRC Succession Fight Threatens to Fracture the Francophone World's Main Body",
+          "url": "https://www.aljazeera.com/news/2026/11/15/francophone-summit-opens-in-cambodia-amid-rwanda-dr-congo-rift",
+          "source": "Al Jazeera",
+          "blurb": "The Francophonie summit opened in Phnom Penh with the DRC threatening to quit the 90-member body if Rwanda's Louise Mushikiwabo wins a third term as secretary-general, accusing Kigali of backing the M23 rebels fighting in eastern Congo. The DRC withdrew its own candidate for a consensus pick instead, as the group — already down three West African members since 2025 — tries to avoid losing its most populous French-speaking state."
+        }
+      ],
+      "more": []
+    },
+    "sports": {
+      "top": [
+        {
+          "headline": "Matt Henry's Career-Best 6/27 Routs India for 89, Forces a New Zealand ODI Decider",
+          "url": "https://www.icc-cricket.com/news/young-henry-star-as-new-zealand-keep-india-odi-series-alive",
+          "source": "ICC",
+          "blurb": "Matt Henry took 6/27 — including Rohit Sharma, Virat Kohli and Shreyas Iyer for ducks in his first over — as India were bowled out for 89 chasing 334, India's second-biggest ODI defeat by runs. Will Young's 125 had earlier driven New Zealand to 333, leveling the five-match series 2-1 ahead of Sunday's decider, again at Mount Maunganui."
+        }
+      ],
+      "more": [
+        {
+          "headline": "Gambhir Says India's Collapse in New Zealand Previews 2027 World Cup Conditions",
+          "url": "https://www.icc-cricket.com/tournaments/icc-cricket-world-cup-2027/news/india-s-batting-failures-in-new-zealand-concern-coach-gambhir",
+          "source": "ICC",
+          "blurb": "Head coach Gautam Gambhir said New Zealand's seaming pitches are the closest match to what India will face at the 2027 World Cup, and declined to blame the pitch for the batting collapse."
+        }
+      ]
+    },
+    "entertainment": {
+      "top": [
+        {
+          "headline": "'Student of the Year: After Dark' Review: A Frozen Corpse Thaws Into Silliness",
+          "url": "https://scroll.in/reel/1097081/student-of-the-year-after-dark-review-a-frozen-corpse-thaws-into-silliness",
+          "source": "Scroll.in",
+          "blurb": "Reema Maya's six-episode JioHotstar spin-off of the Student of the Year franchise sends Shanaya Kapoor's Aditi undercover as her dead twin to investigate a murder at an elite college. Scroll's review calls it 'a hot mess in a chilly place,' borrowing from 13 Reasons Why, Squid Game and Wednesday without settling on a tone."
+        }
+      ],
+      "more": []
+    },
+    "bengal": [
+      {
+        "headline": "TMC's Abhishek Banerjee Questioned by Kolkata Police Over a Post Calling the Election Commission Chief a 'Puppet'",
+        "url": "https://www.millenniumpost.in/bengal/tmcs-abhishek-appears-before-police-for-questioning-over-social-media-post-targeting-cec-683242",
+        "source": "Millennium Post",
+        "blurb": "TMC leader Abhishek Banerjee appeared before Kolkata police over an FIR accusing him of calling the Election Commission chief a \"puppet of the anti-Bengali Gujarati gang,\" with a second case over a separate post due November 20."
+      },
+      {
+        "headline": "Bengal's Own BJP Finance Minister Admits Extortion Persists Under His Party's Government",
+        "url": "https://www.millenniumpost.in/bengal/extortion-persists-public-faith-wont-return-till-it-stops-683271",
+        "source": "Millennium Post",
+        "blurb": "Bengal's BJP finance minister Swapan Dasgupta admitted extortion continues under his own party's government and said public trust won't return until it stops, as the state unit issues show-cause notices to 22 leaders over infighting."
+      }
+    ],
+    "travel": [
+      {
+        "headline": "Lonely Planet's Guide to Europe's 28 Best Christmas Markets Ranks Vienna's Fairytale Market on Top",
+        "url": "https://www.lonelyplanet.com/articles/best-christmas-markets-europe",
+        "source": "Lonely Planet",
+        "blurb": "Lonely Planet's 2026 roundup leads with Vienna's Schönbrunn market (Nov 6-Jan 6) and Dresden's Striezelmarkt, which has run since 1434, among 28 picks spanning Barcelona to Arctic Tromsø."
+      },
+      {
+        "headline": "Zimbabwe Farmers Fight Off Crop-Raiding Elephants With Chili Bombs and Flaming Dung",
+        "url": "https://news.mongabay.com/short-article/2026/11/spicy-ping-pong-balls-and-flaming-dung-keep-elephants-at-bay-in-zimbabwe/",
+        "source": "Mongabay",
+        "blurb": "Villagers deploy a three-stage, non-lethal defense against raiding elephants — chili-rag fences, burning chili-coated dung, then a deodorant-powered \"bazooka\" firing chili-oil ping-pong balls."
+      }
+    ],
+    "happy": {
+      "headline": "A Lost Georgia O'Keeffe Painting Spent 40 Years Hidden Behind Fur Coats in a Closet",
+      "url": "https://www.smithsonianmag.com/smart-news/while-cleaning-out-her-aunts-manhattan-apartment-a-woman-found-a-long-lost-georgia-okeeffe-painting-buried-beneath-fur-coats-in-the-closet-180989848/",
+      "source": "Smithsonian Magazine",
+      "blurb": "In 1963, a young Foreign Service officer bought O'Keeffe's 'Near Abiquiu, New Mexico I' as a graduation gift from her parents — then hid it in her entry closet in the 1980s after noticing a bridge-game guest eyeing it too closely. She never mentioned it again until 2022, when she told her niece Betsy while preparing the apartment for home health aides; Betsy didn't actually see the painting until a few weeks ago, helping her aunt, who has since died, get ready for hospice. Christie's authenticated it using a 1931 Stieglitz photograph and the artist's signature on the back — it had been listed 'unlocated' in O'Keeffe's catalogue raisonné — and will auction it November 17 with an estimate of $3-5 million."
+    },
+    "tech_top": [
+      {
+        "headline": "Over 115,000 Sign a Petition Demanding Nvidia Reinstate Jensen Huang",
+        "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+        "source": "TechCrunch",
+        "blurb": "A petition backed by Elon Musk, Replit's Amjad Masad, Epic's Tim Sweeney and Y Combinator's Garry Tan has drawn over 115,000 signatures, including nearly 6,000 current Nvidia employees and 63,000 shareholders, demanding the board reinstate Jensen Huang pending an independent probe. Huang resigned Thursday after admitting an affair with a chip executive U.S. intelligence suspects of spying for China; CFO Colette Kress is interim CEO.",
+        "pm_note": "A due-process petition signed by thousands of employees and shareholders is itself a governance signal — when a board acts on an affair before finishing its own investigation, it trades legal caution for speed, and stakeholders are now pricing that trade-off publicly."
+      },
+      {
+        "headline": "Tesla Opens Personal Cybercab Pre-Orders — Geofenced, and Pricier Than Musk Wanted",
+        "url": "https://techcrunch.com/2026/11/14/tesla-opens-cybercab-pre-orders-for-personal-use-with-geo-restrictions-and-a-299-monthly-fee/",
+        "source": "TechCrunch",
+        "blurb": "Tesla began taking $29,990 pre-orders for personal-use Cybercabs, delivering in December, but only to buyers in a handful of Texas cities who'll operate the car solely inside geofenced zones already used by Tesla's robotaxi service. Musk himself called the added $299-a-month operating fee \"too high,\" and nationwide access waits on regulatory approval Tesla doesn't yet have.",
+        "pm_note": "Shipping a product gated by a geofence, not a feature flag, is a reminder that autonomy products often launch bounded by regulatory approval rather than engineering readiness — the rollout plan has to match the slower-moving constraint."
+      }
+    ],
+    "tech_more": [
+      {
+        "headline": "A Six-Month-Old Startup Raises $20M to Power Data Centers With Ocean Heat",
+        "url": "https://techcrunch.com/2026/11/13/this-young-startup-wants-to-power-floating-data-centers-with-the-oceans-heat-and-investors-are-already-on-board/",
+        "source": "TechCrunch",
+        "blurb": "Drogue, a six-month-old D.C. startup, raised $20M from XYZ Venture Capital and Toyota Ventures to build floating vessels that use ocean thermal energy to power data centers at sea."
+      }
+    ],
+    "tech_101": [
+      {
+        "term": "Geofencing",
+        "text": "Drawing an invisible boundary on a map that software checks against GPS location — it's why Tesla's new robotaxi can only legally and technically operate inside specific Texas zones, not drive itself anywhere the owner wants."
+      },
+      {
+        "term": "Ocean thermal energy conversion",
+        "text": "Generating power from the temperature difference between warm surface seawater and cold deep water, instead of burning fuel or using solar panels — the idea behind floating data centers like Drogue's."
+      }
+    ],
+    "science": [
+      {
+        "headline": "A Chromium Partner Keeps Ruthenium Catalysts From Falling Apart in Water Electrolysis",
+        "url": "https://phys.org/news/2026-11-couple-chromium-ruthenium-grounded-electrolysis.html",
+        "source": "Phys.org",
+        "kind": "chemistry",
+        "blurb": "ICFO researchers led by F. Pelayo García de Arquer found that pairing ruthenium with chromium in an oxide catalyst, linked through oxygen bridges, keeps ruthenium from over-oxidizing and falling apart during water electrolysis while preserving its activity. The approach, confirmed with electron microscopy and synchrotron spectroscopy, could make renewable hydrogen production less dependent on scarce precious metals."
+      },
+      {
+        "headline": "Astronomers Spot a Possible Sixth Dwarf Planet Hiding Beyond Pluto",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261112230447.htm",
+        "source": "ScienceDaily",
+        "kind": "space",
+        "blurb": "Using a new detection algorithm and the Vera C. Rubin Observatory, Harvard's Matthew Holman found 2026 ED138, a roughly 1,000-km trans-Neptunian object about 46 AU from the Sun, hidden for years against the crowded starlight of the Milky Way's plane. If confirmed round enough to qualify, it would become the solar system's sixth recognized dwarf planet after Pluto, Ceres, Eris, Haumea and Makemake."
+      },
+      {
+        "headline": "A Single Genetic Switch May Explain Why Primate Brains Got So Big",
+        "url": "https://phys.org/news/2026-11-evolution-primate-brain.html",
+        "source": "Phys.org",
+        "kind": "biology",
+        "blurb": "Taiwanese and Japanese researchers found that a DNA switch shared only by primates controls the gene DACH1, which governs how many brain-building 'basal radial glia' cells form during cortical development. Boosting that switch's activity in mouse and human brain organoids nearly quadrupled the share of those cells, suggesting evolution reshaped primate brains by rewiring old genes' instructions rather than inventing new ones."
+      },
+      {
+        "headline": "An AI Found a Heart-Attack Warning Sign Hiding in Ordinary EKGs",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261112230456.htm",
+        "source": "ScienceDaily",
+        "kind": "medicine",
+        "blurb": "Trained on 440,000 Swedish patients' EKGs linked to death records, a UC Berkeley-led deep-learning model found a combination of signal features tied to sudden cardiac death that doctors can't yet explain biologically. It flagged a group with a 7% annual death rate, beating standard pump-strength screening's 4.6%, though it isn't yet validated for clinical use and its creators co-founded firms that supplied the training data."
+      },
+      {
+        "headline": "A Brain-Scan Score Flags Alzheimer's Risk Years Before Any Symptoms Appear",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261112230444.htm",
+        "source": "ScienceDaily",
+        "kind": "neuroscience",
+        "blurb": "Stanford researchers built an 'ARC' score from resting-state brain scans that told super-agers apart from Alzheimer's patients with about 85% accuracy, then found it predicted later cognitive decline in over 1,300 healthy 55-to-70-year-olds. The score isn't diagnostic on its own, and whether any intervention can actually change a risky brain pattern remains untested."
+      }
+    ],
+    "philosophy": [
+      {
+        "headline": "The Case for 'More Democracy' as the Cure for Decades of Neoliberal Drift",
+        "url": "https://aeon.co/essays/why-western-democracy-is-ailing-and-how-to-fix-it",
+        "source": "Aeon",
+        "blurb": "Melbourne finance academic Les Coleman traces weakening Western democracies to the Reagan-Thatcher era, citing OECD data showing per-capita growth falling from near 3% annually in the 1980s to about 1% today, and a 2025 finding that the wealthiest 1% of voters supplied 30-45% of US presidential campaign donations. His prescription is 'more democracy': better-paid politicians, democracy vouchers, citizens' assemblies, and a progressive death tax."
+      },
+      {
+        "headline": "Gödel Didn't Prove There's a Ceiling on What We Can Know",
+        "url": "https://aeon.co/essays/the-century-long-search-for-the-limits-to-knowledge",
+        "source": "Aeon",
+        "blurb": "UCL logician Alexander V Gheorghiu revisits a century-long argument — from Hilbert's confidence that every mathematical problem is solvable, through Gödel's incompleteness theorems, to later work on meaning and proof — and concludes truth isn't a fixed limit we keep failing to reach. Because our own linguistic and mathematical practices can be faithfully extended, he argues, truth grows as we build it rather than capping what we can know."
+      },
+      {
+        "headline": "Why Treating Intelligence as Optimization Misses What Reason Is For",
+        "url": "https://aeon.co/essays/why-real-intelligence-is-something-more-than-optimisation",
+        "source": "Aeon",
+        "blurb": "Philosopher Sasha Mudd argues that defining intelligence as efficient optimization — the lens behind most AI — reduces reason to a tool for chasing goals we already have. Kant's alternative treats reason as the power to judge whether those goals are worth having at all, and Mudd warns that efficiency-obsessed AI risks teaching us to stop asking that question ourselves."
+      }
+    ],
+    "philosophy_101": [
+      {
+        "term": "Incompleteness theorem",
+        "text": "Gödel's famous result that any sufficiently powerful mathematical system contains true statements it cannot prove from within itself. It's often read as a hard ceiling on knowledge, but this essay argues it's really a sign that our systems of proof can always be extended further."
+      },
+      {
+        "term": "Instrumental reason",
+        "text": "Treating reason as nothing more than a calculator for achieving whatever goal you already have — the implicit assumption behind judging AI by how efficiently it 'optimizes.' Kant's alternative says reason's real job is deciding which goals are worth having in the first place."
+      }
+    ]
+  }
+}
