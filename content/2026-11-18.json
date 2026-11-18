@@ -1,0 +1,227 @@
+{
+  "date": "2026-11-18",
+  "sections": {
+    "politics": {
+      "top": [
+        {
+          "headline": "Georgia's Election Board Was Quietly Taking Orders From Cleta Mitchell's Network, Staff Say",
+          "url": "https://www.propublica.org/article/georgia-election-board-cleta-mitchell-midterms",
+          "source": "ProPublica",
+          "investigative": true,
+          "blurb": "ProPublica found Georgia's State Election Board and much of its staff quietly coordinating with Cleta Mitchell's Election Integrity Network, including a voter-check tool that flagged live voters as dead and helped drive a 200-voter purge push in one county. Vice chair Janelle King said she'd never heard of the arrangement, and governor-elect Keisha Lance Bottoms has pledged to replace the board now that Democrats hold the power to do it."
+        },
+        {
+          "headline": "The US Just Lost the Measles Elimination Status It Held for 26 Years",
+          "url": "https://www.motherjones.com/politics/2026/11/us-measles-endemic-vaccination-elimination-lost-pan-american-health-organization-rfk-hhs/",
+          "source": "Mother Jones",
+          "blurb": "The Pan American Health Organization revoked the US measles elimination status it had held since 2000, after a 2026 outbreak reached 5,412 cases and 10 deaths — the worst since 1991 — as kindergarten vaccination coverage fell below the threshold that prevents spread. HHS Secretary Robert F. Kennedy Jr., who has downplayed MMR vaccine safety, said the agency still recommends the vaccine, while PAHO's director urged Washington to get the outbreak \"fully controlled.\""
+        },
+        {
+          "headline": "Leaked Deutsche Bank Files Show the Bank Knew of Trump Firms' Ties to Russian and Azerbaijani Money-Laundering Networks",
+          "url": "https://www.newslaundry.com/2026/11/17/deutsche-bank-files-link-trump-owned-firms-to-russian-azerbaijani-money-laundering-networks",
+          "source": "Newslaundry",
+          "investigative": true,
+          "blurb": "A leaked 2020 internal Deutsche Bank memo shows the bank's financial-crime unit had flagged suspicious-activity reports tying two Trump-owned companies to Russian and Azerbaijani money-laundering networks, years before it told US authorities it knew of no Trump-Russia connections. Reporters matched a $141,261 payment from an Azerbaijani shell company to one Trump firm in 2015; the memo doesn't name Trump as a suspect, and nothing reviewed shows him personally compromised."
+        }
+      ],
+      "more": []
+    },
+    "india": {
+      "top": [
+        {
+          "headline": "Delhi Police Tell Court They Never Obstructed Journalists at Anti-CEC Protests. The Journalists Say Otherwise.",
+          "url": "https://www.newslaundry.com/2026/11/18/a-journalist-would-never-shout-slogans-delhi-police-denies-obstructing-media-at-anti-cec-protest",
+          "source": "Newslaundry",
+          "investigative": true,
+          "blurb": "Delhi Police told the Supreme Court it has complied with an October order not to obstruct journalists covering protests against Chief Election Commissioner Gyanesh Kumar, but a report naming roughly 30 journalists alleges detentions, assault, seized equipment and, in three cases, sexual harassment by officers. Police deny the claims and argue the protections shouldn't extend to \"reel-makers\" — a line press groups say could gut future protections for anyone without a traditional press card."
+        },
+        {
+          "headline": "Allahabad High Court Calls Azam Khan's Arrest 'Motivated' — Right After His Release in Another Case",
+          "url": "https://scroll.in/latest/1097147/azam-khan-granted-bail-in-ed-case-allahabad-hc-says-arrest-motivated",
+          "source": "Scroll.in",
+          "blurb": "The Allahabad High Court granted former UP minister Azam Khan interim bail in a money-laundering case tied to his university, finding the Enforcement Directorate arrested him within an hour of his release in a separate case and never put the grounds for arrest in writing, as the Constitution requires. His lawyers call it a vendetta meant to jail him through UP's coming assembly election; the ED has asked the Supreme Court to overturn the bail."
+        },
+        {
+          "headline": "At Columbia, Rahul Gandhi Tells Americans India Is 'Sitting on an Economic Disaster'",
+          "url": "https://scroll.in/latest/1097148/india-is-sitting-on-an-economic-disaster-rahul-gandhi-says-in-new-york",
+          "source": "Scroll.in",
+          "blurb": "In a Columbia University conversation with New York Times journalist Lydia Polgreen, Congress leader Rahul Gandhi said India faces mass unemployment and a university-to-job pipeline broken even for elite graduates, tying both to wealth concentrated in the hands of Gautam Adani and Mukesh Ambani. He argued students once loyal to Modi are protesting because they no longer see a future for themselves, framing India's troubles as part of a wider global downturn."
+        }
+      ],
+      "more": [
+        {
+          "headline": "Security Forces Kill a Lashkar Commander Wanted for a CRPF Attack That Killed Three",
+          "url": "https://scroll.in/latest/1097150/j-k-lashkar-e-taibas-lateef-bhat-killed-in-kulgam-gunfight",
+          "source": "Scroll.in",
+          "blurb": "J&K Police killed Lashkar-e-Taiba commander Lateef Bhat in a Kulgam gunfight after he refused to surrender from inside a mosque; he was wanted for a November 11 attack that killed three CRPF personnel."
+        }
+      ]
+    },
+    "geo": {
+      "top": [
+        {
+          "headline": "Iran and the US Trade Strikes Across the Gulf as the Ceasefire Era Ends",
+          "url": "https://www.aljazeera.com/news/2026/11/17/kuwait-reports-drone-attacks-as-iran-us-trade-attacks-on-qeshm-and-bahrain",
+          "source": "Al Jazeera",
+          "blurb": "Iran's Revolutionary Guard struck a US-operated radar base in Bahrain with drones — its third such attack in five days — and the US retaliated hours later on Iran's Qeshm island, while Kuwait separately reported intercepting hostile drones of its own. Three oil tankers have now hit naval mines in the Strait of Hormuz, with an Indian sailor missing, as the conflict escalates ahead of Thursday's Trump-Xi-Putin summit in China, where it is on the agenda."
+        },
+        {
+          "headline": "Xi and Putin Call for a 'Multipolar World' Two Days Before Trump Joins Them in China",
+          "url": "https://www.aljazeera.com/news/2026/11/18/president-xi-says-russia-and-china-should-lead-push-to-multipolar-world",
+          "source": "Al Jazeera",
+          "blurb": "At APEC in Shenzhen, Xi urged China and Russia to \"lead and advance\" a multipolar order after talks with Putin, who called Western powers \"former hegemons\" in a \"humiliating decline\" and said sanctions are losing their force. The display of unity comes two days before Trump joins both leaders for a three-way summit in China that will take up the Iran war, though analysts doubt the three nuclear powers can agree on much beyond arms control."
+        }
+      ],
+      "more": []
+    },
+    "sports": {
+      "top": [
+        {
+          "headline": "Zimbabwe Beat Afghanistan in Sharjah to Win Their First Multi-Test Series Since 2004",
+          "url": "https://www.icc-cricket.com/news/zimbabwe-clinch-thriller-against-afghanistan-to-seal-test-series",
+          "source": "ICC",
+          "blurb": "Zimbabwe held off a Naseer Maroofkhil fourth-innings century to win the second Test by 57 runs and take the two-match series 1-0, their first series win over multiple Tests since beating Bangladesh at home in 2004. Blessing Muzarabani took six wickets and scored a half-century to win Player of the Match, while captain Brian Bennett claimed the winning catch on the final day."
+        },
+        {
+          "headline": "Pakistan and Sri Lanka Docked WTC Points for Bowling Too Slowly in Their Rawalpindi Draw",
+          "url": "https://www.icc-cricket.com/tournaments/world-test-championship/news/pakistan-sri-lanka-handed-big-wtc27-points-deduction",
+          "source": "ICC",
+          "blurb": "Match referee Dean Cosker sanctioned both sides for over-rate breaches in the drawn first Test, docking Sri Lanka 15 points and Pakistan five under WTC rules that cost a point per over short; captains Kusal Mendis and Babar Azam pleaded guilty to skip a hearing. The penalty drops Sri Lanka to eighth and leaves Pakistan last in the table."
+        }
+      ],
+      "more": []
+    },
+    "entertainment": {
+      "top": [
+        {
+          "headline": "Raye Leads 2027 Grammy Nominations as Beyoncé Becomes the Most-Nominated Artist in the Award's History",
+          "url": "https://abc7.com/story/2027-grammy-nominations-announced-live-updates/20038587/",
+          "source": "ABC7",
+          "blurb": "The Recording Academy's 2027 nominations are led by British singer Raye with 11 nods including Record and Album of the Year, with Rosalía, Ella Langley, Olivia Rodrigo and Olivia Dean close behind in a field ABC News called dominated by women. Beyoncé picked up a nomination for \"Morning Dew (Donk)\" in Best R&B Solo Performance, extending her record as the most-nominated artist in Grammy history ahead of the February 7 ceremony."
+        }
+      ],
+      "more": []
+    },
+    "bengal": [
+      {
+        "headline": "Suvendu Adhikari Tells Bengal's Youth to Defend 'Sanatan Dharma,' Announces ₹1,000-Crore Temple Fund",
+        "url": "https://www.millenniumpost.in/bengal/cm-warns-against-anti-india-conspiracies-vows-action-against-lawlessness-683631",
+        "source": "Millennium Post",
+        "blurb": "At a Hanuman Chalisa event, Chief Minister Suvendu Adhikari accused opponents of fomenting unrest over Hindu traditions and unveiled a ₹1,000-crore temple renovation fund and tighter Bangladesh border security."
+      },
+      {
+        "headline": "Police Detain Left Student Leaders Over a Bookstall That Had Run Unchallenged for Four Years",
+        "url": "https://www.millenniumpost.in/bengal/sfi-state-secretary-detained-during-college-street-bookstall-protest-683608",
+        "source": "Millennium Post",
+        "blurb": "SFI's state secretary and other activists were detained, then released, after police cleared their College Street bookstall sit-in, with the group alleging officers manhandled women protesters."
+      }
+    ],
+    "travel": [
+      {
+        "headline": "A Wire Snare Meant for Wild Boar Nearly Killed a Sri Lankan Leopard. Vets Are Hours From Where Most Snares Are Set.",
+        "url": "https://news.mongabay.com/2026/11/another-sri-lankan-leopard-caught-in-a-snare-these-big-cats-need-protecting-experts-say/",
+        "source": "Mongabay",
+        "blurb": "A snare badly compressed a young leopard's flank on a Sri Lankan tea estate before vets could reach her — one of 164 human-caused leopard deaths recorded in the country since 2008, nearly two-thirds from snares set for other animals."
+      }
+    ],
+    "happy": {
+      "headline": "This Combination Lock Sank in a 1583 Shipwreck. An Engineer Finally Cracked Its Code After More Than 400 Years.",
+      "url": "https://www.smithsonianmag.com/smart-news/this-mysterious-combination-lock-sank-in-a-1583-shipwreck-when-engineers-cracked-the-code-it-clicked-open-for-the-first-time-in-more-than-400-years-180989864/",
+      "source": "Smithsonian Magazine",
+      "blurb": "Metal detectorist Peter Hughes found the corroded lock off the Welsh coast in 1999 and spent twenty years unable to open it, until a Cardiff biomechanical engineer repurposed motion-analysis technology and micro-CT scans to find its code — \"ANCE\" — and click it open this year, more than four centuries after it sank with an unknown Elizabethan-era ship."
+    },
+    "tech_top": [
+      {
+        "headline": "Nvidia's Board Formally Rules Out Bringing Jensen Huang Back, as the SEC Opens a Probe",
+        "url": "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/",
+        "source": "TechCrunch",
+        "blurb": "On Nvidia's first earnings call since Huang's ouster, chairman Harvey Jones said the board \"unanimously accepted his resignation and does not intend to reinstate Jensen as CEO,\" closing off the return Huang himself had said he'd welcome. CFO Colette Kress stays on as interim CEO while the board weighs candidates, even as the SEC opens a probe into whether Nvidia's disclosures misled investors.",
+        "pm_note": "A board publicly closing the door — rather than staying vague — is itself a governance signal: ambiguity invites a proxy fight, a clean break invites candidates to apply, so the statement does institutional work beyond just answering a reporter's question."
+      },
+      {
+        "headline": "A Five-Day Wave of Outages at Microsoft, the FAA, JPMorgan and Apple Has One Common Thread: Patches Rushed Out Under AI-Discovered Vulnerabilities",
+        "url": "https://www.cnbc.com/2026/11/17/apple-microsoft-faa-jpmorgan-outages.html",
+        "source": "CNBC",
+        "blurb": "Microsoft, the FAA, JPMorgan, United, the NSA and Apple each suffered outages on consecutive business days this week, from a years-old undetected Outlook bug to an Apple internal update; all parties ruled out a cyberattack. Security researchers say AI is accelerating how fast vulnerabilities are found, pressuring teams to patch faster than they can safely test, and Sen. Mark Warner cited the string of failures to push a new AI safety bill.",
+        "pm_note": "This is patch velocity outrunning change management: when a discovery tool gets faster than the release process built around it, the bottleneck shifts from finding the bug to shipping the fix without breaking something else — the same tradeoff any PM faces scaling a team's shipping cadence past its testing capacity."
+      }
+    ],
+    "tech_more": [
+      {
+        "headline": "Nvidia Will Stop Selling H200 Chips in China, Ending a Deal Jensen Huang Personally Brokered With Trump",
+        "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
+        "source": "TechCrunch",
+        "blurb": "Interim CEO Colette Kress ended Nvidia's tariffed China H200 sales and stood up a new board committee on export-control compliance, a move Jefferies estimates could cost $44-62 billion in data-center revenue next year."
+      },
+      {
+        "headline": "Waymo Suspends Freeway Robotaxi Rides Nationwide After California Regulators Call Its Construction-Zone Incursions an 'Imminent Hazard'",
+        "url": "https://techcrunch.com/2026/11/17/waymo-suspends-freeway-rides-nationwide-after-california-dmv-order/",
+        "source": "TechCrunch",
+        "blurb": "California's DMV ordered Waymo off freeways after three robotaxis drove into an active 101 construction closure, and Waymo voluntarily paused freeway rides in all 15 of its markets pending a fix."
+      }
+    ],
+    "tech_101": [
+      {
+        "term": "Patch velocity vs. change management",
+        "text": "How fast a team can ship a fix for a newly found bug, versus how carefully it tests that fix before shipping. AI tools are now finding vulnerabilities faster than organizations can safely verify patches for them — this week's outage wave at Microsoft, the FAA, JPMorgan and Apple is what happens when the first number outpaces the second."
+      },
+      {
+        "term": "Export-control compliance committee",
+        "text": "A standing board subcommittee set up to vet a company's deals against export-control law before they happen, instead of explaining them after a scandal. Nvidia created one the same day it exited China chip sales — a sign the board, not just management, now owns that risk."
+      }
+    ],
+    "science": [
+      {
+        "headline": "A Mysterious Twist in the Universe's Oldest Light Could Reveal New Physics",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261116023348.htm",
+        "source": "ScienceDaily",
+        "kind": "space",
+        "blurb": "UC San Diego physicists built a new method using Planck satellite data to test whether a hinted rotation in the cosmic microwave background's polarization — \"cosmic birefringence\" — is real or a detector-calibration artifact, finding a twist of 0.37°±0.12° that matches prior measurements. The result doesn't yet confirm new physics like axion-like fields or dark energy, but it rules out one major source of error that has dogged the measurement."
+      },
+      {
+        "headline": "A New Material Could Solve Carbon Capture's Humidity Problem",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261116023405.htm",
+        "source": "ScienceDaily",
+        "kind": "chemistry",
+        "blurb": "Oregon State chemists built a metal-organic framework, nicknamed BVR-X, that physically keeps water and CO2 separated within its pores, so it doesn't lose capture ability in the humid exhaust most industrial smokestacks actually produce. Tested on a wet, 4%-CO2 stream over dozens of cycles, the material kept capturing CO2 without degrading — unlike most MOFs, which choke on moisture long before they see real flue gas."
+      },
+      {
+        "headline": "Eagles Preying on Human-Sized Baboons Upend a Theory About Why Our Ancestors Stopped Fearing the Sky",
+        "url": "https://phys.org/news/2026-11-eagles-preying-human-sized-baboons.html",
+        "source": "Phys.org",
+        "kind": "biology",
+        "blurb": "Researchers found skeletal evidence — talon punctures, shoulder scrapes — that Verreaux's eagles kill adult male baboons weighing over 26 kg in Chad's Ennedi plateau, challenging the long-held assumption that early hominins grew too heavy for eagle predation once past about 13 kg. The finding revives the question of why group vigilance and cooperation evolved, if large-bodied primates were never actually safe from raptors overhead."
+      }
+    ],
+    "philosophy": [
+      {
+        "headline": "Why an Empty Universe Isn't as Simple as Philosophers Assumed",
+        "url": "https://aeon.co/essays/a-new-answer-to-why-there-is-something-rather-than-nothing",
+        "source": "Aeon",
+        "blurb": "Andrew T Brenner argues that truths of logic, mathematics and morality would still hold even in a world with nothing in it, so a universe containing one sufficiently simple thing — a God, or an initial cosmic singularity — that explains those truths can be simpler overall than a void that leaves them dangling unexplained. That doesn't settle why reality takes this particular form, but it undercuts the classic puzzle of why there's something rather than nothing."
+      },
+      {
+        "headline": "A 1646 Refusal to Kneel Shows Why 'Equality' Has Never Meant Just One Thing",
+        "url": "https://aeon.co/essays/historical-ideas-of-equality-help-us-imagine-an-equal-world",
+        "source": "Aeon",
+        "blurb": "Historian Teresa Bejan traces modern equality talk to 1646, when the agitator John Lilburne refused to kneel or remove his hat before the House of Lords, arguing God made every person \"equal and alike in power, dignity, authority and majesty\" — shifting equality from equal treatment under law to equal standing among peers. She argues the idea's very ambiguity is why it survived centuries of hierarchy, functioning less as a belief than a practice sustained by institutions like jury service."
+      },
+      {
+        "headline": "The Real Lamarck Wasn't About Giraffe Necks — and Biology Is Quietly Proving Him Right",
+        "url": "https://aeon.co/essays/the-self-making-world-of-jean-baptiste-lamarck",
+        "source": "Aeon",
+        "blurb": "Historian Jessica Riskin argues Lamarck is remembered only for the mocked giraffe-neck story, when his actual theory held that organisms actively transform themselves and their surroundings, driven by an inherent \"power of life\" pushing toward complexity — agency that neo-Darwinism later stripped out in favor of passive organisms shaped by random variation. She says recent work on epigenetics and niche construction is reviving that view, with organisms now shown to genuinely influence their own natural selection."
+      }
+    ],
+    "philosophy_101": [
+      {
+        "term": "Necessary truth",
+        "text": "A fact that would hold in absolutely any possible world, not just this one — like basic truths of logic or math. Brenner's essay turns on whether such truths can help explain why anything exists, or merely describe a universe that already does."
+      },
+      {
+        "term": "Niche construction",
+        "text": "The idea that organisms don't just adapt to a fixed environment but actively reshape it — a beaver damming a river, a worm aerating soil — in ways that then reshape what future generations get selected for. It's one strand of research Riskin says is reviving Lamarck's long-dismissed view that life itself has agency."
+      }
+    ]
+  }
+}
