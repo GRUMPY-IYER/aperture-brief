@@ -1,0 +1,246 @@
+{
+  "date": "2026-11-22",
+  "sections": {
+    "politics": {
+      "top": [
+        {
+          "headline": "The White House Pushed a $620 Million Pentagon Loan to a Startup Backed by Donald Trump Jr.",
+          "url": "https://www.propublica.org/article/donald-trump-jr-vulcan-deal-white-house",
+          "source": "ProPublica",
+          "blurb": "The Pentagon's Office of Strategic Capital rushed a $620 million loan to Vulcan Elements, a rare-earth magnet startup backed by Trump Jr.'s venture firm, after White House adviser and Trump Jr. friend Peter Navarro pushed staff to finish it in weeks. It is the first documented case of a federal contract traced directly to White House intervention, despite official denials of favoritism.",
+          "investigative": true
+        },
+        {
+          "headline": "An Air Force Major Is in Solitary Confinement for Criticizing Trump on CNN",
+          "url": "https://theintercept.com/2026/11/21/trump-jason-watson-air-force-solitary-speech/",
+          "source": "The Intercept",
+          "blurb": "Maj. Jason Watson is held in pretrial solitary ahead of a February court-martial over a July Capitol-steps protest and CNN interviews criticizing the president, charged with \"contemptuous words\" and conduct unbecoming an officer. His lawyers say he is not a flight risk; the case is being read as the military weaponizing its own law to punish dissent."
+        },
+        {
+          "headline": "Georgia's Election Board Has Been Coordinating With Cleta Mitchell's Activist Network",
+          "url": "https://www.propublica.org/article/georgia-election-board-cleta-mitchell-midterms",
+          "source": "ProPublica",
+          "blurb": "Members and staff of Georgia's State Election Board have been working closely with attorney Cleta Mitchell's Election Integrity Network, including promoting a voter-flagging tool experts say wrongly targets eligible voters. The board's own chair wants the influence ended, and Democrats' recent statewide wins have opened a path to restructure the board.",
+          "investigative": true
+        }
+      ],
+      "more": []
+    },
+    "india": {
+      "top": [
+        {
+          "headline": "US Court Summons India's NSA Ajit Doval and Ex-RAW Chief Over Alleged Pannun Assassination Plot",
+          "url": "https://scroll.in/latest/1097230/pannun-murder-plot-us-court-sends-summonses-to-nsa-ajit-doval-former-raw-chief",
+          "source": "Scroll.in",
+          "blurb": "A US court has sent summonses to National Security Adviser Ajit Doval and former RAW chief Samant Goel in Khalistani separatist Gurpatwant Singh Pannun's civil suit alleging an assassination plot against him. India's foreign ministry has called the lawsuit frivolous, but the case puts the country's top security officials squarely inside allegations New Delhi firmly denies."
+        },
+        {
+          "headline": "Delhi Police's Own Affidavit Admits the Press Interference It Denies, Journalists' Body Tells Supreme Court",
+          "url": "https://www.newslaundry.com/2026/11/21/catalogue-of-admissions-journalists-body-says-delhi-police-affidavit-admits-the-interference-it-denies",
+          "source": "Newslaundry",
+          "blurb": "The Network of Women in Media, India told the Supreme Court that Delhi Police's counter-affidavit on anti-SIR protest coverage reads as \"a catalogue of admissions,\" undercutting the force's own denial that it obstructed journalists. The group disputes the justification for removing reporters for \"verification\" and wants independent scrutiny of how women journalists in particular were treated.",
+          "investigative": true
+        },
+        {
+          "headline": "Maharashtra's Rabi Sowing Is Worse Than in the 1972 Drought",
+          "url": "https://scroll.in/latest/1097232/maharashtra-records-17-of-normal-rabi-sowing-area-worse-than-1972-drought",
+          "source": "Scroll.in",
+          "blurb": "Maharashtra had sown only 17% of its normal winter-crop area by November 16, a worse start than the historic 1972 drought, driven by a roughly 19% monsoon shortfall and a strong El Niño. The shortfall threatens farm incomes across the state heading into the main Rabi season."
+        }
+      ],
+      "more": [
+        {
+          "headline": "Tamil Nadu's 'Spying' Claims Against Its Own Investment Agency Unravel",
+          "url": "https://www.newslaundry.com/2026/11/21/explained-how-the-spying-claims-in-tns-investment-agency-guidance-unravelled",
+          "source": "Newslaundry",
+          "blurb": "Tamil Nadu's investment agency Guidance faced claims that departing staff leaked data to Andhra Pradesh; most employees say they simply quit, and the government denies any breach as the opposition presses for answers."
+        }
+      ]
+    },
+    "geo": {
+      "top": [
+        {
+          "headline": "Tankers Hit in the Strait of Hormuz as Iran Tightens Its Grip on Shipping",
+          "url": "https://www.aljazeera.com/news/2026/11/21/tankers-hit-in-strait-of-hormuz-as-iran-tightens-grip-on-shipping",
+          "source": "Al Jazeera",
+          "blurb": "Two tankers were struck near Oman in the Strait of Hormuz, which carries nearly a fifth of the world's crude, as Iran reports roughly 25 shipping incidents in the past week amid the wider US-Israel war on Iran. The US has answered with a naval blockade of Iranian ports and tanker escorts, raising the stakes for global energy supplies."
+        },
+        {
+          "headline": "COP31 Nears a Deal That Would Admit the World Is Passing 1.5C — Without Mentioning Fossil Fuels",
+          "url": "https://www.aljazeera.com/news/2026/11/22/fossil-fuel-impasse-pushes-cop31-climate-talks-into-second-day-of-overtime",
+          "source": "Al Jazeera",
+          "blurb": "Two days past its scheduled close, COP31's summit president says talks in Antalya are nearing a final text that would be the first official UN acknowledgment that the planet is heading past the 1.5C threshold, while promoting carbon-removal technology. The draft leaves out fossil fuels entirely, drawing sharp criticism from environmental groups and oil-producing states alike."
+        },
+        {
+          "headline": "Eleven Dead as Mexican Forces Capture Cartel Boss 'El Chapo Isidro'",
+          "url": "https://www.aljazeera.com/news/2026/11/22/eleven-killed-in-burst-of-violence-during-mexican-cartel-leaders-capture",
+          "source": "Al Jazeera",
+          "blurb": "Mexican forces captured Sinaloa cartel boss Fausto Isidro Meza Flores in Guasave after an overnight firefight that killed 11, including four soldiers, with roadblocks and burning vehicles across the city. Analysts warn that removing cartel leaders can deepen bloodshed amid an ongoing power struggle between rival factions."
+        }
+      ],
+      "more": []
+    },
+    "sports": {
+      "top": [
+        {
+          "headline": "India Post the Highest Touring-Team Total in Test History to Seize Control in Wellington",
+          "url": "https://www.icc-cricket.com/tournaments/world-test-championship/news/records-galore-as-india-take-massive-lead-in-wellington-test",
+          "source": "ICC",
+          "blurb": "India declared on 720/9 at the Basin Reserve, the highest Test total ever made in New Zealand and by any touring side anywhere, after Rishabh Pant's 128 — with six sixes — and Dhruv Jurel's 78. Every top-five batter passed 80, a feat seen only once before in Test history, and New Zealand close Day 4 on 119/2, still 233 behind and fighting to save the match."
+        },
+        {
+          "headline": "Netherlands, Sri Lanka and Ireland Sweep Super Six Openers at the Women's Emerging Nations Trophy",
+          "url": "https://www.icc-cricket.com/tournaments/icc-women-s-emerging-nations-trophy-2026/news/icc-women-s-emerging-nations-trophy-super-six-day-1-wrap",
+          "source": "ICC",
+          "blurb": "The Netherlands chased down Scotland with two balls to spare, Sri Lanka bowled out Zimbabwe for 68 behind Kavisha Dilhari's 3/8, and Ireland routed Pakistan by nine wickets as captain Gaby Lewis struck an unbeaten 71 off 46 balls to open the Super Six stage."
+        }
+      ],
+      "more": [
+        {
+          "headline": "Babar Azam: Pakistan's Series Win 'Means Nothing' Until They Reach the WTC Final",
+          "url": "https://www.icc-cricket.com/news/babar-pushes-pakistan-to-dream-bigger-in-tests",
+          "source": "ICC",
+          "blurb": "After beating Sri Lanka for Pakistan's first series win in two years, captain Babar Azam said the team has \"achieved nothing yet\" and wants a top-four finish or a World Test Championship final berth."
+        }
+      ]
+    },
+    "entertainment": {
+      "top": [
+        {
+          "headline": "'Jijai' Review: A Reckless Response to the Sexual Assault of Women",
+          "url": "https://scroll.in/reel/1097126/jijai-review-a-reckless-response-to-the-sexual-assault-of-women",
+          "source": "Scroll.in",
+          "blurb": "In this Marathi thriller, Rinku Rajguru plays an accountant stalked after missing her last bus home. Reviewer Nandini Ramnath praises the performances but finds the film's handling of the real risks women face undercut by a thin screenplay, a convenient twist and an implausible finale."
+        }
+      ],
+      "more": []
+    },
+    "bengal": [
+      {
+        "headline": "Bengal Orders Officials to Speed Up Crop Insurance Claims After Hailstorms",
+        "url": "https://www.millenniumpost.in/bengal/bengal-govt-asks-officials-to-expedite-crop-insurance-claims-in-hailstorm-hit-areas-684153",
+        "source": "Millennium Post",
+        "blurb": "West Bengal has told district agriculture officials to fast-track PMFBY crop insurance claims for farmers hit by recent hailstorms, with affected farmers required to report losses within 72 hours."
+      },
+      {
+        "headline": "Bengal Enforces Three-Year Jail Term for Assaults on Healthcare Workers After Kolkata Hospital Violence",
+        "url": "https://www.millenniumpost.in/bengal/state-orders-strict-action-on-attacks-on-healthcare-workers-enforcing-a-provision-of-up-to-3-years-imprisonment-684120",
+        "source": "Millennium Post",
+        "blurb": "The state has ordered strict enforcement of a law allowing up to three years' imprisonment for assaults or vandalism against healthcare workers, following violence at a Kolkata medical college hospital."
+      },
+      {
+        "headline": "Mamata Loyalists Accuse Rival TMC Faction of Forging Election Commission Affidavits",
+        "url": "https://www.millenniumpost.in/bengal/mamata-faction-accuses-ritabrata-camp-of-affidavit-forgery-files-police-plaint-684115",
+        "source": "Millennium Post",
+        "blurb": "A Trinamool treasurer loyal to Mamata Banerjee has filed a police complaint accusing MLAs Ritabrata Banerjee and Arup Roy of forging Election Commission affidavits, deepening an intra-party rift over control of the TMC."
+      }
+    ],
+    "travel": [
+      {
+        "headline": "Hong Kong Has Become the Key Hub for Trafficking Australia's Native Reptiles",
+        "url": "https://news.mongabay.com/2026/11/skinks-in-boots-how-hong-kong-emerges-as-key-hub-in-australias-native-reptile-trafficking/",
+        "source": "Mongabay",
+        "blurb": "Of more than 270 seizures of smuggled Australian reptiles between 2018 and 2025, 99% were bound for Hong Kong, which has emerged as the central transit point feeding the exotic pet trade."
+      }
+    ],
+    "happy": {
+      "headline": "What Happens When People Try to See the World Through a Kestrel's Eyes",
+      "url": "https://reasonstobecheerful.world/people-became-wildlife-river-tone/",
+      "source": "Reasons to be Cheerful",
+      "blurb": "Helen Lawy, a retired volunteer on England's River Tone, spent months trying to inhabit a kestrel's perspective for a risk-assessment project pairing citizen-naturalists with local animals. Her romantic idea of a bird's freedom gave way to a harder truth — scarce shelter, constant disturbance, never once a kestrel sighted — and the group's findings on barriers and habitat loss along the river fed directly into Somerset's first River Rights Charter, recognizing the river's own right to flow and regenerate."
+    },
+    "tech_top": [
+      {
+        "headline": "The FBI Is Investigating a Hack of the National Crime Database Police Rely On Nationwide",
+        "url": "https://techcrunch.com/2026/11/21/trump-says-reported-fbi-database-hack-is-not-good/",
+        "source": "TechCrunch",
+        "blurb": "The FBI is probing an apparent breach of the National Crime Information Center, the database federal and local police use for warrants and background checks, with the scope still unclear. A former FBI official said the deeper worry isn't the data taken but whether attackers could quietly corrupt records officers depend on; Trump called the breach \"not good.\"",
+        "pm_note": "A breach is bad, but a breach that undermines trust in the data itself is the harder failure mode — the same risk applies to any product built on a shared system of record."
+      },
+      {
+        "headline": "Signal Blocks Screenshots on Phones, Calling On-Device AI Agents an 'Existential Threat'",
+        "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+        "source": "TechCrunch",
+        "blurb": "Signal has extended its screenshot block from Windows to Android and iOS, arguing that OS-level AI agents able to scan a user's screen threaten its privacy guarantees. Users can disable the restriction, and Signal admits the fix is incomplete since agents could still reach app data by other routes.",
+        "pm_note": "A privacy-first product now has to design against its own operating system — a preview of the tradeoffs any app will face once AI agents are reading everything on-screen by default."
+      }
+    ],
+    "tech_more": [
+      {
+        "headline": "Experts: Almost Anyone in AI, Not Just Executives, Is Now a Honey-Trap Target",
+        "url": "https://techcrunch.com/2026/11/20/experts-warn-nearly-everyone-in-ai-is-susceptible-to-a-honey-trap-scheme-right-now/",
+        "source": "TechCrunch",
+        "blurb": "Security experts warn that romantic-espionage schemes targeting AI workers are no longer limited to CEOs, as AI tools make running such operations cheaper while valuable trade secrets sit inside ordinary employees' reach."
+      },
+      {
+        "headline": "A High-End Furniture Resale Marketplace Is Collecting Sellers' Items and Not Paying Them",
+        "url": "https://www.404media.co/high-end-furniture-marketplace-aptdeco-is-taking-peoples-furniture-and-not-paying-them/",
+        "source": "404 Media",
+        "blurb": "Sellers on resale marketplace AptDeco say the company has picked up their furniture and left them unpaid for over a month, undermining a platform marketed as a safer alternative to Craigslist or Facebook Marketplace."
+      }
+    ],
+    "tech_101": [
+      {
+        "term": "National Crime Information Center (NCIC)",
+        "text": "A nationwide FBI-run database that local, state and federal police check for warrants, stolen property and criminal histories during ordinary stops and background checks. Because thousands of agencies trust its answers in real time, the system's real vulnerability isn't just data theft — it's anyone quietly altering what a lookup returns."
+      },
+      {
+        "term": "On-device AI agents",
+        "text": "AI assistants built into a phone or computer's operating system that can see and act on whatever is on screen — reading messages, summarizing apps, taking actions on a user's behalf. That convenience is also what worries privacy-focused apps like Signal: an agent with screen access can bypass an app's own encryption simply by looking at what's rendered."
+      }
+    ],
+    "science": [
+      {
+        "headline": "NASA Fires Up an Artemis Moon Rocket Engine for a Full 200-Second Test",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261120075551.htm",
+        "source": "ScienceDaily",
+        "blurb": "NASA ran a complete 200-second test of RS-25 engine No. 10001 at Stennis Space Center, gathering data to improve the power, efficiency and reliability of the engines that will power upcoming Space Launch System rockets. The engine itself won't fly, but the results feed directly into Artemis IV, a planned 2028 crewed landing near the Moon's South Pole.",
+        "kind": "space"
+      },
+      {
+        "headline": "A Sugar-Based Hydrogel Gets Stronger Every Time It's Bent",
+        "url": "https://phys.org/news/2026-11-sugar-based-hydrogel.html",
+        "source": "Phys.org",
+        "blurb": "Washington University researchers built a cyclodextrin-based hydrogel that reinforces itself exactly where it's repeatedly strained, surviving 10,000 bending cycles while unstressed regions stay soft. Because the material is biocompatible, the team suggests it could eventually support artificial joints or help repair tissue, though it's so far only been made in small batches.",
+        "kind": "chemistry"
+      },
+      {
+        "headline": "Orcas Were Already Fearsome Predators 2 Million Years Earlier Than Thought",
+        "url": "https://phys.org/news/2026-11-killer-whales-fearsome-predators-scientists.html",
+        "source": "Phys.org",
+        "blurb": "Skull and jaw fragments pulled from the North Sea seabed show orcas were already large, powerful hunters of big prey roughly 2.1 to 2.6 million years ago, pushing back their predatory origins by more than 2 million years compared with earlier genetic estimates. It remains unclear whether the fossils belong to the modern species or an undescribed relative.",
+        "kind": "biology"
+      }
+    ],
+    "philosophy": [
+      {
+        "headline": "Equality Is Less a Belief Than a Practice We Have to Keep Sustaining",
+        "url": "https://aeon.co/essays/historical-ideas-of-equality-help-us-imagine-an-equal-world",
+        "source": "Aeon",
+        "blurb": "Oxford political theorist Teresa M Bejan traces how \"equality\" has carried conflicting meanings — balance, indifference, parity — which explains both its historical force and its present-day divisiveness. English Levellers like John Lilburne exploited that ambiguity to demand equal standing through concrete practices like jury service; Bejan argues equality works the same way today, as something people must keep doing together rather than simply affirm."
+      },
+      {
+        "headline": "Why Is There Something Rather Than Nothing? A Simpler Answer Than You'd Expect",
+        "url": "https://aeon.co/essays/a-new-answer-to-why-there-is-something-rather-than-nothing",
+        "source": "Aeon",
+        "blurb": "Philosopher Andrew T Brenner argues that a world with literally nothing in it would still contain necessary truths — logical, mathematical, moral — so \"nothing\" was never as simple as it looks. A minimal existing foundation, such as a cosmic singularity or even just humans, could explain those truths more economically, making the actual world arguably the simplest one on offer."
+      },
+      {
+        "headline": "After Two Open-Heart Surgeries, a Buddhist Teacher Reckons With the Limits of Compassion",
+        "url": "https://aeon.co/essays/how-does-roshi-joan-halifax-make-sense-of-her-buddhist-life",
+        "source": "Aeon",
+        "blurb": "Physician Ben Daitz profiles Zen teacher Roshi Joan Halifax, tracing her path from childhood illness and civil-rights activism through medical anthropology, psychedelic-assisted end-of-life work, and founding the Upaya Zen Center and Nomads Clinic. Looking back after two open-heart surgeries, her hard-won conclusion is that compassion only holds up when it's paired with humility — unchecked altruism, she argues, can do harm of its own."
+      }
+    ],
+    "philosophy_101": [
+      {
+        "term": "Egalitarianism",
+        "text": "The view that people are owed equal standing in some fundamental respect — not necessarily equal outcomes, but equal moral consideration, equal treatment under law, or equal voice in collective decisions. Philosophers disagree sharply about equality of what: wealth, opportunity, capability or respect — which is exactly why the word carries so many conflicting meanings at once."
+      },
+      {
+        "term": "Principle of sufficient reason",
+        "text": "The idea that everything which exists or is true has a reason or cause that explains it — nothing is simply a brute, unexplained fact. It's the engine behind questions like \"why is there something rather than nothing\": if the principle holds, the universe's existence demands an explanation rather than a shrug."
+      }
+    ]
+  }
+}
