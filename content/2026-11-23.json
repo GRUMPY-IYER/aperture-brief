@@ -1,0 +1,239 @@
+{
+  "date": "2026-11-23",
+  "sections": {
+    "politics": {
+      "top": [
+        {
+          "headline": "A $533 Million Artillery Plant Built for the Ukraine Aid Push Made Not a Single Usable Shell",
+          "url": "https://www.propublica.org/article/general-dynamics-artillery-factory-failed",
+          "source": "ProPublica",
+          "investigative": true,
+          "blurb": "General Dynamics built a $533 million artillery-shell plant in Mesquite, Texas, on untested Turkish equipment the Army rushed through no-bid contracts during the Ukraine aid surge. A Pentagon inspector general found it never produced a usable shell before two of its three lines were halted in August 2025 — yet General Dynamics has since won $2.5 billion in new Army contracts, with no one held accountable."
+        },
+        {
+          "headline": "Everyone's Talking About Air Travel Safety. No One's Talking About ICE's Deportation Flights.",
+          "url": "https://theintercept.com/2026/11/19/ice-air-deportation-flights-faa-safety/",
+          "source": "The Intercept",
+          "blurb": "Human Rights First has tracked nearly 20,000 ICE-chartered deportation flights since 2025, many landing at small airports — at least five without the FAA's Part 139 safety certification required of major commercial fields. The authors argue this shadow fleet is going unmentioned in the current uproar over air-traffic failures, and call for congressional oversight."
+        },
+        {
+          "headline": "A Tool Built by Election Deniers Said These Georgia Voters Were Dead. ProPublica Found Them Alive.",
+          "url": "https://www.propublica.org/article/election-challenge-forsyth-county-georgia",
+          "source": "ProPublica",
+          "investigative": true,
+          "blurb": "A Forsyth County, Georgia election board member tied to Cleta Mitchell's Election Integrity Network challenged 69 voters using ELLY, a roll-checking tool built by a fellow network member — including four he claimed were dead. ProPublica found all four alive, and the county board rejected the challenge, raising fresh doubts about a tool election deniers are pushing nationwide."
+        }
+      ],
+      "more": []
+    },
+    "india": {
+      "top": [
+        {
+          "headline": "Why Has the Supreme Court Let Two Bilkis Bano Convicts Out of Jail?",
+          "url": "https://www.newslaundry.com/2026/11/23/why-has-the-supreme-court-let-two-bilkis-bano-convicts-out-of-jail",
+          "source": "Newslaundry",
+          "investigative": true,
+          "blurb": "Two men convicted of gang-raping Bilkis Bano and murdering her family during the 2002 Gujarat riots have been released on bail, with the Supreme Court hearing their pleas without informing her and Maharashtra and Gujarat apparently filing no counter-affidavit. 'Today I find myself losing the very justice I had fought so hard to win,' Bano said, after winning at every court level since 2024."
+        },
+        {
+          "headline": "Of 14,500 Bulk Voter-Deletion Applications in One Maharashtra Seat, Only 74 Held Up",
+          "url": "https://scroll.in/latest/1097229/maharashtra-sir-of-over-14500-voter-deletion-applications-in-bhusawal-only-74-found-valid",
+          "source": "Scroll.in",
+          "blurb": "Just 74 of 14,562 bulk Form 7 objections filed against voters in Maharashtra's Bhusawal seat were found valid after Congress complained that 186 people had filed them en masse; Jalgaon's administration is now pursuing objectors it says acted with 'malicious intent.' The case feeds a wider national fight over the Election Commission's voter-roll revision."
+        },
+        {
+          "headline": "Food Regulator Declares Bisleri Water Samples 'Unsafe'; Bisleri Disputes the Findings",
+          "url": "https://scroll.in/latest/1097243/food-regulator-declares-bisleri-water-samples-unsafe-firm-refutes-findings",
+          "source": "Scroll.in",
+          "blurb": "India's food safety regulator has sanctioned prosecution of Bisleri after a sample from its Goa plant showed bromate above the legal limit and traces of carcinogenic hydrocarbons. Bisleri says two other labs found its bromate level compliant and that it has received no formal notice, as the regulator presses a wider crackdown on food adulteration."
+        }
+      ],
+      "more": []
+    },
+    "geo": {
+      "top": [
+        {
+          "headline": "COP31 Collapses Without a Deal — the First Failed UN Climate Summit Since Copenhagen",
+          "url": "https://www.aljazeera.com/news/2026/11/22/countries-react-after-cop31-climate-talks-end-in-collapse",
+          "source": "Al Jazeera",
+          "blurb": "Talks in Antalya broke down after oil- and gas-producing nations refused to let the word 'fossil fuels' appear in the final text, and the draft also dropped a $120 billion adaptation-funding target for poorer countries. UN Secretary-General António Guterres voiced 'a very profound frustration' at the first collapse of the annual UN climate talks since Copenhagen in 2009."
+        },
+        {
+          "headline": "Attacks on Palestinian Medics in the West Bank Have Surged 350% Since 2022, Rights Group Finds",
+          "url": "https://www.aljazeera.com/news/2026/11/23/israeli-attacks-on-medics-in-occupied-west-bank-surge-by-350-rights-group",
+          "source": "Al Jazeera",
+          "blurb": "Physicians for Human Rights Israel documented soldiers and settlers assaulting, threatening and obstructing recognizable medical staff with growing frequency since October 2023, including one paramedic who said troops stopped him reaching a bleeding man who later died. The WHO separately logged 233 attacks on West Bank healthcare last year, two-thirds of them hitting medical transport."
+        },
+        {
+          "headline": "Ukraine Says It Sank a Russian Warship and Struck a Weapons Carrier Off the Coast of Libya",
+          "url": "https://www.aljazeera.com/news/2026/11/23/zelenskyy-says-ukraine-behind-drone-attacks-on-russian-ships-near-libya",
+          "source": "Al Jazeera",
+          "blurb": "Zelenskyy said Ukrainian sea drones sank the Russian warship Merkury and destroyed a helicopter, and separately hit a cargo ship Kyiv says was ferrying Russian weapons, with its crew rescued. The UN's Libya mission warned the country 'must not become a battleground for foreign conflicts' as the drone war widens far beyond the Black Sea."
+        }
+      ],
+      "more": []
+    },
+    "sports": {
+      "top": [
+        {
+          "headline": "New Zealand Survive the Final Day to Draw the Wellington Test With India",
+          "url": "https://www.icc-cricket.com/tournaments/world-test-championship/news/new-zealand-survive-final-day-test-to-hold-india-to-a-draw",
+          "source": "ICC",
+          "blurb": "Daryl Mitchell (49*) and Glenn Phillips (26*) batted out a 43-over stand on the final day at the Basin Reserve to deny India a win after its record-breaking 720/9 declaration. The result drops New Zealand to third in the WTC27 table; the second Test starts in Christchurch on November 27."
+        },
+        {
+          "headline": "Sri Lanka Go Unbeaten Into the Women's Emerging Nations Trophy Final With a Four-Run Win Over Pakistan",
+          "url": "https://www.icc-cricket.com/tournaments/icc-women-s-emerging-nations-trophy-2026/news/pakistan-loss-sets-up-netherlands-ireland-virtual-semi-final",
+          "source": "ICC",
+          "blurb": "Imesha Dulani's 56 took Sri Lanka to 140/6 in Ajman, and Umm-e-Hani's 3/17 wasn't enough to stop Pakistan falling four runs short in a chase that came down to the last over. Sri Lanka finish Super Six unbeaten; the Netherlands-Ireland winner takes the second final spot."
+        }
+      ],
+      "more": [
+        {
+          "headline": "Australia Climb to Second in the WTC Table After the Wellington Draw",
+          "url": "https://www.icc-cricket.com/tournaments/world-test-championship/news/big-changes-on-the-wtc27-standings-following-wellington-draw",
+          "source": "ICC",
+          "blurb": "Australia moved up to second in the WTC27 standings after New Zealand and India's draw, which dropped New Zealand to third and India to fourth."
+        }
+      ]
+    },
+    "entertainment": {
+      "top": [
+        {
+          "headline": "At IFFI, Three Dementia Dramas Take Very Different Risks",
+          "url": "https://scroll.in/reel/1097171/seen-at-iffi-the-many-faces-of-dementia-in-a-fading-man-ottanjaavalmaram-and-queen-at-sea",
+          "source": "Scroll.in",
+          "blurb": "Nandini Ramnath reviews three films on dementia from the International Film Festival of India: the Malayalam Ottanjaavalmaram and Lance Hammer's Queen at Sea both win praise for candid, unflinching caregiving detail, while the German A Fading Man loses its nerve once the love triangle at its center takes over."
+        }
+      ],
+      "more": []
+    },
+    "bengal": [
+      {
+        "headline": "West Bengal Announces Rs 205 Crore Crop-Damage Relief for 5.7 Lakh Farmers",
+        "url": "https://www.millenniumpost.in/bengal/around-57l-farmers-to-get-rs-205-cr-crop-damage-relief-cm-684263",
+        "source": "Millennium Post",
+        "blurb": "Chief Minister Suvendu Adhikari announced Rs 205 crore in crop-damage relief for roughly 5.7 lakh farmers hit by cyclone-linked rain, as officials estimate 1.6 lakh hectares of farmland damaged."
+      },
+      {
+        "headline": "Zoonotic Risk Is No Ground to Reject an Exotic-Animal Declaration, Calcutta High Court Rules",
+        "url": "https://www.millenniumpost.in/bengal/zoonotic-risk-no-bar-to-exotic-species-declaration-hc-684217",
+        "source": "Millennium Post",
+        "blurb": "The Calcutta High Court ruled the Chief Wildlife Warden had no authority to reject a breeder's declaration of marmosets, tamarins and sugar gliders on zoonotic or native-wildlife grounds, and ordered the declaration accepted within four weeks."
+      }
+    ],
+    "travel": [
+      {
+        "headline": "How the Desert Town of Las Vegas Became a Hotbed of Magic",
+        "url": "https://www.smithsonianmag.com/travel/how-the-desert-town-of-las-vegas-became-a-hotbed-of-magic-180989859/",
+        "source": "Smithsonian Magazine",
+        "blurb": "From Gloria Dea's 1941 Strip debut to Siegfried & Roy's Mirage spectacles, Las Vegas has reinvented its magic with every new resort — and still has venues worth visiting for a show today."
+      },
+      {
+        "headline": "A Company Wants to Breed Rare Asian Golden Cats for the Pet Trade. Conservationists Are Alarmed.",
+        "url": "https://news.mongabay.com/short-article/2026/11/plan-to-breed-rare-asian-golden-cats-for-pets-raises-conservation-concerns/",
+        "source": "Mongabay",
+        "blurb": "An Indonesian firm is seeking CITES approval to become the first facility to commercially breed vulnerable Asian golden cats for export as pets, but experts call its claimed breeding rate implausible and warn the captive trade rarely eases pressure on the roughly 7,000 left in the wild."
+      }
+    ],
+    "happy": {
+      "headline": "The City That Kicked Out Cars Before It Was Cool",
+      "url": "https://reasonstobecheerful.world/pontevedra-car-free-city/",
+      "source": "Reasons to be Cheerful",
+      "blurb": "In 1999, a doctor-turned-mayor began pedestrianizing traffic-choked Pontevedra, Spain. A quarter-century later, car trips in its center are down 97%, there hasn't been a traffic death since 2011, and it's the fastest-growing city in Galicia — proof, residents say, that a city doesn't have to stay built around the car."
+    },
+    "tech_top": [
+      {
+        "headline": "Why Data Centers Have Become Big Tech's Biggest Local Political Problem",
+        "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
+        "source": "TechCrunch",
+        "blurb": "Journalist Paris Marx's new book Hyperscale argues data centers draw political backlash because their costs — strained power grids, water supplies and noise — are local and physical, while generative AI's promised benefits haven't materialized to justify the buildout. He says industry fixes like dropped NDAs and closed-loop cooling don't address the underlying scale problem.",
+        "pm_note": "Data-center siting now carries real political and permitting risk — any PM planning AI infrastructure should budget for power, water and community transparency as early as the roadmap, not after a local backlash."
+      },
+      {
+        "headline": "OpenAI's Chief Scientist Proposes a Shared Metric for Capping How Powerful AI Gets",
+        "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+        "source": "TechCrunch",
+        "blurb": "Jakub Pachocki proposes 'perplexity' — a measure of how well a model predicts text — as a durable benchmark for pacing AI development, since capability tests go stale fast. OpenAI's own models have already dropped below a perplexity level he associates with transformative cybersecurity and math ability, echoing Anthropic CEO Dario Amodei's call to 'pace the frontier.'",
+        "pm_note": "If a shared metric like this becomes an industry commitment, product roadmaps built on ever-more-capable models may need to plan around a self-imposed ceiling, not just compute and cost."
+      }
+    ],
+    "tech_more": [
+      {
+        "headline": "The Investors Who Bet Big on Anthropic Before Its Record IPO",
+        "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
+        "source": "TechCrunch",
+        "blurb": "Notable Capital, Singapore's GIC and Baillie Gifford each studied Anthropic for months before investing across multiple rounds, and now hold paper gains of roughly 15x after its $81.3 billion IPO valued the company near $1.5 trillion."
+      },
+      {
+        "headline": "To Catch an Alleged Ransomware Fraud Scheme, the FBI Posed as Both Victim and Attacker",
+        "url": "https://www.404media.co/ransomware-fraud-attack-fbi-indictment/",
+        "source": "404 Media",
+        "blurb": "Prosecutors say the FBI went undercover as both a ransomware victim and the extortionists themselves to catch a Florida company accused of running a fake data-recovery fraud scheme since 2020."
+      }
+    ],
+    "tech_101": [
+      {
+        "term": "Perplexity",
+        "text": "A measure of how well an AI model predicts the next word in a sequence — lower perplexity means better prediction. OpenAI's chief scientist wants it adopted industry-wide as a durable yardstick for AI capability, since task-specific benchmarks get swamped by training to the test within months."
+      },
+      {
+        "term": "Hyperscale data center",
+        "text": "A data center built at a scale — often hundreds of thousands of servers — far beyond a typical corporate facility, built specifically to serve cloud and AI workloads. Critics argue it's this massive scale, not data centers as such, that strains local power grids and water supplies enough to trigger political backlash."
+      }
+    ],
+    "science": [
+      {
+        "headline": "Einstein's Relativity Just Upended a 100-Year-Old Rule of Chemistry",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261120075602.htm",
+        "source": "ScienceDaily",
+        "kind": "chemistry",
+        "blurb": "Brown University chemists cooled carbon-bismuth molecules near absolute zero and found their triple bonds don't match the textbook model of one strong bond plus two weaker ones — because bismuth's heavy nucleus accelerates electrons fast enough for relativity to blur the distinction. The finding, published in Science, could change how bonding in heavy elements is taught."
+      },
+      {
+        "headline": "Two Spacecraft Just Entered Orbit Around Mercury After an Eight-Year Journey",
+        "url": "https://phys.org/news/2026-11-mercury-visitor-years-pair-spacecraft.html",
+        "source": "Phys.org",
+        "kind": "space",
+        "blurb": "Europe and Japan's joint BepiColombo mission, launched in 2018, has finally reached Mercury orbit — only the third spacecraft ever to visit the planet. Its two probes will separate next month to map Mercury's surface, interior and magnetic field from different altitudes over at least a year."
+      },
+      {
+        "headline": "Simulated Space Radiation Rewires Brain Immune Cells Differently in Male and Female Mice",
+        "url": "https://phys.org/news/2026-11-space-brain-immune-cells-behavior.html",
+        "source": "Phys.org",
+        "kind": "neuroscience",
+        "blurb": "University of Rochester researchers exposed mice to simulated galactic cosmic radiation and sequenced nearly 16,000 brain immune cells, finding male mice showed metabolic stress while females showed dampened immune signaling. Neither sex showed inflammation or short-term behavior changes, leaving the long-term risk to astronauts still unknown."
+      }
+    ],
+    "philosophy": [
+      {
+        "headline": "What Six Years of Living in a Shared House Taught a Writer About the Self",
+        "url": "https://aeon.co/essays/living-in-community-is-where-self-illusions-go-to-die",
+        "source": "Aeon",
+        "blurb": "Elizabeth Oldfield argues that modern individualism drives loneliness and social breakdown, and that sharing a home exposes self-deception in ways solitary life never does. Drawing on Charles Taylor's 'buffered self' and her own intentional Christian community in London, she argues lasting shared life needs a purpose larger than itself — and admits most such experiments eventually end."
+      },
+      {
+        "headline": "For Cicero, Being a Man Meant Performing Self-Control — Even While Grieving",
+        "url": "https://aeon.co/essays/the-politics-of-masculinity-at-the-end-of-the-roman-republic",
+        "source": "Aeon",
+        "blurb": "Classicist Catharine Edwards traces how Cicero's idea of virtus prized courage and self-command over domination, and how his own turn to philosophy after exile and his daughter Tullia's death tied manhood to the discipline of grief. His polished rhetoric, she notes, exposed the performance behind that 'authentic' manliness."
+      },
+      {
+        "headline": "Gödel Didn't Prove There Are Limits to What We Can Know",
+        "url": "https://aeon.co/essays/the-century-long-search-for-the-limits-to-knowledge",
+        "source": "Aeon",
+        "blurb": "Alexander V Gheorghiu argues Gödel's incompleteness theorems describe the limits of one version of mathematics, not of knowledge itself — building on Michael Dummett's idea that mathematical truth rests on how we justify and extend our practices. Truth isn't a ceiling we keep failing to reach, he argues, but something that grows as we faithfully extend the rules."
+      }
+    ],
+    "philosophy_101": [
+      {
+        "term": "Indefinite extensibility",
+        "text": "Philosopher Michael Dummett's idea that some concepts, like 'natural number' or 'provable,' are rules for continuing rather than finished definitions — every faithful extension of the rules opens room for a further one. It's the key move in arguing that Gödel's theorems limit a particular system, not knowledge as such."
+      },
+      {
+        "term": "Intentional community",
+        "text": "A household or group that chooses to live and share resources together around a common purpose, rather than by family or chance. Writer Elizabeth Oldfield argues it's one of the few practical correctives to the isolation of modern individualist life, though she admits most don't last."
+      }
+    ]
+  }
+}
