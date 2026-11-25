@@ -1,0 +1,215 @@
+{
+  "date": "2026-11-25",
+  "sections": {
+    "politics": {
+      "top": [
+        {
+          "headline": "Pentagon Weighs a $15 Billion Loan to a Defense Startup Backed by Donald Trump Jr.'s Venture Firm",
+          "url": "https://www.propublica.org/article/donald-trump-jr-hadrian-pentagon-loan",
+          "source": "ProPublica",
+          "blurb": "ProPublica reports the Pentagon is weighing a $15 billion loan to Hadrian Automation, a defense manufacturer that has drawn investment from 1789 Capital, the venture firm Donald Trump Jr. joined as a partner. Former Pentagon officials warn of taxpayer risk and doubt the company can scale to meet it; the Pentagon disputes the figure and calls talks early-stage.",
+          "investigative": true
+        },
+        {
+          "headline": "Court Orders Trump Media to Hand Over Truth Social Records in First Amendment Lawsuit",
+          "url": "https://theintercept.com/2026/11/24/trump-truth-social-api-lawsuit-discovery/",
+          "source": "The Intercept",
+          "blurb": "A federal judge has allowed The Intercept and the Freedom of the Press Foundation limited discovery in their lawsuit over Truth API, a Trump Media service that charges outlets up to $100,000 a month for early access to the president's posts. The suit argues the arrangement violates the public's right to equal access to the president's statements."
+        }
+      ],
+      "more": [
+        {
+          "headline": "Leaked Plan Would Let the White House Fire the Smithsonian's American History Museum Director",
+          "url": "https://www.propublica.org/article/dc-metro-smithsonian-american-history-plan",
+          "source": "ProPublica",
+          "blurb": "A commuter's photographed laptop screen revealed a White House draft to fire the Smithsonian's American History museum director and rewrite its exhibit guidelines, ProPublica reports."
+        }
+      ]
+    },
+    "india": {
+      "top": [
+        {
+          "headline": "The Government Won't Say Who Proposed Ending Jantar Mantar's Status as a Protest Site",
+          "url": "https://www.newslaundry.com/2026/11/24/who-suggested-de-notifying-jantar-mantar-as-a-protest-site-govt-gives-no-answer-cites-national-security",
+          "source": "Newslaundry",
+          "blurb": "Delhi Police quietly de-notified Jantar Mantar, India's best-known protest site, after a Home Ministry committee recommended it — but when Newslaundry filed an RTI for the committee's membership and minutes, the ministry refused, citing national security. A right-to-information activist called it a tool to suppress dissent rather than protect the state.",
+          "investigative": true
+        },
+        {
+          "headline": "Kuki and Naga Leaders Agree to a Peace Process and a Christmas Truce",
+          "url": "https://scroll.in/latest/1097286/manipur-kuki-naga-leaders-agree-to-peace-process-call-for-christmas-truce",
+          "source": "Scroll.in",
+          "blurb": "After a three-day summit in Kolkata, Kuki and Naga civil-society leaders agreed to a new dialogue process and a Christmas truce, aimed at easing a conflict that has killed more than 300 people and displaced 60,000 since 2023. Another round of talks, open to all stakeholders, is planned before Christmas."
+        }
+      ],
+      "more": []
+    },
+    "geo": {
+      "top": [
+        {
+          "headline": "Putin Says Retaliation 'Inevitable' After Ukraine Keeps Hitting Russian Oil Plants",
+          "url": "https://www.aljazeera.com/news/2026/11/24/putin-says-kyiv-hit-russian-oil-plants-despite-trump-plea-vows-retaliation",
+          "source": "Al Jazeera",
+          "blurb": "Drone strikes on Russian refineries have cut combined crude processing by 45% since late October, pushing several regions to ration fuel, despite Trump's mid-October ceasefire call. Putin says Kyiv is ignoring that request and that Russia's response is now 'inevitable'; Ukraine says it will only stop if Russia does too."
+        },
+        {
+          "headline": "UK Warns Firms Supplying Ukraine of Possible Russian Sabotage",
+          "url": "https://www.aljazeera.com/news/2026/11/25/uk-warns-companies-of-potential-russian-sabotage-threat",
+          "source": "Al Jazeera",
+          "blurb": "Britain's Ministry of Defence and MI5 issued an unusual public warning that companies supplying Ukraine's war effort could face Russian sabotage, most likely low-tech attacks like arson carried out through proxies. The warning cites past cases, including an arson conviction over Starlink equipment, and follows recent sabotage concerns in Estonia and Norway."
+        }
+      ],
+      "more": [
+        {
+          "headline": "Eisenkot Secures First Coalition Partner in Bid to Lead Israel",
+          "url": "https://www.aljazeera.com/news/2026/11/25/israels-eisenkot-secures-first-coalition-partner-in-bid-to-form-government",
+          "source": "Al Jazeera",
+          "blurb": "Gadi Eisenkot's party struck a coalition pact with Avigdor Lieberman's, the first such alliance since October's election, as he works a 28-day mandate to try to replace Netanyahu's caretaker government."
+        }
+      ]
+    },
+    "sports": {
+      "top": [
+        {
+          "headline": "Sri Lanka Beat Ireland by Six Wickets to Win the Emerging Nations Trophy Final",
+          "url": "https://www.icc-cricket.com/tournaments/icc-women-s-emerging-nations-trophy-2026/news/sri-lanka-win-icc-women-s-emerging-nations-trophy-2026",
+          "source": "ICC",
+          "blurb": "Ireland collapsed to 96 all out after slipping to 54/6, with Sathya Sandeepani taking 4/13, before Imesha Dulani's unbeaten 44 steadied Sri Lanka's chase in Ajman. The win makes Sri Lanka the tournament's second champions, succeeding inaugural winners Thailand."
+        }
+      ],
+      "more": []
+    },
+    "entertainment": {
+      "top": [
+        {
+          "headline": "Romani Director Alina Serban on the Resistance of Living Fully as Herself",
+          "url": "https://scroll.in/reel/1097166/behind-romani-directors-film-i-matter-to-be-100-per-cent-myself-is-an-act-of-resistance",
+          "source": "Scroll.in",
+          "blurb": "Serban's debut feature 'I Matter,' drawn from her own Romani and impoverished upbringing, follows a teenager in a state orphanage facing prejudice as her father leaves prison; it won Venice's audience award before screening at IFFI Goa. Serban says living fully as herself, without being defined only by pain, is itself an act of resistance."
+        }
+      ],
+      "more": []
+    },
+    "bengal": [
+      {
+        "headline": "A Bengal Infant Is Denied a Birth Certificate After Her Father's Name Was Purged in the Voter-Roll Revision",
+        "url": "https://scroll.in/latest/1097291/bengal-infant-denied-birth-certificate-as-fathers-name-deleted-during-sir-reports-the-hindu",
+        "source": "Scroll.in",
+        "blurb": "A Cooch Behar official told a father his newborn couldn't get a birth certificate and called him Bangladeshi, after the SIR voter-roll revision erased his name over a mismatched detail now stuck before a tribunal."
+      },
+      {
+        "headline": "Six Months In, Bengal's BJP Government Stakes Its Credibility on a Second Try at Singur",
+        "url": "https://thefederal.com/category/states/east/west-bengal/six-months-of-bengal-bjp-government-singur-industry-credibility-test-264006",
+        "source": "The Federal",
+        "blurb": "The government is negotiating to buy 997 acres in Singur, scene of the 2008 Tata Nano land war, for a truck plant, even as unemployment aid, DA arrears and anti-extortion promises all run behind schedule."
+      }
+    ],
+    "travel": [
+      {
+        "headline": "Travel + Leisure Just Named India Its Destination of the Year for 2027",
+        "url": "https://www.euronews.com/2026/11/12/india-has-just-been-named-destination-of-the-year-for-2027-heres-where-to-go",
+        "source": "Euronews",
+        "blurb": "Travel + Leisure picked India as 2027's destination of the year, pointing readers toward Udaipur, the Lakshadweep islands, and Madhya Pradesh's tigers and temples."
+      },
+      {
+        "headline": "Kiwi Return to Wellington's Hills After 150 Years, in a Māori-Led Conservation Win",
+        "url": "https://news.mongabay.com/short-article/2026/11/kiwi-return-to-wellington-hills-after-150-years-in-maori-led-conservation-milestone/",
+        "source": "Mongabay",
+        "blurb": "More than 250 kiwi were reintroduced to Wellington's hills under Māori protocols, with over 5,300 predator traps driving chick survival above 90% and the population past 300 birds."
+      }
+    ],
+    "happy": {
+      "headline": "The Three-Week Christmas Summit That Turned Churchill and Roosevelt Into Wartime Partners",
+      "url": "https://www.smithsonianmag.com/history/winston-churchill-desperately-wanted-wartime-meeting-FDR-got-their-three-week-christmas-summit-changed-trajectory-war-180989842/",
+      "source": "Smithsonian Magazine",
+      "blurb": "Weeks after Pearl Harbor, Churchill crossed the Atlantic for three cigar-and-whiskey-soaked weeks at the White House, where two wary leaders forged the partnership that planned Europe's liberation."
+    },
+    "tech_top": [
+      {
+        "headline": "Dozens of Oil and Shipping Tankers Were Hacked in Recent Weeks, US Officials Suspect Iran",
+        "url": "https://techcrunch.com/2026/11/24/dozens-of-oil-and-shipping-tankers-hacked-in-recent-weeks-per-report/",
+        "source": "TechCrunch",
+        "blurb": "US officials suspect Iranian hackers breached up to 50 vessels carrying oil, gas and hazardous chemicals, some via a Fortinet router flaw called FortiBleed, part of a wider cyber campaign since this year's US-Israel strikes on Iran. Ships keep manual backup controls, but the FBI and Coast Guard have already boarded affected tankers.",
+        "pm_note": "A reminder that bolted-on IoT infrastructure is also the attack surface — patch cadence and vendor risk aren't just enterprise-IT line items."
+      },
+      {
+        "headline": "Jensen Huang Tells Nvidia Staff He's in Therapy, Downplays Trump's Role in His Reinstatement",
+        "url": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/",
+        "source": "TechCrunch",
+        "blurb": "In his first all-hands since returning as CEO, Huang apologized for breaking a code of conduct he largely wrote, called it the second-hardest conversation of his career, and said White House intelligence access helped the board judge reinstating him as a low national-security risk. He faces a Senate Banking hearing next week.",
+        "pm_note": "A live case study in a board writing itself an exception to its own rules under pressure — worth watching before you draft a code of conduct you expect leadership to actually follow."
+      }
+    ],
+    "tech_more": [
+      {
+        "headline": "A Privacy Startup Raises $5.3M to Build AI Tools Its Own Servers Can't Read",
+        "url": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/",
+        "source": "TechCrunch",
+        "blurb": "Maple encrypts user data on-device before processing it in trusted execution environments, so it says it cannot access it itself, in a seed round led by Epic Ventures."
+      },
+      {
+        "headline": "A University Called Its Data Center a 'Research Computing Center.' Its Partner Lab Confirmed It's for Nuclear Weapons Research.",
+        "url": "https://www.404media.co/university-of-michigan-mailer-lanl-data-center/",
+        "source": "404 Media",
+        "blurb": "University of Michigan mailers denied its $1.2 billion facility with Los Alamos was a commercial data center, but the lab confirmed in January its portion would support nuclear weapons research."
+      }
+    ],
+    "tech_101": [
+      {
+        "term": "Trusted execution environment",
+        "text": "A sealed-off part of a processor that runs code and handles data in a way even the company operating the server can't inspect — the trick Maple uses to claim it can't read your chats."
+      },
+      {
+        "term": "FortiBleed",
+        "text": "A nickname for a flaw in Fortinet's routers that lets attackers skip past login screens — the kind of hardware brand hiding inside industrial and shipping systems most people never think to patch."
+      }
+    ],
+    "science": [
+      {
+        "headline": "Ancient Rocks From the Moon's Far Side Rewrite the Solar System's Violent Past",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261121221136.htm",
+        "source": "ScienceDaily",
+        "blurb": "Rocks returned by China's Chang'e-6 mission from the moon's far side show asteroid impacts declined gradually over billions of years, not in one catastrophic bombardment as long assumed. Because that hemisphere has been less reshaped by geology than the near side, the timeline offers new clues about the violent conditions Earth faced when life first emerged.",
+        "kind": "space"
+      },
+      {
+        "headline": "A New Catalyst Turns Carbon Dioxide Into Industrial Chemicals Using Only Visible Light",
+        "url": "https://phys.org/news/2026-11-visible-powers-catalyst-carbon-dioxide.html",
+        "source": "Phys.org",
+        "blurb": "Rice University researchers built a copper-ruthenium catalyst on cerium oxide that splits CO2 into carbon monoxide using visible light instead of extreme heat, running nearly seven times longer than heat-driven versions. The approach, now licensed for scale-up, could make carbon capture pay for itself by turning a waste gas into a usable industrial raw material.",
+        "kind": "chemistry"
+      },
+      {
+        "headline": "A Tiny Tracker Just Recorded the Longest Hummingbird Migration Ever Measured",
+        "url": "https://phys.org/news/2026-11-tiny-tracker-reveals-longest-hummingbird.html",
+        "source": "Phys.org",
+        "blurb": "Fitted with a Bluetooth transmitter weighing a fraction of a paperclip, a male rufous hummingbird flew 6,526 kilometers from Alabama to Alaska in 38 days, the longest journey ever recorded for the species. The tags, light enough for songbird-sized migrants, are revealing routes researchers didn't know existed.",
+        "kind": "biology"
+      }
+    ],
+    "philosophy": [
+      {
+        "headline": "Why Mental Illness Might Not Mean the Same Thing in Every Culture",
+        "url": "https://aeon.co/essays/are-mental-illnesses-universal-or-are-they-culturally-specific",
+        "source": "Aeon",
+        "blurb": "Philosopher Alexander Pereira argues culture doesn't just shape how mental disorders are experienced or labeled — it may shape the disorders themselves, so 'depression' in one society and another aren't necessarily the same condition. He calls this 'deep shaping' and challenges psychiatry's default assumption that its categories are universal."
+      },
+      {
+        "headline": "Astronomy Keeps Treating Its Best Discoveries as Nuisances",
+        "url": "https://aeon.co/essays/why-astrophysics-needs-to-abandon-the-big-questions",
+        "source": "Aeon",
+        "blurb": "Astrophysicist Dylan Jow argues astronomy has narrowed itself into a tool for testing fundamental physics, treating messy phenomena like interstellar dust as noise to subtract rather than questions worth asking. He makes the case that the field's 'Big Questions' are a historically contingent choice, not a self-evidently higher calling."
+      }
+    ],
+    "philosophy_101": [
+      {
+        "term": "Epistemic humility",
+        "text": "Admitting the limits of what your own framework can know — in Pereira's case, resisting the assumption that a diagnostic category built in one culture must mean the same thing everywhere."
+      },
+      {
+        "term": "Big Questions bias",
+        "text": "A field's habit of treating whichever problems it already has tools to solve as the deep ones, and everything else as noise to subtract — Jow's complaint about astrophysics."
+      }
+    ]
+  }
+}
