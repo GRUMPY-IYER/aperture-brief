@@ -1,0 +1,227 @@
+{
+  "date": "2026-11-26",
+  "sections": {
+    "politics": {
+      "top": [
+        {
+          "headline": "Ambetter, the ACA Marketplace's Most Popular Plan, Denies Care at the Highest Rate of Any Big Insurer",
+          "url": "https://www.propublica.org/article/ambetter-prior-authorization-denials",
+          "source": "ProPublica",
+          "investigative": true,
+          "blurb": "ProPublica found Ambetter, the most-enrolled plan on the Affordable Care Act marketplace, denied prior-authorization requests last year at a higher rate than any other large insurer, leaving patients with delayed cancer treatment and missed medication. Most denials were never appealed, though more than half of appealed cases were overturned, and four former state insurance commissioners are now calling for regulators to examine the company's rate."
+        },
+        {
+          "headline": "Hakeem Jeffries Signals He Can Live With 'Medicare for More,' Not Medicare for All",
+          "url": "https://theintercept.com/2026/11/24/hakeem-jeffries-democrats-medicare-for-all/",
+          "source": "The Intercept",
+          "blurb": "Rep. Hakeem Jeffries, the presumed next House speaker, has endorsed a middle-ground healthcare plan that would lower the Medicare eligibility age and add dental, vision and hearing coverage while leaving most working-age adults unchanged. The move sets up a fight with progressives pushing the broader Medicare for All bill as Democrats prepare to take the House majority."
+        }
+      ],
+      "more": [
+        {
+          "headline": "Defense Contractors Have Poured Over $40 Million Into Trump's Ballroom, Parade and Anniversary Projects",
+          "url": "https://www.motherjones.com/politics/2026/11/lockheed-palantir-rtx-northrop-grumman-amazon-trump-ballroom-america-250-vanity-projects/",
+          "source": "Mother Jones",
+          "blurb": "Lockheed Martin, Palantir, RTX and other major Pentagon contractors have donated over $40 million to Trump's ballroom, military parade and 250th-anniversary projects, prompting a planned Democratic probe."
+        }
+      ]
+    },
+    "india": {
+      "top": [
+        {
+          "headline": "Centre Tells Delhi High Court a Police Lookout Notice Is Why Journalist Saurav Das Was Stopped From Flying to London",
+          "url": "https://scroll.in/latest/1097331/cjps-saurav-das-stopped-at-airport-after-mumbai-police-issued-lookout-circular-says-centre",
+          "source": "Scroll.in",
+          "blurb": "Journalist Saurav Das was stopped at Delhi airport late Monday night, hours after a passport show-cause notice landed by email shortly before his flight to London. This week the Centre told the Delhi High Court a Mumbai Police lookout circular was behind the stop, citing passport discrepancies it says could affect his citizenship; the case returns to court on December 9."
+        },
+        {
+          "headline": "How a Dormant Company Bought by a Chinese Firm Ended Up Running Gurugram's Garbage",
+          "url": "https://www.newslaundry.com/2026/11/25/we-investigated-why-you-keep-paying-for-gurugrams-endless-garbage-contract",
+          "source": "Newslaundry",
+          "investigative": true,
+          "blurb": "Newslaundry traces how Ecogreen, a dormant shell bought by a Chinese firm in 2017, won Gurugram's waste contract, never built the promised waste-to-energy plant, and let the Bandhwari landfill keep growing — with only a fraction of its ₹428 crore investment traceable to real plant and machinery. After the contract was scrapped in 2024, the state hired nine more companies for ₹532 crore and is now floating a fresh ₹600 crore tender."
+        },
+        {
+          "headline": "Maharashtra Awards Adani a 25-Year Power Contract Using Power From Another Adani Company",
+          "url": "https://scroll.in/article/1097262/maharashtra-awards-adani-company-a-contract-to-supply-power-using-power-from-another-adani-company",
+          "source": "Scroll.in",
+          "blurb": "Maharashtra's state power utility signed Adani Power to a 25-year, 2,500 MW contract requiring the solar share to come from an Adani Renewable Energy affiliate — a tripartite deal that drew conflict-of-interest objections from rival bidders, which the state dismissed. The agreed ₹5.90/kWh tariff also runs above both a central-government benchmark and an SBI estimate."
+        }
+      ],
+      "more": []
+    },
+    "geo": {
+      "top": [
+        {
+          "headline": "Ukraine Says It Damaged Five Warplanes in a Strike on a Russian Airbase",
+          "url": "https://www.aljazeera.com/news/2026/11/26/ukraine-attacks-russian-military-base-says-five-planes-struck",
+          "source": "Al Jazeera",
+          "blurb": "Ukraine's General Staff said its forces struck the Savasleyka airbase east of Moscow, damaging three MiG-31s used to launch hypersonic missiles and two Su-34 fighter-bombers. The strike is part of a wider wave of long-range Ukrainian attacks this week, including on Russian ships near Libya and in the Gulf of Finland and on Russia's Crimea bridge."
+        },
+        {
+          "headline": "Netanyahu Calls for His Corruption Trial to End as Judges Suggest Dropping the Case",
+          "url": "https://www.aljazeera.com/news/2026/11/25/netanyahu-says-corruption-trial-must-end-as-court-suggests-dropping-case",
+          "source": "Al Jazeera",
+          "blurb": "Judges in Netanyahu's corruption trial questioned the charges and recommended dropping or reconsidering some cases and resolving another by plea deal, with conviction in the most serious case now looking unlikely. The stakes are high: Netanyahu, fighting for political survival after inconclusive elections, would lose his main shield against prison time if he's no longer prime minister."
+        }
+      ],
+      "more": [
+        {
+          "headline": "Kim Jong Un Calls for Wider Deployment of North Korea's Tactical Nuclear Weapons",
+          "url": "https://www.aljazeera.com/news/2026/11/26/kim-jong-un-says-north-korea-should-widen-deployment-of-tactical-nukes",
+          "source": "Al Jazeera",
+          "blurb": "Kim Jong Un urged expanding tactical nuclear weapons \"across multiple domains,\" calling North Korea's nuclear status \"absolutely inviolable\" amid rising border tension with South Korea."
+        }
+      ]
+    },
+    "sports": {
+      "top": [
+        {
+          "headline": "Wiaan Mulder's Century and Seven-For Seal a 2-0 WTC Series Sweep for South Africa Over Bangladesh",
+          "url": "https://www.icc-cricket.com/tournaments/world-test-championship/news/mulder-s-seven-for-seals-dominant-wtc27-win-for-south-africa",
+          "source": "ICC",
+          "blurb": "South Africa won the second Test by an innings and 219 runs at Centurion, bowling Bangladesh out for 184 after declaring at 494/7, to complete a 2-0 sweep. Wiaan Mulder took a maiden Test five-for plus two more wickets and scored a century in the same match — only the fifth player in Test history to do both — extending South Africa's lead atop the WTC standings."
+        }
+      ],
+      "more": []
+    },
+    "entertainment": {
+      "top": [
+        {
+          "headline": "In 'Being Heumann,' a Disability Rights Activist Is a Force of Nature — and a Riot",
+          "url": "https://scroll.in/reel/1097172/weekend-watch-in-being-heumann-a-disability-rights-activist-is-a-force-of-nature-and-a-riot",
+          "source": "Scroll.in",
+          "blurb": "Siân Heder's biographical drama, now streaming on Apple TV, dramatises the 1977 San Francisco sit-in that forced enforcement of Section 504, with Ruth Madeley playing activist Judith Heumann and Mark Ruffalo as the official dodging the protesters. Scroll.in calls it an inspiring, often funny celebration of protest and solidarity, even where Heumann's intensity outpaces the people around her."
+        }
+      ],
+      "more": []
+    },
+    "bengal": [
+      {
+        "headline": "Suvendu Adhikari Orders Police to Trace and Deport Alleged Illegal Bangladeshi Immigrants 'One by One'",
+        "url": "https://thefederal.com/category/states/east/west-bengal/suvendu-adhikari-orders-crackdown-illegal-bangladeshi-muslim-immigrants-264083",
+        "source": "The Federal",
+        "blurb": "At a Cooch Behar rally, Bengal's chief minister ordered police to trace and deport alleged illegal Bangladeshi Muslim immigrants 'one by one,' called Hindus fleeing religious persecution refugees deserving shelter, and ordered a crackdown on border madrasas."
+      },
+      {
+        "headline": "Supreme Court Weighs Letting Kolkata's Civic Polls Proceed Despite a Gerrymandering Challenge",
+        "url": "https://www.millenniumpost.in/bengal/kmc-polls-hang-in-limbo-as-sc-to-decide-fate-684614",
+        "source": "Millennium Post",
+        "blurb": "The Supreme Court is weighing clearing the way for Kolkata's long-delayed civic polls, over objections that redrawing wards from 144 to 209 amounts to gerrymandering; it rules again Monday."
+      },
+      {
+        "headline": "Bangladesh to Shut Its Only Visa Centres in Kolkata and Siliguri From December 1",
+        "url": "https://www.millenniumpost.in/bengal/no-visa-applications-ops-in-bdesh-centres-in-kolkata-siliguri-from-dec-1-684612",
+        "source": "Millennium Post",
+        "blurb": "Bangladesh is ending its outsourcing contract for visa services in Kolkata and Siliguri, halting applications from December 1 until new centres are named."
+      }
+    ],
+    "travel": [
+      {
+        "headline": "Travel + Leisure Names Great Basin the Best U.S. National Park for Stargazing",
+        "url": "https://www.travelandleisure.com/best-national-park-for-stargazing-in-2026-12260426",
+        "source": "Travel + Leisure",
+        "blurb": "Travel + Leisure's new ranking — weighing light pollution, Dark-Sky certification and elevation — named Nevada's Great Basin National Park the best U.S. spot for stargazing, with Big Bend and Bryce Canyon close behind."
+      },
+      {
+        "headline": "Malaysia's Former Turtle-Egg Poachers Are Now Night Watchmen for the Species They Once Hunted",
+        "url": "https://news.mongabay.com/2026/11/the-night-watchmen-guarding-malaysias-critically-endangered-river-terrapins/",
+        "source": "Mongabay",
+        "blurb": "Since 2011, former egg collectors turned 'Terrapin Guardians' have patrolled Terengganu's riverbanks at night, incubating over 13,000 eggs and releasing more than 8,200 critically endangered southern river terrapins."
+      }
+    ],
+    "happy": {
+      "headline": "Ivan the Terrible Wanted to Marry Elizabeth I. England's Virgin Queen Had Other Plans.",
+      "url": "https://www.smithsonianmag.com/history/ivan-the-terrible-wanted-to-marry-elizabeth-i-how-did-englands-virgin-queen-reject-the-russian-czar-without-souring-trade-relations-180989656/",
+      "source": "Smithsonian Magazine",
+      "blurb": "When Russia's tsar proposed, Elizabeth I stalled him for years with feigned interest, an invented plague and a mocked-at substitute cousin, protecting England's lucrative Russia trade without ever saying a word he could call a refusal."
+    },
+    "tech_top": [
+      {
+        "headline": "OpenAI Starts Merging ChatGPT's Chat and Work Modes Into One Shared Usage Meter",
+        "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+        "source": "TechCrunch",
+        "blurb": "OpenAI has begun testing a unified ChatGPT interface for a small group of Pro users, merging Chat and Work into one experience with a single shared usage allowance; the Instant model stays unlimited and exempt from the cap. OpenAI says most users won't notice, but a fraction of its heaviest users will hit limits sooner, with a wider December rollout planned.",
+        "pm_note": "Merging two modes into one meter is a classic product-simplification move that quietly reallocates cost among users — watch how OpenAI frames the tradeoff to the heavy users who lose out."
+      },
+      {
+        "headline": "42 State AGs Fight Character.AI's Plan to Auction Off 21 Million Users' Private Chats",
+        "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
+        "source": "TechCrunch",
+        "blurb": "Bankrupt Character.AI plans a December 1 auction of chat histories from more than 21 million US accounts, including over 2.1 million belonging to minors, with the only disclosed bidder an anonymous Delaware company formed weeks ago. A 42-state AG coalition is fighting the sale, arguing it breaks a promise that user data wouldn't be sold and would hand the data to a buyer with no obligation to honor Character.AI's privacy policy.",
+        "pm_note": "A sharp reminder that a privacy promise is only as durable as the company making it — in bankruptcy, user data becomes an asset of the estate unless the product's data-handling commitments were built to survive that scenario."
+      }
+    ],
+    "tech_more": [
+      {
+        "headline": "1Password Says a Hijacked Employee GitHub Account Let Hackers Push Malicious Code, Steal Some Customer Data",
+        "url": "https://techcrunch.com/2026/11/25/1password-said-hackers-broke-into-its-internal-systems-but-customer-passwords-are-safe/",
+        "source": "TechCrunch",
+        "blurb": "An attacker used a hijacked employee GitHub account to push malicious code to 1Password's internal servers and download customer names, emails and login timestamps, though vaults and passwords were never accessible."
+      },
+      {
+        "headline": "FDA Approves Neuralink's First Pivotal Brain-Implant Trial, for ALS Patients",
+        "url": "https://www.engadget.com/2329008/neuralink-receives-fda-approval-for-brain-implant-trial-in-als-patients/",
+        "source": "Engadget",
+        "blurb": "The FDA authorized Neuralink's LINK trial, the first US pivotal study of an implantable brain-computer interface, letting a limited group of ALS patients test thought-controlled devices."
+      }
+    ],
+    "tech_101": [
+      {
+        "term": "Usage-based metering",
+        "text": "Instead of giving every subscriber the same flat access, a product tracks how much of a shared resource (compute, in ChatGPT's case) each user actually consumes and caps it. Merging two previously separate allowances into one meter, as OpenAI just did, is a quiet way to reallocate cost toward the heaviest users without changing the sticker price."
+      },
+      {
+        "term": "Bankruptcy estate",
+        "text": "When a company files Chapter 11, nearly everything it owns — including, controversially, user data — becomes an asset the court can let it sell to pay creditors, regardless of promises made to users beforehand. Character.AI's chat-data auction is a live test of whether a privacy policy survives its company's bankruptcy."
+      }
+    ],
+    "science": [
+      {
+        "headline": "A Space Telescope Built to Hunt Dark Matter Just Found an Unknown Comet",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261124055852.htm",
+        "source": "ScienceDaily",
+        "kind": "space",
+        "blurb": "ESA's Euclid telescope, built to map dark matter and dark energy across billions of galaxies, incidentally caught a previously unknown comet, now designated C/2026 S1, in routine survey images later scanned to clear out solar-system clutter. A University of Helsinki PhD student's object-tracking software flagged the find, which the Minor Planet Center confirmed in October."
+      },
+      {
+        "headline": "A Pinch of Phosphate Makes Copper Ten Times Better at Turning Nitrate Pollution Into Ammonia",
+        "url": "https://phys.org/news/2026-11-phosphate-boosts-nitrate-conversion-tenfold.html",
+        "source": "Phys.org",
+        "kind": "chemistry",
+        "blurb": "Osaka-led researchers found that adding phosphate to a neutral electrolyte, rather than changing the catalyst, roughly doubled copper electrodes' selectivity for ammonia and raised reaction speed tenfold versus a strong alkaline solution. Phosphate acts as a 'proton shuttle,' feeding protons directly to the reaction — a route to cleaning nitrate-polluted water while recovering valuable ammonia."
+      },
+      {
+        "headline": "Physicists Trap a Single Antimatter Particle for Months to Hunt a Crack in the Standard Model",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261124055849.htm",
+        "source": "ScienceDaily",
+        "kind": "physics",
+        "blurb": "Northwestern physicists cooled a single positron to 300 millikelvins and suspended it in a 'one-positron quantum cyclotron,' holding it for months without ever letting it touch matter and annihilate. The setup lets them measure its magnetic properties as precisely as the electron's, a comparison that could expose why the universe has so much more matter than antimatter."
+      }
+    ],
+    "philosophy": [
+      {
+        "headline": "It Was the Horse, Not the Harvest, That Built the First States",
+        "url": "https://aeon.co/essays/the-origins-of-the-state-are-not-agrarian-but-pastoralist",
+        "source": "Aeon",
+        "blurb": "Historian Lhamsuren Munkh-Erdene argues the standard story — that grain surpluses and population pressure produced the state — is a politically loaded myth traced to a 1940s reframing of Chinese frontier claims. He makes the case that it was transportation, chariots, horses, ships, that let warbands mobilize and conquer, putting Eurasia's pastoralist steppe at the center of how states actually formed."
+      },
+      {
+        "headline": "Maybe Something Is Simpler Than Nothing",
+        "url": "https://aeon.co/essays/a-new-answer-to-why-there-is-something-rather-than-nothing",
+        "source": "Aeon",
+        "blurb": "Philosopher Andrew T Brenner challenges Leibniz's assumption that an empty universe would be the simplest possible state. An empty world would still contain truths about what doesn't exist and what could, he argues, so a world explained by one simple thing, God, or a primordial singularity, might actually be simpler overall than true nothingness."
+      }
+    ],
+    "philosophy_101": [
+      {
+        "term": "Conquest theory",
+        "text": "The rival to the textbook idea that states grew out of farming societies managing grain surpluses. Conquest theory says states formed when mobile warbands, enabled by horses or boats, could mobilize force and subjugate settled farmers — making mobility, not agriculture, the ingredient that made large-scale rule possible."
+      },
+      {
+        "term": "Non-ontological truth",
+        "text": "A true statement that isn't about what exists, like 'dogs could exist' or 'square circles couldn't.' Brenner's essay uses these to argue an empty universe wouldn't actually be as simple as it sounds, since it would still have to contain every one of these truths unexplained."
+      }
+    ]
+  }
+}
