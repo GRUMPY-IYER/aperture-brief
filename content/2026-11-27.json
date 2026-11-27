@@ -1,0 +1,249 @@
+{
+  "date": "2026-11-27",
+  "sections": {
+    "politics": {
+      "top": [
+        {
+          "headline": "US Approves First Deep-Sea Mining Leases in US Waters, at 19 Cents an Acre",
+          "url": "https://www.motherjones.com/politics/2026/11/trump-administration-sells-deep-sea-mining-leases-endangered-species-ocean-habitat-destruction/",
+          "source": "Mother Jones",
+          "blurb": "The Interior Department leased over 31 million acres of Pacific waters off American Samoa for deep-sea mineral exploration, the first such sale in US waters, with one company winning two tracts for $6 million. The sites are feeding grounds for endangered whales and sharks, and a federal judge had just found the approval violated the Endangered Species Act.",
+          "investigative": true
+        },
+        {
+          "headline": "Judge Rules Trump Can't Punish Americans Who Share Evidence With the ICC",
+          "url": "https://theintercept.com/2026/11/24/icc-sanctions-palestine-israel-human-rights/",
+          "source": "The Intercept",
+          "blurb": "A federal judge struck down the 'services' provision of Trump's ICC sanctions order as unconstitutional, ruling it can't be used against any American who shares evidence of Israeli war crimes or works with sanctioned Palestinian rights groups. Earlier rulings had protected only the plaintiffs; this one covers everyone.",
+          "investigative": true
+        },
+        {
+          "headline": "A 'Turnaround Specialist' Took Over a Struggling Hospital. A Patient Later Froze to Death on Its Roof.",
+          "url": "https://www.motherjones.com/politics/2026/11/american-healthcare-systems-for-profit-hospital-waukegan-vista-medical-center-east/",
+          "source": "Mother Jones",
+          "blurb": "Reveal and the CUNY McGraw Center report that American Healthcare Systems stopped paying vendors and doctors after taking over Illinois's Vista Medical Center East, even as it drew $30 million in state loans. A 28-year-old patient was later found dead on the hospital's roof.",
+          "investigative": true
+        }
+      ],
+      "more": [
+        {
+          "headline": "Interior Plans to Restructure the National Park Service Before Democrats Take Congress",
+          "url": "https://www.motherjones.com/politics/2026/11/trump-interior-burgum-national-park-service-overhaul-congress-rush-election/",
+          "source": "Mother Jones",
+          "blurb": "An internal plan would push more than 400 park units into a 'hub and spoke' model starting December 7, timed to beat the incoming Democratic Congress."
+        }
+      ]
+    },
+    "india": {
+      "top": [
+        {
+          "headline": "Special Session Revives the Delimitation Bill the BJP Couldn't Pass in April",
+          "url": "https://scroll.in/latest/1097362/why-special-session-of-parliament-has-brought-contentious-delimitation-bill-back-into-focus",
+          "source": "Scroll.in",
+          "blurb": "A special Parliament session from November 30 to December 3 has revived a constitutional amendment, defeated in April, that would expand the Lok Sabha from 543 to 815 seats using 2011 census data. The Opposition says the BJP is chasing defections to pass it and will use redrawn seats to tilt 2029 its way."
+        },
+        {
+          "headline": "IBM Gives H-1B and Green Card Staff Three Weeks to Relocate or Quit",
+          "url": "https://scroll.in/latest/1097355/ibm-gives-h1-b-visa-green-card-holders-3-weeks-to-exit-us-or-leave-company",
+          "source": "Scroll.in",
+          "blurb": "IBM will stop sponsoring H-1B visas and green cards for most foreign workers in its US consulting arm, giving them three weeks to transfer abroad or resign. Those who resign get three months' severance, with December 31 as the last working day."
+        }
+      ],
+      "more": [
+        {
+          "headline": "A Disputed Pillar Turns Out to Be a British-Era Survey Marker, Report Finds",
+          "url": "https://www.newslaundry.com/2026/11/27/thiruparankundram-pillar-a-british-era-survey-marker-says-report",
+          "source": "Newslaundry",
+          "blurb": "A Tamil Nadu state report links a pillar at the centre of a Madurai religious dispute to a 200-year-old British survey project rather than any older lamp tradition."
+        }
+      ]
+    },
+    "geo": {
+      "top": [
+        {
+          "headline": "Zelenskyy Warns of a New Mass Russian Strike as Trump Presses Putin to Pull Back",
+          "url": "https://www.aljazeera.com/news/2026/11/27/zelenskyy-warns-of-major-russian-attack-as-trump-urges-putin-to-pull-back",
+          "source": "Al Jazeera",
+          "blurb": "Ukraine's president said Russia is preparing a new mass strike even as Trump said he pressed Putin, in talks in China, to scale back the war. The warning comes amid fresh Russian missile strikes on Kyiv and Ukrainian drone attacks on Russian energy and military sites."
+        },
+        {
+          "headline": "EU Leaders Deadlock on a $1.76 Trillion Budget and a New Ukraine Loan",
+          "url": "https://www.aljazeera.com/economy/2026/11/26/eu-leaders-struggle-to-agree-on-long-term-budget-more-money-for-ukraine",
+          "source": "Al Jazeera",
+          "blurb": "An emergency Brussels summit failed to settle the EU's 2028-2034 budget or a $49bn loan for Ukraine, with Italy's Meloni calling the bloc 'light-years away' from a deal. The budget needs unanimous approval, and leaders want one by year-end as Ukraine's strained finances and looming elections raise the stakes."
+        },
+        {
+          "headline": "A 7-Year-Old Weighs 10 Kilos: Gaza's Children Are Being Stunted by Hunger",
+          "url": "https://www.aljazeera.com/features/2026/11/27/will-i-get-taller-gazas-children-suffer-stunting-amid-war-blockade",
+          "source": "Al Jazeera",
+          "blurb": "A UNICEF survey found 12.2% of Gaza children under five are stunted after average daily food intake fell from roughly 2,580 calories to about 1,000 under the blockade. Growth-hormone treatment is scarce and costly, and doctors warn the damage to height and immunity may be permanent.",
+          "investigative": true
+        }
+      ],
+      "more": []
+    },
+    "sports": {
+      "top": [
+        {
+          "headline": "India Held to 246/5 as Latham and Blundell Steady New Zealand on Day One",
+          "url": "https://www.icc-cricket.com/tournaments/world-test-championship/news/latham-blundell-anchor-new-zealand-on-day-1-in-christchurch",
+          "source": "ICC",
+          "blurb": "New Zealand reached 246 for 5 at Hagley Oval after India chose to field first in the second Test, with half-centuries from Tom Latham and an unbeaten Tom Blundell. Akash Deep was India's most successful bowler, taking 2 for 52."
+        },
+        {
+          "headline": "Pakistan Hand Fatima Sana and Sadia Iqbal Top-Tier Women's Contracts",
+          "url": "https://www.icc-cricket.com/news/pakistan-announce-central-contracts-for-women-s-cricketers",
+          "source": "ICC",
+          "blurb": "The PCB awarded central contracts to eight women cricketers for 2026/27, with captain Fatima Sana and spinner Sadia Iqbal in the top category and five others split across two lower tiers."
+        }
+      ],
+      "more": []
+    },
+    "entertainment": {
+      "top": [
+        {
+          "headline": "Seen at IFFI: 'Elephants in the Fog' Is a Tender, Fierce Tale of Prejudice Against Hijras",
+          "url": "https://scroll.in/reel/1097322/seen-at-iffi-elephants-in-the-fog-is-a-tender-and-ferocious-tale-of-prejudice-towards-hijras",
+          "source": "Scroll.in",
+          "blurb": "In Abinash Bikram Shah's debut, a Nepali hijra community searches for a missing adopted daughter against a backdrop of rigid hierarchy and growing hostility. Critic Nandini Ramnath calls it a tender yet fierce thriller, anchored by Pushpa Thing Lama's performance, even where the writing turns heavy-handed."
+        }
+      ],
+      "more": []
+    },
+    "bengal": [
+      {
+        "headline": "Police Are Knocking on Deleted Voters' Doors Across Bengal",
+        "url": "https://thefederal.com/category/states/east/west-bengal/police-visit-deleted-voters-homes-bengal-seek-identity-family-documents-264196",
+        "source": "The Federal",
+        "blurb": "Police in several Bengal districts have been visiting voters struck off the rolls since November 24 asking for identity papers, even as the state election office says it never ordered the drive."
+      },
+      {
+        "headline": "Trinamool and BJP Trade Blame Over a Kolkata Water Crisis",
+        "url": "https://www.millenniumpost.in/bengal/trinamool-bjp-spar-over-water-crisis-in-kolkata-684744",
+        "source": "Millennium Post",
+        "blurb": "A Trinamool councillor says a cracked pipeline has left parts of north and central Kolkata with muddy or no water, a claim the BJP's local leader flatly denies."
+      }
+    ],
+    "travel": [
+      {
+        "headline": "Liberia's Few Women Rangers Are Racing to Protect Its Last Wild Forests",
+        "url": "https://news.mongabay.com/2026/11/meet-the-few-liberian-women-rangers-in-a-race-to-protect-wildlife-and-forests/",
+        "source": "Mongabay",
+        "blurb": "Grace Kotee-Zansi is one of only 17 women among Liberia's 143 forest rangers, patrolling East Nimba Nature Reserve against poaching and illegal logging despite cultural barriers and scarce equipment."
+      }
+    ],
+    "happy": {
+      "headline": "The Lighthouse That Survived the Revolution — and the Widow Who Kept It Burning",
+      "url": "https://www.smithsonianmag.com/history/countrys-oldest-operating-lightouse-predates-american-revolution-still-shines-new-york-harbor-after-260-years-180989832/",
+      "source": "Smithsonian Magazine",
+      "blurb": "Built in 1764 after a string of shipwrecks, New Jersey's Sandy Hook Light survived British troops trapped inside it during the Revolution and still shines 260 years on. Decades later, keeper Kate Walker kept its lamp burning alone after her husband's death, reportedly saving as many as 50 lives — his last words to her were 'Mind the lights, Katie.'"
+    },
+    "tech_top": [
+      {
+        "headline": "Nvidia Pauses Server Shipments to Southeast Asia Over Export Rules",
+        "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+        "source": "TechCrunch",
+        "blurb": "Nvidia told Dell and Super Micro to halt shipments to Malaysia, Singapore, Thailand and Indonesia while it checks partners' compliance, after Commerce closed a loophole letting Chinese firms remotely rent regional GPU capacity. Such remote access reportedly supplied about a quarter of China's AI compute.",
+        "pm_note": "Export-control enforcement is becoming a live operational risk for anyone planning AI capacity in Southeast Asia, not just a policy headline."
+      },
+      {
+        "headline": "S&P Weighs Downgrading Nvidia Over 'Key Man' Risk After the Huang Saga",
+        "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+        "source": "TechCrunch",
+        "blurb": "S&P is reviewing a possible one-notch downgrade of Nvidia's credit rating, citing weak succession planning after CEO Jensen Huang's ouster and reinstatement. Because Nvidia backs debt for AI infrastructure partners, a downgrade could raise borrowing costs across its $500 billion financing commitments.",
+        "pm_note": "Governance risk at a single chip supplier can now ripple into financing costs across the whole AI infrastructure stack."
+      },
+      {
+        "headline": "Anthropic's Amodei Calls Claims He's Surrendering AI Control 'Absurd'",
+        "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
+        "source": "TechCrunch",
+        "blurb": "Dario Amodei pushed back on rivals who accuse Anthropic of ceding human oversight, while flagging his own concerns about recursive AI self-improvement. The pushback comes as Anthropic says Claude now writes most of its own code and is improving at roughly twice its historical rate.",
+        "pm_note": "Where labs draw the line on AI autonomy will increasingly shape how much oversight your own AI-built products actually get."
+      }
+    ],
+    "tech_more": [
+      {
+        "headline": "Treasury's Cybersecurity Chief Was Building a 'Civilization' Clone During a Treasury Hack",
+        "url": "https://www.404media.co/sam-corcos-legatum-treasury-cio-is-vibe-coding-a-civilization-clone-during-treasury-department-hack/",
+        "source": "404 Media",
+        "blurb": "While FinCEN investigated unauthorized access to its systems, Treasury CIO Sam Corcos was reportedly still pushing updates to his own AI-coded strategy game."
+      },
+      {
+        "headline": "Seabird-Mounted Microphones Catch Fishing Boats That Switched Off Their Trackers",
+        "url": "https://www.404media.co/the-birds-are-listening-scientists-used-seabirds-to-track-hidden-ships/",
+        "source": "404 Media",
+        "blurb": "Audio recorders strapped to gannets and shearwaters picked up nearly a third of tagged birds' encounters with vessels that had gone dark on tracking systems."
+      }
+    ],
+    "tech_101": [
+      {
+        "term": "Key man risk",
+        "text": "The danger that a company is unusually dependent on one person — if they leave, get hurt, or lose trust, the business, its stock, and its lenders' confidence can all wobble hard."
+      },
+      {
+        "term": "GPU remote-access loophole",
+        "text": "A workaround where a restricted buyer doesn't import a chip but rents compute time on it remotely from a data center abroad — which regulators are now racing to close."
+      }
+    ],
+    "science": [
+      {
+        "headline": "Astronomers Spot a Black-Hole Monster From Just 630 Million Years After the Big Bang",
+        "url": "https://phys.org/news/2026-11-scientists-quasar-mere-million-years.html",
+        "source": "Phys.org",
+        "blurb": "A Euclid-led survey found the most distant quasar yet, with a black hole already 360 million times the sun's mass a mere 630 million years after the Big Bang. Hubble and Webb confirmed the mass, leaving astronomers asking how a black hole got that big that fast.",
+        "kind": "space"
+      },
+      {
+        "headline": "AI Screening Finds Why Some Molecular 'Cages' Make 10,000 Times Better Catalysts",
+        "url": "https://phys.org/news/2026-11-molecular-cage-catalysts-enormous-differences.html",
+        "source": "Phys.org",
+        "blurb": "Researchers used machine learning to screen 30 palladium-based molecular cages and found the best performed over 10,000 times better than the worst, linked to compact, rigid structures with precisely placed metal atoms. The model could speed the design of catalysts that cut energy use and waste in industries like pharmaceuticals.",
+        "kind": "chemistry"
+      },
+      {
+        "headline": "Deep-Sea Shrimp and Lanternfish Are Already Showing Genetic Warning Signs",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261125045249.htm",
+        "source": "ScienceDaily",
+        "blurb": "Twelve years of DNA data from Gulf of Mexico lanternfish and shrimp show all five studied species losing genetic diversity, with climate models projecting up to 70% habitat loss by 2100. The findings challenge the idea that the deep ocean is a safe refuge from biodiversity loss.",
+        "kind": "biology"
+      },
+      {
+        "headline": "A New Theory Says Memories Might Be Stored Chemically, Not Just Electrically",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261124055712.htm",
+        "source": "ScienceDaily",
+        "blurb": "Researchers propose the brain encodes and retrieves memories partly through chemical interactions among neurons and surrounding molecules, not electrical signalling alone. They argue this complicates the idea that more computing power alone could replicate human-like memory in machines.",
+        "kind": "neuroscience"
+      }
+    ],
+    "philosophy": [
+      {
+        "headline": "How to Assemble Science: Why Single Studies Keep Contradicting Each Other",
+        "url": "https://aeon.co/essays/the-life-saving-scientific-knowledge-hiding-in-plain-sight",
+        "source": "Aeon",
+        "blurb": "Helen Pearson argues science's deepest flaw isn't bad studies but its failure to synthesise them — single results get reported in isolation, producing contradictory headlines. She makes the case that unglamorous work like meta-analysis deserves far more credit than the pursuit of novelty."
+      },
+      {
+        "headline": "What Three Centuries of 'Equality' Talk Reveal About the Word's Limits",
+        "url": "https://aeon.co/essays/historical-ideas-of-equality-help-us-imagine-an-equal-world",
+        "source": "Aeon",
+        "blurb": "Teresa Bejan traces how 'equality' has carried conflicting senses — balance, indifference, parity — since 17th-century Levellers used that ambiguity to demand commoners be treated as the aristocracy's peers. She argues equality becomes real only through shared practices, like jury service, not through the word alone."
+      },
+      {
+        "headline": "That Gut Feeling a Stranger Is 'Off'? Philosophers Say It Counts as Evidence",
+        "url": "https://aeon.co/essays/sometimes-you-just-know-somethings-off-but-how",
+        "source": "Aeon",
+        "blurb": "Marc Moffett argues everyday intuitions justify belief much like perception does, presenting their content as simply actual rather than needing further inference. That framing ties the hunches people act on daily to the same intuitions philosophers lean on in thought experiments."
+      }
+    ],
+    "philosophy_101": [
+      {
+        "term": "Intuition (as evidence)",
+        "text": "A quick, non-inferential sense that something is true or wrong — not a feeling, philosophers increasingly argue, but a mode of 'just seeing' that can count as real evidence, the same way spotting a tree does."
+      },
+      {
+        "term": "Meta-analysis",
+        "text": "A study of studies: pooling many smaller results on the same question to find the pattern that no single trial, however well done, can show on its own."
+      }
+    ]
+  }
+}
