@@ -1,0 +1,233 @@
+{
+  "date": "2026-11-28",
+  "sections": {
+    "politics": {
+      "top": [
+        {
+          "headline": "A Federal Women's Prison Became a 'Rape Club.' After Officials Shut It Down, Rampant Abuse Continued Elsewhere.",
+          "url": "https://www.propublica.org/article/federal-womens-prison-sexual-abuse-reform-dublin-bop",
+          "source": "ProPublica",
+          "investigative": true,
+          "blurb": "ProPublica and The Marshall Project identified more than 185 cases since 2021 of Bureau of Prisons employees accused of sexually abusing women in federal custody, involving over 96 officers across 16 facilities — yet only 19 have been arrested or convicted. Despite reforms promised after the 2021 Dublin, California scandal, reporters found abuse continuing at prisons including Aliceville, Alabama and Carswell, Texas."
+        },
+        {
+          "headline": "911, Please Hold",
+          "url": "https://www.motherjones.com/politics/2026/11/911-emergency-response-calls-understaffed-dispatchers-hold-type-investigations-update-2026/",
+          "source": "Mother Jones",
+          "investigative": true,
+          "blurb": "A year-long investigation by Reveal, Type Investigations and Mother Jones finds understaffed 911 dispatch centers are leaving hundreds of thousands of emergency callers on hold every year, tracing the problem from California to Wisconsin. Lawmakers on Capitol Hill are now weighing fixes to a system reporters say has quietly failed callers in life-or-death moments."
+        },
+        {
+          "headline": "Cities and States Sue to Block HUD Rule Against Mixed-Status Families",
+          "url": "https://www.motherjones.com/politics/2026/11/hud-lawsuit-mixed-status-undocumented-immigrants-federal-housing-assistance-rule-evictions/",
+          "source": "Mother Jones",
+          "blurb": "A HUD rule set to take effect December 14 would deny housing assistance to any family living with someone who won't verify their immigration status, eliminating the option that let eligible members keep aid. San Francisco-led cities, 20 states and tenant groups have sued, citing estimates that nearly 80,000 people — more than a third of them children — could lose their homes."
+        }
+      ],
+      "more": [
+        {
+          "headline": "Corporations Are Using Trump's Tariff Refunds on Bonuses Rather Than Reimbursing Consumers",
+          "url": "https://www.propublica.org/article/trump-tariff-refunds-corporate-bonuses",
+          "source": "ProPublica",
+          "blurb": "Stanley Black & Decker, TJ Maxx's parent and other firms are funneling hundreds of millions in refunded tariff duties into executive bonuses rather than passing the savings on to shoppers who paid higher prices."
+        }
+      ]
+    },
+    "india": {
+      "top": [
+        {
+          "headline": "Cabinet Clears Delimitation Bill With a 50% Seat Increase for Every State, Frozen Till 2051",
+          "url": "https://scroll.in/latest/1097370/cabinet-clears-delimitation-bill-with-50-seat-increase-for-all-states-freeze-till-2051-reports",
+          "source": "Scroll.in",
+          "blurb": "The Union Cabinet cleared a fresh delimitation bill expanding every state's Lok Sabha seats by 50% while freezing seat shares at 1971-census proportions until 2051, meeting DMK demands that sank a similar bill in April. The Opposition says the ruling NDA is still chasing a two-thirds majority through defections, pointing to 20 former TMC MPs and six Shiv Sena (UBT) MPs who have already crossed over."
+        },
+        {
+          "headline": "Highest Deletions in BJP's UP Strongholds, New Draft Voter Roll Shows",
+          "url": "https://scroll.in/article/1097349/highest-deletions-in-bjps-up-strongholds-new-draft-voter-roll-shows",
+          "source": "Scroll.in",
+          "blurb": "A Scroll.in analysis of Uttar Pradesh's new draft voter roll finds seats the BJP won in 2024 lost voters at a higher rate than Samajwadi Party seats, with Allahabad North and Deputy CM Brijesh Pathak's own constituency topping the list at over 34% deletions each. The state's revision has already struck off more than 2 crore voters, and BJP leaders are now split over how many of the cuts are justified."
+        }
+      ],
+      "more": []
+    },
+    "geo": {
+      "top": [
+        {
+          "headline": "Italy Says Drone in Deadly Kuwait Attack Was Made in Iran",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/28/iran-war-live-italy-says-drone-in-deadly-kuwait-attack-was-made-in-iran",
+          "source": "Al Jazeera",
+          "blurb": "Italian Foreign Minister Antonio Tajani said Kuwaiti investigators concluded the drone that killed two Italian nationals in Kuwait was Iranian-made, as Tehran denied launching it from its territory and offered to join a joint inquiry with Italy and Kuwait. The strike comes amid heightened regional alert, with Iran's deputy armed forces chief warning his military is ready to respond to any \"misstep by the enemy.\""
+        },
+        {
+          "headline": "Israeli Strike on Doctors Without Borders Clinic in Gaza Kills Two Staff",
+          "url": "https://www.aljazeera.com/news/2026/11/28/israeli-strike-on-doctors-without-borders-clinic-in-gaza-kills-two-staff",
+          "source": "Al Jazeera",
+          "blurb": "An Israeli strike hit a clearly marked MSF clinic in Gaza City on Friday, killing two watchmen and raising the charity's Gaza staff toll to 17; Israel's military alleged without evidence that the two were Hamas members. The strike came days after Israeli forces killed an UNRWA water-supply worker, part of what rights monitors count as at least 1,705 deaths since an October 2025 ceasefire that Israel has repeatedly violated."
+        },
+        {
+          "headline": "Six Students Killed in Blast Beside School in Afghanistan's Kunar",
+          "url": "https://www.aljazeera.com/news/2026/11/28/students-killed-injured-in-school-explosion-in-afghanistans-kunar-region",
+          "source": "Al Jazeera",
+          "blurb": "An explosion at a house used to store mining dynamite, next to a middle school in Afghanistan's Kunar province, killed at least six students and injured 97 others on Saturday morning, according to the provincial hospital's initial count. Investigators were still at the scene and officials cautioned the toll could change."
+        }
+      ],
+      "more": []
+    },
+    "sports": {
+      "top": [
+        {
+          "headline": "Selection Shock as Australia Drop Nathan Lyon for First New Zealand Test",
+          "url": "https://www.icc-cricket.com/tournaments/world-test-championship/news/selection-shock-as-aussies-name-squad-for-first-new-zealand-test",
+          "source": "ICC",
+          "blurb": "Australia dropped veteran spinner Nathan Lyon and left out an out-of-form Marnus Labuschagne for the opening WTC Test against New Zealand in Perth on December 9, handing likely debuts to Corey Rocchiccioli and Jack Clayton. Pat Cummins' squad sets up a high-stakes trans-Tasman series across four Tests running into early January."
+        },
+        {
+          "headline": "Veteran India Pacer Shami Says He's 'Stopped Counting' Chances of a World Cup Recall",
+          "url": "https://www.icc-cricket.com/tournaments/icc-cricket-world-cup-2027/news/veteran-india-pacer-provides-update-on-availability-for-cwc27",
+          "source": "ICC",
+          "blurb": "Mohammed Shami, who retired from Test cricket earlier this month, says he's no longer tracking his odds of a recall for the 2027 Cricket World Cup and is focusing instead on domestic and IPL form, leaving the decision to selectors."
+        }
+      ],
+      "more": []
+    },
+    "entertainment": {
+      "top": [
+        {
+          "headline": "Review: In 'Yeh Prem Mol Liya', Love Is Tested, as Is Tradition",
+          "url": "https://scroll.in/reel/1097321/review-in-yeh-prem-mol-liya-love-is-tested-as-is-tradition",
+          "source": "Scroll.in",
+          "blurb": "Critic Nandini Ramnath finds real appeal in Sooraj Barjatya's family drama, crediting Sharvari's performance and an ensemble cast's restraint as Ayushmann Khurrana's character moves in with his wife's Mumbai family. She says the 173-minute film sags in its second half and resolves conflict through workarounds rather than confrontation, leaving a story that respects tradition more than it grapples with modern life."
+        }
+      ],
+      "more": []
+    },
+    "bengal": [
+      {
+        "headline": "Jolt to TMC Rebels as Calcutta HC Sets Aside Ritabrata's Appointment as Bengal LoP",
+        "url": "https://thefederal.com/category/states/east/west-bengal/calcutta-high-court-strikes-down-speaker-decision-ritabrata-as-lop-bengal-assembly-264277",
+        "source": "The Federal",
+        "blurb": "The Calcutta High Court quashed the Speaker's appointment of TMC rebel Ritabrata Banerjee as Leader of the Opposition, calling the decision \"not legally sustainable\" after senior TMC MLA Sovandeb Chattopadhyay, the party's actual nominee, challenged it."
+      },
+      {
+        "headline": "Kolkata: Tension Flares at SRFTI as Police Remove Students' Protest Stage",
+        "url": "https://thefederal.com/category/states/east/west-bengal/kolkata-tension-flares-srfti-as-police-remove-students-protest-stage-264325",
+        "source": "The Federal",
+        "blurb": "Police dismantled a protest stage students had held since September outside Kolkata's Satyajit Ray Film and Television Institute, scuffling with demonstrators demanding the vice-chancellor resign after September and October clashes with an RSS-linked group on campus."
+      },
+      {
+        "headline": "SC: Valid Passport Can Ease Re-Inclusion of Deleted Voters",
+        "url": "https://www.millenniumpost.in/bengal/sc-valid-passport-can-ease-re-inclusion-of-deleted-voters-684889",
+        "source": "Millennium Post",
+        "blurb": "The Supreme Court said Bengal voters with valid passports should have little trouble getting reinstated to the rolls, and suggested the state's door-to-door police checks on deletion appellants could instead be challenged before the Calcutta High Court."
+      }
+    ],
+    "travel": [
+      {
+        "headline": "Sri Lanka Deploys 'Elephant Army' to Protect Rare Tuskers, But Experts Urge Caution",
+        "url": "https://news.mongabay.com/short-article/2026/11/sri-lanka-deploys-elephant-army-to-protect-rare-tuskers-but-experts-urge-caution/",
+        "source": "Mongabay",
+        "blurb": "After a beloved tusker was shot dead, Sri Lanka formed a roughly 100-member task force of soldiers, wildlife officers and civil defense staff to guard its rarest tuskers, already arresting people setting wire snares and trap guns, though scientists warn stationing guards beside individual elephants can't substitute for better habitat and anti-poaching intelligence."
+      }
+    ],
+    "happy": {
+      "headline": "A New Breed of Homesteader Is Turning the Abandoned Shacks of a Previous Era Into a Community in the California Desert",
+      "url": "https://www.smithsonianmag.com/history/new-breed-homsteader-turning-abandoned-shacks-previous-era-conmunity-desolation-california-180989840/",
+      "source": "Smithsonian Magazine",
+      "blurb": "In Wonder Valley, a remote stretch of Mojave Desert where 1940s federal land giveaways once drew hundreds of homesteaders who later abandoned their tiny cabins to the heat and isolation, a new wave of artists and musicians — many fleeing Los Angeles since 2020 — is restoring the derelict shacks one by one. Longtime residents mourn the loss of the valley's eerie solitude even as newcomers like singer Miri Hunter rebuild for exactly that: freedom, creativity and an unlikely community in a landscape that nearly erased the people who first tried to live there."
+    },
+    "tech_top": [
+      {
+        "headline": "Is Alice Huang a Spy or Not?",
+        "url": "https://techcrunch.com/2026/11/26/is-alice-huang-a-spy-or-not/",
+        "source": "TechCrunch",
+        "blurb": "A classified March memo reportedly named Alice Huang — the Megaspeed executive whose affair with Nvidia CEO Jensen Huang briefly cost him his job — a Chinese intelligence asset, based on contact U.S. intelligence tracked between her and an officer of China's Ministry of State Security. Senior officials have since told Congress there's no evidence Beijing directed the relationship, and Megaspeed, already under scrutiny for allegedly funneling Nvidia chips to China, denies wrongdoing.",
+        "pm_note": "A reminder that personnel risk, geopolitics and export-control exposure can tangle together at the top of even the most valuable company in the world — vet key relationships as rigorously as you vet the supply chain."
+      },
+      {
+        "headline": "Google Wants to Make a 24/7 AI TV Channel. You'll Be the Main Character.",
+        "url": "https://www.404media.co/google-wants-to-make-a-24-7-ai-tv-channel-youll-be-the-main-character/",
+        "source": "404 Media",
+        "blurb": "A newly surfaced Google patent describes an always-on, AI-generated TV channel that would build personalized \"shows\" and ads for each viewer out of data already collected about them. 404 Media frames the filing as an early marker of an \"AI video endgame\": infinite, hyper-targeted content generated on demand rather than programming anyone else watches.",
+        "pm_note": "A patent filing like this is an early signal of where a platform wants to take ad-supported content next — worth tracking before it ships as a feature you have to react to."
+      },
+      {
+        "headline": "X Finally Gets Parental Controls After 20 Years",
+        "url": "https://techcrunch.com/2026/11/26/x-finally-gets-parental-controls-after-20-years/",
+        "source": "TechCrunch",
+        "blurb": "X now defaults teen accounts (ages 13-17) to a \"protected mode\" that hides sensitive content and blocks targeted ads, and gives parents tools to cap daily time, approve followers and filter words — though not to read messages or see search history. The rollout follows months of criticism over X's AI chatbot generating sexualized images and the platform's long-running child-safety problems.",
+        "pm_note": "A trust-and-safety feature arriving two decades late shows how much regulatory and reputational pressure it now takes to move a platform that's resisted parental controls this long."
+      }
+    ],
+    "tech_more": [],
+    "tech_101": [
+      {
+        "term": "Intelligence asset",
+        "text": "Someone who provides information or access to a foreign intelligence service, whether formally recruited or simply useful to it — the contested label at the center of the Alice Huang affair, where officials disagree on which she was."
+      },
+      {
+        "term": "AI video endgame",
+        "text": "The idea that streaming keeps narrowing until content is generated per viewer on demand — not a show everyone watches, but one assembled in real time from what a platform already knows about you."
+      }
+    ],
+    "science": [
+      {
+        "headline": "Astronomers May Have Discovered a Black Hole Born Before the First Stars",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261122060346.htm",
+        "source": "ScienceDaily",
+        "kind": "space",
+        "blurb": "A brief gravitational-lensing flash in the Large Magellanic Cloud, nicknamed Phoebe, may be a primordial black hole roughly three times the Moon's mass — far too small to have formed from a collapsing star, and potentially 13 billion years old. Swinburne University researchers say it's about 100,000 times more likely to belong to the galaxy's dark matter halo than to ordinary matter, though a rogue planet remains a rival explanation."
+      },
+      {
+        "headline": "Plastic Waste Becomes High-Performance Oil",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261126033501.htm",
+        "source": "ScienceDaily",
+        "kind": "chemistry",
+        "blurb": "Virginia Tech chemists converted PVC, one of the hardest plastics to recycle, into a synthetic lubricant base oil in about three hours, dissolving it with aluminum trichloride and alpha-olefins and heating the mix to 70°C. The team, with partners at Texas A&M and Caltech, says old pipes, window frames and credit cards could become feedstock for \"green\" engine oil, though scaling the process beyond the lab remains the next step."
+      },
+      {
+        "headline": "Harvard's Tiny UV Light Chip Could Help Shrink Quantum Computers",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261126063333.htm",
+        "source": "ScienceDaily",
+        "kind": "physics",
+        "blurb": "Harvard engineers built a microscopic chip that converts red light into ultraviolet using a new \"sidewall poling\" technique on lithium niobate, producing 120 times more UV output than earlier thin-film devices. Trapped-ion quantum computers need bulky external UV lasers for many operations, so an on-chip source could make the machines significantly more compact."
+      },
+      {
+        "headline": "Why Fertile Male Killifish Outlive Their Peers",
+        "url": "https://phys.org/news/2026-11-fertile-male-killifish-outlive-peers.html",
+        "source": "Phys.org",
+        "kind": "biology",
+        "blurb": "A Leibniz Institute on Aging study of turquoise killifish found males with greater early-life reproductive success tended to live longer, the opposite of the usual assumption that reproduction trades off against lifespan. Researchers suggest both traits may instead reflect a shared underlying \"quality\" in the individual fish, though whether that holds in other species, or humans, remains open."
+      }
+    ],
+    "philosophy": [
+      {
+        "headline": "The Pretendian Wars",
+        "url": "https://aeon.co/essays/falsely-claiming-indigenous-identity-is-a-grave-form-of-theft",
+        "source": "Aeon",
+        "blurb": "Dina Gilio-Whitaker argues that falsely claiming Indigenous identity is a grave, systemic harm rather than a victimless mistake, since it diverts jobs, grants and resources meant for actual Native people. She likens such claims to stolen valour and urges anyone repeating an unverified family story to research it, and stop telling it if the evidence doesn't hold up."
+      },
+      {
+        "headline": "A Colossal Oscillation",
+        "url": "https://aeon.co/essays/what-can-we-learn-from-the-past-experience-of-el-nino",
+        "source": "Aeon",
+        "blurb": "Historian Dagomar Degroot traces how El Niño has repeatedly driven droughts and famines, from ancient Peru to 19th-century India and Ethiopia, while a few groups profited — a pattern he attributes less to the weather itself than to conquest and inequality in how its harms are distributed. He argues El Niño's modern image as a predictable global catastrophe owes much to Cold War-era science and media, and that today's geopolitical rivalries could make its future impacts deadlier still."
+      },
+      {
+        "headline": "Catwalks and Crackdowns",
+        "url": "https://aeon.co/essays/its-not-political-the-young-fashionistas-of-tehran",
+        "source": "Aeon",
+        "blurb": "Parisa Khoshnami writes that young women in Tehran are reshaping public life simply by dressing as they choose, an everyday \"art of presence\" that has quietly forced the state to loosen hijab enforcement even as most of the women insist their choices aren't political. She argues the government's own crackdowns on cafés and social accounts reveal just how political those choices really are."
+      }
+    ],
+    "philosophy_101": [
+      {
+        "term": "Pretendian",
+        "text": "A term for someone who falsely claims Indigenous ancestry or identity, often to access jobs, grants or resources set aside for Native people — treated by critics like Gilio-Whitaker as a serious form of theft, not a harmless mistake."
+      },
+      {
+        "term": "Art of presence",
+        "text": "Sociologist Asef Bayat's phrase for how ordinary people change what's politically possible just by repeating small, everyday acts in public — like Tehran women going without headscarves — until the state can no longer enforce a rule it never formally repealed."
+      }
+    ]
+  }
+}
